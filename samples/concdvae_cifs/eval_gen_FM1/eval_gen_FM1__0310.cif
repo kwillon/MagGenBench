@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_KRbNa3Ag4Au2S7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.70777988
+_cell_length_b   8.60340786
+_cell_length_c   8.50879860
+_cell_angle_alpha   60.53467560
+_cell_angle_beta   59.92697906
+_cell_angle_gamma   59.35404968
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KRbNa3Ag4Au2S7
+_chemical_formula_sum   'K1 Rb1 Na3 Ag4 Au2 S7'
+_cell_volume   450.02144115
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  1  0.81174791  0.18373734  0.50156200  1
+  K  K1  1  0.60767674  0.05170992  0.29761058  1
+  Ag  Ag2  1  0.06425294  0.71176851  0.72219735  1
+  Au  Au3  1  0.88240415  0.44909284  0.09175581  1
+  Rb  Rb4  1  0.05352643  0.18501508  0.75291818  1
+  S  S5  1  0.48255792  0.20597175  0.66210610  1
+  Na  Na6  1  0.59749711  0.79251897  0.81477427  1
+  Ag  Ag7  1  0.29735065  0.17233992  0.01286684  1
+  S  S8  1  0.40338463  0.74197781  0.63503593  1
+  Na  Na9  1  0.19932900  0.59950531  0.07009265  1
+  S  S10  1  0.00748861  0.72828823  0.43828940  1
+  S  S11  1  0.79809225  0.77945966  0.04185581  1
+  S  S12  1  0.15130338  0.89245611  0.16867781  1
+  Ag  Ag13  1  0.80920303  0.58530003  0.42916006  1
+  S  S14  1  0.63549662  0.41724500  0.02802941  1
+  Au  Au15  1  0.54251242  0.41301167  0.77189618  1
+  Na  Na16  1  0.45901480  0.58821106  0.34979329  1
+  S  S17  1  0.09424313  0.27664429  0.30765784  1

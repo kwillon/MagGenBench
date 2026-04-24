@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_KMnCoPWO9F
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.07485771
+_cell_length_b   4.98383331
+_cell_length_c   7.64278221
+_cell_angle_alpha   89.25421143
+_cell_angle_beta   91.62428284
+_cell_angle_gamma   90.59584045
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KMnCoPWO9F
+_chemical_formula_sum   'K1 Mn1 Co1 P1 W1 O9 F1'
+_cell_volume   193.19935138
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.33669987  0.78755242  0.52781701  1
+  O  O1  1  0.86737633  0.73045254  0.35893002  1
+  O  O2  1  0.55195832  0.35126781  0.40435317  1
+  O  O3  1  0.14948906  0.05114036  0.91888201  1
+  W  W4  1  0.69920754  0.59576178  0.54446745  1
+  O  O5  1  0.79858756  0.82732421  0.68999922  1
+  F  F6  1  0.58448625  0.40878206  0.74111611  1
+  P  P7  1  0.29055458  0.04408607  0.08713010  1
+  K  K8  1  0.78661919  0.55882597  0.02897520  1
+  O  O9  1  0.29061645  0.74826229  0.16753441  1
+  O  O10  1  0.13492075  0.25420105  0.21374133  1
+  O  O11  1  0.03379229  0.36613593  0.55997282  1
+  Mn  Mn12  1  0.21035726  0.53364706  0.36771199  1
+  Co  Co13  1  0.08306307  0.03275234  0.68891382  1
+  O  O14  1  0.55698115  0.09439130  0.04656728  1

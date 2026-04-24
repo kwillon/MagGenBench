@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       LiFeRu2
+_chemical_formula_sum              "Li1 Fe1 Ru2"
+_cell_length_a       2.6351105482321184
+_cell_length_b       4.156217100479718
+_cell_length_c       4.831867694854736
+_cell_angle_alpha    89.99811737228102
+_cell_angle_beta     95.82359946103624
+_cell_angle_gamma    90.01553435428558
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.5169457197189331  0.4373098015785218  0.39329439401626587  1.0000
+  Fe  Fe1       1.0  0.016467217355966568  0.43733465671539307  0.8933569192886353  1.0000
+  Ru  Ru1       1.0  0.26344621181488037  0.9376024007797241  0.640046238899231  1.0000
+  Ru  Ru2       1.0  0.7691757678985596  0.9376716613769531  0.14628779888153073  1.0000

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_SrCePrEu(SO2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.20801020
+_cell_length_b   6.17686605
+_cell_length_c   6.40034389
+_cell_angle_alpha   80.26367950
+_cell_angle_beta   81.74393463
+_cell_angle_gamma   84.63925171
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrCePrEu(SO2)2
+_chemical_formula_sum   'Sr1 Ce1 Pr1 Eu1 S2 O4'
+_cell_volume   238.78371900
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.64817107  0.22072400  0.24417958  1
+  Eu  Eu1  1  0.13005999  0.55598277  0.21281908  1
+  S  S2  1  0.12197466  0.74684834  0.70166290  1
+  S  S3  1  0.62900603  0.75629896  0.20598504  1
+  Pr  Pr4  1  0.15233830  0.20866045  0.74773675  1
+  O  O5  1  0.89673638  0.33200854  0.48233399  1
+  Sr  Sr6  1  0.63173342  0.57000041  0.71839201  1
+  O  O7  1  0.89775878  0.33480883  0.99733704  1
+  O  O8  1  0.39221844  0.33336395  0.99963927  1
+  O  O9  1  0.39420876  0.33580968  0.48084843  1

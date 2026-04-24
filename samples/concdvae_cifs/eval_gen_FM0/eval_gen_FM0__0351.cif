@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_ThGaCu4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.78688049
+_cell_length_b   5.24129248
+_cell_length_c   5.57822704
+_cell_angle_alpha   117.81802368
+_cell_angle_beta   89.55032349
+_cell_angle_gamma   87.83147430
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ThGaCu4
+_chemical_formula_sum   'Th1 Ga1 Cu4'
+_cell_volume   123.64046774
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.36176220  0.02050515  0.30031759  1
+  Cu  Cu1  1  0.85283786  0.85373461  0.46927035  1
+  Cu  Cu2  1  0.86073357  0.35396427  0.46560714  1
+  Ga  Ga3  1  0.86150455  0.84615898  0.96068680  1
+  Th  Th4  1  0.35488528  0.35758084  0.96525455  1
+  Cu  Cu5  1  0.36106616  0.68469602  0.62678337  1

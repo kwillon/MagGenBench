@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       EuGeCu2GeCu
+_chemical_formula_sum              "Eu1 Ge2 Cu3"
+_cell_length_a       3.944324040325013
+_cell_length_b       5.462889171935891
+_cell_length_c       5.460229396820068
+_cell_angle_alpha    120.01415815863601
+_cell_angle_beta     89.9937119002787
+_cell_angle_gamma    89.99022850424159
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Eu  Eu1       1.0  0.460873007774353  0.005084516480565071  0.6637189388275146  1.0000
+  Ge  Ge1       1.0  0.46067044138908386  0.3386263847351074  0.3309783339500427  1.0000
+  Cu  Cu1       1.0  0.9607919454574585  0.005020049400627613  0.16388551890850067  1.0000
+  Cu  Cu2       1.0  0.9607867002487183  0.5051540732383728  0.6642406582832336  1.0000
+  Ge  Ge2       1.0  0.46082282066345215  0.6717966794967651  0.9972710013389587  1.0000
+  Cu  Cu3       1.0  0.9604335427284241  0.5049751996994019  0.16390012204647064  1.0000

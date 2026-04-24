@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_LaDyAlGa2Ni3Mo
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.22447681
+_cell_length_b   5.79725933
+_cell_length_c   6.96925259
+_cell_angle_alpha   90.57205963
+_cell_angle_beta   87.36147308
+_cell_angle_gamma   92.90085602
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaDyAlGa2Ni3Mo
+_chemical_formula_sum   'La1 Dy1 Al1 Ga2 Ni3 Mo1'
+_cell_volume   170.27526089
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.04253666  0.50002998  0.16483104  1
+  Ga  Ga1  1  0.53697866  0.25403559  0.03979524  1
+  Ga  Ga2  1  0.54214752  0.75296301  0.04052230  1
+  Dy  Dy3  1  0.03397661  0.50678122  0.74111515  1
+  La  La4  1  0.04253999  0.00841854  0.36467561  1
+  Mo  Mo5  1  0.03763977  0.00622429  0.86881298  1
+  Ni  Ni6  1  0.53744549  0.81327724  0.66609728  1
+  Ni  Ni7  1  0.53771490  0.19729097  0.66134590  1
+  Al  Al8  1  0.54381984  0.50952184  0.39665195  1

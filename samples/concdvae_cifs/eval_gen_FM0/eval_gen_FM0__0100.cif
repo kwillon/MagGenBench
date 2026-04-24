@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_CeNdAl4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.84310532
+_cell_length_b   5.39066696
+_cell_length_c   5.70127773
+_cell_angle_alpha   79.62515259
+_cell_angle_beta   78.32655334
+_cell_angle_gamma   79.49874115
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CeNdAl4
+_chemical_formula_sum   'Ce1 Nd1 Al4'
+_cell_volume   141.73235778
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.31236523  0.34380177  0.07808281  1
+  Ce  Ce1  1  0.61577165  0.74862117  0.08385235  1
+  Al  Al2  1  0.98951161  0.57907140  0.50281703  1
+  Nd  Nd3  1  0.67312634  0.17615297  0.50007880  1
+  Al  Al4  1  0.31083420  0.74286908  0.67552471  1
+  Al  Al5  1  0.98983347  0.17669381  0.91082215  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LuSc2TaO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.02008104
+_cell_length_b   5.29635572
+_cell_length_c   5.79036713
+_cell_angle_alpha   110.32392883
+_cell_angle_beta   94.35474396
+_cell_angle_gamma   90.69184875
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LuSc2TaO8
+_chemical_formula_sum   'Lu1 Sc2 Ta1 O8'
+_cell_volume   143.83189014
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.97264898  0.47488517  0.20130873  1
+  O  O1  1  0.36716977  0.72605497  0.84998357  1
+  O  O2  1  0.36589265  0.27555576  0.39405462  1
+  Ta  Ta3  1  0.17304301  0.59226859  0.52467948  1
+  O  O4  1  0.96748012  0.92338294  0.65905607  1
+  O  O5  1  0.44423562  0.75454772  0.37023956  1
+  Sc  Sc6  1  0.66662085  0.59813201  0.02591045  1
+  O  O7  1  0.88629663  0.44884545  0.68309128  1
+  O  O8  1  0.83756220  0.94679672  0.18056238  1
+  O  O9  1  0.48957145  0.26267982  0.87897754  1
+  Sc  Sc10  1  0.66999918  0.10139851  0.52863103  1
+  Lu  Lu11  1  0.16712773  0.09608979  0.02401104  1

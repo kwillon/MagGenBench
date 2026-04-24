@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       Gd3InC
+_chemical_formula_sum              "Gd3 In1 C1"
+_cell_length_a       4.980341618496112
+_cell_length_b       4.979180816916713
+_cell_length_c       4.979208469390869
+_cell_angle_alpha    89.99768024001968
+_cell_angle_beta     90.01557533705957
+_cell_angle_gamma    90.00383424088808
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Gd  Gd1       1.0  0.36955270171165466  0.42704141139984125  0.9532936811447144  1.0000
+  Gd  Gd2       1.0  0.8696370720863342  0.4269740283489228  0.45365676283836365  1.0000
+  Gd  Gd3       1.0  0.3696649968624115  0.9269418716430664  0.4536999762058258  1.0000
+  In  In1       1.0  0.8695321083068848  0.9270211458206177  0.9534568786621094  1.0000
+  C   C1        1.0  0.36960750818252563  0.4267836511135102  0.4537303149700165  1.0000

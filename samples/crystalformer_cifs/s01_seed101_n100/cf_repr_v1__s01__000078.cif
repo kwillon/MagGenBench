@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_Na2Li2CaFe5SiO10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.14820156
+_cell_length_b   6.49135245
+_cell_length_c   7.82596640
+_cell_angle_alpha   99.80145668
+_cell_angle_beta   101.33520674
+_cell_angle_gamma   97.74750866
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2Li2CaFe5SiO10
+_chemical_formula_sum   'Na2 Li2 Ca1 Fe5 Si1 O10'
+_cell_volume   393.82735908
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.02307718  0.20629324  0.48262273  1
+  Na  Na1  1  0.01602290  0.21738808  0.99054132  1
+  O  O2  1  0.43054946  0.82222262  0.37778359  1
+  Ca  Ca3  1  0.47448850  0.68638817  0.66560722  1
+  O  O4  1  0.47381886  0.66782469  0.16452291  1
+  O  O5  1  0.51126278  0.17520745  0.02543480  1
+  Na  Na6  1  0.48741423  0.68797241  0.67103968  1
+  Li  Li7  1  0.48145033  0.66854661  0.34670514  1
+  O  O8  1  0.49926131  0.34182612  0.18571482  1
+  Fe  Fe9  1  0.49890062  0.86629713  0.65440705  1
+  Si  Si10  1  0.51331170  0.25911484  0.18963724  1
+  O  O11  1  0.52784735  0.65742535  0.33069639  1
+  Li  Li12  1  0.48434135  0.15905432  0.48863897  1
+  O  O13  1  0.51851633  0.16422546  0.15040840  1
+  Fe  Fe14  1  0.50840457  0.83511596  0.15460584  1
+  Fe  Fe15  1  0.49636717  0.17318527  0.15929272  1
+  O  O16  1  0.52504527  0.34301595  0.65100795  1
+  O  O17  1  0.52157509  0.33084493  0.17237020  1
+  O  O18  1  0.53366062  0.86351357  0.64511637  1
+  Fe  Fe19  1  0.50309696  0.96939030  0.50572289  1
+  O  O20  1  0.52265901  0.67305591  0.13362472  1

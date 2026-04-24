@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       TmSiTmI
+_chemical_formula_sum              "Tm2 Si1 I1"
+_cell_length_a       4.18404490259866
+_cell_length_b       4.184172219658523
+_cell_length_c       7.712165355682373
+_cell_angle_alpha    74.24558280000218
+_cell_angle_beta     74.24031620528052
+_cell_angle_gamma    59.96162431201909
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Tm  Tm1       1.0  0.01104556910773715  0.6164431577275851  0.8697262413457594  1.0000
+  Si  Si1       1.0  0.7409727573513253  0.3460601577763787  0.6812188027031866  1.0000
+  Tm  Tm2       1.0  0.47054794340163936  0.07525634120698523  0.49309608305829244  1.0000
+  I   I1        1.0  0.24088969782193523  0.8459311720300738  0.18112476164435895  1.0000

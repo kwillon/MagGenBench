@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       MnTiCoFe
+_chemical_formula_sum              "Mn1 Ti1 Co1 Fe1"
+_cell_length_a       4.108367053608933
+_cell_length_b       4.106903970301138
+_cell_length_c       4.108088970184326
+_cell_angle_alpha    60.05855005884696
+_cell_angle_beta     60.04197562031583
+_cell_angle_gamma    60.04166122922767
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Mn  Mn1       1.0  0.979335606098175  0.40044811367988586  0.8731166720390321  1.0000
+  Ti  Ti1       1.0  0.7293208837509155  0.15031626820564267  0.6231740117073059  1.0000
+  Co  Co1       1.0  0.47970861196517955  0.900292932987213  0.3736177086830139  1.0000
+  Fe  Fe1       1.0  0.22934426367282867  0.6503672003746033  0.12304318696260458  1.0000

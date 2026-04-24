@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_Ti5MnZnO12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.98528004
+_cell_length_b   5.99810314
+_cell_length_c   7.93230724
+_cell_angle_alpha   87.49698639
+_cell_angle_beta   91.05502319
+_cell_angle_gamma   90.06205750
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti5MnZnO12
+_chemical_formula_sum   'Ti5 Mn1 Zn1 O12'
+_cell_volume   236.92714519
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.41253832  0.28728035  0.35638830  1
+  O  O1  1  0.37876219  0.12507327  0.02276449  1
+  O  O2  1  0.41961429  0.81679434  0.35040253  1
+  Ti  Ti3  1  0.65499038  0.02535642  0.45993415  1
+  Mn  Mn4  1  0.13374673  0.50009114  0.52426821  1
+  O  O5  1  0.42592221  0.45283577  0.72747958  1
+  O  O6  1  0.87915397  0.40557042  0.92836577  1
+  Ti  Ti7  1  0.13914195  0.87172824  0.13705890  1
+  O  O8  1  0.85521233  0.73960298  0.59110320  1
+  Ti  Ti9  1  0.66744596  0.68016624  0.81215298  1
+  O  O10  1  0.39656222  0.62731880  0.03296697  1
+  Ti  Ti11  1  0.66328520  0.17562129  0.80707085  1
+  Ti  Ti12  1  0.17009856  0.34438974  0.12143032  1
+  O  O13  1  0.87465721  0.90555930  0.93255317  1
+  O  O14  1  0.45332766  0.95748031  0.69588810  1
+  O  O15  1  0.86180007  0.23046726  0.59767741  1
+  Zn  Zn16  1  0.60459828  0.56453520  0.26753792  1
+  O  O17  1  0.98659539  0.57175767  0.25132623  1
+  O  O18  1  0.92776555  0.07797618  0.25706503  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LiCaV(CoO2)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.30778790
+_cell_length_b   5.23357964
+_cell_length_c   5.76739311
+_cell_angle_alpha   115.00035095
+_cell_angle_beta   113.33455658
+_cell_angle_gamma   100.39023590
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiCaV(CoO2)3
+_chemical_formula_sum   'Li1 Ca1 V1 Co3 O6'
+_cell_volume   121.12467262
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.90335929  0.88558310  0.65886140  1
+  O  O1  1  0.59255767  0.25501251  0.54436111  1
+  O  O2  1  0.26248461  0.54805416  0.85455495  1
+  V  V3  1  0.25835305  0.08121653  0.61136985  1
+  Co  Co4  1  0.59231782  0.74792063  0.27611738  1
+  Li  Li5  1  0.91878027  0.41814214  0.94497931  1
+  O  O6  1  0.90710133  0.93595701  0.21914169  1
+  O  O7  1  0.26509309  0.61726612  0.37967679  1
+  Co  Co8  1  0.91136044  0.40924254  0.44120938  1
+  Co  Co9  1  0.58725172  0.75067729  0.77687806  1
+  Ca  Ca10  1  0.25068247  0.08008060  0.10563976  1
+  O  O11  1  0.58704782  0.24675570  0.00969230  1

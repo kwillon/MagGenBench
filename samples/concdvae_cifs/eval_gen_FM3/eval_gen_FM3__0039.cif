@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Na3LiThB3O10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.43435955
+_cell_length_b   6.18078852
+_cell_length_c   7.04549742
+_cell_angle_alpha   107.42330933
+_cell_angle_beta   91.95767212
+_cell_angle_gamma   92.49160767
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na3LiThB3O10
+_chemical_formula_sum   'Na3 Li1 Th1 B3 O10'
+_cell_volume   225.30089255
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.34137198  0.02784834  0.50989443  1
+  O  O1  1  0.86162585  0.34932396  0.30191499  1
+  O  O2  1  0.90289545  0.05071121  0.51428562  1
+  O  O3  1  0.17259197  0.07882555  0.85350126  1
+  Na  Na4  1  0.09597331  0.46323788  0.79033911  1
+  O  O5  1  0.59321064  0.51270521  0.76230812  1
+  Th  Th6  1  0.09687391  0.00256538  0.17166558  1
+  B  B7  1  0.60003841  0.72217339  0.92059869  1
+  B  B8  1  0.07681806  0.51226753  0.31675926  1
+  Li  Li9  1  0.60034287  0.25695184  0.49080741  1
+  O  O10  1  0.73674327  0.90423179  0.92373657  1
+  Na  Na11  1  0.58012283  0.28060532  0.99751848  1
+  O  O12  1  0.45479825  0.76344126  0.08510234  1
+  O  O13  1  0.00577463  0.61620420  0.14713509  1
+  Na  Na14  1  0.61256540  0.73372602  0.45937628  1
+  O  O15  1  0.10764530  0.70205700  0.55652297  1
+  B  B16  1  0.12757353  0.97181243  0.61731696  1
+  O  O17  1  0.31204870  0.37264520  0.29640412  1

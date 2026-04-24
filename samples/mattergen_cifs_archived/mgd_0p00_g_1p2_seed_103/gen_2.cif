@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       Sr2TlSrCdSrTlCd3
+_chemical_formula_sum              "Sr4 Tl2 Cd4"
+_cell_length_a       6.666216067891712
+_cell_length_b       7.971063692118489
+_cell_length_c       6.80156135559082
+_cell_angle_alpha    99.03038035922651
+_cell_angle_beta     109.82539792827987
+_cell_angle_gamma    97.22166423488451
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sr  Sr1       1.0  0.8743733167648314  0.16842824220657351  0.22038331627845764  1.0000
+  Sr  Sr2       1.0  0.7224826812744141  0.6694222688674928  0.3302651345729828  1.0000
+  Tl  Tl1       1.0  0.7273017168045044  0.08340238034725189  0.6398724913597107  1.0000
+  Sr  Sr3       1.0  0.2506866753101349  0.9901362657546997  0.7978330254554749  1.0000
+  Cd  Cd1       1.0  0.7218213081359863  0.7709599137306213  0.8569321036338806  1.0000
+  Sr  Sr4       1.0  0.0989450290799141  0.49078181385993963  0.9067783951759338  1.0000
+  Tl  Tl2       1.0  0.2465058863162994  0.5770623683929443  0.48715725541114807  1.0000
+  Cd  Cd2       1.0  0.2518027126789093  0.8892486095428468  0.2708016932010651  1.0000
+  Cd  Cd3       1.0  0.5602743029594421  0.3882969915866852  0.8240583539009094  1.0000
+  Cd  Cd4       1.0  0.41488739848136896  0.2720533609390259  0.3037409484386444  1.0000

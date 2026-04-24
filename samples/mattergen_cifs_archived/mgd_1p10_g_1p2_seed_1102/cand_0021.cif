@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       FeCoHCoFeCoHCo
+_chemical_formula_sum              "Fe2 Co4 H2"
+_cell_length_a       3.575153275607662
+_cell_length_b       3.6336185267588728
+_cell_length_c       5.823356628417969
+_cell_angle_alpha    89.73280549790756
+_cell_angle_beta     107.29348728272043
+_cell_angle_gamma    89.78731041783297
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.6660488251586825  0.5514196160784651  0.20475652785903686  1.0000
+  Co  Co1       1.0  0.33100444020992115  0.5515084278531436  0.5318370458433662  1.0000
+  H   H1        1.0  0.4954211417889536  0.5520548225502007  0.8608441346747323  1.0000
+  Co  Co2       1.0  0.16816519127787571  0.051921166133184704  0.20826533458174393  1.0000
+  Fe  Fe2       1.0  0.8339966523111009  0.05173227804729957  0.5349948405301265  1.0000
+  Co  Co3       1.0  0.49931252132020726  0.051785000922028944  0.8677372339106535  1.0000
+  H   H2        1.0  0.004659132250959501  0.05171173051988246  0.8796981566213619  1.0000
+  Co  Co4       1.0  0.00022482854456663692  0.5518929963230207  0.8718878622387615  1.0000

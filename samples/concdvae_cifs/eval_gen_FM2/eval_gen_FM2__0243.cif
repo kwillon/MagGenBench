@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_KBeSClO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.57418728
+_cell_length_b   5.50491047
+_cell_length_c   5.80537224
+_cell_angle_alpha   97.48989868
+_cell_angle_beta   91.48815918
+_cell_angle_gamma   101.25734711
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KBeSClO4
+_chemical_formula_sum   'K1 Be1 S1 Cl1 O4'
+_cell_volume   172.97980355
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.14084223  0.55308056  0.43834227  1
+  O  O1  1  0.28822768  0.03945224  0.89958441  1
+  O  O2  1  0.73197454  0.31525093  0.03277475  1
+  K  K3  1  0.90850407  0.94314295  0.20984131  1
+  O  O4  1  0.62203956  0.02809111  0.60757583  1
+  Be  Be5  1  0.38473010  0.75882208  0.68239778  1
+  S  S6  1  0.54688352  0.25154299  0.84019321  1
+  O  O7  1  0.50585532  0.53265053  0.80107892  1

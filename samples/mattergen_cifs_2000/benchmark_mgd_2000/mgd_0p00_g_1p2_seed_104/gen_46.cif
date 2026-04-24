@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Cu3Pd2CuPtPd
+_chemical_formula_sum              "Cu4 Pd3 Pt1"
+_cell_length_a       2.7330938622602265
+_cell_length_b       4.658177054990968
+_cell_length_c       8.850201606750488
+_cell_angle_alpha    85.3426195963313
+_cell_angle_beta     81.11997710823522
+_cell_angle_gamma    90.01052095795612
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cu  Cu1       1.0  0.27438363432884216  0.056663189083337784  0.3857182562351226  1.0000
+  Cu  Cu2       1.0  0.5310723185539246  0.7986273169517517  0.8710036873817444  1.0000
+  Cu  Cu3       1.0  0.6548330783843994  0.16489742696285248  0.622042179107666  1.0000
+  Pd  Pd1       1.0  0.035688064992427826  0.2991345524787903  0.8626148104667664  1.0000
+  Pd  Pd2       1.0  0.7697910070419312  0.5559647679328918  0.3935052156448364  1.0000
+  Cu  Cu4       1.0  0.1504277139902115  0.689032256603241  0.6336103081703186  1.0000
+  Pt  Pt1       1.0  0.902600884437561  0.9282899498939514  0.1282159984111786  1.0000
+  Pd  Pd3       1.0  0.40283307433128357  0.42799144983291626  0.1282409280538559  1.0000

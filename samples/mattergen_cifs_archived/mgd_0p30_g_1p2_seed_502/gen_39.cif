@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Eu2CdNa
+_chemical_formula_sum              "Eu2 Cd1 Na1"
+_cell_length_a       5.749808004784279
+_cell_length_b       5.751815173891727
+_cell_length_c       5.750461101531982
+_cell_angle_alpha    59.97199279932321
+_cell_angle_beta     60.01194748127168
+_cell_angle_gamma    59.96522308574282
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Eu  Eu1       1.0  0.0039646802470088005  0.5295833945274353  0.26757553219795227  1.0000
+  Eu  Eu2       1.0  0.5042687654495239  0.02989319153130054  0.7677299380302429  1.0000
+  Cd  Cd1       1.0  0.2537059187889099  0.7798129916191101  0.5174811482429506  1.0000
+  Na  Na1       1.0  0.7536678910255432  0.2797219753265381  0.017414020374417305  1.0000

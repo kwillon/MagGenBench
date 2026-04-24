@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       CoF4EuF2
+_chemical_formula_sum              "Co1 F6 Eu1"
+_cell_length_a       5.858122889322963
+_cell_length_b       5.862009192549445
+_cell_length_c       5.85723876953125
+_cell_angle_alpha    90.08428703381117
+_cell_angle_beta     119.56123231433882
+_cell_angle_gamma    119.70485884063041
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.13356290757656097  0.48091077804565424  0.7128039002418518  1.0000
+  F   F1        1.0  0.5952379107475281  0.7108838558197021  0.9429900646209717  1.0000
+  F   F2        1.0  0.13438744843006134  0.2537517845630646  0.4855923354625702  1.0000
+  F   F3        1.0  0.1335536390542984  0.7078864574432373  0.940234363079071  1.0000
+  F   F4        1.0  0.6715819835662842  0.2495146542787552  0.4813518822193146  1.0000
+  Eu  Eu1       1.0  0.13273383677005768  0.9804356098175049  0.21284052729606628  1.0000
+  F   F5        1.0  0.13420981168746948  0.7116924524307251  0.4823044538497925  1.0000
+  F   F6        1.0  0.13420924544334412  0.25027716159820557  0.9437093734741211  1.0000

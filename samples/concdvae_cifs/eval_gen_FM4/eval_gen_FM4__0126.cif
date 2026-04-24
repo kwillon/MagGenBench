@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_BaCeBRuO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.07928562
+_cell_length_b   5.04992723
+_cell_length_c   7.70424700
+_cell_angle_alpha   108.36799622
+_cell_angle_beta   109.40491486
+_cell_angle_gamma   94.65117645
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaCeBRuO8
+_chemical_formula_sum   'Ba1 Ce1 B1 Ru1 O8'
+_cell_volume   173.04051218
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.09233736  0.14528558  0.56271845  1
+  O  O1  1  0.97382933  0.03877924  0.78607750  1
+  Ru  Ru2  1  0.68786538  0.75453174  0.76553154  1
+  Ba  Ba3  1  0.37866473  0.44260627  0.15668276  1
+  O  O4  1  0.63835734  0.03345536  0.99774623  1
+  O  O5  1  0.42100286  0.47951081  0.78283542  1
+  O  O6  1  0.09044154  0.16722763  0.27429104  1
+  O  O7  1  0.77081800  0.46489832  0.56443495  1
+  O  O8  1  0.40300757  0.82652920  0.56244040  1
+  O  O9  1  0.77595985  0.83867186  0.27008355  1
+  B  B10  1  0.86944926  0.94090033  0.13874996  1
+  O  O11  1  0.97575444  0.71753854  0.00598556  1

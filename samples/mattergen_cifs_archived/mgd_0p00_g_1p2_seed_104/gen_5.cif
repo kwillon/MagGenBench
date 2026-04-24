@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       Nd3CdRu
+_chemical_formula_sum              "Nd3 Cd1 Ru1"
+_cell_length_a       5.4680338402074815
+_cell_length_b       5.46662720563555
+_cell_length_c       5.465634346008301
+_cell_angle_alpha    90.01008386355507
+_cell_angle_beta     89.96529148587398
+_cell_angle_gamma    90.00614967493188
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Nd  Nd1       1.0  0.14118027687072754  0.7304698228836061  0.11797963082790375  1.0000
+  Nd  Nd2       1.0  0.6412794589996338  0.7304492592811584  0.617658257484436  1.0000
+  Nd  Nd3       1.0  0.6413919925689697  0.23033976554870605  0.11790730059146881  1.0000
+  Cd  Cd1       1.0  0.14143283665180206  0.230538472533226  0.6179230213165283  1.0000
+  Ru  Ru1       1.0  0.6410912871360779  0.730329692363739  0.11811114102602005  1.0000

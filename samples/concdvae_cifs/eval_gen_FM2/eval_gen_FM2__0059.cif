@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Ca2LaIn3GaTeO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.34449100
+_cell_length_b   7.22533464
+_cell_length_c   6.99713421
+_cell_angle_alpha   119.34454346
+_cell_angle_beta   91.74043274
+_cell_angle_gamma   90.17927551
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca2LaIn3GaTeO8
+_chemical_formula_sum   'Ca2 La1 In3 Ga1 Te1 O8'
+_cell_volume   279.41072348
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.39966935  0.65686125  0.59532195  1
+  Te  Te1  1  0.09470572  0.32390258  0.92682874  1
+  O  O2  1  0.36563024  0.26770699  0.42655075  1
+  In  In3  1  0.14077543  0.06642611  0.43083951  1
+  Ca  Ca4  1  0.64050972  0.16748078  0.60230762  1
+  In  In5  1  0.45062730  0.64198333  0.07813026  1
+  O  O6  1  0.86429852  0.12537129  0.30678767  1
+  O  O7  1  0.62898272  0.98707938  0.81327796  1
+  O  O8  1  0.63660073  0.55221379  0.82098675  1
+  O  O9  1  0.60467041  0.44736537  0.23432161  1
+  Ca  Ca10  1  0.90520078  0.81491381  0.89317083  1
+  In  In11  1  0.43377712  0.14717610  0.07950789  1
+  O  O12  1  0.01449955  0.62207377  0.53481638  1
+  Ga  Ga13  1  0.89300078  0.39025176  0.28387794  1
+  O  O14  1  0.39262062  0.86576295  0.40803781  1
+  O  O15  1  0.26708871  0.85739613  0.99197292  1

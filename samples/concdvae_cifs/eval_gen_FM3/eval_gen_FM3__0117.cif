@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_KSrCeUAlClO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.22434855
+_cell_length_b   5.97913742
+_cell_length_c   6.43318748
+_cell_angle_alpha   88.39960480
+_cell_angle_beta   101.00349426
+_cell_angle_gamma   98.18399048
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KSrCeUAlClO8
+_chemical_formula_sum   'K1 Sr1 Ce1 U1 Al1 Cl1 O8'
+_cell_volume   232.62395338
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.23274802  0.22152604  0.26179615  1
+  O  O1  1  0.42911345  0.48535845  0.99418455  1
+  U  U2  1  0.18849833  0.23824029  0.95534760  1
+  O  O3  1  0.14225028  0.24161154  0.64741778  1
+  Cl  Cl4  1  0.86736149  0.74322170  0.40095952  1
+  Ce  Ce5  1  0.65925974  0.74304706  0.81931740  1
+  O  O6  1  0.94947910  0.48015806  0.94347829  1
+  Al  Al7  1  0.35197994  0.22593845  0.52785254  1
+  O  O8  1  0.49028349  0.48903567  0.56065351  1
+  O  O9  1  0.49582943  0.98478299  0.57198977  1
+  Sr  Sr10  1  0.30992180  0.74106330  0.25252289  1
+  K  K11  1  0.77471113  0.23372900  0.28750119  1
+  O  O12  1  0.96422791  0.98408139  0.93699533  1
+  O  O13  1  0.44258273  0.99441969  0.98769212  1

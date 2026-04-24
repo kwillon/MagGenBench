@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Li2Eu2
+_chemical_formula_sum              "Li2 Eu2"
+_cell_length_a       6.051678478008137
+_cell_length_b       6.044887065532509
+_cell_length_c       6.045801639556885
+_cell_angle_alpha    60.01011881108016
+_cell_angle_beta     59.97462679609563
+_cell_angle_gamma    60.02325798046146
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.9022655487060547  0.4840588569641114  0.25637340545654297  1.0000
+  Li  Li2       1.0  0.40234678983688354  0.9841766953468324  0.7566178441047668  1.0000
+  Eu  Eu1       1.0  0.6534053087234497  0.23322865366935733  0.008441108278930187  1.0000
+  Eu  Eu2       1.0  0.15177786350250239  0.7344348430633545  0.5074087381362915  1.0000

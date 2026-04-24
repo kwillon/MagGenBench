@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_HfTlHgPCBrNO5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.76216650
+_cell_length_b   5.83237171
+_cell_length_c   7.33212042
+_cell_angle_alpha   76.40441895
+_cell_angle_beta   73.61728668
+_cell_angle_gamma   61.93991089
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfTlHgPCBrNO5
+_chemical_formula_sum   'Hf1 Tl1 Hg1 P1 C1 Br1 N1 O5'
+_cell_volume   207.08698691
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.32522559  0.31417945  0.66432536  1
+  P  P1  1  0.06919963  0.03652164  0.34521741  1
+  O  O2  1  0.23077589  0.74924994  0.26978993  1
+  N  N3  1  0.46541312  0.44467172  0.88701099  1
+  Hg  Hg4  1  0.05619603  0.04713760  0.87198329  1
+  C  C5  1  0.39580742  0.36840415  0.77852511  1
+  Hf  Hf6  1  0.42709744  0.40473071  0.16485704  1
+  O  O7  1  0.01994422  0.99550170  0.55781233  1
+  Br  Br8  1  0.75584376  0.72604591  0.00888417  1
+  O  O9  1  0.22305866  0.20042038  0.27949220  1
+  Tl  Tl10  1  0.76161397  0.71661359  0.57931244  1
+  O  O11  1  0.77481806  0.19857045  0.26553592  1

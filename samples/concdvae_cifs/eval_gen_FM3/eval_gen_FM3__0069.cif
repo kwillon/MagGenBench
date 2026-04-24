@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Eu4CrFe(MoO6)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.28777981
+_cell_length_b   5.86220980
+_cell_length_c   7.55096340
+_cell_angle_alpha   90.64964294
+_cell_angle_beta   90.13229370
+_cell_angle_gamma   89.05215454
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Eu4CrFe(MoO6)2
+_chemical_formula_sum   'Eu4 Cr1 Fe1 Mo2 O12'
+_cell_volume   234.01772876
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.62043738  0.62956393  0.36310536  1
+  O  O1  1  0.11975490  0.15845978  0.85882807  1
+  O  O2  1  0.47157618  0.35793054  0.64781386  1
+  Cr  Cr3  1  0.18521129  0.14510207  0.10771170  1
+  Fe  Fe4  1  0.69072425  0.65088809  0.61101943  1
+  Eu  Eu5  1  0.68242800  0.10961982  0.86185676  1
+  O  O6  1  0.97800308  0.42455894  0.14088292  1
+  O  O7  1  0.47229704  0.35049295  0.07088733  1
+  O  O8  1  0.90726715  0.93694973  0.57269531  1
+  O  O9  1  0.76402956  0.66490543  0.85547394  1
+  Eu  Eu10  1  0.69112080  0.18573740  0.35471505  1
+  Mo  Mo11  1  0.68934005  0.64662671  0.10895907  1
+  O  O12  1  0.39311755  0.86115342  0.06989392  1
+  O  O13  1  0.40547287  0.85643327  0.64649123  1
+  O  O14  1  0.90043730  0.93831933  0.14906833  1
+  O  O15  1  0.97495282  0.43560919  0.57688463  1
+  Eu  Eu16  1  0.19519895  0.60819501  0.86224109  1
+  Mo  Mo17  1  0.18809325  0.14830098  0.61037743  1
+  O  O18  1  0.24345814  0.13347732  0.36449951  1
+  Eu  Eu19  1  0.18724078  0.67774367  0.35724074  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_K2MnVBiO7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.88254070
+_cell_length_b   5.96716452
+_cell_length_c   7.77274513
+_cell_angle_alpha   93.67399597
+_cell_angle_beta   97.94248962
+_cell_angle_gamma   89.10816956
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2MnVBiO7
+_chemical_formula_sum   'K2 Mn1 V1 Bi1 O7'
+_cell_volume   223.81987061
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  V  V0  1  0.33976811  0.00329447  0.68974936  1
+  O  O1  1  0.35610688  0.22431262  0.55519927  1
+  O  O2  1  0.38827983  0.75925595  0.58360165  1
+  O  O3  1  0.01771701  0.99210978  0.71424931  1
+  K  K4  1  0.57427281  0.51183814  0.92122036  1
+  Bi  Bi5  1  0.22961630  0.52947807  0.31665388  1
+  O  O6  1  0.71862906  0.50983018  0.29921973  1
+  Mn  Mn7  1  0.02327052  0.05641636  0.97683299  1
+  K  K8  1  0.71466947  0.02039793  0.32826430  1
+  O  O9  1  0.15020402  0.84227830  0.17774075  1
+  O  O10  1  0.58893341  0.01798880  0.91828281  1
+  O  O11  1  0.11842622  0.35403436  0.03953734  1

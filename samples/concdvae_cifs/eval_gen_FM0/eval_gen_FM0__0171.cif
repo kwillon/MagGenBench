@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_UNi2Sn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.15734816
+_cell_length_b   4.14180946
+_cell_length_c   4.28620243
+_cell_angle_alpha   84.50343323
+_cell_angle_beta   87.66583252
+_cell_angle_gamma   87.33235168
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   UNi2Sn
+_chemical_formula_sum   'U1 Ni2 Sn1'
+_cell_volume   73.33607510
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.12613221  0.94008893  0.65323585  1
+  U  U1  1  0.63302463  0.44319126  0.64848143  1
+  Sn  Sn2  1  0.12349316  0.43554521  0.15139090  1
+  Ni  Ni3  1  0.62966573  0.93774921  0.14814720  1

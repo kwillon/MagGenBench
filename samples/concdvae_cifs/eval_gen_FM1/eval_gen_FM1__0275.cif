@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Mn2Cu3BiSbS9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.34628391
+_cell_length_b   7.48149490
+_cell_length_c   9.55255032
+_cell_angle_alpha   92.33549500
+_cell_angle_beta   90.08531189
+_cell_angle_gamma   100.06121063
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mn2Cu3BiSbS9
+_chemical_formula_sum   'Mn2 Cu3 Bi1 Sb1 S9'
+_cell_volume   305.57489993
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.26341674  0.25357318  0.21465480  1
+  Mn  Mn1  1  0.31818119  0.39024270  0.78114069  1
+  Bi  Bi2  1  0.61832404  0.99365097  0.62661541  1
+  S  S3  1  0.46969181  0.70730311  0.77972597  1
+  Cu  Cu4  1  0.91731703  0.57101631  0.49078423  1
+  Cu  Cu5  1  0.87512022  0.51142013  0.08926882  1
+  S  S6  1  0.16478419  0.08107550  0.79964995  1
+  Sb  Sb7  1  0.57486320  0.90463901  0.25093621  1
+  S  S8  1  0.69691449  0.14841180  0.10340650  1
+  S  S9  1  0.34348494  0.43145296  0.01729584  1
+  S  S10  1  0.83482242  0.38585418  0.29736125  1
+  S  S11  1  0.02176662  0.77766407  0.10429326  1
+  S  S12  1  0.47258455  0.69675314  0.45784542  1
+  S  S13  1  0.14850143  0.06620052  0.40242505  1
+  Cu  Cu14  1  0.01780798  0.79105794  0.86291248  1
+  S  S15  1  0.81057632  0.37392470  0.65517682  1

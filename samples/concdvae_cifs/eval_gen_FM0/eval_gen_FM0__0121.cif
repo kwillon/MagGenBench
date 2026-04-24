@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Ce2CrSiC3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.73177361
+_cell_length_b   5.18931246
+_cell_length_c   6.85683775
+_cell_angle_alpha   108.59629822
+_cell_angle_beta   102.89498138
+_cell_angle_gamma   106.08544922
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ce2CrSiC3
+_chemical_formula_sum   'Ce2 Cr1 Si1 C3'
+_cell_volume   113.62988972
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  C  C0  1  0.60426736  0.77228236  0.03909439  1
+  Ce  Ce1  1  0.89934015  0.68288016  0.73184884  1
+  Ce  Ce2  1  0.30618626  0.87215722  0.33954549  1
+  C  C3  1  0.09284404  0.33849007  0.44727895  1
+  Si  Si4  1  0.84555650  0.18429950  0.11162260  1
+  Cr  Cr5  1  0.36305591  0.37348258  0.95515049  1
+  C  C6  1  0.12792403  0.22425145  0.63952112  1

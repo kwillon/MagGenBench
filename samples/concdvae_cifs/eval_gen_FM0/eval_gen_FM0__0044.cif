@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_SmMg3CrNi4Bi3Rh2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.73696613
+_cell_length_b   6.36909008
+_cell_length_c   7.20662022
+_cell_angle_alpha   92.20546722
+_cell_angle_beta   100.94692993
+_cell_angle_gamma   90.05651093
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SmMg3CrNi4Bi3Rh2
+_chemical_formula_sum   'Sm1 Mg3 Cr1 Ni4 Bi3 Rh2'
+_cell_volume   258.33220102
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.35535148  0.54028076  0.09234199  1
+  Rh  Rh1  1  0.79659134  0.06887199  0.30180326  1
+  Bi  Bi2  1  0.61543351  0.84195358  0.96433693  1
+  Mg  Mg3  1  0.11666350  0.86758739  0.10276317  1
+  Ni  Ni4  1  0.36502340  0.18387385  0.97944796  1
+  Mg  Mg5  1  0.35290161  0.24628146  0.33722082  1
+  Mg  Mg6  1  0.35085467  0.47451961  0.71926957  1
+  Sm  Sm7  1  0.85654724  0.35979724  0.02635625  1
+  Rh  Rh8  1  0.60993010  0.09319462  0.65490848  1
+  Ni  Ni9  1  0.12066319  0.61884290  0.40256387  1
+  Bi  Bi10  1  0.11321750  0.99951112  0.64729339  1
+  Ni  Ni11  1  0.90504241  0.66542447  0.74496084  1
+  Bi  Bi12  1  0.60976386  0.71739882  0.41140816  1
+  Cr  Cr13  1  0.85758585  0.36765099  0.52993941  1

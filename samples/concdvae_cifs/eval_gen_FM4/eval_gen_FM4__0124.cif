@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_DySiO3F
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.22748137
+_cell_length_b   5.82315874
+_cell_length_c   6.65697765
+_cell_angle_alpha   71.56945038
+_cell_angle_beta   79.86061096
+_cell_angle_gamma   82.72814178
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   DySiO3F
+_chemical_formula_sum   'Dy2 Si2 O6 F2'
+_cell_volume   152.60112001
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.42770827  0.63816684  0.18171531  1
+  Dy  Dy1  1  0.41924751  0.65792322  0.52658731  1
+  F  F2  1  0.33302036  0.12070175  0.25383493  1
+  Si  Si3  1  0.01402608  0.16316718  0.72182375  1
+  O  O4  1  0.81426084  0.32496884  0.50678694  1
+  O  O5  1  0.19482009  0.34500059  0.79110610  1
+  O  O6  1  0.69990569  0.60803747  0.84451401  1
+  O  O7  1  0.76369685  0.02888074  0.93449241  1
+  Si  Si8  1  0.53421539  0.80756003  0.93768275  1
+  F  F9  1  0.88794255  0.84489882  0.40048820  1
+  O  O10  1  0.27452326  0.93378800  0.72219837  1
+  Dy  Dy11  1  0.80842799  0.27150396  0.16803212  1

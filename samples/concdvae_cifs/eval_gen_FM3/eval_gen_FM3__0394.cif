@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Nd2BRuO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.89311290
+_cell_length_b   4.34211922
+_cell_length_c   8.14074039
+_cell_angle_alpha   80.58892822
+_cell_angle_beta   82.35922241
+_cell_angle_gamma   70.40620422
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nd2BRuO6
+_chemical_formula_sum   'Nd2 B1 Ru1 O6'
+_cell_volume   127.44767127
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.60179502  0.03629512  0.67200345  1
+  O  O1  1  0.43865854  0.28941816  0.18064198  1
+  Ru  Ru2  1  0.51968896  0.16583043  0.42796287  1
+  O  O3  1  0.16661915  0.89388704  0.97389835  1
+  B  B4  1  0.01910244  0.17025556  0.92203867  1
+  O  O5  1  0.14095604  0.89016551  0.37236130  1
+  Nd  Nd6  1  0.73763490  0.69655633  0.17035456  1
+  O  O7  1  0.89947897  0.44013563  0.48408824  1
+  O  O8  1  0.86692983  0.44271514  0.87463301  1
+  Nd  Nd9  1  0.29223287  0.64524072  0.68451405  1

@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       RbCl2CrCl
+_chemical_formula_sum              "Rb1 Cl3 Cr1"
+_cell_length_a       5.018771734786638
+_cell_length_b       5.019301953622234
+_cell_length_c       5.0186076164245605
+_cell_angle_alpha    89.99097299430187
+_cell_angle_beta     90.01063027852982
+_cell_angle_gamma    89.97520891851269
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Rb  Rb1       1.0  0.7250787615776062  0.8008450865745546  0.6354761719703674  1.0000
+  Cl  Cl1       1.0  0.22506150603294373  0.8010640740394592  0.1351536214351654  1.0000
+  Cl  Cl2       1.0  0.7250401973724365  0.3011002540588379  0.13525114953517914  1.0000
+  Cr  Cr1       1.0  0.22496040165424347  0.3010600507259369  0.13515704870224  1.0000
+  Cl  Cl3       1.0  0.2248941957950592  0.30093300342559814  0.6352130770683289  1.0000

@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       GdHg2Gd
+_chemical_formula_sum              "Gd2 Hg2"
+_cell_length_a       3.710813855912414
+_cell_length_b       5.336201291765782
+_cell_length_c       5.359654426574707
+_cell_angle_alpha    89.98886246580192
+_cell_angle_beta     89.96818747973857
+_cell_angle_gamma    90.01769952457758
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Gd  Gd1       1.0  0.46849483251571655  0.2972709536552429  0.3592553734779358  1.0000
+  Hg  Hg1       1.0  0.9686424136161804  0.7969880104064941  0.3896614611148834  1.0000
+  Hg  Hg2       1.0  0.9692159295082092  0.2969120442867279  0.8520652651786804  1.0000
+  Gd  Gd2       1.0  0.46857237815856934  0.7962927222251892  0.8829329609870911  1.0000

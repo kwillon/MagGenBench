@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_BaNaGdAlBO7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.60169601
+_cell_length_b   4.89051867
+_cell_length_c   7.65787888
+_cell_angle_alpha   106.07987213
+_cell_angle_beta   107.92135620
+_cell_angle_gamma   90.70265198
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaNaGdAlBO7
+_chemical_formula_sum   'Ba1 Na1 Gd1 Al1 B1 O7'
+_cell_volume   156.66252059
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.34721234  0.84727359  0.29191563  1
+  Na  Na1  1  0.96674240  0.46372026  0.57228386  1
+  O  O2  1  0.05889108  0.98649001  0.58739901  1
+  B  B3  1  0.01893852  0.09985774  0.78193390  1
+  O  O4  1  0.80053699  0.29645661  0.20998654  1
+  O  O5  1  0.16486280  0.37157130  0.90495336  1
+  Ba  Ba6  1  0.68909580  0.69099206  0.99113059  1
+  O  O7  1  0.14954519  0.92978537  0.90170991  1
+  O  O8  1  0.45712289  0.53282809  0.55060202  1
+  Gd  Gd9  1  0.30642772  0.29254597  0.21842515  1
+  Al  Al10  1  0.39623591  0.88661909  0.53989649  1
+  O  O11  1  0.68879318  0.09606794  0.74927348  1

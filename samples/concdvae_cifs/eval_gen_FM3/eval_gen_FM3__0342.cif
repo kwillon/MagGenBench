@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_LiScTiAgBiB3O11
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.64016676
+_cell_length_b   5.95440197
+_cell_length_c   7.23417616
+_cell_angle_alpha   98.16750336
+_cell_angle_beta   92.69425201
+_cell_angle_gamma   107.44342804
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiScTiAgBiB3O11
+_chemical_formula_sum   'Li1 Sc1 Ti1 Ag1 Bi1 B3 O11'
+_cell_volume   228.39294435
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.25528479  0.45958701  0.41660368  1
+  B  B1  1  0.89458132  0.39648476  0.79857498  1
+  O  O2  1  0.55190814  0.84587663  0.44964209  1
+  O  O3  1  0.81200767  0.09282438  0.24563871  1
+  O  O4  1  0.07407134  0.00559947  0.93088937  1
+  Li  Li5  1  0.26334679  0.80232656  0.98177719  1
+  Ti  Ti6  1  0.16385382  0.23366518  0.15260887  1
+  O  O7  1  0.40734965  0.71980792  0.73437423  1
+  O  O8  1  0.91908288  0.20961736  0.68563950  1
+  Bi  Bi9  1  0.36007732  0.32873014  0.74863130  1
+  O  O10  1  0.76026517  0.52213264  0.72198755  1
+  O  O11  1  0.01814398  0.45887643  0.99466741  1
+  Ag  Ag12  1  0.80496943  0.58315301  0.26702350  1
+  O  O13  1  0.45789421  0.44335797  0.07250593  1
+  Sc  Sc14  1  0.83427399  0.86448020  0.69754064  1
+  B  B15  1  0.58175522  0.99913204  0.30977356  1
+  B  B16  1  0.31411606  0.70919544  0.52375376  1
+  O  O17  1  0.35452446  0.02957356  0.23453629  1
+  O  O18  1  0.10134873  0.81706858  0.51630282  1

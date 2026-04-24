@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       NiCoTmNi3
+_chemical_formula_sum              "Ni4 Co1 Tm1"
+_cell_length_a       4.841849840269482
+_cell_length_b       4.8415488097926485
+_cell_length_c       4.840625762939453
+_cell_angle_alpha    59.97952727851597
+_cell_angle_beta     59.980591798139145
+_cell_angle_gamma    59.99284480417579
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ni  Ni1       1.0  0.07006734609603882  0.15260912477970123  0.9845892786979675  1.0000
+  Co  Co1       1.0  0.44391229748725886  0.5269274711608888  0.862517237663269  1.0000
+  Tm  Tm1       1.0  0.6939411759376525  0.7768967747688295  0.11271674185991296  1.0000
+  Ni  Ni2       1.0  0.5659685730934143  0.15279410779476169  0.4880695044994354  1.0000
+  Ni  Ni3       1.0  0.06986089050769806  0.15261489152908325  0.48821282386779785  1.0000
+  Ni  Ni4       1.0  0.06989659368991849  0.649138867855072  0.48795804381370544  1.0000

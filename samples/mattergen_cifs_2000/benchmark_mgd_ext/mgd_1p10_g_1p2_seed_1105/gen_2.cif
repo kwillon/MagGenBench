@@ -1,0 +1,28 @@
+data_image0
+_chemical_formula_structural       NiFeIr
+_chemical_formula_sum              "Ni1 Fe1 Ir1"
+_cell_length_a       2.6456617402048477
+_cell_length_b       3.6222448931208846
+_cell_length_c       4.502323150634766
+_cell_angle_alpha    113.75335017223222
+_cell_angle_beta     107.05966343262699
+_cell_angle_gamma    89.98371839782152
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ni  Ni1       1.0  0.5217185616493225  0.5654230713844299  0.6418746113777161  1.0000
+  Fe  Fe1       1.0  0.1881950944662094  0.23134398460388184  0.9743542671203613  1.0000
+  Ir  Ir1       1.0  0.8529674410820007  0.8965892791748048  0.30451872944831854  1.0000

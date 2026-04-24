@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Cs2Al4FeCuO10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.64373922
+_cell_length_b   6.65841866
+_cell_length_c   8.20277691
+_cell_angle_alpha   93.63030243
+_cell_angle_beta   92.52395630
+_cell_angle_gamma   90.25241089
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2Al4FeCuO10
+_chemical_formula_sum   'Cs2 Al4 Fe1 Cu1 O10'
+_cell_volume   307.32208975
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.31828004  0.33851218  0.17710093  1
+  Al  Al1  1  0.74954182  0.44168463  0.62814695  1
+  O  O2  1  0.19089566  0.10745009  0.24376890  1
+  O  O3  1  0.28793380  0.32037735  0.97858965  1
+  Cs  Cs4  1  0.79883331  0.03593683  0.91752863  1
+  Al  Al5  1  0.81040210  0.59675413  0.29891369  1
+  Cu  Cu6  1  0.82526147  0.11272020  0.32365116  1
+  O  O7  1  0.80841339  0.18040428  0.54190242  1
+  O  O8  1  0.79030281  0.62582141  0.50064385  1
+  O  O9  1  0.64431316  0.36352611  0.22721215  1
+  Al  Al10  1  0.24450573  0.50919503  0.84935158  1
+  Cs  Cs11  1  0.29650199  0.92591155  0.57861030  1
+  Fe  Fe12  1  0.32517463  0.81957686  0.15646769  1
+  O  O13  1  0.67220998  0.82189107  0.23048922  1
+  O  O14  1  0.44751155  0.45937812  0.69030327  1
+  O  O15  1  0.94337970  0.51457018  0.78005475  1
+  O  O16  1  0.30598912  0.77047718  0.94606662  1
+  O  O17  1  0.14647748  0.58144224  0.24574354  1

@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_NaSm(CuSe2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.72239542
+_cell_length_b   5.69889545
+_cell_length_c   6.12325096
+_cell_angle_alpha   80.82048035
+_cell_angle_beta   75.82819366
+_cell_angle_gamma   77.75859833
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaSm(CuSe2)2
+_chemical_formula_sum   'Na1 Sm1 Cu2 Se4'
+_cell_volume   187.98362534
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.89769876  0.85313606  0.96500540  1
+  Se  Se1  1  0.39957240  0.84960943  0.96269560  1
+  Sm  Sm2  1  0.39953136  0.85354531  0.46066770  1
+  Cu  Cu3  1  0.89732283  0.35275519  0.46487421  1
+  Se  Se4  1  0.89670557  0.85163313  0.46349788  1
+  Se  Se5  1  0.89604807  0.35214388  0.95826888  1
+  Na  Na6  1  0.39389464  0.35344189  0.96184605  1
+  Se  Se7  1  0.40069374  0.35340384  0.45938784  1

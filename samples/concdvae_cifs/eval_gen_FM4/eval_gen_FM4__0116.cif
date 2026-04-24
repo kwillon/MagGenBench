@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_LaCe3Sn2(Cl2O3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.42046309
+_cell_length_b   6.55595684
+_cell_length_c   9.98483658
+_cell_angle_alpha   90.52371979
+_cell_angle_beta   88.41603851
+_cell_angle_gamma   88.41448212
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaCe3Sn2(Cl2O3)2
+_chemical_formula_sum   'La1 Ce3 Sn2 Cl4 O6'
+_cell_volume   354.53557032
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.10368647  0.77739483  0.83539015  1
+  O  O1  1  0.25835663  0.74530250  0.30317229  1
+  Cl  Cl2  1  0.57507879  0.00197828  0.82787049  1
+  O  O3  1  0.75374323  0.75503862  0.32707995  1
+  O  O4  1  0.14588314  0.82648242  0.59115648  1
+  Ce  Ce5  1  0.54484212  0.87197667  0.12923516  1
+  Cl  Cl6  1  0.97506827  0.37151289  0.50296658  1
+  Cl  Cl7  1  0.04754195  0.09120466  0.06795773  1
+  Ce  Ce8  1  0.02234338  0.50594151  0.19895826  1
+  O  O9  1  0.80770820  0.62470675  0.00746265  1
+  Cl  Cl10  1  0.51412010  0.28855819  0.26332489  1
+  O  O11  1  0.30526543  0.62884969  0.02168163  1
+  Sn  Sn12  1  0.00886526  0.93485427  0.41232178  1
+  O  O13  1  0.41288960  0.54406202  0.73860091  1
+  Sn  Sn14  1  0.55728990  0.43325067  0.91096824  1
+  La  La15  1  0.45442510  0.59563404  0.49751931  1

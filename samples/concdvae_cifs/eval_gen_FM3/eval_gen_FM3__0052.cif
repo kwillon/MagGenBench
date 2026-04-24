@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_La2TiAlSnPb2O11
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.39052153
+_cell_length_b   6.58800268
+_cell_length_c   7.41775990
+_cell_angle_alpha   110.28074646
+_cell_angle_beta   103.08364868
+_cell_angle_gamma   95.37319946
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La2TiAlSnPb2O11
+_chemical_formula_sum   'La2 Ti1 Al1 Sn1 Pb2 O11'
+_cell_volume   280.22048626
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pb  Pb0  1  0.56580442  0.04831245  0.53731334  1
+  O  O1  1  0.24099490  0.94797748  0.58597612  1
+  O  O2  1  0.22652310  0.68920076  0.87929511  1
+  Pb  Pb3  1  0.10997289  0.26765195  0.62905174  1
+  O  O4  1  0.44867927  0.39616394  0.59504908  1
+  O  O5  1  0.11476307  0.39159387  0.30981579  1
+  O  O6  1  0.83578467  0.42036453  0.97461504  1
+  La  La7  1  0.12334018  0.72259170  0.19767666  1
+  O  O8  1  0.00536755  0.00209399  0.86107928  1
+  O  O9  1  0.47471082  0.65604109  0.31429160  1
+  O  O10  1  0.35520089  0.30643263  0.98847306  1
+  O  O11  1  0.56832081  0.96541208  0.89797312  1
+  Ti  Ti12  1  0.28068703  0.98263788  0.88869548  1
+  Sn  Sn13  1  0.85677189  0.15608940  0.07034317  1
+  Al  Al14  1  0.38033286  0.37371254  0.30246374  1
+  La  La15  1  0.55866975  0.62208462  0.98147362  1
+  O  O16  1  0.36136839  0.06758367  0.22611871  1
+  O  O17  1  0.86563438  0.94188595  0.22712681  1

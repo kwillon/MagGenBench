@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_CeCu(SiPt)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.73845720
+_cell_length_b   5.41948748
+_cell_length_c   6.31379986
+_cell_angle_alpha   115.84020233
+_cell_angle_beta   112.33265686
+_cell_angle_gamma   87.88493347
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CeCu(SiPt)3
+_chemical_formula_sum   'Ce1 Si3 Cu1 Pt3'
+_cell_volume   133.35816660
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.53258693  0.23871155  0.18948320  1
+  Pt  Pt1  1  0.54367316  0.77746058  0.21111780  1
+  Ce  Ce2  1  0.84483862  0.79249758  0.81224930  1
+  Pt  Pt3  1  0.15240556  0.35754547  0.42316994  1
+  Cu  Cu4  1  0.96810192  0.42993718  0.06064743  1
+  Si  Si5  1  0.14914937  0.83725703  0.42717659  1
+  Si  Si6  1  0.73314804  0.19281544  0.58791125  1
+  Pt  Pt7  1  0.34014526  0.23700897  0.80111206  1

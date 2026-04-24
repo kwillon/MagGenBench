@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_SrCeCrCu2S7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.37794304
+_cell_length_b   7.51005220
+_cell_length_c   8.13299179
+_cell_angle_alpha   117.50138092
+_cell_angle_beta   101.78884125
+_cell_angle_gamma   90.96060944
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrCeCrCu2S7
+_chemical_formula_sum   'Sr1 Ce1 Cr1 Cu2 S7'
+_cell_volume   230.27320276
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.31947249  0.56433761  0.46474281  1
+  Cr  Cr1  1  0.77252620  0.61114490  0.82354373  1
+  S  S2  1  0.60521859  0.33053401  0.49676737  1
+  S  S3  1  0.23593313  0.71050459  0.75610328  1
+  Sr  Sr4  1  0.39785981  0.12735389  0.06550556  1
+  S  S5  1  0.29211998  0.49585316  0.87854683  1
+  S  S6  1  0.92646354  0.91815656  0.14277297  1
+  Cu  Cu7  1  0.69985205  0.66810161  0.16497643  1
+  Ce  Ce8  1  0.12155423  0.11370684  0.53395337  1
+  S  S9  1  0.73205876  0.06583484  0.75168103  1
+  S  S10  1  0.58203924  0.82509929  0.46073499  1
+  S  S11  1  0.96921360  0.42359444  0.18686701  1

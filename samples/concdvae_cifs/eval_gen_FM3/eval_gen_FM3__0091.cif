@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_La3NdSiPCClO10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.16651535
+_cell_length_b   6.26513863
+_cell_length_c   6.78707314
+_cell_angle_alpha   99.52815247
+_cell_angle_beta   92.41719818
+_cell_angle_gamma   94.95584106
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La3NdSiPCClO10
+_chemical_formula_sum   'La3 Nd1 Si1 P1 C1 Cl1 O10'
+_cell_volume   257.20221129
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.54983419  0.80074000  0.78004992  1
+  O  O1  1  0.23357064  0.68529785  0.23775844  1
+  O  O2  1  0.88079602  0.88618696  0.04145132  1
+  O  O3  1  0.11174293  0.22690605  0.80625272  1
+  P  P4  1  0.70292318  0.69541872  0.92254883  1
+  Nd  Nd5  1  0.72794276  0.19130978  0.91267550  1
+  Cl  Cl6  1  0.61561191  0.07930112  0.46362215  1
+  La  La7  1  0.19901589  0.65752661  0.87229514  1
+  C  C8  1  0.22891009  0.17357159  0.93031245  1
+  La  La9  1  0.61214328  0.58230978  0.41722864  1
+  O  O10  1  0.32940492  0.11108957  0.05538612  1
+  O  O11  1  0.27061054  0.45590156  0.51348495  1
+  O  O12  1  0.91857511  0.37411124  0.24783680  1
+  La  La13  1  0.10682198  0.07663042  0.38459095  1
+  O  O14  1  0.99468255  0.75527453  0.52679914  1
+  O  O15  1  0.57648057  0.55551600  0.03268089  1
+  Si  Si16  1  0.10256058  0.56857371  0.37688121  1
+  O  O17  1  0.80974865  0.52179122  0.77960014  1

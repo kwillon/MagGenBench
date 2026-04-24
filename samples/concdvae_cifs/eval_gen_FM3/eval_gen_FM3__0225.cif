@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_KLiLa2SiSbClO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.68432236
+_cell_length_b   5.92077112
+_cell_length_c   7.67493200
+_cell_angle_alpha   105.82780457
+_cell_angle_beta   101.65102386
+_cell_angle_gamma   90.97656250
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KLiLa2SiSbClO8
+_chemical_formula_sum   'K1 Li1 La2 Si1 Sb1 Cl1 O8'
+_cell_volume   242.67638312
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.08617662  0.55233032  0.15656990  1
+  La  La1  1  0.14389987  0.65822339  0.84595692  1
+  O  O2  1  0.44254854  0.99399960  0.02010395  1
+  K  K3  1  0.73036093  0.87502462  0.24666983  1
+  O  O4  1  0.42534861  0.69706267  0.64038014  1
+  O  O5  1  0.79131138  0.38719377  0.66903681  1
+  Si  Si6  1  0.65677226  0.55345833  0.54976600  1
+  Sb  Sb7  1  0.28003293  0.27565297  0.12402379  1
+  O  O8  1  0.40074170  0.39039311  0.93904233  1
+  Cl  Cl9  1  0.24508651  0.11014416  0.45874959  1
+  O  O10  1  0.86607200  0.76036763  0.58402324  1
+  O  O11  1  0.99193424  0.04965737  0.99633950  1
+  La  La12  1  0.65052146  0.10282082  0.79757148  1
+  O  O13  1  0.57936758  0.42332903  0.32232106  1
+  Li  Li14  1  0.14894536  0.72759038  0.43813938  1

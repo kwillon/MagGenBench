@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Dy2BiMoC2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.68144131
+_cell_length_b   4.71570063
+_cell_length_c   5.61347866
+_cell_angle_alpha   107.19186401
+_cell_angle_beta   106.60772705
+_cell_angle_gamma   95.26312256
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Dy2BiMoC2
+_chemical_formula_sum   'Dy2 Bi1 Mo1 C2'
+_cell_volume   111.32772793
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Bi  Bi0  1  0.43210208  0.90511549  0.83180130  1
+  C  C1  1  0.73039943  0.21037024  0.46324533  1
+  Dy  Dy2  1  0.67614824  0.64067882  0.32720253  1
+  Mo  Mo3  1  0.92481786  0.40254077  0.82552528  1
+  C  C4  1  0.12238831  0.59254140  0.19464549  1
+  Dy  Dy5  1  0.17562780  0.15170497  0.33100373  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_K3Tl2BiO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.19504166
+_cell_length_b   7.03065062
+_cell_length_c   7.14840364
+_cell_angle_alpha   73.87425995
+_cell_angle_beta   79.03137970
+_cell_angle_gamma   74.48773956
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K3Tl2BiO6
+_chemical_formula_sum   'K3 Tl2 Bi1 O6'
+_cell_volume   285.93296220
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tl  Tl0  1  0.79901969  0.24841167  0.66362053  1
+  O  O1  1  0.60769421  0.93544537  0.93630207  1
+  O  O2  1  0.11730967  0.16923240  0.88604146  1
+  O  O3  1  0.52336544  0.18357530  0.48041394  1
+  O  O4  1  0.17304261  0.93641901  0.51853549  1
+  O  O5  1  0.26643556  0.69238007  0.97245538  1
+  K  K6  1  0.31398439  0.24301359  0.15156424  1
+  K  K7  1  0.89366114  0.93500197  0.23463778  1
+  K  K8  1  0.47868723  0.62898099  0.29640043  1
+  O  O9  1  0.66535622  0.70534414  0.57869262  1
+  Bi  Bi10  1  0.39613158  0.93780863  0.72498119  1
+  Tl  Tl11  1  0.98422015  0.62792033  0.79392660  1

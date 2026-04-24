@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       AlGd2HGd
+_chemical_formula_sum              "Al1 Gd3 H1"
+_cell_length_a       4.814543136713022
+_cell_length_b       4.81400110481006
+_cell_length_c       4.817242622375488
+_cell_angle_alpha    89.99459299479518
+_cell_angle_beta     90.02235088492132
+_cell_angle_gamma    90.01448250615366
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.6649770736694336  0.0014161795843392608  0.5197063684463501  1.0000
+  Gd  Gd1       1.0  0.6645456552505493  0.501248300075531  0.01939290203154087  1.0000
+  Gd  Gd2       1.0  0.16470393538475037  0.0013176936190575361  0.01953444629907608  1.0000
+  H   H1        1.0  0.16435204446315765  0.501144528388977  0.01953224278986454  1.0000
+  Gd  Gd3       1.0  0.16480129957199097  0.5013605952262878  0.5195437073707581  1.0000

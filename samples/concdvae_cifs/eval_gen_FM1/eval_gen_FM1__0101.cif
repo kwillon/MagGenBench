@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_BaEu3(Ni2S5)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.61127806
+_cell_length_b   8.34068489
+_cell_length_c   9.41488934
+_cell_angle_alpha   116.89168549
+_cell_angle_beta   104.61827087
+_cell_angle_gamma   90.16479492
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaEu3(Ni2S5)2
+_chemical_formula_sum   'Ba1 Eu3 Ni4 S10'
+_cell_volume   376.75180989
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.20129985  0.01527259  0.10468574  1
+  S  S1  1  0.77136093  0.12673499  0.24806698  1
+  Eu  Eu2  1  0.74679649  0.47711092  0.25502598  1
+  S  S3  1  0.27466264  0.46516347  0.32646653  1
+  S  S4  1  0.25315803  0.68880260  0.74549425  1
+  S  S5  1  0.84811330  0.63997966  0.64598823  1
+  Ni  Ni6  1  0.61594224  0.33952728  0.83833504  1
+  S  S7  1  0.34702694  0.23238117  0.90263981  1
+  S  S8  1  0.89854848  0.18742812  0.89222109  1
+  Ni  Ni9  1  0.15603192  0.46820134  0.06481119  1
+  Eu  Eu10  1  0.99453187  0.29508513  0.62119472  1
+  Ni  Ni11  1  0.46269643  0.50457782  0.58084810  1
+  S  S12  1  0.45453417  0.22448581  0.55238944  1
+  Ni  Ni13  1  0.74160659  0.85169965  0.22144257  1
+  S  S14  1  0.39835298  0.73619115  0.21070257  1
+  Eu  Eu15  1  0.46673709  0.89078933  0.58885068  1
+  S  S16  1  0.84413391  0.61109900  0.99658281  1
+  S  S17  1  0.93697810  0.89215672  0.47321966  1

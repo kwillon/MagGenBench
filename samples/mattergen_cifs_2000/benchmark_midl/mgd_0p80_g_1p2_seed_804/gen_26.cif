@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       SbNaEuSb
+_chemical_formula_sum              "Sb2 Na1 Eu1"
+_cell_length_a       4.539774433847651
+_cell_length_b       4.962506256453611
+_cell_length_c       4.963022708892822
+_cell_angle_alpha    89.97589876577929
+_cell_angle_beta     89.99519405150977
+_cell_angle_gamma    89.95274442752198
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sb  Sb1       1.0  0.8151293992996216  0.9622721076011658  0.33930790424346924  1.0000
+  Na  Na1       1.0  0.31564441323280334  0.46219885349273687  0.33953750133514404  1.0000
+  Eu  Eu1       1.0  0.3151017427444458  0.9621813893318176  0.8394865989685059  1.0000
+  Sb  Sb2       1.0  0.815301239490509  0.46169510483741766  0.8394842743873596  1.0000

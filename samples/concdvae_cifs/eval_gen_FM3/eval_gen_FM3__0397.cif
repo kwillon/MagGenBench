@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_K2NaCoF6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.56325579
+_cell_length_b   5.53059816
+_cell_length_c   5.53187466
+_cell_angle_alpha   74.54257965
+_cell_angle_beta   65.89811707
+_cell_angle_gamma   71.93512726
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2NaCoF6
+_chemical_formula_sum   'K2 Na1 Co1 F6'
+_cell_volume   145.77667161
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.07673533  0.83808154  0.74611765  1
+  K  K1  1  0.82637346  0.58923388  0.49745828  1
+  F  F2  1  0.34422392  0.56734943  0.01854821  1
+  F  F3  1  0.80778813  0.56638557  0.02547044  1
+  K  K4  1  0.32197124  0.08626734  0.99433672  1
+  Co  Co5  1  0.57753003  0.33468732  0.25175762  1
+  F  F6  1  0.80191350  0.10532118  0.02156551  1
+  F  F7  1  0.34019911  0.10408951  0.47799155  1
+  F  F8  1  0.80805331  0.10700437  0.48067743  1
+  F  F9  1  0.34727317  0.57000679  0.47352603  1

@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Li3Ti5(NiS3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.91057301
+_cell_length_b   6.78956223
+_cell_length_c   6.77905941
+_cell_angle_alpha   62.09634018
+_cell_angle_beta   59.58300781
+_cell_angle_gamma   59.70952606
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li3Ti5(NiS3)2
+_chemical_formula_sum   'Li3 Ti5 Ni2 S6'
+_cell_volume   226.98624383
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.53486687  0.26993990  0.35421890  1
+  Li  Li1  1  0.72974330  0.81275481  0.59259909  1
+  Li  Li2  1  0.49904370  0.52191687  0.59014821  1
+  Ni  Ni3  1  0.15113848  0.89475363  0.45120248  1
+  S  S4  1  0.69678700  0.39491493  0.89243686  1
+  S  S5  1  0.89109260  0.25777200  0.35579872  1
+  S  S6  1  0.12270889  0.76431400  0.85558164  1
+  Ti  Ti7  1  0.12606616  0.18372661  0.60531157  1
+  Ti  Ti8  1  0.29776540  0.31833306  0.10156297  1
+  Ti  Ti9  1  0.48259619  0.73041850  0.10140231  1
+  Ti  Ti10  1  0.74244332  0.04035317  0.83562213  1
+  S  S11  1  0.16194372  0.59460789  0.36811653  1
+  S  S12  1  0.36948493  0.12811340  0.80197704  1
+  S  S13  1  0.54390025  0.93025148  0.30608663  1
+  Ti  Ti14  1  0.98672140  0.01417647  0.10482736  1
+  Li  Li15  1  0.00068471  0.50275934  0.85470051  1

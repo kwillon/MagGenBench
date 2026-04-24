@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LiYbU2VS3O4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.02237701
+_cell_length_b   5.09212160
+_cell_length_c   9.81680965
+_cell_angle_alpha   102.63752747
+_cell_angle_beta   97.20753479
+_cell_angle_gamma   105.16145325
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiYbU2VS3O4
+_chemical_formula_sum   'Li1 Yb1 U2 V1 S3 O4'
+_cell_volume   185.77497815
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.58605903  0.35388741  0.19084382  1
+  S  S1  1  0.27395129  0.72194582  0.42833290  1
+  O  O2  1  0.95725667  0.08379131  0.28791890  1
+  Yb  Yb3  1  0.54121137  0.26747605  0.41188911  1
+  S  S4  1  0.26932418  0.71706498  0.06896737  1
+  V  V5  1  0.78025901  0.73027855  0.25035381  1
+  O  O6  1  0.49749917  0.20679443  0.92221862  1
+  O  O7  1  0.82027370  0.84309381  0.82402807  1
+  U  U8  1  0.33849022  0.90664452  0.72246557  1
+  Li  Li9  1  0.57683849  0.50443971  0.84674859  1
+  S  S10  1  0.02869720  0.29552358  0.64969081  1
+  U  U11  1  0.99324280  0.15961032  0.05847453  1

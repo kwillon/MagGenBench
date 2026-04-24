@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_NaNbIrS3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.25627422
+_cell_length_b   6.26099062
+_cell_length_c   9.41285324
+_cell_angle_alpha   91.36806488
+_cell_angle_beta   91.60469055
+_cell_angle_gamma   97.75495911
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaNbIrS3
+_chemical_formula_sum   'Na2 Nb2 Ir2 S6'
+_cell_volume   248.34991572
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  1  0.79054034  0.81751955  0.61207688  1
+  Nb  Nb1  1  0.79797912  0.81200534  0.11233935  1
+  Ir  Ir2  1  0.27980566  0.75858885  0.86507905  1
+  S  S3  1  0.70922285  0.65548563  0.36190850  1
+  S  S4  1  0.43321705  0.07790888  0.55747503  1
+  S  S5  1  0.88625705  0.97765177  0.86337352  1
+  S  S6  1  0.13657553  0.54444569  0.66705871  1
+  Na  Na7  1  0.03878292  0.30293888  0.36361718  1
+  S  S8  1  0.43710098  0.08162752  0.17192832  1
+  Ir  Ir9  1  0.30585244  0.86543471  0.35953957  1
+  Na  Na10  1  0.54100960  0.32915366  0.85604709  1
+  S  S11  1  0.15887254  0.54037434  0.05934247  1

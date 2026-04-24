@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       LiFeO2MnOMgO
+_chemical_formula_sum              "Li1 Fe1 O4 Mn1 Mg1"
+_cell_length_a       4.322536071664598
+_cell_length_b       4.329551077381549
+_cell_length_c       5.189797878265381
+_cell_angle_alpha    114.58568436386876
+_cell_angle_beta     114.55089083174406
+_cell_angle_gamma    89.99577396726156
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.49603030085563665  0.20664983987808225  0.8779198527336121  1.0000
+  Fe  Fe1       1.0  0.7444488406181337  0.9579676985740662  0.3770858943462372  1.0000
+  O   O1        1.0  0.2270606905221939  0.9374257326126098  0.3409504890441894  1.0000
+  O   O2        1.0  0.7611067295074464  0.47064661979675293  0.4084658622741699  1.0000
+  Mn  Mn1       1.0  0.9945741891860963  0.7052845358848572  0.8751539587974548  1.0000
+  O   O3        1.0  0.9952315092086793  0.2063005566596985  0.8781250715255737  1.0000
+  Mg  Mg1       1.0  0.24460129439830783  0.45497044920921326  0.3754391670227051  1.0000
+  O   O4        1.0  0.4929241836071015  0.7039815187454224  0.8732998371124268  1.0000

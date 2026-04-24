@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_RbBaAlSiOF6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.51194048
+_cell_length_b   5.65944576
+_cell_length_c   6.51873970
+_cell_angle_alpha   111.62568665
+_cell_angle_beta   101.11695099
+_cell_angle_gamma   93.10715485
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbBaAlSiOF6
+_chemical_formula_sum   'Rb1 Ba1 Al1 Si1 O1 F6'
+_cell_volume   183.73113073
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.09314618  0.99827212  0.56079829  1
+  F  F1  1  0.88386130  0.69596058  0.15765797  1
+  Al  Al2  1  0.15436138  0.78896707  0.34442145  1
+  F  F3  1  0.78906196  0.06790246  0.83613420  1
+  F  F4  1  0.89381671  0.43601918  0.70990193  1
+  F  F5  1  0.26183432  0.52667636  0.42696902  1
+  Rb  Rb6  1  0.69944125  0.29646575  0.27027479  1
+  F  F7  1  0.38298768  0.86617529  0.23365971  1
+  Si  Si8  1  0.00880178  0.17518748  0.75105798  1
+  Ba  Ba9  1  0.48819590  0.67888272  0.84415007  1
+  F  F10  1  0.26944041  0.29084376  0.94921130  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_NaPuPaTe6S
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.24297619
+_cell_length_b   7.44228172
+_cell_length_c   8.40159512
+_cell_angle_alpha   116.66172028
+_cell_angle_beta   110.64353943
+_cell_angle_gamma   88.34868622
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaPuPaTe6S
+_chemical_formula_sum   'Na1 Pu1 Pa1 Te6 S1'
+_cell_volume   322.51958100
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pu  Pu0  1  0.71205258  0.85638267  0.42174363  1
+  Te  Te1  1  0.73344958  0.86891580  0.79828715  1
+  Te  Te2  1  0.19541308  0.65149474  0.38930050  1
+  Te  Te3  1  0.10247758  0.16562821  0.81359410  1
+  Te  Te4  1  0.48347935  0.26432157  0.55039245  1
+  Te  Te5  1  0.34790844  0.80680722  0.04121420  1
+  S  S6  1  0.93524629  0.04290569  0.31215459  1
+  Pa  Pa7  1  0.11010311  0.18318780  0.16827554  1
+  Na  Na8  1  0.98321891  0.46095920  0.64317530  1
+  Te  Te9  1  0.65774184  0.39223909  0.18887748  1

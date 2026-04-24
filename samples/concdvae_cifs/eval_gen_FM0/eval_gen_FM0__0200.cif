@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Sm2FeIr3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.22574759
+_cell_length_b   5.44874620
+_cell_length_c   5.20199013
+_cell_angle_alpha   61.76583862
+_cell_angle_beta   60.90525818
+_cell_angle_gamma   60.73120880
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sm2FeIr3
+_chemical_formula_sum   'Sm2 Fe1 Ir3'
+_cell_volume   107.39044990
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ir  Ir0  1  0.52746451  0.52454358  0.66103083  1
+  Fe  Fe1  1  0.01793943  0.53291458  0.65890360  1
+  Ir  Ir2  1  0.02481702  0.52905101  0.15911323  1
+  Sm  Sm3  1  0.65020102  0.15714271  0.28064355  1
+  Sm  Sm4  1  0.39880651  0.90568990  0.03850222  1
+  Ir  Ir5  1  0.02590664  0.02671790  0.66631937  1

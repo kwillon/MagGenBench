@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       FeMnFeZnFe2
+_chemical_formula_sum              "Fe4 Mn1 Zn1"
+_cell_length_a       4.72658089009298
+_cell_length_b       4.727925261870861
+_cell_length_c       4.728986740112305
+_cell_angle_alpha    59.97242494238283
+_cell_angle_beta     59.9738913743697
+_cell_angle_gamma    59.98268389202482
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.608279824256897  0.3621990978717804  0.5407059788703918  1.0000
+  Mn  Mn1       1.0  0.23288674652576458  0.9866625070571898  0.666849374771118  1.0000
+  Fe  Fe2       1.0  0.10669160634279251  0.3621612191200256  0.04227970913052559  1.0000
+  Zn  Zn1       1.0  0.9829999208450317  0.7366827726364135  0.41695258021354675  1.0000
+  Fe  Fe3       1.0  0.6083087921142578  0.8605307936668395  0.0423036590218544  1.0000
+  Fe  Fe4       1.0  0.6086226701736451  0.36204963922500605  0.04243635758757582  1.0000

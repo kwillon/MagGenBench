@@ -1,0 +1,51 @@
+# generated using pymatgen
+data_Li7Mn2Fe2(TeO6)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.26254511
+_cell_length_b   6.64067041
+_cell_length_c   8.65561404
+_cell_angle_alpha   108.18702913
+_cell_angle_beta   99.99159106
+_cell_angle_gamma   91.21225974
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li7Mn2Fe2(TeO6)2
+_chemical_formula_sum   'Li7 Mn2 Fe2 Te2 O12'
+_cell_volume   335.70288377
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.00000000  0.50000000  0.00000000  1
+  Li  Li1  1  0.50000000  0.00000000  0.50000000  1
+  Mn  Mn2  1  0.00000000  0.50000000  0.50000000  1
+  Fe  Fe3  1  0.99989814  0.23440325  0.26529160  1
+  Fe  Fe4  1  0.00010186  0.76559675  0.73470840  1
+  O  O5  1  0.28612224  0.72691629  0.39676353  1
+  O  O6  1  0.71387776  0.27308371  0.60323647  1
+  O  O7  1  0.35321698  0.67159110  0.07880059  1
+  O  O8  1  0.64678302  0.32840890  0.92119941  1
+  Li  Li9  1  0.47609900  0.98007515  0.24396105  1
+  Li  Li10  1  0.52390100  0.01992485  0.75603895  1
+  Te  Te11  1  0.49885096  0.00889744  0.24930844  1
+  Te  Te12  1  0.50114904  0.99110256  0.75069156  1
+  Li  Li13  1  0.49152628  0.25039204  0.23221148  1
+  Li  Li14  1  0.50847372  0.74960796  0.76778852  1
+  O  O15  1  0.52344099  0.77618995  0.45324677  1
+  O  O16  1  0.47655901  0.22381005  0.54675323  1
+  O  O17  1  0.73142184  0.76246888  0.25309837  1
+  O  O18  1  0.26857816  0.23753112  0.74690163  1
+  O  O19  1  0.87946992  0.75502008  0.20859378  1
+  O  O20  1  0.12053008  0.24497992  0.79140622  1
+  O  O21  1  0.94973646  0.47468458  0.75037466  1
+  O  O22  1  0.05026354  0.52531542  0.24962534  1
+  Li  Li23  1  0.98889726  0.23666170  0.83007761  1
+  Li  Li24  1  0.01110274  0.76333830  0.16992239  1

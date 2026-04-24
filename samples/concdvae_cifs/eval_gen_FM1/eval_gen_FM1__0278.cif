@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Dy2LuTh(CuP)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.46501160
+_cell_length_b   6.05547762
+_cell_length_c   6.86230278
+_cell_angle_alpha   94.14773560
+_cell_angle_beta   99.62309265
+_cell_angle_gamma   89.07862854
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Dy2LuTh(CuP)4
+_chemical_formula_sum   'Dy2 Lu1 Th1 Cu4 P4'
+_cell_volume   223.31215083
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.73098654  0.67514056  0.68748569  1
+  Dy  Dy1  1  0.48381233  0.42551923  0.18749835  1
+  Cu  Cu2  1  0.73026448  0.17670837  0.52468872  1
+  Cu  Cu3  1  0.48576692  0.92706174  0.02387635  1
+  Cu  Cu4  1  0.98458838  0.42739543  0.01956364  1
+  P  P5  1  0.48226717  0.92262179  0.35870206  1
+  Th  Th6  1  0.98717558  0.92494118  0.19075611  1
+  P  P7  1  0.23561403  0.66655308  0.85348892  1
+  Dy  Dy8  1  0.23445740  0.17513031  0.68816841  1
+  P  P9  1  0.98115194  0.42261639  0.35811892  1
+  Cu  Cu10  1  0.23388177  0.67370379  0.52477229  1
+  P  P11  1  0.72652155  0.17243543  0.85148978  1

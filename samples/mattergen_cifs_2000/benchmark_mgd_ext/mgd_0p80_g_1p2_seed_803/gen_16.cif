@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       CoGdCoB2Co
+_chemical_formula_sum              "Co3 Gd1 B2"
+_cell_length_a       3.009162290145028
+_cell_length_b       5.03524363271894
+_cell_length_c       5.03432035446167
+_cell_angle_alpha    120.07805792256522
+_cell_angle_beta     89.9644445413259
+_cell_angle_gamma    89.99318597470598
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.8702595233917236  0.2064945101737976  0.8848544955253601  1.0000
+  Gd  Gd1       1.0  0.3704318404197693  0.7065840363502502  0.384461134672165  1.0000
+  Co  Co2       1.0  0.8703047633171082  0.7068862915039062  0.8847764134407043  1.0000
+  B   B1        1.0  0.37041348218917847  0.039930880069732666  0.051356732845306396  1.0000
+  B   B2        1.0  0.37023937702178955  0.37333014607429504  0.7178152203559875  1.0000
+  Co  Co3       1.0  0.8704038858413696  0.20704834163188934  0.38423049449920654  1.0000

@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_KNa2(CuH2)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.18896341
+_cell_length_b   6.43191624
+_cell_length_c   6.76367474
+_cell_angle_alpha   83.25399017
+_cell_angle_beta   80.88061523
+_cell_angle_gamma   85.90442657
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KNa2(CuH2)4
+_chemical_formula_sum   'K1 Na2 Cu4 H8'
+_cell_volume   221.01994596
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.92281204  0.97983843  0.89642280  1
+  H  H1  1  0.98343098  0.84220934  0.45633751  1
+  Cu  Cu2  1  0.65678096  0.90246159  0.60515040  1
+  H  H3  1  0.00845433  0.39172301  0.61413294  1
+  H  H4  1  0.40252417  0.51340711  0.10911952  1
+  H  H5  1  0.68822467  0.09096998  0.03369867  1
+  H  H6  1  0.16511421  0.11061955  0.98012936  1
+  H  H7  1  0.02305960  0.71286601  0.88779700  1
+  H  H8  1  0.45616627  0.66868907  0.55936652  1
+  K  K9  1  0.86798710  0.41789439  0.23673816  1
+  Na  Na10  1  0.52028275  0.35382909  0.80827355  1
+  Cu  Cu11  1  0.13421357  0.09953420  0.56278634  1
+  Na  Na12  1  0.36571485  0.87278569  0.18319049  1
+  Cu  Cu13  1  0.11570977  0.66525537  0.63339049  1
+  H  H14  1  0.49557447  0.13847670  0.52297014  1

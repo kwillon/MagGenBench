@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_BaGdSO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.17243052
+_cell_length_b   4.74349499
+_cell_length_c   5.44033575
+_cell_angle_alpha   96.67777252
+_cell_angle_beta   90.59951782
+_cell_angle_gamma   89.53064728
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaGdSO2
+_chemical_formula_sum   'Ba1 Gd1 S1 O2'
+_cell_volume   106.93562502
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Gd  Gd0  1  0.43104169  0.61861396  0.66224658  1
+  O  O1  1  0.93409252  0.61297971  0.57828987  1
+  O  O2  1  0.42099538  0.11654397  0.57984340  1
+  Ba  Ba3  1  0.93630552  0.08736536  0.27724448  1
+  S  S4  1  0.42731807  0.58846623  0.12400062  1

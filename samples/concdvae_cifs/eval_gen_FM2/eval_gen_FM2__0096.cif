@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_KBaSrLa2FeTe2(ClO5)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.63851070
+_cell_length_b   7.48773766
+_cell_length_c   7.30815792
+_cell_angle_alpha   79.77819824
+_cell_angle_beta   87.39311981
+_cell_angle_gamma   85.85589600
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KBaSrLa2FeTe2(ClO5)2
+_chemical_formula_sum   'K1 Ba1 Sr1 La2 Fe1 Te2 Cl2 O10'
+_cell_volume   410.05431999
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.61096501  0.08694437  0.70777631  1
+  O  O1  1  0.00691210  0.51842839  0.89689487  1
+  O  O2  1  0.38863587  0.50767833  0.15123627  1
+  Te  Te3  1  0.14813873  0.11324809  0.55133265  1
+  Sr  Sr4  1  0.30241683  0.63658255  0.79250211  1
+  O  O5  1  0.22419085  0.87694293  0.02052563  1
+  La  La6  1  0.46795848  0.81617236  0.18810160  1
+  O  O7  1  0.61736798  0.76082206  0.88914967  1
+  K  K8  1  0.04872438  0.61324126  0.22589216  1
+  Cl  Cl9  1  0.67866081  0.52531272  0.53228247  1
+  O  O10  1  0.42340490  0.14933568  0.06338011  1
+  O  O11  1  0.31972724  0.91175640  0.50380170  1
+  O  O12  1  0.07555624  0.24401477  0.32768646  1
+  Fe  Fe13  1  0.77054662  0.56140697  0.84108078  1
+  O  O14  1  0.26594856  0.26862028  0.67809904  1
+  Cl  Cl15  1  0.79784787  0.95893526  0.29087222  1
+  Te  Te16  1  0.55562347  0.30144271  0.19205824  1
+  O  O17  1  0.71693563  0.33467203  0.97803432  1
+  O  O18  1  0.96563613  0.05820139  0.73225069  1
+  La  La19  1  0.06992887  0.18538107  0.00699249  1

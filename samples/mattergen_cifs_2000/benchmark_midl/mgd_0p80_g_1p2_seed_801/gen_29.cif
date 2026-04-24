@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       BCo4B
+_chemical_formula_sum              "B2 Co4"
+_cell_length_a       4.096980588294181
+_cell_length_b       4.0945276704496045
+_cell_length_c       4.100483417510986
+_cell_angle_alpha    105.5549518218683
+_cell_angle_beta     105.56592032233033
+_cell_angle_gamma    117.65152333450172
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  B   B1        1.0  0.299008548259735  0.9592159390449523  0.9657800793647766  1.0000
+  Co  Co1       1.0  0.8818695545196533  0.04118746146559715  0.13047488033771515  1.0000
+  Co  Co2       1.0  0.7173324823379517  0.5414804220199585  0.4656125009059906  1.0000
+  Co  Co3       1.0  0.3820671141147613  0.8771761655807494  0.4658570289611816  1.0000
+  Co  Co4       1.0  0.2175527364015579  0.3769560754299163  0.801841676235199  1.0000
+  B   B2        1.0  0.7998244762420654  0.4590728878974914  0.9661778211593628  1.0000

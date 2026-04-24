@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Ba2Nd4Ni2As2O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.29069376
+_cell_length_b   6.44666147
+_cell_length_c   7.35199785
+_cell_angle_alpha   96.43215942
+_cell_angle_beta   92.39469147
+_cell_angle_gamma   89.63744354
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2Nd4Ni2As2O5
+_chemical_formula_sum   'Ba2 Nd4 Ni2 As2 O5'
+_cell_volume   296.01676694
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.14965078  0.93457770  0.47228459  1
+  As  As1  1  0.00529465  0.19556284  0.02882402  1
+  Nd  Nd2  1  0.00896106  0.79413545  0.69505352  1
+  As  As3  1  0.46318895  0.52372831  0.12251896  1
+  O  O4  1  0.56164724  0.08265376  0.33783433  1
+  O  O5  1  0.30123872  0.51893330  0.66259569  1
+  Ba  Ba6  1  0.69327903  0.31778947  0.71326417  1
+  Nd  Nd7  1  0.49049684  0.77738488  0.48725203  1
+  Ba  Ba8  1  0.95946783  0.74158204  0.20428267  1
+  Nd  Nd9  1  0.19581564  0.27210653  0.41863340  1
+  O  O10  1  0.85198039  0.52555579  0.46177658  1
+  Ni  Ni11  1  0.23092978  0.42479551  0.88983256  1
+  Nd  Nd12  1  0.46942431  0.97944885  0.01179624  1
+  O  O13  1  0.65252042  0.89230043  0.74529570  1
+  Ni  Ni14  1  0.72083342  0.31780958  0.26859480  1

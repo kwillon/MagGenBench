@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       NdFe5
+_chemical_formula_sum              "Nd1 Fe5"
+_cell_length_a       3.9419085985080264
+_cell_length_b       5.139817724959815
+_cell_length_c       5.143553256988525
+_cell_angle_alpha    120.00768171696784
+_cell_angle_beta     89.9990326176297
+_cell_angle_gamma    89.98243525901437
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Nd  Nd1       1.0  0.4402434825897217  0.6798030138015747  0.9025096297264099  1.0000
+  Fe  Fe1       1.0  0.440930038690567  0.346525639295578  0.23561851680278778  1.0000
+  Fe  Fe2       1.0  0.4410853683948517  0.013990023173391819  0.5694617033004761  1.0000
+  Fe  Fe3       1.0  0.9407626986503601  0.1799393594264984  0.9026837944984436  1.0000
+  Fe  Fe4       1.0  0.9407011866569519  0.6801058053970337  0.40263062715530396  1.0000
+  Fe  Fe5       1.0  0.9406836032867432  0.17988575994968414  0.40245193243026733  1.0000

@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Na4NdGdFeO2F7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.58628554
+_cell_length_b   6.47280339
+_cell_length_c   7.49064778
+_cell_angle_alpha   90.04571331
+_cell_angle_beta   90.68912703
+_cell_angle_gamma   90.07594166
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na4NdGdFeO2F7
+_chemical_formula_sum   'Na4 Nd1 Gd1 Fe1 O2 F7'
+_cell_volume   270.83387489
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.34920311  0.63588118  0.01134590  1
+  O  O1  1  0.44242373  0.04105399  0.77181698  1
+  O  O2  1  0.45456859  0.87918062  0.21516452  1
+  F  F3  1  0.47240950  0.01483471  0.49882947  1
+  Fe  Fe4  1  0.48972278  0.98767767  0.49850929  1
+  F  F5  1  0.52100369  0.54467437  0.03303677  1
+  Na  Na6  1  0.51072285  0.00081064  0.49669725  1
+  Na  Na7  1  0.50994544  0.49311357  0.99541737  1
+  F  F8  1  0.55377008  0.57419094  0.76916048  1
+  Na  Na9  1  0.50892584  0.51293838  0.49260306  1
+  F  F10  1  0.88902952  0.53536837  0.98452501  1
+  F  F11  1  0.91910588  0.12640816  0.30495341  1
+  F  F12  1  0.96225636  0.00320356  0.99516192  1
+  F  F13  1  0.97852165  0.97575982  0.48134863  1
+  Gd  Gd14  1  0.01918082  0.97202603  0.99589456  1
+  Nd  Nd15  1  0.00515444  0.47457934  0.51867208  1

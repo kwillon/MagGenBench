@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_KLiPaF7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.36086893
+_cell_length_b   5.41212702
+_cell_length_c   5.43438196
+_cell_angle_alpha   114.35923767
+_cell_angle_beta   96.81561279
+_cell_angle_gamma   96.59261322
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KLiPaF7
+_chemical_formula_sum   'K1 Li1 Pa1 F7'
+_cell_volume   140.26349130
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.06283020  0.61535501  0.35864282  1
+  F  F1  1  0.84629947  0.65982485  0.76639611  1
+  F  F2  1  0.55079448  0.56505817  0.30365071  1
+  Pa  Pa3  1  0.83380210  0.90036732  0.54459196  1
+  K  K4  1  0.34894490  0.58929688  0.83711398  1
+  F  F5  1  0.05639693  0.11468767  0.39223260  1
+  Li  Li6  1  0.27964845  0.28463313  0.25119695  1
+  F  F7  1  0.60779566  0.10003681  0.79964072  1
+  F  F8  1  0.12005301  0.12269399  0.87781286  1
+  F  F9  1  0.56472933  0.04653678  0.31682220  1

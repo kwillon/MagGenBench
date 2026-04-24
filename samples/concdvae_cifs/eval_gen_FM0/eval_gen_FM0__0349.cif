@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Mg2BeFe2Ge
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.21214628
+_cell_length_b   5.00088358
+_cell_length_c   5.63250160
+_cell_angle_alpha   106.36559296
+_cell_angle_beta   90.25624084
+_cell_angle_gamma   95.44373322
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg2BeFe2Ge
+_chemical_formula_sum   'Mg2 Be1 Fe2 Ge1'
+_cell_volume   86.37455059
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.51240987  0.44572583  0.56899178  1
+  Be  Be1  1  0.50871128  0.88162231  0.37947270  1
+  Ge  Ge2  1  0.51219219  0.96407038  0.94248438  1
+  Fe  Fe3  1  0.01170085  0.96847367  0.62161994  1
+  Fe  Fe4  1  0.01412803  0.05721696  0.26684961  1
+  Mg  Mg5  1  0.00849377  0.49754781  0.07912180  1

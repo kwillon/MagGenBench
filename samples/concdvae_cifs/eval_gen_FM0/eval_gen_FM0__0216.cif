@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_TiBeAl2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.61511469
+_cell_length_b   5.30572414
+_cell_length_c   5.53210735
+_cell_angle_alpha   116.66522217
+_cell_angle_beta   88.29887390
+_cell_angle_gamma   88.32066345
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiBeAl2
+_chemical_formula_sum   'Ti2 Be2 Al4'
+_cell_volume   120.86365886
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.83409017  0.04332025  0.39759967  1
+  Be  Be1  1  0.83181542  0.03957367  0.89323902  1
+  Be  Be2  1  0.33458146  0.37060368  0.56675363  1
+  Ti  Ti3  1  0.82963765  0.53097385  0.39510074  1
+  Al  Al4  1  0.32973257  0.35922897  0.05667455  1
+  Al  Al5  1  0.32914290  0.86995149  0.56904739  1
+  Al  Al6  1  0.83130479  0.53007489  0.88664377  1
+  Ti  Ti7  1  0.32858443  0.87468016  0.05632260  1

@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       ScFe2MgFe2
+_chemical_formula_sum              "Sc1 Fe4 Mg1"
+_cell_length_a       4.867633518709462
+_cell_length_b       4.867238032563685
+_cell_length_c       4.867890357971191
+_cell_angle_alpha    60.041181686155404
+_cell_angle_beta     60.075045885331406
+_cell_angle_gamma    60.069704438559185
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sc  Sc1       1.0  0.8966584205627441  0.3686119616031647  0.6350346207618713  1.0000
+  Fe  Fe1       1.0  0.022205593064427376  0.9933673143386841  0.25972598791122437  1.0000
+  Fe  Fe2       1.0  0.5213490128517151  0.9935325384140015  0.26016128063201915  1.0000
+  Mg  Mg1       1.0  0.14638726413249972  0.6185158491134644  0.8847762942314148  1.0000
+  Fe  Fe3       1.0  0.52101069688797  0.993375599384308  0.7605625987052917  1.0000
+  Fe  Fe4       1.0  0.5209795832633972  0.49439805746078497  0.25963202118873585  1.0000

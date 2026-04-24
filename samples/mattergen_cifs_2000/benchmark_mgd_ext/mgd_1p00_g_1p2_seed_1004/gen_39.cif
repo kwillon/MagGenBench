@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       CoTaCo5Ta
+_chemical_formula_sum              "Co6 Ta2"
+_cell_length_a       4.145992279992769
+_cell_length_b       5.192629191430421
+_cell_length_c       5.189385890960693
+_cell_angle_alpha    120.05808963878152
+_cell_angle_beta     89.99877990063216
+_cell_angle_gamma    90.00428503332927
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.11689545214176178  0.19537155330181122  0.7617886066436768  1.0000
+  Ta  Ta1       1.0  0.1168021410703659  0.17876797914505005  0.2531810700893402  1.0000
+  Co  Co2       1.0  0.6168433427810669  0.8289706707000732  0.07833380997180939  1.0000
+  Co  Co3       1.0  0.11692848801612854  0.6703957915306091  0.761605203151703  1.0000
+  Co  Co4       1.0  0.116954505443573  0.6700628399848938  0.23641133308410645  1.0000
+  Co  Co5       1.0  0.616834819316864  0.35368987917900085  0.6031174063682556  1.0000
+  Co  Co6       1.0  0.6167252659797668  0.35379040241241455  0.07814578711986545  1.0000
+  Ta  Ta2       1.0  0.6169458627700806  0.8454352617263794  0.5865424275398256  1.0000

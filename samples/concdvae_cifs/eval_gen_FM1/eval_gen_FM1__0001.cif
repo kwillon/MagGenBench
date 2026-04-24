@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_EuSnS2I
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.27197361
+_cell_length_b   7.97040939
+_cell_length_c   8.73923492
+_cell_angle_alpha   91.68340302
+_cell_angle_beta   88.97908020
+_cell_angle_gamma   89.50450897
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   EuSnS2I
+_chemical_formula_sum   'Eu2 Sn2 S4 I2'
+_cell_volume   297.37735437
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  1  0.04735373  0.49896017  0.40549055  1
+  Eu  Eu1  1  0.55809826  0.54909164  0.02214362  1
+  Sn  Sn2  1  0.05670869  0.98988670  0.83137989  1
+  I  I3  1  0.04966279  0.06809384  0.50502133  1
+  S  S4  1  0.05233428  0.33544415  0.17392997  1
+  S  S5  1  0.54833132  0.67828673  0.33719361  1
+  Eu  Eu6  1  0.54915267  0.05676208  0.22367163  1
+  S  S7  1  0.05166399  0.83293498  0.07537352  1
+  S  S8  1  0.54830170  0.16736607  0.90072429  1
+  I  I9  1  0.05350938  0.58610964  0.73818213  1

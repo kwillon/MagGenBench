@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CsCuSiAs2O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.02048826
+_cell_length_b   5.97677803
+_cell_length_c   6.59752035
+_cell_angle_alpha   90.75921631
+_cell_angle_beta   93.17037201
+_cell_angle_gamma   89.95962524
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsCuSiAs2O7
+_chemical_formula_sum   'Cs1 Si1 Cu1 As2 O7'
+_cell_volume   197.64712171
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.05016373  0.45345378  0.48641622  1
+  O  O1  1  0.39514872  0.40051043  0.14259499  1
+  O  O2  1  0.94942224  0.68409556  0.11536287  1
+  As  As3  1  0.54420358  0.14687577  0.25416729  1
+  Cs  Cs4  1  0.55403960  0.67451590  0.69144732  1
+  Si  Si5  1  0.07172573  0.93026376  0.04981793  1
+  O  O6  1  0.38123885  0.92800844  0.14308593  1
+  O  O7  1  0.53330582  0.14778650  0.50716513  1
+  O  O8  1  0.04804499  0.95590168  0.82326311  1
+  O  O9  1  0.89544457  0.16782942  0.17124228  1
+  As  As10  1  0.06567948  0.44797677  0.23317412  1
+  Cu  Cu11  1  0.05947521  0.17532681  0.62755138  1

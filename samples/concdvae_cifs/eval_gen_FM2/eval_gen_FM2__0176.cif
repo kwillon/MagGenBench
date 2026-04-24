@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_EuBi3(ClO)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.35575485
+_cell_length_b   5.33424854
+_cell_length_c   10.05871201
+_cell_angle_alpha   108.32731628
+_cell_angle_beta   106.11922455
+_cell_angle_gamma   94.59722900
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   EuBi3(ClO)4
+_chemical_formula_sum   'Eu1 Bi3 Cl4 O4'
+_cell_volume   257.60991041
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Bi  Bi0  1  0.50023502  0.90453684  0.18204515  1
+  Cl  Cl1  1  0.76591277  0.16341335  0.72297055  1
+  Cl  Cl2  1  0.08832106  0.99213254  0.35606331  1
+  Cl  Cl3  1  0.58831471  0.48644188  0.35490030  1
+  Eu  Eu4  1  0.01223951  0.40504247  0.20504960  1
+  Cl  Cl5  1  0.26358700  0.66151094  0.71847248  1
+  Bi  Bi6  1  0.35771862  0.24857703  0.89958423  1
+  Bi  Bi7  1  0.85868943  0.75510049  0.90454477  1
+  O  O8  1  0.18432315  0.58137888  0.03882046  1
+  O  O9  1  0.18197875  0.07093336  0.04126839  1
+  O  O10  1  0.67703015  0.58197129  0.04432804  1
+  O  O11  1  0.67985374  0.06926338  0.04047047  1

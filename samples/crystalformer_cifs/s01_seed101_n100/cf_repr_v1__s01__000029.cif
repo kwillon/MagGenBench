@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_BaSrLiNdMnCoBiO7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.69721875
+_cell_length_b   5.53932628
+_cell_length_c   6.63606193
+_cell_angle_alpha   89.99634955
+_cell_angle_beta   90.55829315
+_cell_angle_gamma   91.05462490
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaSrLiNdMnCoBiO7
+_chemical_formula_sum   'Ba1 Sr1 Li1 Nd1 Mn1 Co1 Bi1 O7'
+_cell_volume   209.38042463
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.52067277  0.49432282  0.00993277  1
+  O  O1  1  0.98814120  0.49448212  0.50190711  1
+  O  O2  1  0.00993540  0.99927969  0.98831086  1
+  Co  Co3  1  0.00915817  0.99062638  0.00895165  1
+  O  O4  1  0.48516403  0.01991734  0.50280839  1
+  O  O5  1  0.49378800  0.00629432  0.49015119  1
+  O  O6  1  0.98096730  0.22003577  0.23951937  1
+  O  O7  1  0.48398180  0.99095091  0.48734641  1
+  Ba  Ba8  1  0.01057422  0.01406929  0.01676863  1
+  Mn  Mn9  1  0.49880024  0.50822404  0.98881718  1
+  Nd  Nd10  1  0.51232510  0.99078515  0.49718786  1
+  O  O11  1  0.49150950  0.98315101  0.00677925  1
+  Sr  Sr12  1  0.50870964  0.99455514  0.49657628  1
+  Bi  Bi13  1  0.49745373  0.02199579  0.50608317  1

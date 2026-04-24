@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CsRbLi2Cl6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.65006924
+_cell_length_b   7.60695696
+_cell_length_c   7.13463879
+_cell_angle_alpha   52.50651169
+_cell_angle_beta   55.98069000
+_cell_angle_gamma   53.26219559
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsRbLi2Cl6
+_chemical_formula_sum   'Cs1 Rb1 Li2 Cl6'
+_cell_volume   251.21864586
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.31894699  0.86484474  0.04164487  1
+  Li  Li1  1  0.07037099  0.61808866  0.79319543  1
+  Cl  Cl2  1  0.81759036  0.86831063  0.54391360  1
+  Rb  Rb3  1  0.81952959  0.37210539  0.53859216  1
+  Cl  Cl4  1  0.81694728  0.37058464  0.04363973  1
+  Cl  Cl5  1  0.31606284  0.87106562  0.54664779  1
+  Cl  Cl6  1  0.31269696  0.36927947  0.04719029  1
+  Cl  Cl7  1  0.31541142  0.37280151  0.54539043  1
+  Cl  Cl8  1  0.81409597  0.86971307  0.04630253  1
+  Li  Li9  1  0.56606150  0.12032709  0.29167590  1

@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       VNiCoVCoNi
+_chemical_formula_sum              "V2 Ni2 Co2"
+_cell_length_a       4.0724498115817935
+_cell_length_b       4.385835143024375
+_cell_length_c       4.378054618835449
+_cell_angle_alpha    120.29043724344356
+_cell_angle_beta     90.08884277076947
+_cell_angle_gamma    89.99554922190164
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  V   V1        1.0  0.41532960534095764  0.9467025399208068  0.35326603055000305  1.0000
+  Ni  Ni1       1.0  0.9161539673805237  0.29932719469070435  0.6577929258346558  1.0000
+  Co  Co1       1.0  0.4160007834434509  0.616074800491333  0.661501944065094  1.0000
+  V   V2        1.0  0.9159330725669861  0.9492892622947692  0.9528703689575195  1.0000
+  Co  Co2       1.0  0.915685772895813  0.6194199323654175  0.31620487570762634  1.0000
+  Ni  Ni2       1.0  0.41600021719932556  0.2965928316116333  0.998979926109314  1.0000

@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Gd2CuRh
+_chemical_formula_sum              "Gd2 Cu1 Rh1"
+_cell_length_a       4.91546429520981
+_cell_length_b       4.91438028323033
+_cell_length_c       4.918697834014893
+_cell_angle_alpha    60.0085388243561
+_cell_angle_beta     59.988664507494576
+_cell_angle_gamma    60.00088728922349
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Gd  Gd1       1.0  0.966210663318634  0.5176823139190674  0.033920641988515854  1.0000
+  Gd  Gd2       1.0  0.46610838174819946  0.017783813178539276  0.533610463142395  1.0000
+  Cu  Cu1       1.0  0.7161332368850708  0.2676410973072052  0.784024715423584  1.0000
+  Rh  Rh1       1.0  0.2162326723337173  0.7677010297775269  0.2837134301662446  1.0000

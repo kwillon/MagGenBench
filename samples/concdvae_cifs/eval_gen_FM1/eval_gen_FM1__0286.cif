@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Nb5Co(Cu2S5)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.60439205
+_cell_length_b   6.44056082
+_cell_length_c   9.86678600
+_cell_angle_alpha   103.05140686
+_cell_angle_beta   103.66468811
+_cell_angle_gamma   90.03717041
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nb5Co(Cu2S5)2
+_chemical_formula_sum   'Nb5 Co1 Cu4 S10'
+_cell_volume   336.57655586
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  1  0.79335594  0.83493561  0.22335804  1
+  S  S1  1  0.48458859  0.14824969  0.24312301  1
+  Nb  Nb2  1  0.77276736  0.54616588  0.84449369  1
+  S  S3  1  0.51515257  0.51596349  0.02103135  1
+  Cu  Cu4  1  0.39161268  0.63284755  0.60957700  1
+  Nb  Nb5  1  0.83458769  0.37622446  0.39380786  1
+  Cu  Cu6  1  0.38753662  0.52043056  0.23652124  1
+  S  S7  1  0.50844836  0.88517368  0.83953601  1
+  S  S8  1  0.01486491  0.59860444  0.62844163  1
+  Nb  Nb9  1  0.79435468  0.94627893  0.68718016  1
+  S  S10  1  0.98716515  0.86260337  0.98396522  1
+  Cu  Cu11  1  0.41872251  0.22218098  0.78987020  1
+  Cu  Cu12  1  0.35484639  0.89144468  0.04796963  1
+  S  S13  1  0.04409344  0.23549587  0.82644403  1
+  S  S14  1  0.00201568  0.49010259  0.17317495  1
+  Nb  Nb15  1  0.77232963  0.18904696  0.01964802  1
+  Co  Co16  1  0.35529500  0.05602607  0.43213615  1
+  S  S17  1  0.58018249  0.29573235  0.60475791  1
+  S  S18  1  0.55834854  0.75133753  0.43451285  1
+  S  S19  1  0.00849951  0.01703227  0.45496145  1

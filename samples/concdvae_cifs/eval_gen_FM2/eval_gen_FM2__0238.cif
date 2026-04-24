@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_CdCo3Cu(TeO6)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.91653061
+_cell_length_b   5.01233673
+_cell_length_c   9.93122101
+_cell_angle_alpha   88.36071777
+_cell_angle_beta   88.70207214
+_cell_angle_gamma   90.66436768
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CdCo3Cu(TeO6)2
+_chemical_formula_sum   'Cd1 Co3 Cu1 Te2 O12'
+_cell_volume   244.55684325
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.78202099  0.30307871  0.99940938  1
+  Co  Co1  1  0.55581796  0.58525956  0.32423747  1
+  Te  Te2  1  0.05854887  0.08512188  0.45654443  1
+  Co  Co3  1  0.55138850  0.08761191  0.14806975  1
+  Te  Te4  1  0.55294859  0.58864653  0.96258497  1
+  Cu  Cu5  1  0.05527708  0.58548939  0.17629039  1
+  Co  Co6  1  0.55795789  0.58423096  0.62672645  1
+  O  O7  1  0.83742899  0.26388788  0.60785055  1
+  O  O8  1  0.75815773  0.74659055  0.80922145  1
+  O  O9  1  0.74056411  0.77247506  0.14078091  1
+  O  O10  1  0.36367288  0.41102642  0.13485055  1
+  O  O11  1  0.83008701  0.26698482  0.29886717  1
+  O  O12  1  0.78873581  0.77449620  0.45980960  1
+  O  O13  1  0.34465581  0.43898839  0.81426227  1
+  O  O14  1  0.27471876  0.91017193  0.60474551  1
+  O  O15  1  0.32298097  0.87110764  0.99663770  1
+  O  O16  1  0.27871150  0.91539288  0.29872525  1
+  O  O17  1  0.32628325  0.40393978  0.45729378  1
+  Cd  Cd18  1  0.05381240  0.09251603  0.81408012  1

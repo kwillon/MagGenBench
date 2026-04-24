@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Eu4NaPbEu2
+_chemical_formula_sum              "Eu6 Na1 Pb1"
+_cell_length_a       6.0764453628814685
+_cell_length_b       7.540633041842877
+_cell_length_c       7.539578437805176
+_cell_angle_alpha    120.08332151783388
+_cell_angle_beta     89.97178016124954
+_cell_angle_gamma    89.98063891531852
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Eu  Eu1       1.0  0.15944470465183258  0.32505232095718384  0.10443156957626344  1.0000
+  Eu  Eu2       1.0  0.1588616669178009  0.8449634313583374  0.6238867044448853  1.0000
+  Eu  Eu3       1.0  0.6596341729164124  0.5052626729011536  0.9443281292915345  1.0000
+  Eu  Eu4       1.0  0.6592435240745544  0.5041014552116395  0.4442835748195649  1.0000
+  Na  Na1       1.0  0.15940594673156738  0.3383641839027405  0.611182689666748  1.0000
+  Pb  Pb1       1.0  0.6590691804885864  0.004838948603719474  0.9441736936569215  1.0000
+  Eu  Eu5       1.0  0.1589767187833786  0.8451116085052491  0.10455077886581422  1.0000
+  Eu  Eu6       1.0  0.6599312424659729  0.006381130777299405  0.44494828581810003  1.0000

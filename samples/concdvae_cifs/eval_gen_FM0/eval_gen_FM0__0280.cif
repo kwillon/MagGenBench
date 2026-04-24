@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Ca2Cr4P6W
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.82938766
+_cell_length_b   6.78877926
+_cell_length_c   8.95989513
+_cell_angle_alpha   105.73322296
+_cell_angle_beta   89.59500885
+_cell_angle_gamma   105.58566284
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca2Cr4P6W
+_chemical_formula_sum   'Ca2 Cr4 P6 W1'
+_cell_volume   215.41414362
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  W  W0  1  0.40648347  0.28680870  0.26584595  1
+  P  P1  1  0.04138690  0.54634601  0.26405713  1
+  Ca  Ca2  1  0.69289494  0.85829794  0.44262061  1
+  P  P3  1  0.38257736  0.24073531  0.51392055  1
+  Cr  Cr4  1  0.90187132  0.28143832  0.02212110  1
+  Cr  Cr5  1  0.33980435  0.16617195  0.72982764  1
+  P  P6  1  0.78576803  0.04552047  0.18519090  1
+  Cr  Cr7  1  0.96664059  0.40588605  0.51179886  1
+  Cr  Cr8  1  0.55511928  0.58595031  0.71798909  1
+  P  P9  1  0.48058814  0.43742236  0.92591304  1
+  Ca  Ca10  1  0.15847807  0.80157775  0.99423867  1
+  P  P11  1  0.75026208  0.97557992  0.79471445  1
+  P  P12  1  0.13650356  0.75365382  0.65997052  1

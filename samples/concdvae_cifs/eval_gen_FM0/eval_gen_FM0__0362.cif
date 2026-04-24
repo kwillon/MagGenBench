@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_MgIn3Pb2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.45455074
+_cell_length_b   4.97821856
+_cell_length_c   8.40012932
+_cell_angle_alpha   89.87602234
+_cell_angle_beta   90.01280975
+_cell_angle_gamma   105.10861206
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgIn3Pb2
+_chemical_formula_sum   'Mg1 In3 Pb2'
+_cell_volume   179.83952477
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pb  Pb0  1  0.32245868  0.09795333  0.20826492  1
+  In  In1  1  0.82556438  0.59677345  0.20456836  1
+  In  In2  1  0.32446963  0.09072071  0.80805683  1
+  Mg  Mg3  1  0.32897532  0.59200889  0.50242817  1
+  In  In4  1  0.82901663  0.09253763  0.50579166  1
+  Pb  Pb5  1  0.82892817  0.58768529  0.79519796  1

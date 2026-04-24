@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_K2BeSi2Ag2S7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.37151861
+_cell_length_b   6.75462055
+_cell_length_c   8.47583199
+_cell_angle_alpha   105.29439545
+_cell_angle_beta   105.22437286
+_cell_angle_gamma   104.04715729
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2BeSi2Ag2S7
+_chemical_formula_sum   'K2 Be1 Si2 Ag2 S7'
+_cell_volume   319.86578901
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  1  0.00871889  0.56922293  0.95614451  1
+  Si  Si1  1  0.44146055  0.57394636  0.72226477  1
+  K  K2  1  0.17374754  0.05349568  0.77377146  1
+  Si  Si3  1  0.20384768  0.11396141  0.29326922  1
+  S  S4  1  0.60072786  0.86654294  0.69355333  1
+  S  S5  1  0.13588043  0.32252014  0.15049374  1
+  K  K6  1  0.76808703  0.39179158  0.31050006  1
+  S  S7  1  0.10060046  0.51957887  0.68865341  1
+  S  S8  1  0.37172067  0.91321427  0.16689272  1
+  Ag  Ag9  1  0.37237126  0.69141829  0.37897408  1
+  S  S10  1  0.92974859  0.92304122  0.34214568  1
+  S  S11  1  0.46841323  0.28729305  0.54288697  1
+  Be  Be12  1  0.64481747  0.80727500  0.14128749  1
+  S  S13  1  0.61081088  0.53442556  0.96060693  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_ZrNb(CoO4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.84497309
+_cell_length_b   4.68604279
+_cell_length_c   7.54572105
+_cell_angle_alpha   105.56208038
+_cell_angle_beta   110.80548859
+_cell_angle_gamma   89.14812469
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZrNb(CoO4)2
+_chemical_formula_sum   'Zr1 Nb1 Co2 O8'
+_cell_volume   153.65757441
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.27413455  0.08621008  0.04426755  1
+  O  O1  1  0.48841220  0.80907273  0.88332558  1
+  Nb  Nb2  1  0.96065104  0.29644030  0.43176588  1
+  O  O3  1  0.04198261  0.98212284  0.21399970  1
+  O  O4  1  0.26826581  0.19373739  0.64598387  1
+  Zr  Zr5  1  0.57375008  0.90836298  0.65550858  1
+  O  O6  1  0.24587278  0.57667649  0.43765092  1
+  O  O7  1  0.89513522  0.23573160  0.89247781  1
+  O  O8  1  0.68120927  0.01935608  0.44109011  1
+  O  O9  1  0.86372179  0.59658694  0.63538122  1
+  O  O10  1  0.64010721  0.38719192  0.20788808  1
+  Co  Co11  1  0.76824611  0.60192961  0.05088093  1

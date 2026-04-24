@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_Li3CaEuMnCrFeCo3O10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.28921674
+_cell_length_b   5.58071860
+_cell_length_c   10.92312830
+_cell_angle_alpha   106.50600099
+_cell_angle_beta   98.75627263
+_cell_angle_gamma   98.46466547
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li3CaEuMnCrFeCo3O10
+_chemical_formula_sum   'Li3 Ca1 Eu1 Mn1 Cr1 Fe1 Co3 O10'
+_cell_volume   355.88731293
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.00067890  0.01061570  0.01472009  1
+  O  O1  1  0.00238819  0.48803971  0.50575524  1
+  O  O2  1  0.44209364  0.76255735  0.24628133  1
+  Mn  Mn3  1  0.49376982  0.99727516  0.75798350  1
+  Li  Li4  1  0.49829966  0.49269803  0.02550342  1
+  Co  Co5  1  0.50479947  0.00401703  0.50677682  1
+  Co  Co6  1  0.50678870  0.00522008  0.00994239  1
+  Co  Co7  1  0.50331574  0.98740901  0.49523477  1
+  O  O8  1  0.50416837  0.48904008  0.50212030  1
+  O  O9  1  0.49368959  0.01049002  0.99336235  1
+  Li  Li10  1  0.51931735  0.99717432  0.99446652  1
+  Ca  Ca11  1  0.98387048  0.00405078  0.00469335  1
+  O  O12  1  0.50346294  0.99871771  0.00950176  1
+  O  O13  1  0.50214531  0.00741978  0.49844969  1
+  O  O14  1  0.98977273  0.49831760  0.48522873  1
+  O  O15  1  0.49451348  0.98163140  0.00572524  1
+  O  O16  1  0.49923686  0.99176463  0.49879244  1
+  Cr  Cr17  1  0.99386726  0.01798584  0.48235430  1
+  Fe  Fe18  1  0.00154926  0.01266342  0.01312289  1
+  Eu  Eu19  1  0.00144676  0.51942787  0.00333635  1
+  O  O20  1  0.51225552  0.99615256  0.01830943  1

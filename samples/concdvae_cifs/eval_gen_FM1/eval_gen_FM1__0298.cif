@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Tb5CoCuNiP8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.66373539
+_cell_length_b   6.90095282
+_cell_length_c   8.09582806
+_cell_angle_alpha   109.95103455
+_cell_angle_beta   106.56735229
+_cell_angle_gamma   99.29808044
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb5CoCuNiP8
+_chemical_formula_sum   'Tb5 Co1 Cu1 Ni1 P8'
+_cell_volume   273.06729049
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.58696318  0.58422726  0.20678206  1
+  Tb  Tb1  1  0.04770166  0.74315470  0.97298592  1
+  Tb  Tb2  1  0.44777510  0.25226763  0.71124852  1
+  Cu  Cu3  1  0.83427095  0.92603850  0.58876950  1
+  Tb  Tb4  1  0.74512136  0.13080126  0.23177145  1
+  P  P5  1  0.95764244  0.34455270  0.67701334  1
+  P  P6  1  0.52589905  0.70505095  0.92316926  1
+  Ni  Ni7  1  0.29951525  0.23138921  0.30346644  1
+  P  P8  1  0.03892544  0.43629134  0.17127714  1
+  P  P9  1  0.43086991  0.94062704  0.37612256  1
+  P  P10  1  0.68115366  0.95664918  0.83582538  1
+  P  P11  1  0.06150275  0.93975097  0.37702698  1
+  P  P12  1  0.32193133  0.14663331  0.99633348  1
+  Tb  Tb13  1  0.23742083  0.65424407  0.54948473  1
+  Co  Co14  1  0.00007844  0.22930515  0.91336030  1
+  P  P15  1  0.69709498  0.50195217  0.53414154  1

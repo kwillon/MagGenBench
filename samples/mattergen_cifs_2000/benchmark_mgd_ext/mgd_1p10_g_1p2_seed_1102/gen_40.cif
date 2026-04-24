@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       EuAsHgEu
+_chemical_formula_sum              "Eu2 As1 Hg1"
+_cell_length_a       5.390579737587726
+_cell_length_b       5.391002689574014
+_cell_length_c       5.391385078430176
+_cell_angle_alpha    59.990347130159115
+_cell_angle_beta     60.00809655524916
+_cell_angle_gamma    59.99445640105369
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Eu  Eu1       1.0  0.04523090273141866  0.6135652065277098  0.5449808835983276  1.0000
+  As  As1       1.0  0.2952293455600738  0.8635868430137634  0.794765830039978  1.0000
+  Hg  Hg1       1.0  0.7953205704689026  0.36361587047576904  0.2948769629001617  1.0000
+  Eu  Eu2       1.0  0.5453504323959351  0.11377560347318648  0.044824521988630295  1.0000

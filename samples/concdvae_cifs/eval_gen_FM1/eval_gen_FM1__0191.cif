@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Eu2Th4ZnInSe10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.55183077
+_cell_length_b   8.09173012
+_cell_length_c   8.44893169
+_cell_angle_alpha   119.28967285
+_cell_angle_beta   89.61936951
+_cell_angle_gamma   89.85808563
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Eu2Th4ZnInSe10
+_chemical_formula_sum   'Eu2 Th4 Zn1 In1 Se10'
+_cell_volume   450.26832179
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.65640008  0.67632115  0.45036900  1
+  Th  Th1  1  0.41227186  0.40720680  0.52314329  1
+  Th  Th2  1  0.41036895  0.61624384  0.12534650  1
+  Eu  Eu3  1  0.40930432  0.01049379  0.73156828  1
+  Se  Se4  1  0.89765769  0.25703231  0.37695956  1
+  Se  Se5  1  0.41495293  0.26857525  0.13138953  1
+  Th  Th6  1  0.90267104  0.01012705  0.52676171  1
+  Eu  Eu7  1  0.90038776  0.61546612  0.73402178  1
+  Se  Se8  1  0.88997507  0.75490761  0.13388363  1
+  Zn  Zn9  1  0.65295875  0.01316291  0.12763785  1
+  In  In10  1  0.15756209  0.00747116  0.12492839  1
+  Se  Se11  1  0.41813749  0.75198245  0.86781645  1
+  Se  Se12  1  0.15378828  0.34685412  0.79993540  1
+  Se  Se13  1  0.89592898  0.01416561  0.87641793  1
+  Se  Se14  1  0.15341531  0.67322749  0.44761792  1
+  Se  Se15  1  0.41731387  0.01373949  0.37504035  1
+  Th  Th16  1  0.89975023  0.40212736  0.12289897  1
+  Se  Se17  1  0.65578115  0.33940122  0.79392904  1

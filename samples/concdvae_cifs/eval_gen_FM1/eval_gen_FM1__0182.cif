@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Cs2LiCuSbS4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.85757685
+_cell_length_b   6.89100742
+_cell_length_c   6.86333227
+_cell_angle_alpha   64.38491821
+_cell_angle_beta   61.98968124
+_cell_angle_gamma   60.40283203
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2LiCuSbS4
+_chemical_formula_sum   'Cs2 Li1 Cu1 Sb1 S4'
+_cell_volume   240.34707459
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.25988185  0.25576121  0.08102643  1
+  Cs  Cs1  1  0.42929089  0.59114641  0.42377958  1
+  Cu  Cu2  1  0.33109614  0.08823853  0.61334640  1
+  S  S3  1  0.84721577  0.76641679  0.91861415  1
+  S  S4  1  0.33788025  0.78161424  0.90401864  1
+  Li  Li5  1  0.93281800  0.00493876  0.96574539  1
+  S  S6  1  0.94373161  0.34046647  0.65318644  1
+  S  S7  1  0.73353082  0.01670517  0.36262318  1
+  Sb  Sb8  1  0.74063438  0.72132635  0.69873989  1

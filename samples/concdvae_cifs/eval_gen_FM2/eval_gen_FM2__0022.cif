@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_K2NaTe(ClO2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.30665731
+_cell_length_b   5.97956228
+_cell_length_c   6.28143167
+_cell_angle_alpha   107.95913696
+_cell_angle_beta   89.19379425
+_cell_angle_gamma   89.57723999
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2NaTe(ClO2)2
+_chemical_formula_sum   'K2 Na1 Te1 Cl2 O4'
+_cell_volume   189.57452344
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.80575609  0.11826610  0.21341276  1
+  K  K1  1  0.28905562  0.35152122  0.45844617  1
+  O  O2  1  0.58938223  0.16979462  0.76256800  1
+  Te  Te3  1  0.71480101  0.43949679  0.88496542  1
+  O  O4  1  0.62105715  0.60968041  0.71499068  1
+  O  O5  1  0.03610776  0.45449391  0.88343012  1
+  O  O6  1  0.57777363  0.56334293  0.15023999  1
+  Na  Na7  1  0.69738305  0.82456082  0.48170596  1
+  Cl  Cl8  1  0.16422187  0.83738363  0.48606569  1
+  K  K9  1  0.28036544  0.88692528  0.97717613  1

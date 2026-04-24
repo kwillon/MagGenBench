@@ -1,0 +1,43 @@
+ data_La1Mn1O3
+ loop_
+ _atom_type_symbol
+ _atom_type_electronegativity
+ _atom_type_radius
+ _atom_type_ionic_radius
+ La 1.1000 1.8700 1.1600
+Mn 1.5500 1.3900 0.8300
+O 3.4400 0.6000 1.2600
+ _symmetry_space_group_name_H-M Pnma
+_cell_length_a 5.5403
+_cell_length_b 7.5716
+_cell_length_c 5.4560
+_cell_angle_alpha 90.0000
+_cell_angle_beta 90.0000
+_cell_angle_gamma 90.0000
+_symmetry_Int_Tables_number 62
+_chemical_formula_structural LaMnO3
+_chemical_formula_sum 'La12 Mn12 O36'
+_cell_volume 229.8499
+_cell_formula_units_Z 12
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 'x, y, z'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+La La0 8 0.2474 0.5034 0.4143 1
+La La1 4 0.0091 0.7500 0.0029 1
+Mn Mn2 8 0.0012 0.6702 0.5007 1
+Mn Mn3 4 0.0000 0.0000 0.0000 1
+O O4 8 0.0187 0.6072 0.2568 1
+O O5 8 0.0228 0.1432 0.2246 1
+O O6 8 0.1717 0.5240 0.9138 1
+O O7 8 0.2482 0.1500 0.9264 1
+O O8 4 0.1710 0.7500 0.4099 1
+

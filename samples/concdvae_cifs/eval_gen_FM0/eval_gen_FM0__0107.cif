@@ -1,0 +1,29 @@
+# generated using pymatgen
+data_MgCdIn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.00225782
+_cell_length_b   4.00821686
+_cell_length_c   6.24050236
+_cell_angle_alpha   104.13874817
+_cell_angle_beta   102.25338745
+_cell_angle_gamma   109.79837036
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgCdIn
+_chemical_formula_sum   'Mg1 Cd1 In1'
+_cell_volume   86.43369090
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.19032179  0.95149100  0.19327626  1
+  Cd  Cd1  1  0.53248817  0.28897536  0.86783981  1
+  In  In2  1  0.85938299  0.61778820  0.52949685  1

@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_In2FeCoSb2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.11479187
+_cell_length_b   6.36248398
+_cell_length_c   6.80188560
+_cell_angle_alpha   105.48886108
+_cell_angle_beta   88.98622894
+_cell_angle_gamma   95.77264404
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   In2FeCoSb2
+_chemical_formula_sum   'In2 Fe1 Co1 Sb2'
+_cell_volume   129.23827390
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.29114267  0.45343885  0.21810800  1
+  Sb  Sb1  1  0.55831766  0.98753917  0.34256509  1
+  In  In2  1  0.58086574  0.02777465  0.86492544  1
+  Sb  Sb3  1  0.32995862  0.49649405  0.73621070  1
+  Co  Co4  1  0.94388139  0.74205863  0.03914011  1
+  Fe  Fe5  1  0.93939567  0.74592119  0.54990578  1

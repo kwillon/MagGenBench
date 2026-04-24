@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       YEr2OGa
+_chemical_formula_sum              "Y1 Er2 O1 Ga1"
+_cell_length_a       4.630440886479771
+_cell_length_b       4.631693450582204
+_cell_length_c       4.715522766113281
+_cell_angle_alpha    90.04638631664254
+_cell_angle_beta     90.03039001739282
+_cell_angle_gamma    90.0176926940134
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Y   Y1        1.0  0.6591410040855408  0.7787050008773804  0.9642944931983948  1.0000
+  Er  Er1       1.0  0.15926361083984375  0.7787047624588013  0.4641345739364624  1.0000
+  Er  Er2       1.0  0.6593567728996277  0.27869197726249695  0.4641316533088684  1.0000
+  O   O1        1.0  0.6593719124794006  0.7788218855857849  0.46412941813468933  1.0000
+  Ga  Ga1       1.0  0.15937922894954681  0.2786692976951599  0.9643083214759827  1.0000

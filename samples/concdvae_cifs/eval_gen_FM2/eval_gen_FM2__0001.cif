@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_LiMgScTlIn2Ag2BiCl4O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.55084896
+_cell_length_b   6.53394604
+_cell_length_c   10.74217033
+_cell_angle_alpha   95.09712219
+_cell_angle_beta   91.42066956
+_cell_angle_gamma   90.38578796
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiMgScTlIn2Ag2BiCl4O7
+_chemical_formula_sum   'Li1 Mg1 Sc1 Tl1 In2 Ag2 Bi1 Cl4 O7'
+_cell_volume   387.93161271
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.31760657  0.53291863  0.22794399  1
+  Cl  Cl1  1  0.47980869  0.11425467  0.74330884  1
+  Ag  Ag2  1  0.38875061  0.24279018  0.29162705  1
+  Cl  Cl3  1  0.97243756  0.70041764  0.83976853  1
+  O  O4  1  0.91392452  0.76981837  0.17956629  1
+  O  O5  1  0.42106867  0.89156002  0.01885170  1
+  Sc  Sc6  1  0.55393612  0.72059608  0.15927029  1
+  Mg  Mg7  1  0.07831690  0.91350281  0.05943611  1
+  O  O8  1  0.94683170  0.16287130  0.00775206  1
+  Tl  Tl9  1  0.97718209  0.25869197  0.62799233  1
+  O  O10  1  0.55482268  0.49893042  0.99773759  1
+  O  O11  1  0.94498926  0.92188847  0.50588554  1
+  O  O12  1  0.42693433  0.92789692  0.30790198  1
+  Bi  Bi13  1  0.46459892  0.66782957  0.83992553  1
+  Ag  Ag14  1  0.01405547  0.44795987  0.10498156  1
+  Cl  Cl15  1  0.41888186  0.60069048  0.54474664  1
+  Li  Li16  1  0.62809539  0.90040153  0.46341687  1
+  In  In17  1  0.58599877  0.18763053  0.99491602  1
+  Cl  Cl18  1  0.87146360  0.37309587  0.36035854  1
+  In  In19  1  0.12201770  0.74964005  0.36007658  1

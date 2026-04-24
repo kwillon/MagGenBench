@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_YMgSc3Co
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.02396202
+_cell_length_b   5.99355364
+_cell_length_c   5.71658516
+_cell_angle_alpha   59.04062653
+_cell_angle_beta   58.48210907
+_cell_angle_gamma   58.00973892
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YMgSc3Co
+_chemical_formula_sum   'Y1 Mg1 Sc3 Co1'
+_cell_volume   140.94925403
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.48362657  0.41841945  0.16417472  1
+  Mg  Mg1  1  0.49032512  0.92161727  0.16418120  1
+  Co  Co2  1  0.98710972  0.41915590  0.16351122  1
+  Y  Y3  1  0.10626023  0.04482258  0.78834844  1
+  Sc  Sc4  1  0.86928785  0.78663015  0.53946400  1
+  Sc  Sc5  1  0.49091512  0.41504940  0.66343749  1

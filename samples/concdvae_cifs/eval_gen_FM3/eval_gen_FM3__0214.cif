@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_KLiBeMoO4F
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.41011095
+_cell_length_b   5.20785761
+_cell_length_c   5.42837477
+_cell_angle_alpha   111.71841431
+_cell_angle_beta   96.10404968
+_cell_angle_gamma   109.95782471
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KLiBeMoO4F
+_chemical_formula_sum   'K1 Li1 Be1 Mo1 O4 F1'
+_cell_volume   128.72775205
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.09674951  0.32078847  0.10643379  1
+  O  O1  1  0.89508748  0.36220178  0.64719254  1
+  Li  Li2  1  0.78064996  0.09517034  0.28052351  1
+  Be  Be3  1  0.34397244  0.24380483  0.00727748  1
+  Mo  Mo4  1  0.01304764  0.57541841  0.99151772  1
+  O  O5  1  0.69534469  0.61793292  0.12000754  1
+  K  K6  1  0.56233680  0.67447710  0.62486660  1
+  O  O7  1  0.36966118  0.00491930  0.10084505  1
+  F  F8  1  0.24620877  0.06078614  0.68748415  1

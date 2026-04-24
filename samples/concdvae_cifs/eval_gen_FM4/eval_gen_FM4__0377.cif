@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_KRbUAlSiO7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.83864689
+_cell_length_b   6.41142035
+_cell_length_c   6.42907524
+_cell_angle_alpha   121.31062317
+_cell_angle_beta   92.20177460
+_cell_angle_gamma   91.86452484
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KRbUAlSiO7
+_chemical_formula_sum   'K1 Rb1 U1 Al1 Si1 O7'
+_cell_volume   205.07542612
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.40564749  0.88289630  0.35572729  1
+  O  O1  1  0.08352157  0.11164655  0.91313523  1
+  O  O2  1  0.99635345  0.60115647  0.33278698  1
+  O  O3  1  0.84327459  0.40299344  0.83262837  1
+  Si  Si4  1  0.05284858  0.43960270  0.04626800  1
+  U  U5  1  0.89521444  0.98943722  0.55551726  1
+  K  K6  1  0.36901188  0.57653654  0.69372207  1
+  O  O7  1  0.28435472  0.60494405  0.08369498  1
+  Rb  Rb8  1  0.58936894  0.25889301  0.10151909  1
+  O  O9  1  0.19879735  0.09020942  0.48162284  1
+  O  O10  1  0.63575149  0.00375658  0.31226921  1
+  O  O11  1  0.57287532  0.83522493  0.56421286  1

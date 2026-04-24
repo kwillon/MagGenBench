@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LiFe(CuO)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.02757394
+_cell_length_b   5.35920144
+_cell_length_c   9.11671199
+_cell_angle_alpha   83.46826336
+_cell_angle_beta   82.29938871
+_cell_angle_gamma   76.70201782
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiFe(CuO)2
+_chemical_formula_sum   'Li2 Fe2 Cu4 O4'
+_cell_volume   142.12920076
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.50000000  0.50000000  0.00000000  1
+  Cu  Cu1  1  0.50000000  0.00000000  0.50000000  1
+  O  O2  1  0.50369509  0.51497404  0.15223388  1
+  O  O3  1  0.49630491  0.48502596  0.84776612  1
+  O  O4  1  0.94778281  0.19773035  0.41902161  1
+  O  O5  1  0.05221719  0.80226965  0.58097839  1
+  Li  Li6  1  0.97863182  0.13804805  0.73429281  1
+  Li  Li7  1  0.02136818  0.86195195  0.26570719  1
+  Fe  Fe8  1  0.99526238  0.50274345  0.75102045  1
+  Fe  Fe9  1  0.00473762  0.49725655  0.24897955  1
+  Cu  Cu10  1  0.99570803  0.00245894  0.75647884  1
+  Cu  Cu11  1  0.00429197  0.99754106  0.24352116  1

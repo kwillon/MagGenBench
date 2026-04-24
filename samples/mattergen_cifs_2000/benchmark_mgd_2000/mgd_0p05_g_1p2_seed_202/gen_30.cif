@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       EuSeAg2Se3Sn
+_chemical_formula_sum              "Eu1 Se4 Ag2 Sn1"
+_cell_length_a       6.584916121774387
+_cell_length_b       6.587351450522221
+_cell_length_c       6.594152450561523
+_cell_angle_alpha    105.2406391209371
+_cell_angle_beta     110.25715446304619
+_cell_angle_gamma    113.15492619097331
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Eu  Eu1       1.0  0.09138285368680954  0.313997358083725  0.23796017467975614  1.0000
+  Se  Se1       1.0  0.09922868013381958  0.20585469901561737  0.7271856665611267  1.0000
+  Ag  Ag1       1.0  0.5918530821800232  0.5022903680801392  0.9260610342025756  1.0000
+  Ag  Ag2       1.0  0.5912955403327942  0.1282275766134262  0.551860511302948  1.0000
+  Se  Se2       1.0  0.6893618702888489  0.42314130067825323  0.3544743061065674  1.0000
+  Se  Se3       1.0  0.08375862240791329  0.795782506465912  0.1213345676660538  1.0000
+  Se  Se4       1.0  0.4929337203502656  0.8323541879653932  0.7477895617485046  1.0000
+  Sn  Sn1       1.0  0.0914386734366417  0.8146920204162598  0.7376503348350525  1.0000

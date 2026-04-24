@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_ZrNb3AlInO12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.93431616
+_cell_length_b   5.94996691
+_cell_length_c   8.08609676
+_cell_angle_alpha   88.88574219
+_cell_angle_beta   90.60030365
+_cell_angle_gamma   87.86532593
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZrNb3AlInO12
+_chemical_formula_sum   'Zr1 Nb3 Al1 In1 O12'
+_cell_volume   237.17534466
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  1  0.41796836  0.50400341  0.36866397  1
+  Al  Al1  1  0.41425133  0.83257806  0.04011260  1
+  O  O2  1  0.61135018  0.83991170  0.82421321  1
+  Zr  Zr3  1  0.91195947  0.99885994  0.36398718  1
+  Nb  Nb4  1  0.92200613  0.32607168  0.03545914  1
+  Nb  Nb5  1  0.91483676  0.67198616  0.71590441  1
+  O  O6  1  0.21258226  0.11703118  0.95701712  1
+  O  O7  1  0.70590085  0.04152762  0.12683427  1
+  O  O8  1  0.61019337  0.54594404  0.14077289  1
+  O  O9  1  0.60063493  0.21590137  0.45649394  1
+  In  In10  1  0.41646752  0.15877339  0.70498925  1
+  O  O11  1  0.20925072  0.48075539  0.59460652  1
+  O  O12  1  0.10865150  0.31368902  0.26627541  1
+  O  O13  1  0.24223103  0.79768264  0.25763577  1
+  O  O14  1  0.12427475  0.63391525  0.93848741  1
+  O  O15  1  0.08650005  0.95007336  0.60696709  1
+  O  O16  1  0.73900038  0.36776534  0.81296337  1
+  O  O17  1  0.70895386  0.69501811  0.48092926  1

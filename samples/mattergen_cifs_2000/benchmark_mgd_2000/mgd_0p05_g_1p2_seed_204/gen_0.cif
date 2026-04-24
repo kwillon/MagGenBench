@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       CrFe3HfFe
+_chemical_formula_sum              "Cr1 Fe4 Hf1"
+_cell_length_a       4.8351226287842355
+_cell_length_b       4.8351319613888615
+_cell_length_c       4.836116790771484
+_cell_angle_alpha    59.99104674849731
+_cell_angle_beta     60.03116673223155
+_cell_angle_gamma    59.98928395401552
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.11167165637016299  0.4424977600574493  0.40049672126770025  1.0000
+  Fe  Fe1       1.0  0.7369449138641357  0.06767696142196655  0.026253180578351066  1.0000
+  Fe  Fe2       1.0  0.2347690910100937  0.06774020940065384  0.02610965631902218  1.0000
+  Fe  Fe3       1.0  0.7369675040245056  0.5655120611190796  0.0262245312333107  1.0000
+  Hf  Hf1       1.0  0.36140346527099615  0.6921098828315734  0.6505429744720459  1.0000
+  Fe  Fe4       1.0  0.7367877960205078  0.06761344522237776  0.5243327021598816  1.0000

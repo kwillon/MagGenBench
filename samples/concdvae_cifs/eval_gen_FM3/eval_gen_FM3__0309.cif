@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_YAlTlSiNi(O2F3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.16152573
+_cell_length_b   5.19516945
+_cell_length_c   7.86213636
+_cell_angle_alpha   88.30986023
+_cell_angle_beta   90.79454803
+_cell_angle_gamma   97.24984741
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YAlTlSiNi(O2F3)2
+_chemical_formula_sum   'Y1 Al1 Tl1 Si1 Ni1 O4 F6'
+_cell_volume   209.03579471
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.14362095  0.20081826  0.93448436  1
+  F  F1  1  0.33490738  0.49282825  0.27202109  1
+  Ni  Ni2  1  0.69334036  0.62247378  0.24167392  1
+  O  O3  1  0.71170485  0.13027713  0.72413683  1
+  Tl  Tl4  1  0.35009611  0.57117897  0.67462409  1
+  Y  Y5  1  0.30318260  0.07711905  0.20471050  1
+  Al  Al6  1  0.82096219  0.01297770  0.93890405  1
+  F  F7  1  0.90420884  0.72829092  0.81590003  1
+  F  F8  1  0.50649178  0.82025182  0.01174189  1
+  Si  Si9  1  0.77900529  0.14036445  0.51673251  1
+  O  O10  1  0.94741887  0.85897022  0.13890190  1
+  O  O11  1  0.81465089  0.43178120  0.44285777  1
+  F  F12  1  0.69340670  0.28351215  0.07402234  1
+  F  F13  1  0.08375879  0.03919113  0.48811224  1
+  O  O14  1  0.59241074  0.94564086  0.39688849  1

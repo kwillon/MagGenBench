@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_CaCe3AlBO9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.99733877
+_cell_length_b   4.92195606
+_cell_length_c   7.78235579
+_cell_angle_alpha   94.23420715
+_cell_angle_beta   96.85176086
+_cell_angle_gamma   90.14717102
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaCe3AlBO9
+_chemical_formula_sum   'Ca1 Ce3 Al1 B1 O9'
+_cell_volume   189.52178534
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.40274218  0.30286571  0.27638772  1
+  O  O1  1  0.57207030  0.32281724  0.75535506  1
+  O  O2  1  0.99608141  0.27534163  0.56464851  1
+  O  O3  1  0.38738915  0.64587665  0.06836654  1
+  Ca  Ca4  1  0.84584701  0.62403470  0.95919293  1
+  Ce  Ce5  1  0.37034884  0.10311440  0.95923549  1
+  Ce  Ce6  1  0.33643195  0.59848791  0.58909231  1
+  B  B7  1  0.30130005  0.55465317  0.21533650  1
+  O  O8  1  0.57132304  0.84456319  0.78569156  1
+  O  O9  1  0.06827135  0.85401624  0.75979638  1
+  O  O10  1  0.06354816  0.66703141  0.28374797  1
+  O  O11  1  0.87702358  0.14190780  0.04989787  1
+  O  O12  1  0.64334607  0.88214278  0.48099688  1
+  Al  Al13  1  0.77986747  0.04207321  0.67223823  1
+  Ce  Ce14  1  0.89258021  0.14039311  0.31606394  1

@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       InEu2Nd
+_chemical_formula_sum              "In1 Eu2 Nd1"
+_cell_length_a       4.999742994502562
+_cell_length_b       4.996657857615536
+_cell_length_c       5.2757673263549805
+_cell_angle_alpha    89.99651227786647
+_cell_angle_beta     90.003574693545
+_cell_angle_gamma    90.01378582643814
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  In  In1       1.0  0.4046139419078827  0.14450164139270782  0.137335404753685  1.0000
+  Eu  Eu1       1.0  0.4046383798122406  0.6445840001106262  0.6372484564781189  1.0000
+  Eu  Eu2       1.0  0.9045285582542419  0.14434380829334256  0.6372777223587036  1.0000
+  Nd  Nd1       1.0  0.9045462608337402  0.6441134810447693  0.1373182237148285  1.0000

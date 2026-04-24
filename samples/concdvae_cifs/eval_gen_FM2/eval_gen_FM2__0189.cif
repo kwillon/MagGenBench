@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_CsBa2NaLiLaTiNb2S11
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.62232876
+_cell_length_b   7.59580612
+_cell_length_c   14.30538082
+_cell_angle_alpha   98.16169739
+_cell_angle_beta   93.55138397
+_cell_angle_gamma   90.82212830
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsBa2NaLiLaTiNb2S11
+_chemical_formula_sum   'Cs1 Ba2 Na1 Li1 La1 Ti1 Nb2 S11'
+_cell_volume   496.08820868
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.51711696  0.06247265  0.08821939  1
+  S  S1  1  0.01849282  0.60206264  0.35826877  1
+  S  S2  1  0.51746452  0.45310599  0.50591493  1
+  S  S3  1  0.52231461  0.38117072  0.16131730  1
+  Na  Na4  1  0.02242990  0.24449462  0.25787967  1
+  Nb  Nb5  1  0.01450281  0.45347565  0.51374066  1
+  Cs  Cs6  1  0.52421969  0.32867065  0.88344455  1
+  S  S7  1  0.03079339  0.47709021  0.71134126  1
+  S  S8  1  0.02494196  0.80695486  0.56393278  1
+  Ba  Ba9  1  0.53412175  0.76051748  0.71659154  1
+  La  La10  1  0.52375948  0.85115880  0.42526504  1
+  Li  Li11  1  0.02337906  0.90053666  0.92646706  1
+  S  S12  1  0.52336085  0.79180402  0.96538025  1
+  Nb  Nb13  1  0.02111553  0.16327241  0.61947078  1
+  S  S14  1  0.03405865  0.03053333  0.77737308  1
+  S  S15  1  0.53020328  0.17549179  0.59676474  1
+  S  S16  1  0.52144670  0.92279798  0.22682533  1
+  S  S17  1  0.01542642  0.12399188  0.42778251  1
+  S  S18  1  0.01780495  0.11937679  0.05188329  1
+  Ba  Ba19  1  0.02094061  0.66223228  0.12866212  1

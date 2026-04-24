@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_LaYCl2O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.39378548
+_cell_length_b   3.58792663
+_cell_length_c   9.99032974
+_cell_angle_alpha   90.21849060
+_cell_angle_beta   90.75727081
+_cell_angle_gamma   89.42236328
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaYCl2O
+_chemical_formula_sum   'La1 Y1 Cl2 O1'
+_cell_volume   121.63115091
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.24183030  0.10253883  0.68419439  1
+  Y  Y1  1  0.72753584  0.60431612  0.37116033  1
+  Cl  Cl2  1  0.74318117  0.60502350  0.86173463  1
+  O  O3  1  0.23380533  0.60469127  0.52546579  1
+  Cl  Cl4  1  0.23528080  0.09862235  0.21855852  1

@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_RbBaCaGdGe2ClO7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.60327148
+_cell_length_b   5.73242903
+_cell_length_c   10.35199165
+_cell_angle_alpha   79.14604187
+_cell_angle_beta   80.50267029
+_cell_angle_gamma   68.81076050
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbBaCaGdGe2ClO7
+_chemical_formula_sum   'Rb1 Ba1 Ca1 Gd1 Ge2 Cl1 O7'
+_cell_volume   302.77201183
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.15266544  0.25487125  0.67253482  1
+  O  O1  1  0.69814742  0.32929721  0.29412258  1
+  O  O2  1  0.49592248  0.03886011  0.61902559  1
+  O  O3  1  0.24635497  0.83853579  0.29347807  1
+  Gd  Gd4  1  0.88015497  0.96102482  0.44884035  1
+  Ca  Ca5  1  0.52553874  0.59553927  0.59932840  1
+  O  O6  1  0.71065480  0.73210436  0.39335427  1
+  Ba  Ba7  1  0.78516102  0.86110437  0.84494174  1
+  O  O8  1  0.93107402  0.19114614  0.60343081  1
+  Cl  Cl9  1  0.45865166  0.51606011  0.87470925  1
+  Ge  Ge10  1  0.59460765  0.67844111  0.26482007  1
+  O  O11  1  0.72208369  0.81083632  0.10206285  1
+  O  O12  1  0.09637903  0.59338355  0.60999322  1
+  Rb  Rb13  1  0.24660540  0.35913867  0.19023314  1

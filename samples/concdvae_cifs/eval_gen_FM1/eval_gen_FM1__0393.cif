@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_RbGe3PN4O3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.59801292
+_cell_length_b   5.54544497
+_cell_length_c   6.37342119
+_cell_angle_alpha   88.63317108
+_cell_angle_beta   90.67929077
+_cell_angle_gamma   90.99597931
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbGe3PN4O3
+_chemical_formula_sum   'Rb1 Ge3 P1 N4 O3'
+_cell_volume   197.75399157
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  N  N0  1  0.21386591  0.52645028  0.19239686  1
+  N  N1  1  0.62370700  0.55264390  0.94723034  1
+  Ge  Ge2  1  0.73137683  0.12773848  0.43832198  1
+  O  O3  1  0.01287818  0.94715655  0.41957900  1
+  Ge  Ge4  1  0.08783395  0.60802263  0.42870131  1
+  O  O5  1  0.28063038  0.53027254  0.63914931  1
+  N  N6  1  0.57990789  0.15093698  0.20717572  1
+  O  O7  1  0.57629591  0.95732039  0.64376795  1
+  N  N8  1  0.80519122  0.44641826  0.52699083  1
+  Ge  Ge9  1  0.57275450  0.61288446  0.68687963  1
+  P  P10  1  0.46588364  0.41721261  0.11804743  1
+  Rb  Rb11  1  0.06588057  0.05185099  0.92247337  1

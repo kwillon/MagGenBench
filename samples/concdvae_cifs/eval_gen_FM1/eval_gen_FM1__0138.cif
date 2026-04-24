@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Ti3Cr2Rh5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.39556837
+_cell_length_b   5.54941893
+_cell_length_c   6.75909042
+_cell_angle_alpha   111.15878296
+_cell_angle_beta   102.93807983
+_cell_angle_gamma   92.34061432
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti3Cr2Rh5
+_chemical_formula_sum   'Ti3 Cr2 Rh5'
+_cell_volume   148.50635484
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.91137600  0.68396401  0.85430378  1
+  Rh  Rh1  1  0.31536868  0.78895873  0.66109568  1
+  Ti  Ti2  1  0.11339621  0.47673538  0.25818664  1
+  Rh  Rh3  1  0.71168280  0.37976995  0.46286988  1
+  Rh  Rh4  1  0.91515976  0.18383408  0.85847694  1
+  Ti  Ti5  1  0.70864630  0.88529736  0.46113387  1
+  Rh  Rh6  1  0.50583434  0.57914931  0.05547598  1
+  Cr  Cr7  1  0.31685695  0.28192517  0.65582359  1
+  Rh  Rh8  1  0.11412081  0.98284423  0.25808915  1
+  Cr  Cr9  1  0.51388443  0.08308615  0.06077887  1

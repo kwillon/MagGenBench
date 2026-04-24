@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_RbCaHg2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.54255724
+_cell_length_b   5.57935667
+_cell_length_c   5.37833071
+_cell_angle_alpha   74.73705292
+_cell_angle_beta   69.56689453
+_cell_angle_gamma   69.38068390
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbCaHg2
+_chemical_formula_sum   'Rb1 Ca1 Hg2'
+_cell_volume   143.99171808
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hg  Hg0  1  0.99968910  0.93830878  0.25419474  1
+  Hg  Hg1  1  0.50030220  0.45227480  0.75765765  1
+  Rb  Rb2  1  0.24631672  0.19340700  0.50913799  1
+  Ca  Ca3  1  0.74877173  0.70257324  0.00627258  1

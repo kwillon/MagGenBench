@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Li4CeMgAl2CuNi2Sn2H
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.00730562
+_cell_length_b   6.32624245
+_cell_length_c   7.86024237
+_cell_angle_alpha   94.27392578
+_cell_angle_beta   91.93325806
+_cell_angle_gamma   89.66564941
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li4CeMgAl2CuNi2Sn2H
+_chemical_formula_sum   'Li4 Ce1 Mg1 Al2 Cu1 Ni2 Sn2 H1'
+_cell_volume   248.15715295
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.80176640  0.60138988  0.71387959  1
+  Li  Li1  1  0.30530247  0.60290110  0.15434957  1
+  Mg  Mg2  1  0.30056474  0.35199443  0.81129575  1
+  Sn  Sn3  1  0.30474275  0.84826642  0.83607161  1
+  Ni  Ni4  1  0.29983225  0.65333980  0.52830434  1
+  Li  Li5  1  0.80122977  0.09673026  0.71805793  1
+  Al  Al6  1  0.55635113  0.34917310  0.43848491  1
+  Sn  Sn7  1  0.80341268  0.35839328  0.07381396  1
+  Li  Li8  1  0.30375171  0.10061336  0.16213214  1
+  Ni  Ni9  1  0.30487064  0.04045843  0.53485799  1
+  Al  Al10  1  0.04869119  0.34828487  0.44026771  1
+  Ce  Ce11  1  0.79952085  0.83833033  0.36281931  1
+  H  H12  1  0.30328929  0.85122788  0.34263924  1
+  Cu  Cu13  1  0.81152534  0.85002130  0.00650397  1

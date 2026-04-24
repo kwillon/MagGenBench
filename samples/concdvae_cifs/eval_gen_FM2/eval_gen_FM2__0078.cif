@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_KNi(Bi2O5)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.06480265
+_cell_length_b   6.90918922
+_cell_length_c   7.67904949
+_cell_angle_alpha   67.00849152
+_cell_angle_beta   75.16988373
+_cell_angle_gamma   76.62307739
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KNi(Bi2O5)2
+_chemical_formula_sum   'K1 Ni1 Bi4 O10'
+_cell_volume   283.20829031
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.57105458  0.92876709  0.93511617  1
+  Bi  Bi1  1  0.29218090  0.79855984  0.15367490  1
+  O  O2  1  0.64853150  0.12894246  0.39358833  1
+  Bi  Bi3  1  0.89274740  0.31143320  0.36462849  1
+  Bi  Bi4  1  0.65116298  0.22532892  0.03158084  1
+  Ni  Ni5  1  0.90541542  0.75061440  0.92541808  1
+  O  O6  1  0.97955525  0.80203009  0.66536719  1
+  O  O7  1  0.02498372  0.97010779  0.97781909  1
+  O  O8  1  0.24883069  0.05157292  0.25103182  1
+  O  O9  1  0.35101008  0.55238307  0.01220481  1
+  Bi  Bi10  1  0.69298452  0.75632852  0.56657958  1
+  O  O11  1  0.74596632  0.38575923  0.70113689  1
+  O  O12  1  0.01986029  0.65607905  0.35439846  1
+  K  K13  1  0.26672724  0.34495705  0.69294351  1
+  O  O14  1  0.88612306  0.43228328  0.04212631  1
+  O  O15  1  0.54815006  0.59992552  0.34482005  1

@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_CeInCo4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.62374878
+_cell_length_b   4.79165745
+_cell_length_c   5.50596666
+_cell_angle_alpha   111.14670563
+_cell_angle_beta   106.51850891
+_cell_angle_gamma   92.95893097
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CeInCo4
+_chemical_formula_sum   'Ce1 In1 Co4'
+_cell_volume   107.44273524
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.46718669  0.80790728  0.40533784  1
+  Co  Co1  1  0.98281431  0.59605926  0.48655266  1
+  In  In2  1  0.46971875  0.80793297  0.90659237  1
+  Co  Co3  1  0.46826962  0.30834815  0.40077969  1
+  Ce  Ce4  1  0.96412694  0.30898726  0.90133375  1
+  Co  Co5  1  0.95916039  0.01837962  0.31816605  1

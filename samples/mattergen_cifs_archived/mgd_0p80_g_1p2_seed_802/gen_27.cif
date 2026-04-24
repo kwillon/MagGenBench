@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       ZnMnFe2N
+_chemical_formula_sum              "Zn1 Mn1 Fe2 N1"
+_cell_length_a       3.775149070440207
+_cell_length_b       3.7765906043122475
+_cell_length_c       3.8376410007476807
+_cell_angle_alpha    89.9943129569717
+_cell_angle_beta     90.01873771370697
+_cell_angle_gamma    89.95939702788347
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Zn  Zn1       1.0  0.5299926996231079  0.52003413438797  0.8030767440795898  1.0000
+  Mn  Mn1       1.0  0.030003439635038372  0.019996631890535355  0.803109347820282  1.0000
+  Fe  Fe1       1.0  0.5300165414810181  0.019814997911453247  0.3030773997306824  1.0000
+  Fe  Fe2       1.0  0.03024915792047977  0.5199387669563293  0.3031400442123413  1.0000
+  N   N1        1.0  0.030080135911703106  0.019940296187996864  0.3030303120613098  1.0000

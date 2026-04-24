@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CsMnBeTlSi2AuSe5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.98383522
+_cell_length_b   7.27526474
+_cell_length_c   7.82207155
+_cell_angle_alpha   107.76051331
+_cell_angle_beta   89.56269836
+_cell_angle_gamma   91.06143951
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsMnBeTlSi2AuSe5
+_chemical_formula_sum   'Cs1 Mn1 Be1 Tl1 Si2 Au1 Se5'
+_cell_volume   270.05408181
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tl  Tl0  1  0.26080096  0.26342785  0.27334198  1
+  Se  Se1  1  0.78507560  0.56651872  0.62240881  1
+  Mn  Mn2  1  0.78268558  0.74326593  0.95249367  1
+  Se  Se3  1  0.74592096  0.03971355  0.92600381  1
+  Se  Se4  1  0.75398684  0.53446716  0.14786480  1
+  Se  Se5  1  0.73746204  0.01301610  0.44149899  1
+  Si  Si6  1  0.01421401  0.77858466  0.28588289  1
+  Au  Au7  1  0.21681994  0.72280914  0.52859348  1
+  Be  Be8  1  0.49563301  0.77126849  0.27670467  1
+  Si  Si9  1  0.66041380  0.84763491  0.64927924  1
+  Cs  Cs10  1  0.24965574  0.28835234  0.77505225  1
+  Se  Se11  1  0.25801712  0.78999317  0.04948086  1

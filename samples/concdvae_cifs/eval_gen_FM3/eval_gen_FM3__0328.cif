@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_KNa2BO5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.48975658
+_cell_length_b   5.34526205
+_cell_length_c   5.25934076
+_cell_angle_alpha   99.21331787
+_cell_angle_beta   90.08079529
+_cell_angle_gamma   92.79458618
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KNa2BO5
+_chemical_formula_sum   'K1 Na2 B1 O5'
+_cell_volume   152.15224909
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.67531610  0.64765626  0.84615511  1
+  Na  Na1  1  0.67750275  0.15911186  0.32898334  1
+  O  O2  1  0.03641991  0.50053525  0.19150272  1
+  Na  Na3  1  0.16788134  0.16304864  0.83421409  1
+  B  B4  1  0.20253944  0.67735481  0.35584393  1
+  O  O5  1  0.47026041  0.64151257  0.31501928  1
+  O  O6  1  0.66188610  0.15398690  0.81567734  1
+  O  O7  1  0.15080266  0.95772451  0.30335140  1
+  O  O8  1  0.15875825  0.64520144  0.63047242  1

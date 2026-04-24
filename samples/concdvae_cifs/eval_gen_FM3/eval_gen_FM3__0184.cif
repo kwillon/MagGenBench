@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_KNaZrNbO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.31249666
+_cell_length_b   6.10654688
+_cell_length_c   6.03235865
+_cell_angle_alpha   110.44384766
+_cell_angle_beta   86.60135651
+_cell_angle_gamma   89.22563934
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KNaZrNbO6
+_chemical_formula_sum   'K1 Na1 Zr1 Nb1 O6'
+_cell_volume   148.49190937
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.57305729  0.26581937  0.08720683  1
+  O  O1  1  0.57080716  0.32501346  0.61449957  1
+  O  O2  1  0.07946928  0.03002784  0.24109419  1
+  O  O3  1  0.56130648  0.75463068  0.31922278  1
+  Zr  Zr4  1  0.07025448  0.28942204  0.59782147  1
+  O  O5  1  0.06743201  0.53959560  0.96765828  1
+  O  O6  1  0.06184867  0.53515756  0.45645425  1
+  Na  Na7  1  0.54688150  0.73221731  0.79027069  1
+  Nb  Nb8  1  0.06404568  0.76783007  0.32153237  1
+  O  O9  1  0.05800334  0.01132463  0.68161172  1

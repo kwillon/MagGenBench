@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Na2PrEuW2O9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.21504736
+_cell_length_b   5.89763689
+_cell_length_c   6.41709137
+_cell_angle_alpha   107.53224182
+_cell_angle_beta   86.78205872
+_cell_angle_gamma   88.62871552
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2PrEuW2O9
+_chemical_formula_sum   'Na2 Pr1 Eu1 W2 O9'
+_cell_volume   223.72667481
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  W  W0  1  0.31743208  0.60509294  0.00325654  1
+  O  O1  1  0.05197906  0.43440446  0.07080884  1
+  Pr  Pr2  1  0.79207259  0.79182416  0.28115100  1
+  O  O3  1  0.49376881  0.23971662  0.81564689  1
+  O  O4  1  0.92858124  0.16460073  0.57432139  1
+  Na  Na5  1  0.77779889  0.08406088  0.94348681  1
+  O  O6  1  0.85744643  0.61142635  0.53223842  1
+  O  O7  1  0.57457554  0.18446568  0.34776330  1
+  Eu  Eu8  1  0.20158501  0.32845461  0.35341263  1
+  O  O9  1  0.34090739  0.56387740  0.69346952  1
+  O  O10  1  0.13404202  0.92398113  0.09837049  1
+  W  W11  1  0.67092323  0.39566806  0.63150561  1
+  O  O12  1  0.65387034  0.67828524  0.93351328  1
+  O  O13  1  0.40294278  0.66890079  0.29592910  1
+  Na  Na14  1  0.22512816  0.94486111  0.69885844  1

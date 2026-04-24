@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_NdYInGa(CuO4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.83429193
+_cell_length_b   6.36789083
+_cell_length_c   7.04631090
+_cell_angle_alpha   71.05534363
+_cell_angle_beta   80.41491699
+_cell_angle_gamma   85.87694550
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NdYInGa(CuO4)2
+_chemical_formula_sum   'Nd1 Y1 In1 Ga1 Cu2 O8'
+_cell_volume   202.26436562
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.81687933  0.74399012  0.00750622  1
+  O  O1  1  0.92286485  0.10163946  0.12143911  1
+  O  O2  1  0.45751032  0.05557566  0.36709160  1
+  O  O3  1  0.44215682  0.58402503  0.33741340  1
+  O  O4  1  0.40636563  0.18244895  0.85311162  1
+  O  O5  1  0.34795940  0.68750083  0.83087516  1
+  Nd  Nd6  1  0.57574081  0.40551594  0.08604734  1
+  In  In7  1  0.21326849  0.49094513  0.62445116  1
+  Cu  Cu8  1  0.14811495  0.93035412  0.94741529  1
+  Ga  Ga9  1  0.09922048  0.04682631  0.37954953  1
+  Y  Y10  1  0.65979344  0.96421605  0.69803011  1
+  O  O11  1  0.96585876  0.23093851  0.54417026  1
+  Cu  Cu12  1  0.64814430  0.85554320  0.22338858  1
+  O  O13  1  0.92628980  0.76985890  0.52972007  1

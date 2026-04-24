@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_Tl2AsCl5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.42225742
+_cell_length_b   6.64705515
+_cell_length_c   6.84883690
+_cell_angle_alpha   85.62197876
+_cell_angle_beta   85.66832733
+_cell_angle_gamma   89.31352997
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tl2AsCl5
+_chemical_formula_sum   'Tl2 As1 Cl5'
+_cell_volume   245.41796614
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.90505826  0.64419079  0.86798489  1
+  Cl  Cl1  1  0.40866128  0.90333378  0.61728477  1
+  As  As2  1  0.91381103  0.88961482  0.62670761  1
+  Cl  Cl3  1  0.90589917  0.12151376  0.86220074  1
+  Tl  Tl4  1  0.41060773  0.86719060  0.11306924  1
+  Cl  Cl5  1  0.40702841  0.35824695  0.15483382  1
+  Cl  Cl6  1  0.90994173  0.64996713  0.39719713  1
+  Tl  Tl7  1  0.40658590  0.39491534  0.64938676  1

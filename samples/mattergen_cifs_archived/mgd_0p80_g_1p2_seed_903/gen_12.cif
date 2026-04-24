@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       CoRh2H
+_chemical_formula_sum              "Co1 Rh2 H1"
+_cell_length_a       2.720961144945778
+_cell_length_b       2.7211459125099564
+_cell_length_c       6.795219421386719
+_cell_angle_alpha    78.43700488388625
+_cell_angle_beta     78.46680393307335
+_cell_angle_gamma    60.064548661266514
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.8933320641517639  0.050993651151657104  0.5724121928215027  1.0000
+  Rh  Rh1       1.0  0.6644080877304077  0.8215494155883789  0.2612760066986084  1.0000
+  Rh  Rh2       1.0  0.12266816943883899  0.280382364988327  0.8837642669677734  1.0000
+  H   H1        1.0  0.39342862367630005  0.5496039986610414  0.07483907788991927  1.0000

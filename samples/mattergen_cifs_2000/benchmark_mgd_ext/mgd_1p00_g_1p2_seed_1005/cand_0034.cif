@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       MnFe3
+_chemical_formula_sum              "Mn1 Fe3"
+_cell_length_a       2.847437675776399
+_cell_length_b       4.017101756306395
+_cell_length_c       4.713991165161133
+_cell_angle_alpha    115.18656399982002
+_cell_angle_beta     107.59513604961194
+_cell_angle_gamma    90.0636938645354
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Mn  Mn1       1.0  0.5083892924037788  0.7371973397830971  0.4671501506932261  1.0000
+  Fe  Fe1       1.0  0.2594410470221977  0.9880723370590349  0.9691960227650663  1.0000
+  Fe  Fe2       1.0  0.007905397298739708  0.23674672872193506  0.4664485457196786  1.0000
+  Fe  Fe3       1.0  0.7575651410444846  0.486294447396084  0.965276121568244  1.0000

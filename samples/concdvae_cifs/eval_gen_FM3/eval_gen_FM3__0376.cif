@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Na4LaCl5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.83208036
+_cell_length_b   5.89700699
+_cell_length_c   6.55614758
+_cell_angle_alpha   68.02175903
+_cell_angle_beta   72.50539398
+_cell_angle_gamma   72.76183319
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na4LaCl5
+_chemical_formula_sum   'Na4 La1 Cl5'
+_cell_volume   195.06442255
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.11784481  0.45592549  0.99997926  1
+  Cl  Cl1  1  0.31491262  0.56334668  0.59942085  1
+  Cl  Cl2  1  0.71406913  0.76255649  0.80443233  1
+  Cl  Cl3  1  0.91213763  0.36462414  0.39896148  1
+  La  La4  1  0.51324779  0.65903735  0.20216958  1
+  Cl  Cl5  1  0.10944965  0.95503491  0.01178989  1
+  Na  Na6  1  0.90416527  0.86130631  0.40992051  1
+  Na  Na7  1  0.71596336  0.25467563  0.80386293  1
+  Cl  Cl8  1  0.50972569  0.16108011  0.20273547  1
+  Na  Na9  1  0.30653286  0.05710419  0.61139625  1

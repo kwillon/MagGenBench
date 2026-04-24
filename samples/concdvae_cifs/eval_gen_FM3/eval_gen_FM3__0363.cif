@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_LuTa3(AgO3)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.58936262
+_cell_length_b   6.26602316
+_cell_length_c   7.72996855
+_cell_angle_alpha   87.30300140
+_cell_angle_beta   92.12849426
+_cell_angle_gamma   89.90093231
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LuTa3(AgO3)4
+_chemical_formula_sum   'Lu1 Ta3 Ag4 O12'
+_cell_volume   270.23917819
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  1  0.06848377  0.57604194  0.10179459  1
+  Ta  Ta1  1  0.06868965  0.07840019  0.35568193  1
+  O  O2  1  0.88077670  0.78965694  0.90322757  1
+  Ta  Ta3  1  0.07251207  0.07375379  0.85602087  1
+  O  O4  1  0.86127770  0.36145714  0.31076968  1
+  Ag  Ag5  1  0.56811601  0.07419579  0.60810912  1
+  O  O6  1  0.35774997  0.28592810  0.40415630  1
+  O  O7  1  0.26278311  0.35519460  0.80828422  1
+  O  O8  1  0.97852671  0.07426754  0.60250098  1
+  O  O9  1  0.35334000  0.88267761  0.81132525  1
+  Ag  Ag10  1  0.06304612  0.58191735  0.60641539  1
+  O  O11  1  0.66732264  0.57023507  0.58854198  1
+  Lu  Lu12  1  0.57362443  0.57196951  0.85249317  1
+  O  O13  1  0.47936147  0.57568341  0.12200551  1
+  Ag  Ag14  1  0.57183439  0.07020138  0.10888007  1
+  O  O15  1  0.78473079  0.26045597  0.90408450  1
+  O  O16  1  0.27940983  0.78970969  0.40147406  1
+  O  O17  1  0.78909433  0.86597186  0.30803609  1
+  Ta  Ta18  1  0.57084548  0.57493162  0.35720393  1
+  O  O19  1  0.16312715  0.08275987  0.10946479  1

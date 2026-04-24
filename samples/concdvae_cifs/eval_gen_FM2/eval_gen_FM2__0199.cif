@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Cs2Ho2BCl4O3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.17199135
+_cell_length_b   6.91759491
+_cell_length_c   7.05391932
+_cell_angle_alpha   96.62112427
+_cell_angle_beta   89.08954620
+_cell_angle_gamma   89.48942566
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2Ho2BCl4O3
+_chemical_formula_sum   'Cs2 Ho2 B1 Cl4 O3'
+_cell_volume   250.64373610
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.44140059  0.44654599  0.67032409  1
+  O  O1  1  0.19442862  0.69533205  0.35521868  1
+  O  O2  1  0.67474544  0.69433641  0.35549325  1
+  Ho  Ho3  1  0.93786961  0.50988972  0.16075459  1
+  Cl  Cl4  1  0.93940008  0.20561202  0.37043446  1
+  B  B5  1  0.43756086  0.62551534  0.28441468  1
+  Ho  Ho6  1  0.93161005  0.90420282  0.55957055  1
+  Cl  Cl7  1  0.93598092  0.22181091  0.86975664  1
+  Cl  Cl8  1  0.94011617  0.71975625  0.86627096  1
+  Cs  Cs9  1  0.44545379  0.01363349  0.09907196  1
+  Cl  Cl10  1  0.43966421  0.97798884  0.63460332  1
+  O  O11  1  0.43758684  0.48477438  0.12939666  1

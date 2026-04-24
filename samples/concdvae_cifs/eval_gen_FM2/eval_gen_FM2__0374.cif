@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_NaLiCa2(SiO4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.43039560
+_cell_length_b   6.28718758
+_cell_length_c   6.27609110
+_cell_angle_alpha   78.09543610
+_cell_angle_beta   70.42600250
+_cell_angle_gamma   68.38819885
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaLiCa2(SiO4)2
+_chemical_formula_sum   'Na1 Li1 Ca2 Si2 O8'
+_cell_volume   221.26921977
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.93678069  0.10719436  0.22828497  1
+  Si  Si1  1  0.57256484  0.72597206  0.03260939  1
+  O  O2  1  0.56552559  0.92212993  0.17929474  1
+  O  O3  1  0.88970590  0.58536702  0.91912264  1
+  O  O4  1  0.43931153  0.56143093  0.18117893  1
+  Si  Si5  1  0.86620098  0.21516518  0.47654390  1
+  O  O6  1  0.00691932  0.06317873  0.65362990  1
+  Ca  Ca7  1  0.17251685  0.22313492  0.84133744  1
+  O  O8  1  0.95315284  0.43330386  0.40815639  1
+  Li  Li9  1  0.53161657  0.23205683  0.26121399  1
+  Ca  Ca10  1  0.01026662  0.74274510  0.15391129  1
+  Na  Na11  1  0.41685712  0.71635544  0.53234988  1
+  O  O12  1  0.54398036  0.28649899  0.58496916  1
+  O  O13  1  0.42367828  0.83919555  0.86223787  1

@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Ho2AgPb
+_chemical_formula_sum              "Ho2 Ag1 Pb1"
+_cell_length_a       4.043994596070212
+_cell_length_b       5.075385109606467
+_cell_length_c       5.074635982513428
+_cell_angle_alpha    90.00453775009807
+_cell_angle_beta     89.98341880345984
+_cell_angle_gamma    90.02218012928113
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ho  Ho1       1.0  0.8658297061920166  0.5721486210823059  0.25387391448020935  1.0000
+  Ho  Ho2       1.0  0.8658791184425354  0.07213699817657471  0.7536569833755493  1.0000
+  Ag  Ag1       1.0  0.365593820810318  0.5723155736923218  0.7535850405693054  1.0000
+  Pb  Pb1       1.0  0.3657582700252533  0.07186946272850037  0.2534349262714386  1.0000

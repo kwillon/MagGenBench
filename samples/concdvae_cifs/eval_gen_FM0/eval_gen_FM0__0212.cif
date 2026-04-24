@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_CaCu2Ni
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.51738882
+_cell_length_b   5.36194277
+_cell_length_c   5.45176840
+_cell_angle_alpha   113.36546326
+_cell_angle_beta   88.63961029
+_cell_angle_gamma   89.35345459
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaCu2Ni
+_chemical_formula_sum   'Ca2 Cu4 Ni2'
+_cell_volume   121.15850106
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.54195607  0.51086593  0.57664037  1
+  Cu  Cu1  1  0.04497566  0.88712984  0.33374190  1
+  Ni  Ni2  1  0.54324472  0.06757721  0.20210840  1
+  Cu  Cu3  1  0.54680330  0.00456788  0.57421106  1
+  Ca  Ca4  1  0.53699440  0.50913632  0.07702091  1
+  Ca  Ca5  1  0.04747892  0.89351898  0.83975899  1
+  Cu  Cu6  1  0.04045054  0.38968739  0.33393154  1
+  Ni  Ni7  1  0.04283861  0.32906604  0.71273738  1

@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_K2EuZn2CrF12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.92432928
+_cell_length_b   8.17855072
+_cell_length_c   7.33500338
+_cell_angle_alpha   60.64929199
+_cell_angle_beta   59.15975952
+_cell_angle_gamma   59.24310303
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2EuZn2CrF12
+_chemical_formula_sum   'K2 Eu1 Zn2 Cr1 F12'
+_cell_volume   333.58522785
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.85881996  0.18697807  0.54943115  1
+  Zn  Zn1  1  0.19306646  0.11869138  0.87957466  1
+  Zn  Zn2  1  0.69605297  0.11750480  0.87579578  1
+  F  F3  1  0.53447092  0.05165961  0.20469287  1
+  Eu  Eu4  1  0.69024622  0.12477995  0.37388021  1
+  F  F5  1  0.57724911  0.50537717  0.22462089  1
+  F  F6  1  0.09972370  0.05953540  0.20085283  1
+  F  F7  1  0.78592700  0.79961175  0.90255308  1
+  F  F8  1  0.40155149  0.81883627  0.89157015  1
+  F  F9  1  0.42840984  0.23284186  0.79495072  1
+  F  F10  1  0.60401821  0.42903417  0.86397868  1
+  Cr  Cr11  1  0.69385910  0.61808735  0.87688279  1
+  F  F12  1  0.98534822  0.42699865  0.86259955  1
+  F  F13  1  0.29520345  0.18653961  0.54518390  1
+  F  F14  1  0.80636013  0.73678958  0.53783041  1
+  F  F15  1  0.95896828  0.01177852  0.95633012  1
+  K  K16  1  0.27922356  0.79427093  0.53279090  1
+  K  K17  1  0.10885011  0.44478932  0.21653838  1

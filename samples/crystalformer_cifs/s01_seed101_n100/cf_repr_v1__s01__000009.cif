@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_Cd4InF12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.17492929
+_cell_length_b   6.66156575
+_cell_length_c   7.40070423
+_cell_angle_alpha   89.96610859
+_cell_angle_beta   91.34482853
+_cell_angle_gamma   89.38251792
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cd4InF12
+_chemical_formula_sum   'Cd4 In1 F12'
+_cell_volume   304.32409393
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.00719193  0.50513191  0.99026485  1
+  Cd  Cd1  1  0.01373584  0.50145364  0.48719628  1
+  F  F2  1  0.50318088  0.97542161  0.48123526  1
+  F  F3  1  0.50814006  0.50490465  0.49054150  1
+  Cd  Cd4  1  0.52218431  0.49811980  0.49400951  1
+  In  In5  1  0.50044735  0.50310447  0.50750116  1
+  F  F6  1  0.50334332  0.98798695  0.98996851  1
+  F  F7  1  0.50425966  0.50489553  0.49644119  1
+  F  F8  1  0.49749004  0.49830319  0.99008117  1
+  F  F9  1  0.49677298  0.99190077  0.02216822  1
+  F  F10  1  0.50006776  0.50209885  0.47521229  1
+  Cd  Cd11  1  0.98771012  0.49327856  0.49484661  1
+  F  F12  1  0.98872161  0.00554877  0.50054381  1
+  Cd  Cd13  1  0.99103378  0.00667580  0.48766363  1
+  F  F14  1  0.00290998  0.50331388  0.00522668  1
+  F  F15  1  0.99601982  0.49235328  0.50222469  1
+  F  F16  1  0.97050929  0.52015897  0.11122308  1

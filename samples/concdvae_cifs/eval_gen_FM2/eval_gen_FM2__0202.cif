@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_V2Cr(OF2)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.77723694
+_cell_length_b   5.54317522
+_cell_length_c   9.49666786
+_cell_angle_alpha   99.60165405
+_cell_angle_beta   95.16906738
+_cell_angle_gamma   111.51780701
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   V2Cr(OF2)3
+_chemical_formula_sum   'V2 Cr1 O3 F6'
+_cell_volume   179.89292471
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  V  V0  1  0.38490155  0.84536469  0.13794778  1
+  V  V1  1  0.11635905  0.22743341  0.71537137  1
+  F  F2  1  0.29806775  0.60537761  0.28357556  1
+  F  F3  1  0.58408982  0.15790774  0.07485259  1
+  F  F4  1  0.54881579  0.08885319  0.34988073  1
+  O  O5  1  0.90837812  0.82702935  0.13958085  1
+  F  F6  1  0.27431160  0.54376441  0.59390664  1
+  O  O7  1  0.95064664  0.90443712  0.52782214  1
+  O  O8  1  0.60395068  0.18626592  0.67763591  1
+  F  F9  1  0.98892415  0.97485673  0.83573687  1
+  Cr  Cr10  1  0.42933604  0.85729295  0.49830776  1
+  F  F11  1  0.27562857  0.56930226  0.93638897  1

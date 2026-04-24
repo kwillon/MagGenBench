@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_LiYAlFeAgF5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.78331505
+_cell_length_b   4.52484357
+_cell_length_c   6.43172540
+_cell_angle_alpha   88.01654311
+_cell_angle_beta   88.12383100
+_cell_angle_gamma   89.27283296
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiYAlFeAgF5
+_chemical_formula_sum   'Li1 Y1 Al1 Fe1 Ag1 F5'
+_cell_volume   139.03937759
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.03759823  0.31129754  0.80405933  1
+  F  F1  1  0.46468310  0.98342678  0.51752816  1
+  Fe  Fe2  1  0.47973535  0.01095691  0.98527126  1
+  F  F3  1  0.48862512  0.02444576  0.49019122  1
+  Al  Al4  1  0.49779035  0.99314717  0.50934562  1
+  Li  Li5  1  0.50683779  0.01556373  0.00448018  1
+  F  F6  1  0.52475407  0.98367946  0.48494726  1
+  Ag  Ag7  1  0.51256026  0.55297747  0.53275464  1
+  F  F8  1  0.54663851  0.99369606  0.49377928  1
+  Y  Y9  1  0.96785811  0.99604158  0.50752928  1

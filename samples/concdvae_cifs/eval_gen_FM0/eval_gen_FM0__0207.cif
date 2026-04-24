@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_LaInNiSn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.24376059
+_cell_length_b   4.28158283
+_cell_length_c   5.88393593
+_cell_angle_alpha   108.46421814
+_cell_angle_beta   109.21836853
+_cell_angle_gamma   89.80082703
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaInNiSn
+_chemical_formula_sum   'La1 In1 Ni1 Sn1'
+_cell_volume   95.14816653
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.56361371  0.94874436  0.59069830  1
+  Ni  Ni1  1  0.46850231  0.34478337  0.39058465  1
+  La  La2  1  0.20964640  0.59261620  0.88578653  1
+  Sn  Sn3  1  0.85998094  0.23935775  0.17643684  1

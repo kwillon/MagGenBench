@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       OEuO2EuO4
+_chemical_formula_sum              "O7 Eu2"
+_cell_length_a       3.9951588053132174
+_cell_length_b       4.192890255062853
+_cell_length_c       8.008771896362305
+_cell_angle_alpha    95.63535231759822
+_cell_angle_beta     90.52391899180404
+_cell_angle_gamma    90.92649037937758
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.9066671133041382  0.767846941947937  0.6565664410591125  1.0000
+  Eu  Eu1       1.0  0.5619565844535828  0.8604901432991028  0.14504636824131012  1.0000
+  O   O2        1.0  0.061473678797483444  0.8387911915779114  0.9961016178131104  1.0000
+  O   O3        1.0  0.06573811918497086  0.2158731371164322  0.3276854455471039  1.0000
+  Eu  Eu2       1.0  0.05244721472263336  0.3154411017894745  0.8680229783058167  1.0000
+  O   O4        1.0  0.0670628696680069  0.5170592665672302  0.30449673533439636  1.0000
+  O   O5        1.0  0.6105000376701355  0.6492961645126343  0.5901126265525818  1.0000
+  O   O6        1.0  0.5571868419647217  0.33785855770111084  0.01744171604514122  1.0000
+  O   O7        1.0  0.5213143825531006  0.3523816764354706  0.6432116031646729  1.0000

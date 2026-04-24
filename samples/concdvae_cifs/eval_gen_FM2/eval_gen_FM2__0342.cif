@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LiZr2CrCuPdS3N2O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.24580431
+_cell_length_b   5.94258213
+_cell_length_c   6.50083065
+_cell_angle_alpha   83.88321686
+_cell_angle_beta   84.17240143
+_cell_angle_gamma   85.92254639
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiZr2CrCuPdS3N2O
+_chemical_formula_sum   'Li1 Zr2 Cr1 Cu1 Pd1 S3 N2 O1'
+_cell_volume   161.94444361
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.12530902  0.13405821  0.83424932  1
+  S  S1  1  0.62445986  0.56765813  0.73494065  1
+  Li  Li2  1  0.10728154  0.87303638  0.70417720  1
+  Cr  Cr3  1  0.61666214  0.79471463  0.42956066  1
+  S  S4  1  0.12290394  0.45524701  0.16403838  1
+  N  N5  1  0.11492399  0.78148234  0.44269192  1
+  Zr  Zr6  1  0.13550383  0.42613125  0.54516077  1
+  Cu  Cu7  1  0.61186498  0.61906546  0.06430987  1
+  S  S8  1  0.64068133  0.16722637  0.49082983  1
+  Pd  Pd9  1  0.62319070  0.15495460  0.84033144  1
+  N  N10  1  0.62112296  0.93360931  0.12796746  1
+  Zr  Zr11  1  0.09941697  0.02303485  0.17211290  1

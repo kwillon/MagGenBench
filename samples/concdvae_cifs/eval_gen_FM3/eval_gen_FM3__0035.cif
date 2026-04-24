@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_NaCaNbTl(BiO4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.99522209
+_cell_length_b   5.89951038
+_cell_length_c   6.29217577
+_cell_angle_alpha   71.91435242
+_cell_angle_beta   88.12445831
+_cell_angle_gamma   89.83995819
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaCaNbTl(BiO4)2
+_chemical_formula_sum   'Na1 Ca1 Nb1 Tl1 Bi2 O8'
+_cell_volume   211.43221726
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.90913969  0.08827397  0.99326545  1
+  O  O1  1  0.34964949  0.82153422  0.27226856  1
+  Nb  Nb2  1  0.52926677  0.49465942  0.33033890  1
+  Tl  Tl3  1  0.03930276  0.31268200  0.64033961  1
+  O  O4  1  0.17621081  0.90047991  0.70163691  1
+  Ca  Ca5  1  0.02635339  0.01936285  0.34549391  1
+  O  O6  1  0.42940819  0.43113032  0.65645444  1
+  O  O7  1  0.81379151  0.65334028  0.41635460  1
+  Na  Na8  1  0.53517914  0.18900897  0.02551207  1
+  O  O9  1  0.69995302  0.19775830  0.41479379  1
+  O  O10  1  0.23293078  0.37241682  0.27361026  1
+  O  O11  1  0.64752638  0.60836273  0.02013123  1
+  Bi  Bi12  1  0.02209561  0.72613114  0.05724292  1
+  Bi  Bi13  1  0.51399946  0.79964334  0.62632257  1

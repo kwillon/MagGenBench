@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Ba4LaEuS5O2F
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.70913792
+_cell_length_b   7.04922342
+_cell_length_c   10.18467236
+_cell_angle_alpha   91.52156830
+_cell_angle_beta   90.81443787
+_cell_angle_gamma   90.95167542
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba4LaEuS5O2F
+_chemical_formula_sum   'Ba4 La1 Eu1 S5 O2 F1'
+_cell_volume   337.88583776
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.05948213  0.74223715  0.19357637  1
+  La  La1  1  0.05551931  0.54932117  0.37108076  1
+  Ba  Ba2  1  0.56080049  0.52572685  0.07837671  1
+  Ba  Ba3  1  0.55521160  0.97109950  0.30822563  1
+  S  S4  1  0.05384852  0.25449780  0.19884069  1
+  O  O5  1  0.55565220  0.87254912  0.08158185  1
+  Eu  Eu6  1  0.05197176  0.94569445  0.01948860  1
+  Ba  Ba7  1  0.55588043  0.75200367  0.69781381  1
+  S  S8  1  0.05344625  0.89161241  0.52142686  1
+  S  S9  1  0.55212778  0.39436370  0.53240991  1
+  O  O10  1  0.55551159  0.62313098  0.31278980  1
+  S  S11  1  0.55778980  0.11443274  0.87633997  1
+  S  S12  1  0.05010293  0.61037672  0.86990434  1
+  Ba  Ba13  1  0.05580946  0.25029925  0.70060223  1

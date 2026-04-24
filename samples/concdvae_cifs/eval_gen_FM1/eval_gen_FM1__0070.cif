@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_LiY2Mn2CuS5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.88943601
+_cell_length_b   4.06565857
+_cell_length_c   14.35815716
+_cell_angle_alpha   91.29512787
+_cell_angle_beta   91.30346680
+_cell_angle_gamma   109.53829193
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiY2Mn2CuS5
+_chemical_formula_sum   'Li1 Y2 Mn2 Cu1 S5'
+_cell_volume   213.80809125
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.08515409  0.01740967  0.95556450  1
+  S  S1  1  0.77600712  0.37464508  0.57957572  1
+  Mn  Mn2  1  0.10532006  0.03434010  0.20024849  1
+  S  S3  1  0.42664039  0.69082910  0.75137514  1
+  Li  Li4  1  0.40873694  0.64430028  0.04418858  1
+  Cu  Cu5  1  0.76986808  0.37636495  0.32479426  1
+  S  S6  1  0.77998710  0.40631402  0.16429293  1
+  S  S7  1  0.10226437  0.03776010  0.36902848  1
+  Mn  Mn8  1  0.10315923  0.02885406  0.66570306  1
+  Y  Y9  1  0.76029354  0.35124165  0.86210495  1
+  Y  Y10  1  0.44215500  0.70742655  0.47914857  1

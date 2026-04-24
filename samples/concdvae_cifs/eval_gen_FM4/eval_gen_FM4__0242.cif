@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CsRbCaEuCl6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.09001780
+_cell_length_b   6.37082529
+_cell_length_c   7.69356489
+_cell_angle_alpha   91.78172302
+_cell_angle_beta   91.27593231
+_cell_angle_gamma   95.93962860
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsRbCaEuCl6
+_chemical_formula_sum   'Cs1 Rb1 Ca1 Eu1 Cl6'
+_cell_volume   296.65475757
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.96402341  0.49998590  0.78483373  1
+  Eu  Eu1  1  0.96411079  0.24778114  0.03821823  1
+  Cl  Cl2  1  0.47325704  0.74302572  0.54055357  1
+  Cl  Cl3  1  0.96925443  0.50284231  0.29587704  1
+  Ca  Ca4  1  0.97268611  0.75176537  0.53994298  1
+  Cl  Cl5  1  0.96496671  0.99454206  0.78452057  1
+  Cl  Cl6  1  0.96702260  0.99023688  0.29447499  1
+  Rb  Rb7  1  0.46885377  0.74872553  0.04096315  1
+  Cs  Cs8  1  0.47275153  0.24774894  0.54166371  1
+  Cl  Cl9  1  0.46628717  0.24872962  0.03929888  1

@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       NEuNEu2HfN2
+_chemical_formula_sum              "N4 Eu3 Hf1"
+_cell_length_a       4.929486856125023
+_cell_length_b       4.928127166445425
+_cell_length_c       4.928417205810547
+_cell_angle_alpha    89.97826884128166
+_cell_angle_beta     89.96245695689849
+_cell_angle_gamma    89.97909529410491
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  N   N1        1.0  0.5881307125091553  0.2562168538570404  0.4689714014530182  1.0000
+  Eu  Eu1       1.0  0.5884051322937012  0.2560315430164337  0.968935251235962  1.0000
+  N   N2        1.0  0.08842785656452179  0.7558843493461609  0.46894243359565735  1.0000
+  Eu  Eu2       1.0  0.5884057879447937  0.7558354139328003  0.4689101278781891  1.0000
+  Eu  Eu3       1.0  0.08864417672157288  0.2561745345592499  0.46880048513412476  1.0000
+  Hf  Hf1       1.0  0.08831773698329926  0.7561851143836975  0.9688720107078553  1.0000
+  N   N3        1.0  0.5878933072090149  0.7562302947044373  0.969215214252472  1.0000
+  N   N4        1.0  0.08812975138425827  0.25608769059181213  0.968925178050995  1.0000

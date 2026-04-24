@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_EuGdYTaIn2O9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.25563478
+_cell_length_b   7.05944014
+_cell_length_c   7.55149794
+_cell_angle_alpha   108.76002502
+_cell_angle_beta   92.35772705
+_cell_angle_gamma   101.20904541
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   EuGdYTaIn2O9
+_chemical_formula_sum   'Eu1 Gd1 Y1 Ta1 In2 O9'
+_cell_volume   209.39870194
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Eu  Eu0  1  0.16979726  0.36645892  0.39872211  1
+  O  O1  1  0.76865149  0.55342811  0.43917209  1
+  O  O2  1  0.43030685  0.90210706  0.77087772  1
+  O  O3  1  0.26782230  0.55985689  0.14886114  1
+  In  In4  1  0.82542658  0.68304753  0.22922362  1
+  O  O5  1  0.90877903  0.83993280  0.05134377  1
+  O  O6  1  0.25365019  0.53365290  0.73625499  1
+  In  In7  1  0.51095897  0.04094343  0.56787843  1
+  Gd  Gd8  1  0.84388661  0.70879698  0.74222934  1
+  Y  Y9  1  0.49854660  0.02762229  0.06754936  1
+  O  O10  1  0.58509839  0.17777053  0.35397443  1
+  Ta  Ta11  1  0.16841069  0.36290619  0.89599055  1
+  O  O12  1  0.67475337  0.36940789  0.89623046  1
+  O  O13  1  0.06973433  0.16307527  0.65102518  1
+  O  O14  1  0.08402511  0.19455074  0.05611423  1

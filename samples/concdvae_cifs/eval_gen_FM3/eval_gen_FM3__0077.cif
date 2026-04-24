@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Na3Ca2In2O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.77025366
+_cell_length_b   5.04827833
+_cell_length_c   10.23512840
+_cell_angle_alpha   88.23663330
+_cell_angle_beta   88.65886688
+_cell_angle_gamma   88.75627136
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na3Ca2In2O7
+_chemical_formula_sum   'Na3 Ca2 In2 O7'
+_cell_volume   246.23941443
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.41846186  0.53776455  0.01550792  1
+  O  O1  1  0.40851891  0.53676564  0.22280774  1
+  O  O2  1  0.90798891  0.03256762  0.31316426  1
+  Na  Na3  1  0.41298720  0.03286946  0.24801721  1
+  Na  Na4  1  0.91115206  0.03430194  0.02034665  1
+  O  O5  1  0.41145062  0.02997065  0.01535220  1
+  Ca  Ca6  1  0.91965163  0.53449273  0.75298977  1
+  In  In7  1  0.91127211  0.03154398  0.52023435  1
+  O  O8  1  0.91406214  0.52974957  0.01756035  1
+  O  O9  1  0.92156160  0.02963413  0.72212875  1
+  Ca  Ca10  1  0.90440851  0.52939230  0.28761479  1
+  O  O11  1  0.91080141  0.53344685  0.51510596  1
+  Na  Na12  1  0.41868818  0.03984005  0.78616560  1
+  O  O13  1  0.42424208  0.53534383  0.81038308  1

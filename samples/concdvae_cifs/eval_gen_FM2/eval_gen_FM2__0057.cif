@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_TiTlInCu4PbClO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.38157034
+_cell_length_b   7.89883089
+_cell_length_c   7.84149837
+_cell_angle_alpha   73.31064606
+_cell_angle_beta   68.53689575
+_cell_angle_gamma   74.73392487
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiTlInCu4PbClO8
+_chemical_formula_sum   'Ti1 Tl1 In1 Cu4 Pb1 Cl1 O8'
+_cell_volume   292.42702283
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.48664337  0.22790474  0.86727834  1
+  Ti  Ti1  1  0.53772634  0.73147243  0.98619890  1
+  Tl  Tl2  1  0.99263865  0.46388528  0.64773619  1
+  O  O3  1  0.65895259  0.84639806  0.10901283  1
+  O  O4  1  0.70133591  0.50445765  0.99381471  1
+  Pb  Pb5  1  0.02925248  0.41884524  0.13130823  1
+  O  O6  1  0.82287472  0.11730366  0.79169923  1
+  In  In7  1  0.31826198  0.94442415  0.28828996  1
+  Cu  Cu8  1  0.99960083  0.95504057  0.97335750  1
+  O  O9  1  0.20141935  0.13071752  0.04860628  1
+  Cu  Cu10  1  0.79637122  0.99088538  0.61670464  1
+  Cl  Cl11  1  0.54717594  0.18868205  0.39851350  1
+  O  O12  1  0.53383619  0.83138967  0.75101888  1
+  O  O13  1  0.29121238  0.46929523  0.82075477  1
+  O  O14  1  0.20420682  0.76668924  0.11957312  1
+  Cu  Cu15  1  0.26290429  0.72987717  0.73925954  1
+  O  O16  1  0.12984151  0.82895327  0.53913319  1

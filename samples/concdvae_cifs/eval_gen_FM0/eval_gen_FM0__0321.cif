@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_CaMgNbInGa2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.60353947
+_cell_length_b   5.40548229
+_cell_length_c   5.65401745
+_cell_angle_alpha   101.39034271
+_cell_angle_beta   88.76018524
+_cell_angle_gamma   88.75554657
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaMgNbInGa2
+_chemical_formula_sum   'Ca1 Mg1 Nb1 In1 Ga2'
+_cell_volume   137.84467475
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.94130832  0.04866588  0.08856992  1
+  Nb  Nb1  1  0.93665618  0.05293748  0.59321940  1
+  Ca  Ca2  1  0.43312117  0.55564165  0.09241072  1
+  Ga  Ga3  1  0.43588257  0.91150725  0.75012785  1
+  Ga  Ga4  1  0.44024855  0.19131340  0.43174338  1
+  In  In5  1  0.93857342  0.55696535  0.59015530  1

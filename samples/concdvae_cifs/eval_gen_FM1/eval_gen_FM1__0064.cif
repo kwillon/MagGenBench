@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Ce2GaSiGe2Pt5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.60752320
+_cell_length_b   5.56189251
+_cell_length_c   9.96452713
+_cell_angle_alpha   93.19515228
+_cell_angle_beta   91.91664124
+_cell_angle_gamma   90.37345123
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ce2GaSiGe2Pt5
+_chemical_formula_sum   'Ce2 Ga1 Si1 Ge2 Pt5'
+_cell_volume   199.50529047
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.14997628  0.76729214  0.54689926  1
+  Pt  Pt1  1  0.15206501  0.27947909  0.12549971  1
+  Ce  Ce2  1  0.15675199  0.77489114  0.92589676  1
+  Ce  Ce3  1  0.14085406  0.26634625  0.43858564  1
+  Ge  Ge4  1  0.15007736  0.26957598  0.76976323  1
+  Pt  Pt5  1  0.64342821  0.27594531  0.93200207  1
+  Pt  Pt6  1  0.65107620  0.00891243  0.65463406  1
+  Ga  Ga7  1  0.64615542  0.01839550  0.18809262  1
+  Pt  Pt8  1  0.15168351  0.76594645  0.28645197  1
+  Ge  Ge9  1  0.64653134  0.52946669  0.18894330  1
+  Pt  Pt10  1  0.64314860  0.52791178  0.65349376  1

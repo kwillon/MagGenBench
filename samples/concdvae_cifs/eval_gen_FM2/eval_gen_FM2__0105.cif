@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LaTaMnReS8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.10203934
+_cell_length_b   5.85990667
+_cell_length_c   7.61475468
+_cell_angle_alpha   89.67571259
+_cell_angle_beta   91.52173615
+_cell_angle_gamma   90.03028870
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaTaMnReS8
+_chemical_formula_sum   'La1 Ta1 Mn1 Re1 S8'
+_cell_volume   227.57797994
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.68866444  0.40438923  0.14116797  1
+  S  S1  1  0.93487245  0.08467589  0.11496581  1
+  S  S2  1  0.42946145  0.72616965  0.11646340  1
+  S  S3  1  0.45539004  0.23173338  0.89780098  1
+  S  S4  1  0.91188049  0.09500330  0.69255137  1
+  La  La5  1  0.18921730  0.91023207  0.41395587  1
+  S  S6  1  0.45954767  0.29863000  0.40590450  1
+  Mn  Mn7  1  0.68732285  0.40030283  0.66110140  1
+  S  S8  1  0.91208142  0.58594358  0.89513671  1
+  S  S9  1  0.91091454  0.52117926  0.40432495  1
+  Re  Re10  1  0.68404752  0.90896344  0.90561461  1
+  S  S11  1  0.45427513  0.71630108  0.69116473  1

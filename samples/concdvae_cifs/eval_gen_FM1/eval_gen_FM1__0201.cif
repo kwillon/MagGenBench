@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_CrBiPd2S5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.03900099
+_cell_length_b   4.53404951
+_cell_length_c   8.67820168
+_cell_angle_alpha   90.37713623
+_cell_angle_beta   91.57953644
+_cell_angle_gamma   90.97652435
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CrBiPd2S5
+_chemical_formula_sum   'Cr1 Bi1 Pd2 S5'
+_cell_volume   158.83675726
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cr  Cr0  1  0.48627475  0.37991428  0.87891775  1
+  S  S1  1  0.99371988  0.71870035  0.81718266  1
+  Pd  Pd2  1  0.49670443  0.00017552  0.13229805  1
+  S  S3  1  0.49880022  0.50803816  0.11587971  1
+  S  S4  1  0.48737016  0.26488975  0.64344746  1
+  Bi  Bi5  1  0.07939391  0.38158339  0.38360023  1
+  S  S6  1  0.98723298  0.07055358  0.93534976  1
+  Pd  Pd7  1  0.49263608  0.77447283  0.62914789  1
+  S  S8  1  0.46416497  0.88206685  0.37924230  1

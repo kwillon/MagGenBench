@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_NaLi2YZrInFeW(O5F)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.07520533
+_cell_length_b   6.12810183
+_cell_length_c   8.21805668
+_cell_angle_alpha   89.25131989
+_cell_angle_beta   89.87363434
+_cell_angle_gamma   89.46806335
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaLi2YZrInFeW(O5F)2
+_chemical_formula_sum   'Na1 Li2 Y1 Zr1 In1 Fe1 W1 O10 F2'
+_cell_volume   255.55947308
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.54373688  0.35052654  0.83748984  1
+  O  O1  1  0.53792465  0.62397033  0.53284943  1
+  O  O2  1  0.55427647  0.97253716  0.17733181  1
+  In  In3  1  0.75874472  0.92628479  0.41383204  1
+  O  O4  1  0.98516721  0.19338351  0.29027653  1
+  W  W5  1  0.77372390  0.55297297  0.71388572  1
+  O  O6  1  0.94166732  0.54118603  0.94003922  1
+  F  F7  1  0.52516371  0.77150929  0.85442948  1
+  F  F8  1  0.46136785  0.13664734  0.50289237  1
+  Zr  Zr9  1  0.75350893  0.25091624  0.06700780  1
+  O  O10  1  0.97815299  0.01493171  0.98885024  1
+  Fe  Fe11  1  0.76183408  0.75108224  0.07921344  1
+  O  O12  1  0.99629074  0.37851980  0.62885803  1
+  Li  Li13  1  0.29889196  0.53696090  0.94987410  1
+  O  O14  1  0.51942641  0.49598053  0.15404190  1
+  O  O15  1  0.99243391  0.71483868  0.27451071  1
+  Na  Na16  1  0.23835632  0.06748480  0.75622892  1
+  Y  Y17  1  0.24814843  0.43856579  0.37940863  1
+  O  O18  1  0.94484246  0.82402200  0.64032042  1
+  Li  Li19  1  0.19513144  0.96832395  0.18385148  1

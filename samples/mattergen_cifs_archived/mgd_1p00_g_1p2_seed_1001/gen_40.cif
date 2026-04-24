@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Eu2NiPt
+_chemical_formula_sum              "Eu2 Ni1 Pt1"
+_cell_length_a       4.9849385114175115
+_cell_length_b       4.985119150043314
+_cell_length_c       4.985407829284668
+_cell_angle_alpha    59.99349935150998
+_cell_angle_beta     59.99397116912982
+_cell_angle_gamma    59.996842930579426
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Eu  Eu1       1.0  0.9369828701019287  0.1342234313488007  0.6277120113372803  1.0000
+  Eu  Eu2       1.0  0.4371490180492401  0.6343523263931274  0.12780940532684326  1.0000
+  Ni  Ni1       1.0  0.18715828657150266  0.38424342870712286  0.8777114748954773  1.0000
+  Pt  Pt1       1.0  0.6871174573898315  0.8841730952262878  0.37768641114234924  1.0000

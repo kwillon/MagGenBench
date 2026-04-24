@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       MnEuSiMnGe
+_chemical_formula_sum              "Mn2 Eu1 Si1 Ge1"
+_cell_length_a       4.010130052903131
+_cell_length_b       4.011114157002897
+_cell_length_c       6.066571235656738
+_cell_angle_alpha    109.30636477643765
+_cell_angle_beta     109.27398103590058
+_cell_angle_gamma    90.01554196014867
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Mn  Mn1       1.0  0.3605595529079437  0.41808912158012396  0.5452849864959717  1.0000
+  Eu  Eu1       1.0  0.10532296448945999  0.6625356078147888  0.034502871334552765  1.0000
+  Si  Si1       1.0  0.47951915860176086  0.03680029883980751  0.7824121117591859  1.0000
+  Mn  Mn2       1.0  0.8610147833824158  0.9176268577575684  0.5454363226890565  1.0000
+  Ge  Ge1       1.0  0.727994978427887  0.2851417660713196  0.28012573719024664  1.0000

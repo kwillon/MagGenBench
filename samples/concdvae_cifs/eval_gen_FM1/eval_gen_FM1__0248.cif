@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Li2CaCeS3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.87158346
+_cell_length_b   6.44574642
+_cell_length_c   6.63529110
+_cell_angle_alpha   92.45400238
+_cell_angle_beta   90.39880371
+_cell_angle_gamma   90.62049866
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2CaCeS3
+_chemical_formula_sum   'Li2 Ca1 Ce1 S3'
+_cell_volume   165.41919231
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.95204920  0.99868327  0.31712806  1
+  S  S1  1  0.44306535  0.50300431  0.31440625  1
+  Ca  Ca2  1  0.45314297  0.22779641  0.59177661  1
+  Li  Li3  1  0.94973522  0.31255448  0.13396281  1
+  S  S4  1  0.94151050  0.50761509  0.81784678  1
+  Ce  Ce5  1  0.44282746  0.77600783  0.05571479  1
+  Li  Li6  1  0.94084805  0.68730789  0.50222856  1

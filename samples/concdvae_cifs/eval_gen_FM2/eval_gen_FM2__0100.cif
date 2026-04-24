@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_RbLiMgNb2IClO7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.08214855
+_cell_length_b   6.19868374
+_cell_length_c   7.41190481
+_cell_angle_alpha   90.44717407
+_cell_angle_beta   90.92583466
+_cell_angle_gamma   112.78081512
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbLiMgNb2IClO7
+_chemical_formula_sum   'Rb1 Li1 Mg1 Nb2 I1 Cl1 O7'
+_cell_volume   257.57675335
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  1  0.83221078  0.82578307  0.75471693  1
+  O  O1  1  0.39686197  0.32296631  0.09506804  1
+  O  O2  1  0.49219036  0.57413757  0.76198614  1
+  I  I3  1  0.52636856  0.09266981  0.56337494  1
+  O  O4  1  0.89432883  0.36438477  0.07727505  1
+  O  O5  1  0.76690412  0.88618946  0.98979032  1
+  Mg  Mg6  1  0.57887489  0.09078887  0.06968533  1
+  O  O7  1  0.30844918  0.77401829  0.07666238  1
+  Rb  Rb8  1  0.18476763  0.43926659  0.44317591  1
+  O  O9  1  0.06475102  0.16085705  0.77425408  1
+  O  O10  1  0.01803114  0.63829815  0.77596790  1
+  Nb  Nb11  1  0.20814544  0.45555475  0.95131809  1
+  Cl  Cl12  1  0.84934634  0.78266734  0.41663921  1
+  Li  Li13  1  0.74425614  0.60203731  0.11067017  1

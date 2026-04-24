@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Cs2TiNbAlOF12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.80526733
+_cell_length_b   6.78868484
+_cell_length_c   7.22529507
+_cell_angle_alpha   98.88269806
+_cell_angle_beta   80.15087891
+_cell_angle_gamma   83.69781494
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2TiNbAlOF12
+_chemical_formula_sum   'Cs2 Ti1 Nb1 Al1 O1 F12'
+_cell_volume   321.74043917
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.84083134  0.57985044  0.12150303  1
+  F  F1  1  0.19252461  0.08172362  0.32044849  1
+  F  F2  1  0.48206389  0.77901793  0.23950770  1
+  F  F3  1  0.46746865  0.07778003  0.52748239  1
+  Cs  Cs4  1  0.75670469  0.35880876  0.47615907  1
+  F  F5  1  0.17878336  0.76756966  0.91125876  1
+  F  F6  1  0.12946519  0.72394717  0.40916592  1
+  F  F7  1  0.58100462  0.53620064  0.90376174  1
+  Al  Al8  1  0.30501491  0.92473704  0.44240099  1
+  F  F9  1  0.11030702  0.01301050  0.66554475  1
+  Cs  Cs10  1  0.23238593  0.30953389  0.99470532  1
+  F  F11  1  0.80792880  0.98113358  0.15335837  1
+  F  F12  1  0.38384324  0.72286314  0.57174838  1
+  Nb  Nb13  1  0.70154589  0.76262277  0.01365098  1
+  F  F14  1  0.53569019  0.96708840  0.95720214  1
+  Ti  Ti15  1  0.11607615  0.72649503  0.68540448  1
+  F  F16  1  0.14856213  0.45744458  0.63203067  1
+  O  O17  1  0.87270546  0.74697423  0.78299063  1

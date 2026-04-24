@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       ZrCoZnCo3
+_chemical_formula_sum              "Zr1 Co4 Zn1"
+_cell_length_a       4.802326603075602
+_cell_length_b       4.80127741565879
+_cell_length_c       4.800595760345459
+_cell_angle_alpha    60.01312238564832
+_cell_angle_beta     60.00893642679357
+_cell_angle_gamma    60.01998575232568
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Zr  Zr1       1.0  0.3763844072818756  0.30884552001953125  0.10170941799879074  1.0000
+  Co  Co1       1.0  0.24885341525077825  0.6845305562019347  0.4774760603904724  1.0000
+  Zn  Zn1       1.0  0.12616215646266937  0.058975670486688614  0.8517271876335144  1.0000
+  Co  Co2       1.0  0.7518173456192015  0.6845548748970032  0.4774911105632782  1.0000
+  Co  Co3       1.0  0.7517303228378296  0.6845893859863281  0.9747787714004517  1.0000
+  Co  Co4       1.0  0.751656711101532  0.1817675679922104  0.47755786776542664  1.0000

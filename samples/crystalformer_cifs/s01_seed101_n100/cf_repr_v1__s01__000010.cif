@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_BaNa2Sr2Nd2SmEu4NiO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.86491436
+_cell_length_b   6.28483390
+_cell_length_c   11.83925487
+_cell_angle_alpha   95.89493081
+_cell_angle_beta   94.13038761
+_cell_angle_gamma   89.90615125
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaNa2Sr2Nd2SmEu4NiO8
+_chemical_formula_sum   'Ba1 Na2 Sr2 Nd2 Sm1 Eu4 Ni1 O8'
+_cell_volume   506.77344126
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.00196490  0.49468608  0.00273131  1
+  O  O1  1  0.09467887  0.48933087  0.49453806  1
+  O  O2  1  0.21367025  0.30277052  0.00246123  1
+  Na  Na3  1  0.24564922  0.76287630  0.50163140  1
+  O  O4  1  0.28009299  0.02828696  0.46549176  1
+  Ni  Ni5  1  0.30972263  0.00413199  0.99999513  1
+  O  O6  1  0.45531807  0.01741605  0.52053296  1
+  O  O7  1  0.44477607  0.99753109  0.50165689  1
+  Sm  Sm8  1  0.46981873  0.99243333  0.50572337  1
+  Eu  Eu9  1  0.50164708  0.99827957  0.51079937  1
+  Nd  Nd10  1  0.50118990  0.98567351  0.99454334  1
+  Sr  Sr11  1  0.50645661  0.99397285  0.00619910  1
+  O  O12  1  0.52518038  0.97992568  0.01360371  1
+  O  O13  1  0.53622173  0.98110801  0.49814595  1
+  Eu  Eu14  1  0.48787297  0.99678340  0.49679728  1
+  Nd  Nd15  1  0.50411754  0.00030174  0.50712899  1
+  Sr  Sr16  1  0.49623525  0.99019625  0.99546497  1
+  Eu  Eu17  1  0.50509545  0.00060938  0.49749910  1
+  Eu  Eu18  1  0.00463121  0.52069588  0.00164000  1
+  Ba  Ba19  1  0.49514846  0.49307043  0.99142617  1
+  O  O20  1  0.52765212  0.98995765  0.99705287  1

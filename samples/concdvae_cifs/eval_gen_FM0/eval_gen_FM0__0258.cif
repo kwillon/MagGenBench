@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Tb2MgFeC2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.01657009
+_cell_length_b   5.52393579
+_cell_length_c   6.10908365
+_cell_angle_alpha   94.06477356
+_cell_angle_beta   87.32210541
+_cell_angle_gamma   87.86007690
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb2MgFeC2
+_chemical_formula_sum   'Tb2 Mg1 Fe1 C2'
+_cell_volume   101.34632866
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.89751363  0.23002684  0.07582788  1
+  C  C1  1  0.38947093  0.45862600  0.34625572  1
+  Fe  Fe2  1  0.40343550  0.23251167  0.57426184  1
+  C  C3  1  0.40156984  0.01249824  0.80831438  1
+  Mg  Mg4  1  0.39040539  0.72757781  0.07732819  1
+  Tb  Tb5  1  0.89716858  0.73735440  0.57849568  1

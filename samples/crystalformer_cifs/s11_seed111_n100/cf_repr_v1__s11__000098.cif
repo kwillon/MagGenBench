@@ -1,0 +1,53 @@
+# generated using pymatgen
+data_CeCrCd(InCu2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.28684565
+_cell_length_b   4.28684565
+_cell_length_c   35.83930607
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CeCrCd(InCu2)2
+_chemical_formula_sum   'Ce3 Cr3 Cd3 In6 Cu12'
+_cell_volume   570.38213797
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.00000000  0.00000000  0.21647379  1
+  Cu  Cu1  1  0.66666669  0.33333334  0.54980714  1
+  Cu  Cu2  1  0.33333334  0.66666669  0.88314048  1
+  Cu  Cu3  1  0.00000000  0.00000000  0.37785829  1
+  Cu  Cu4  1  0.66666669  0.33333334  0.71119163  1
+  Cu  Cu5  1  0.33333334  0.66666669  0.04452497  1
+  Cr  Cr6  1  0.00000000  0.00000000  0.33758266  1
+  Cr  Cr7  1  0.66666669  0.33333334  0.67091600  1
+  Cr  Cr8  1  0.33333334  0.66666669  0.00424935  1
+  Cu  Cu9  1  0.00000000  0.00000000  0.47271564  1
+  Cu  Cu10  1  0.66666669  0.33333334  0.80604898  1
+  Cu  Cu11  1  0.33333334  0.66666669  0.13938233  1
+  Cu  Cu12  1  0.00000000  0.00000000  0.51199128  1
+  Cu  Cu13  1  0.66666669  0.33333334  0.84532462  1
+  Cu  Cu14  1  0.33333334  0.66666669  0.17865797  1
+  In  In15  1  0.00000000  0.00000000  0.65223265  1
+  In  In16  1  0.66666669  0.33333334  0.98556599  1
+  In  In17  1  0.33333334  0.66666669  0.31889933  1
+  In  In18  1  0.00000000  0.00000000  0.74970353  1
+  In  In19  1  0.66666669  0.33333334  0.08303687  1
+  In  In20  1  0.33333334  0.66666669  0.41637022  1
+  Ce  Ce21  1  0.00000000  0.00000000  0.81670591  1
+  Ce  Ce22  1  0.66666669  0.33333334  0.15003925  1
+  Ce  Ce23  1  0.33333334  0.66666669  0.48337260  1
+  Cd  Cd24  1  0.00000000  0.00000000  0.98269455  1
+  Cd  Cd25  1  0.66666669  0.33333334  0.31602790  1
+  Cd  Cd26  1  0.33333334  0.66666669  0.64936124  1

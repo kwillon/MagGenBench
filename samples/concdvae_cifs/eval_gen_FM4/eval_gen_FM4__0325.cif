@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_BaCa2F6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.30455494
+_cell_length_b   5.15584040
+_cell_length_c   7.64164972
+_cell_angle_alpha   98.03793335
+_cell_angle_beta   94.53967285
+_cell_angle_gamma   95.85964966
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaCa2F6
+_chemical_formula_sum   'Ba1 Ca2 F6'
+_cell_volume   166.29900993
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.64925879  0.50325686  0.41838184  1
+  Ca  Ca1  1  0.14529684  0.50855935  0.46995622  1
+  F  F2  1  0.61763054  0.41161314  0.00172138  1
+  Ca  Ca3  1  0.10313943  0.41300768  0.95183671  1
+  Ba  Ba4  1  0.63136661  0.96091706  0.20927124  1
+  F  F5  1  0.13264939  0.46538553  0.71222079  1
+  F  F6  1  0.14471731  0.99496466  0.41918111  1
+  F  F7  1  0.10717689  0.92218077  0.00700303  1
+  F  F8  1  0.12993360  0.46047413  0.21186860  1

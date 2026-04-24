@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Mn2GaCo3
+_chemical_formula_sum              "Mn2 Ga1 Co3"
+_cell_length_a       2.920077033020219
+_cell_length_b       4.019809849589679
+_cell_length_c       6.356965065002441
+_cell_angle_alpha    108.45812849964537
+_cell_angle_beta     89.97955291828022
+_cell_angle_gamma    89.95878231269248
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Mn  Mn1       1.0  0.3968001902103424  0.016867622733116153  0.07676374912261963  1.0000
+  Mn  Mn2       1.0  0.39688220620155334  0.682804524898529  0.4081691801548004  1.0000
+  Ga  Ga1       1.0  0.3969784080982208  0.3499809801578522  0.7428510189056396  1.0000
+  Co  Co1       1.0  0.8969641327857971  0.8500893115997316  0.7427074313163757  1.0000
+  Co  Co2       1.0  0.8971107006072998  0.18051709234714508  0.40420326590538025  1.0000
+  Co  Co3       1.0  0.8967265486717224  0.5193635821342469  0.08145435899496078  1.0000

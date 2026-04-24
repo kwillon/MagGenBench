@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       EuAuRhGd
+_chemical_formula_sum              "Eu1 Au1 Rh1 Gd1"
+_cell_length_a       5.0861743436024724
+_cell_length_b       5.085628339026948
+_cell_length_c       5.085451126098633
+_cell_angle_alpha    60.01774783015041
+_cell_angle_beta     60.02055531125755
+_cell_angle_gamma    60.02735039040262
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Eu  Eu1       1.0  0.7879458665847778  0.42883661389350886  0.5346379280090332  1.0000
+  Au  Au1       1.0  0.03799385204911237  0.6791846156120299  0.7846149206161499  1.0000
+  Rh  Rh1       1.0  0.5377717614173889  0.17888519167900085  0.2845267057418823  1.0000
+  Gd  Gd1       1.0  0.28783729672431957  0.9289816617965697  0.03468670696020126  1.0000

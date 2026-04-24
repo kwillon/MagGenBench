@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_CaAl2BO5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.41796589
+_cell_length_b   4.65151262
+_cell_length_c   5.05483818
+_cell_angle_alpha   103.19058990
+_cell_angle_beta   85.24079895
+_cell_angle_gamma   89.00614929
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaAl2BO5
+_chemical_formula_sum   'Ca1 Al2 B1 O5'
+_cell_volume   100.71820194
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.27918702  0.53563344  0.92129046  1
+  O  O1  1  0.82594395  0.85077542  0.29602897  1
+  O  O2  1  0.82064265  0.22423837  0.91039062  1
+  O  O3  1  0.27432784  0.85585225  0.61112177  1
+  Al  Al4  1  0.97929382  0.06692492  0.57232916  1
+  Ca  Ca5  1  0.46464071  0.02388122  0.07232956  1
+  B  B6  1  0.22060657  0.58093119  0.66228634  1
+  O  O7  1  0.11656309  0.35599479  0.43551722  1
+  Al  Al8  1  0.98482174  0.49961641  0.13342534  1

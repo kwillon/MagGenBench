@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Li3Ca4(Ga2Fe)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.45432520
+_cell_length_b   7.39979887
+_cell_length_c   7.45077753
+_cell_angle_alpha   65.10188293
+_cell_angle_beta   64.10911560
+_cell_angle_gamma   63.52388763
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li3Ca4(Ga2Fe)2
+_chemical_formula_sum   'Li3 Ca4 Ga4 Fe2'
+_cell_volume   317.61758892
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.79786098  0.64359862  0.05699416  1
+  Ca  Ca1  1  0.32556519  0.13012032  0.24349128  1
+  Li  Li2  1  0.93386561  0.08199900  0.72061348  1
+  Li  Li3  1  0.42997634  0.39410374  0.38748741  1
+  Fe  Fe4  1  0.72837508  0.89962029  0.38144004  1
+  Ca  Ca5  1  0.17528766  0.83090097  0.09214754  1
+  Li  Li6  1  0.12004942  0.31719938  0.76505673  1
+  Ga  Ga7  1  0.55141217  0.03154230  0.70435059  1
+  Ca  Ca8  1  0.49087742  0.55762196  0.68327278  1
+  Ga  Ga9  1  0.02591594  0.77260375  0.55113679  1
+  Ga  Ga10  1  0.96471989  0.48594546  0.42534804  1
+  Fe  Fe11  1  0.83505452  0.18585926  0.38935161  1
+  Ga  Ga12  1  0.74034035  0.23543604  0.06858704  1

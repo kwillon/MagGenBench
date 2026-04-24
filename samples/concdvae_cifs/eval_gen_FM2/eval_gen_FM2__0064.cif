@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Li3TlCuBi2Cl4O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.56782007
+_cell_length_b   6.77835751
+_cell_length_c   7.55561161
+_cell_angle_alpha   116.75370026
+_cell_angle_beta   90.00121307
+_cell_angle_gamma   90.02995300
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li3TlCuBi2Cl4O5
+_chemical_formula_sum   'Li3 Tl1 Cu1 Bi2 Cl4 O5'
+_cell_volume   300.36017278
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.67000926  0.69539016  0.04467972  1
+  Cl  Cl1  1  0.86673200  0.40303233  0.01728006  1
+  Li  Li2  1  0.67092466  0.13664104  0.05187517  1
+  O  O3  1  0.12712029  0.97386128  0.64586616  1
+  Cl  Cl4  1  0.63941860  0.35679612  0.45564133  1
+  O  O5  1  0.39631981  0.12542331  0.94218928  1
+  O  O6  1  0.80907542  0.85657889  0.91351843  1
+  Cl  Cl7  1  0.14895244  0.03375188  0.27346492  1
+  O  O8  1  0.40019417  0.61169761  0.94213206  1
+  Tl  Tl9  1  0.25155461  0.54500014  0.29360470  1
+  O  O10  1  0.11577008  0.46068096  0.65602428  1
+  Li  Li11  1  0.92653614  0.18451013  0.57690257  1
+  Bi  Bi12  1  0.16257331  0.83526248  0.88369936  1
+  Cl  Cl13  1  0.65048730  0.87947756  0.45898652  1
+  Cu  Cu14  1  0.70513767  0.72846550  0.66445827  1
+  Bi  Bi15  1  0.34942645  0.25150743  0.72006565  1

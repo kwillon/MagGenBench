@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Na2DyYCuO5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.89084291
+_cell_length_b   5.25157976
+_cell_length_c   6.82532358
+_cell_angle_alpha   66.69114685
+_cell_angle_beta   74.15117645
+_cell_angle_gamma   65.95721436
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2DyYCuO5
+_chemical_formula_sum   'Na2 Dy1 Y1 Cu1 O5'
+_cell_volume   145.71624583
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.61355889  0.54922396  0.20968062  1
+  Y  Y1  1  0.81420374  0.75389814  0.61876041  1
+  Na  Na2  1  0.41956499  0.32717425  0.81985289  1
+  O  O3  1  0.85140842  0.40909362  0.88931453  1
+  O  O4  1  0.08063692  0.52676982  0.29017121  1
+  O  O5  1  0.33021829  0.78127891  0.54867649  1
+  O  O6  1  0.56795299  0.90045792  0.95389199  1
+  Na  Na7  1  0.00125775  0.98490345  0.01159996  1
+  O  O8  1  0.70771503  0.15318981  0.42334092  1
+  Cu  Cu9  1  0.20607959  0.15135173  0.42226481  1

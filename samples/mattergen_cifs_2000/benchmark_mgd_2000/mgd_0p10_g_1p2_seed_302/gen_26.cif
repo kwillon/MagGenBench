@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       ScEuOEuO3
+_chemical_formula_sum              "Sc1 Eu2 O4"
+_cell_length_a       4.040460952721695
+_cell_length_b       4.039385245896785
+_cell_length_c       6.813718318939209
+_cell_angle_alpha    107.28078918285213
+_cell_angle_beta     107.27669344842258
+_cell_angle_gamma    89.95794909750347
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sc  Sc1       1.0  0.08092216402292252  0.434922605752945  0.8631088137626647  1.0000
+  Eu  Eu1       1.0  0.4381604790687561  0.791875958442688  0.5773305892944336  1.0000
+  O   O1        1.0  0.08128748834133148  0.9354318976402283  0.8641519546508788  1.0000
+  Eu  Eu2       1.0  0.7236509919166565  0.07729219645261765  0.14869990944862366  1.0000
+  O   O2        1.0  0.9072341918945312  0.2610685527324677  0.5157095789909363  1.0000
+  O   O3        1.0  0.25498485565185547  0.6087405681610107  0.21140326559543607  1.0000
+  O   O4        1.0  0.5811880826950073  0.4349415898323059  0.8635979890823363  1.0000

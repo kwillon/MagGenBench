@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_LiMnSbCl5OF
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.19911385
+_cell_length_b   6.40293407
+_cell_length_c   7.24107170
+_cell_angle_alpha   108.99975586
+_cell_angle_beta   101.25875092
+_cell_angle_gamma   92.72264099
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiMnSbCl5OF
+_chemical_formula_sum   'Li1 Mn1 Sb1 Cl5 O1 F1'
+_cell_volume   221.92448233
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.02378627  0.62116820  0.79895091  1
+  Sb  Sb1  1  0.88388205  0.35574752  0.13793840  1
+  Cl  Cl2  1  0.07447304  0.86519855  0.62604833  1
+  F  F3  1  0.61368710  0.16375126  0.93183863  1
+  Cl  Cl4  1  0.54796124  0.63611889  0.28534484  1
+  Cl  Cl5  1  0.80139363  0.26504630  0.48863757  1
+  Cl  Cl6  1  0.50373381  0.61935019  0.75959611  1
+  Li  Li7  1  0.60357761  0.93661755  0.62043172  1
+  O  O8  1  0.02978163  0.46448168  0.97235692  1
+  Cl  Cl9  1  0.10166261  0.00024390  0.11291559  1

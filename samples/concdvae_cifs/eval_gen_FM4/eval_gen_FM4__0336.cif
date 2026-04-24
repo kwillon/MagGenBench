@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_La2EuGeO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.25347710
+_cell_length_b   4.46650505
+_cell_length_c   9.39126110
+_cell_angle_alpha   91.46533966
+_cell_angle_beta   90.64312744
+_cell_angle_gamma   90.24866486
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La2EuGeO6
+_chemical_formula_sum   'La2 Eu1 Ge1 O6'
+_cell_volume   178.34534714
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.39489862  0.24230307  0.65109789  1
+  La  La1  1  0.89503169  0.25634140  0.15273532  1
+  La  La2  1  0.39731243  0.75371724  0.44813937  1
+  O  O3  1  0.89036751  0.74866110  0.99462801  1
+  O  O4  1  0.89386356  0.75441474  0.31367278  1
+  O  O5  1  0.39191917  0.25020289  0.31536427  1
+  O  O6  1  0.39195770  0.25655881  0.99659014  1
+  Ge  Ge7  1  0.89437985  0.25505474  0.65401733  1
+  Eu  Eu8  1  0.38881364  0.75728095  0.86325121  1
+  O  O9  1  0.90146804  0.74894762  0.65070564  1

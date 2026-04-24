@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       SiBrGdBrGdSi
+_chemical_formula_sum              "Si2 Br2 Gd2"
+_cell_length_a       4.037783122701539
+_cell_length_b       4.038261371517552
+_cell_length_c       11.641485214233398
+_cell_angle_alpha    80.09588638234479
+_cell_angle_beta     80.068524810185
+_cell_angle_gamma    59.99071267088118
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Si  Si1       1.0  0.3008358478546143  0.27425122261047363  0.8274282813072205  1.0000
+  Br  Br1       1.0  0.41642647981643677  0.38820067048072815  0.483721524477005  1.0000
+  Gd  Gd1       1.0  0.6950418353080751  0.6677335500717164  0.6456345915794373  1.0000
+  Br  Br2       1.0  0.8593497276306152  0.8336926102638245  0.1508157104253769  1.0000
+  Gd  Gd2       1.0  0.5807696580886842  0.554724395275116  0.9892904758453369  1.0000
+  Si  Si2       1.0  0.9750234484672549  0.9488790035247803  0.8063111901283264  1.0000

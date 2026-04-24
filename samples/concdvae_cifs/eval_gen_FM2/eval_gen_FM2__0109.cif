@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_BiAuClOF4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.84638119
+_cell_length_b   5.50675106
+_cell_length_c   8.40691662
+_cell_angle_alpha   80.70545197
+_cell_angle_beta   84.62813568
+_cell_angle_gamma   86.14865112
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BiAuClOF4
+_chemical_formula_sum   'Bi1 Au1 Cl1 O1 F4'
+_cell_volume   174.71216269
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.30435476  0.27906969  0.96437025  1
+  Bi  Bi1  1  0.38230404  0.56262279  0.78736913  1
+  O  O2  1  0.95581537  0.41399077  0.67072123  1
+  F  F3  1  0.82050633  0.71515536  0.91824639  1
+  F  F4  1  0.78149247  0.38311598  0.35809341  1
+  Cl  Cl5  1  0.27417216  0.92496079  0.31436706  1
+  Au  Au6  1  0.08059567  0.18445620  0.49974576  1
+  F  F7  1  0.38158792  0.94688946  0.64870745  1

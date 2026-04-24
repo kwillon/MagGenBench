@@ -1,0 +1,29 @@
+# generated using pymatgen
+data_LuGePd
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.26115870
+_cell_length_b   4.26178455
+_cell_length_c   4.84099197
+_cell_angle_alpha   114.66963959
+_cell_angle_beta   94.48872375
+_cell_angle_gamma   95.86824799
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LuGePd
+_chemical_formula_sum   'Lu1 Ge1 Pd1'
+_cell_volume   60.27382877
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.03405304  0.19081232  0.00273879  1
+  Lu  Lu1  1  0.53947449  0.86033595  0.33668774  1
+  Pd  Pd2  1  0.03266330  0.51642990  0.66736376  1

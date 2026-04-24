@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_KNa4Nd2Eu4MnIrO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.06988518
+_cell_length_b   6.55655397
+_cell_length_c   9.41072523
+_cell_angle_alpha   80.88317122
+_cell_angle_beta   86.32363358
+_cell_angle_gamma   80.01618855
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KNa4Nd2Eu4MnIrO8
+_chemical_formula_sum   'K1 Na4 Nd2 Eu4 Mn1 Ir1 O8'
+_cell_volume   483.84830341
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.01298175  0.49198683  0.01585095  1
+  O  O1  1  0.03648209  0.00795854  0.50004788  1
+  O  O2  1  0.05825060  0.48852547  0.51338724  1
+  O  O3  1  0.35474421  0.01662118  0.49916674  1
+  Eu  Eu4  1  0.49158974  0.98926475  0.50052605  1
+  Na  Na5  1  0.49299002  0.01251956  0.49152174  1
+  Na  Na6  1  0.48900553  0.00282771  0.48915228  1
+  Eu  Eu7  1  0.49315162  0.99419856  0.98881205  1
+  Mn  Mn8  1  0.50191500  0.99349520  0.99414245  1
+  O  O9  1  0.51395509  0.00282662  0.51244265  1
+  Eu  Eu10  1  0.50298967  0.00759516  0.52630975  1
+  Eu  Eu11  1  0.51124680  0.52184903  0.99399035  1
+  Na  Na12  1  0.50370829  0.00098205  0.98317706  1
+  Ir  Ir13  1  0.51849523  0.50060665  0.00195100  1
+  K  K14  1  0.92988675  0.98856800  0.50279123  1
+  O  O15  1  0.97498443  0.99254767  0.99009930  1
+  O  O16  1  0.02193491  0.51009354  0.99588544  1
+  O  O17  1  0.00617312  0.98983868  0.99561237  1
+  Nd  Nd18  1  0.46840798  0.99019835  0.49275131  1
+  Nd  Nd19  1  0.51691447  0.99712670  0.50054525  1
+  O  O20  1  0.00350972  0.00408828  0.52876319  1

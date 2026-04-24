@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Dy2AgPb2Se5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.17639256
+_cell_length_b   6.64224815
+_cell_length_c   7.72803640
+_cell_angle_alpha   71.06040192
+_cell_angle_beta   68.59475708
+_cell_angle_gamma   63.13849640
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Dy2AgPb2Se5
+_chemical_formula_sum   'Dy2 Ag1 Pb2 Se5'
+_cell_volume   258.41424090
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pb  Pb0  1  0.23808759  0.18021891  0.74410897  1
+  Se  Se1  1  0.35456151  0.75006431  0.94120717  1
+  Pb  Pb2  1  0.82513726  0.78612703  0.95368034  1
+  Dy  Dy3  1  0.63100398  0.58287543  0.54747933  1
+  Ag  Ag4  1  0.02523476  0.98174053  0.34883323  1
+  Se  Se5  1  0.71716261  0.20607895  0.75924063  1
+  Se  Se6  1  0.13996345  0.59078729  0.52351385  1
+  Dy  Dy7  1  0.43440127  0.37994680  0.14918888  1
+  Se  Se8  1  0.53442764  0.98040855  0.35130474  1
+  Se  Se9  1  0.92529172  0.37605932  0.17278448  1

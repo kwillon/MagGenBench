@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       La3InLaBr3
+_chemical_formula_sum              "La4 In1 Br3"
+_cell_length_a       6.268312646109124
+_cell_length_b       6.261639256356799
+_cell_length_c       6.266915798187256
+_cell_angle_alpha    90.05607835501137
+_cell_angle_beta     89.98582303145612
+_cell_angle_gamma    89.95402166820084
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  La  La1       1.0  0.4434242248535156  0.3680879473686218  0.3764550089836121  1.0000
+  La  La2       1.0  0.4433644413948059  0.8680889606475829  0.8763830661773682  1.0000
+  La  La3       1.0  0.9430801272392273  0.8681192398071289  0.3765551745891571  1.0000
+  In  In1       1.0  0.9427891969680786  0.8678529262542725  0.8762996196746826  1.0000
+  La  La4       1.0  0.9431918263435364  0.3681674897670746  0.8764185309410095  1.0000
+  Br  Br1       1.0  0.44328558444976807  0.3679598569869995  0.8764298558235168  1.0000
+  Br  Br2       1.0  0.9428438544273376  0.36784663796424866  0.3761829137802124  1.0000
+  Br  Br3       1.0  0.4434908926486969  0.8681676983833312  0.37630555033683777  1.0000

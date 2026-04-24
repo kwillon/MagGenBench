@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_BaPaP2O9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.25744247
+_cell_length_b   5.29355955
+_cell_length_c   9.88277149
+_cell_angle_alpha   91.43326569
+_cell_angle_beta   92.05304718
+_cell_angle_gamma   115.13552856
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaPaP2O9
+_chemical_formula_sum   'Ba1 Pa1 P2 O9'
+_cell_volume   201.30840122
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.91503572  0.09885305  0.07026678  1
+  Pa  Pa1  1  0.57651085  0.30161759  0.38500410  1
+  O  O2  1  0.39097100  0.02486727  0.57950568  1
+  P  P3  1  0.05478153  0.77159750  0.63673252  1
+  P  P4  1  0.59555322  0.83329457  0.13268030  1
+  O  O5  1  0.66665184  0.57330710  0.18874204  1
+  O  O6  1  0.91547835  0.87672114  0.75707012  1
+  O  O7  1  0.35230324  0.73394752  0.00728182  1
+  Ba  Ba8  1  0.47095180  0.29916167  0.88921613  1
+  O  O9  1  0.78352368  0.66234660  0.51114041  1
+  O  O10  1  0.12455085  0.50438941  0.70386446  1
+  O  O11  1  0.07848057  0.29344419  0.38816389  1
+  O  O12  1  0.42874199  0.93173957  0.25752103  1

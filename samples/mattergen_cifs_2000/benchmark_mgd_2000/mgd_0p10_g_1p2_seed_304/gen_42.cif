@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       GaMg2Eu2Mg2Ga
+_chemical_formula_sum              "Ga2 Mg4 Eu2"
+_cell_length_a       4.6039506285133855
+_cell_length_b       6.008819962444542
+_cell_length_c       8.062649726867676
+_cell_angle_alpha    111.72701728820117
+_cell_angle_beta     90.0749843154097
+_cell_angle_gamma    89.9851468443378
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ga  Ga1       1.0  0.47491034865379333  0.2930951416492462  0.4882045090198517  1.0000
+  Mg  Mg1       1.0  0.9750853776931763  0.457665354013443  0.3155997693538666  1.0000
+  Mg  Mg2       1.0  0.9747129678726196  0.018818210810422897  0.9393060803413391  1.0000
+  Eu  Eu1       1.0  0.47492942214012146  0.8568933010101318  0.6148049235343933  1.0000
+  Eu  Eu2       1.0  0.4746933877468109  0.5596662759780884  0.017428372055292102  1.0000
+  Mg  Mg3       1.0  0.9756377339363098  0.3973208963871002  0.6923359036445618  1.0000
+  Mg  Mg4       1.0  0.9753658175468445  0.9593698382377626  0.3173713982105255  1.0000
+  Ga  Ga2       1.0  0.47536027431488037  0.12326561659574509  0.14555595815181732  1.0000

@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_K2SrBO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.75809097
+_cell_length_b   4.78677273
+_cell_length_c   5.46547365
+_cell_angle_alpha   80.29765320
+_cell_angle_beta   85.66766357
+_cell_angle_gamma   83.09294891
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2SrBO3
+_chemical_formula_sum   'K2 Sr1 B1 O3'
+_cell_volume   121.61559662
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.45628643  0.57221895  0.45813087  1
+  O  O1  1  0.96194339  0.91791248  0.78905678  1
+  B  B2  1  0.96574521  0.06845281  0.95036328  1
+  K  K3  1  0.46522927  0.06699274  0.45566714  1
+  Sr  Sr4  1  0.96647978  0.56721002  0.45677692  1
+  K  K5  1  0.46222395  0.56581694  0.95483732  1
+  O  O6  1  0.97478586  0.21722971  0.12826137  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_HfSc2PaO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.86168170
+_cell_length_b   4.87734795
+_cell_length_c   7.27981806
+_cell_angle_alpha   92.08857727
+_cell_angle_beta   91.35180664
+_cell_angle_gamma   90.27360535
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfSc2PaO8
+_chemical_formula_sum   'Hf1 Sc2 Pa1 O8'
+_cell_volume   136.98226295
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.83552533  0.10000889  0.08920332  1
+  Sc  Sc1  1  0.33414727  0.35198730  0.08653305  1
+  O  O2  1  0.33632705  0.10524621  0.34711498  1
+  O  O3  1  0.33394444  0.09591802  0.84515631  1
+  O  O4  1  0.34037510  0.60832042  0.84734833  1
+  Sc  Sc5  1  0.33583647  0.35442379  0.60676444  1
+  Hf  Hf6  1  0.83643007  0.84861183  0.84587491  1
+  O  O7  1  0.83190417  0.09693972  0.60403860  1
+  O  O8  1  0.83407545  0.59570062  0.60140896  1
+  O  O9  1  0.33616123  0.59650671  0.34718171  1
+  O  O10  1  0.83715755  0.59917116  0.09429592  1
+  Pa  Pa11  1  0.83015877  0.84874624  0.34955889  1

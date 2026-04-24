@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       TmCdTm3InAgIn
+_chemical_formula_sum              "Tm4 Cd1 In2 Ag1"
+_cell_length_a       5.213158642433801
+_cell_length_b       5.211958309629795
+_cell_length_c       9.007925987243652
+_cell_angle_alpha    73.19533185170188
+_cell_angle_beta     73.1932694290523
+_cell_angle_gamma    60.04450229062128
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Tm  Tm1       1.0  0.951625645537117  0.3504731664965165  0.7964169383692113  1.0000
+  Cd  Cd1       1.0  0.5740315928114053  0.9729083767234181  0.9284321070052292  1.0000
+  Tm  Tm2       1.0  0.44693982600151183  0.8458473093228019  0.3098911345305311  1.0000
+  Tm  Tm3       1.0  0.19652691415146847  0.5955749156168897  0.06063156169715915  1.0000
+  Tm  Tm4       1.0  0.701077581055037  0.10015410834894697  0.5470621591887882  1.0000
+  In  In1       1.0  0.8247256287005175  0.22373768641185407  0.17544621242740954  1.0000
+  Ag  Ag1       1.0  0.07382926236561656  0.47276204863287646  0.42854413400362923  1.0000
+  In  In2       1.0  0.3230200415066924  0.7218459238162168  0.6816540360842581  1.0000

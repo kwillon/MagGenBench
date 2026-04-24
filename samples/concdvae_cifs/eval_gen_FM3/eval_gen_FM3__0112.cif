@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_LiCaLaHo2Cr2RuO12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.90932941
+_cell_length_b   6.86456680
+_cell_length_c   6.83196735
+_cell_angle_alpha   86.79232788
+_cell_angle_beta   90.85308838
+_cell_angle_gamma   92.35604095
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiCaLaHo2Cr2RuO12
+_chemical_formula_sum   'Li1 Ca1 La1 Ho2 Cr2 Ru1 O12'
+_cell_volume   229.66683270
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.93229908  0.81695813  0.79907256  1
+  Ca  Ca1  1  0.83857304  0.14809208  0.61914200  1
+  O  O2  1  0.05443124  0.44695574  0.66288710  1
+  Ho  Ho3  1  0.33446255  0.45536184  0.41140997  1
+  O  O4  1  0.39623955  0.17218877  0.61350679  1
+  Ho  Ho5  1  0.33973619  0.25836605  0.91594332  1
+  O  O6  1  0.14374341  0.76489091  0.43177465  1
+  Cr  Cr7  1  0.35307446  0.01097983  0.36523870  1
+  Ru  Ru8  1  0.83755362  0.66179883  0.59303480  1
+  O  O9  1  0.74996555  0.53482854  0.34628752  1
+  O  O10  1  0.04237568  0.16750480  0.31958407  1
+  O  O11  1  0.87978512  0.19349587  0.94835436  1
+  Li  Li12  1  0.29816791  0.71733737  0.88366914  1
+  O  O13  1  0.53768265  0.24974735  0.21773787  1
+  O  O14  1  0.66291261  0.88188142  0.45014957  1
+  Cr  Cr15  1  0.86149943  0.35159686  0.15947147  1
+  O  O16  1  0.37338731  0.93240547  0.07354148  1
+  O  O17  1  0.14367032  0.50468600  0.09326889  1
+  O  O18  1  0.53693509  0.55226415  0.72729039  1
+  La  La19  1  0.86851913  0.86253083  0.13257906  1

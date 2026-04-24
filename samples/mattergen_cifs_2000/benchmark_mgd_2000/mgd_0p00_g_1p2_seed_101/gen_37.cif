@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       SmSiBeNi3
+_chemical_formula_sum              "Sm1 Si1 Be1 Ni3"
+_cell_length_a       3.578814808942947
+_cell_length_b       5.1103255217896155
+_cell_length_c       5.109375953674316
+_cell_angle_alpha    119.99350167249925
+_cell_angle_beta     90.0108351844545
+_cell_angle_gamma    90.01201680772874
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sm  Sm1       1.0  0.33904677629470825  0.48272043466568  0.7518519163131714  1.0000
+  Si  Si1       1.0  0.3394494950771332  0.8159469366073608  0.4185781478881835  1.0000
+  Be  Be1       1.0  0.33931341767311096  0.14979182183742523  0.08543759584426878  1.0000
+  Ni  Ni1       1.0  0.8393229842185974  0.9859716296195984  0.2489837408065795  1.0000
+  Ni  Ni2       1.0  0.8390637636184692  0.4764857590198517  0.24868802726268763  1.0000
+  Ni  Ni3       1.0  0.8394855856895447  0.9860168695449829  0.7578755021095276  1.0000

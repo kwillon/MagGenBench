@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_Ce2BeAl3Fe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.64686489
+_cell_length_b   5.63870001
+_cell_length_c   5.33247232
+_cell_angle_alpha   76.27612305
+_cell_angle_beta   69.50601196
+_cell_angle_gamma   66.44810486
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ce2BeAl3Fe2
+_chemical_formula_sum   'Ce2 Be1 Al3 Fe2'
+_cell_volume   144.85626270
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.34385389  0.40582880  0.97119570  1
+  Al  Al1  1  0.21815649  0.97727472  0.93921310  1
+  Ce  Ce2  1  0.68227643  0.19537057  0.41473129  1
+  Al  Al3  1  0.12643638  0.63489264  0.44630128  1
+  Be  Be4  1  0.87027758  0.32353663  0.81113452  1
+  Fe  Fe5  1  0.57005596  0.69473565  0.58301359  1
+  Fe  Fe6  1  0.21431811  0.08621738  0.42862505  1
+  Ce  Ce7  1  0.74592417  0.79239720  0.01326934  1

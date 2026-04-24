@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_Li2BeRh
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.03485346
+_cell_length_b   4.07451773
+_cell_length_c   4.09581614
+_cell_angle_alpha   86.40718842
+_cell_angle_beta   71.70964050
+_cell_angle_gamma   69.84857941
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2BeRh
+_chemical_formula_sum   'Li2 Be1 Rh1'
+_cell_volume   59.94189888
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.97516739  0.75918162  0.18756735  1
+  Rh  Rh1  1  0.98251736  0.26365381  0.67172867  1
+  Li  Li2  1  0.47473785  0.00588823  0.93307823  1
+  Be  Be3  1  0.48349509  0.49742362  0.43472505  1

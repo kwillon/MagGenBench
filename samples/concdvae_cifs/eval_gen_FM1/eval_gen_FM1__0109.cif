@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_BaDyP5Pd3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.11692047
+_cell_length_b   5.28438091
+_cell_length_c   9.03863144
+_cell_angle_alpha   103.52308655
+_cell_angle_beta   106.93379974
+_cell_angle_gamma   99.94633484
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaDyP5Pd3
+_chemical_formula_sum   'Ba1 Dy1 P5 Pd3'
+_cell_volume   219.57096456
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pd  Pd0  1  0.66651708  0.49704576  0.44302648  1
+  Dy  Dy1  1  0.09357466  0.93355221  0.30105144  1
+  Pd  Pd2  1  0.48400891  0.83262211  0.09369957  1
+  P  P3  1  0.01054972  0.59989774  0.89802492  1
+  Ba  Ba4  1  0.30771747  0.15835066  0.75101328  1
+  P  P5  1  0.67105657  0.99957788  0.45668703  1
+  P  P6  1  0.51866126  0.35894111  0.15337478  1
+  Pd  Pd7  1  0.98585492  0.33529976  0.09832416  1
+  P  P8  1  0.76335359  0.85980487  0.90072662  1
+  P  P9  1  0.17393212  0.50021046  0.45775333  1

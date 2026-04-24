@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_KFeF3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.58063436
+_cell_length_b   3.52721405
+_cell_length_c   5.31151772
+_cell_angle_alpha   93.12119293
+_cell_angle_beta   89.91651154
+_cell_angle_gamma   91.35823822
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KFeF3
+_chemical_formula_sum   'K1 Fe1 F3'
+_cell_volume   66.96435150
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.59124529  0.45778564  0.50436383  1
+  F  F1  1  0.57978559  0.95004201  0.49505830  1
+  K  K2  1  0.08361161  0.96047771  0.00461951  1
+  F  F3  1  0.57650256  0.45356780  0.99741155  1
+  F  F4  1  0.08474781  0.45202020  0.50130302  1

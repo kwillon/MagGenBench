@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Cd2OFO2FSb
+_chemical_formula_sum              "Cd2 O3 F2 Sb1"
+_cell_length_a       4.069081754194457
+_cell_length_b       6.226229135659745
+_cell_length_c       6.2278876304626465
+_cell_angle_alpha    67.96835882149142
+_cell_angle_beta     70.90438296108348
+_cell_angle_gamma    70.88435950733415
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cd  Cd1       1.0  0.19241578876972198  0.2691192328929901  0.7774713039398193  1.0000
+  Cd  Cd2       1.0  0.5887439846992493  0.7481685876846312  0.5061900615692139  1.0000
+  O   O1        1.0  0.6012486219406128  0.375560462474823  0.8528715372085571  1.0000
+  F   F1        1.0  0.34814864397048956  0.8564872145652771  0.880236804485321  1.0000
+  O   O2        1.0  0.891430675983429  0.5075894594192505  0.14094895124435425  1.0000
+  O   O3        1.0  0.18031327426433572  0.6414954066276549  0.4314976632595062  1.0000
+  F   F2        1.0  0.43421900272369385  0.16135048866271973  0.4017535150051117  1.0000
+  Sb  Sb1       1.0  0.39156821370124817  0.508254885673523  0.14163167774677277  1.0000

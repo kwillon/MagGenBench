@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_YbPrCuS2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.36680269
+_cell_length_b   5.56060028
+_cell_length_c   6.85707855
+_cell_angle_alpha   82.90437317
+_cell_angle_beta   86.01728058
+_cell_angle_gamma   84.98056793
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YbPrCuS2
+_chemical_formula_sum   'Yb2 Pr2 Cu2 S4'
+_cell_volume   201.93108342
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  0.45309818  0.60526860  0.15350258  1
+  S  S1  1  0.95398080  0.60448974  0.98928809  1
+  S  S2  1  0.45074236  0.10512639  0.99531901  1
+  S  S3  1  0.70723712  0.85238439  0.50561190  1
+  Pr  Pr4  1  0.70093244  0.34560594  0.67037100  1
+  Cu  Cu5  1  0.45121697  0.10599627  0.32193038  1
+  Cu  Cu6  1  0.95398062  0.60651416  0.32807717  1
+  S  S7  1  0.20398447  0.34587875  0.50559056  1
+  Yb  Yb8  1  0.95549220  0.10654739  0.16314170  1
+  Yb  Yb9  1  0.20155503  0.85014725  0.66564018  1

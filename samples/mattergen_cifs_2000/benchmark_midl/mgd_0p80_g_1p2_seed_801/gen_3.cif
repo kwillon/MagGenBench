@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       AlEu2Ga
+_chemical_formula_sum              "Al1 Eu2 Ga1"
+_cell_length_a       5.325976643096259
+_cell_length_b       5.32587428798113
+_cell_length_c       5.325511455535889
+_cell_angle_alpha    60.00579562690062
+_cell_angle_beta     60.01448898964265
+_cell_angle_gamma    59.99400360274886
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.36721178889274597  0.5552546977996826  0.6487398743629456  1.0000
+  Eu  Eu1       1.0  0.6173093318939208  0.8053171038627625  0.8986662030220032  1.0000
+  Eu  Eu2       1.0  0.11705490201711655  0.3052824139595032  0.39856964349746704  1.0000
+  Ga  Ga1       1.0  0.8670520186424255  0.055233851075172424  0.14866873621940613  1.0000

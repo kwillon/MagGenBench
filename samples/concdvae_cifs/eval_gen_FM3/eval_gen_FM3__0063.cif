@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_KRbNaLiBeGaF9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.20587683
+_cell_length_b   6.22739744
+_cell_length_c   6.08549738
+_cell_angle_alpha   79.75139618
+_cell_angle_beta   83.81510925
+_cell_angle_gamma   80.91375732
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KRbNaLiBeGaF9
+_chemical_formula_sum   'Rb1 K1 Na1 Li1 Be1 Ga1 F9'
+_cell_volume   227.75771200
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.90548432  0.98476803  0.97931480  1
+  Be  Be1  1  0.55464441  0.59769481  0.16597822  1
+  Li  Li2  1  0.93645686  0.23237738  0.38868189  1
+  F  F3  1  0.87315011  0.97510320  0.49216849  1
+  F  F4  1  0.16897865  0.25254959  0.14447334  1
+  F  F5  1  0.62408674  0.33839473  0.20675883  1
+  F  F6  1  0.20823863  0.66407281  0.78387612  1
+  F  F7  1  0.54332316  0.27693298  0.79533845  1
+  Ga  Ga8  1  0.37824371  0.44896495  0.97721404  1
+  F  F9  1  0.06298788  0.29226580  0.61334956  1
+  F  F10  1  0.62194991  0.68601519  0.89857805  1
+  Na  Na11  1  0.95652860  0.63335365  0.56147921  1
+  F  F12  1  0.68704581  0.67348760  0.31958228  1
+  F  F13  1  0.28290766  0.64966947  0.21332806  1
+  K  K14  1  0.43311355  0.00680059  0.53938526  1

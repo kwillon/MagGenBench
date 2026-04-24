@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Li2Zn2FeCu11AgP2Pd
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.88711357
+_cell_length_b   7.19585276
+_cell_length_c   8.00893688
+_cell_angle_alpha   97.34800720
+_cell_angle_beta   81.25084686
+_cell_angle_gamma   83.07875824
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2Zn2FeCu11AgP2Pd
+_chemical_formula_sum   'Li2 Zn2 Fe1 Cu11 Ag1 P2 Pd1'
+_cell_volume   273.25780779
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.21005295  0.94248945  0.04043119  1
+  Cu  Cu1  1  0.99899721  0.49958432  0.66753531  1
+  Ag  Ag2  1  0.12891960  0.53299546  0.98585534  1
+  Cu  Cu3  1  0.67479193  0.35918328  0.89959788  1
+  Pd  Pd4  1  0.87717265  0.44420230  0.34302059  1
+  Cu  Cu5  1  0.76635396  0.04821340  0.30965075  1
+  Cu  Cu6  1  0.38658401  0.22719479  0.16049600  1
+  Cu  Cu7  1  0.59162420  0.77363521  0.19033045  1
+  Cu  Cu8  1  0.75111264  0.01432217  0.89648336  1
+  P  P9  1  0.92199981  0.23089004  0.08958013  1
+  Zn  Zn10  1  0.17797709  0.80951631  0.72945297  1
+  Fe  Fe11  1  0.23581409  0.96534556  0.43079966  1
+  Li  Li12  1  0.71616167  0.82312864  0.57024539  1
+  Cu  Cu13  1  0.49267802  0.49457949  0.66740125  1
+  Cu  Cu14  1  0.62618786  0.70534098  0.87895584  1
+  Cu  Cu15  1  0.34388131  0.62266839  0.43078092  1
+  Cu  Cu16  1  0.36106122  0.28056017  0.46463898  1
+  P  P17  1  0.05169982  0.75019133  0.26657444  1
+  Zn  Zn18  1  0.82923281  0.18438816  0.59909725  1
+  Li  Li19  1  0.26030084  0.16444145  0.78193778  1

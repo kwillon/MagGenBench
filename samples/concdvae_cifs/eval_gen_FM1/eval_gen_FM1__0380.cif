@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_TmAsPt2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.76469612
+_cell_length_b   4.14178848
+_cell_length_c   5.04396534
+_cell_angle_alpha   90.29580688
+_cell_angle_beta   88.65311432
+_cell_angle_gamma   86.68406677
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TmAsPt2
+_chemical_formula_sum   'Tm1 As1 Pt2'
+_cell_volume   78.49336289
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pt  Pt0  1  0.75591958  0.02269008  0.94673848  1
+  Tm  Tm1  1  0.26156661  0.52768511  0.94678289  1
+  Pt  Pt2  1  0.75829297  0.52854759  0.44376552  1
+  As  As3  1  0.26659912  0.02652263  0.44992065  1

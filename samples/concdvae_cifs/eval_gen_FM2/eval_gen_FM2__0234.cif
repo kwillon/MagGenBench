@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_LiVBiTeO7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.85410023
+_cell_length_b   5.51740408
+_cell_length_c   6.20983601
+_cell_angle_alpha   105.06636810
+_cell_angle_beta   92.62899017
+_cell_angle_gamma   110.16522217
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiVBiTeO7
+_chemical_formula_sum   'Li1 V1 Bi1 Te1 O7'
+_cell_volume   149.05774200
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  V  V0  1  0.51457638  0.22774342  0.26342991  1
+  O  O1  1  0.04007902  0.02164763  0.69716942  1
+  O  O2  1  0.42452615  0.44992346  0.05319827  1
+  O  O3  1  0.09911585  0.03340581  0.16386664  1
+  Li  Li4  1  0.76310992  0.78687471  0.27924949  1
+  O  O5  1  0.94227183  0.46153146  0.25349993  1
+  O  O6  1  0.55316031  0.47042435  0.50913006  1
+  Bi  Bi7  1  0.28401202  0.73543257  0.62245136  1
+  O  O8  1  0.60961020  0.02964281  0.95813805  1
+  O  O9  1  0.52173519  0.97617704  0.39923796  1
+  Te  Te10  1  0.01562405  0.23314311  0.98020446  1

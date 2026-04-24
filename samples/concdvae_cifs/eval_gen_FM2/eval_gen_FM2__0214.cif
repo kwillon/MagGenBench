@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_KAlCu2PO6F
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.11537790
+_cell_length_b   5.97351170
+_cell_length_c   6.43254662
+_cell_angle_alpha   82.99815369
+_cell_angle_beta   86.65461731
+_cell_angle_gamma   91.56751251
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KAlCu2PO6F
+_chemical_formula_sum   'K1 Al1 Cu2 P1 O6 F1'
+_cell_volume   156.59133731
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.85625273  0.00284736  0.23233721  1
+  O  O1  1  0.35015464  0.93294424  0.14862928  1
+  P  P2  1  0.40428907  0.85699755  0.94173378  1
+  O  O3  1  0.32981044  0.02236875  0.77268004  1
+  K  K4  1  0.34541932  0.55042022  0.45230144  1
+  O  O5  1  0.34180185  0.60869861  0.89836627  1
+  O  O6  1  0.79197657  0.86881858  0.92988479  1
+  Al  Al7  1  0.84076303  0.04998372  0.69112962  1
+  O  O8  1  0.83539909  0.88318455  0.49593762  1
+  O  O9  1  0.83663869  0.33505729  0.66764623  1
+  Cu  Cu10  1  0.85796791  0.49314991  0.90594381  1
+  F  F11  1  0.84432089  0.35231543  0.19866404  1

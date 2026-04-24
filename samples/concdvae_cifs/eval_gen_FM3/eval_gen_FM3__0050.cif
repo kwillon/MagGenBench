@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_InFeCuHg(OF3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.77577639
+_cell_length_b   4.74529886
+_cell_length_c   7.58551693
+_cell_angle_alpha   98.43412018
+_cell_angle_beta   97.19025421
+_cell_angle_gamma   96.90973663
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InFeCuHg(OF3)2
+_chemical_formula_sum   'In1 Fe1 Cu1 Hg1 O2 F6'
+_cell_volume   167.01779888
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.41889387  0.59977251  0.11585568  1
+  F  F1  1  0.10823200  0.85876358  0.12528138  1
+  F  F2  1  0.62705886  0.82099068  0.81798077  1
+  O  O3  1  0.59570312  0.78473258  0.38039553  1
+  Fe  Fe4  1  0.41955698  0.59969085  0.59907359  1
+  F  F5  1  0.67661941  0.34521732  0.58583915  1
+  O  O6  1  0.25309104  0.44240069  0.83785349  1
+  Cu  Cu7  1  0.88536680  0.06426670  0.36437950  1
+  F  F8  1  0.68876964  0.29340386  0.13008848  1
+  Hg  Hg9  1  0.94620979  0.13749914  0.85045558  1
+  F  F10  1  0.18733457  0.36292386  0.38974142  1
+  F  F11  1  0.16496257  0.85847026  0.59439105  1

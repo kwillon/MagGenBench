@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CaAg2AuI6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.48941708
+_cell_length_b   6.10137606
+_cell_length_c   9.45253563
+_cell_angle_alpha   90.79183197
+_cell_angle_beta   90.95867920
+_cell_angle_gamma   90.55212402
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaAg2AuI6
+_chemical_formula_sum   'Ca1 Ag2 Au1 I6'
+_cell_volume   316.50379384
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  0.25676683  0.73161358  0.11160371  1
+  Au  Au1  1  0.25336793  0.24113387  0.11712119  1
+  I  I2  1  0.75428063  0.73457259  0.78917015  1
+  Ag  Ag3  1  0.75364709  0.23738374  0.61507571  1
+  Ca  Ca4  1  0.25157258  0.73850417  0.61394477  1
+  I  I5  1  0.74913919  0.23751961  0.11738902  1
+  I  I6  1  0.25154427  0.23956919  0.79082316  1
+  I  I7  1  0.75825220  0.74381632  0.43905982  1
+  I  I8  1  0.25668627  0.24414662  0.43577585  1
+  Ag  Ag9  1  0.75540572  0.73531199  0.11230384  1

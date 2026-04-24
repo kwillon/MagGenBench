@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_Na4Tl3Pb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.04887009
+_cell_length_b   6.38436508
+_cell_length_c   6.72448015
+_cell_angle_alpha   115.56791687
+_cell_angle_beta   91.83711243
+_cell_angle_gamma   96.56349182
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na4Tl3Pb
+_chemical_formula_sum   'Na4 Tl3 Pb1'
+_cell_volume   231.76009763
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.48658565  0.54831344  0.96278036  1
+  Tl  Tl1  1  0.64182729  0.04071608  0.96015120  1
+  Na  Na2  1  0.48732629  0.04488568  0.45895934  1
+  Pb  Pb3  1  0.97129965  0.79354930  0.21075964  1
+  Tl  Tl4  1  0.97158366  0.29306936  0.71284932  1
+  Tl  Tl5  1  0.64204931  0.54586893  0.46415961  1
+  Na  Na6  1  0.13476604  0.79197276  0.71209598  1
+  Na  Na7  1  0.13316658  0.29024351  0.21227157  1

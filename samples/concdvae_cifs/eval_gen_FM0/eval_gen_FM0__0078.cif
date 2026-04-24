@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_LiY2Fe4Co3Sn4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.36362791
+_cell_length_b   6.54522181
+_cell_length_c   7.58065557
+_cell_angle_alpha   112.55819702
+_cell_angle_beta   107.51794434
+_cell_angle_gamma   90.93322754
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiY2Fe4Co3Sn4
+_chemical_formula_sum   'Li1 Y2 Fe4 Co3 Sn4'
+_cell_volume   231.73030023
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.42602980  0.98037428  0.04817572  1
+  Sn  Sn1  1  0.17998880  0.81485945  0.55462217  1
+  Fe  Fe2  1  0.74537432  0.77101797  0.70769346  1
+  Fe  Fe3  1  0.25355989  0.51985121  0.70344824  1
+  Co  Co4  1  0.83281058  0.46893078  0.35924047  1
+  Fe  Fe5  1  0.52316773  0.16889723  0.74807298  1
+  Co  Co6  1  0.33070841  0.46362928  0.35738856  1
+  Fe  Fe7  1  0.10245323  0.12849899  0.40462035  1
+  Sn  Sn8  1  0.42020956  0.46807170  0.04961433  1
+  Sn  Sn9  1  0.68324918  0.32636648  0.56098491  1
+  Y  Y10  1  0.92190385  0.65739548  0.05068159  1
+  Co  Co11  1  0.03360126  0.17227332  0.75231379  1
+  Sn  Sn12  1  0.92412359  0.15664725  0.04838564  1
+  Li  Li13  1  0.60021049  0.85890341  0.40240496  1

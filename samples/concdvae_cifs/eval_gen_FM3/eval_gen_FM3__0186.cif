@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Li2CaPrDySbO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.32823467
+_cell_length_b   6.19647074
+_cell_length_c   6.25993443
+_cell_angle_alpha   89.41433716
+_cell_angle_beta   85.87551117
+_cell_angle_gamma   89.85610962
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2CaPrDySbO8
+_chemical_formula_sum   'Li2 Ca1 Pr1 Dy1 Sb1 O8'
+_cell_volume   206.13319266
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.01673537  0.08199188  0.92846799  1
+  O  O1  1  0.24006784  0.71643585  0.46143860  1
+  O  O2  1  0.21109767  0.16765599  0.68751514  1
+  Sb  Sb3  1  0.44871631  0.87428260  0.67407864  1
+  Ca  Ca4  1  0.44952798  0.37470287  0.93321592  1
+  O  O5  1  0.18793067  0.19772814  0.16211975  1
+  O  O6  1  0.68942225  0.59064412  0.68372911  1
+  O  O7  1  0.24063411  0.75062937  0.90800202  1
+  Li  Li8  1  0.88791555  0.67408133  0.92211676  1
+  Dy  Dy9  1  0.45039871  0.87504482  0.19398315  1
+  Pr  Pr10  1  0.95454639  0.38009384  0.42302263  1
+  O  O11  1  0.66356742  0.03786134  0.45531854  1
+  O  O12  1  0.70857400  0.56116861  0.15957977  1
+  O  O13  1  0.66383493  0.00681532  0.90555817  1

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_CaEuTaMn3CuWO12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.86722183
+_cell_length_b   6.82073498
+_cell_length_c   7.06140614
+_cell_angle_alpha   68.98895264
+_cell_angle_beta   64.63017273
+_cell_angle_gamma   64.81323242
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaEuTaMn3CuWO12
+_chemical_formula_sum   'Ca1 Eu1 Ta1 Mn3 Cu1 W1 O12'
+_cell_volume   264.08712116
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.09984630  0.90007156  0.13567983  1
+  Ta  Ta1  1  0.53912443  0.29258060  0.46401823  1
+  O  O2  1  0.36685306  0.70086819  0.81403488  1
+  Mn  Mn3  1  0.03718767  0.79291552  0.46175098  1
+  O  O4  1  0.71428633  0.40587538  0.52918798  1
+  Cu  Cu5  1  0.03287667  0.29850999  0.46415398  1
+  Eu  Eu6  1  0.53418803  0.29387709  0.96823460  1
+  Mn  Mn7  1  0.03854007  0.29826507  0.96023947  1
+  O  O8  1  0.38269243  0.20449415  0.79021281  1
+  O  O9  1  0.71395040  0.88417405  0.11132723  1
+  O  O10  1  0.08638583  0.46618807  0.14715774  1
+  O  O11  1  0.35664082  0.63731050  0.40280396  1
+  O  O12  1  0.69491220  0.37598160  0.13786961  1
+  W  W13  1  0.04115388  0.79193223  0.96216083  1
+  Ca  Ca14  1  0.54061377  0.79401106  0.96002531  1
+  O  O15  1  0.97484684  0.68846667  0.78900737  1
+  O  O16  1  0.35824794  0.18456437  0.39217564  1
+  O  O17  1  0.97521782  0.13069807  0.78507662  1
+  Mn  Mn18  1  0.53784680  0.79439259  0.46363777  1
+  O  O19  1  0.71857256  0.95825249  0.51488519  1

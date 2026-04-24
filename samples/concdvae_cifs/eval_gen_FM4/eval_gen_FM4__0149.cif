@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Ca2GdScTiBHO8F
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.35037041
+_cell_length_b   6.45854616
+_cell_length_c   9.33788967
+_cell_angle_alpha   102.89349365
+_cell_angle_beta   95.54733276
+_cell_angle_gamma   98.46262360
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca2GdScTiBHO8F
+_chemical_formula_sum   'Ca2 Gd1 Sc1 Ti1 B1 H1 O8 F1'
+_cell_volume   193.05361629
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.34602278  0.30672872  0.71371663  1
+  O  O1  1  0.62801373  0.30055860  0.25154379  1
+  H  H2  1  0.50536638  0.53396499  0.36329520  1
+  B  B3  1  0.32542589  0.11797509  0.16939333  1
+  O  O4  1  0.49602640  0.62201428  0.71680158  1
+  O  O5  1  0.22467148  0.13679864  0.03760956  1
+  O  O6  1  0.85646605  0.33523777  0.84776914  1
+  Ca  Ca7  1  0.66915053  0.95893139  0.86820638  1
+  O  O8  1  0.13752031  0.91676307  0.23319596  1
+  O  O9  1  0.84433597  0.31783131  0.58198673  1
+  Gd  Gd10  1  0.97871029  0.50137162  0.08945750  1
+  F  F11  1  0.54104966  0.68426043  0.02401946  1
+  O  O12  1  0.52516639  0.66994339  0.44092488  1
+  Sc  Sc13  1  0.01752920  0.65841126  0.58614647  1
+  O  O14  1  0.18600827  0.99143535  0.68122399  1
+  Ca  Ca15  1  0.68742931  0.02949739  0.39555579  1

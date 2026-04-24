@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_Na3BiTe4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.55000782
+_cell_length_b   6.85971928
+_cell_length_c   6.87066031
+_cell_angle_alpha   101.60891724
+_cell_angle_beta   81.68302155
+_cell_angle_gamma   81.93315887
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na3BiTe4
+_chemical_formula_sum   'Na3 Bi1 Te4'
+_cell_volume   294.60454746
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.19051585  0.81575954  0.44977400  1
+  Bi  Bi1  1  0.68845409  0.82082045  0.95307213  1
+  Te  Te2  1  0.68783063  0.81738198  0.44971633  1
+  Te  Te3  1  0.18546003  0.31771302  0.44911924  1
+  Na  Na4  1  0.68986392  0.32308882  0.45272198  1
+  Te  Te5  1  0.68872178  0.31961507  0.95331341  1
+  Na  Na6  1  0.18743278  0.31568700  0.94907290  1
+  Te  Te7  1  0.18392460  0.81780332  0.95221961  1

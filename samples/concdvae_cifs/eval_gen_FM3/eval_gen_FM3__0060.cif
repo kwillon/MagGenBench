@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Li2Gd3CoGeSbO12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.73618507
+_cell_length_b   6.12632036
+_cell_length_c   9.69495773
+_cell_angle_alpha   107.45832825
+_cell_angle_beta   104.97035217
+_cell_angle_gamma   89.74097443
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2Gd3CoGeSbO12
+_chemical_formula_sum   'Li2 Gd3 Co1 Ge1 Sb1 O12'
+_cell_volume   258.42299970
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.12089348  0.73837578  0.56186998  1
+  O  O1  1  0.67350411  0.16199809  0.31554317  1
+  Li  Li2  1  0.99100900  0.47361022  0.65504777  1
+  O  O3  1  0.64063692  0.83685344  0.99210620  1
+  Gd  Gd4  1  0.37608883  0.47013453  0.41680485  1
+  Li  Li5  1  0.79881656  0.39096388  0.18346843  1
+  Gd  Gd6  1  0.53234607  0.94827485  0.75933641  1
+  Co  Co7  1  0.70418799  0.55043352  0.88020396  1
+  O  O8  1  0.09001400  0.00187820  0.87131447  1
+  O  O9  1  0.74630660  0.09235998  0.61040074  1
+  O  O10  1  0.63453078  0.58642709  0.67137289  1
+  O  O11  1  0.08689264  0.75279331  0.28308976  1
+  Sb  Sb12  1  0.90046251  0.94595039  0.43657920  1
+  Gd  Gd13  1  0.31798452  0.87823641  0.13488406  1
+  O  O14  1  0.17277105  0.26142520  0.16011548  1
+  O  O15  1  0.61444324  0.69185132  0.30963117  1
+  O  O16  1  0.10035054  0.52935356  0.92229205  1
+  O  O17  1  0.58131045  0.31363589  0.96248555  1
+  O  O18  1  0.17263004  0.20314649  0.51588190  1
+  Ge  Ge19  1  0.21519285  0.28610048  0.97181398  1

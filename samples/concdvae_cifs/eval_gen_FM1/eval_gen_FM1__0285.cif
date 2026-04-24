@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_LiTi4CuSe8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.17966509
+_cell_length_b   6.60956049
+_cell_length_c   6.41731358
+_cell_angle_alpha   90.82688141
+_cell_angle_beta   90.94879913
+_cell_angle_gamma   94.45179749
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiTi4CuSe8
+_chemical_formula_sum   'Li1 Ti4 Cu1 Se8'
+_cell_volume   261.25523127
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.27514857  0.82778794  0.03874587  1
+  Li  Li1  1  0.77538913  0.57490790  0.53953695  1
+  Se  Se2  1  0.50746876  0.57526106  0.20556359  1
+  Se  Se3  1  0.51495320  0.07512005  0.20915614  1
+  Se  Se4  1  0.52139801  0.82870060  0.70953262  1
+  Se  Se5  1  0.03810160  0.57364339  0.86645681  1
+  Se  Se6  1  0.52027982  0.32741445  0.70800322  1
+  Ti  Ti7  1  0.27408671  0.32435119  0.03703925  1
+  Ti  Ti8  1  0.27571577  0.07932243  0.53992575  1
+  Se  Se9  1  0.02881433  0.32263738  0.36410454  1
+  Cu  Cu10  1  0.77583808  0.07422151  0.53317577  1
+  Se  Se11  1  0.02932140  0.82430297  0.36638758  1
+  Ti  Ti12  1  0.27619392  0.57509643  0.53794479  1
+  Se  Se13  1  0.02294013  0.07205498  0.87117130  1

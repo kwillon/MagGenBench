@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_GdTi2GeS3N2O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.48544788
+_cell_length_b   5.63518190
+_cell_length_c   5.56142998
+_cell_angle_alpha   100.93722534
+_cell_angle_beta   86.12274933
+_cell_angle_gamma   88.92176819
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GdTi2GeS3N2O
+_chemical_formula_sum   'Gd1 Ti2 Ge1 S3 N2 O1'
+_cell_volume   168.31522202
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Gd  Gd0  1  0.49406067  0.24531391  0.24300693  1
+  Ge  Ge1  1  0.53173554  0.76596218  0.78983867  1
+  N  N2  1  0.78559995  0.95264429  0.95445096  1
+  O  O3  1  0.11313003  0.04984730  0.46388915  1
+  Ti  Ti4  1  0.06666537  0.12491784  0.81122512  1
+  N  N5  1  0.26774162  0.93401760  0.96097589  1
+  Ti  Ti6  1  0.98022556  0.85302204  0.18322939  1
+  S  S7  1  0.53336948  0.37345731  0.76805222  1
+  S  S8  1  0.01221494  0.43918669  0.16538930  1
+  S  S9  1  0.58272362  0.77149320  0.39793456  1

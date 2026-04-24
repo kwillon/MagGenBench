@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       EuMnPMn4SiP
+_chemical_formula_sum              "Eu1 Mn5 P2 Si1"
+_cell_length_a       3.797026672125047
+_cell_length_b       3.7938679075742803
+_cell_length_c       8.714444160461426
+_cell_angle_alpha    89.98815212700208
+_cell_angle_beta     90.00809627911964
+_cell_angle_gamma    89.98015397511003
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Eu  Eu1       1.0  0.04114088416099549  0.11938215792179106  0.18068450689315796  1.0000
+  Mn  Mn1       1.0  0.5411524772644043  0.619643211364746  0.6807026863098145  1.0000
+  P   P1        1.0  0.5410573482513428  0.6195985078811644  0.3549540638923645  1.0000
+  Mn  Mn2       1.0  0.0410340502858162  0.619393527507782  0.8646097183227539  1.0000
+  Mn  Mn3       1.0  0.5411601066589355  0.11997928470373154  0.8645135760307312  1.0000
+  Mn  Mn4       1.0  0.04121467843651772  0.6198047399520874  0.4968605637550354  1.0000
+  Mn  Mn5       1.0  0.5413059592247009  0.11978039890527724  0.4969606101512909  1.0000
+  Si  Si1       1.0  0.041168898344039924  0.11967350542545317  0.6806402206420898  1.0000
+  P   P2        1.0  0.5412591099739075  0.6193239092826842  0.006124308798462153  1.0000

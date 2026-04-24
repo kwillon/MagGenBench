@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       GaEuGaEuGaCl
+_chemical_formula_sum              "Ga3 Eu2 Cl1"
+_cell_length_a       4.317808356227813
+_cell_length_b       4.314585455875399
+_cell_length_c       10.018261909484863
+_cell_angle_alpha    90.01938658233068
+_cell_angle_beta     89.94332559271416
+_cell_angle_gamma    120.02373439950173
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ga  Ga1       1.0  0.6511664390563965  0.26871341466903687  0.12554383277893066  1.0000
+  Eu  Eu1       1.0  0.9847565293312073  0.9350776672363282  0.31693944334983826  1.0000
+  Ga  Ga2       1.0  0.3179137110710144  0.6012051701545715  0.5391296148300171  1.0000
+  Eu  Eu2       1.0  0.9845585227012634  0.9359467625617982  0.8865564465522766  1.0000
+  Ga  Ga3       1.0  0.31768462061882025  0.6024091839790345  0.08463560789823532  1.0000
+  Cl  Cl1       1.0  0.6522924900054932  0.26820293068885803  0.7249358892440796  1.0000

@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       AlAg2Gd
+_chemical_formula_sum              "Al1 Ag2 Gd1"
+_cell_length_a       4.885918156724833
+_cell_length_b       4.885803297111981
+_cell_length_c       4.886435031890869
+_cell_angle_alpha    59.979026176927285
+_cell_angle_beta     59.98691135671302
+_cell_angle_gamma    59.97664341951128
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.903674602508545  0.6615831255912781  0.1574739068746566  1.0000
+  Ag  Ag1       1.0  0.1535550206899643  0.9114811420440674  0.4076225757598877  1.0000
+  Ag  Ag2       1.0  0.6535580158233643  0.41144660115242004  0.9075438976287842  1.0000
+  Gd  Gd1       1.0  0.4036997854709625  0.16159576177597046  0.6573835015296936  1.0000

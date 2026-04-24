@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Ca2FeNiRh2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.70732069
+_cell_length_b   5.13861656
+_cell_length_c   4.99517202
+_cell_angle_alpha   69.26519012
+_cell_angle_beta   62.13407898
+_cell_angle_gamma   61.74225235
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca2FeNiRh2
+_chemical_formula_sum   'Ca2 Fe1 Ni1 Rh2'
+_cell_volume   92.71065695
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.86588174  0.91596431  0.23267306  1
+  Ca  Ca1  1  0.11312366  0.17725724  0.48881653  1
+  Rh  Rh2  1  0.48427147  0.54859024  0.36218190  1
+  Fe  Fe3  1  0.48219329  0.55765182  0.86741132  1
+  Rh  Rh4  1  0.98664284  0.54785919  0.86916566  1
+  Ni  Ni5  1  0.48718914  0.04770692  0.86704922  1

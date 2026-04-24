@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CsLi2AlF6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.83096743
+_cell_length_b   5.83226252
+_cell_length_c   5.92331839
+_cell_angle_alpha   61.19378662
+_cell_angle_beta   59.96224976
+_cell_angle_gamma   60.17819595
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsLi2AlF6
+_chemical_formula_sum   'Cs1 Li2 Al1 F6'
+_cell_volume   143.83315646
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.40151361  0.91360867  0.60950267  1
+  Cs  Cs1  1  0.90361226  0.40659007  0.10773081  1
+  F  F2  1  0.39980364  0.61729163  0.90100002  1
+  F  F3  1  0.47790852  0.07600195  0.76786613  1
+  F  F4  1  0.33931541  0.74657595  0.43953672  1
+  Li  Li5  1  0.59943920  0.20945998  0.90785599  1
+  F  F6  1  0.79919660  0.74721128  0.44252932  1
+  F  F7  1  0.00932764  0.07408255  0.77491939  1
+  Li  Li8  1  0.20078826  0.60882550  0.30290413  1
+  F  F9  1  0.40077978  0.21083395  0.31353614  1

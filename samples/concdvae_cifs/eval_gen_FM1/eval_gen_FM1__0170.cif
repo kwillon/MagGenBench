@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CsZn2I7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.71404934
+_cell_length_b   7.99961233
+_cell_length_c   7.73034620
+_cell_angle_alpha   90.81134796
+_cell_angle_beta   70.48971558
+_cell_angle_gamma   72.43841553
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsZn2I7
+_chemical_formula_sum   'Cs1 Zn2 I7'
+_cell_volume   370.05155932
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  0.51553744  0.37497115  0.41876876  1
+  I  I1  1  0.50418496  0.86602789  0.42213655  1
+  I  I2  1  0.51608968  0.61795121  0.92269105  1
+  I  I3  1  0.01984605  0.99096388  0.16810842  1
+  Cs  Cs4  1  0.51607382  0.11917140  0.91729617  1
+  I  I5  1  0.00262280  0.24960168  0.67130625  1
+  I  I6  1  0.00787142  0.74267763  0.65545046  1
+  Zn  Zn7  1  0.26361850  0.68508947  0.29497260  1
+  Zn  Zn8  1  0.76450813  0.55181539  0.54553849  1
+  I  I9  1  0.02730457  0.49521855  0.17875251  1

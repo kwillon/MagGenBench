@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_BaCeTe4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.33300018
+_cell_length_b   5.52486372
+_cell_length_c   9.71712685
+_cell_angle_alpha   95.84936523
+_cell_angle_beta   93.12992096
+_cell_angle_gamma   88.33081055
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaCeTe4
+_chemical_formula_sum   'Ba1 Ce1 Te4'
+_cell_volume   230.99917256
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.81802702  0.63898629  0.17911950  1
+  Te  Te1  1  0.32059783  0.13623889  0.14843424  1
+  Te  Te2  1  0.81898600  0.13698210  0.75757831  1
+  Ce  Ce3  1  0.82217830  0.13894247  0.41520604  1
+  Ba  Ba4  1  0.32260332  0.64624697  0.87677109  1
+  Te  Te5  1  0.32230723  0.63890254  0.49876699  1

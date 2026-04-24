@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       GaInEuGaCu4
+_chemical_formula_sum              "Ga2 In1 Eu1 Cu4"
+_cell_length_a       4.2046956426783435
+_cell_length_b       4.204766334126499
+_cell_length_c       9.631269454956055
+_cell_angle_alpha    89.96020299341676
+_cell_angle_beta     89.95372114290997
+_cell_angle_gamma    119.84581921179696
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ga  Ga1       1.0  0.3494986891746521  0.3505883514881134  0.3381378948688507  1.0000
+  In  In1       1.0  0.6824735999107361  0.017513008788228035  0.6008380055427551  1.0000
+  Eu  Eu1       1.0  0.015341286547482014  0.6836652755737305  0.10106272250413895  1.0000
+  Ga  Ga2       1.0  0.3497595191001892  0.3505267798900604  0.8632773756980896  1.0000
+  Cu  Cu1       1.0  0.6828060746192932  0.01774314045906067  0.877901017665863  1.0000
+  Cu  Cu2       1.0  0.015429661609232374  0.684065818786621  0.44678977131843567  1.0000
+  Cu  Cu3       1.0  0.016164669767022133  0.6844984292984009  0.7547433972358704  1.0000
+  Cu  Cu4       1.0  0.6820533275604248  0.017386838793754578  0.32375964522361755  1.0000

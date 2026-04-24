@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       EuHMnH4
+_chemical_formula_sum              "Eu1 H5 Mn1"
+_cell_length_a       3.7175602268438115
+_cell_length_b       4.7428142053743
+_cell_length_c       4.742115020751953
+_cell_angle_alpha    66.15751247933217
+_cell_angle_beta     66.80403714142126
+_cell_angle_gamma    66.83809100577258
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Eu  Eu1       1.0  0.14884307980537412  0.6367093324661255  0.3374800384044648  1.0000
+  H   H1        1.0  0.4888909161090851  0.05673868581652641  0.2350842505693436  1.0000
+  Mn  Mn1       1.0  0.6489543914794922  0.136451855301857  0.8378194570541382  1.0000
+  H   H2        1.0  0.48933377861976624  0.5348561406135559  0.7570729851722717  1.0000
+  H   H3        1.0  0.808131754398346  0.2165086567401886  0.44056218862533575  1.0000
+  H   H4        1.0  0.8076392412185669  0.7377219796180725  0.9195625185966493  1.0000
+  H   H5        1.0  0.14899444580078125  0.1359088122844696  0.8378793597221375  1.0000

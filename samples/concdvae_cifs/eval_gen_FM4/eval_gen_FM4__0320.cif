@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Ba5LaHgO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.54877949
+_cell_length_b   5.68289137
+_cell_length_c   10.76180935
+_cell_angle_alpha   92.89750671
+_cell_angle_beta   90.09703064
+_cell_angle_gamma   93.22332001
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba5LaHgO8
+_chemical_formula_sum   'Ba5 La1 Hg1 O8'
+_cell_volume   338.37980126
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.60302818  0.86885160  0.52305359  1
+  Ba  Ba1  1  0.60379952  0.86547911  0.80488408  1
+  La  La2  1  0.60109174  0.36803427  0.52127975  1
+  Ba  Ba3  1  0.59959048  0.85785329  0.24125890  1
+  O  O4  1  0.36249489  0.60597980  0.02307371  1
+  O  O5  1  0.60595196  0.36747023  0.74042439  1
+  Ba  Ba6  1  0.10671443  0.86549860  0.52349126  1
+  O  O7  1  0.60464174  0.36606577  0.30250484  1
+  O  O8  1  0.84424895  0.11787473  0.02002249  1
+  O  O9  1  0.10413672  0.86833727  0.76685447  1
+  O  O10  1  0.10503726  0.36747733  0.52104259  1
+  Hg  Hg11  1  0.60866082  0.36414573  0.02120166  1
+  Ba  Ba12  1  0.10595202  0.37137231  0.80147362  1
+  Ba  Ba13  1  0.10539386  0.36097401  0.23986609  1
+  O  O14  1  0.09955808  0.86095589  0.27791625  1

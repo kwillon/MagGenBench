@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_CaMn8CrF11
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.99760831
+_cell_length_b   8.82428416
+_cell_length_c   9.19752023
+_cell_angle_alpha   80.27757333
+_cell_angle_beta   102.14752582
+_cell_angle_gamma   88.11624830
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaMn8CrF11
+_chemical_formula_sum   'Ca1 Mn8 Cr1 F11'
+_cell_volume   545.86471637
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.03111169  0.69521453  0.40676516  1
+  F  F1  1  0.45539945  0.69481269  0.02640070  1
+  F  F2  1  0.48373316  0.99359390  0.97697531  1
+  F  F3  1  0.48970936  0.48563524  0.51206059  1
+  F  F4  1  0.50224660  0.98978597  0.00382268  1
+  Ca  Ca5  1  0.51379627  0.44235789  0.57074061  1
+  Mn  Mn6  1  0.51456256  0.97990321  0.48444438  1
+  Mn  Mn7  1  0.51678891  0.98068633  0.50868639  1
+  Mn  Mn8  1  0.50345316  0.98112868  0.98148912  1
+  Mn  Mn9  1  0.51384783  0.51975962  0.50205320  1
+  Mn  Mn10  1  0.49871878  0.99395356  0.49912829  1
+  Cr  Cr11  1  0.50080237  0.51544172  0.97121311  1
+  F  F12  1  0.01559325  0.52297269  0.99132942  1
+  Mn  Mn13  1  0.99202926  0.01191353  0.47708950  1
+  F  F14  1  0.99146239  0.01361590  0.49237705  1
+  Mn  Mn15  1  0.00754172  0.50447759  0.01698346  1
+  Mn  Mn16  1  0.99219406  0.99936592  0.00994201  1
+  F  F17  1  0.00106447  0.99736282  0.48391144  1
+  F  F18  1  0.00958432  0.97999779  0.49965405  1
+  F  F19  1  0.99895119  0.99504107  0.01261324  1
+  F  F20  1  0.00618435  0.99391310  0.50050059  1

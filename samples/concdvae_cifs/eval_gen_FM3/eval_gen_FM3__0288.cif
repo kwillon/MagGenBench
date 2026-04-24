@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_K2NaDy2AgBiO7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.39969683
+_cell_length_b   6.49768639
+_cell_length_c   7.04406118
+_cell_angle_alpha   112.44512939
+_cell_angle_beta   107.07237244
+_cell_angle_gamma   94.10868835
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2NaDy2AgBiO7
+_chemical_formula_sum   'K2 Na1 Dy2 Ag1 Bi1 O7'
+_cell_volume   253.13760681
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Bi  Bi0  1  0.80101460  0.03243149  0.13607235  1
+  Dy  Dy1  1  0.04306132  0.58559060  0.28593028  1
+  K  K2  1  0.44729769  0.41881382  0.97147954  1
+  O  O3  1  0.58938378  0.02612526  0.81618315  1
+  K  K4  1  0.20102331  0.85688180  0.86737674  1
+  Dy  Dy5  1  0.62043381  0.69568443  0.56750309  1
+  Na  Na6  1  0.86459285  0.24827740  0.70609879  1
+  O  O7  1  0.31038195  0.50286537  0.56673592  1
+  O  O8  1  0.35106355  0.77806103  0.28670597  1
+  O  O9  1  0.87877095  0.87265402  0.46232492  1
+  O  O10  1  0.77541631  0.38962948  0.37205338  1
+  Ag  Ag11  1  0.33419120  0.14121482  0.43261850  1
+  O  O12  1  0.82888579  0.65772879  0.93226248  1
+  O  O13  1  0.06200607  0.24183033  0.06314579  1

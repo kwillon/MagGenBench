@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       RhFeNiFe
+_chemical_formula_sum              "Rh1 Fe2 Ni1"
+_cell_length_a       2.644169370244185
+_cell_length_b       4.482828190579456
+_cell_length_c       4.505175590515137
+_cell_angle_alpha    100.71630226890188
+_cell_angle_beta     107.13878305605107
+_cell_angle_gamma    90.01498838469398
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Rh  Rh1       1.0  0.055305380374193205  0.5411211848258973  0.9164164066314696  1.0000
+  Fe  Fe1       1.0  0.3020758330821991  0.3026902377605438  0.4104369878768921  1.0000
+  Ni  Ni1       1.0  0.8050222396850586  0.8121052980422974  0.41728827357292175  1.0000
+  Fe  Fe2       1.0  0.5519428849220276  0.03206312656402588  0.9109419584274292  1.0000

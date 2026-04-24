@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Na2TbZr2V2(N3O)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.30511951
+_cell_length_b   6.13396597
+_cell_length_c   6.74006748
+_cell_angle_alpha   117.69355774
+_cell_angle_beta   100.06392670
+_cell_angle_gamma   90.99822235
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2TbZr2V2(N3O)2
+_chemical_formula_sum   'Na2 Tb1 Zr2 V2 N6 O2'
+_cell_volume   189.99020656
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.29439804  0.36175483  0.55584955  1
+  Zr  Zr1  1  0.31315506  0.86416924  0.55326319  1
+  N  N2  1  0.01111151  0.45161548  0.74755967  1
+  N  N3  1  0.05902211  0.52410161  0.35081211  1
+  N  N4  1  0.04224802  0.00670207  0.35297430  1
+  N  N5  1  0.59481674  0.76595747  0.36184210  1
+  O  O6  1  0.00843677  0.96494210  0.73582608  1
+  Na  Na7  1  0.80544180  0.10581218  0.05252968  1
+  V  V8  1  0.80792588  0.11039875  0.54697871  1
+  Tb  Tb9  1  0.80421293  0.61670750  0.05364022  1
+  V  V10  1  0.80894881  0.61200798  0.55392218  1
+  N  N11  1  0.55895495  0.70327103  0.75166750  1
+  O  O12  1  0.59868783  0.26675594  0.36603668  1
+  N  N13  1  0.55986917  0.21889047  0.75672561  1
+  Na  Na14  1  0.30799934  0.35379493  0.05784988  1

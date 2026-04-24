@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_BaU2Ni(PdS2)5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.78375149
+_cell_length_b   7.42111635
+_cell_length_c   7.74142790
+_cell_angle_alpha   108.37551117
+_cell_angle_beta   109.21216583
+_cell_angle_gamma   97.08851624
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaU2Ni(PdS2)5
+_chemical_formula_sum   'Ba1 U2 Ni1 Pd5 S10'
+_cell_volume   337.85187494
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pd  Pd0  1  0.88230848  0.20485032  0.54477328  1
+  Pd  Pd1  1  0.30239838  0.47163168  0.07197004  1
+  Pd  Pd2  1  0.21400625  0.84627318  0.38737565  1
+  S  S3  1  0.97941113  0.16815579  0.26750156  1
+  S  S4  1  0.13061456  0.98266381  0.64025211  1
+  S  S5  1  0.91668475  0.52592206  0.55249029  1
+  U  U6  1  0.15992875  0.04672429  0.01640063  1
+  S  S7  1  0.34362707  0.58399409  0.37024537  1
+  Ba  Ba8  1  0.41652390  0.41302621  0.69637406  1
+  S  S9  1  0.94783455  0.29945594  0.85945058  1
+  S  S10  1  0.47474727  0.07564008  0.39656156  1
+  S  S11  1  0.51825988  0.26917183  0.05125935  1
+  Ni  Ni12  1  0.86180758  0.42385197  0.26439464  1
+  Pd  Pd13  1  0.92504263  0.61702883  0.85473061  1
+  S  S14  1  0.87587732  0.65641135  0.14527000  1
+  S  S15  1  0.38426855  0.76147479  0.00507674  1
+  Pd  Pd16  1  0.65591156  0.99357021  0.01463017  1
+  U  U17  1  0.71115255  0.79103911  0.38596666  1
+  S  S18  1  0.74743867  0.84843642  0.77007735  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_FeNiO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.72701216
+_cell_length_b   4.99831915
+_cell_length_c   7.36991024
+_cell_angle_alpha   106.88674927
+_cell_angle_beta   101.77355957
+_cell_angle_gamma   104.47752380
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   FeNiO2
+_chemical_formula_sum   'Fe3 Ni3 O6'
+_cell_volume   121.39730114
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.59132940  0.67181683  0.11893824  1
+  Fe  Fe1  1  0.09393536  0.17028020  0.62202859  1
+  O  O2  1  0.58671498  0.17095923  0.61641103  1
+  O  O3  1  0.75664651  0.66611594  0.45240322  1
+  O  O4  1  0.09332892  0.67328429  0.12126996  1
+  Fe  Fe5  1  0.76657951  0.17534210  0.95973843  1
+  Fe  Fe6  1  0.42837963  0.16794124  0.28402916  1
+  Ni  Ni7  1  0.26169282  0.66346169  0.44673514  1
+  Ni  Ni8  1  0.92908537  0.67068136  0.78944159  1
+  O  O9  1  0.92268765  0.16376859  0.28739712  1
+  O  O10  1  0.43663326  0.67882353  0.79181409  1
+  O  O11  1  0.26714712  0.17686570  0.95973682  1

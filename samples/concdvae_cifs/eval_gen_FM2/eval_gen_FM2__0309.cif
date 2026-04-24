@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_MgTi2Cu2O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.05713606
+_cell_length_b   5.86192513
+_cell_length_c   6.18272495
+_cell_angle_alpha   102.98072815
+_cell_angle_beta   81.60809326
+_cell_angle_gamma   87.54670715
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgTi2Cu2O7
+_chemical_formula_sum   'Mg1 Ti2 Cu2 O7'
+_cell_volume   176.14415885
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.73956901  0.96290046  0.20874281  1
+  O  O1  1  0.94434774  0.50510395  0.91251218  1
+  O  O2  1  0.25305820  0.89075732  0.99140096  1
+  Cu  Cu3  1  0.59499508  0.67465329  0.93275648  1
+  O  O4  1  0.46094999  0.38837793  0.65129387  1
+  O  O5  1  0.89774758  0.51503742  0.39017177  1
+  O  O6  1  0.14100905  0.92317861  0.52695757  1
+  Mg  Mg7  1  0.25413170  0.19466513  0.82879668  1
+  Ti  Ti8  1  0.60981631  0.32474259  0.35095799  1
+  O  O9  1  0.38852903  0.44907072  0.15110709  1
+  Cu  Cu10  1  0.06599269  0.67773223  0.69811219  1
+  Ti  Ti11  1  0.06921552  0.74121970  0.22130629  1

@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_RbNa2CaCuAsSeCl2O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.83633995
+_cell_length_b   7.55008888
+_cell_length_c   8.64747524
+_cell_angle_alpha   108.54872131
+_cell_angle_beta   100.23896790
+_cell_angle_gamma   105.75483704
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbNa2CaCuAsSeCl2O7
+_chemical_formula_sum   'Rb1 Na2 Ca1 Cu1 As1 Se1 Cl2 O7'
+_cell_volume   332.79831005
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.01576869  0.56720853  0.18842080  1
+  Ca  Ca1  1  0.37795839  0.82228202  0.20024268  1
+  Cu  Cu2  1  0.89863235  0.98086542  0.56372643  1
+  O  O3  1  0.72353435  0.64611614  0.78834915  1
+  As  As4  1  0.81168979  0.88944423  0.92818475  1
+  Na  Na5  1  0.32538638  0.11839481  0.93669105  1
+  Na  Na6  1  0.76163656  0.35740483  0.82947510  1
+  Rb  Rb7  1  0.31957495  0.47596687  0.48392367  1
+  Se  Se8  1  0.72991753  0.50959796  0.22457969  1
+  Cl  Cl9  1  0.77859104  0.21519952  0.45882407  1
+  O  O10  1  0.88518286  0.05699443  0.81732595  1
+  Cl  Cl11  1  0.29428741  0.00896775  0.57799661  1
+  O  O12  1  0.68603623  0.73192155  0.37588537  1
+  O  O13  1  0.58826911  0.94222146  0.01211524  1
+  O  O14  1  0.09450945  0.96045125  0.08526322  1
+  O  O15  1  0.51484621  0.47972378  0.04769076  1

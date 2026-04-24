@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_K2Ca2LaCl2O2F3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.68280339
+_cell_length_b   7.53530455
+_cell_length_c   9.42924500
+_cell_angle_alpha   101.55686188
+_cell_angle_beta   90.83929443
+_cell_angle_gamma   106.14318848
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2Ca2LaCl2O2F3
+_chemical_formula_sum   'K2 Ca2 La1 Cl2 O2 F3'
+_cell_volume   245.56878616
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.57545227  0.45726079  0.17695574  1
+  Ca  Ca1  1  0.87806690  0.06992333  0.34054536  1
+  Ca  Ca2  1  0.28533322  0.87786293  0.02924592  1
+  F  F3  1  0.70857859  0.73547918  0.38474652  1
+  O  O4  1  0.13005039  0.58507514  0.08826967  1
+  Cl  Cl5  1  0.72386360  0.77349973  0.82211149  1
+  Cl  Cl6  1  0.44508034  0.19832774  0.56485850  1
+  K  K7  1  0.99670780  0.31450382  0.81940544  1
+  O  O8  1  0.38714898  0.09258286  0.22779605  1
+  K  K9  1  0.19023128  0.68873948  0.55433780  1
+  F  F10  1  0.04622224  0.41006231  0.32156229  1
+  F  F11  1  0.44523063  0.20888254  0.95547211  1

@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_KNaLa2InCl7O2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.40625572
+_cell_length_b   7.29808140
+_cell_length_c   7.03316927
+_cell_angle_alpha   77.34952545
+_cell_angle_beta   80.34650421
+_cell_angle_gamma   86.14009094
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KNaLa2InCl7O2
+_chemical_formula_sum   'K1 Na1 La2 In1 Cl7 O2'
+_cell_volume   365.48721587
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.31161889  0.50920671  0.80048656  1
+  Na  Na1  1  0.28562808  0.97674960  0.15370926  1
+  Cl  Cl2  1  0.10258400  0.92458063  0.53357196  1
+  Cl  Cl3  1  0.54595774  0.80374885  0.43157747  1
+  Cl  Cl4  1  0.59490454  0.77901345  0.93621475  1
+  O  O5  1  0.63159800  0.25312787  0.63457769  1
+  In  In6  1  0.42366377  0.07729901  0.62751454  1
+  Cl  Cl7  1  0.02964297  0.71765977  0.06675433  1
+  Cl  Cl8  1  0.38232049  0.34041548  0.26005071  1
+  Cl  Cl9  1  0.86569941  0.20336027  0.14138152  1
+  La  La10  1  0.72292095  0.49111012  0.30464888  1
+  O  O11  1  0.23588333  0.13403407  0.83912760  1
+  La  La12  1  0.91372675  0.08452668  0.81074965  1
+  Cl  Cl13  1  0.97565794  0.46792462  0.57262015  1

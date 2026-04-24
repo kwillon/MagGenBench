@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_KRbLaPrSi2(OF2)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.07141018
+_cell_length_b   7.71449089
+_cell_length_c   8.01815891
+_cell_angle_alpha   116.26490784
+_cell_angle_beta   94.41555786
+_cell_angle_gamma   93.03005981
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KRbLaPrSi2(OF2)4
+_chemical_formula_sum   'Rb1 K1 La1 Pr1 Si2 O4 F8'
+_cell_volume   334.18980034
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.73254669  0.26896933  0.07107677  1
+  Pr  Pr1  1  0.48053584  0.05727068  0.13200243  1
+  Si  Si2  1  0.97556239  0.71852863  0.96991539  1
+  O  O3  1  0.18955410  0.83524597  0.97681010  1
+  F  F4  1  0.47564304  0.84985584  0.32701731  1
+  F  F5  1  0.22867450  0.20104589  0.42607886  1
+  La  La6  1  0.99165815  0.43373939  0.35814542  1
+  F  F7  1  0.48514611  0.99975377  0.72258234  1
+  O  O8  1  0.30114958  0.65610176  0.50889277  1
+  O  O9  1  0.74002182  0.80852574  0.98565936  1
+  O  O10  1  0.73872858  0.71260887  0.50681639  1
+  Si  Si11  1  0.50409007  0.78409988  0.51251489  1
+  F  F12  1  0.73122168  0.22387104  0.41809565  1
+  F  F13  1  0.99240416  0.61349785  0.13114645  1
+  Rb  Rb14  1  0.46661726  0.43567964  0.79649395  1
+  F  F15  1  0.97980887  0.50521976  0.75587440  1
+  F  F16  1  0.23178709  0.26981762  0.07210754  1
+  K  K17  1  0.99518126  0.06522760  0.71261418  1

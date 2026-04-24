@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_NdGa2O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.02215624
+_cell_length_b   5.00548458
+_cell_length_c   5.00971127
+_cell_angle_alpha   107.80455780
+_cell_angle_beta   88.51429749
+_cell_angle_gamma   89.50698090
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NdGa2O5
+_chemical_formula_sum   'Nd1 Ga2 O5'
+_cell_volume   119.84567661
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.11700658  0.19360971  0.08598658  1
+  O  O1  1  0.54152548  0.60039610  0.46451464  1
+  Ga  Ga2  1  0.34211919  0.27499908  0.43448913  1
+  Ga  Ga3  1  0.35739580  0.91397983  0.78859514  1
+  O  O4  1  0.53851402  0.22291087  0.73894000  1
+  O  O5  1  0.55183077  0.94993621  0.11304966  1
+  Nd  Nd6  1  0.82053280  0.55127168  0.07341520  1
+  O  O7  1  0.11244387  0.58121032  0.71253908  1

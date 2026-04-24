@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_HoGaRh
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.39431286
+_cell_length_b   4.32135868
+_cell_length_c   6.25826550
+_cell_angle_alpha   93.45122528
+_cell_angle_beta   90.67658997
+_cell_angle_gamma   89.11602020
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HoGaRh
+_chemical_formula_sum   'Ho2 Ga2 Rh2'
+_cell_volume   118.60402516
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.00410510  0.42325541  0.77129853  1
+  Rh  Rh1  1  0.00657648  0.92183679  0.55400026  1
+  Ho  Ho2  1  0.01168572  0.42172503  0.24489360  1
+  Ga  Ga3  1  0.50444227  0.91792411  0.33354607  1
+  Ho  Ho4  1  0.50741041  0.92619610  0.86035860  1
+  Rh  Rh5  1  0.51069552  0.43231535  0.55081898  1

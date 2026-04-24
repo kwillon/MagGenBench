@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_CeSc2CdBiC2O13
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.74667764
+_cell_length_b   3.65283275
+_cell_length_c   15.62510872
+_cell_angle_alpha   93.52175903
+_cell_angle_beta   94.81787872
+_cell_angle_gamma   107.34457397
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CeSc2CdBiC2O13
+_chemical_formula_sum   'Ce1 Sc2 Cd1 Bi1 C2 O13'
+_cell_volume   202.55790854
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  0.80106318  0.46256894  0.48243624  1
+  Ce  Ce1  1  0.42852908  0.96354055  0.65737396  1
+  O  O2  1  0.07716186  0.14381498  0.97700703  1
+  Sc  Sc3  1  0.54171759  0.10281308  0.91237587  1
+  O  O4  1  0.58371121  0.64069045  0.97309595  1
+  O  O5  1  0.02844062  0.41547951  0.33850455  1
+  O  O6  1  0.79999024  0.63431185  0.69409436  1
+  Sc  Sc7  1  0.68144423  0.25797611  0.22344638  1
+  O  O8  1  0.93291610  0.01999574  0.56580311  1
+  O  O9  1  0.67430168  0.73052394  0.15245306  1
+  O  O10  1  0.74614084  0.31086159  0.81128681  1
+  O  O11  1  0.30399010  0.39279002  0.56197590  1
+  O  O12  1  0.47501856  0.81659937  0.29167548  1
+  O  O13  1  0.15421450  0.23417062  0.16187906  1
+  C  C14  1  0.32684207  0.69508159  0.35235935  1
+  O  O15  1  0.14159518  0.31581205  0.71270818  1
+  O  O16  1  0.22751075  0.78855771  0.81399703  1
+  C  C17  1  0.98519576  0.51404178  0.76297206  1
+  Bi  Bi18  1  0.12018763  0.68674523  0.06979033  1
+  O  O19  1  0.46873784  0.81719381  0.42573455  1

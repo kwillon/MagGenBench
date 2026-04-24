@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_LiCdAgSn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.41034698
+_cell_length_b   4.84826231
+_cell_length_c   4.86835051
+_cell_angle_alpha   96.10838318
+_cell_angle_beta   86.94555664
+_cell_angle_gamma   89.23599243
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiCdAgSn
+_chemical_formula_sum   'Li1 Cd1 Ag1 Sn1'
+_cell_volume   103.34059158
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  0.34108183  0.94522846  0.94255936  1
+  Li  Li1  1  0.33951181  0.44789064  0.43913677  1
+  Sn  Sn2  1  0.84503514  0.94714051  0.44190317  1
+  Ag  Ag3  1  0.84545422  0.44596612  0.95039237  1

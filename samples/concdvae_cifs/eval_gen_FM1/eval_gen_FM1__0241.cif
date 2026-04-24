@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_CsNiC2O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.95748568
+_cell_length_b   5.50686216
+_cell_length_c   6.71545362
+_cell_angle_alpha   114.96965027
+_cell_angle_beta   108.63555908
+_cell_angle_gamma   89.00416565
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsNiC2O5
+_chemical_formula_sum   'Cs1 Ni1 C2 O5'
+_cell_volume   156.00301028
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.69262272  0.32352093  0.77309346  1
+  O  O1  1  0.90122885  0.59482592  0.36760017  1
+  Cs  Cs2  1  0.31448150  0.76082039  0.09333898  1
+  Ni  Ni3  1  0.68068630  0.49546573  0.55586141  1
+  O  O4  1  0.68727881  0.87645888  0.78005743  1
+  O  O5  1  0.90330201  0.19883643  0.37046236  1
+  C  C6  1  0.03438046  0.39510646  0.36793333  1
+  O  O7  1  0.29804051  0.38599518  0.34904957  1
+  C  C8  1  0.68549496  0.09681635  0.77618039  1

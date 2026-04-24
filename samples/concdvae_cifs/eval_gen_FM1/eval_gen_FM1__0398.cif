@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_SrCaPd2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.58086205
+_cell_length_b   5.50777292
+_cell_length_c   5.49167442
+_cell_angle_alpha   59.23937988
+_cell_angle_beta   60.38381195
+_cell_angle_gamma   60.37027740
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrCaPd2
+_chemical_formula_sum   'Sr1 Ca1 Pd2'
+_cell_volume   119.32524641
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pd  Pd0  1  0.70384634  0.67392272  0.81718671  1
+  Ca  Ca1  1  0.95575976  0.92192948  0.06842369  1
+  Sr  Sr2  1  0.45852688  0.42587945  0.56253642  1
+  Pd  Pd3  1  0.19795117  0.17531671  0.31915787  1

@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Fe2CuAg2AsWO11
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.67648077
+_cell_length_b   6.06346750
+_cell_length_c   11.22044373
+_cell_angle_alpha   114.14982605
+_cell_angle_beta   98.27469635
+_cell_angle_gamma   103.50382996
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Fe2CuAg2AsWO11
+_chemical_formula_sum   'Fe2 Cu1 Ag2 As1 W1 O11'
+_cell_volume   213.69228294
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  1  0.87241602  0.39462310  0.95773441  1
+  O  O1  1  0.24847604  0.96444708  0.12371035  1
+  O  O2  1  0.63165605  0.91412848  0.94440287  1
+  O  O3  1  0.59297365  0.15067717  0.63442570  1
+  O  O4  1  0.94659168  0.83122909  0.60639334  1
+  O  O5  1  0.30354372  0.73960257  0.37038559  1
+  W  W6  1  0.73900759  0.95723635  0.11509130  1
+  O  O7  1  0.83615959  0.99570024  0.29921103  1
+  Fe  Fe8  1  0.54097080  0.50891322  0.25584465  1
+  Cu  Cu9  1  0.40865037  0.06031147  0.38518411  1
+  O  O10  1  0.54085833  0.37944901  0.42263544  1
+  O  O11  1  0.18554807  0.20545118  0.83100462  1
+  As  As12  1  0.10782758  0.16200384  0.66978508  1
+  Ag  Ag13  1  0.95570159  0.70679915  0.81585878  1
+  O  O14  1  0.86368775  0.29553342  0.17736083  1
+  Fe  Fe15  1  0.29345015  0.62071013  0.52366626  1
+  O  O16  1  0.25987563  0.47906592  0.68346500  1
+  O  O17  1  0.59860432  0.61947298  0.08317085  1

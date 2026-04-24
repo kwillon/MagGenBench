@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_MgZn3InGeS6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.25828362
+_cell_length_b   6.28221750
+_cell_length_c   7.98154306
+_cell_angle_alpha   88.02712250
+_cell_angle_beta   90.31816864
+_cell_angle_gamma   88.58808136
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgZn3InGeS6
+_chemical_formula_sum   'Mg1 Zn3 In1 Ge1 S6'
+_cell_volume   263.41805195
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.39927819  0.20213588  0.43240273  1
+  In  In1  1  0.90876311  0.33953372  0.09430697  1
+  Zn  Zn2  1  0.41078979  0.84394658  0.08907264  1
+  Zn  Zn3  1  0.39866543  0.52493775  0.74896586  1
+  S  S4  1  0.90425074  0.02970076  0.52569085  1
+  Mg  Mg5  1  0.89669490  0.69481856  0.42583951  1
+  S  S6  1  0.40739787  0.84760827  0.84538728  1
+  S  S7  1  0.39968756  0.52473527  0.50411993  1
+  Ge  Ge8  1  0.90837848  0.00848965  0.75864643  1
+  S  S9  1  0.40517020  0.16108404  0.18988882  1
+  S  S10  1  0.90421569  0.70569861  0.16887179  1
+  S  S11  1  0.89969516  0.34414369  0.83053362  1

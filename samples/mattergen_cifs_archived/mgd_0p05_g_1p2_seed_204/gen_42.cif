@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Co2CuH
+_chemical_formula_sum              "Co2 Cu1 H1"
+_cell_length_a       2.5557429248772183
+_cell_length_b       2.555284140440773
+_cell_length_c       6.475039005279541
+_cell_angle_alpha    78.68744568026284
+_cell_angle_beta     78.62139917065346
+_cell_angle_gamma    60.019298860253244
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.7154322266578674  0.3508854806423187  0.09524568170309068  1.0000
+  Co  Co2       1.0  0.16120022535324102  0.7960923910140991  0.7590434551239015  1.0000
+  Cu  Cu1       1.0  0.9382606744766235  0.5733503699302673  0.42741060256958013  1.0000
+  H   H1        1.0  0.4387906491756439  0.07385453581809998  0.9259448647499086  1.0000

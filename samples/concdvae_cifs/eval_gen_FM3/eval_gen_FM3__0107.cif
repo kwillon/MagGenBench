@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CaEuAlB2O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.01300955
+_cell_length_b   5.01286173
+_cell_length_c   6.02854824
+_cell_angle_alpha   103.36623383
+_cell_angle_beta   93.41129303
+_cell_angle_gamma   91.77460480
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaEuAlB2O7
+_chemical_formula_sum   'Ca1 Eu1 Al1 B2 O7'
+_cell_volume   146.97366028
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.70031953  0.22368203  0.85251081  1
+  O  O1  1  0.34094211  0.07576191  0.05462871  1
+  Al  Al2  1  0.25054157  0.73215431  0.85508156  1
+  O  O3  1  0.34143263  0.38987812  0.61919808  1
+  O  O4  1  0.97274488  0.38934135  0.16365495  1
+  O  O5  1  0.91419411  0.10711307  0.52596396  1
+  B  B6  1  0.19941270  0.13210699  0.58191824  1
+  Eu  Eu7  1  0.70034754  0.60399735  0.43793535  1
+  O  O8  1  0.39063638  0.55197984  0.07777127  1
+  O  O9  1  0.89196098  0.70838273  0.80499244  1
+  O  O10  1  0.35464373  0.90964413  0.61449367  1
+  B  B11  1  0.22121529  0.34063450  0.10466380  1

@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_SrGa2WSO10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.95495176
+_cell_length_b   4.80708933
+_cell_length_c   8.08565235
+_cell_angle_alpha   88.85698700
+_cell_angle_beta   88.81038666
+_cell_angle_gamma   91.35070801
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrGa2WSO10
+_chemical_formula_sum   'Sr1 Ga2 W1 S1 O10'
+_cell_volume   192.45605232
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  W  W0  1  0.01750065  0.82548285  0.93634367  1
+  O  O1  1  0.18836240  0.30984613  0.43823063  1
+  O  O2  1  0.21416011  0.02869987  0.77396232  1
+  O  O3  1  0.81200367  0.62041914  0.09815507  1
+  Ga  Ga4  1  0.51215076  0.32334229  0.78006750  1
+  O  O5  1  0.80976051  0.63315004  0.77109796  1
+  O  O6  1  0.63284546  0.20778896  0.29122838  1
+  Ga  Ga7  1  0.51458561  0.32278225  0.08567746  1
+  O  O8  1  0.30082646  0.53243381  0.93287015  1
+  O  O9  1  0.72945559  0.11412565  0.93342566  1
+  Sr  Sr10  1  0.99418867  0.84146917  0.43602687  1
+  S  S11  1  0.48719159  0.35185102  0.43365851  1
+  O  O12  1  0.20647196  0.03506019  0.09511176  1
+  O  O13  1  0.52289236  0.65279222  0.42755818  1
+  O  O14  1  0.64210576  0.21240528  0.57641238  1

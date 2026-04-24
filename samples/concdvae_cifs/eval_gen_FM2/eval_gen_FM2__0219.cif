@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_BaCaEu2Cu5PdS9Cl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.17111206
+_cell_length_b   7.09541178
+_cell_length_c   7.67017221
+_cell_angle_alpha   77.36483002
+_cell_angle_beta   82.70152283
+_cell_angle_gamma   79.24336243
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaCaEu2Cu5PdS9Cl
+_chemical_formula_sum   'Ba1 Ca1 Eu2 Cu5 Pd1 S9 Cl1'
+_cell_volume   372.61472348
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.01529774  0.14917293  0.99736995  1
+  Cu  Cu1  1  0.16204952  0.88985795  0.85678542  1
+  Cu  Cu2  1  0.28297347  0.09719750  0.57555848  1
+  Ca  Ca3  1  0.86663532  0.57577324  0.80259997  1
+  Eu  Eu4  1  0.95958918  0.34678060  0.32593295  1
+  Pd  Pd5  1  0.70668602  0.13322297  0.16021934  1
+  Ba  Ba6  1  0.28930813  0.78972787  0.27059668  1
+  S  S7  1  0.37067434  0.16572215  0.27342683  1
+  Cu  Cu8  1  0.69454968  0.97068566  0.54189742  1
+  S  S9  1  0.54781115  0.92886800  0.88287598  1
+  Cu  Cu10  1  0.50326467  0.34149829  0.43059480  1
+  S  S11  1  0.10420131  0.61090904  0.01846635  1
+  S  S12  1  0.46628532  0.79341596  0.71519732  1
+  Cl  Cl13  1  0.77464956  0.81057060  0.30898923  1
+  Cu  Cu14  1  0.82522261  0.09525397  0.80359912  1
+  S  S15  1  0.19596192  0.42755538  0.56838536  1
+  S  S16  1  0.69808418  0.36593848  0.63035703  1
+  S  S17  1  0.01187514  0.95753402  0.59074754  1
+  S  S18  1  0.62068838  0.45392793  0.13459644  1
+  Eu  Eu19  1  0.38122094  0.34473175  0.88683879  1

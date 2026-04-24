@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_Li3MnCo8NiO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.27185870
+_cell_length_b   7.04510649
+_cell_length_c   7.99130187
+_cell_angle_alpha   86.85731135
+_cell_angle_beta   100.16559351
+_cell_angle_gamma   82.11984631
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li3MnCo8NiO8
+_chemical_formula_sum   'Li3 Mn1 Co8 Ni1 O8'
+_cell_volume   397.85722659
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.04569835  0.71663610  0.34919373  1
+  O  O1  1  0.32549442  0.95326461  0.82450677  1
+  O  O2  1  0.51410930  0.49697660  0.00300738  1
+  Ni  Ni3  1  0.52159173  0.79206335  0.98858737  1
+  Co  Co4  1  0.50721761  0.99157891  0.48865849  1
+  Co  Co5  1  0.51237389  0.77836066  0.98603073  1
+  Li  Li6  1  0.50036466  0.00700868  0.48819699  1
+  Co  Co7  1  0.01502783  0.48993862  0.00646350  1
+  Co  Co8  1  0.50827793  0.23121824  0.23522290  1
+  O  O9  1  0.49394587  0.23326621  0.37256083  1
+  O  O10  1  0.52579362  0.78329743  0.75691230  1
+  O  O11  1  0.53154752  0.76261867  0.51030889  1
+  Mn  Mn12  1  0.51954367  0.76380044  0.50813377  1
+  O  O13  1  0.55586785  0.77006439  0.48833173  1
+  Co  Co14  1  0.00721421  0.01031956  0.82383605  1
+  Li  Li15  1  0.98636801  0.97368576  0.99397355  1
+  Co  Co16  1  0.00340318  0.23716741  0.75786982  1
+  Co  Co17  1  0.99701787  0.26054107  0.49479625  1
+  O  O18  1  0.98929041  0.26205226  0.26082941  1
+  O  O19  1  0.00059249  0.00343254  0.49173935  1
+  Co  Co20  1  0.99254021  0.51030238  0.00293511  1

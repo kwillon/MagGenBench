@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       NiMnNiEuNi2
+_chemical_formula_sum              "Ni4 Mn1 Eu1"
+_cell_length_a       4.9381463434034645
+_cell_length_b       4.937884324602773
+_cell_length_c       4.940255641937256
+_cell_angle_alpha    60.02072315281961
+_cell_angle_beta     60.016217388244506
+_cell_angle_gamma    60.00078836228676
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ni  Ni1       1.0  0.012723986990749829  0.09402403235435487  0.18850278854370117  1.0000
+  Mn  Mn1       1.0  0.638486385345459  0.7201906442642212  0.3101631700992584  1.0000
+  Ni  Ni2       1.0  0.012635564431548119  0.09405737370252609  0.6832855939865112  1.0000
+  Eu  Eu1       1.0  0.3888753950595855  0.4703492820262909  0.05968821793794632  1.0000
+  Ni  Ni3       1.0  0.013105925172567342  0.5987147688865663  0.6833269596099854  1.0000
+  Ni  Ni4       1.0  0.5172683000564575  0.09419724345207214  0.6833242177963257  1.0000

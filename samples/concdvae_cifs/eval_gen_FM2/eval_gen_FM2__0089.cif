@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Rb2CaCuCl6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.71693325
+_cell_length_b   6.67774343
+_cell_length_c   6.89230013
+_cell_angle_alpha   61.96475220
+_cell_angle_beta   63.93194962
+_cell_angle_gamma   62.79712677
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Rb2CaCuCl6
+_chemical_formula_sum   'Rb2 Ca1 Cu1 Cl6'
+_cell_volume   232.54745850
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.39901388  0.51265687  0.98041850  1
+  Rb  Rb1  1  0.90258163  0.01703314  0.47543317  1
+  Ca  Ca2  1  0.14861198  0.26907802  0.72561127  1
+  Cl  Cl3  1  0.41304415  0.52910864  0.46271932  1
+  Cu  Cu4  1  0.65405434  0.76512837  0.22410068  1
+  Cl  Cl5  1  0.41576377  0.00165758  0.98729181  1
+  Cl  Cl6  1  0.88296950  0.53060150  0.46471009  1
+  Cl  Cl7  1  0.41309312  0.99814641  0.46607184  1
+  Cl  Cl8  1  0.88460445  0.53044009  0.98785108  1
+  Cl  Cl9  1  0.88464439  0.00284665  0.99236387  1

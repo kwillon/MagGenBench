@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_CsBa2Al2OF9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.63544893
+_cell_length_b   5.71191263
+_cell_length_c   8.38249969
+_cell_angle_alpha   88.59233856
+_cell_angle_beta   89.27587891
+_cell_angle_gamma   90.12083435
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsBa2Al2OF9
+_chemical_formula_sum   'Cs1 Ba2 Al2 O1 F9'
+_cell_volume   269.72212952
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.12859936  0.89423895  0.87750959  1
+  Cs  Cs1  1  0.79780531  0.56155443  0.21046773  1
+  Al  Al2  1  0.29748514  0.05822129  0.01309610  1
+  F  F3  1  0.09354716  0.24492003  0.93339664  1
+  F  F4  1  0.44936165  0.21433516  0.87671340  1
+  F  F5  1  0.78236639  0.54879409  0.71862108  1
+  Al  Al6  1  0.28039789  0.06002422  0.42518735  1
+  F  F7  1  0.45599625  0.89514774  0.54740834  1
+  F  F8  1  0.48563269  0.25775594  0.49097931  1
+  Ba  Ba9  1  0.78764457  0.05276854  0.71862268  1
+  Ba  Ba10  1  0.28315175  0.55911386  0.72119665  1
+  F  F11  1  0.12281153  0.22418146  0.54774898  1
+  F  F12  1  0.48068205  0.85161614  0.94637501  1
+  O  O13  1  0.28665498  0.06260998  0.21852522  1
+  F  F14  1  0.09108137  0.85367936  0.49793774  1

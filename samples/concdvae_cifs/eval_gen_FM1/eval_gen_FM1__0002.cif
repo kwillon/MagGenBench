@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_Li5(CuS)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.87313604
+_cell_length_b   6.80578756
+_cell_length_c   7.00615692
+_cell_angle_alpha   75.79182434
+_cell_angle_beta   66.53585815
+_cell_angle_gamma   70.42813110
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li5(CuS)6
+_chemical_formula_sum   'Li5 Cu6 S6'
+_cell_volume   280.86717460
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.62383378  0.37968338  0.58041751  1
+  Cu  Cu1  1  0.54434830  0.25996450  0.04761410  1
+  S  S2  1  0.10306261  0.02908682  0.91681039  1
+  Cu  Cu3  1  0.34312579  0.14947326  0.55921054  1
+  Cu  Cu4  1  0.90432894  0.64728057  0.53760302  1
+  Li  Li5  1  0.48287061  0.91995102  0.89262825  1
+  Li  Li6  1  0.05992206  0.15143472  0.25346872  1
+  Cu  Cu7  1  0.79444516  0.89614481  0.19655618  1
+  S  S8  1  0.22830610  0.50156325  0.58948588  1
+  S  S9  1  0.41563815  0.00421193  0.25660652  1
+  S  S10  1  0.74930310  0.00588212  0.52879626  1
+  S  S11  1  0.59827590  0.55055165  0.88228762  1
+  Cu  Cu12  1  0.91039222  0.02889343  0.73283970  1
+  Li  Li13  1  0.20332056  0.64858860  0.89821231  1
+  S  S14  1  0.89068031  0.53431022  0.23534544  1
+  Cu  Cu15  1  0.94662678  0.39373729  0.90557832  1
+  Li  Li16  1  0.50792575  0.63151878  0.26154089  1

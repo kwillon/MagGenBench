@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Cs2NaTbF6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.21928930
+_cell_length_b   6.28278303
+_cell_length_c   6.10960674
+_cell_angle_alpha   107.96812439
+_cell_angle_beta   90.12202454
+_cell_angle_gamma   93.02780151
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2NaTbF6
+_chemical_formula_sum   'Cs2 Na1 Tb1 F6'
+_cell_volume   226.72658088
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.56848419  0.17342053  0.21244800  1
+  F  F1  1  0.56268281  0.03498012  0.71130699  1
+  Tb  Tb2  1  0.55922425  0.68640143  0.66745317  1
+  Cs  Cs3  1  0.07030753  0.14292328  0.69801831  1
+  F  F4  1  0.31600630  0.58361125  0.87988526  1
+  F  F5  1  0.80096143  0.68601644  0.41163856  1
+  F  F6  1  0.31496620  0.68055463  0.41312841  1
+  F  F7  1  0.80411679  0.57972413  0.86942947  1
+  F  F8  1  0.06885733  0.06196595  0.17436421  1
+  Na  Na9  1  0.05842133  0.68791753  0.15183222  1

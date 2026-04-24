@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       CrMnCrHIr
+_chemical_formula_sum              "Cr2 Mn1 H1 Ir1"
+_cell_length_a       3.6980402562609807
+_cell_length_b       3.7253647599908697
+_cell_length_c       3.7255473136901855
+_cell_angle_alpha    90.06256020267017
+_cell_angle_beta     89.94166586020653
+_cell_angle_gamma    90.02875760470991
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.06655137985944748  0.8708857297897338  0.6749458909034729  1.0000
+  Mn  Mn1       1.0  0.5665595531463623  0.8712452054023743  0.17513826489448547  1.0000
+  Cr  Cr2       1.0  0.06654445081949234  0.3710692524909973  0.1754465103149414  1.0000
+  H   H1        1.0  0.06661014258861542  0.8713377118110657  0.17513690888881683  1.0000
+  Ir  Ir1       1.0  0.5665320158004761  0.37114715576171875  0.6752410531044006  1.0000

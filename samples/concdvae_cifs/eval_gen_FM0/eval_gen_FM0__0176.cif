@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_LaY2AlFe3CoSi3NiC
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.15576696
+_cell_length_b   5.29681540
+_cell_length_c   7.34551001
+_cell_angle_alpha   95.30284119
+_cell_angle_beta   94.36694336
+_cell_angle_gamma   103.53984833
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaY2AlFe3CoSi3NiC
+_chemical_formula_sum   'La1 Y2 Al1 Fe3 Co1 Si3 Ni1 C1'
+_cell_volume   193.19654461
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.83001488  0.11423790  0.88977957  1
+  C  C1  1  0.13915646  0.34085828  0.15706715  1
+  Si  Si2  1  0.57335049  0.09990437  0.27079862  1
+  La  La3  1  0.43371826  0.63829607  0.44812042  1
+  Y  Y4  1  0.21799275  0.70831472  0.94298065  1
+  Si  Si5  1  0.73222768  0.69675910  0.10066320  1
+  Co  Co6  1  0.40568680  0.28899276  0.04896634  1
+  Si  Si7  1  0.95231974  0.76931953  0.56127560  1
+  Fe  Fe8  1  0.87136459  0.28497106  0.54929227  1
+  Al  Al9  1  0.32186678  0.18199567  0.67837733  1
+  Fe  Fe10  1  0.89470094  0.46865234  0.26893133  1
+  Ni  Ni11  1  0.68233287  0.55700386  0.78825706  1
+  Fe  Fe12  1  0.06792660  0.03914246  0.29512918  1

@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Sr3AlAgBOF11
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.92616081
+_cell_length_b   6.64622831
+_cell_length_c   6.65071201
+_cell_angle_alpha   114.01579285
+_cell_angle_beta   85.33002472
+_cell_angle_gamma   83.63639832
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr3AlAgBOF11
+_chemical_formula_sum   'Sr3 Al1 Ag1 B1 O1 F11'
+_cell_volume   235.47770534
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.24181929  0.50160772  0.31197023  1
+  F  F1  1  0.21962391  0.84630573  0.11154708  1
+  F  F2  1  0.19666219  0.96035874  0.64642400  1
+  F  F3  1  0.91962826  0.73300153  0.74292839  1
+  Al  Al4  1  0.89767933  0.00809813  0.72294521  1
+  F  F5  1  0.61105651  0.02361259  0.78856146  1
+  Sr  Sr6  1  0.06990847  0.22687204  0.40976804  1
+  F  F7  1  0.46399528  0.08271140  0.26346594  1
+  Sr  Sr8  1  0.94839507  0.58475113  0.05936940  1
+  F  F9  1  0.87002462  0.90926194  0.42059588  1
+  O  O10  1  0.57342666  0.70556742  0.05009079  1
+  B  B11  1  0.43570545  0.86473626  0.13986959  1
+  F  F12  1  0.74275482  0.46824282  0.34258944  1
+  Sr  Sr13  1  0.50046647  0.63764340  0.64772475  1
+  F  F14  1  0.81219375  0.31091589  0.71558100  1
+  F  F15  1  0.96490288  0.17457902  0.00666969  1
+  Ag  Ag16  1  0.47854552  0.33976614  0.03442994  1
+  F  F17  1  0.26594144  0.41641763  0.75124115  1

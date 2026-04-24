@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_ZrTaS4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.77299145
+_cell_length_b   3.77299145
+_cell_length_c   30.49460315
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZrTaS4
+_chemical_formula_sum   'Zr4 Ta4 S16'
+_cell_volume   434.10483966
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.00000000  0.75000000  0.12500000  1
+  Zr  Zr1  1  0.50000000  0.75000000  0.37500000  1
+  Zr  Zr2  1  0.50000000  0.25000000  0.62500000  1
+  Zr  Zr3  1  0.00000000  0.25000000  0.87500000  1
+  Ta  Ta4  1  0.00000000  0.25000000  0.37500000  1
+  Ta  Ta5  1  0.00000000  0.75000000  0.62500000  1
+  Ta  Ta6  1  0.50000000  0.75000000  0.87500000  1
+  Ta  Ta7  1  0.50000000  0.25000000  0.12500000  1
+  S  S8  1  0.00000000  0.47496973  0.70530113  1
+  S  S9  1  0.50000000  0.52503027  0.20530113  1
+  S  S10  1  0.77503027  0.75000000  0.95530113  1
+  S  S11  1  0.72496973  0.25000000  0.45530113  1
+  S  S12  1  0.50000000  0.47496973  0.79469887  1
+  S  S13  1  0.00000000  0.52503027  0.29469887  1
+  S  S14  1  0.72496973  0.75000000  0.54469887  1
+  S  S15  1  0.77503027  0.25000000  0.04469887  1
+  S  S16  1  0.50000000  0.97496973  0.20530113  1
+  S  S17  1  0.00000000  0.02503027  0.70530113  1
+  S  S18  1  0.27503027  0.25000000  0.45530113  1
+  S  S19  1  0.22496973  0.75000000  0.95530113  1
+  S  S20  1  0.00000000  0.97496973  0.29469887  1
+  S  S21  1  0.50000000  0.02503027  0.79469887  1
+  S  S22  1  0.22496973  0.25000000  0.04469887  1
+  S  S23  1  0.27503027  0.75000000  0.54469887  1

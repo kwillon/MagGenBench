@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_DyY2InMoRu
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.49336195
+_cell_length_b   5.19808388
+_cell_length_c   7.35649109
+_cell_angle_alpha   92.64988708
+_cell_angle_beta   94.77130127
+_cell_angle_gamma   100.05908966
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   DyY2InMoRu
+_chemical_formula_sum   'Y2 Dy1 In1 Mo1 Ru1'
+_cell_volume   130.82415969
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.81881845  0.37768155  0.39881128  1
+  Y  Y1  1  0.96802253  0.86059654  0.71193761  1
+  Mo  Mo2  1  0.14471093  0.38039184  0.06944186  1
+  Ru  Ru3  1  0.31754875  0.88181853  0.40896186  1
+  Dy  Dy4  1  0.65867126  0.88071078  0.11127681  1
+  In  In5  1  0.50125903  0.37222129  0.77121007  1

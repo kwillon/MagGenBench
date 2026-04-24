@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_YHoScHgO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.38036156
+_cell_length_b   5.63822031
+_cell_length_c   5.86577129
+_cell_angle_alpha   69.41262817
+_cell_angle_beta   63.02984238
+_cell_angle_gamma   61.49689484
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YHoScHgO6
+_chemical_formula_sum   'Y1 Ho1 Sc1 Hg1 O6'
+_cell_volume   137.27470136
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.54462343  0.29780620  0.81360692  1
+  Ho  Ho1  1  0.13718759  0.21963707  0.99912894  1
+  O  O2  1  0.01687545  0.38888294  0.32562295  1
+  O  O3  1  0.32290924  0.83509660  0.32687414  1
+  O  O4  1  0.75801080  0.08568775  0.33237308  1
+  O  O5  1  0.21428549  0.92991322  0.80097216  1
+  Sc  Sc6  1  0.93032026  0.00557390  0.62549037  1
+  O  O7  1  0.85501158  0.63215542  0.80253398  1
+  Hg  Hg8  1  0.41898912  0.49599952  0.15517654  1
+  Y  Y9  1  0.63433188  0.71697700  0.50817770  1

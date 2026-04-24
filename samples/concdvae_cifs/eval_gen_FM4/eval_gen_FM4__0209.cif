@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_TbTh3CO10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.04521894
+_cell_length_b   4.03576851
+_cell_length_c   13.51909637
+_cell_angle_alpha   91.28584290
+_cell_angle_beta   90.92263031
+_cell_angle_gamma   108.19654846
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TbTh3CO10
+_chemical_formula_sum   'Tb1 Th3 C1 O10'
+_cell_volume   209.55469349
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Th  Th0  1  0.61851799  0.26675761  0.60260779  1
+  O  O1  1  0.95923579  0.94721413  0.66865939  1
+  O  O2  1  0.50460696  0.24746428  0.41971356  1
+  Th  Th3  1  0.96709383  0.94495922  0.82956338  1
+  O  O4  1  0.29797912  0.60628384  0.88416833  1
+  O  O5  1  0.97457695  0.94610763  0.99536866  1
+  C  C6  1  0.12796813  0.03330568  0.41645959  1
+  O  O7  1  0.28464651  0.59142077  0.58290267  1
+  O  O8  1  0.64356154  0.26774374  0.10636322  1
+  Tb  Tb9  1  0.64870369  0.28746939  0.26262560  1
+  O  O10  1  0.94791019  0.93454295  0.49623483  1
+  O  O11  1  0.96630532  0.94527555  0.33229914  1
+  O  O12  1  0.62791765  0.27655217  0.77115268  1
+  O  O13  1  0.30956846  0.60971969  0.21600954  1
+  Th  Th14  1  0.30323985  0.60104865  0.05413920  1

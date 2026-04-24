@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Y3In4Ni3Sn2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.10592222
+_cell_length_b   5.72851801
+_cell_length_c   9.36940193
+_cell_angle_alpha   90.79080963
+_cell_angle_beta   90.15045929
+_cell_angle_gamma   116.04895020
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y3In4Ni3Sn2
+_chemical_formula_sum   'Y3 In4 Ni3 Sn2'
+_cell_volume   246.17599244
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.22161534  0.52600384  0.59746677  1
+  In  In1  1  0.22014138  0.52675098  0.28442135  1
+  In  In2  1  0.04680485  0.69018078  0.94846642  1
+  Sn  Sn3  1  0.87985283  0.85454953  0.65241009  1
+  In  In4  1  0.05716274  0.20224106  0.94923699  1
+  Y  Y5  1  0.55346704  0.19829901  0.73786825  1
+  Ni  Ni6  1  0.70462382  0.49157172  0.44731864  1
+  In  In7  1  0.54707944  0.69368470  0.94930136  1
+  Ni  Ni8  1  0.26339474  0.06563573  0.44851699  1
+  Sn  Sn9  1  0.87588501  0.85118085  0.24840893  1
+  Y  Y10  1  0.55394459  0.19922662  0.17019400  1
+  Ni  Ni11  1  0.70814306  0.05070036  0.44879141  1

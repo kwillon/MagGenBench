@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       LiEuHgSm
+_chemical_formula_sum              "Li1 Eu1 Hg1 Sm1"
+_cell_length_a       5.305747344361245
+_cell_length_b       5.305108767667929
+_cell_length_c       5.306268215179443
+_cell_angle_alpha    60.006313476258605
+_cell_angle_beta     60.01532921967951
+_cell_angle_gamma    60.009619530586406
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.294787049293518  0.9401365518569946  0.6535564064979554  1.0000
+  Eu  Eu1       1.0  0.5448940396308899  0.19049169123172757  0.9036266207695007  1.0000
+  Hg  Hg1       1.0  0.7943350672721864  0.4400608539581299  0.15354102849960327  1.0000
+  Sm  Sm1       1.0  0.0445881150662899  0.6894829273223877  0.40352141857147217  1.0000

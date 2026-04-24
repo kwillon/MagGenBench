@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Rb3LaMnCl3O2F3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.51171112
+_cell_length_b   7.98935127
+_cell_length_c   8.33171749
+_cell_angle_alpha   87.83434296
+_cell_angle_beta   78.69254303
+_cell_angle_gamma   82.66951752
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Rb3LaMnCl3O2F3
+_chemical_formula_sum   'Rb3 La1 Mn1 Cl3 O2 F3'
+_cell_volume   292.06046213
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.82345319  0.74911875  0.85704851  1
+  O  O1  1  0.90190768  0.12485070  0.32621494  1
+  Cl  Cl2  1  0.16840810  0.76828188  0.18916410  1
+  La  La3  1  0.46295834  0.94958836  0.39094839  1
+  Cl  Cl4  1  0.53252059  0.62392634  0.55931371  1
+  O  O5  1  0.53915173  0.07379665  0.11764891  1
+  Cl  Cl6  1  0.91558403  0.38719916  0.01987359  1
+  Rb  Rb7  1  0.64617646  0.22094850  0.77169240  1
+  F  F8  1  0.18730742  0.99689573  0.87925494  1
+  F  F9  1  0.88154995  0.92688304  0.56584823  1
+  Rb  Rb10  1  0.24747801  0.39844212  0.32512584  1
+  F  F11  1  0.27065736  0.18994617  0.56243968  1
+  Mn  Mn12  1  0.05049177  0.08317792  0.09563404  1

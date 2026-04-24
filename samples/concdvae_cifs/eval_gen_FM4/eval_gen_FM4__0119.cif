@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_K2LaEuF6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.48901558
+_cell_length_b   6.50689125
+_cell_length_c   6.26715755
+_cell_angle_alpha   71.82081604
+_cell_angle_beta   74.08666992
+_cell_angle_gamma   71.00149536
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2LaEuF6
+_chemical_formula_sum   'K2 La1 Eu1 F6'
+_cell_volume   233.28682414
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.99612612  0.93849880  0.70719385  1
+  La  La1  1  0.75381029  0.68889487  0.45905668  1
+  F  F2  1  0.00082135  0.94156528  0.20900193  1
+  F  F3  1  0.00081579  0.43707398  0.20814499  1
+  F  F4  1  0.49681169  0.93834341  0.21376283  1
+  F  F5  1  0.49834013  0.43611780  0.71167243  1
+  F  F6  1  0.50090617  0.93902093  0.70703566  1
+  F  F7  1  0.99892163  0.43988937  0.70642221  1
+  Eu  Eu8  1  0.25542843  0.18659729  0.96029025  1
+  K  K9  1  0.50124264  0.43728077  0.21302080  1

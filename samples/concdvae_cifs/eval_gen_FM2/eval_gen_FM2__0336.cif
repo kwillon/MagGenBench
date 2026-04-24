@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Al2Tl2In2ClOF8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.46864080
+_cell_length_b   7.34866333
+_cell_length_c   7.67485523
+_cell_angle_alpha   114.70165253
+_cell_angle_beta   88.38354492
+_cell_angle_gamma   89.14407349
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al2Tl2In2ClOF8
+_chemical_formula_sum   'Al2 Tl2 In2 Cl1 O1 F8'
+_cell_volume   331.17202269
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.56318182  0.96673399  0.34329292  1
+  Al  Al1  1  0.38341480  0.42581275  0.96016514  1
+  In  In2  1  0.88880396  0.13681541  0.75365710  1
+  Al  Al3  1  0.39989409  0.91882843  0.48751509  1
+  F  F4  1  0.56881821  0.58377010  0.92419088  1
+  F  F5  1  0.20796254  0.39844221  0.11798364  1
+  F  F6  1  0.55508238  0.43674359  0.14161362  1
+  F  F7  1  0.21187754  0.58719206  0.91909778  1
+  In  In8  1  0.40087524  0.93915474  0.02553797  1
+  Tl  Tl9  1  0.89436460  0.40434590  0.49954969  1
+  F  F10  1  0.58586162  0.76717436  0.53253865  1
+  O  O11  1  0.39188334  0.17492448  0.72866273  1
+  Tl  Tl12  1  0.89146912  0.69742858  0.20553672  1
+  F  F13  1  0.22325756  0.94031423  0.32904074  1
+  F  F14  1  0.23217413  0.73948658  0.48941243  1
+  Cl  Cl15  1  0.88670671  0.97801125  0.98320079  1

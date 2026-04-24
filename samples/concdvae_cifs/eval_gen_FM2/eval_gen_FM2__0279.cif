@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Ba2NiSn(ClO)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.85779428
+_cell_length_b   4.87886095
+_cell_length_c   9.11612320
+_cell_angle_alpha   91.57492065
+_cell_angle_beta   91.93757629
+_cell_angle_gamma   92.61873627
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2NiSn(ClO)3
+_chemical_formula_sum   'Ba2 Ni1 Sn1 Cl3 O3'
+_cell_volume   215.61647250
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.53937382  0.90944105  0.42756534  1
+  O  O1  1  0.04066703  0.90878165  0.16974738  1
+  Cl  Cl2  1  0.04391761  0.91070497  0.68134522  1
+  Ni  Ni3  1  0.53755438  0.90906209  0.71763557  1
+  Sn  Sn4  1  0.53602612  0.90744126  0.15057974  1
+  Ba  Ba5  1  0.04316432  0.40338132  0.94365257  1
+  Cl  Cl6  1  0.54297721  0.40284511  0.68037277  1
+  O  O7  1  0.54873770  0.40635264  0.17510459  1
+  O  O8  1  0.54574823  0.90818053  0.93590969  1
+  Ba  Ba9  1  0.03637724  0.40812919  0.37625116  1

@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_KLaTe4IrI
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.54431295
+_cell_length_b   5.46116304
+_cell_length_c   8.36301517
+_cell_angle_alpha   90.26430511
+_cell_angle_beta   92.57078552
+_cell_angle_gamma   109.01464081
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KLaTe4IrI
+_chemical_formula_sum   'K1 La1 Te4 Ir1 I1'
+_cell_volume   239.11140407
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.61963993  0.06798909  0.80297869  1
+  I  I1  1  0.24626304  0.32552171  0.12203093  1
+  Te  Te2  1  0.21076661  0.94565505  0.52628875  1
+  Ir  Ir3  1  0.86727858  0.81523728  0.70187247  1
+  K  K4  1  0.63240385  0.94911736  0.23158149  1
+  La  La5  1  0.25669926  0.44643313  0.75393313  1
+  Te  Te6  1  0.94024098  0.68485367  0.97338784  1
+  Te  Te7  1  0.72270244  0.44217837  0.51640385  1

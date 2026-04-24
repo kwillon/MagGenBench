@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Na6Yb(FeSn2)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.98602581
+_cell_length_b   8.09948254
+_cell_length_c   8.75831509
+_cell_angle_alpha   112.98739624
+_cell_angle_beta   107.63841248
+_cell_angle_gamma   105.72402954
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na6Yb(FeSn2)3
+_chemical_formula_sum   'Na6 Yb1 Fe3 Sn6'
+_cell_volume   445.38448890
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.35894126  0.67226928  0.43454206  1
+  Na  Na1  1  0.95966136  0.53723973  0.56027400  1
+  Sn  Sn2  1  0.42860317  0.27323422  0.32367134  1
+  Na  Na3  1  0.35308260  0.00952369  0.89637244  1
+  Sn  Sn4  1  0.86764753  0.95512736  0.67358077  1
+  Sn  Sn5  1  0.12895730  0.95232779  0.46120477  1
+  Na  Na6  1  0.62456310  0.54156303  0.16585217  1
+  Fe  Fe7  1  0.16244346  0.27458590  0.42636585  1
+  Fe  Fe8  1  0.14500143  0.27340168  0.03464641  1
+  Na  Na9  1  0.65539980  0.27420717  0.72990853  1
+  Sn  Sn10  1  0.44696409  0.59794247  0.79356456  1
+  Na  Na11  1  0.68846178  0.00941549  0.29545784  1
+  Sn  Sn12  1  0.87828445  0.27616838  0.13798866  1
+  Sn  Sn13  1  0.18498215  0.60174274  0.99815470  1
+  Yb  Yb14  1  0.95146620  0.88089025  0.02744862  1
+  Fe  Fe15  1  0.15823902  0.28031969  0.73430455  1

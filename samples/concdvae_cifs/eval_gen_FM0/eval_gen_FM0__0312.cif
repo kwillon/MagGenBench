@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_NaEuAl3Ag
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.58976460
+_cell_length_b   5.82950306
+_cell_length_c   5.56895876
+_cell_angle_alpha   68.31707001
+_cell_angle_beta   61.06494141
+_cell_angle_gamma   59.92895508
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaEuAl3Ag
+_chemical_formula_sum   'Na1 Eu1 Al3 Ag1'
+_cell_volume   135.49171010
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.81090993  0.67923206  0.37738729  1
+  Al  Al1  1  0.31533417  0.67506403  0.87984431  1
+  Eu  Eu2  1  0.68594122  0.05383617  0.75831592  1
+  Na  Na3  1  0.93830127  0.30403221  0.00279369  1
+  Al  Al4  1  0.31898707  0.17420879  0.37671736  1
+  Ag  Ag5  1  0.31617469  0.67850989  0.38131118  1

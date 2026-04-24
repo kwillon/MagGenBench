@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       PbRhPbHg
+_chemical_formula_sum              "Pb2 Rh1 Hg1"
+_cell_length_a       3.337241625343112
+_cell_length_b       3.3504401366192558
+_cell_length_c       9.021881103515625
+_cell_angle_alpha    90.06992997570387
+_cell_angle_beta     89.97016140746156
+_cell_angle_gamma    89.9980695610283
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Pb  Pb1       1.0  0.1385953426361084  0.24585586786270144  0.4996676445007324  1.0000
+  Rh  Rh1       1.0  0.6383256912231445  0.746599018573761  0.692314863204956  1.0000
+  Pb  Pb2       1.0  0.1378573477268219  0.24691238999366763  0.8848570585250854  1.0000
+  Hg  Hg1       1.0  0.6381650567054749  0.7461512088775636  0.19241772592067719  1.0000

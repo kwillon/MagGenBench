@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       ZnFe2OZnO3
+_chemical_formula_sum              "Zn2 Fe2 O4"
+_cell_length_a       4.704140219080066
+_cell_length_b       4.7078575463858705
+_cell_length_c       5.724562168121338
+_cell_angle_alpha    114.25941316033854
+_cell_angle_beta     114.26653094800089
+_cell_angle_gamma    90.02576617207973
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Zn  Zn1       1.0  0.37695181369781494  0.9262672066688539  0.9188407659530641  1.0000
+  Fe  Fe1       1.0  0.8779197931289673  0.4254205226898194  0.9191916584968568  1.0000
+  Fe  Fe2       1.0  0.12683597207069397  0.178212583065033  0.42030525207519537  1.0000
+  O   O1        1.0  0.5027284026145935  0.044137142598629  0.6685041189193726  1.0000
+  Zn  Zn2       1.0  0.6275411248207092  0.6759998798370361  0.41918224096298223  1.0000
+  O   O2        1.0  0.7453904151916504  0.8018398880958557  0.16905733942985535  1.0000
+  O   O3        1.0  0.25960037112236023  0.30151909589767456  0.1689007431268692  1.0000
+  O   O4        1.0  0.0026661157608032487  0.5591174364089967  0.668758749961853  1.0000

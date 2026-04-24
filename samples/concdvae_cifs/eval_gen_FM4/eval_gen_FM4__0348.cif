@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_La2PaO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.87731528
+_cell_length_b   4.57625437
+_cell_length_c   8.03821659
+_cell_angle_alpha   103.84099579
+_cell_angle_beta   102.55820465
+_cell_angle_gamma   99.25025940
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La2PaO6
+_chemical_formula_sum   'La2 Pa1 O6'
+_cell_volume   131.72189193
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.16104430  0.25685313  0.96921176  1
+  O  O1  1  0.57700825  0.16944242  0.80205184  1
+  O  O2  1  0.08640196  0.67149389  0.80615419  1
+  La  La3  1  0.49233598  0.59389234  0.63566113  1
+  Pa  Pa4  1  0.82859695  0.92466229  0.30531561  1
+  O  O5  1  0.90806383  0.50078362  0.45563734  1
+  O  O6  1  0.39310104  0.99982446  0.44891298  1
+  O  O7  1  0.75960243  0.34174210  0.15135577  1
+  O  O8  1  0.25467190  0.84512275  0.15517616  1

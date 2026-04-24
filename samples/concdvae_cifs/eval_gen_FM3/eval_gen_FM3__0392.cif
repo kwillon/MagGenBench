@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_RbZrTiTlZn(CuO4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.26004505
+_cell_length_b   6.21520758
+_cell_length_c   6.30392408
+_cell_angle_alpha   87.49019623
+_cell_angle_beta   92.17950439
+_cell_angle_gamma   98.64123535
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbZrTiTlZn(CuO4)2
+_chemical_formula_sum   'Rb1 Zr1 Ti1 Tl1 Zn1 Cu2 O8'
+_cell_volume   242.13016403
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.84977305  0.70524555  0.71905047  1
+  Cu  Cu1  1  0.62889206  0.50338930  0.26499698  1
+  Zn  Zn2  1  0.33918738  0.64945370  0.00535347  1
+  Rb  Rb3  1  0.91567218  0.17256823  0.21290387  1
+  O  O4  1  0.08241594  0.54080611  0.86865371  1
+  O  O5  1  0.76919651  0.44071135  0.53219700  1
+  O  O6  1  0.31668738  0.51666313  0.32768342  1
+  O  O7  1  0.59613287  0.86495459  0.53579760  1
+  O  O8  1  0.61555731  0.55579835  0.96082294  1
+  Ti  Ti9  1  0.35284716  0.80087656  0.37779561  1
+  O  O10  1  0.90904343  0.98078597  0.86517215  1
+  Cu  Cu11  1  0.83259052  0.20315674  0.69248480  1
+  O  O12  1  0.38082758  0.94100267  0.10482734  1
+  Tl  Tl13  1  0.34077400  0.22232501  0.72909081  1
+  O  O14  1  0.10348291  0.86167693  0.49102366  1

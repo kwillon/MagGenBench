@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Eu2TlCu3SnGeO10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.47439909
+_cell_length_b   6.60190821
+_cell_length_c   6.86677313
+_cell_angle_alpha   117.45373535
+_cell_angle_beta   88.79998016
+_cell_angle_gamma   90.10595703
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Eu2TlCu3SnGeO10
+_chemical_formula_sum   'Eu2 Tl1 Cu3 Sn1 Ge1 O10'
+_cell_volume   260.38794298
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.07170303  0.75348264  0.22699040  1
+  O  O1  1  0.47802016  0.56865096  0.37273309  1
+  Tl  Tl2  1  0.29734659  0.65584391  0.71463919  1
+  Ge  Ge3  1  0.33472481  0.59286952  0.17090696  1
+  O  O4  1  0.07671610  0.97313362  0.67913973  1
+  O  O5  1  0.69594043  0.02372251  0.86626387  1
+  Cu  Cu6  1  0.50139165  0.14325766  0.71967489  1
+  O  O7  1  0.31368336  0.21812619  0.51816529  1
+  Eu  Eu8  1  0.81296659  0.68911517  0.51926839  1
+  O  O9  1  0.51979744  0.70425934  0.05443901  1
+  Sn  Sn10  1  0.01459019  0.13161552  0.48244458  1
+  Cu  Cu11  1  0.99205774  0.14409380  0.96699524  1
+  O  O12  1  0.71077615  0.03151860  0.46567908  1
+  O  O13  1  0.29961190  0.28711131  0.99461132  1
+  O  O14  1  0.91932613  0.25322726  0.25989223  1
+  Cu  Cu15  1  0.83370912  0.63209480  0.00181830  1
+  Eu  Eu16  1  0.54261422  0.13061748  0.21740209  1
+  O  O17  1  0.92989314  0.47974047  0.71224523  1

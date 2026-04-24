@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Na2CeCr3SiSe8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.64497232
+_cell_length_b   7.65182257
+_cell_length_c   7.63304853
+_cell_angle_alpha   60.78278351
+_cell_angle_beta   60.66619110
+_cell_angle_gamma   59.80377197
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2CeCr3SiSe8
+_chemical_formula_sum   'Na2 Ce1 Cr3 Si1 Se8'
+_cell_volume   318.66258506
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.09401941  0.12003062  0.22564977  1
+  Cr  Cr1  1  0.98663509  0.93344623  0.12273568  1
+  Cr  Cr2  1  0.98403728  0.93522793  0.62919343  1
+  Cr  Cr3  1  0.49699309  0.92729145  0.12587422  1
+  Na  Na4  1  0.31539163  0.42149252  0.97619337  1
+  Se  Se5  1  0.61440402  0.12054232  0.19244115  1
+  Ce  Ce6  1  0.47976768  0.95474106  0.62057793  1
+  Se  Se7  1  0.04400001  0.13624056  0.74012864  1
+  Se  Se8  1  0.92623073  0.71654707  0.52031469  1
+  Si  Si9  1  0.28188145  0.56154293  0.42475289  1
+  Se  Se10  1  0.37230986  0.72209722  0.51930857  1
+  Se  Se11  1  0.38340682  0.71259695  0.05881137  1
+  Se  Se12  1  0.89246166  0.73631364  0.02182892  1
+  Na  Na13  1  0.82463640  0.42415306  0.97397751  1
+  Se  Se14  1  0.61665142  0.12769753  0.74295795  1

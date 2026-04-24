@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       LiInLiPbHg4
+_chemical_formula_sum              "Li2 In1 Pb1 Hg4"
+_cell_length_a       5.2567459041086
+_cell_length_b       5.253754983516474
+_cell_length_c       8.636880874633789
+_cell_angle_alpha    72.31797458773462
+_cell_angle_beta     72.28480737286307
+_cell_angle_gamma    60.06699899188845
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.7057939767837524  0.816080152988434  0.4037235677242279  1.0000
+  In  In1       1.0  0.4578879177570343  0.5682809948921204  0.1483873724937439  1.0000
+  Li  Li2       1.0  0.20960159599781036  0.32035723328590393  0.8928433060646057  1.0000
+  Pb  Pb1       1.0  0.9579216837882996  0.06809230148792267  0.6479215025901794  1.0000
+  Hg  Hg1       1.0  0.5801789760589598  0.6914452910423279  0.7793245911598206  1.0000
+  Hg  Hg2       1.0  0.334749311208725  0.4444420635700226  0.5176183581352234  1.0000
+  Hg  Hg3       1.0  0.8263263702392578  0.937125027179718  0.04212820902466774  1.0000
+  Hg  Hg4       1.0  0.08941072225570677  0.19951620697975161  0.2538318634033203  1.0000

@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Eu2Ni2
+_chemical_formula_sum              "Eu2 Ni2"
+_cell_length_a       3.4628806433611397
+_cell_length_b       3.463933468731512
+_cell_length_c       6.955241680145264
+_cell_angle_alpha    89.99871842892216
+_cell_angle_beta     90.00778209026821
+_cell_angle_gamma    90.0051388066495
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Eu  Eu1       1.0  0.5795537233352661  0.01920592039823532  0.6909363865852355  1.0000
+  Eu  Eu2       1.0  0.57963627576828  0.019361361861228943  0.19079917669296262  1.0000
+  Ni  Ni1       1.0  0.07978798449039459  0.5190995931625366  0.4383807480335235  1.0000
+  Ni  Ni2       1.0  0.07962173968553543  0.5190441608428955  0.9434803724288939  1.0000

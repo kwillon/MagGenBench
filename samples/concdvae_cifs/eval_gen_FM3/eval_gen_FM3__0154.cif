@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Na2NdIn3O8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.77898693
+_cell_length_b   6.90197420
+_cell_length_c   6.84744740
+_cell_angle_alpha   58.91967773
+_cell_angle_beta   60.48028564
+_cell_angle_gamma   60.29219818
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2NdIn3O8
+_chemical_formula_sum   'Na2 Nd1 In3 O8'
+_cell_volume   225.91690730
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.31960565  0.66383106  0.57134604  1
+  O  O1  1  0.79998565  0.69723082  0.61094582  1
+  O  O2  1  0.31980887  0.10887949  0.12184931  1
+  O  O3  1  0.35617757  0.14394441  0.60024726  1
+  O  O4  1  0.31839201  0.66850227  0.13194998  1
+  Nd  Nd5  1  0.55547762  0.90473366  0.36709863  1
+  In  In6  1  0.55954129  0.90435743  0.86881649  1
+  O  O7  1  0.76384664  0.66169518  0.12555005  1
+  In  In8  1  0.55924803  0.40615195  0.36001152  1
+  O  O9  1  0.80715156  0.14501412  0.15231207  1
+  O  O10  1  0.79921210  0.13530663  0.60190129  1
+  Na  Na11  1  0.93486249  0.28003138  0.73642361  1
+  In  In12  1  0.06013191  0.90377790  0.36370549  1
+  Na  Na13  1  0.17850548  0.52766567  0.99229270  1

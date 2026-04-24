@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CeTh3O8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.78263998
+_cell_length_b   5.62243319
+_cell_length_c   5.95919085
+_cell_angle_alpha   91.90928650
+_cell_angle_beta   89.46030426
+_cell_angle_gamma   91.42974854
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CeTh3O8
+_chemical_formula_sum   'Ce1 Th3 O8'
+_cell_volume   193.57323282
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.48159340  0.42432266  0.15818986  1
+  O  O1  1  0.47774133  0.42343804  0.65446043  1
+  O  O2  1  0.98073864  0.42088464  0.65371323  1
+  O  O3  1  0.98106486  0.92321134  0.65565979  1
+  Ce  Ce4  1  0.22578883  0.66829246  0.90365487  1
+  O  O5  1  0.47808552  0.92395169  0.65604228  1
+  O  O6  1  0.48023525  0.92348492  0.15436509  1
+  Th  Th7  1  0.72913677  0.16907433  0.90605772  1
+  Th  Th8  1  0.22601990  0.17299023  0.40706918  1
+  O  O9  1  0.97763884  0.92565691  0.15735571  1
+  Th  Th10  1  0.72995019  0.67823118  0.40443224  1
+  O  O11  1  0.97435230  0.42158666  0.15405275  1

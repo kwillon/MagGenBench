@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Mg2CoGe2Mo
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.81869602
+_cell_length_b   4.03002214
+_cell_length_c   7.12115002
+_cell_angle_alpha   89.54336548
+_cell_angle_beta   90.30645752
+_cell_angle_gamma   92.11065674
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg2CoGe2Mo
+_chemical_formula_sum   'Mg2 Co1 Ge2 Mo1'
+_cell_volume   109.51120660
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.96620119  0.45892364  0.26715538  1
+  Ge  Ge1  1  0.96598631  0.45526329  0.69219428  1
+  Mo  Mo2  1  0.46503496  0.45609465  0.94257760  1
+  Co  Co3  1  0.96835357  0.94909823  0.94368154  1
+  Ge  Ge4  1  0.47316372  0.96517658  0.18845449  1
+  Mg  Mg5  1  0.47310656  0.95449173  0.62069803  1

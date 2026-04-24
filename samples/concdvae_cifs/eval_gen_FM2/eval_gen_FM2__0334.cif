@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CsCaThP2S7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.02091980
+_cell_length_b   6.97910452
+_cell_length_c   7.36296129
+_cell_angle_alpha   95.52075195
+_cell_angle_beta   88.49291992
+_cell_angle_gamma   88.27629852
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsCaThP2S7
+_chemical_formula_sum   'Cs1 Ca1 Th1 P2 S7'
+_cell_volume   307.68919683
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.54638636  0.58448875  0.34742895  1
+  Ca  Ca1  1  0.40225938  0.08266713  0.38338155  1
+  S  S2  1  0.11383453  0.79414171  0.17326288  1
+  S  S3  1  0.26021677  0.89549047  0.67432499  1
+  S  S4  1  0.25879520  0.41338092  0.66705257  1
+  Th  Th5  1  0.98443675  0.60328937  0.45962906  1
+  S  S6  1  0.83112568  0.12025479  0.48741609  1
+  S  S7  1  0.10847959  0.26946738  0.17331621  1
+  Cs  Cs8  1  0.62933236  0.24138907  0.92331070  1
+  P  P9  1  0.91847432  0.04226141  0.23452958  1
+  P  P10  1  0.45955792  0.64508557  0.62074518  1
+  S  S11  1  0.72945458  0.69077820  0.77307892  1

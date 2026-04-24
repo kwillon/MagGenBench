@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_LiCa2NiWCO9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.07334948
+_cell_length_b   5.18597031
+_cell_length_c   6.70291948
+_cell_angle_alpha   106.08340454
+_cell_angle_beta   101.72768402
+_cell_angle_gamma   105.57258606
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiCa2NiWCO9
+_chemical_formula_sum   'Li1 Ca2 Ni1 W1 C1 O9'
+_cell_volume   155.71611500
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.84465194  0.78750658  0.86758149  1
+  O  O1  1  0.10938866  0.49149844  0.92742336  1
+  O  O2  1  0.88415337  0.96606356  0.57261735  1
+  O  O3  1  0.91132909  0.50278705  0.48149604  1
+  O  O4  1  0.23524098  0.20553686  0.13968530  1
+  O  O5  1  0.65361857  0.63988036  0.12294450  1
+  Ni  Ni6  1  0.97192216  0.45282096  0.17141593  1
+  O  O7  1  0.24215695  0.88220757  0.73087442  1
+  C  C8  1  0.05693516  0.79340315  0.54059994  1
+  Ca  Ca9  1  0.55254763  0.06451838  0.34133178  1
+  O  O10  1  0.48262393  0.34896570  0.70253140  1
+  Li  Li11  1  0.12324657  0.37581497  0.64930844  1
+  W  W12  1  0.39698982  0.30555633  0.94485360  1
+  O  O13  1  0.67740959  0.13255371  0.02637631  1
+  O  O14  1  0.18781376  0.79782206  0.37859526  1

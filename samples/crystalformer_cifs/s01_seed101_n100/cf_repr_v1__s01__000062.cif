@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_CaNdGd2DyAlZnFeClF12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.54068086
+_cell_length_b   7.45879835
+_cell_length_c   7.68023874
+_cell_angle_alpha   84.11725054
+_cell_angle_beta   86.34939786
+_cell_angle_gamma   102.26955895
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaNdGd2DyAlZnFeClF12
+_chemical_formula_sum   'Ca1 Nd1 Gd2 Dy1 Al1 Zn1 Fe1 Cl1 F12'
+_cell_volume   307.32212917
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.00709420  0.01610936  0.01521090  1
+  F  F1  1  0.99415983  0.98429596  0.01083668  1
+  F  F2  1  0.00726133  0.50520014  0.20201868  1
+  F  F3  1  0.00709360  0.01271475  0.50756077  1
+  Zn  Zn4  1  0.01975610  0.47256485  0.48324504  1
+  Ca  Ca5  1  0.01565767  0.50982269  0.00854787  1
+  F  F6  1  0.08279900  0.17536148  0.34476006  1
+  F  F7  1  0.08425553  0.19582527  0.80982723  1
+  Cl  Cl8  1  0.08620800  0.49060325  0.50426874  1
+  F  F9  1  0.40879652  0.48032576  0.49997345  1
+  Gd  Gd10  1  0.45992294  0.47562005  0.48792064  1
+  F  F11  1  0.48597652  0.50217572  0.49507401  1
+  F  F12  1  0.51383303  0.49266258  0.49771926  1
+  F  F13  1  0.48649956  0.50325043  0.00523013  1
+  F  F14  1  0.51711264  0.52294485  0.51518562  1
+  F  F15  1  0.49746619  0.49760911  0.50291336  1
+  Al  Al16  1  0.51331896  0.98707854  0.00298355  1
+  F  F17  1  0.48628164  0.47742287  0.50369299  1
+  Gd  Gd18  1  0.50110837  0.00465752  0.50165896  1
+  Dy  Dy19  1  0.50648290  0.99845177  0.23451789  1
+  Nd  Nd20  1  0.51276832  0.50893017  0.99129979  1

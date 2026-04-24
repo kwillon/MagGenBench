@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_Li3CuS3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.30699509
+_cell_length_b   5.30699509
+_cell_length_c   11.58451884
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li3CuS3
+_chemical_formula_sum   'Li9 Cu3 S9'
+_cell_volume   282.55695594
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.00000000  0.00000000  0.87345697  1
+  Cu  Cu1  1  0.66666669  0.33333334  0.20679031  1
+  Cu  Cu2  1  0.33333334  0.66666669  0.54012365  1
+  S  S3  1  0.18084491  0.81915509  0.12117421  1
+  S  S4  1  0.18084491  0.36168981  0.12117421  1
+  S  S5  1  0.63831019  0.81915509  0.12117421  1
+  S  S6  1  0.84751159  0.15248844  0.45450755  1
+  S  S7  1  0.84751159  0.69502316  0.45450755  1
+  S  S8  1  0.30497687  0.15248844  0.45450755  1
+  S  S9  1  0.51417825  0.48582178  0.78784089  1
+  S  S10  1  0.51417825  0.02835650  0.78784089  1
+  S  S11  1  0.97164353  0.48582178  0.78784089  1
+  Li  Li12  1  0.49930778  0.50069222  0.24578781  1
+  Li  Li13  1  0.49930778  0.99861556  0.24578781  1
+  Li  Li14  1  0.00138444  0.50069222  0.24578781  1
+  Li  Li15  1  0.16597447  0.83402556  0.57912115  1
+  Li  Li16  1  0.16597447  0.33194890  0.57912115  1
+  Li  Li17  1  0.66805113  0.83402556  0.57912115  1
+  Li  Li18  1  0.83264112  0.16735891  0.91245449  1
+  Li  Li19  1  0.83264112  0.66528225  0.91245449  1
+  Li  Li20  1  0.33471778  0.16735891  0.91245449  1

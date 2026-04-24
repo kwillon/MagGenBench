@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_K2TiCr2PO9F
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.66011715
+_cell_length_b   6.91839981
+_cell_length_c   7.45706654
+_cell_angle_alpha   112.19177246
+_cell_angle_beta   113.89853668
+_cell_angle_gamma   102.89598846
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2TiCr2PO9F
+_chemical_formula_sum   'K2 Ti1 Cr2 P1 O9 F1'
+_cell_volume   260.57280307
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.03749964  0.77921653  0.10795677  1
+  K  K1  1  0.18021196  0.24147248  0.22635564  1
+  Cr  Cr2  1  0.59460592  0.14793983  0.96677971  1
+  K  K3  1  0.83817422  0.86330557  0.51674914  1
+  Ti  Ti4  1  0.29612577  0.75033194  0.03979790  1
+  Cr  Cr5  1  0.71143967  0.59745842  0.89571261  1
+  O  O6  1  0.71805948  0.01113336  0.84064007  1
+  O  O7  1  0.66488016  0.50049871  0.58493721  1
+  P  P8  1  0.76451445  0.32798728  0.48959440  1
+  O  O9  1  0.55531573  0.72785747  0.99651802  1
+  O  O10  1  0.31258625  0.94924498  0.91947997  1
+  O  O11  1  0.57510418  0.07370254  0.36858001  1
+  O  O12  1  0.80415201  0.34906226  0.28836000  1
+  O  O13  1  0.55290318  0.31925887  0.86195344  1
+  O  O14  1  0.03060780  0.43399322  0.71364146  1
+  F  F15  1  0.33582276  0.60177970  0.19768810  1

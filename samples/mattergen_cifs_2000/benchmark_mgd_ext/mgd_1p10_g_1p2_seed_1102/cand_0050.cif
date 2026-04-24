@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Fe3O3LiO
+_chemical_formula_sum              "Fe3 O4 Li1"
+_cell_length_a       4.255899197304809
+_cell_length_b       4.289704687093189
+_cell_length_c       4.299666881561279
+_cell_angle_alpha    89.91136713378147
+_cell_angle_beta     89.88978373975382
+_cell_angle_gamma    89.85072873291794
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.48780521839300617  0.2422725568072222  0.7561442855246371  1.0000
+  Fe  Fe2       1.0  0.4875148823267652  0.7419856185465777  0.25603750404932274  1.0000
+  Fe  Fe3       1.0  0.9874712237793141  0.2419772297630963  0.2558496291197792  1.0000
+  O   O1        1.0  0.987609325846756  0.24155732947027675  0.7558008427866163  1.0000
+  O   O2        1.0  0.48785230534488244  0.24193152710692206  0.2557426679757272  1.0000
+  O   O3        1.0  0.9876804937316721  0.7420325870299543  0.25567686523261274  1.0000
+  Li  Li1       1.0  0.9877260316805712  0.7418431628660803  0.7558464419528425  1.0000
+  O   O4        1.0  0.48735684265578627  0.7414481035579175  0.7557283638097922  1.0000

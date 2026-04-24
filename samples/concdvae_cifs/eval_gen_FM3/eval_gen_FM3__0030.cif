@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CaVFeBiO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.34870958
+_cell_length_b   4.71563721
+_cell_length_c   5.26115656
+_cell_angle_alpha   91.65499115
+_cell_angle_beta   88.27206421
+_cell_angle_gamma   89.11941528
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaVFeBiO6
+_chemical_formula_sum   'Ca1 V1 Fe1 Bi1 O6'
+_cell_volume   107.78191956
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  V  V0  1  0.48270395  0.95943636  0.55269325  1
+  O  O1  1  0.38457361  0.71369576  0.30070186  1
+  O  O2  1  0.37822455  0.71296215  0.79889536  1
+  O  O3  1  0.37100816  0.20318140  0.30446261  1
+  Bi  Bi4  1  0.06514563  0.95303285  0.05775400  1
+  Ca  Ca5  1  0.02115368  0.46169725  0.55141377  1
+  O  O6  1  0.90005958  0.46147993  0.05298878  1
+  Fe  Fe7  1  0.47732881  0.45718008  0.04860985  1
+  O  O8  1  0.88606727  0.95999467  0.55401015  1
+  O  O9  1  0.38459510  0.20654503  0.80415553  1

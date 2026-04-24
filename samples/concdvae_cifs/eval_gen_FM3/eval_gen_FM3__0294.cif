@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_LiHo4MnCuBiO12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.39921331
+_cell_length_b   5.61463594
+_cell_length_c   8.61920452
+_cell_angle_alpha   103.46480560
+_cell_angle_beta   107.21803284
+_cell_angle_gamma   89.81974792
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiHo4MnCuBiO12
+_chemical_formula_sum   'Li1 Ho4 Mn1 Cu1 Bi1 O12'
+_cell_volume   242.10891230
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.77917898  0.88301605  0.42063367  1
+  O  O1  1  0.11166520  0.21994570  0.08272107  1
+  O  O2  1  0.73115474  0.36230749  0.35626575  1
+  O  O3  1  0.57236260  0.20737949  0.02594097  1
+  O  O4  1  0.51045680  0.52264124  0.76309645  1
+  Mn  Mn5  1  0.05167608  0.67721230  0.47547749  1
+  O  O6  1  0.25031218  0.40902388  0.42385009  1
+  O  O7  1  0.23472090  0.85979718  0.35833019  1
+  Bi  Bi8  1  0.79543465  0.42138267  0.95799845  1
+  Li  Li9  1  0.17316630  0.29937217  0.70196307  1
+  O  O10  1  0.89429903  0.11860301  0.75649059  1
+  Ho  Ho11  1  0.26514143  0.89268202  0.89877915  1
+  O  O12  1  0.59448105  0.73375922  0.08280677  1
+  O  O13  1  0.95809317  0.59747875  0.66087854  1
+  Ho  Ho14  1  0.91665757  0.04457515  0.22286895  1
+  Ho  Ho15  1  0.41946077  0.55055994  0.22172400  1
+  O  O16  1  0.36270359  0.96493107  0.67205793  1
+  Ho  Ho17  1  0.57508361  0.20592803  0.52635217  1
+  O  O18  1  0.07916927  0.70572174  0.02899169  1
+  Cu  Cu19  1  0.67689508  0.79665339  0.70629907  1

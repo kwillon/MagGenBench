@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_GdCuNi2BiPbS3O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.88416052
+_cell_length_b   5.91388893
+_cell_length_c   7.11045980
+_cell_angle_alpha   106.71640015
+_cell_angle_beta   106.22052002
+_cell_angle_gamma   89.59027863
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GdCuNi2BiPbS3O5
+_chemical_formula_sum   'Gd1 Cu1 Ni2 Bi1 Pb1 S3 O5'
+_cell_volume   226.82028996
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Bi  Bi0  1  0.97510725  0.01997631  0.95866692  1
+  Cu  Cu1  1  0.94927740  0.49601483  0.50005943  1
+  O  O2  1  0.63923430  0.87980193  0.96297443  1
+  Ni  Ni3  1  0.38529241  0.99233860  0.75708127  1
+  O  O4  1  0.28598765  0.25048456  0.97637886  1
+  S  S5  1  0.88474786  0.50242835  0.18799873  1
+  O  O6  1  0.11932608  0.76447368  0.71375203  1
+  S  S7  1  0.15325435  0.13678505  0.50956559  1
+  Pb  Pb8  1  0.63770956  0.97255707  0.36969453  1
+  Gd  Gd9  1  0.45630085  0.51180446  0.84206283  1
+  S  S10  1  0.53393519  0.53075224  0.47971281  1
+  Ni  Ni11  1  0.25802052  0.52498335  0.19570944  1
+  O  O12  1  0.65760398  0.14541903  0.73690188  1
+  O  O13  1  0.28625545  0.76642454  0.11200546  1

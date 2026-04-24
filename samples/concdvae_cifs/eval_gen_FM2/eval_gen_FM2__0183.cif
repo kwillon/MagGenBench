@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_LiTa3CrCu2S7Cl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.66743660
+_cell_length_b   6.77899599
+_cell_length_c   7.46885157
+_cell_angle_alpha   104.34900665
+_cell_angle_beta   90.98834229
+_cell_angle_gamma   92.85726929
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiTa3CrCu2S7Cl
+_chemical_formula_sum   'Li1 Ta3 Cr1 Cu2 S7 Cl1'
+_cell_volume   228.55462683
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.56024480  0.24410741  0.22208013  1
+  Li  Li1  1  0.06375223  0.33057874  0.94367129  1
+  Ta  Ta2  1  0.56285763  0.67297757  0.19593933  1
+  S  S3  1  0.55572617  0.85115701  0.98158932  1
+  S  S4  1  0.55091715  0.59058511  0.46786988  1
+  Cu  Cu5  1  0.05414591  0.82821923  0.95653945  1
+  Cr  Cr6  1  0.04407413  0.57740742  0.45740515  1
+  Cl  Cl7  1  0.05260117  0.95154601  0.69409305  1
+  S  S8  1  0.55400044  0.08806647  0.45385158  1
+  Cu  Cu9  1  0.54741645  0.49600038  0.73885399  1
+  S  S10  1  0.04881972  0.46177578  0.69594657  1
+  Ta  Ta11  1  0.05704047  0.09843913  0.46966910  1
+  S  S12  1  0.55333674  0.34366167  0.96641183  1
+  S  S13  1  0.05468494  0.21047306  0.22140251  1
+  S  S14  1  0.05954966  0.71715862  0.22767323  1

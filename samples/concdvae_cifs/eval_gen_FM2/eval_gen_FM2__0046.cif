@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_BaPrEuFe3BiWClO11
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.18179131
+_cell_length_b   7.12117481
+_cell_length_c   7.14433479
+_cell_angle_alpha   110.05017090
+_cell_angle_beta   104.75777435
+_cell_angle_gamma   98.95425415
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaPrEuFe3BiWClO11
+_chemical_formula_sum   'Ba1 Pr1 Eu1 Fe3 Bi1 W1 Cl1 O11'
+_cell_volume   319.81983569
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  0.05874489  0.65469635  0.01570338  1
+  O  O1  1  0.68555892  0.71890372  0.35089645  1
+  O  O2  1  0.60513610  0.89165878  0.89419842  1
+  Eu  Eu3  1  0.46850550  0.83565211  0.53150010  1
+  O  O4  1  0.35431439  0.11338497  0.68514997  1
+  O  O5  1  0.07268801  0.94122738  0.89880401  1
+  O  O6  1  0.35688633  0.46179882  0.42778206  1
+  O  O7  1  0.32677490  0.52969593  0.93190813  1
+  O  O8  1  0.90790510  0.93868840  0.21611212  1
+  O  O9  1  0.43079460  0.90347499  0.21290034  1
+  Fe  Fe10  1  0.42672414  0.38876581  0.68352163  1
+  Cl  Cl11  1  0.87891281  0.35359979  0.55424607  1
+  O  O12  1  0.69060624  0.55649251  0.92538929  1
+  Bi  Bi13  1  0.02163745  0.96521461  0.56791234  1
+  W  W14  1  0.59594738  0.75827152  0.09234335  1
+  O  O15  1  0.92572397  0.31960291  0.08158287  1
+  Fe  Fe16  1  0.09286220  0.44188869  0.37179315  1
+  Fe  Fe17  1  0.90229660  0.05090902  0.02089345  1
+  O  O18  1  0.12095805  0.70930225  0.39357513  1
+  Ba  Ba19  1  0.50164330  0.26039380  0.11751071  1

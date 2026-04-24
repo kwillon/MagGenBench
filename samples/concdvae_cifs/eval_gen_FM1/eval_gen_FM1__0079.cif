@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_LaYGeSe4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.97498274
+_cell_length_b   5.85450459
+_cell_length_c   6.68400812
+_cell_angle_alpha   93.24049377
+_cell_angle_beta   89.68806458
+_cell_angle_gamma   88.00756836
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaYGeSe4
+_chemical_formula_sum   'La1 Y1 Ge1 Se4'
+_cell_volume   194.24467233
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.05794651  0.93112731  0.21695791  1
+  La  La1  1  0.04305269  0.22873472  0.89216286  1
+  Se  Se2  1  0.05493389  0.53459591  0.56160241  1
+  Se  Se3  1  0.52559692  0.41249141  0.11162014  1
+  Ge  Ge4  1  0.30006137  0.23162960  0.39308387  1
+  Y  Y5  1  0.55936360  0.73345208  0.39306834  1
+  Se  Se6  1  0.53951520  0.05336704  0.66933191  1

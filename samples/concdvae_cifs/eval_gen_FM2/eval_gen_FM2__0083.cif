@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_RbNaPrNdInCu2S7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.87103510
+_cell_length_b   6.77752352
+_cell_length_c   7.23306513
+_cell_angle_alpha   85.09857941
+_cell_angle_beta   92.44210815
+_cell_angle_gamma   100.85476685
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbNaPrNdInCu2S7
+_chemical_formula_sum   'Rb1 Na1 Pr1 Nd1 In1 Cu2 S7'
+_cell_volume   329.47622766
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.80063647  0.19766405  0.85453534  1
+  Rb  Rb1  1  0.71734023  0.85475725  0.37307531  1
+  Cu  Cu2  1  0.48304856  0.32907555  0.29076874  1
+  S  S3  1  0.64461839  0.88567150  0.86731702  1
+  S  S4  1  0.30928713  0.58094829  0.20323409  1
+  S  S5  1  0.13002135  0.68029577  0.66434759  1
+  S  S6  1  0.14523749  0.19837160  0.80575275  1
+  Na  Na7  1  0.05610088  0.82421649  0.00791729  1
+  S  S8  1  0.75940913  0.34493265  0.11351840  1
+  Nd  Nd9  1  0.45878962  0.51094955  0.87780052  1
+  S  S10  1  0.21940610  0.07580755  0.31226152  1
+  S  S11  1  0.63910252  0.34828582  0.59328312  1
+  Pr  Pr12  1  0.03311060  0.37337252  0.43358475  1
+  In  In13  1  0.35493723  0.00110730  0.63961452  1

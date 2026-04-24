@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_NaTaMn3BeO7F4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.97806740
+_cell_length_b   5.92967844
+_cell_length_c   6.87848854
+_cell_angle_alpha   70.79119873
+_cell_angle_beta   74.27407837
+_cell_angle_gamma   70.80699158
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaTaMn3BeO7F4
+_chemical_formula_sum   'Na1 Ta1 Mn3 Be1 O7 F4'
+_cell_volume   213.79842401
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.03705357  0.81162196  0.03420262  1
+  O  O1  1  0.57133508  0.34604746  0.27974305  1
+  F  F2  1  0.97697592  0.89349675  0.37631935  1
+  Mn  Mn3  1  0.35178983  0.00462507  0.98421240  1
+  O  O4  1  0.54937315  0.87383199  0.23463778  1
+  F  F5  1  0.43169820  0.59997123  0.65134817  1
+  F  F6  1  0.33793923  0.11168944  0.70283371  1
+  O  O7  1  0.98538089  0.38674149  0.39564413  1
+  F  F8  1  0.93199116  0.55504072  0.69893819  1
+  O  O9  1  0.59732771  0.69280428  0.95199311  1
+  O  O10  1  0.63207144  0.22072278  0.91896260  1
+  O  O11  1  0.04049044  0.26688486  0.05881796  1
+  Be  Be12  1  0.64117563  0.51195145  0.81057805  1
+  Ta  Ta13  1  0.83632374  0.55423403  0.18030219  1
+  Mn  Mn14  1  0.78116214  0.07343342  0.16067202  1
+  Mn  Mn15  1  0.25886542  0.46063995  0.49343598  1
+  Na  Na16  1  0.93514109  0.00331169  0.66922837  1

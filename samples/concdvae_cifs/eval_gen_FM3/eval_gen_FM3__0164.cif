@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_NaLiGdW(ClO2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.06410217
+_cell_length_b   5.30977058
+_cell_length_c   6.15008307
+_cell_angle_alpha   110.26786041
+_cell_angle_beta   89.97388458
+_cell_angle_gamma   89.54010010
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaLiGdW(ClO2)2
+_chemical_formula_sum   'Na1 Li1 Gd1 W1 Cl2 O4'
+_cell_volume   155.12581370
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Gd  Gd0  1  0.32053933  0.26982513  0.92068732  1
+  Na  Na1  1  0.01847606  0.27710840  0.41988420  1
+  Li  Li2  1  0.78847951  0.77274722  0.91606843  1
+  O  O3  1  0.74416286  0.64963549  0.58581257  1
+  Cl  Cl4  1  0.81138808  0.26586312  0.91270685  1
+  O  O5  1  0.33046219  0.48924816  0.27200794  1
+  W  W6  1  0.54682547  0.77531314  0.41781527  1
+  O  O7  1  0.74166352  0.90015912  0.24517153  1
+  O  O8  1  0.33180913  0.06490387  0.56625152  1
+  Cl  Cl9  1  0.26267102  0.77322829  0.91204274  1

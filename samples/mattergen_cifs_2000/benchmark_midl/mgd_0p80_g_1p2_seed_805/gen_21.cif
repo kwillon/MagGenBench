@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       EuTmAlZn
+_chemical_formula_sum              "Eu1 Tm1 Al1 Zn1"
+_cell_length_a       3.646799696371615
+_cell_length_b       3.6462066679417835
+_cell_length_c       7.396693706512451
+_cell_angle_alpha    90.06288805259123
+_cell_angle_beta     90.05303892267888
+_cell_angle_gamma    90.07743635396093
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Eu  Eu1       1.0  0.5513474345207214  0.6161665320396423  0.6317694187164307  1.0000
+  Tm  Tm1       1.0  0.5515206456184387  0.6157546043395996  0.12245523184537886  1.0000
+  Al  Al1       1.0  0.051653217524290085  0.11607822030782698  0.3554443418979644  1.0000
+  Zn  Zn1       1.0  0.05130790174007416  0.1158583015203476  0.9074748754501342  1.0000

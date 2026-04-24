@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_NaLiCuOF3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.42855883
+_cell_length_b   5.97203732
+_cell_length_c   6.86008453
+_cell_angle_alpha   98.02525330
+_cell_angle_beta   92.73493195
+_cell_angle_gamma   90.35372925
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaLiCuOF3
+_chemical_formula_sum   'Na2 Li2 Cu2 O2 F6'
+_cell_volume   179.43563709
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.40872753  0.75421971  0.94165951  1
+  Na  Na1  1  0.88418174  0.23748878  0.16580379  1
+  F  F2  1  0.39485201  0.51590043  0.63147300  1
+  F  F3  1  0.88979709  0.77632791  0.43854630  1
+  F  F4  1  0.38790032  0.50062162  0.21825936  1
+  Li  Li5  1  0.38075519  0.24755321  0.43687701  1
+  F  F6  1  0.38422856  0.00163671  0.20972379  1
+  O  O7  1  0.88270634  0.25868767  0.49554634  1
+  Cu  Cu8  1  0.89310342  0.50588983  0.66088420  1
+  Li  Li9  1  0.38327327  0.76099670  0.39536959  1
+  Cu  Cu10  1  0.89191276  0.00616809  0.66020888  1
+  F  F11  1  0.38431695  0.98490399  0.62572640  1
+  O  O12  1  0.90476334  0.75470221  0.82863760  1
+  F  F13  1  0.87811148  0.22649755  0.86587614  1

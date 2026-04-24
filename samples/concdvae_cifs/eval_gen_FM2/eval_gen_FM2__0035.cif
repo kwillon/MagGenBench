@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Ca2YCo2MoCl(O2F)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.82910872
+_cell_length_b   6.80081797
+_cell_length_c   6.44047785
+_cell_angle_alpha   114.94491577
+_cell_angle_beta   116.93962860
+_cell_angle_gamma   98.17489624
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca2YCo2MoCl(O2F)3
+_chemical_formula_sum   'Ca2 Y1 Co2 Mo1 Cl1 O6 F3'
+_cell_volume   220.27701725
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.88640809  0.61629212  0.38973770  1
+  O  O1  1  0.80441970  0.04031538  0.76350951  1
+  F  F2  1  0.13718890  0.35210010  0.31227332  1
+  O  O3  1  0.56854910  0.35818350  0.36164960  1
+  Co  Co4  1  0.70625079  0.68400258  0.10494095  1
+  F  F5  1  0.88724583  0.08845015  0.41470355  1
+  Cl  Cl6  1  0.97820598  0.67749745  0.97286916  1
+  Co  Co7  1  0.21730378  0.68381047  0.60592037  1
+  O  O8  1  0.49271250  0.68105626  0.23197806  1
+  O  O9  1  0.32018924  0.97714156  0.90433687  1
+  F  F10  1  0.47825909  0.29423136  0.79392618  1
+  O  O11  1  0.54595459  0.74945754  0.79606634  1
+  Ca  Ca12  1  0.45081943  0.05401459  0.36274460  1
+  Mo  Mo13  1  0.69699800  0.69423884  0.57362020  1
+  Ca  Ca14  1  0.18647313  0.28567845  0.93564135  1
+  Y  Y15  1  0.71616006  0.18631941  0.09590596  1

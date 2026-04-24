@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_CuPt2S3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.30263948
+_cell_length_b   5.00281048
+_cell_length_c   5.74637890
+_cell_angle_alpha   101.43777466
+_cell_angle_beta   95.00701141
+_cell_angle_gamma   92.57215881
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuPt2S3
+_chemical_formula_sum   'Cu1 Pt2 S3'
+_cell_volume   92.51557983
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.26087645  0.45989648  0.18019158  1
+  S  S1  1  0.78342748  0.85982388  0.82878691  1
+  Pt  Pt2  1  0.77532023  0.56815988  0.45052761  1
+  Cu  Cu3  1  0.79747838  0.28489566  0.71717674  1
+  Pt  Pt4  1  0.27063739  0.93559879  0.08323602  1
+  S  S5  1  0.78026706  0.01703920  0.35559723  1

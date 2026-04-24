@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Zr2NiMn
+_chemical_formula_sum              "Zr2 Ni1 Mn1"
+_cell_length_a       3.2495204925929673
+_cell_length_b       4.483231859217345
+_cell_length_c       4.480662822723389
+_cell_angle_alpha    89.93180305612194
+_cell_angle_beta     89.94276551621346
+_cell_angle_gamma    89.97542748231436
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Zr  Zr1       1.0  0.8490187525749207  0.9763332605361938  0.8246718049049377  1.0000
+  Zr  Zr2       1.0  0.8490033149719238  0.47569903731346136  0.32446885108947754  1.0000
+  Ni  Ni1       1.0  0.34907054901123047  0.47626048326492315  0.8245230913162231  1.0000
+  Mn  Mn1       1.0  0.34901753067970276  0.9763534665107728  0.32449719309806824  1.0000

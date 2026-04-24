@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_LiY2AgCl5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.21513176
+_cell_length_b   6.79912949
+_cell_length_c   6.71795559
+_cell_angle_alpha   71.69542694
+_cell_angle_beta   63.35488510
+_cell_angle_gamma   61.78804016
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiY2AgCl5
+_chemical_formula_sum   'Li1 Y2 Ag1 Cl5'
+_cell_volume   221.70796011
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.68099856  0.61689955  0.15482956  1
+  Ag  Ag1  1  0.08076765  0.41899583  0.56010473  1
+  Cl  Cl2  1  0.59346151  0.39620981  0.55454051  1
+  Y  Y3  1  0.88050306  0.00673593  0.36584461  1
+  Cl  Cl4  1  0.39716375  0.01176867  0.33708504  1
+  Y  Y5  1  0.49261963  0.21419260  0.95097005  1
+  Cl  Cl6  1  0.96321136  0.23235962  0.97490984  1
+  Cl  Cl7  1  0.77860683  0.82064694  0.75887692  1
+  Cl  Cl8  1  0.18318921  0.61314100  0.15797213  1

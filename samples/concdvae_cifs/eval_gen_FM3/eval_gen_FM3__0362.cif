@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_SrEuNbInO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.77465630
+_cell_length_b   6.03045797
+_cell_length_c   6.15552855
+_cell_angle_alpha   62.47123337
+_cell_angle_beta   65.37081909
+_cell_angle_gamma   64.76457214
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrEuNbInO6
+_chemical_formula_sum   'Sr1 Eu1 Nb1 In1 O6'
+_cell_volume   165.37301206
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  1  0.90808940  0.87647605  0.03310540  1
+  Sr  Sr1  1  0.15379158  0.12300888  0.28108335  1
+  O  O2  1  0.66630709  0.12020556  0.26709417  1
+  O  O3  1  0.14297259  0.63354868  0.78781450  1
+  In  In4  1  0.40450209  0.37928972  0.52835381  1
+  O  O5  1  0.14515300  0.12003388  0.78744763  1
+  O  O6  1  0.66813648  0.11687513  0.78508973  1
+  O  O7  1  0.14370207  0.63429117  0.27573165  1
+  Eu  Eu8  1  0.66068506  0.62112266  0.78255165  1
+  O  O9  1  0.66283280  0.63713634  0.27022409  1

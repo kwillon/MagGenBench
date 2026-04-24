@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_KSr(SnO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.70781660
+_cell_length_b   5.75209999
+_cell_length_c   6.88929129
+_cell_angle_alpha   66.82443237
+_cell_angle_beta   64.95744324
+_cell_angle_gamma   61.48849487
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KSr(SnO3)2
+_chemical_formula_sum   'K1 Sr1 Sn2 O6'
+_cell_volume   174.78536389
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.48700136  0.33264226  0.64400351  1
+  O  O1  1  0.12878245  0.53299648  0.99966216  1
+  Sn  Sn2  1  0.28993082  0.13374533  0.23123394  1
+  O  O3  1  0.93377572  0.01981896  0.42839476  1
+  O  O4  1  0.19058439  0.40005487  0.41821203  1
+  K  K5  1  0.75994396  0.59661728  0.82867980  1
+  O  O6  1  0.68696189  0.11944276  0.00203302  1
+  O  O7  1  0.27562270  0.97554374  0.00454493  1
+  O  O8  1  0.57145095  0.77556980  0.41463095  1
+  Sn  Sn9  1  0.97369444  0.80271089  0.19834532  1

@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_MgGaCo2SiNiPO11
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.62254715
+_cell_length_b   6.22873974
+_cell_length_c   5.67392015
+_cell_angle_alpha   99.07271576
+_cell_angle_beta   82.60690308
+_cell_angle_gamma   92.74832916
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgGaCo2SiNiPO11
+_chemical_formula_sum   'Mg1 Ga1 Co2 Si1 Ni1 P1 O11'
+_cell_volume   229.10888093
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.76286250  0.09845839  0.05872243  1
+  Ga  Ga1  1  0.93814141  0.28049615  0.55799973  1
+  O  O2  1  0.58781648  0.68557161  0.63537717  1
+  O  O3  1  0.67500663  0.24183507  0.41971934  1
+  O  O4  1  0.96549982  0.59068543  0.45620486  1
+  Co  Co5  1  0.42645773  0.17634331  0.62494856  1
+  O  O6  1  0.31175709  0.92830437  0.40658945  1
+  P  P7  1  0.78827834  0.76450181  0.50355339  1
+  Co  Co8  1  0.96849775  0.57019705  0.04863022  1
+  O  O9  1  0.20010592  0.35970095  0.66848862  1
+  Si  Si10  1  0.25664353  0.97560143  0.13626742  1
+  O  O11  1  0.88041860  0.97517073  0.67304647  1
+  O  O12  1  0.18216421  0.76270670  0.96058214  1
+  O  O13  1  0.06125157  0.14958559  0.20053908  1
+  O  O14  1  0.80441689  0.37173095  0.90105760  1
+  Mg  Mg15  1  0.28079250  0.66449928  0.60721934  1
+  O  O16  1  0.77128059  0.80962270  0.22290075  1
+  O  O17  1  0.45546085  0.07264788  0.96648645  1

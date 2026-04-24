@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LaInGa
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.48982859
+_cell_length_b   6.22208118
+_cell_length_c   9.81035328
+_cell_angle_alpha   102.91902924
+_cell_angle_beta   104.15073395
+_cell_angle_gamma   104.47190094
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaInGa
+_chemical_formula_sum   'La4 In4 Ga4'
+_cell_volume   299.81496189
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.05342432  0.16359858  0.75263596  1
+  In  In1  1  0.02329806  0.20936903  0.39756429  1
+  Ga  Ga2  1  0.64286464  0.29943216  0.90463305  1
+  In  In3  1  0.49334323  0.15802142  0.56802565  1
+  La  La4  1  0.47203511  0.20084041  0.21177843  1
+  La  La5  1  0.06014386  0.66401225  0.25187197  1
+  In  In6  1  0.49454704  0.65310311  0.06496185  1
+  In  In7  1  0.03614274  0.71648014  0.89773154  1
+  La  La8  1  0.47045416  0.70226324  0.71108991  1
+  Ga  Ga9  1  0.65359038  0.80097783  0.40573150  1
+  Ga  Ga10  1  0.87933272  0.07168707  0.06176562  1
+  Ga  Ga11  1  0.88155252  0.56864130  0.56080371  1

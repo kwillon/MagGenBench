@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Rb2InCuF5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.41951323
+_cell_length_b   6.42959404
+_cell_length_c   6.20570040
+_cell_angle_alpha   56.51025009
+_cell_angle_beta   59.39267349
+_cell_angle_gamma   59.95183563
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Rb2InCuF5
+_chemical_formula_sum   'Rb2 In1 Cu1 F5'
+_cell_volume   175.02388077
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.90813637  0.57148159  0.73121142  1
+  In  In1  1  0.64296353  0.33236971  0.97214168  1
+  F  F2  1  0.39964664  0.57334548  0.23647720  1
+  F  F3  1  0.40044203  0.06551204  0.23829441  1
+  Rb  Rb4  1  0.40531915  0.06904432  0.73563671  1
+  Rb  Rb5  1  0.90339768  0.57487440  0.23373584  1
+  F  F6  1  0.40687323  0.57086581  0.73215193  1
+  F  F7  1  0.90809542  0.06817419  0.72932112  1
+  Cu  Cu8  1  0.16413873  0.81261742  0.49314445  1

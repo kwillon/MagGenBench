@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_K3Mn2Br6O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.05658340
+_cell_length_b   7.61048317
+_cell_length_c   7.86921787
+_cell_angle_alpha   88.85205078
+_cell_angle_beta   88.63871765
+_cell_angle_gamma   90.47273254
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K3Mn2Br6O
+_chemical_formula_sum   'K3 Mn2 Br6 O1'
+_cell_volume   362.53103239
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.81890863  0.50989133  0.35405058  1
+  Mn  Mn1  1  0.57521647  0.00701909  0.07362578  1
+  Mn  Mn2  1  0.10048018  0.00927792  0.07359765  1
+  K  K3  1  0.35010433  0.50861645  0.93750691  1
+  Br  Br4  1  0.85351282  0.23534937  0.92424124  1
+  O  O5  1  0.35080099  0.01110443  0.90773028  1
+  Br  Br6  1  0.81305623  0.00970809  0.35108745  1
+  Br  Br7  1  0.30513480  0.50953382  0.59086370  1
+  K  K8  1  0.28732449  0.00748861  0.60489547  1
+  Br  Br9  1  0.31767485  0.77368444  0.23638785  1
+  Br  Br10  1  0.32151064  0.24812323  0.23457062  1
+  Br  Br11  1  0.85105574  0.77540731  0.92982924  1

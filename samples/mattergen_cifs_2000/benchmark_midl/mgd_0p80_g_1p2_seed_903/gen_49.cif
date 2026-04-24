@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       CuMnLiRh
+_chemical_formula_sum              "Cu1 Mn1 Li1 Rh1"
+_cell_length_a       3.524508007068429
+_cell_length_b       3.7746262727788036
+_cell_length_c       4.0136518478393555
+_cell_angle_alpha    90.00555544835869
+_cell_angle_beta     89.99622541000262
+_cell_angle_gamma    89.96975842491548
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cu  Cu1       1.0  0.9275484681129456  0.428778737783432  0.9094692468643188  1.0000
+  Mn  Mn1       1.0  0.42744553089141846  0.4283300042152405  0.4095301330089569  1.0000
+  Li  Li1       1.0  0.42762038111686707  0.928827941417694  0.9092535972595215  1.0000
+  Rh  Rh1       1.0  0.9277682304382324  0.9287652373313904  0.40932193398475647  1.0000

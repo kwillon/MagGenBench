@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_KBaMnSnO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.36823368
+_cell_length_b   4.60883522
+_cell_length_c   7.87388372
+_cell_angle_alpha   78.05081940
+_cell_angle_beta   83.48210144
+_cell_angle_gamma   76.71279144
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KBaMnSnO6
+_chemical_formula_sum   'K1 Ba1 Mn1 Sn1 O6'
+_cell_volume   150.57196235
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.30561465  0.99871260  0.99594939  1
+  O  O1  1  0.80886137  0.00025903  0.23933952  1
+  O  O2  1  0.81210768  0.49667081  0.50633210  1
+  O  O3  1  0.80768418  0.99635208  0.76865721  1
+  O  O4  1  0.30877921  0.50401199  0.24005881  1
+  K  K5  1  0.30653530  0.99464655  0.50515109  1
+  O  O6  1  0.30770904  0.49594212  0.76318789  1
+  O  O7  1  0.81147474  0.49232292  0.00074434  1
+  Mn  Mn8  1  0.80903554  0.49306920  0.75297445  1
+  Sn  Sn9  1  0.80477464  0.49270034  0.25432414  1

@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_DyTe5Pd2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.90533590
+_cell_length_b   5.99885035
+_cell_length_c   6.05247688
+_cell_angle_alpha   79.35213470
+_cell_angle_beta   74.85536957
+_cell_angle_gamma   66.82139587
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   DyTe5Pd2
+_chemical_formula_sum   'Dy1 Te5 Pd2'
+_cell_volume   189.44519700
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.12666905  0.11371085  0.43459052  1
+  Te  Te1  1  0.71719998  0.10909244  0.02696301  1
+  Te  Te2  1  0.50100166  0.49981502  0.25035304  1
+  Pd  Pd3  1  0.95958316  0.60702813  0.23151527  1
+  Te  Te4  1  0.75770748  0.75430745  0.60925817  1
+  Dy  Dy5  1  0.27772751  0.97321123  0.93255818  1
+  Te  Te6  1  0.15380497  0.53326088  0.82611459  1
+  Pd  Pd7  1  0.64039069  0.30074027  0.63086033  1

@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       TaNi3PdNi
+_chemical_formula_sum              "Ta1 Ni4 Pd1"
+_cell_length_a       4.701257663700336
+_cell_length_b       4.700989113990077
+_cell_length_c       4.7014994621276855
+_cell_angle_alpha    60.0174992338862
+_cell_angle_beta     59.99916761217707
+_cell_angle_gamma    60.024686544778305
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ta  Ta1       1.0  0.9144641757011414  0.09142711013555527  0.263533353805542  1.0000
+  Ni  Ni1       1.0  0.28971028327941895  0.4668333828449249  0.13816221058368683  1.0000
+  Ni  Ni2       1.0  0.7893782258033752  0.4669179618358612  0.6388484239578247  1.0000
+  Ni  Ni3       1.0  0.2899264991283416  0.9663319587707518  0.6391301751136781  1.0000
+  Pd  Pd1       1.0  0.6646653413772583  0.8417836427688598  0.013960754498839378  1.0000
+  Ni  Ni4       1.0  0.2898714244365692  0.4668379724025726  0.6391012072563171  1.0000

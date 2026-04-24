@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_BaMn2NbCu2SO7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.97500610
+_cell_length_b   6.26588392
+_cell_length_c   10.04116821
+_cell_angle_alpha   101.58289337
+_cell_angle_beta   93.93125153
+_cell_angle_gamma   106.95046234
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaMn2NbCu2SO7
+_chemical_formula_sum   'Ba1 Mn2 Nb1 Cu2 S1 O7'
+_cell_volume   232.19234113
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.28591132  0.85841036  0.37397489  1
+  Cu  Cu1  1  0.34050730  0.96503419  0.12068034  1
+  S  S2  1  0.78234911  0.86186343  0.64887416  1
+  O  O3  1  0.15896325  0.60199416  0.11001667  1
+  O  O4  1  0.40017140  0.07963810  0.93914032  1
+  Mn  Mn5  1  0.80500335  0.90661305  0.39394546  1
+  Nb  Nb6  1  0.07996587  0.46628013  0.28176889  1
+  O  O7  1  0.99399251  0.25515664  0.43255249  1
+  Mn  Mn8  1  0.00266272  0.27902463  0.95514637  1
+  O  O9  1  0.08168162  0.46542156  0.79816604  1
+  Cu  Cu10  1  0.25465995  0.81259602  0.78616720  1
+  O  O11  1  0.62732196  0.53769386  0.31886339  1
+  O  O12  1  0.92290300  0.12789196  0.16959953  1
+  Ba  Ba13  1  0.50877845  0.31017694  0.62568730  1

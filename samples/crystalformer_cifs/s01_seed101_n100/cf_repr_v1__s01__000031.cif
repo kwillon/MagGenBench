@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_Li2Mg3ZnCuAg2F12
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.01562944
+_cell_length_b   7.12514814
+_cell_length_c   9.82986192
+_cell_angle_alpha   73.93371184
+_cell_angle_beta   85.59164765
+_cell_angle_gamma   11.65793582
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2Mg3ZnCuAg2F12
+_chemical_formula_sum   'Li2 Mg3 Zn1 Cu1 Ag2 F12'
+_cell_volume   0.00000000
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.00875557  0.49473985  0.50608719  1
+  F  F1  1  0.48167057  0.98680595  0.99485611  1
+  Li  Li2  1  0.01237306  0.50241528  0.48721917  1
+  F  F3  1  0.46175127  0.52113799  0.49069526  1
+  Zn  Zn4  1  0.49476133  0.49932002  0.49428368  1
+  F  F5  1  0.49160949  0.51319782  0.50071151  1
+  Mg  Mg6  1  0.49027333  0.00910123  0.48802820  1
+  Mg  Mg7  1  0.50802811  0.00960016  0.47979200  1
+  Ag  Ag8  1  0.49226341  0.01020522  0.00531219  1
+  Ag  Ag9  1  0.00613880  0.01223146  0.47859955  1
+  F  F10  1  0.49201163  0.49156736  0.01295260  1
+  F  F11  1  0.99087369  0.49726395  0.98705066  1
+  F  F12  1  0.00567569  0.49413285  0.51981654  1
+  F  F13  1  0.97909490  0.50748648  0.49344130  1
+  F  F14  1  0.01051075  0.51642778  0.49237235  1
+  Li  Li15  1  0.99972550  0.47742183  0.99557390  1
+  Mg  Mg16  1  0.00364446  0.50507245  0.50325266  1
+  F  F17  1  0.98991068  0.50258905  0.49438358  1
+  F  F18  1  0.98990731  0.99442781  0.03512690  1
+  Cu  Cu19  1  0.98325832  0.49271248  0.49774287  1
+  F  F20  1  0.99760895  0.99241757  0.49111165  1

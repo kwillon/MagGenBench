@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_YIn3SbPt2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.30033255
+_cell_length_b   5.84378004
+_cell_length_c   6.31956816
+_cell_angle_alpha   76.67602539
+_cell_angle_beta   74.05500793
+_cell_angle_gamma   73.82630157
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YIn3SbPt2
+_chemical_formula_sum   'Y1 In3 Sb1 Pt2'
+_cell_volume   178.23302774
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pt  Pt0  1  0.25320280  0.95505220  0.75194967  1
+  In  In1  1  0.38018048  0.42698640  0.80373544  1
+  Y  Y2  1  0.79412937  0.86481613  0.63170511  1
+  Pt  Pt3  1  0.95270145  0.69845515  0.11358900  1
+  In  In4  1  0.41175202  0.79434741  0.22285140  1
+  Sb  Sb5  1  0.10328566  0.32397130  0.43309069  1
+  In  In6  1  0.82786161  0.23672789  0.05000753  1

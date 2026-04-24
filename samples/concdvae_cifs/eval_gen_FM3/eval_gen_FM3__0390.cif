@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_KGdScTlS6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.99643469
+_cell_length_b   6.59782267
+_cell_length_c   6.77217436
+_cell_angle_alpha   90.45086670
+_cell_angle_beta   87.60834503
+_cell_angle_gamma   89.13900757
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KGdScTlS6
+_chemical_formula_sum   'K1 Gd1 Sc1 Tl1 S6'
+_cell_volume   223.02100618
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.74561793  0.89129239  0.34563687  1
+  Gd  Gd1  1  0.74582517  0.39021251  0.84297508  1
+  S  S2  1  0.23882023  0.89695412  0.34601659  1
+  S  S3  1  0.24528314  0.39065680  0.84302169  1
+  K  K4  1  0.24765162  0.89532125  0.83914578  1
+  S  S5  1  0.74391639  0.14214599  0.59086400  1
+  S  S6  1  0.74091601  0.13938542  0.09896030  1
+  Tl  Tl7  1  0.24848408  0.39461476  0.34137174  1
+  S  S8  1  0.74479014  0.65320134  0.09613874  1
+  S  S9  1  0.74550158  0.64643431  0.59165460  1

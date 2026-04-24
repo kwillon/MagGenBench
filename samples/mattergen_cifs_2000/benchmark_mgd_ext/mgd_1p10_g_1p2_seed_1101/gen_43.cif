@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       LaCoNiCoNi3
+_chemical_formula_sum              "La1 Co2 Ni4"
+_cell_length_a       4.796535667623246
+_cell_length_b       5.0418424053407325
+_cell_length_c       5.042510032653809
+_cell_angle_alpha    76.9167338206575
+_cell_angle_beta     61.60196867613469
+_cell_angle_gamma    61.62886329458341
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  La  La1       1.0  0.8679754137992859  0.05402647703886032  0.9994783401489258  1.0000
+  Co  Co1       1.0  0.6182935833930969  0.5539320707321167  0.4991210103034973  1.0000
+  Ni  Ni1       1.0  0.17338663339614868  0.0538816936314106  0.38896769285202026  1.0000
+  Co  Co2       1.0  0.11908945441246033  0.5537232756614685  0.4987829923629761  1.0000
+  Ni  Ni2       1.0  0.562913179397583  0.6639169454574585  0.9993613958358765  1.0000
+  Ni  Ni3       1.0  0.17370101809501648  0.44370564818382263  0.9992985129356384  1.0000
+  Ni  Ni4       1.0  0.5626709461212158  0.054163865745067596  0.6093955039978027  1.0000

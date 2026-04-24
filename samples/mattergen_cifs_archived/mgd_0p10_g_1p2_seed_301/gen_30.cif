@@ -1,0 +1,28 @@
+data_image0
+_chemical_formula_structural       NiGaGd
+_chemical_formula_sum              "Ni1 Ga1 Gd1"
+_cell_length_a       3.749852429543037
+_cell_length_b       4.219881176714303
+_cell_length_c       4.2214531898498535
+_cell_angle_alpha    120.00029062679424
+_cell_angle_beta     90.02921522539287
+_cell_angle_gamma    89.97654763459698
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ni  Ni1       1.0  0.5360238552093506  0.5593848824501038  0.5558005571365356  1.0000
+  Ga  Ga1       1.0  0.536304771900177  0.8921160101890564  0.2224756926298142  1.0000
+  Gd  Gd1       1.0  0.036194898188114166  0.22569066286087036  0.8891825079917908  1.0000

@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_TiBeCo2P2HO11
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.74816322
+_cell_length_b   5.82232237
+_cell_length_c   8.48196697
+_cell_angle_alpha   107.19367981
+_cell_angle_beta   107.34745789
+_cell_angle_gamma   89.61170959
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiBeCo2P2HO11
+_chemical_formula_sum   'Ti1 Be1 Co2 P2 H1 O11'
+_cell_volume   212.96582076
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.75421834  0.54134965  0.33555275  1
+  O  O1  1  0.91154093  0.98448354  0.02001554  1
+  O  O2  1  0.51183164  0.61822808  0.62290955  1
+  Ti  Ti3  1  0.49450517  0.90018034  0.83712316  1
+  O  O4  1  0.30278343  0.29397601  0.30745947  1
+  Co  Co5  1  0.12854148  0.54653478  0.47999823  1
+  O  O6  1  0.11691560  0.89325714  0.37138194  1
+  H  H7  1  0.28155431  0.60951817  0.98644227  1
+  O  O8  1  0.45390999  0.68673861  0.97267419  1
+  P  P9  1  0.14975177  0.03817789  0.55873424  1
+  Be  Be10  1  0.63412106  0.42753619  0.45884427  1
+  O  O11  1  0.06684441  0.87069130  0.66637182  1
+  O  O12  1  0.37769377  0.15244909  0.00304116  1
+  O  O13  1  0.94148791  0.26762280  0.55102772  1
+  Co  Co14  1  0.81865025  0.70166296  0.15495449  1
+  O  O15  1  0.01308266  0.44208583  0.03832661  1
+  O  O16  1  0.47769341  0.10494827  0.68478894  1
+  P  P17  1  0.13859271  0.22631732  0.09287841  1

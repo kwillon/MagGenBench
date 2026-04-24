@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_PrEuTlCl6O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.87616920
+_cell_length_b   6.95678711
+_cell_length_c   6.96030474
+_cell_angle_alpha   79.77615356
+_cell_angle_beta   71.99722290
+_cell_angle_gamma   74.45121765
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   PrEuTlCl6O
+_chemical_formula_sum   'Pr1 Eu1 Tl1 Cl6 O1'
+_cell_volume   303.43187328
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.53977329  0.23863125  0.97042161  1
+  Cl  Cl1  1  0.97234917  0.66039014  0.35176608  1
+  Cl  Cl2  1  0.00942606  0.10761575  0.77932793  1
+  Cl  Cl3  1  0.71025181  0.18698548  0.39901045  1
+  Tl  Tl4  1  0.17795533  0.22840150  0.12277583  1
+  Eu  Eu5  1  0.70434582  0.46377790  0.68953419  1
+  Pr  Pr6  1  0.72316325  0.92280698  0.10695583  1
+  Cl  Cl7  1  0.95828819  0.59859538  0.88052559  1
+  Cl  Cl8  1  0.46941954  0.78961337  0.92362404  1
+  Cl  Cl9  1  0.47312453  0.72307622  0.42855656  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Sr3CaMgIn3AgHg3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.90563917
+_cell_length_b   7.50273323
+_cell_length_c   11.36364937
+_cell_angle_alpha   98.51187897
+_cell_angle_beta   95.79378510
+_cell_angle_gamma   102.16261292
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr3CaMgIn3AgHg3
+_chemical_formula_sum   'Sr3 Ca1 Mg1 In3 Ag1 Hg3'
+_cell_volume   400.56108520
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.98173904  0.67529708  0.54954952  1
+  Ag  Ag1  1  0.30085877  0.31844768  0.03962523  1
+  Ca  Ca2  1  0.48132014  0.69398159  0.26773453  1
+  Sr  Sr3  1  0.76543117  0.25454932  0.26848698  1
+  Hg  Hg4  1  0.12761603  0.98630941  0.37999284  1
+  Hg  Hg5  1  0.34077719  0.41962150  0.50306666  1
+  In  In6  1  0.89342773  0.53390664  0.05192448  1
+  Mg  Mg7  1  0.71405590  0.14128640  0.93425936  1
+  Hg  Hg8  1  0.11751352  0.97540677  0.80355835  1
+  Sr  Sr9  1  0.68892908  0.10631986  0.60470366  1
+  In  In10  1  0.09496823  0.93062669  0.08597612  1
+  Sr  Sr11  1  0.44915375  0.62472689  0.82451308  1

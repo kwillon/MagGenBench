@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_YbCdBiC4S
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.93784904
+_cell_length_b   3.98610210
+_cell_length_c   9.55655289
+_cell_angle_alpha   90.16308594
+_cell_angle_beta   89.84204102
+_cell_angle_gamma   117.66569519
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YbCdBiC4S
+_chemical_formula_sum   'Yb1 Cd1 Bi1 C4 S1'
+_cell_volume   132.85540543
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  C  C0  1  0.13627318  0.69708830  0.22893891  1
+  C  C1  1  0.45423797  0.32710487  0.81352520  1
+  C  C2  1  0.61295044  0.64195693  0.87863147  1
+  Cd  Cd3  1  0.48578301  0.40361986  0.33578539  1
+  C  C4  1  0.26183826  0.94023210  0.13153040  1
+  Bi  Bi5  1  0.15497763  0.73747259  0.68611676  1
+  S  S6  1  0.82661015  0.06422225  0.50953817  1
+  Yb  Yb7  1  0.91328168  0.24277683  0.01103726  1

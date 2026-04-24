@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Na4SrCa(AgO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.79395294
+_cell_length_b   5.55829334
+_cell_length_c   9.79842758
+_cell_angle_alpha   89.11814880
+_cell_angle_beta   89.98989868
+_cell_angle_gamma   90.82662201
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na4SrCa(AgO3)2
+_chemical_formula_sum   'Na4 Sr1 Ca1 Ag2 O6'
+_cell_volume   261.03271514
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  1  0.84127545  0.17059553  0.80702496  1
+  Ca  Ca1  1  0.34096566  0.17782746  0.03550950  1
+  O  O2  1  0.32460698  0.17898689  0.26725414  1
+  O  O3  1  0.83699787  0.17189158  0.02026825  1
+  O  O4  1  0.33421469  0.67640537  0.04900881  1
+  Na  Na5  1  0.33694860  0.66770875  0.78232592  1
+  O  O6  1  0.84178209  0.68533063  0.31620222  1
+  Na  Na7  1  0.83869141  0.67212957  0.04796734  1
+  Na  Na8  1  0.83225584  0.17700063  0.27341822  1
+  Sr  Sr9  1  0.33576730  0.66979772  0.29390958  1
+  O  O10  1  0.33834109  0.17144299  0.80052280  1
+  O  O11  1  0.34178689  0.68065804  0.54768044  1
+  Ag  Ag12  1  0.84200454  0.66834718  0.53506750  1
+  Na  Na13  1  0.33749977  0.17968738  0.55746007  1

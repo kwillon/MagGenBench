@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Li2CaSn3O8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.97610807
+_cell_length_b   4.97365618
+_cell_length_c   6.82897758
+_cell_angle_alpha   87.57115936
+_cell_angle_beta   89.87402344
+_cell_angle_gamma   89.68587494
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2CaSn3O8
+_chemical_formula_sum   'Li2 Ca1 Sn3 O8'
+_cell_volume   168.85874147
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.90064037  0.81687492  0.37673125  1
+  O  O1  1  0.61788988  0.62297708  0.37927014  1
+  Ca  Ca2  1  0.89977705  0.31801856  0.88537395  1
+  Sn  Sn3  1  0.40638110  0.32000273  0.38007975  1
+  O  O4  1  0.62490261  0.66852510  0.88230020  1
+  O  O5  1  0.15916753  0.51751703  0.59327149  1
+  Li  Li6  1  0.90709716  0.31471530  0.38568163  1
+  O  O7  1  0.19108899  0.01460639  0.37771639  1
+  O  O8  1  0.15742165  0.51911014  0.17606081  1
+  O  O9  1  0.19043644  0.97688597  0.88709778  1
+  O  O10  1  0.65485209  0.12603673  0.17088267  1
+  O  O11  1  0.64252198  0.12577340  0.59560871  1
+  Sn  Sn12  1  0.39819062  0.82442766  0.64330703  1
+  Sn  Sn13  1  0.40890017  0.81855577  0.12369595  1

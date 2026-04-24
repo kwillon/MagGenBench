@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Tm3Zn(OF3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.70585966
+_cell_length_b   5.65113640
+_cell_length_c   6.07857895
+_cell_angle_alpha   101.64418793
+_cell_angle_beta   98.35964966
+_cell_angle_gamma   100.46620941
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tm3Zn(OF3)2
+_chemical_formula_sum   'Tm3 Zn1 O2 F6'
+_cell_volume   185.37064507
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.04786470  0.57140386  0.75526142  1
+  F  F1  1  0.14043958  0.51290333  0.23598260  1
+  F  F2  1  0.95161438  0.06363768  0.79243892  1
+  O  O3  1  0.31077069  0.01906875  0.30575871  1
+  F  F4  1  0.64789766  0.54450315  0.37794590  1
+  Tm  Tm5  1  0.66345716  0.23797446  0.58195567  1
+  Tm  Tm6  1  0.04604799  0.81163234  0.49539798  1
+  F  F7  1  0.55268151  0.46786648  0.85665870  1
+  F  F8  1  0.43805432  0.94264883  0.77142477  1
+  Tm  Tm9  1  0.43600252  0.74228936  0.08365241  1
+  O  O10  1  0.78969520  0.99898320  0.30233425  1
+  Zn  Zn11  1  0.04326548  0.14935413  0.16047186  1

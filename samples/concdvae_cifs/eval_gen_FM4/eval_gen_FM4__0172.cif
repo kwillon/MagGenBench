@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CsCeAlS3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.13832283
+_cell_length_b   6.83891201
+_cell_length_c   10.56663799
+_cell_angle_alpha   87.28156281
+_cell_angle_beta   84.76995087
+_cell_angle_gamma   76.18750000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsCeAlS3
+_chemical_formula_sum   'Cs2 Ce2 Al2 S6'
+_cell_volume   289.09418000
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.15936843  0.28964078  0.98732883  1
+  Ce  Ce1  1  0.54031587  0.53280199  0.55561990  1
+  S  S2  1  0.91985118  0.77344000  0.12500080  1
+  Cs  Cs3  1  0.27423510  0.05709693  0.30881926  1
+  S  S4  1  0.57806742  0.44672322  0.30896139  1
+  S  S5  1  0.91148114  0.77233505  0.48852852  1
+  Ce  Ce6  1  0.53970885  0.53057468  0.05647253  1
+  Al  Al7  1  0.99371099  0.62034094  0.30575576  1
+  Al  Al8  1  0.08786407  0.44323590  0.81130773  1
+  S  S9  1  0.16487336  0.29199830  0.63037491  1
+  Cs  Cs10  1  0.79459065  0.00420843  0.80357772  1
+  S  S11  1  0.49559736  0.61837101  0.80728358  1

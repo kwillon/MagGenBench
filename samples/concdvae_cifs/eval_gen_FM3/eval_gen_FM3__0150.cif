@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_KCaDyF7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.98504066
+_cell_length_b   5.88529825
+_cell_length_c   5.72624540
+_cell_angle_alpha   80.85188293
+_cell_angle_beta   86.74276733
+_cell_angle_gamma   90.84029388
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KCaDyF7
+_chemical_formula_sum   'K1 Ca1 Dy1 F7'
+_cell_volume   198.75516753
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.74553764  0.50679916  0.91998851  1
+  K  K1  1  0.97181320  0.73475951  0.21246760  1
+  F  F2  1  0.74356192  0.37381199  0.45444030  1
+  Dy  Dy3  1  0.98748088  0.26770535  0.74897909  1
+  Ca  Ca4  1  0.48805344  0.30292025  0.16183688  1
+  F  F5  1  0.23527631  0.06846983  0.99497509  1
+  F  F6  1  0.23079523  0.39561203  0.46013474  1
+  F  F7  1  0.22379702  0.50375825  0.92291218  1
+  F  F8  1  0.74145067  0.08053108  0.99023080  1
+  F  F9  1  0.00313377  0.95647556  0.59505856  1

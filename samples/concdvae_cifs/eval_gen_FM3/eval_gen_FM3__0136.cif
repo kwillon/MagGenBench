@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_NaLi2CaTi2Mn2VO11
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.14424062
+_cell_length_b   6.33803606
+_cell_length_c   10.65070629
+_cell_angle_alpha   99.04434204
+_cell_angle_beta   94.22535706
+_cell_angle_gamma   94.21482849
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaLi2CaTi2Mn2VO11
+_chemical_formula_sum   'Na1 Li2 Ca1 Ti2 Mn2 V1 O11'
+_cell_volume   208.26050732
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.37408575  0.86910868  0.93449712  1
+  Ti  Ti1  1  0.56623095  0.19466671  0.97901571  1
+  Li  Li2  1  0.58112067  0.31734812  0.74601734  1
+  O  O3  1  0.06733690  0.17463775  0.09191209  1
+  O  O4  1  0.17631236  0.52348131  0.71763879  1
+  Mn  Mn5  1  0.14916758  0.50481641  0.53778768  1
+  O  O6  1  0.73637402  0.49600881  0.98568910  1
+  Ca  Ca7  1  0.80334985  0.80170012  0.78146958  1
+  O  O8  1  0.13136601  0.94082153  0.41151026  1
+  O  O9  1  0.01497206  0.18715219  0.86010653  1
+  Li  Li10  1  0.21048886  0.51159930  0.89852321  1
+  Mn  Mn11  1  0.92744011  0.81962413  0.06963883  1
+  O  O12  1  0.49863544  0.80593914  0.20179702  1
+  Ti  Ti13  1  0.58639431  0.73110926  0.34518242  1
+  V  V14  1  0.69772130  0.01828053  0.53986406  1
+  O  O15  1  0.64619410  0.71945196  0.54195583  1
+  Na  Na16  1  0.60760051  0.20560224  0.26503888  1
+  O  O17  1  0.06014317  0.53232610  0.34685624  1
+  O  O18  1  0.27555469  0.03853144  0.64909881  1
+  O  O19  1  0.67301971  0.27937335  0.51352835  1

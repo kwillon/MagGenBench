@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       Eu3Zn2Ga2EuGa
+_chemical_formula_sum              "Eu4 Zn2 Ga3"
+_cell_length_a       3.790015935899012
+_cell_length_b       8.406126040578043
+_cell_length_c       8.403414726257324
+_cell_angle_alpha    119.92073292884119
+_cell_angle_beta     89.99995469315586
+_cell_angle_gamma    90.01369703389997
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Eu  Eu1       1.0  0.8604280352592468  0.9769501090049744  0.5917998552322388  1.0000
+  Eu  Eu2       1.0  0.8598357439041138  0.3693275451660156  0.3759232759475708  1.0000
+  Eu  Eu3       1.0  0.8598639369010925  0.7612783312797547  0.9860007166862488  1.0000
+  Zn  Zn1       1.0  0.3599955141544342  0.7031611800193788  0.6523951888084412  1.0000
+  Zn  Zn2       1.0  0.360069215297699  0.037588194012641914  0.31891435384750366  1.0000
+  Ga  Ga1       1.0  0.3604292571544647  0.06840252131223679  0.9840788841247559  1.0000
+  Ga  Ga2       1.0  0.35944265127182007  0.6681137084960938  0.2832269072532654  1.0000
+  Eu  Eu4       1.0  0.8597464561462402  0.3687927722930908  0.9838480353355408  1.0000
+  Ga  Ga3       1.0  0.36004748940467834  0.3696087598800659  0.6844895482063293  1.0000

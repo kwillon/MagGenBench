@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       MnRh2Li
+_chemical_formula_sum              "Mn1 Rh2 Li1"
+_cell_length_a       2.989014632242173
+_cell_length_b       4.178516456592735
+_cell_length_c       4.174488067626953
+_cell_angle_alpha    89.98961378693998
+_cell_angle_beta     90.00383424063692
+_cell_angle_gamma    89.98445699386167
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Mn  Mn1       1.0  0.2187759280204773  0.08329760283231735  0.8105208873748779  1.0000
+  Rh  Rh1       1.0  0.7191974520683289  0.08353514969348907  0.31010112166404724  1.0000
+  Rh  Rh2       1.0  0.7191779613494873  0.5834397077560425  0.8101006150245667  1.0000
+  Li  Li1       1.0  0.21881957352161407  0.5831179618835449  0.3105068802833557  1.0000

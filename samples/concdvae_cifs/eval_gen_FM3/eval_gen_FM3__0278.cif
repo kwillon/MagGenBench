@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_GdPaBeAlCdPHO11
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.88071060
+_cell_length_b   5.99579477
+_cell_length_c   6.58647919
+_cell_angle_alpha   118.01519012
+_cell_angle_beta   92.93966675
+_cell_angle_gamma   90.01296997
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GdPaBeAlCdPHO11
+_chemical_formula_sum   'Gd1 Pa1 Be1 Al1 Cd1 P1 H1 O11'
+_cell_volume   204.67579677
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.12388919  0.05692821  0.98859376  1
+  O  O1  1  0.84238011  0.90113688  0.26120597  1
+  O  O2  1  0.60785532  0.56463969  0.35082781  1
+  O  O3  1  0.79854202  0.85166270  0.71453333  1
+  Be  Be4  1  0.93914306  0.13121410  0.84162182  1
+  Pa  Pa5  1  0.18927546  0.05781258  0.32995620  1
+  O  O6  1  0.49749655  0.08431540  0.20937194  1
+  H  H7  1  0.66395062  0.00748697  0.23825340  1
+  Gd  Gd8  1  0.41562983  0.31568921  0.97615194  1
+  O  O9  1  0.09544854  0.21636026  0.68497074  1
+  O  O10  1  0.17777060  0.65315849  0.12910083  1
+  Cd  Cd11  1  0.09554467  0.62896866  0.75698376  1
+  O  O12  1  0.46475387  0.55873001  0.72253078  1
+  O  O13  1  0.42263380  0.94856203  0.60235822  1
+  P  P14  1  0.56460297  0.73560244  0.60383779  1
+  Al  Al15  1  0.90048170  0.58014613  0.22465634  1
+  O  O16  1  0.79314864  0.34819221  0.96965009  1
+  O  O17  1  0.05684908  0.42882100  0.38155618  1

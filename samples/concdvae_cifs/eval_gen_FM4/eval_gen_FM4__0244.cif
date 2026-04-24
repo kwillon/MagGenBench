@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_La2Al2CuO7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.17570734
+_cell_length_b   5.12649441
+_cell_length_c   8.34449863
+_cell_angle_alpha   107.12532043
+_cell_angle_beta   107.16609192
+_cell_angle_gamma   93.96757507
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La2Al2CuO7
+_chemical_formula_sum   'La2 Al2 Cu1 O7'
+_cell_volume   160.70296152
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.71191627  0.75867450  0.72902817  1
+  O  O1  1  0.94869381  0.57857746  0.22904736  1
+  La  La2  1  0.27604070  0.04322434  0.86305761  1
+  Al  Al3  1  0.01020113  0.27733794  0.31254214  1
+  O  O4  1  0.33490539  0.66704005  0.99638289  1
+  Cu  Cu5  1  0.78349280  0.39263752  0.61507100  1
+  O  O6  1  0.89790243  0.01665390  0.11131376  1
+  O  O7  1  0.06772861  0.10436495  0.51599485  1
+  O  O8  1  0.51746809  0.30733973  0.35594422  1
+  La  La9  1  0.52279055  0.80359125  0.36937970  1
+  O  O10  1  0.76329088  0.31524524  0.83926439  1
+  Al  Al11  1  0.83187515  0.64249825  0.98095256  1

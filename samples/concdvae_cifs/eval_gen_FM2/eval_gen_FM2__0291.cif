@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Tl2ZnP2O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.17870045
+_cell_length_b   6.36628771
+_cell_length_c   6.66649485
+_cell_angle_alpha   77.10379028
+_cell_angle_beta   83.71875763
+_cell_angle_gamma   87.48802948
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tl2ZnP2O7
+_chemical_formula_sum   'Tl2 Zn1 P2 O7'
+_cell_volume   212.91548731
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.09225173  0.16773541  0.67880213  1
+  O  O1  1  0.42285657  0.12058283  0.92149776  1
+  P  P2  1  0.79342055  0.85969716  0.26553920  1
+  O  O3  1  0.57250619  0.00990396  0.37405512  1
+  P  P4  1  0.19244187  0.02674994  0.87900680  1
+  Tl  Tl5  1  0.23856190  0.40546012  0.23904249  1
+  O  O6  1  0.99531990  0.77305192  0.41664428  1
+  Zn  Zn7  1  0.24172892  0.90699685  0.54425573  1
+  O  O8  1  0.94782394  0.04406760  0.07563087  1
+  O  O9  1  0.69699234  0.66544765  0.19254725  1
+  O  O10  1  0.23220676  0.77272183  0.84256208  1
+  Tl  Tl11  1  0.73837382  0.51874012  0.80127972  1

@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_NaLiBiI3Cl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.24984407
+_cell_length_b   6.03585386
+_cell_length_c   6.90027666
+_cell_angle_alpha   103.84219360
+_cell_angle_beta   92.03547668
+_cell_angle_gamma   87.63314056
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaLiBiI3Cl
+_chemical_formula_sum   'Na1 Li1 Bi1 I3 Cl1'
+_cell_volume   212.04588962
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.99538672  0.54084802  0.60769439  1
+  Li  Li1  1  0.48720026  0.92484796  0.32409608  1
+  Bi  Bi2  1  0.48740610  0.26209417  0.82281005  1
+  Cl  Cl3  1  0.99007875  0.33873349  0.95383912  1
+  I  I4  1  0.98721045  0.97814196  0.44350648  1
+  I  I5  1  0.49207184  0.80053812  0.88688338  1
+  I  I6  1  0.49006063  0.42999357  0.30855429  1

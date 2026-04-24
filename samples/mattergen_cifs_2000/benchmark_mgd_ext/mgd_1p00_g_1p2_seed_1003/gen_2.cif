@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       NiPt2Co
+_chemical_formula_sum              "Ni1 Pt2 Co1"
+_cell_length_a       3.8314838571945673
+_cell_length_b       3.8280876476394905
+_cell_length_c       4.548896789550781
+_cell_angle_alpha    114.87953110524397
+_cell_angle_beta     114.9150639337918
+_cell_angle_gamma    90.00629288814521
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ni  Ni1       1.0  0.24761843681335446  0.7267933487892151  0.11054760217666626  1.0000
+  Pt  Pt1       1.0  0.4976880550384521  0.4768452048301697  0.6107027530670166  1.0000
+  Pt  Pt2       1.0  0.9977907538414  0.9768574833869934  0.6108092069625854  1.0000
+  Co  Co1       1.0  0.748075246810913  0.226625919342041  0.11065650731325145  1.0000

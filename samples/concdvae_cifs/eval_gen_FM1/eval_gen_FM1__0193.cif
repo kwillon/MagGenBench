@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Ti2MnNi2N5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.29422832
+_cell_length_b   3.73715496
+_cell_length_c   8.51006603
+_cell_angle_alpha   101.46394348
+_cell_angle_beta   101.47532654
+_cell_angle_gamma   90.20709229
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti2MnNi2N5
+_chemical_formula_sum   'Ti2 Mn1 Ni2 N5'
+_cell_volume   100.52355368
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  N  N0  1  0.69321501  0.78376502  0.93762630  1
+  Ti  Ti1  1  0.41687283  0.49779120  0.36645734  1
+  N  N2  1  0.82188624  0.40103701  0.18995811  1
+  Mn  Mn3  1  0.68699878  0.28581709  0.94308215  1
+  N  N4  1  0.41048917  0.99557287  0.36581987  1
+  Ti  Ti5  1  0.11140336  0.71531707  0.79087764  1
+  Ni  Ni6  1  0.82235962  0.90530014  0.18934190  1
+  Ni  Ni7  1  0.99511820  0.08362187  0.54060578  1
+  N  N8  1  0.12056736  0.21467203  0.79704517  1
+  N  N9  1  0.99531364  0.58220488  0.53922927  1

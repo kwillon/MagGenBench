@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_BaRh2S3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.34925652
+_cell_length_b   4.45397139
+_cell_length_c   6.22293758
+_cell_angle_alpha   109.52719116
+_cell_angle_beta   109.66319275
+_cell_angle_gamma   89.02642822
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaRh2S3
+_chemical_formula_sum   'Ba1 Rh2 S3'
+_cell_volume   106.36775910
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.89952260  0.75759894  0.76841974  1
+  S  S1  1  0.63801610  0.01131393  0.26576245  1
+  Ba  Ba2  1  0.14195161  0.50997955  0.26260859  1
+  S  S3  1  0.39127281  0.25416806  0.76267737  1
+  Rh  Rh4  1  0.44086009  0.81189257  0.86071318  1
+  Rh  Rh5  1  0.84292495  0.21766795  0.67585760  1

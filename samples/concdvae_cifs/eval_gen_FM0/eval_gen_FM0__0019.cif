@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_RbLiTl2TcSn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.02426672
+_cell_length_b   6.03108406
+_cell_length_c   7.36149216
+_cell_angle_alpha   91.17931366
+_cell_angle_beta   89.96440125
+_cell_angle_gamma   90.31208038
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbLiTl2TcSn
+_chemical_formula_sum   'Rb1 Li1 Tl2 Tc1 Sn1'
+_cell_volume   178.62798186
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tc  Tc0  1  0.69454563  0.77254045  0.88309604  1
+  Rb  Rb1  1  0.69666576  0.09003372  0.39018589  1
+  Tl  Tl2  1  0.18613265  0.59372634  0.64869702  1
+  Sn  Sn3  1  0.18961270  0.05893040  0.88697469  1
+  Li  Li4  1  0.69602531  0.36526728  0.89672619  1
+  Tl  Tl5  1  0.18887605  0.59663951  0.13224053  1

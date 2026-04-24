@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_La2InTe3As
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.98647499
+_cell_length_b   6.01799583
+_cell_length_c   6.41874552
+_cell_angle_alpha   98.68421173
+_cell_angle_beta   83.33704376
+_cell_angle_gamma   87.78388214
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La2InTe3As
+_chemical_formula_sum   'La2 In1 Te3 As1'
+_cell_volume   226.67831790
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.25134572  0.44971585  0.12486833  1
+  In  In1  1  0.24917778  0.95011318  0.12642564  1
+  La  La2  1  0.24995212  0.44643766  0.62340367  1
+  Te  Te3  1  0.75224417  0.94493735  0.12310249  1
+  La  La4  1  0.75122690  0.94453549  0.62658000  1
+  Te  Te5  1  0.74787313  0.44746685  0.62555170  1
+  As  As6  1  0.25137684  0.94571191  0.62343371  1

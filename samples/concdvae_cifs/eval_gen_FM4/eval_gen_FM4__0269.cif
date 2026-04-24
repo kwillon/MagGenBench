@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LaCeTi2O8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.68835783
+_cell_length_b   5.05741739
+_cell_length_c   7.86481667
+_cell_angle_alpha   81.99782562
+_cell_angle_beta   82.72650146
+_cell_angle_gamma   76.75941467
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaCeTi2O8
+_chemical_formula_sum   'La1 Ce1 Ti2 O8'
+_cell_volume   178.88772996
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.72060144  0.58960015  0.79555237  1
+  O  O1  1  0.50180346  0.82280791  0.55558443  1
+  La  La2  1  0.71545327  0.58097512  0.29587376  1
+  O  O3  1  0.02297735  0.87885147  0.77568066  1
+  O  O4  1  0.04408903  0.88663101  0.27073932  1
+  O  O5  1  0.50058359  0.81742698  0.02592546  1
+  O  O6  1  0.94360989  0.36060652  0.02807139  1
+  Ti  Ti7  1  0.22161062  0.09195632  0.12117322  1
+  Ti  Ti8  1  0.22884630  0.09082906  0.64005381  1
+  O  O9  1  0.95625311  0.36916471  0.54985183  1
+  O  O10  1  0.42297313  0.28694925  0.76617891  1
+  O  O11  1  0.39492708  0.27047455  0.25930697  1

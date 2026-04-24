@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_NaCd(InCl4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.04678297
+_cell_length_b   6.31721210
+_cell_length_c   8.30397606
+_cell_angle_alpha   91.68004608
+_cell_angle_beta   92.52864075
+_cell_angle_gamma   89.07677460
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaCd(InCl4)2
+_chemical_formula_sum   'Na1 Cd1 In2 Cl8'
+_cell_volume   316.72204326
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.22804892  0.21974851  0.28202111  1
+  Cl  Cl1  1  0.11598212  0.73184860  0.54135340  1
+  Cl  Cl2  1  0.22649631  0.23020440  0.80940068  1
+  Cl  Cl3  1  0.72157121  0.12253366  0.04760452  1
+  Cl  Cl4  1  0.62583971  0.61391562  0.80509794  1
+  Cl  Cl5  1  0.73668993  0.11052790  0.54276294  1
+  Na  Na6  1  0.42510617  0.42198160  0.54447937  1
+  Cl  Cl7  1  0.13004141  0.72853440  0.04650413  1
+  In  In8  1  0.43146956  0.41621858  0.04239493  1
+  Cd  Cd9  1  0.92967457  0.92071611  0.79442108  1
+  Cl  Cl10  1  0.62531602  0.61925191  0.27976981  1
+  In  In11  1  0.92254186  0.91457182  0.29784483  1

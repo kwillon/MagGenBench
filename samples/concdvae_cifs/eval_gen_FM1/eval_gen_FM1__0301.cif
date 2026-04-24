@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_CaTl3Se4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.55634785
+_cell_length_b   6.81939888
+_cell_length_c   6.73851633
+_cell_angle_alpha   119.83883667
+_cell_angle_beta   95.18637848
+_cell_angle_gamma   91.31019592
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaTl3Se4
+_chemical_formula_sum   'Ca1 Tl3 Se4'
+_cell_volume   259.46628133
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tl  Tl0  1  0.43344927  0.94531459  0.45561242  1
+  Se  Se1  1  0.93996710  0.19235936  0.70978236  1
+  Ca  Ca2  1  0.93884593  0.69588757  0.71128631  1
+  Se  Se3  1  0.43634471  0.45309359  0.46626610  1
+  Se  Se4  1  0.43522617  0.93737978  0.95254904  1
+  Se  Se5  1  0.93446493  0.69547570  0.20918670  1
+  Tl  Tl6  1  0.43457958  0.44167829  0.95955265  1
+  Tl  Tl7  1  0.93714589  0.19589077  0.21280450  1

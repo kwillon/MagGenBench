@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_LiCeSmYTi2(NiO6)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.09761333
+_cell_length_b   6.43007374
+_cell_length_c   8.20931435
+_cell_angle_alpha   101.57900238
+_cell_angle_beta   90.38963318
+_cell_angle_gamma   92.49228668
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiCeSmYTi2(NiO6)2
+_chemical_formula_sum   'Li1 Ce1 Sm1 Y1 Ti2 Ni2 O12'
+_cell_volume   211.66964751
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.00266320  0.40017658  0.34574890  1
+  O  O1  1  0.50268877  0.87017661  0.26986915  1
+  O  O2  1  0.49323741  0.19972274  0.90217662  1
+  O  O3  1  0.49297717  0.25481099  0.21588527  1
+  O  O4  1  0.50109267  0.02395296  0.60163939  1
+  O  O5  1  0.99738270  0.87499827  0.76540625  1
+  O  O6  1  0.99245787  0.69396150  0.45381519  1
+  O  O7  1  0.49490348  0.75154233  0.94170582  1
+  O  O8  1  0.99431026  0.09871406  0.40596175  1
+  Ti  Ti9  1  0.98950291  0.82243794  0.28660700  1
+  O  O10  1  0.99576187  0.57555729  0.13238829  1
+  Ti  Ti11  1  0.48645979  0.03814295  0.04662200  1
+  O  O12  1  0.99120492  0.97682351  0.07727929  1
+  Sm  Sm13  1  0.49695051  0.70105237  0.65298253  1
+  Ni  Ni14  1  0.49976155  0.12767960  0.40844300  1
+  Ce  Ce15  1  0.99758554  0.17715646  0.70343161  1
+  O  O16  1  0.99879569  0.49914926  0.77275848  1
+  Ni  Ni17  1  0.99689066  0.71815223  0.93705153  1
+  O  O18  1  0.50164270  0.38003302  0.50762576  1
+  Li  Li19  1  0.49129429  0.47025168  0.04321365  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Ba2CeThS6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.39836788
+_cell_length_b   6.78908110
+_cell_length_c   9.39061832
+_cell_angle_alpha   93.43742371
+_cell_angle_beta   92.21633148
+_cell_angle_gamma   90.79045105
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2CeThS6
+_chemical_formula_sum   'Ba2 Ce1 Th1 S6'
+_cell_volume   279.66170403
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.41655710  0.00410055  0.40620661  1
+  S  S1  1  0.41430452  0.75959802  0.97250104  1
+  Ce  Ce2  1  0.90861231  0.51176006  0.92082191  1
+  S  S3  1  0.91225708  0.51088184  0.22883658  1
+  Ba  Ba4  1  0.41799784  0.50732142  0.44760755  1
+  S  S5  1  0.91308588  0.75426537  0.66054553  1
+  S  S6  1  0.40705314  0.24947914  0.97226763  1
+  S  S7  1  0.91233689  0.27117205  0.66252947  1
+  Th  Th8  1  0.41220811  0.00849671  0.71718407  1
+  Ba  Ba9  1  0.91729105  0.00721458  0.18308410  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_BaThSO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.24289179
+_cell_length_b   6.33253527
+_cell_length_c   6.28158712
+_cell_angle_alpha   94.32647705
+_cell_angle_beta   85.51997375
+_cell_angle_gamma   86.99427795
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaThSO2
+_chemical_formula_sum   'Ba2 Th2 S2 O4'
+_cell_volume   246.44252418
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.01956311  0.45711002  0.28100622  1
+  O  O1  1  0.02187477  0.95464957  0.27559310  1
+  S  S2  1  0.78542644  0.69627488  0.82288903  1
+  Th  Th3  1  0.27138326  0.21046945  0.38923055  1
+  S  S4  1  0.28399175  0.19854861  0.81503475  1
+  Ba  Ba5  1  0.28066087  0.69399136  0.00458001  1
+  O  O6  1  0.52526414  0.95715225  0.27880117  1
+  O  O7  1  0.52233869  0.45627841  0.28111401  1
+  Ba  Ba8  1  0.78889167  0.20040569  0.00289600  1
+  Th  Th9  1  0.77424330  0.70949286  0.39309829  1

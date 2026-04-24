@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_SrLiMgAlB2O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.33038568
+_cell_length_b   4.31467009
+_cell_length_c   7.71113443
+_cell_angle_alpha   87.32960510
+_cell_angle_beta   90.13963318
+_cell_angle_gamma   90.79968262
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrLiMgAlB2O7
+_chemical_formula_sum   'Sr1 Li1 Mg1 Al1 B2 O7'
+_cell_volume   143.90556385
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  B  B0  1  0.24151519  0.82179219  0.20231894  1
+  O  O1  1  0.00266617  0.99260628  0.28779760  1
+  Mg  Mg2  1  0.29202691  0.89562988  0.80286312  1
+  O  O3  1  0.41259012  0.43195808  0.78322870  1
+  B  B4  1  0.64806497  0.23867075  0.66535407  1
+  O  O5  1  0.36327210  0.55609804  0.28676462  1
+  O  O6  1  0.83149302  0.00293116  0.78669327  1
+  O  O7  1  0.86509722  0.41820914  0.53848976  1
+  Sr  Sr8  1  0.76970720  0.36617473  0.02984236  1
+  Al  Al9  1  0.17002493  0.26171729  0.41724059  1
+  O  O10  1  0.34500620  0.93155402  0.04848205  1
+  Li  Li11  1  0.67342168  0.75719744  0.41515979  1
+  O  O12  1  0.43440512  0.06332635  0.55208969  1

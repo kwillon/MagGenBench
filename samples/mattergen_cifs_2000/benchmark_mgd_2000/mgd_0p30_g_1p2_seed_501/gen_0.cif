@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       HgEu2PEuPO
+_chemical_formula_sum              "Hg1 Eu3 P2 O1"
+_cell_length_a       4.683438865103813
+_cell_length_b       4.672474509418412
+_cell_length_c       8.327838897705078
+_cell_angle_alpha    106.24204129041186
+_cell_angle_beta     106.28867816884289
+_cell_angle_gamma    89.8786985479871
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Hg  Hg1       1.0  0.4238308370113373  0.813899576663971  0.08356766402721408  1.0000
+  Eu  Eu1       1.0  0.24349911510944366  0.13472290337085724  0.7228118777275085  1.0000
+  Eu  Eu2       1.0  0.047812316566705704  0.43830835819244385  0.33143240213394165  1.0000
+  P   P1        1.0  0.6003852486610413  0.9904755353927612  0.4354768097400666  1.0000
+  Eu  Eu3       1.0  0.7430027723312378  0.6326413154602051  0.719887375831604  1.0000
+  P   P2        1.0  0.8608189225196838  0.2507888078689575  0.9556121826171875  1.0000
+  O   O1        1.0  0.20273734629154205  0.5925842523574829  0.6407831907272339  1.0000

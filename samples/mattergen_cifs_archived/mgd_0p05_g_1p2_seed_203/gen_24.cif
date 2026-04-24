@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       LuTa2SiLuSi
+_chemical_formula_sum              "Lu2 Ta2 Si2"
+_cell_length_a       3.973833241586231
+_cell_length_b       3.972665071500314
+_cell_length_c       7.553982734680176
+_cell_angle_alpha    90.00014593846046
+_cell_angle_beta     89.98386959692273
+_cell_angle_gamma    89.97166404745674
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Lu  Lu1       1.0  0.42244938015937805  0.12201429158449172  0.5075957775115967  1.0000
+  Ta  Ta1       1.0  0.4225781261920929  0.6220542788505554  0.8584835529327393  1.0000
+  Ta  Ta2       1.0  0.9222607016563416  0.12198960036039351  0.8586165308952332  1.0000
+  Si  Si1       1.0  0.9225751161575317  0.6222176551818848  0.6119544506072998  1.0000
+  Lu  Lu2       1.0  0.9224863052368164  0.6221620440483093  0.2096344232559204  1.0000
+  Si  Si2       1.0  0.42215898633003235  0.1217672899365425  0.10504607111215591  1.0000

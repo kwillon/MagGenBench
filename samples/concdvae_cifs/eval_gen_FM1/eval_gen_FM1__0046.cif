@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Gd2NiP2Rh3C4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.90651631
+_cell_length_b   4.54240751
+_cell_length_c   8.34523296
+_cell_angle_alpha   93.61526489
+_cell_angle_beta   92.52332306
+_cell_angle_gamma   92.02947998
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Gd2NiP2Rh3C4
+_chemical_formula_sum   'Gd2 Ni1 P2 Rh3 C4'
+_cell_volume   147.53972083
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.31828040  0.97089845  0.87751615  1
+  C  C1  1  0.80726075  0.84325719  0.77081704  1
+  Rh  Rh2  1  0.31613180  0.47548243  0.26259416  1
+  Rh  Rh3  1  0.80829787  0.97490484  0.52904630  1
+  Gd  Gd4  1  0.30628291  0.47412160  0.64369994  1
+  C  C5  1  0.32043239  0.34803116  0.01783334  1
+  P  P6  1  0.31183508  0.97744876  0.39743397  1
+  Gd  Gd7  1  0.81747395  0.98454106  0.14330617  1
+  Rh  Rh8  1  0.81045121  0.47883600  0.91186541  1
+  C  C9  1  0.82994735  0.09710968  0.77529305  1
+  C  C10  1  0.31304795  0.60476905  0.01843359  1
+  P  P11  1  0.81282449  0.47468275  0.39275634  1

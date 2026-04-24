@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Na2LiTi2NiO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.54283407
+_cell_length_b   5.37040692
+_cell_length_c   7.14930329
+_cell_angle_alpha   110.93777404
+_cell_angle_beta   101.72656765
+_cell_angle_gamma   100.12156536
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2LiTi2NiO8
+_chemical_formula_sum   'Na2 Li1 Ti2 Ni1 O8'
+_cell_volume   153.50800476
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.00000000  0.00000000  0.00000000  1
+  Li  Li1  1  0.50000000  0.50000000  0.50000000  1
+  O  O2  1  0.04471450  0.79380899  0.79305860  1
+  O  O3  1  0.95528550  0.20619101  0.20694140  1
+  O  O4  1  0.12499669  0.87814089  0.59894008  1
+  O  O5  1  0.87500331  0.12185911  0.40105992  1
+  Na  Na6  1  0.29942194  0.43641367  0.80462730  1
+  Na  Na7  1  0.70057806  0.56358633  0.19537270  1
+  O  O8  1  0.57308996  0.64753660  0.80996617  1
+  O  O9  1  0.42691004  0.35246340  0.19003383  1
+  Ti  Ti10  1  0.62861376  0.21041435  0.55734307  1
+  Ti  Ti11  1  0.37138624  0.78958565  0.44265693  1
+  O  O12  1  0.67040214  0.51514959  0.71711753  1
+  O  O13  1  0.32959786  0.48485041  0.28288247  1

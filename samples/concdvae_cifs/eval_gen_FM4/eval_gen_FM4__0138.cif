@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Eu3NbO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.15987492
+_cell_length_b   5.36177874
+_cell_length_c   5.32118177
+_cell_angle_alpha   96.43340302
+_cell_angle_beta   90.53141785
+_cell_angle_gamma   90.13911438
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Eu3NbO6
+_chemical_formula_sum   'Eu3 Nb1 O6'
+_cell_volume   146.28214852
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.09811427  0.86609447  0.25422814  1
+  O  O1  1  0.95288426  0.23666891  0.89390945  1
+  O  O2  1  0.57462770  0.97514260  0.13260494  1
+  O  O3  1  0.22214581  0.51723814  0.57208914  1
+  O  O4  1  0.58528459  0.50419873  0.17518935  1
+  Eu  Eu5  1  0.85475737  0.74673015  0.90553081  1
+  Nb  Nb6  1  0.39653665  0.75004238  0.36680132  1
+  Eu  Eu7  1  0.86534792  0.21195225  0.36923331  1
+  O  O8  1  0.58301657  0.95036405  0.60104555  1
+  Eu  Eu9  1  0.36506915  0.23192190  0.87602669  1

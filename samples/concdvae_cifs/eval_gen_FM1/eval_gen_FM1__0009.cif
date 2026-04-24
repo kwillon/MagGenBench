@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_KLiCoSnGe2S8I
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.74448109
+_cell_length_b   6.73872900
+_cell_length_c   12.70649624
+_cell_angle_alpha   81.54859924
+_cell_angle_beta   77.93283844
+_cell_angle_gamma   62.76436615
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KLiCoSnGe2S8I
+_chemical_formula_sum   'K1 Li1 Co1 Sn1 Ge2 S8 I1'
+_cell_volume   426.93289448
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.83419603  0.07867048  0.53080958  1
+  Co  Co1  1  0.55066043  0.60503042  0.13527691  1
+  S  S2  1  0.82432878  0.83881247  0.79818821  1
+  S  S3  1  0.17006293  0.20258382  0.88463277  1
+  K  K4  1  0.44625929  0.06264145  0.35985446  1
+  S  S5  1  0.53108156  0.70850241  0.59591305  1
+  Sn  Sn6  1  0.56047314  0.27918023  0.71184319  1
+  Ge  Ge7  1  0.26500398  0.25384593  0.03709776  1
+  S  S8  1  0.37908918  0.55049837  0.99872804  1
+  S  S9  1  0.92147046  0.31854156  0.18136816  1
+  S  S10  1  0.18116422  0.39618236  0.60312134  1
+  S  S11  1  0.61482030  0.92966259  0.09748502  1
+  Li  Li12  1  0.99370396  0.90547520  0.95452577  1
+  Ge  Ge13  1  0.86029375  0.74542677  0.63161665  1
+  I  I14  1  0.23165047  0.65366590  0.30623382  1

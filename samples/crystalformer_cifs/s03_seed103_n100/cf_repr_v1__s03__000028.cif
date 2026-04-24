@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_HoFeO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.32182923
+_cell_length_b   4.59046272
+_cell_length_c   7.21490438
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   122.73131475
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HoFeO4
+_chemical_formula_sum   'Ho2 Fe2 O8'
+_cell_volume   120.40980608
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.50000000  0.00000000  0.00000000  1
+  Fe  Fe1  1  0.50000000  0.50000000  0.50000000  1
+  Ho  Ho2  1  0.00000000  0.00000000  0.50000000  1
+  Ho  Ho3  1  0.00000000  0.50000000  0.00000000  1
+  O  O4  1  0.60991434  0.31260014  0.96674049  1
+  O  O5  1  0.39008566  0.81260014  0.53325951  1
+  O  O6  1  0.39008566  0.68739986  0.03325951  1
+  O  O7  1  0.60991434  0.18739986  0.46674049  1
+  O  O8  1  0.75485769  0.78070012  0.95397382  1
+  O  O9  1  0.24514231  0.28070012  0.54602618  1
+  O  O10  1  0.24514231  0.21929988  0.04602618  1
+  O  O11  1  0.75485769  0.71929988  0.45397382  1

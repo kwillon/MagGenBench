@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_YMgTi3MnCoO11
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.51062059
+_cell_length_b   5.83078194
+_cell_length_c   7.66027498
+_cell_angle_alpha   110.30101776
+_cell_angle_beta   96.91223145
+_cell_angle_gamma   93.71977997
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YMgTi3MnCoO11
+_chemical_formula_sum   'Y1 Mg1 Ti3 Mn1 Co1 O11'
+_cell_volume   186.34633600
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.34203309  0.49095705  0.54571408  1
+  Ti  Ti1  1  0.88527936  0.01005105  0.06317285  1
+  O  O2  1  0.19377634  0.15883853  0.30512923  1
+  O  O3  1  0.74479216  0.26892278  0.02606780  1
+  O  O4  1  0.59145039  0.84050101  0.78136933  1
+  O  O5  1  0.49698618  0.65305436  0.34581447  1
+  Mn  Mn6  1  0.83627766  0.83337343  0.60474586  1
+  Ti  Ti7  1  0.35562336  0.90240568  0.31716228  1
+  O  O8  1  0.13264944  0.04012173  0.88954437  1
+  Mg  Mg9  1  0.65380377  0.58354509  0.10990262  1
+  O  O10  1  0.88569754  0.54245424  0.60381955  1
+  O  O11  1  0.14076217  0.88792807  0.51398802  1
+  O  O12  1  0.00654398  0.71915013  0.06452252  1
+  Ti  Ti13  1  0.40981203  0.10718889  0.79082167  1
+  O  O14  1  0.37408924  0.40188962  0.81360793  1
+  Co  Co15  1  0.95804286  0.42069185  0.82149792  1
+  O  O16  1  0.66278005  0.10531665  0.60754246  1
+  O  O17  1  0.61788094  0.93240291  0.18174294  1

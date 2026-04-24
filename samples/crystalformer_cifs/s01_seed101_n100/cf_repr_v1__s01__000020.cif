@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_Li3PrNd3GdDy2TiMnFeO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.72958621
+_cell_length_b   5.66360172
+_cell_length_c   11.98397141
+_cell_angle_alpha   103.41207968
+_cell_angle_beta   100.71782954
+_cell_angle_gamma   98.65623194
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li3PrNd3GdDy2TiMnFeO8
+_chemical_formula_sum   'Li3 Pr1 Nd3 Gd1 Dy2 Ti1 Mn1 Fe1 O8'
+_cell_volume   427.49180838
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.99733449  0.49012224  0.01271941  1
+  Fe  Fe1  1  0.99555429  0.00039448  0.51519076  1
+  O  O2  1  0.27747771  0.50049679  0.99487948  1
+  O  O3  1  0.24259687  0.48825198  0.00040906  1
+  O  O4  1  0.25705094  0.00682828  0.50173903  1
+  Ti  Ti5  1  0.50052193  0.01877036  0.51300364  1
+  Nd  Nd6  1  0.23928848  0.98546099  0.00434612  1
+  Li  Li7  1  0.50117966  0.50983581  0.98133754  1
+  Mn  Mn8  1  0.50736146  0.98247273  0.49595510  1
+  Nd  Nd9  1  0.48909693  0.49879452  0.00113089  1
+  O  O10  1  0.49351504  0.49170478  0.00524849  1
+  Dy  Dy11  1  0.51098921  0.51017287  0.50802683  1
+  Nd  Nd12  1  0.50922259  0.50370414  0.49131034  1
+  O  O13  1  0.75120185  0.49996144  0.49835037  1
+  Li  Li14  1  0.00229091  0.50686853  0.01722569  1
+  Gd  Gd15  1  0.44447311  0.98579012  0.50396661  1
+  O  O16  1  0.50438794  0.99777787  0.50561257  1
+  Pr  Pr17  1  0.48965705  0.99462682  0.01080045  1
+  Dy  Dy18  1  0.51017517  0.99864517  0.01478432  1
+  O  O19  1  0.49452094  0.99369724  0.99644202  1
+  O  O20  1  0.49224066  0.99727244  0.51612139  1

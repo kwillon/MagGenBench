@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_MgAlFeSn2BHO11
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.39182997
+_cell_length_b   6.89734888
+_cell_length_c   6.54283667
+_cell_angle_alpha   118.73521423
+_cell_angle_beta   107.26743317
+_cell_angle_gamma   97.64816284
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgAlFeSn2BHO11
+_chemical_formula_sum   'Mg1 Al1 Fe1 Sn2 B1 H1 O11'
+_cell_volume   192.37352542
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.14280920  0.79243773  0.69534510  1
+  Fe  Fe1  1  0.34129503  0.32187665  0.77713954  1
+  Sn  Sn2  1  0.67016244  0.68375862  0.47868037  1
+  B  B3  1  0.17947701  0.97973126  0.94539154  1
+  O  O4  1  0.03289552  0.46850765  0.83521295  1
+  O  O5  1  0.25693664  0.20643944  0.98488522  1
+  O  O6  1  0.46491966  0.43683639  0.58154523  1
+  O  O7  1  0.68365258  0.57632697  0.09570107  1
+  O  O8  1  0.59638637  0.10552433  0.68671167  1
+  O  O9  1  0.35828149  0.94473344  0.15149361  1
+  O  O10  1  0.22001365  0.65986377  0.32078311  1
+  O  O11  1  0.79591250  0.35356328  0.31284177  1
+  O  O12  1  0.00280877  0.03385687  0.44783977  1
+  O  O13  1  0.89174056  0.90993935  0.95873392  1
+  Sn  Sn14  1  0.71224791  0.21020097  0.47852615  1
+  H  H15  1  0.19143668  0.73290020  0.49655625  1
+  Mg  Mg16  1  0.92180902  0.30760482  0.03851072  1
+  Al  Al17  1  0.01125452  0.77198201  0.13371167  1

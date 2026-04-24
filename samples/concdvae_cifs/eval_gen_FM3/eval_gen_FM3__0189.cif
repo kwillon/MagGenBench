@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Li3CaLaYZrTiO9F
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.42526722
+_cell_length_b   6.99870634
+_cell_length_c   6.79945230
+_cell_angle_alpha   120.56436157
+_cell_angle_beta   91.06958771
+_cell_angle_gamma   88.81362915
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li3CaLaYZrTiO9F
+_chemical_formula_sum   'Li3 Ca1 La1 Y1 Zr1 Ti1 O9 F1'
+_cell_volume   263.21039416
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.14353384  0.29641047  0.03944716  1
+  O  O1  1  0.52801239  0.05063695  0.93740195  1
+  La  La2  1  0.65733904  0.75866812  0.01750258  1
+  O  O3  1  0.88737118  0.06503908  0.19505847  1
+  Ca  Ca4  1  0.25388724  0.09360101  0.20451817  1
+  Li  Li5  1  0.85682112  0.72340471  0.49439749  1
+  O  O6  1  0.27205223  0.70520711  0.98877156  1
+  Ti  Ti7  1  0.14383313  0.56886017  0.70493585  1
+  Li  Li8  1  0.79143864  0.20581307  0.51034546  1
+  O  O9  1  0.89918554  0.04142672  0.66437578  1
+  Zr  Zr10  1  0.81879461  0.21183875  0.00287718  1
+  O  O11  1  0.20006044  0.70694399  0.52877825  1
+  O  O12  1  0.22068352  0.30866924  0.57583803  1
+  Y  Y13  1  0.26913166  0.06602819  0.69402105  1
+  O  O14  1  0.85771519  0.55978048  0.68896997  1
+  O  O15  1  0.74152601  0.53095090  0.17946307  1
+  Li  Li16  1  0.22594480  0.57295448  0.19772753  1
+  F  F17  1  0.51531696  0.02236194  0.41970956  1

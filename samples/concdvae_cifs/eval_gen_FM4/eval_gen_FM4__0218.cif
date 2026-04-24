@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_SrCaEu4AlFeO10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.92656088
+_cell_length_b   6.27150679
+_cell_length_c   8.75734138
+_cell_angle_alpha   86.69662476
+_cell_angle_beta   88.81012726
+_cell_angle_gamma   90.47614288
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrCaEu4AlFeO10
+_chemical_formula_sum   'Sr1 Ca1 Eu4 Al1 Fe1 O10'
+_cell_volume   270.05514735
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.59910774  0.41961178  0.87652791  1
+  Eu  Eu1  1  0.10006098  0.42628410  0.67219424  1
+  Eu  Eu2  1  0.59952736  0.91679275  0.66845161  1
+  Sr  Sr3  1  0.60188526  0.91658801  0.09299035  1
+  Fe  Fe4  1  0.09772171  0.91700780  0.87705809  1
+  Eu  Eu5  1  0.59845823  0.42016843  0.37842131  1
+  O  O6  1  0.10209797  0.92119902  0.12585279  1
+  O  O7  1  0.34739706  0.17460823  0.87254703  1
+  O  O8  1  0.60023999  0.42110798  0.11265600  1
+  Ca  Ca9  1  0.09732681  0.92272192  0.37478152  1
+  O  O10  1  0.84819591  0.17838494  0.87435585  1
+  O  O11  1  0.59811091  0.41702098  0.63441956  1
+  O  O12  1  0.84921736  0.66238093  0.87489688  1
+  Eu  Eu13  1  0.09854689  0.41526183  0.08089153  1
+  O  O14  1  0.09812099  0.41626182  0.37928930  1
+  O  O15  1  0.59666991  0.92047441  0.38656622  1
+  O  O16  1  0.09963699  0.90922064  0.62677056  1
+  O  O17  1  0.35124433  0.66239327  0.87656051  1

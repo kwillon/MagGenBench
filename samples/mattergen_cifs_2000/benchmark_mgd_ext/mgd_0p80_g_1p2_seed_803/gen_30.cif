@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       OsFe2Ir
+_chemical_formula_sum              "Os1 Fe2 Ir1"
+_cell_length_a       3.7468781536031335
+_cell_length_b       3.746260523066879
+_cell_length_c       4.490721225738525
+_cell_angle_alpha    114.66626516240672
+_cell_angle_beta     114.68821959757094
+_cell_angle_gamma    89.99014046118198
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Os  Os1       1.0  0.027987714856863022  0.009528572671115398  0.49893513321876526  1.0000
+  Fe  Fe1       1.0  0.27779400348663325  0.7593032717704772  0.997879683971405  1.0000
+  Fe  Fe2       1.0  0.7777456641197205  0.2593619525432586  0.9983634948730469  1.0000
+  Ir  Ir1       1.0  0.5279308557510376  0.5097283124923706  0.49860215187072754  1.0000

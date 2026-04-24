@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_BaEu2Th(AuSe5)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.57240915
+_cell_length_b   7.45626116
+_cell_length_c   11.83835983
+_cell_angle_alpha   92.51046753
+_cell_angle_beta   102.87164307
+_cell_angle_gamma   89.69052887
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaEu2Th(AuSe5)2
+_chemical_formula_sum   'Ba1 Eu2 Th1 Au2 Se10'
+_cell_volume   479.05092479
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.36061755  0.34112686  0.64242148  1
+  Se  Se1  1  0.94017512  0.59343314  0.79168910  1
+  Se  Se2  1  0.78483742  0.09281992  0.50417876  1
+  Eu  Eu3  1  0.21818317  0.09223340  0.35194305  1
+  Se  Se4  1  0.51182121  0.32343462  0.93065524  1
+  Au  Au5  1  0.59438753  0.08608245  0.09809135  1
+  Au  Au6  1  0.43596894  0.59557402  0.78125459  1
+  Th  Th7  1  0.80510724  0.59040296  0.52179027  1
+  Eu  Eu8  1  0.93940210  0.09175356  0.78645337  1
+  Se  Se9  1  0.66569090  0.83491611  0.24327053  1
+  Ba  Ba10  1  0.09242646  0.58349687  0.08532603  1
+  Se  Se11  1  0.66478056  0.34077391  0.23933783  1
+  Se  Se12  1  0.08339115  0.08632276  0.08486644  1
+  Se  Se13  1  0.51281786  0.84965330  0.93332416  1
+  Se  Se14  1  0.36083606  0.85199416  0.63987410  1
+  Se  Se15  1  0.23098432  0.59079045  0.37529644  1

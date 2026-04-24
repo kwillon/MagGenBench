@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_LuTh(AgSb2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.44592905
+_cell_length_b   4.69234085
+_cell_length_c   9.29669952
+_cell_angle_alpha   88.97381592
+_cell_angle_beta   90.24561310
+_cell_angle_gamma   90.08519745
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LuTh(AgSb2)2
+_chemical_formula_sum   'Lu1 Th1 Ag2 Sb4'
+_cell_volume   193.91294034
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  1  0.40203932  0.49684870  0.78386170  1
+  Ag  Ag1  1  0.90358263  0.00281107  0.78398192  1
+  Sb  Sb2  1  0.89931828  0.49416742  0.97574389  1
+  Lu  Lu3  1  0.90484560  0.49795693  0.52542174  1
+  Sb  Sb4  1  0.40662840  0.00332469  0.59804541  1
+  Th  Th5  1  0.40073195  0.00045842  0.05338204  1
+  Sb  Sb6  1  0.40066946  0.49852890  0.29324439  1
+  Sb  Sb7  1  0.89926785  0.00451195  0.29704058  1

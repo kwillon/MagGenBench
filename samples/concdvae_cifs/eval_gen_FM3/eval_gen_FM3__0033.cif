@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_K4Sr2HCl5O2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.99383092
+_cell_length_b   6.80497265
+_cell_length_c   13.32503605
+_cell_angle_alpha   91.72384644
+_cell_angle_beta   91.88562775
+_cell_angle_gamma   99.41509247
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K4Sr2HCl5O2
+_chemical_formula_sum   'K4 Sr2 H1 Cl5 O2'
+_cell_volume   356.84367614
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.52714443  0.91600877  0.36706135  1
+  Sr  Sr1  1  0.49433714  0.54409122  0.31611395  1
+  O  O2  1  0.47249615  0.17641252  0.26631173  1
+  K  K3  1  0.49890637  0.57077575  0.98384172  1
+  Cl  Cl4  1  0.99727833  0.58704817  0.15956914  1
+  Sr  Sr5  1  0.99263060  0.05633137  0.81357658  1
+  Cl  Cl6  1  0.99605381  0.54655993  0.81385130  1
+  K  K7  1  0.02100449  0.00798775  0.47819644  1
+  Cl  Cl8  1  0.48119861  0.06800073  0.95936054  1
+  Cl  Cl9  1  0.98791754  0.50547862  0.46912780  1
+  K  K10  1  0.96970391  0.08580457  0.15298519  1
+  K  K11  1  0.49519002  0.53441143  0.64432228  1
+  H  H12  1  0.50339633  0.05012212  0.31461209  1
+  Cl  Cl13  1  0.49805373  0.02907324  0.66843891  1

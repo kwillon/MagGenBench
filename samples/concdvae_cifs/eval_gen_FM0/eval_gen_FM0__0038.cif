@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_KNaInH
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.49415469
+_cell_length_b   4.97036982
+_cell_length_c   6.10660410
+_cell_angle_alpha   113.49687958
+_cell_angle_beta   105.88417053
+_cell_angle_gamma   91.99700165
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KNaInH
+_chemical_formula_sum   'K1 Na1 In1 H1'
+_cell_volume   92.29280464
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.02674177  0.86081421  0.53013420  1
+  H  H1  1  0.05403024  0.37971511  0.57150531  1
+  K  K2  1  0.34311467  0.18230458  0.18093285  1
+  In  In3  1  0.67299843  0.50697619  0.81925273  1

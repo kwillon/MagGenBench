@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_K2CoTe2As2O13
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.32703209
+_cell_length_b   6.32098246
+_cell_length_c   8.05366707
+_cell_angle_alpha   78.84651947
+_cell_angle_beta   79.02561951
+_cell_angle_gamma   71.07612610
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2CoTe2As2O13
+_chemical_formula_sum   'K2 Co1 Te2 As2 O13'
+_cell_volume   296.08683322
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.77666473  0.33456278  0.36436409  1
+  K  K1  1  0.40593168  0.93952733  0.53930056  1
+  O  O2  1  0.69016415  0.66844207  0.19527903  1
+  As  As3  1  0.20763758  0.54125834  0.33132389  1
+  O  O4  1  0.47763112  0.35420948  0.31235975  1
+  K  K5  1  0.40610254  0.47433013  0.80021429  1
+  As  As6  1  0.63124043  0.86504686  0.00204121  1
+  O  O7  1  0.69730729  0.50787371  0.53491944  1
+  O  O8  1  0.03563090  0.36401117  0.82135206  1
+  O  O9  1  0.35124773  0.05204509  0.02325050  1
+  O  O10  1  0.74259746  0.09054759  0.96032751  1
+  O  O11  1  0.92140335  0.20399381  0.16350909  1
+  O  O12  1  0.12941277  0.89830571  0.80670631  1
+  Te  Te13  1  0.05379784  0.06984542  0.96630341  1
+  O  O14  1  0.08420081  0.33466998  0.37341553  1
+  O  O15  1  0.65093124  0.75821173  0.83437186  1
+  O  O16  1  0.17512347  0.64447731  0.50544047  1
+  O  O17  1  0.14605775  0.72514421  0.14442414  1
+  Co  Co18  1  0.89917034  0.68579054  0.66414881  1
+  O  O19  1  0.78929776  0.02387412  0.50942618  1

@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_K2NaLiInCuOF7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.38526678
+_cell_length_b   6.29502344
+_cell_length_c   6.36535454
+_cell_angle_alpha   105.44898987
+_cell_angle_beta   89.85035706
+_cell_angle_gamma   90.23737335
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2NaLiInCuOF7
+_chemical_formula_sum   'K2 Na1 Li1 In1 Cu1 O1 F7'
+_cell_volume   246.61091618
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.16682142  0.83783489  0.78386819  1
+  F  F1  1  0.13343218  0.30989987  0.17459232  1
+  F  F2  1  0.91534740  0.89859951  0.27714944  1
+  Na  Na3  1  0.91172796  0.14026891  0.90037304  1
+  K  K4  1  0.38666895  0.55213886  0.99660683  1
+  In  In5  1  0.41468057  0.00360079  0.65687919  1
+  F  F6  1  0.67337275  0.31022009  0.18252400  1
+  F  F7  1  0.16711041  0.25039589  0.65897697  1
+  F  F8  1  0.64324760  0.27388045  0.69374466  1
+  K  K9  1  0.90733451  0.55251604  0.50891906  1
+  F  F10  1  0.64200628  0.83955300  0.79950857  1
+  Cu  Cu11  1  0.65276629  0.03799313  0.26613548  1
+  Li  Li12  1  0.16143444  0.07753667  0.30832627  1
+  O  O13  1  0.41139799  0.91854137  0.34069645  1

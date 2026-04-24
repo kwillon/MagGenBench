@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Ba2NaCa4CuBiCl4O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.45690775
+_cell_length_b   7.73854113
+_cell_length_c   8.55480766
+_cell_angle_alpha   87.26533508
+_cell_angle_beta   87.27906036
+_cell_angle_gamma   84.73253632
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2NaCa4CuBiCl4O7
+_chemical_formula_sum   'Ba2 Na1 Ca4 Cu1 Bi1 Cl4 O7'
+_cell_volume   424.76937913
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.09482103  0.69847667  0.13622953  1
+  Na  Na1  1  0.30946761  0.24013461  0.29729274  1
+  O  O2  1  0.74037915  0.30828223  0.68186390  1
+  Cu  Cu3  1  0.18889374  0.48850003  0.02326290  1
+  Ba  Ba4  1  0.72830731  0.99080050  0.61185348  1
+  Ca  Ca5  1  0.05056396  0.43781927  0.66756195  1
+  Cl  Cl6  1  0.45547736  0.68440121  0.80582327  1
+  Cl  Cl7  1  0.22250128  0.07941628  0.59921473  1
+  O  O8  1  0.82838029  0.99360490  0.90274227  1
+  Bi  Bi9  1  0.15373488  0.73389101  0.37228230  1
+  Ba  Ba10  1  0.19891123  0.99804950  0.96863651  1
+  O  O11  1  0.89272785  0.67043352  0.53143489  1
+  Cl  Cl12  1  0.52255714  0.88195205  0.26603839  1
+  O  O13  1  0.30421034  0.49413371  0.43803087  1
+  Cl  Cl14  1  0.84737343  0.26373932  0.27921554  1
+  O  O15  1  0.36359888  0.27800626  0.04152048  1
+  Ca  Ca16  1  0.62254483  0.50378907  0.51086843  1
+  Ca  Ca17  1  0.79742795  0.73283458  0.01716595  1
+  O  O18  1  0.94887340  0.48359725  0.91738284  1
+  Ca  Ca19  1  0.70015121  0.27662036  0.94159150  1

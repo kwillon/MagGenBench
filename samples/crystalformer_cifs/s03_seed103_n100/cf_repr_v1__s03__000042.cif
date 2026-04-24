@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LiTiO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.21984040
+_cell_length_b   4.11642225
+_cell_length_c   7.17364278
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   120.32961648
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiTiO4
+_chemical_formula_sum   'Li2 Ti2 O8'
+_cell_volume   107.55589975
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.00000000  0.00000000  0.00000000  1
+  Ti  Ti1  1  0.00000000  0.50000000  0.50000000  1
+  Li  Li2  1  0.50000000  0.00000000  0.50000000  1
+  Li  Li3  1  0.50000000  0.50000000  0.00000000  1
+  O  O4  1  0.31006656  0.79414696  0.95196330  1
+  O  O5  1  0.68993344  0.29414696  0.54803670  1
+  O  O6  1  0.68993344  0.20585304  0.04803670  1
+  O  O7  1  0.31006656  0.70585304  0.45196330  1
+  O  O8  1  0.85882692  0.03033951  0.75090751  1
+  O  O9  1  0.14117308  0.53033951  0.74909249  1
+  O  O10  1  0.14117308  0.96966049  0.24909249  1
+  O  O11  1  0.85882692  0.46966049  0.25090751  1

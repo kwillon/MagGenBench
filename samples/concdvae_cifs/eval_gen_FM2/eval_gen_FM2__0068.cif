@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_NaVCuO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.55386353
+_cell_length_b   4.86621475
+_cell_length_c   5.13445854
+_cell_angle_alpha   84.60905457
+_cell_angle_beta   91.18490601
+_cell_angle_gamma   89.18228912
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaVCuO4
+_chemical_formula_sum   'Na1 V1 Cu1 O4'
+_cell_volume   113.23748289
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  V  V0  1  0.69667143  0.49508533  0.99044091  1
+  O  O1  1  0.46745855  0.28185529  0.80735075  1
+  Na  Na2  1  0.19388242  0.50391114  0.48157388  1
+  O  O3  1  0.92885703  0.71650153  0.79952025  1
+  O  O4  1  0.92596656  0.27178141  0.17366387  1
+  Cu  Cu5  1  0.19588462  0.99778044  0.98165429  1
+  O  O6  1  0.45952365  0.70661265  0.16077757  1

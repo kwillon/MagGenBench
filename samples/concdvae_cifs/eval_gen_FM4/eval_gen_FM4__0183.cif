@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_HoPaO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.74246407
+_cell_length_b   4.54063749
+_cell_length_c   5.15340757
+_cell_angle_alpha   101.60971832
+_cell_angle_beta   90.24214172
+_cell_angle_gamma   93.50726318
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HoPaO4
+_chemical_formula_sum   'Ho1 Pa1 O4'
+_cell_volume   85.60819291
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.19756284  0.05111685  0.62756282  1
+  O  O1  1  0.18462412  0.05624272  0.12195414  1
+  O  O2  1  0.69492793  0.54508567  0.63142508  1
+  Ho  Ho3  1  0.18716374  0.55336469  0.38113815  1
+  O  O4  1  0.68898231  0.55619031  0.11797510  1
+  Pa  Pa5  1  0.68707484  0.04443548  0.87607360  1

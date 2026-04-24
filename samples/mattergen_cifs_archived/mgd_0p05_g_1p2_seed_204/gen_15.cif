@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       FeZnIr2ZnFe
+_chemical_formula_sum              "Fe2 Zn2 Ir2"
+_cell_length_a       4.678742933331419
+_cell_length_b       4.601406966574032
+_cell_length_c       4.608588695526123
+_cell_angle_alpha    119.65700577578245
+_cell_angle_beta     100.2359080714729
+_cell_angle_gamma    100.38658172403902
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.30253899097442627  0.7663998007774353  0.7295777201652527  1.0000
+  Zn  Zn1       1.0  0.3021281659603119  0.09658262133598328  0.39892295002937317  1.0000
+  Ir  Ir1       1.0  0.3022235929965973  0.4310023784637451  0.06437820196151733  1.0000
+  Ir  Ir2       1.0  0.8021478652954102  0.26583462953567505  0.22947847843170166  1.0000
+  Zn  Zn2       1.0  0.8023682236671448  0.6003689169883728  0.8949223756790161  1.0000
+  Fe  Fe2       1.0  0.8015455603599548  0.9305986166000366  0.5643408298492432  1.0000

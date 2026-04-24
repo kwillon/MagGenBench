@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       TaMgNi4
+_chemical_formula_sum              "Ta1 Mg1 Ni4"
+_cell_length_a       4.76768514875981
+_cell_length_b       4.766248986711463
+_cell_length_c       4.767716884613037
+_cell_angle_alpha    59.9679613531448
+_cell_angle_beta     59.95724047034982
+_cell_angle_gamma    59.96603564329627
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ta  Ta1       1.0  0.5495169162750244  0.4702018499374389  0.17193903028964996  1.0000
+  Mg  Mg1       1.0  0.29953086376190186  0.22032469511032104  0.9219244122505188  1.0000
+  Ni  Ni1       1.0  0.42480814456939703  0.8451552391052246  0.546582818031311  1.0000
+  Ni  Ni2       1.0  0.9246633648872375  0.3453078866004944  0.5468717813491822  1.0000
+  Ni  Ni3       1.0  0.9247160553932189  0.8452533483505249  0.04682995378971118  1.0000
+  Ni  Ni4       1.0  0.9248358607292175  0.8451068997383118  0.5465475916862488  1.0000

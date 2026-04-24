@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Tb2MgIn5Co2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.57439613
+_cell_length_b   6.55716991
+_cell_length_c   6.59153223
+_cell_angle_alpha   94.35726166
+_cell_angle_beta   86.58870697
+_cell_angle_gamma   89.77879333
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb2MgIn5Co2
+_chemical_formula_sum   'Tb2 Mg1 In5 Co2'
+_cell_volume   239.80486427
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.40625802  0.90299922  0.17519642  1
+  In  In1  1  0.68649924  0.70331860  0.78732854  1
+  In  In2  1  0.46155319  0.38363370  0.10609362  1
+  In  In3  1  0.90806526  0.10713461  0.07262374  1
+  Tb  Tb4  1  0.92860526  0.62880695  0.28450933  1
+  In  In5  1  0.13607922  0.44100034  0.76123893  1
+  In  In6  1  0.18060867  0.92501140  0.66740143  1
+  Co  Co7  1  0.15847138  0.22170924  0.39301026  1
+  Co  Co8  1  0.42442372  0.60243231  0.45841941  1
+  Tb  Tb9  1  0.66253763  0.18648520  0.58143902  1

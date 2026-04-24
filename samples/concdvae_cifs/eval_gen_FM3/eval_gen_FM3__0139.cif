@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_MgTiAgO5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.11927462
+_cell_length_b   4.19552326
+_cell_length_c   5.49876213
+_cell_angle_alpha   89.62722778
+_cell_angle_beta   88.95973969
+_cell_angle_gamma   88.27567291
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgTiAgO5
+_chemical_formula_sum   'Mg1 Ti1 Ag1 O5'
+_cell_volume   94.97204752
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  1  0.66387606  0.59263039  0.30851945  1
+  Ti  Ti1  1  0.14420077  0.58285552  0.85166138  1
+  O  O2  1  0.16715007  0.08009147  0.81119096  1
+  O  O3  1  0.67174309  0.08792677  0.36274186  1
+  O  O4  1  0.17722975  0.58637029  0.53086436  1
+  O  O5  1  0.15860137  0.58270144  0.14878917  1
+  Mg  Mg6  1  0.17375165  0.08586053  0.46746403  1
+  O  O7  1  0.66595536  0.57273293  0.83530611  1

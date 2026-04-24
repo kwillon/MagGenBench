@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Sm(GaPt)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.49231243
+_cell_length_b   4.57817841
+_cell_length_c   9.66307735
+_cell_angle_alpha   91.26554108
+_cell_angle_beta   91.09822083
+_cell_angle_gamma   91.49125671
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sm(GaPt)2
+_chemical_formula_sum   'Sm2 Ga4 Pt4'
+_cell_volume   198.58219882
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.01435531  0.29129770  0.60738075  1
+  Pt  Pt1  1  0.01104892  0.79888839  0.73478717  1
+  Sm  Sm2  1  0.01138649  0.79275596  0.36035055  1
+  Pt  Pt3  1  0.01013970  0.29139242  0.10930533  1
+  Ga  Ga4  1  0.51080453  0.79798621  0.60973364  1
+  Ga  Ga5  1  0.51327348  0.29536286  0.23653704  1
+  Ga  Ga6  1  0.01150640  0.78338134  0.97962141  1
+  Sm  Sm7  1  0.50704265  0.29525030  0.85461521  1
+  Pt  Pt8  1  0.51061457  0.78805077  0.11039681  1
+  Pt  Pt9  1  0.51159781  0.29407603  0.48030269  1

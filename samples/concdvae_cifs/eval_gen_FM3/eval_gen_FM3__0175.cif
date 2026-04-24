@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_La3CeRuS9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.79332161
+_cell_length_b   7.89748192
+_cell_length_c   7.42660570
+_cell_angle_alpha   112.75496674
+_cell_angle_beta   82.75166321
+_cell_angle_gamma   84.70719147
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La3CeRuS9
+_chemical_formula_sum   'La3 Ce1 Ru1 S9'
+_cell_volume   360.13215116
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.34406629  0.37343657  0.83065689  1
+  S  S1  1  0.69806755  0.06926996  0.34121263  1
+  Ru  Ru2  1  0.41220072  0.07711355  0.14721934  1
+  La  La3  1  0.85289943  0.80790812  0.95093489  1
+  S  S4  1  0.37691718  0.76424021  0.07537085  1
+  S  S5  1  0.16715467  0.61330628  0.63980997  1
+  Ce  Ce6  1  0.98120981  0.35122102  0.35048869  1
+  S  S7  1  0.45159543  0.38191998  0.21986717  1
+  S  S8  1  0.67149687  0.53670132  0.65404510  1
+  La  La9  1  0.49188492  0.77529538  0.45980680  1
+  S  S10  1  0.91219532  0.57886869  0.15386710  1
+  S  S11  1  0.60396445  0.03816624  0.81583428  1
+  S  S12  1  0.11716989  0.10287515  0.97408855  1
+  S  S13  1  0.21835394  0.11224544  0.47970289  1

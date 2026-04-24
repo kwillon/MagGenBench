@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_RbNa4As2Cl2O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.32279921
+_cell_length_b   7.06094170
+_cell_length_c   7.20439005
+_cell_angle_alpha   89.23954010
+_cell_angle_beta   88.10998535
+_cell_angle_gamma   91.81790924
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbNa4As2Cl2O5
+_chemical_formula_sum   'Rb1 Na4 As2 Cl2 O5'
+_cell_volume   321.26961177
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.54059517  0.85422301  0.39457262  1
+  Na  Na1  1  0.33312413  0.63003534  0.21318525  1
+  O  O2  1  0.96412545  0.07648835  0.42632541  1
+  As  As3  1  0.81225967  0.87059075  0.33974999  1
+  As  As4  1  0.34778249  0.22716272  0.96431553  1
+  Cl  Cl5  1  0.96801490  0.59890389  0.45664504  1
+  Rb  Rb6  1  0.40837359  0.67539978  0.73102373  1
+  O  O7  1  0.48241568  0.32963428  0.16959569  1
+  Na  Na8  1  0.86671877  0.31424099  0.18816531  1
+  Cl  Cl9  1  0.84823400  0.83910710  0.00293633  1
+  Na  Na10  1  0.34913862  0.13739873  0.44371435  1
+  O  O11  1  0.11556856  0.36842418  0.94191831  1
+  O  O12  1  0.49039930  0.28499496  0.75301200  1
+  Na  Na13  1  0.86266482  0.21268129  0.72587669  1

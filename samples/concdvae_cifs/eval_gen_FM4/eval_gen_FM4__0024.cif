@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_YbCePrUO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.80852461
+_cell_length_b   5.86279345
+_cell_length_c   6.29844093
+_cell_angle_alpha   86.93910217
+_cell_angle_beta   81.06591797
+_cell_angle_gamma   78.38751984
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YbCePrUO8
+_chemical_formula_sum   'Yb1 Ce1 Pr1 U1 O8'
+_cell_volume   207.49467384
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.38524705  0.93428218  0.64976537  1
+  U  U1  1  0.88365549  0.93905413  0.15133974  1
+  Ce  Ce2  1  0.38006341  0.44524306  0.15858412  1
+  O  O3  1  0.63384688  0.69700974  0.90513754  1
+  O  O4  1  0.13863164  0.18865241  0.39350808  1
+  O  O5  1  0.65577716  0.18166436  0.38648471  1
+  Pr  Pr6  1  0.88120693  0.43960470  0.65406734  1
+  O  O7  1  0.12056127  0.17269796  0.92269880  1
+  O  O8  1  0.63889945  0.17511733  0.91315472  1
+  O  O9  1  0.11897536  0.70254135  0.91357279  1
+  O  O10  1  0.12163945  0.70731270  0.38816893  1
+  O  O11  1  0.63998926  0.70560950  0.38429198  1

@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       SmGdAlGd
+_chemical_formula_sum              "Sm1 Gd2 Al1"
+_cell_length_a       4.702732617283875
+_cell_length_b       4.705750625499538
+_cell_length_c       4.725470066070557
+_cell_angle_alpha    90.05370827889294
+_cell_angle_beta     90.07349533399696
+_cell_angle_gamma    90.0200012989776
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sm  Sm1       1.0  0.0751153826713562  0.7542294263839722  0.028519473969936367  1.0000
+  Gd  Gd1       1.0  0.07497604936361313  0.25333914160728455  0.5280308127403259  1.0000
+  Al  Al1       1.0  0.5753541588783264  0.25225579738616943  0.028825819492340084  1.0000
+  Gd  Gd2       1.0  0.5757411122322083  0.7537744641304016  0.5286024808883667  1.0000

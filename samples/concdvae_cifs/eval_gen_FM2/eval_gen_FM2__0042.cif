@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_K3RbNaGe2ClO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.35050106
+_cell_length_b   7.30951071
+_cell_length_c   8.04200554
+_cell_angle_alpha   99.28840637
+_cell_angle_beta   94.20800018
+_cell_angle_gamma   90.57471466
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K3RbNaGe2ClO6
+_chemical_formula_sum   'K3 Rb1 Na1 Ge2 Cl1 O6'
+_cell_volume   367.32382232
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.75703865  0.53532577  0.05851433  1
+  O  O1  1  0.32178181  0.80912864  0.58024192  1
+  O  O2  1  0.42685947  0.09527673  0.32068792  1
+  O  O3  1  0.49695700  0.57366204  0.97873998  1
+  O  O4  1  0.80112761  0.53885573  0.29417533  1
+  K  K5  1  0.79097319  0.81979418  0.61371237  1
+  Na  Na6  1  0.76687521  0.22165020  0.34228975  1
+  Rb  Rb7  1  0.28009260  0.48813432  0.27161321  1
+  K  K8  1  0.16589789  0.44425011  0.75530255  1
+  Cl  Cl9  1  0.82060730  0.18393967  0.96220803  1
+  O  O10  1  0.95061576  0.66121542  0.96034229  1
+  O  O11  1  0.03281420  0.12092473  0.51926053  1
+  K  K12  1  0.31213990  0.92964691  0.97155666  1
+  Ge  Ge13  1  0.27056539  0.01441623  0.47360909  1

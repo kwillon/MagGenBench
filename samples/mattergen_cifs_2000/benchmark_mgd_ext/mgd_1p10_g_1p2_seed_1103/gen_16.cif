@@ -1,0 +1,28 @@
+data_image0
+_chemical_formula_structural       GdHTe
+_chemical_formula_sum              "Gd1 H1 Te1"
+_cell_length_a       4.040053905505439
+_cell_length_b       4.036977781232743
+_cell_length_c       4.273843288421631
+_cell_angle_alpha    89.99535114595827
+_cell_angle_beta     90.00996092015369
+_cell_angle_gamma    119.98824373937282
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Gd  Gd1       1.0  0.7526779174804688  0.4983018338680267  0.8111385107040405  1.0000
+  H   H1        1.0  0.41996821761131287  0.8313888311386108  0.8112483024597168  1.0000
+  Te  Te1       1.0  0.08646390587091445  0.16477270424365995  0.31118449568748474  1.0000

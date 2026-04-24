@@ -1,0 +1,29 @@
+# generated using pymatgen
+data_DyFeAg
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.88170624
+_cell_length_b   3.92740917
+_cell_length_c   5.60435438
+_cell_angle_alpha   65.15168762
+_cell_angle_beta   66.07193756
+_cell_angle_gamma   59.77950668
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   DyFeAg
+_chemical_formula_sum   'Dy1 Fe1 Ag1'
+_cell_volume   64.90779686
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.83911300  0.63819975  0.42333329  1
+  Dy  Dy1  1  0.05372158  0.86193991  0.75636184  1
+  Ag  Ag2  1  0.57326651  0.37086618  0.23700520  1

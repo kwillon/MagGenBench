@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_Li2Ca2NdMn2CrCo2TeO10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.31123237
+_cell_length_b   5.45258879
+_cell_length_c   10.73172619
+_cell_angle_alpha   99.02684865
+_cell_angle_beta   95.71886047
+_cell_angle_gamma   93.76851615
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2Ca2NdMn2CrCo2TeO10
+_chemical_formula_sum   'Li2 Ca2 Nd1 Mn2 Cr1 Co2 Te1 O10'
+_cell_volume   361.67093715
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.99577667  0.00670552  0.02515248  1
+  O  O1  1  0.02725003  0.01033538  0.50010131  1
+  Mn  Mn2  1  0.00566063  0.49698060  0.49082332  1
+  Li  Li3  1  0.99459222  0.01458098  0.49266437  1
+  Co  Co4  1  0.00786021  0.50823550  0.49576962  1
+  Co  Co5  1  0.01801133  0.50290125  0.00674929  1
+  O  O6  1  0.49922642  0.97285942  0.49407789  1
+  Ca  Ca7  1  0.00368198  0.00332768  0.50180819  1
+  O  O8  1  0.47233230  0.49099298  0.50877836  1
+  O  O9  1  0.48601573  0.99538645  0.99836955  1
+  O  O10  1  0.49008992  0.99341427  0.49320053  1
+  Cr  Cr11  1  0.00985835  0.00132425  0.49240360  1
+  Nd  Nd12  1  0.00729941  0.99108172  0.48776103  1
+  O  O13  1  0.50629803  0.50950840  0.01261162  1
+  Te  Te14  1  0.00884608  0.49764740  0.52711224  1
+  O  O15  1  0.00641419  0.49728210  0.21063218  1
+  O  O16  1  0.99796240  0.99637349  0.00013576  1
+  Ca  Ca17  1  0.99973390  0.99028243  0.00186166  1
+  O  O18  1  0.00733110  0.00240159  0.50537766  1
+  O  O19  1  0.49854204  0.98975539  0.49999118  1
+  Mn  Mn20  1  0.01396315  0.49483114  0.00274538  1

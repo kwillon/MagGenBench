@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       InFeTmFe3
+_chemical_formula_sum              "In1 Fe4 Tm1"
+_cell_length_a       5.035664582762019
+_cell_length_b       5.038209559526192
+_cell_length_c       5.036548137664795
+_cell_angle_alpha    59.999368371384776
+_cell_angle_beta     59.99186188692028
+_cell_angle_gamma    60.00658695872528
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  In  In1       1.0  0.30780282616615295  0.4451824128627777  0.612098753452301  1.0000
+  Fe  Fe1       1.0  0.933296263217926  0.07022051513195038  0.7360671758651733  1.0000
+  Tm  Tm1       1.0  0.5577400326728821  0.6951891183853149  0.8620184063911438  1.0000
+  Fe  Fe2       1.0  0.9331267476081848  0.5693246722221373  0.23702602088451385  1.0000
+  Fe  Fe3       1.0  0.9333393573760986  0.07015255093574524  0.2373141050338745  1.0000
+  Fe  Fe4       1.0  0.43214499950408936  0.0701640024781227  0.23734787106513977  1.0000

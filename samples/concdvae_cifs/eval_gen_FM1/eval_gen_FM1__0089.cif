@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_LaAg2BiO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.42116308
+_cell_length_b   4.43219042
+_cell_length_c   4.93549871
+_cell_angle_alpha   85.99406433
+_cell_angle_beta   85.65936279
+_cell_angle_gamma   87.30854034
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaAg2BiO
+_chemical_formula_sum   'La1 Ag2 Bi1 O1'
+_cell_volume   96.11578849
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  1  0.97062635  0.15354984  0.81542760  1
+  O  O1  1  0.47515079  0.15092650  0.82106358  1
+  Bi  Bi2  1  0.96804893  0.65187120  0.31842145  1
+  Ag  Ag3  1  0.47607365  0.65356362  0.81952047  1
+  La  La4  1  0.47048157  0.15224500  0.31605479  1

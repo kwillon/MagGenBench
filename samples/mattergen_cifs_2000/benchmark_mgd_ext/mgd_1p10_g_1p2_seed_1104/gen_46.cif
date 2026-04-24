@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Eu2Co2GaCoGaCo
+_chemical_formula_sum              "Eu2 Co4 Ga2"
+_cell_length_a       3.9795536282555166
+_cell_length_b       5.069441397024462
+_cell_length_c       7.094451904296875
+_cell_angle_alpha    90.01008386393242
+_cell_angle_beta     90.03815594118659
+_cell_angle_gamma    90.0027482404576
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Eu  Eu1       1.0  0.4608393311500549  0.23344452679157257  0.4764136672019958  1.0000
+  Eu  Eu2       1.0  0.4604040086269378  0.7329365611076355  0.1229688376188278  1.0000
+  Co  Co1       1.0  0.9606952667236327  0.9830358624458313  0.800044059753418  1.0000
+  Co  Co2       1.0  0.9607536196708678  0.4832334220409394  0.799707293510437  1.0000
+  Ga  Ga1       1.0  0.9604688882827758  0.23358504474163055  0.10775886476039885  1.0000
+  Co  Co3       1.0  0.4604924619197845  0.7334802150726318  0.7167068719863892  1.0000
+  Ga  Ga2       1.0  0.9604848623275756  0.7330113649368286  0.4918184876441955  1.0000
+  Co  Co4       1.0  0.46065095067024225  0.2331860810518265  0.8829384446144103  1.0000

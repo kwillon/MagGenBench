@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_InCo2Sn3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.61302423
+_cell_length_b   5.12152338
+_cell_length_c   5.18771601
+_cell_angle_alpha   103.76998138
+_cell_angle_beta   78.43289185
+_cell_angle_gamma   81.09843445
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InCo2Sn3
+_chemical_formula_sum   'In1 Co2 Sn3'
+_cell_volume   113.95264407
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  1  0.17098646  0.62818891  0.21407917  1
+  Co  Co1  1  0.06587192  0.15837872  0.24294227  1
+  In  In2  1  0.61289895  0.52342713  0.61291313  1
+  Sn  Sn3  1  0.62063503  0.02118645  0.10388625  1
+  Sn  Sn4  1  0.17839080  0.14011469  0.72684121  1
+  Co  Co5  1  0.73686975  0.99497211  0.57596231  1

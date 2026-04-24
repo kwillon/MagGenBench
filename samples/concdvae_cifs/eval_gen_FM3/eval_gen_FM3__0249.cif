@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_LaW2O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.19223213
+_cell_length_b   4.20662403
+_cell_length_c   6.78409338
+_cell_angle_alpha   90.71285248
+_cell_angle_beta   88.19310760
+_cell_angle_gamma   91.70543671
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaW2O7
+_chemical_formula_sum   'La1 W2 O7'
+_cell_volume   119.51808787
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.07518616  0.04621844  0.48154414  1
+  O  O1  1  0.33809549  0.78090400  0.75678182  1
+  O  O2  1  0.60082233  0.55861336  0.04503295  1
+  La  La3  1  0.59288102  0.05167835  0.26256108  1
+  O  O4  1  0.83225477  0.29472262  0.77334899  1
+  W  W5  1  0.09737413  0.55146021  0.95963311  1
+  O  O6  1  0.08590513  0.55650324  0.26208496  1
+  O  O7  1  0.10612642  0.05276500  0.04202782  1
+  O  O8  1  0.57969546  0.54603994  0.47962043  1
+  W  W9  1  0.08276963  0.53803653  0.56328356  1

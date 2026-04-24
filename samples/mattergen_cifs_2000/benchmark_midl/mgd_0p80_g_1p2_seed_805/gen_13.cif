@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       ZnNiCo2
+_chemical_formula_sum              "Zn1 Ni1 Co2"
+_cell_length_a       2.5960453881735486
+_cell_length_b       2.5961636187877803
+_cell_length_c       6.852650165557861
+_cell_angle_alpha    89.94819551737325
+_cell_angle_beta     89.94758763268821
+_cell_angle_gamma    89.92838797038965
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Zn  Zn1       1.0  0.7374935150146484  0.36519825458526617  0.1539437472820282  1.0000
+  Ni  Ni1       1.0  0.2380170077085495  0.8656533360481263  0.8948040008544923  1.0000
+  Co  Co1       1.0  0.7378132939338684  0.3653412163257599  0.6500650644302368  1.0000
+  Co  Co2       1.0  0.23748110234737396  0.8647822141647339  0.42204892635345465  1.0000

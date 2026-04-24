@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_SrLi3Sb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.36057854
+_cell_length_b   5.52465677
+_cell_length_c   6.00670671
+_cell_angle_alpha   111.14096832
+_cell_angle_beta   90.73562622
+_cell_angle_gamma   89.59049988
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrLi3Sb
+_chemical_formula_sum   'Sr1 Li3 Sb1'
+_cell_volume   134.95485930
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.48047495  0.71485335  0.32672551  1
+  Li  Li1  1  0.98843205  0.54191107  0.51130247  1
+  Sr  Sr2  1  0.98123842  0.21426058  0.84290272  1
+  Sb  Sb3  1  0.48074028  0.71745515  0.83714294  1
+  Li  Li4  1  0.47578499  0.21332641  0.32826647  1

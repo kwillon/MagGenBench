@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       InGdAu2
+_chemical_formula_sum              "In1 Gd1 Au2"
+_cell_length_a       5.01184029149258
+_cell_length_b       5.012837245863131
+_cell_length_c       5.01101016998291
+_cell_angle_alpha    59.97915016756998
+_cell_angle_beta     59.97664726564468
+_cell_angle_gamma    59.98986147360555
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  In  In1       1.0  0.46618974208831787  0.8797245621681213  0.8231255412101746  1.0000
+  Gd  Gd1       1.0  0.966091513633728  0.37996786832809454  0.32312721014022827  1.0000
+  Au  Au1       1.0  0.21630936861038202  0.6293576359748841  0.5730189085006714  1.0000
+  Au  Au2       1.0  0.7164211869239807  0.12970846891403198  0.07311452925205231  1.0000

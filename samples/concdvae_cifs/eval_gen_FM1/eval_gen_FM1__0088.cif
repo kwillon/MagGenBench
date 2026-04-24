@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Sc2Ti3P2Au2Se3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.71875334
+_cell_length_b   4.87008762
+_cell_length_c   10.63481045
+_cell_angle_alpha   88.91662598
+_cell_angle_beta   88.88439941
+_cell_angle_gamma   110.62333679
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sc2Ti3P2Au2Se3
+_chemical_formula_sum   'Sc2 Ti3 P2 Au2 Se3'
+_cell_volume   228.60394835
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.60159147  0.98653096  0.52067029  1
+  Sc  Sc1  1  0.28566548  0.33550513  0.31148952  1
+  Se  Se2  1  0.85382926  0.55227929  0.45454621  1
+  P  P3  1  0.87774849  0.17172068  0.77476364  1
+  Ti  Ti4  1  0.39062923  0.22805414  0.83815777  1
+  P  P5  1  0.43842176  0.74251771  0.75965959  1
+  Se  Se6  1  0.61188364  0.95988101  0.27264890  1
+  Au  Au7  1  0.03691141  0.60348284  0.94186872  1
+  Ti  Ti8  1  0.91542572  0.68928063  0.68451357  1
+  Au  Au9  1  0.26156700  0.33569375  0.58435363  1
+  Sc  Sc10  1  0.72898895  0.96133059  0.02550273  1
+  Se  Se11  1  0.40934891  0.34874228  0.06745514  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_TaZnNiWS6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.23325825
+_cell_length_b   5.73214388
+_cell_length_c   8.37100410
+_cell_angle_alpha   93.66825867
+_cell_angle_beta   90.54365540
+_cell_angle_gamma   89.89590454
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TaZnNiWS6
+_chemical_formula_sum   'Ta1 Zn1 Ni1 W1 S6'
+_cell_volume   202.70237744
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.12970974  0.98304290  0.72425491  1
+  S  S1  1  0.13186112  0.70342851  0.14395390  1
+  S  S2  1  0.12467524  0.02184376  0.44854489  1
+  Ta  Ta3  1  0.63706690  0.48920095  0.01774829  1
+  S  S4  1  0.13569607  0.33867368  0.83708435  1
+  S  S5  1  0.62610990  0.15110388  0.15163679  1
+  Ni  Ni6  1  0.63794947  0.84298801  0.30981791  1
+  S  S7  1  0.63421637  0.81470519  0.82554770  1
+  S  S8  1  0.62863535  0.52511036  0.44294250  1
+  W  W9  1  0.13032627  0.36014286  0.28707528  1

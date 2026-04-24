@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Mn3Si2MnRh2
+_chemical_formula_sum              "Mn4 Si2 Rh2"
+_cell_length_a       4.465279880413357
+_cell_length_b       4.196286728401483
+_cell_length_c       5.171403884887695
+_cell_angle_alpha    89.90496725509695
+_cell_angle_beta     89.65615027422928
+_cell_angle_gamma    90.07223174396874
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Mn  Mn1       1.0  0.5448744297027588  0.9761226177215576  0.22380536794662476  1.0000
+  Mn  Mn2       1.0  0.7069585919380188  0.4760375916957855  0.465896874666214  1.0000
+  Mn  Mn3       1.0  0.03009931743144989  0.9760810136795044  0.9900440573692322  1.0000
+  Si  Si1       1.0  0.5549741387367249  0.976004719734192  0.7348851561546326  1.0000
+  Si  Si2       1.0  0.21560437977313995  0.4762367904186249  0.23939411342144012  1.0000
+  Mn  Mn4       1.0  0.7216334939002991  0.4762486219406128  0.0006825972814112902  1.0000
+  Rh  Rh1       1.0  0.0368989072740078  0.9757334589958191  0.4790501594543457  1.0000
+  Rh  Rh2       1.0  0.22750920057296753  0.47574153542518616  0.7463991641998291  1.0000

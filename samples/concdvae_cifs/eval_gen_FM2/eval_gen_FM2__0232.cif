@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Rb3Cu2Cl5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.54801178
+_cell_length_b   6.53439713
+_cell_length_c   6.11588335
+_cell_angle_alpha   85.36109924
+_cell_angle_beta   73.08639526
+_cell_angle_gamma   74.72463989
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Rb3Cu2Cl5
+_chemical_formula_sum   'Rb3 Cu2 Cl5'
+_cell_volume   241.51534970
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.73000634  0.20520575  0.71490574  1
+  Cu  Cu1  1  0.80520856  0.50767219  0.57699203  1
+  Cl  Cl2  1  0.44705302  0.99319029  0.19169003  1
+  Rb  Rb3  1  0.95155865  0.92474467  0.20533167  1
+  Rb  Rb4  1  0.50935155  0.48377287  0.21972249  1
+  Cl  Cl5  1  0.47716171  0.70195389  0.72502148  1
+  Cl  Cl6  1  0.99527502  0.70918798  0.68930668  1
+  Cl  Cl7  1  0.01184022  0.41409788  0.22998837  1
+  Rb  Rb8  1  0.22955982  0.20396495  0.71186000  1
+  Cu  Cu9  1  0.65694398  0.90696907  0.84326279  1

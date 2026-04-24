@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Na3Li2TiFe2(GeO2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.48008146
+_cell_length_b   5.62120718
+_cell_length_c   7.90922772
+_cell_angle_alpha   108.99933176
+_cell_angle_beta   112.72338321
+_cell_angle_gamma   95.88440167
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na3Li2TiFe2(GeO2)2
+_chemical_formula_sum   'Na3 Li2 Ti1 Fe2 Ge2 O4'
+_cell_volume   205.07901929
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.00000000  0.50000000  0.00000000  1
+  Na  Na1  1  0.50000000  0.50000000  0.50000000  1
+  O  O2  1  0.22838012  0.79150565  0.34158917  1
+  O  O3  1  0.77161988  0.20849435  0.65841083  1
+  Na  Na4  1  0.36247361  0.68217110  0.14681963  1
+  Na  Na5  1  0.63752639  0.31782890  0.85318037  1
+  Ge  Ge6  1  0.50555615  0.87765834  0.36429092  1
+  Ge  Ge7  1  0.49444385  0.12234166  0.63570908  1
+  Li  Li8  1  0.78450042  0.51316194  0.36435595  1
+  Li  Li9  1  0.21549958  0.48683806  0.63564405  1
+  O  O10  1  0.80698195  0.98825316  0.33682180  1
+  O  O11  1  0.19301805  0.01174684  0.66317820  1
+  Fe  Fe12  1  0.97988286  0.22796581  0.20489954  1
+  Fe  Fe13  1  0.02011714  0.77203419  0.79510046  1

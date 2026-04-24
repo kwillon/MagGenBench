@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_PrHoLu3Cd2S7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.87323785
+_cell_length_b   6.41791868
+_cell_length_c   12.55081081
+_cell_angle_alpha   100.18820190
+_cell_angle_beta   94.70514679
+_cell_angle_gamma   103.74578094
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   PrHoLu3Cd2S7
+_chemical_formula_sum   'Pr1 Ho1 Lu3 Cd2 S7'
+_cell_volume   295.75371581
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  0.12913394  0.03785034  0.83374518  1
+  Lu  Lu1  1  0.41765434  0.60693729  0.98172486  1
+  Lu  Lu2  1  0.27948207  0.32854226  0.40683505  1
+  S  S3  1  0.19675112  0.16003238  0.60615218  1
+  S  S4  1  0.34496135  0.45921201  0.19245693  1
+  Lu  Lu5  1  0.55117774  0.87831646  0.54604065  1
+  S  S6  1  0.91693079  0.60534537  0.48085010  1
+  S  S7  1  0.06182018  0.88395458  0.05193225  1
+  S  S8  1  0.47721946  0.73695123  0.76086295  1
+  Cd  Cd9  1  0.99126452  0.74937505  0.26330909  1
+  Cd  Cd10  1  0.84294808  0.45928079  0.69227213  1
+  S  S11  1  0.63341373  0.04836878  0.34124827  1
+  S  S12  1  0.78207505  0.34558743  0.91524720  1
+  Ho  Ho13  1  0.70045030  0.17191827  0.12571995  1

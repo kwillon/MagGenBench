@@ -1,0 +1,28 @@
+data_image0
+_chemical_formula_structural       AlGdSi
+_chemical_formula_sum              "Al1 Gd1 Si1"
+_cell_length_a       4.017913835269956
+_cell_length_b       4.1863593641766315
+_cell_length_c       4.187363624572754
+_cell_angle_alpha    119.95980155376975
+_cell_angle_beta     89.99474325891391
+_cell_angle_gamma    89.99350016455003
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.3380722403526306  0.20528060197830203  0.6840817332267761  1.0000
+  Gd  Gd1       1.0  0.8379901647567749  0.8721331954002381  0.017212118953466467  1.0000
+  Si  Si1       1.0  0.3379729688167572  0.5383734107017518  0.350518137216568  1.0000

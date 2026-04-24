@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Gd2MgGd
+_chemical_formula_sum              "Gd3 Mg1"
+_cell_length_a       4.971136331278809
+_cell_length_b       4.971438570899661
+_cell_length_c       6.062829494476318
+_cell_angle_alpha    114.14686662851581
+_cell_angle_beta     114.20065197894448
+_cell_angle_gamma    89.97632297287363
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Gd  Gd1       1.0  0.5849218368530273  0.5545220375061035  0.7735092639923096  1.0000
+  Gd  Gd2       1.0  0.08500730991363525  0.05494086444377899  0.7735350728034973  1.0000
+  Mg  Mg1       1.0  0.8348265290260315  0.30462226271629333  0.2734241783618927  1.0000
+  Gd  Gd3       1.0  0.3352525234222412  0.8051597476005554  0.27327495813369757  1.0000

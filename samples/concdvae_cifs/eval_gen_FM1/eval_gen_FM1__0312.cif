@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_SrCa4Cd3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.27400303
+_cell_length_b   6.78339863
+_cell_length_c   8.42696857
+_cell_angle_alpha   101.06182098
+_cell_angle_beta   109.79969025
+_cell_angle_gamma   88.23715210
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrCa4Cd3
+_chemical_formula_sum   'Sr1 Ca4 Cd3'
+_cell_volume   330.94476643
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.68215787  0.83024096  0.12554023  1
+  Cd  Cd1  1  0.40576479  0.51120192  0.72745365  1
+  Sr  Sr2  1  0.26591697  0.45601743  0.20979312  1
+  Cd  Cd3  1  0.99131507  0.80341750  0.49764657  1
+  Cd  Cd4  1  0.72593361  0.28675610  0.00736931  1
+  Ca  Ca5  1  0.88492823  0.35204053  0.56979042  1
+  Ca  Ca6  1  0.48786062  0.97494453  0.60523945  1
+  Ca  Ca7  1  0.07952930  0.90865010  0.89147425  1

@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_K3Na3CuGeBHO7F
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.27422953
+_cell_length_b   7.37698078
+_cell_length_c   6.90902615
+_cell_angle_alpha   121.97622681
+_cell_angle_beta   102.11302185
+_cell_angle_gamma   93.25226593
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K3Na3CuGeBHO7F
+_chemical_formula_sum   'K3 Na3 Cu1 Ge1 B1 H1 O7 F1'
+_cell_volume   301.13072535
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.58143598  0.07599226  0.21283281  1
+  Cu  Cu1  1  0.43618652  0.61643034  0.05991787  1
+  Na  Na2  1  0.09319911  0.95959729  0.05621707  1
+  K  K3  1  0.41923460  0.09571522  0.65860963  1
+  O  O4  1  0.34796646  0.76949316  0.90905237  1
+  O  O5  1  0.94937325  0.76932675  0.61921263  1
+  Na  Na6  1  0.88628411  0.35451496  0.97940677  1
+  O  O7  1  0.35445505  0.29791209  0.30604678  1
+  Ge  Ge8  1  0.88261777  0.88281518  0.44686186  1
+  O  O9  1  0.08472975  0.94975328  0.38316974  1
+  K  K10  1  0.64213574  0.64587110  0.70902663  1
+  B  B11  1  0.31561267  0.36845955  0.18055215  1
+  O  O12  1  0.71328425  0.66224289  0.14159641  1
+  H  H13  1  0.25572923  0.79952168  0.78403425  1
+  O  O14  1  0.23976631  0.41346318  0.02909306  1
+  F  F15  1  0.81829214  0.12463368  0.07891053  1
+  K  K16  1  0.06258044  0.38349706  0.54650199  1
+  O  O17  1  0.76526737  0.13137314  0.57229221  1

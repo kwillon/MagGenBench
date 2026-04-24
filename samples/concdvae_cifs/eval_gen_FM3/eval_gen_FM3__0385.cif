@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_LiMg4AlCu2(OF2)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.49153423
+_cell_length_b   6.23879719
+_cell_length_c   6.92618513
+_cell_angle_alpha   88.11545563
+_cell_angle_beta   86.51846313
+_cell_angle_gamma   88.18879700
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiMg4AlCu2(OF2)4
+_chemical_formula_sum   'Li1 Mg4 Al1 Cu2 O4 F8'
+_cell_volume   236.62469104
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.53977877  0.52722031  0.69982243  1
+  F  F1  1  0.70970082  0.47734389  0.95708096  1
+  O  O2  1  0.41382709  0.21611606  0.74756587  1
+  Mg  Mg3  1  0.06646284  0.32487026  0.84016788  1
+  F  F4  1  0.88581532  0.67273211  0.25861332  1
+  Mg  Mg5  1  0.03054609  0.71645218  0.51872045  1
+  Mg  Mg6  1  0.54993665  0.53144979  0.20501630  1
+  F  F7  1  0.90653402  0.41777027  0.59723604  1
+  O  O8  1  0.17437589  0.99549323  0.46628720  1
+  Al  Al9  1  0.45572343  0.08599695  0.52625293  1
+  O  O10  1  0.91991037  0.07672787  0.99460179  1
+  Cu  Cu11  1  0.06499751  0.80027318  0.02359350  1
+  F  F12  1  0.42097217  0.83122152  0.08754034  1
+  F  F13  1  0.25419188  0.37753090  0.09954488  1
+  F  F14  1  0.16139585  0.64596450  0.79035830  1
+  Mg  Mg15  1  0.56977624  0.12438405  0.01409531  1
+  O  O16  1  0.61925489  0.20410022  0.30835354  1
+  F  F17  1  0.67181593  0.83879960  0.60656327  1
+  F  F18  1  0.36793867  0.56864911  0.44660735  1
+  Cu  Cu19  1  0.97759521  0.15994348  0.27175283  1

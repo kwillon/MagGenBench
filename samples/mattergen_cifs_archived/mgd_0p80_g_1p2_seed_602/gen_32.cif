@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       FeMnFeBe
+_chemical_formula_sum              "Fe2 Mn1 Be1"
+_cell_length_a       3.464753468042138
+_cell_length_b       3.4646765051732142
+_cell_length_c       3.5625109672546387
+_cell_angle_alpha    89.92183098642079
+_cell_angle_beta     89.94652212164928
+_cell_angle_gamma    89.98072088056313
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.6244267821311951  0.935799479484558  0.10638347268104556  1.0000
+  Mn  Mn1       1.0  0.12439224123954773  0.9360479116439819  0.6067634224891664  1.0000
+  Fe  Fe2       1.0  0.12437256425619125  0.43567395210266113  0.1063402369618416  1.0000
+  Be  Be1       1.0  0.6245595216751099  0.4355716407299042  0.6064431667327882  1.0000

@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_RbLiMn4GeO9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.75023985
+_cell_length_b   6.03502226
+_cell_length_c   7.63918114
+_cell_angle_alpha   93.10160828
+_cell_angle_beta   89.17835236
+_cell_angle_gamma   102.65783691
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbLiMn4GeO9
+_chemical_formula_sum   'Rb1 Li1 Mn4 Ge1 O9'
+_cell_volume   258.27843310
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.16791444  0.23380697  0.05680766  1
+  O  O1  1  0.34832877  0.49941862  0.72345197  1
+  O  O2  1  0.22471316  0.16529107  0.44273040  1
+  O  O3  1  0.06787767  0.62885880  0.30124328  1
+  Ge  Ge4  1  0.57228017  0.09179136  0.30843094  1
+  O  O5  1  0.97073138  0.69962788  0.63192940  1
+  Li  Li6  1  0.97251701  0.89456916  0.44975185  1
+  O  O7  1  0.64799118  0.32964894  0.17598796  1
+  Mn  Mn8  1  0.16468613  0.71281505  0.77177048  1
+  O  O9  1  0.01747638  0.67691284  0.96151423  1
+  O  O10  1  0.33103889  0.99280518  0.77212226  1
+  O  O11  1  0.75469351  0.89455104  0.24205485  1
+  O  O12  1  0.68685234  0.19039926  0.49462682  1
+  Mn  Mn13  1  0.85194504  0.62545758  0.17244482  1
+  Mn  Mn14  1  0.39452434  0.21982908  0.62239450  1
+  Mn  Mn15  1  0.99811429  0.42273444  0.48411003  1

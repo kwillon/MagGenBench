@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_KBeSi4HO11
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.32272387
+_cell_length_b   6.24158859
+_cell_length_c   6.37489319
+_cell_angle_alpha   85.63662720
+_cell_angle_beta   68.62094116
+_cell_angle_gamma   71.74378967
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KBeSi4HO11
+_chemical_formula_sum   'K1 Be1 Si4 H1 O11'
+_cell_volume   222.26797345
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.38307095  0.97808164  0.02486651  1
+  O  O1  1  0.65856552  0.90386313  0.27780274  1
+  O  O2  1  0.23814327  0.34549642  0.29142374  1
+  O  O3  1  0.49615216  0.25002471  0.52807385  1
+  O  O4  1  0.01470059  0.84091282  0.91447943  1
+  Si  Si5  1  0.80855966  0.41271061  0.01606310  1
+  O  O6  1  0.75910604  0.19329083  0.99209028  1
+  O  O7  1  0.82651633  0.54196227  0.81163758  1
+  Si  Si8  1  0.37580776  0.43588811  0.39199603  1
+  Si  Si9  1  0.95556545  0.73581541  0.72607857  1
+  O  O10  1  0.20855889  0.63635081  0.54773539  1
+  H  H11  1  0.13073218  0.38608274  0.17112528  1
+  O  O12  1  0.93914080  0.05996564  0.27009603  1
+  O  O13  1  0.56838900  0.52298856  0.20918022  1
+  Si  Si14  1  0.71653670  0.02594141  0.43327704  1
+  O  O15  1  0.06671032  0.38670239  0.02727693  1
+  Be  Be16  1  0.84459925  0.99576718  0.09693342  1
+  O  O17  1  0.75413656  0.89970446  0.63909739  1

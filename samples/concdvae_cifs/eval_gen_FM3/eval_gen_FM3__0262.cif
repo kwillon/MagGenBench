@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Ca2YbRhO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.57063293
+_cell_length_b   5.47230196
+_cell_length_c   5.68642759
+_cell_angle_alpha   62.20942688
+_cell_angle_beta   66.09718323
+_cell_angle_gamma   62.16598511
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca2YbRhO6
+_chemical_formula_sum   'Ca2 Yb1 Rh1 O6'
+_cell_volume   131.65742452
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.69431305  0.08479904  0.55992723  1
+  O  O1  1  0.13080683  0.44180214  0.75530696  1
+  O  O2  1  0.78947151  0.98407739  0.03942072  1
+  Rh  Rh3  1  0.46709388  0.21137558  0.88915527  1
+  Ca  Ca4  1  0.21160090  0.96743095  0.65981793  1
+  Ca  Ca5  1  0.72000098  0.45637128  0.12187827  1
+  O  O6  1  0.59285092  0.54893738  0.68577218  1
+  Yb  Yb7  1  0.95876229  0.71994144  0.39291006  1
+  O  O8  1  0.22113153  0.35145503  0.22365889  1
+  O  O9  1  0.31924123  0.88565278  0.10304999  1

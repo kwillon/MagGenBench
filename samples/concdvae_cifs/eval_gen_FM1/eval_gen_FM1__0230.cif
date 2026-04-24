@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_Na2TeI
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.83609533
+_cell_length_b   5.75830173
+_cell_length_c   6.01202822
+_cell_angle_alpha   60.83755112
+_cell_angle_beta   61.22835541
+_cell_angle_gamma   59.70501709
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2TeI
+_chemical_formula_sum   'Na2 Te1 I1'
+_cell_volume   144.71492147
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.62029636  0.31485039  0.91683453  1
+  Te  Te1  1  0.36877793  0.06771086  0.66417706  1
+  Na  Na2  1  0.11880496  0.81778830  0.41619048  1
+  I  I3  1  0.87307560  0.56619531  0.16029128  1

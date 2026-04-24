@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       EuSnGaH
+_chemical_formula_sum              "Eu1 Sn1 Ga1 H1"
+_cell_length_a       4.463368589328908
+_cell_length_b       4.4623777182047695
+_cell_length_c       4.842674255371094
+_cell_angle_alpha    89.96915053861463
+_cell_angle_beta     90.03092960245185
+_cell_angle_gamma    120.05397409821312
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Eu  Eu1       1.0  0.6716141104698181  0.380873441696167  0.020120499655604362  1.0000
+  Sn  Sn1       1.0  0.004691370762884617  0.047253891825675964  0.4734460115432739  1.0000
+  Ga  Ga1       1.0  0.3386590778827667  0.7140783667564392  0.6233904361724854  1.0000
+  H   H1        1.0  0.3386739194393158  0.7149196267127991  0.9844791889190674  1.0000

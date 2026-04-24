@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       CoFe2Ni
+_chemical_formula_sum              "Co1 Fe2 Ni1"
+_cell_length_a       2.8622096564156623
+_cell_length_b       2.8606512546793548
+_cell_length_c       5.609533309936523
+_cell_angle_alpha    90.00024156109687
+_cell_angle_beta     90.01498794039993
+_cell_angle_gamma    90.04227454796343
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.4569949805736542  0.8777462244033813  0.04621266573667526  1.0000
+  Fe  Fe1       1.0  0.457622230052948  0.8776193857192992  0.5429593324661255  1.0000
+  Fe  Fe2       1.0  0.9576557874679565  0.3778221309185028  0.28199464082717896  1.0000
+  Ni  Ni1       1.0  0.9575402736663818  0.37770292162895197  0.7845315933227539  1.0000

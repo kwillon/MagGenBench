@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       GaEuGaEu3Ga2
+_chemical_formula_sum              "Ga4 Eu4"
+_cell_length_a       4.379494027612726
+_cell_length_b       6.1760717056057
+_cell_length_c       8.484801292419434
+_cell_angle_alpha    90.032855712298
+_cell_angle_beta     90.05771077381634
+_cell_angle_gamma    89.99812420243616
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ga  Ga1       1.0  0.8106486201286316  0.548514723777771  0.32047173380851746  1.0000
+  Eu  Eu1       1.0  0.31089040637016296  0.5443593859672546  0.030842959880828857  1.0000
+  Ga  Ga2       1.0  0.3111065924167633  0.04927920922636986  0.8823519349098206  1.0000
+  Eu  Eu2       1.0  0.8107285499572754  0.7737636566162109  0.6717774868011475  1.0000
+  Eu  Eu3       1.0  0.8109971284866333  0.04447142779827118  0.1715555489063263  1.0000
+  Eu  Eu4       1.0  0.31075888872146606  0.27361008524894714  0.5308709144592285  1.0000
+  Ga  Ga3       1.0  0.3110479712486267  0.7697126865386962  0.3825475871562958  1.0000
+  Ga  Ga4       1.0  0.8104375004768372  0.27025654911994934  0.820991039276123  1.0000

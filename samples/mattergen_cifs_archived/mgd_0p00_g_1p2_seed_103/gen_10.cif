@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Ca3GeCaITeI
+_chemical_formula_sum              "Ca4 Ge1 I2 Te1"
+_cell_length_a       6.2870219811304695
+_cell_length_b       6.2853494433107935
+_cell_length_c       8.027555465698242
+_cell_angle_alpha    112.98622542757712
+_cell_angle_beta     113.00530308034665
+_cell_angle_gamma    89.94943834574109
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ca  Ca1       1.0  0.49541342258453375  0.3624800145626068  0.815586268901825  1.0000
+  Ca  Ca2       1.0  0.013776966370642187  0.8806451559066772  0.8528027534484863  1.0000
+  Ca  Ca3       1.0  0.2893207371234894  0.6559243202209474  0.4035444557666779  1.0000
+  Ge  Ge1       1.0  0.504427433013916  0.8709501028060914  0.8338624238967897  1.0000
+  Ca  Ca4       1.0  0.7198868989944458  0.08653102070093155  0.2644500732421875  1.0000
+  I   I1        1.0  0.7555237412452698  0.6214742064476013  0.3343332409858704  1.0000
+  Te  Te1       1.0  0.2545280158519745  0.1215260997414589  0.33428165316581726  1.0000
+  I   I2        1.0  0.004807096906006346  0.37076458334922796  0.8341760039329529  1.0000

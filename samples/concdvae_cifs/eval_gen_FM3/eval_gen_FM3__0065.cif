@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_NaGdYNbCuClO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.18073225
+_cell_length_b   6.07234907
+_cell_length_c   6.24533844
+_cell_angle_alpha   67.00245667
+_cell_angle_beta   66.28070831
+_cell_angle_gamma   67.67381287
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaGdYNbCuClO6
+_chemical_formula_sum   'Na1 Gd1 Y1 Nb1 Cu1 Cl1 O6'
+_cell_volume   190.51818510
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.03942229  0.92650419  0.75379527  1
+  O  O1  1  0.99185419  0.51876384  0.27366644  1
+  Y  Y2  1  0.90904438  0.75988579  0.55909145  1
+  O  O3  1  0.75066435  0.51947194  0.94207537  1
+  O  O4  1  0.56667924  0.69964200  0.55242074  1
+  Cl  Cl5  1  0.39941582  0.14470111  0.91094863  1
+  O  O6  1  0.32342589  0.58550656  0.34876430  1
+  O  O7  1  0.77945364  0.13586214  0.30993581  1
+  Gd  Gd8  1  0.31461018  0.65907508  0.94725883  1
+  Na  Na9  1  0.32130319  0.13453656  0.43118712  1
+  Cu  Cu10  1  0.86427724  0.15759405  0.95312428  1
+  Nb  Nb11  1  0.68582982  0.49475798  0.30446738  1

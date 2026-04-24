@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_CsTbYTi2(ClO2)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.03009987
+_cell_length_b   5.43863630
+_cell_length_c   8.89972019
+_cell_angle_alpha   91.96016693
+_cell_angle_beta   89.94955444
+_cell_angle_gamma   91.00096130
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsTbYTi2(ClO2)3
+_chemical_formula_sum   'Cs1 Tb1 Y1 Ti2 Cl3 O6'
+_cell_volume   243.28900387
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.32319444  0.89932978  0.05966964  1
+  Tb  Tb1  1  0.33059525  0.88667798  0.32527545  1
+  Y  Y2  1  0.33057043  0.89171451  0.68411475  1
+  O  O3  1  0.55637711  0.11672241  0.51933479  1
+  Cl  Cl4  1  0.33273867  0.39084733  0.79784685  1
+  Cl  Cl5  1  0.83014607  0.88966864  0.79428416  1
+  O  O6  1  0.10887998  0.66101629  0.51740795  1
+  O  O7  1  0.10261716  0.11647081  0.52258092  1
+  O  O8  1  0.83187860  0.88837999  0.30003095  1
+  Cs  Cs9  1  0.83018798  0.39238539  0.06099211  1
+  O  O10  1  0.55852330  0.66359317  0.52124393  1
+  Ti  Ti11  1  0.33184290  0.39212874  0.48506060  1
+  O  O12  1  0.32408679  0.38864896  0.30434018  1
+  Ti  Ti13  1  0.83601511  0.88842684  0.48893407  1

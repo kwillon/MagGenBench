@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CsThO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.70336962
+_cell_length_b   6.01217365
+_cell_length_c   8.06078911
+_cell_angle_alpha   103.85158539
+_cell_angle_beta   104.84854126
+_cell_angle_gamma   108.06901550
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsThO3
+_chemical_formula_sum   'Cs2 Th2 O6'
+_cell_volume   238.21164064
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.07820813  0.57436186  0.17127337  1
+  O  O1  1  0.43301326  0.42910460  0.88008422  1
+  O  O2  1  0.21422246  0.21943164  0.44696268  1
+  O  O3  1  0.72172904  0.72048104  0.45556128  1
+  O  O4  1  0.82077914  0.32014835  0.66556060  1
+  O  O5  1  0.32321104  0.82283908  0.66617900  1
+  Cs  Cs6  1  0.57938170  0.08092647  0.16763638  1
+  Th  Th7  1  0.57716405  0.57145202  0.66843522  1
+  O  O8  1  0.93820655  0.93091965  0.88734269  1
+  Th  Th9  1  0.08001913  0.07541664  0.66827548  1

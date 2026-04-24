@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Hg2EuNd
+_chemical_formula_sum              "Hg2 Eu1 Nd1"
+_cell_length_a       3.925192123712085
+_cell_length_b       5.554258540597659
+_cell_length_c       5.554906845092773
+_cell_angle_alpha    90.0151450344351
+_cell_angle_beta     89.99682646635685
+_cell_angle_gamma    90.00974235500343
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Hg  Hg1       1.0  0.5525198578834534  0.23264764249324799  0.10777135193347931  1.0000
+  Hg  Hg2       1.0  0.552497923374176  0.7327286005020143  0.6070016622543335  1.0000
+  Eu  Eu1       1.0  0.052306946367025375  0.7329739332199097  0.10698381811380386  1.0000
+  Nd  Nd1       1.0  0.052257683128118515  0.23241037130355835  0.6070120930671692  1.0000

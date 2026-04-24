@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_K2Li2CdInN2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.04333401
+_cell_length_b   6.06200361
+_cell_length_c   6.10294199
+_cell_angle_alpha   72.23762512
+_cell_angle_beta   68.27207947
+_cell_angle_gamma   66.75524139
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2Li2CdInN2
+_chemical_formula_sum   'K2 Li2 Cd1 In1 N2'
+_cell_volume   187.49665827
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.12573041  0.06457280  0.51824534  1
+  K  K1  1  0.64318168  0.78904408  0.78136069  1
+  N  N2  1  0.63468564  0.20783646  0.37534392  1
+  Li  Li3  1  0.88627738  0.42436340  0.14981642  1
+  Cd  Cd4  1  0.88413477  0.92443097  0.14735824  1
+  N  N5  1  0.13459925  0.64314127  0.92699200  1
+  Li  Li6  1  0.38039249  0.42912924  0.14531532  1
+  In  In7  1  0.38698834  0.43026590  0.64949012  1

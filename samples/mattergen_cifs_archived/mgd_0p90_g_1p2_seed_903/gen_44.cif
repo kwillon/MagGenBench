@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       EuBaEu2
+_chemical_formula_sum              "Eu3 Ba1"
+_cell_length_a       4.381825948073626
+_cell_length_b       4.378735278357222
+_cell_length_c       9.540664672851562
+_cell_angle_alpha    90.06240310582771
+_cell_angle_beta     90.02739839238058
+_cell_angle_gamma    90.17514905235195
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Eu  Eu1       1.0  0.267219215631485  0.7228400111198425  0.5029297471046448  1.0000
+  Ba  Ba1       1.0  0.26777005195617676  0.7224931120872498  0.00351127702742815  1.0000
+  Eu  Eu2       1.0  0.7674478888511658  0.22224415838718414  0.27843502163887024  1.0000
+  Eu  Eu3       1.0  0.7681784629821777  0.22262060642242432  0.7268961071968079  1.0000

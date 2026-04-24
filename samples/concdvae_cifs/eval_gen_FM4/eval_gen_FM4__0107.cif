@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_BaUAlSiClO7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.20565653
+_cell_length_b   5.47697496
+_cell_length_c   7.79677486
+_cell_angle_alpha   103.81912231
+_cell_angle_beta   100.43932343
+_cell_angle_gamma   114.29447174
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaUAlSiClO7
+_chemical_formula_sum   'Ba1 U1 Al1 Si1 Cl1 O7'
+_cell_volume   186.67968233
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.24777760  0.05394474  0.89371735  1
+  Ba  Ba1  1  0.93913019  0.85293424  0.19068672  1
+  O  O2  1  0.80993128  0.26017922  0.89474261  1
+  O  O3  1  0.84503102  0.73800534  0.53325516  1
+  O  O4  1  0.46139741  0.70486718  0.89001095  1
+  Cl  Cl5  1  0.29234606  0.56492358  0.26596242  1
+  Al  Al6  1  0.68234825  0.36443812  0.45178169  1
+  U  U7  1  0.10699493  0.20696838  0.71711332  1
+  O  O8  1  0.37998635  0.21139657  0.52805656  1
+  O  O9  1  0.90481889  0.27275380  0.52672940  1
+  O  O10  1  0.60424775  0.19483577  0.19852069  1
+  Si  Si11  1  0.53489262  0.05310058  0.96906239  1

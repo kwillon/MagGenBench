@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_LiCa2FeBi(PO4)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.70771503
+_cell_length_b   6.66763544
+_cell_length_c   7.59465027
+_cell_angle_alpha   74.02718353
+_cell_angle_beta   76.09432220
+_cell_angle_gamma   71.47311401
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiCa2FeBi(PO4)3
+_chemical_formula_sum   'Li1 Ca2 Fe1 Bi1 P3 O12'
+_cell_volume   259.73784097
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.44996679  0.90331429  0.14164834  1
+  Bi  Bi1  1  0.51434261  0.22194816  0.15967529  1
+  O  O2  1  0.71827179  0.76846421  0.75967801  1
+  O  O3  1  0.14420217  0.74807250  0.46379703  1
+  O  O4  1  0.69729149  0.45831591  0.55857408  1
+  Ca  Ca5  1  0.21248689  0.08582800  0.88066274  1
+  O  O6  1  0.02538814  0.32119828  0.29334390  1
+  O  O7  1  0.43732920  0.54491633  0.23066005  1
+  P  P8  1  0.98166072  0.83946341  0.64083987  1
+  O  O9  1  0.02529532  0.84235036  0.15201797  1
+  Fe  Fe10  1  0.56186479  0.53479511  0.79178345  1
+  O  O11  1  0.18651663  0.25594574  0.58412975  1
+  O  O12  1  0.34091565  0.35428828  0.94147712  1
+  Li  Li13  1  0.37853828  0.45279774  0.50196862  1
+  P  P14  1  0.25848132  0.76668715  0.24063034  1
+  O  O15  1  0.80530787  0.34334314  0.95283031  1
+  O  O16  1  0.85539913  0.07985768  0.58153111  1
+  Ca  Ca17  1  0.89961267  0.59429181  0.04548433  1
+  P  P18  1  0.95258147  0.28691846  0.50106758  1
+  O  O19  1  0.18715647  0.77815568  0.76707470  1

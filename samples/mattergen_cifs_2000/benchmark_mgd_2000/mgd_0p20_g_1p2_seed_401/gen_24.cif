@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       Fe8Co
+_chemical_formula_sum              "Fe8 Co1"
+_cell_length_a       2.856821065715435
+_cell_length_b       6.23366239662275
+_cell_length_c       6.236022472381592
+_cell_angle_alpha    86.93262610801064
+_cell_angle_beta     76.63703794160513
+_cell_angle_gamma    76.6559921835107
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.047418396919965744  0.43381550908088684  0.643245279788971  1.0000
+  Fe  Fe2       1.0  0.7151264548301697  0.100192129611969  0.6415668725967407  1.0000
+  Fe  Fe3       1.0  0.381171613931656  0.7676618099212646  0.6414123177528381  1.0000
+  Fe  Fe4       1.0  0.7150956392288208  0.4337583482265473  0.3077068626880646  1.0000
+  Fe  Fe5       1.0  0.38140207529067993  0.10003228485584259  0.30918118357658386  1.0000
+  Fe  Fe6       1.0  0.04751226678490639  0.7675961256027222  0.30896684527397156  1.0000
+  Fe  Fe7       1.0  0.04762878641486167  0.10153396427631378  0.9755095243453978  1.0000
+  Fe  Fe8       1.0  0.7149865031242371  0.7661389708518982  0.9756300449371337  1.0000
+  Co  Co1       1.0  0.38135138154029846  0.43376803398132324  0.9754849076271056  1.0000

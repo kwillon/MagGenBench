@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       GdFe4Rh
+_chemical_formula_sum              "Gd1 Fe4 Rh1"
+_cell_length_a       3.9852218847088094
+_cell_length_b       4.986902341700682
+_cell_length_c       5.229287624359131
+_cell_angle_alpha    118.62907351103745
+_cell_angle_beta     90.05975982097533
+_cell_angle_gamma    90.01961881039938
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Gd  Gd1       1.0  0.4215813875198365  0.3086993396282196  0.4739888012409211  1.0000
+  Fe  Fe1       1.0  0.4214597046375275  0.6327711939811707  0.12046723067760469  1.0000
+  Fe  Fe2       1.0  0.9213258624076844  0.30887648463249207  0.9739310145378114  1.0000
+  Fe  Fe3       1.0  0.421317607164383  0.9853196740150452  0.8271133899688721  1.0000
+  Fe  Fe4       1.0  0.9213544726371766  0.8090109825134277  0.9741690754890443  1.0000
+  Rh  Rh1       1.0  0.9217134714126588  0.8087711334228516  0.47383549809455877  1.0000

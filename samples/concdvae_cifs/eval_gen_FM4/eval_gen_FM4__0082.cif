@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_NaAl3OF8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.61688423
+_cell_length_b   4.17652702
+_cell_length_c   11.78536797
+_cell_angle_alpha   88.82060242
+_cell_angle_beta   91.18432617
+_cell_angle_gamma   90.00181580
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaAl3OF8
+_chemical_formula_sum   'Na1 Al3 O1 F8'
+_cell_volume   177.95418898
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.43369853  0.90208697  0.13444373  1
+  Al  Al1  1  0.93555629  0.90844417  0.11022290  1
+  F  F2  1  0.94234020  0.89442247  0.62115914  1
+  F  F3  1  0.93743801  0.89250267  0.94519019  1
+  F  F4  1  0.93786138  0.39961389  0.12354331  1
+  F  F5  1  0.43534490  0.88894957  0.78560716  1
+  F  F6  1  0.93593943  0.39668733  0.78209931  1
+  F  F7  1  0.43836087  0.88852316  0.45648161  1
+  F  F8  1  0.94421005  0.38576162  0.45536262  1
+  F  F9  1  0.94393170  0.89790916  0.29701981  1
+  Al  Al10  1  0.93894929  0.89249569  0.78547519  1
+  Na  Na11  1  0.43325427  0.39889362  0.26087263  1
+  Al  Al12  1  0.93614399  0.88692153  0.45790124  1

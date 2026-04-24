@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Ti2VHgCl(OF)5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.17392254
+_cell_length_b   5.75531435
+_cell_length_c   8.99653912
+_cell_angle_alpha   90.31986237
+_cell_angle_beta   90.81818390
+_cell_angle_gamma   97.37189484
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti2VHgCl(OF)5
+_chemical_formula_sum   'Ti2 V1 Hg1 Cl1 O5 F5'
+_cell_volume   265.64602426
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.41130039  0.24774967  0.13578157  1
+  F  F1  1  0.82890755  0.79190183  0.14374347  1
+  Cl  Cl2  1  0.31571054  0.85163951  0.36595228  1
+  Hg  Hg3  1  0.66402274  0.52685869  0.32884809  1
+  F  F4  1  0.95009774  0.14267182  0.94245988  1
+  Ti  Ti5  1  0.10079617  0.04800058  0.15000020  1
+  O  O6  1  0.59815007  0.48559731  0.86216849  1
+  O  O7  1  0.07908212  0.53012389  0.74683011  1
+  F  F8  1  0.93284565  0.05508269  0.61656743  1
+  F  F9  1  0.56833261  0.38266918  0.56773907  1
+  O  O10  1  0.27779025  0.77194858  0.01680166  1
+  Ti  Ti11  1  0.75517511  0.26146406  0.73394114  1
+  O  O12  1  0.98129797  0.25624859  0.27064189  1
+  V  V13  1  0.36300582  0.68960595  0.84858227  1
+  O  O14  1  0.48653966  0.97035873  0.76730335  1

@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_LaGd2HoHf(ClO4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.39294291
+_cell_length_b   5.69541359
+_cell_length_c   9.50017357
+_cell_angle_alpha   96.75821686
+_cell_angle_beta   92.99212646
+_cell_angle_gamma   108.17407990
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaGd2HoHf(ClO4)2
+_chemical_formula_sum   'La1 Gd2 Ho1 Hf1 Cl2 O8'
+_cell_volume   274.09003176
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.74248928  0.60774851  0.26885772  1
+  O  O1  1  0.26102543  0.67397064  0.55977690  1
+  Ho  Ho2  1  0.57003754  0.24297822  0.99367923  1
+  O  O3  1  0.24265938  0.08149648  0.80715555  1
+  Gd  Gd4  1  0.05538682  0.34808314  0.70702165  1
+  Gd  Gd5  1  0.91815782  0.87607324  0.96659064  1
+  Cl  Cl6  1  0.32263315  0.61699820  0.00497167  1
+  Hf  Hf7  1  0.44425413  0.01317552  0.62447953  1
+  O  O8  1  0.25139928  0.10592251  0.14338161  1
+  O  O9  1  0.79969466  0.51525122  0.83972549  1
+  La  La10  1  0.09497804  0.33726159  0.31325203  1
+  O  O11  1  0.26110083  0.18268719  0.50927252  1
+  O  O12  1  0.76652187  0.17848620  0.51041967  1
+  O  O13  1  0.80418819  0.12864050  0.12473997  1
+  O  O14  1  0.70532805  0.03352657  0.80297583  1

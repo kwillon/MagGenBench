@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       KRbZn2Rh2As2
+_chemical_formula_sum              "K1 Rb1 Zn2 Rh2 As2"
+_cell_length_a       4.007368089600287
+_cell_length_b       4.009310277319871
+_cell_length_c       13.151427268981934
+_cell_angle_alpha    89.99278299490318
+_cell_angle_beta     89.99826763650304
+_cell_angle_gamma    90.03523261752284
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  K   K1        1.0  0.14224760234355927  0.4496930241584778  0.20354895293712616  1.0000
+  Rb  Rb1       1.0  0.6422945261001587  0.9494826197624207  0.6809480786323547  1.0000
+  Zn  Zn1       1.0  0.6424202919006348  0.449350506067276  0.43740329146385193  1.0000
+  Zn  Zn2       1.0  0.14232265949249268  0.9497935175895691  0.43811070919036865  1.0000
+  Rh  Rh1       1.0  0.6422234773635864  0.4495052099227905  0.9497991800308228  1.0000
+  Rh  Rh2       1.0  0.1421755850315094  0.9494978189468384  0.9495468139648438  1.0000
+  As  As1       1.0  0.6419934630393982  0.9497210383415222  0.058625344187021255  1.0000
+  As  As2       1.0  0.14225292205810547  0.4500448703765869  0.8398685455322266  1.0000

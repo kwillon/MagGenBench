@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       Eu2N2Fe
+_chemical_formula_sum              "Eu2 N2 Fe1"
+_cell_length_a       3.6778243189482676
+_cell_length_b       3.6778360533337233
+_cell_length_c       6.7074995040893555
+_cell_angle_alpha    105.92130342601949
+_cell_angle_beta     105.8966646321752
+_cell_angle_gamma    90.00123243282098
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Eu  Eu1       1.0  0.9996809959411621  0.6851578950881958  0.12671044468879697  1.0000
+  Eu  Eu2       1.0  0.3009010851383209  0.9856200814247131  0.7274246215820312  1.0000
+  N   N1        1.0  0.5016636848449707  0.1867215484380722  0.12971273064613342  1.0000
+  N   N2        1.0  0.799034059047699  0.48440152406692505  0.7244714498519897  1.0000
+  Fe  Fe1       1.0  0.6502530574798584  0.3353478908538818  0.42693445086479187  1.0000

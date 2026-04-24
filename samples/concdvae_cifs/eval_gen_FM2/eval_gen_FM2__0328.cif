@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Ba2CaBiO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.85345030
+_cell_length_b   6.79602051
+_cell_length_c   6.54965544
+_cell_angle_alpha   58.42735672
+_cell_angle_beta   60.26697540
+_cell_angle_gamma   59.97658157
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2CaBiO6
+_chemical_formula_sum   'Ba2 Ca1 Bi1 O6'
+_cell_volume   213.40827759
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.40400022  0.18640752  0.68901616  1
+  Bi  Bi1  1  0.16317348  0.42874819  0.44093096  1
+  O  O2  1  0.91943502  0.66683257  0.68490469  1
+  O  O3  1  0.40573186  0.67444974  0.19579965  1
+  Ba  Ba4  1  0.41364792  0.68075722  0.69199002  1
+  Ba  Ba5  1  0.91123515  0.18151702  0.18845150  1
+  Ca  Ca6  1  0.66106170  0.92777586  0.94632751  1
+  O  O7  1  0.40785366  0.18602537  0.19633944  1
+  O  O8  1  0.91516328  0.18656585  0.68762714  1
+  O  O9  1  0.91640854  0.67201239  0.20042640  1

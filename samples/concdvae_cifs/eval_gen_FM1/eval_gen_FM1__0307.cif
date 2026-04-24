@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Na2CaZrGaSi2Se9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.49426222
+_cell_length_b   7.40192461
+_cell_length_c   7.75675392
+_cell_angle_alpha   91.64572906
+_cell_angle_beta   107.92987823
+_cell_angle_gamma   108.71778870
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2CaZrGaSi2Se9
+_chemical_formula_sum   'Na2 Ca1 Zr1 Ga1 Si2 Se9'
+_cell_volume   383.83165302
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.00033998  0.96558702  0.82527381  1
+  Se  Se1  1  0.91645586  0.80983734  0.22739527  1
+  Na  Na2  1  0.11052075  0.68291724  0.58664465  1
+  Se  Se3  1  0.41882536  0.85251039  0.11663473  1
+  Se  Se4  1  0.39857590  0.06241117  0.59163344  1
+  Se  Se5  1  0.67008507  0.42301103  0.40417191  1
+  Se  Se6  1  0.51576900  0.62902021  0.74214178  1
+  Ca  Ca7  1  0.66654527  0.87258226  0.47634298  1
+  Na  Na8  1  0.72006083  0.12480818  0.98380268  1
+  Se  Se9  1  0.12779041  0.34970480  0.33080536  1
+  Ga  Ga10  1  0.23250748  0.51452142  0.08956803  1
+  Si  Si11  1  0.84469390  0.69754153  0.91599631  1
+  Se  Se12  1  0.94216454  0.44685715  0.83762830  1
+  Si  Si13  1  0.42904869  0.36601934  0.53184205  1
+  Se  Se14  1  0.46138251  0.34010184  0.08921243  1
+  Zr  Zr15  1  0.23272292  0.06294348  0.20421809  1

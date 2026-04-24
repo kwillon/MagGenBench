@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_LiIn3Cu2O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.71362162
+_cell_length_b   5.55833292
+_cell_length_c   6.33118486
+_cell_angle_alpha   81.47220612
+_cell_angle_beta   69.42039490
+_cell_angle_gamma   76.97297668
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiIn3Cu2O7
+_chemical_formula_sum   'Li1 In3 Cu2 O7'
+_cell_volume   182.86511293
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.26357174  0.30178243  0.62169373  1
+  Cu  Cu1  1  0.77595073  0.82989788  0.69314444  1
+  In  In2  1  0.93182468  0.29392669  0.89625555  1
+  Li  Li3  1  0.32575363  0.63588607  0.07155921  1
+  In  In4  1  0.61203212  0.40166706  0.48435175  1
+  O  O5  1  0.99027902  0.49106419  0.19166650  1
+  O  O6  1  0.10013388  0.96148908  0.07264522  1
+  O  O7  1  0.61358553  0.18737358  0.18091130  1
+  Cu  Cu8  1  0.79312932  0.83953619  0.18822007  1
+  In  In9  1  0.23196591  0.10786220  0.32955146  1
+  O  O10  1  0.63956356  0.57044351  0.78839988  1
+  O  O11  1  0.87908876  0.10163978  0.60187376  1
+  O  O12  1  0.48238325  0.73460895  0.30816191  1

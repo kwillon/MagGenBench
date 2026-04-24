@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_Co2NiGe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.03329134
+_cell_length_b   3.00892043
+_cell_length_c   7.65871429
+_cell_angle_alpha   97.59834290
+_cell_angle_beta   100.32650757
+_cell_angle_gamma   93.26983643
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Co2NiGe2
+_chemical_formula_sum   'Co2 Ni1 Ge2'
+_cell_volume   67.93045169
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.19429877  0.09201854  0.89698863  1
+  Co  Co1  1  0.80506808  0.68116999  0.10493025  1
+  Co  Co2  1  0.60243207  0.47749284  0.70495296  1
+  Ge  Ge3  1  0.40465713  0.29016712  0.30993930  1
+  Ni  Ni4  1  0.00992030  0.89552426  0.50548643  1

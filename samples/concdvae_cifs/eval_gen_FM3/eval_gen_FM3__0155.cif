@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_NaCaEu2Ta2GeO11
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.42414045
+_cell_length_b   5.72184467
+_cell_length_c   10.39517498
+_cell_angle_alpha   110.43156433
+_cell_angle_beta   100.42759705
+_cell_angle_gamma   105.05657959
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaCaEu2Ta2GeO11
+_chemical_formula_sum   'Na1 Ca1 Eu2 Ta2 Ge1 O11'
+_cell_volume   278.48228588
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Eu  Eu0  1  0.21145877  0.80369896  0.02425317  1
+  O  O1  1  0.07126087  0.72954446  0.24308316  1
+  O  O2  1  0.07139590  0.16105060  0.18809724  1
+  O  O3  1  0.75208139  0.62825698  0.94450247  1
+  Ta  Ta4  1  0.91188651  0.45175019  0.57709813  1
+  O  O5  1  0.59883451  0.32620791  0.64608324  1
+  O  O6  1  0.85903227  0.78956431  0.71233451  1
+  O  O7  1  0.97549230  0.11523263  0.47945148  1
+  Na  Na8  1  0.75107640  0.34944522  0.09175278  1
+  Ca  Ca9  1  0.23669396  0.06656540  0.69412518  1
+  Ge  Ge10  1  0.90702581  0.96417505  0.27917111  1
+  O  O11  1  0.28266144  0.65444559  0.57748711  1
+  Ta  Ta12  1  0.56242782  0.67095560  0.78425723  1
+  O  O13  1  0.47835156  0.98012948  0.89064509  1
+  Eu  Eu14  1  0.36449492  0.55824947  0.34066030  1
+  O  O15  1  0.19670036  0.47532734  0.78074861  1
+  O  O16  1  0.73182023  0.43026939  0.39594567  1
+  O  O17  1  0.57098150  0.79943717  0.20836499  1

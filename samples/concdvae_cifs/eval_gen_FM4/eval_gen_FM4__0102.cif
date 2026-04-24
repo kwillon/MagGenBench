@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CeMgSiBO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.81615114
+_cell_length_b   4.51397085
+_cell_length_c   6.12936211
+_cell_angle_alpha   99.12632751
+_cell_angle_beta   91.92967987
+_cell_angle_gamma   102.41712952
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CeMgSiBO6
+_chemical_formula_sum   'Ce1 Mg1 Si1 B1 O6'
+_cell_volume   101.55738196
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.40058088  0.84880793  0.41919297  1
+  O  O1  1  0.72596180  0.06265182  0.30955303  1
+  Ce  Ce2  1  0.00716694  0.41246003  0.69521350  1
+  Mg  Mg3  1  0.56847990  0.36376652  0.14621679  1
+  O  O4  1  0.07180697  0.73101246  0.21761113  1
+  O  O5  1  0.59171051  0.63679719  0.93419200  1
+  O  O6  1  0.51292038  0.55962908  0.46524790  1
+  B  B7  1  0.85799372  0.89615160  0.09650491  1
+  O  O8  1  0.03292024  0.15019156  0.00172795  1
+  O  O9  1  0.36799133  0.06900038  0.63760948  1

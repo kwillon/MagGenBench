@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Ba2Sm3UMnAgSe10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.82819557
+_cell_length_b   7.93054342
+_cell_length_c   9.43597317
+_cell_angle_alpha   113.74343872
+_cell_angle_beta   110.20028687
+_cell_angle_gamma   90.51573944
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2Sm3UMnAgSe10
+_chemical_formula_sum   'Ba2 Sm3 U1 Mn1 Ag1 Se10'
+_cell_volume   495.70861210
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.46787363  0.39996499  0.04401267  1
+  Ba  Ba1  1  0.69960850  0.13003461  0.81415170  1
+  Ag  Ag2  1  0.70033634  0.63593227  0.82032079  1
+  Se  Se3  1  0.65515697  0.92037368  0.06130624  1
+  Mn  Mn4  1  0.19605759  0.13213719  0.81101382  1
+  Se  Se5  1  0.16155384  0.09656319  0.04941923  1
+  Sm  Sm6  1  0.78875953  0.72616124  0.31273749  1
+  Se  Se7  1  0.72982174  0.66143233  0.56329930  1
+  Se  Se8  1  0.94568998  0.38321543  0.31571099  1
+  Ba  Ba9  1  0.19600265  0.63218397  0.81484872  1
+  Se  Se10  1  0.92212707  0.17371044  0.57994699  1
+  Sm  Sm11  1  0.09972265  0.03787509  0.31607726  1
+  Se  Se12  1  0.97557944  0.59902370  0.05793959  1
+  Sm  Sm13  1  0.29482710  0.53923488  0.31678602  1
+  Se  Se14  1  0.45150113  0.88769674  0.31563711  1
+  Se  Se15  1  0.24186465  0.86101228  0.58156765  1
+  U  U16  1  0.60293603  0.23248649  0.31714004  1
+  Se  Se17  1  0.41813490  0.34960577  0.56552297  1

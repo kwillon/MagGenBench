@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Ba2DySiO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.35328150
+_cell_length_b   5.23812437
+_cell_length_c   5.72897911
+_cell_angle_alpha   87.03539276
+_cell_angle_beta   95.80841827
+_cell_angle_gamma   98.64686584
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2DySiO6
+_chemical_formula_sum   'Ba2 Dy1 Si1 O6'
+_cell_volume   157.89695611
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.80024773  0.17031845  0.40725875  1
+  O  O1  1  0.24856716  0.16406828  0.40198943  1
+  Si  Si2  1  0.02199176  0.09995550  0.62701482  1
+  Ba  Ba3  1  0.50918430  0.63703167  0.62586647  1
+  O  O4  1  0.23183705  0.18043487  0.84864116  1
+  Ba  Ba5  1  0.01873834  0.63878542  0.12462352  1
+  Dy  Dy6  1  0.52394801  0.14446807  0.12432778  1
+  O  O7  1  0.01933028  0.73797548  0.62632418  1
+  O  O8  1  0.52761263  0.64823860  0.12708011  1
+  O  O9  1  0.79577512  0.15376070  0.84557647  1

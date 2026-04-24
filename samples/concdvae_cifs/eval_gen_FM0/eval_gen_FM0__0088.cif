@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Li5Ca6In2Ag2Sb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.30013227
+_cell_length_b   8.84152603
+_cell_length_c   9.36161804
+_cell_angle_alpha   117.45588684
+_cell_angle_beta   93.14524078
+_cell_angle_gamma   90.82793427
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li5Ca6In2Ag2Sb
+_chemical_formula_sum   'Li5 Ca6 In2 Ag2 Sb1'
+_cell_volume   461.57100850
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.25987598  0.46234331  0.40035897  1
+  Ca  Ca1  1  0.76167232  0.66021365  0.97414434  1
+  Ag  Ag2  1  0.00617030  0.97526973  0.90517688  1
+  Li  Li3  1  0.26557666  0.64868462  0.77055740  1
+  Ca  Ca4  1  0.75849611  0.68597388  0.58889610  1
+  Ca  Ca5  1  0.25699624  0.35847020  0.97047508  1
+  Li  Li6  1  0.50569999  0.65891474  0.27197996  1
+  Li  Li7  1  0.75273418  0.17023206  0.76876312  1
+  Li  Li8  1  0.00528428  0.66211361  0.27543163  1
+  Ca  Ca9  1  0.25751129  0.95393753  0.58555722  1
+  Ag  Ag10  1  0.50736505  0.31833345  0.58928996  1
+  Ca  Ca11  1  0.25973639  0.99480885  0.21696134  1
+  In  In12  1  0.76163280  0.99301392  0.40608859  1
+  Sb  Sb13  1  0.50666910  0.97595036  0.90639341  1
+  Ca  Ca14  1  0.75089508  0.27666041  0.21510074  1
+  Li  Li15  1  0.01210365  0.32220221  0.59336448  1

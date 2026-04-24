@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Na2Li3LuPaInCuNiO10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.55543375
+_cell_length_b   6.30914879
+_cell_length_c   7.80177498
+_cell_angle_alpha   88.67038727
+_cell_angle_beta   86.00094604
+_cell_angle_gamma   88.28974152
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2Li3LuPaInCuNiO10
+_chemical_formula_sum   'Na2 Li3 Lu1 Pa1 In1 Cu1 Ni1 O10'
+_cell_volume   223.53433624
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.01927778  0.99600393  0.86012989  1
+  O  O1  1  0.51198244  0.49899638  0.41078433  1
+  Pa  Pa2  1  0.51334113  0.40993467  0.66969198  1
+  Na  Na3  1  0.02374949  0.08489201  0.54637420  1
+  O  O4  1  0.01500273  0.20649800  0.22762188  1
+  Na  Na5  1  0.50944364  0.20066144  0.24220523  1
+  Cu  Cu6  1  0.01622293  0.71965337  0.75834656  1
+  O  O7  1  0.52040285  0.10518049  0.59883928  1
+  Li  Li8  1  0.50588983  0.60678548  0.01023843  1
+  Li  Li9  1  0.00777376  0.30237323  0.97342074  1
+  Ni  Ni10  1  0.51084083  0.01231010  0.84905446  1
+  In  In11  1  0.01036577  0.50774771  0.33204293  1
+  O  O12  1  0.50988704  0.89562410  0.08620586  1
+  O  O13  1  0.51003039  0.70852721  0.74464256  1
+  O  O14  1  0.01147029  0.44154298  0.65250474  1
+  Li  Li15  1  0.54004562  0.81205201  0.48662063  1
+  O  O16  1  0.01791767  0.58780640  0.07405216  1
+  Lu  Lu17  1  0.01146260  0.90385944  0.13753347  1
+  O  O18  1  0.51412517  0.32003036  0.91909713  1
+  O  O19  1  0.00057054  0.80517370  0.39549959  1

@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Rb2ZnHgGeBi(ClO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.62615061
+_cell_length_b   6.72865677
+_cell_length_c   7.04168320
+_cell_angle_alpha   84.81192017
+_cell_angle_beta   85.59027100
+_cell_angle_gamma   85.91636658
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Rb2ZnHgGeBi(ClO3)2
+_chemical_formula_sum   'Rb2 Zn1 Hg1 Ge1 Bi1 Cl2 O6'
+_cell_volume   311.08882288
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.78610629  0.51216227  0.74863058  1
+  O  O1  1  0.30858967  0.02247684  0.78529167  1
+  O  O2  1  0.88047212  0.95437032  0.04186244  1
+  Ge  Ge3  1  0.08705238  0.85816967  0.87652713  1
+  O  O4  1  0.93892437  0.76744413  0.68357605  1
+  Hg  Hg5  1  0.56184602  0.85659325  0.02192850  1
+  O  O6  1  0.51170194  0.42505133  0.66411924  1
+  O  O7  1  0.26293710  0.68784165  0.98089147  1
+  Cl  Cl8  1  0.75309467  0.47497764  0.09560746  1
+  Rb  Rb9  1  0.21758687  0.59183139  0.37380892  1
+  Cl  Cl10  1  0.30667356  0.09667571  0.25670493  1
+  Bi  Bi11  1  0.25738779  0.32127237  0.86323649  1
+  O  O12  1  0.00942609  0.33793378  0.66848272  1
+  Rb  Rb13  1  0.77002460  0.10294872  0.45292217  1

@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_SmZnGa
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.72348213
+_cell_length_b   5.84212589
+_cell_length_c   5.63907003
+_cell_angle_alpha   70.03946686
+_cell_angle_beta   65.84109497
+_cell_angle_gamma   63.95606995
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SmZnGa
+_chemical_formula_sum   'Sm2 Zn2 Ga2'
+_cell_volume   125.05898213
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sm  Sm0  1  0.48613250  0.30211633  0.30071738  1
+  Sm  Sm1  1  0.40512463  0.87691391  0.87977642  1
+  Zn  Zn2  1  0.10081694  0.88207453  0.47475284  1
+  Ga  Ga3  1  0.11275935  0.46673584  0.87819648  1
+  Zn  Zn4  1  0.78148532  0.29809713  0.70127362  1
+  Ga  Ga5  1  0.77842420  0.70863837  0.30424893  1

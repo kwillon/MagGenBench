@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       CrPdFePd
+_chemical_formula_sum              "Cr1 Pd2 Fe1"
+_cell_length_a       3.756268762370926
+_cell_length_b       3.8884225162654116
+_cell_length_c       3.890599250793457
+_cell_angle_alpha    90.00676439181143
+_cell_angle_beta     89.99370507026005
+_cell_angle_gamma    89.99879356104267
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.572847366538129  0.9023281344952502  0.3545756333595956  1.0000
+  Pd  Pd1       1.0  0.07270509706598206  0.402638137884857  0.35491576891533777  1.0000
+  Fe  Fe1       1.0  0.5726354713114159  0.40292126041161724  0.8551222686854781  1.0000
+  Pd  Pd2       1.0  0.07270369062233827  0.9025136827483452  0.8549117447018169  1.0000

@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_KMgTiF6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.75187302
+_cell_length_b   5.26676512
+_cell_length_c   6.66137981
+_cell_angle_alpha   107.75022125
+_cell_angle_beta   103.03855896
+_cell_angle_gamma   102.32875824
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KMgTiF6
+_chemical_formula_sum   'K1 Mg1 Ti1 F6'
+_cell_volume   147.35077175
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.52578294  0.78618842  0.50128210  1
+  F  F1  1  0.74181533  0.99997878  0.94453317  1
+  Ti  Ti2  1  0.88506818  0.13608876  0.72737819  1
+  Mg  Mg3  1  0.38226229  0.63672537  0.72034097  1
+  K  K4  1  0.87910122  0.63752592  0.22230957  1
+  F  F5  1  0.23952609  0.49500763  0.94945931  1
+  F  F6  1  0.64167017  0.38592532  0.73160106  1
+  F  F7  1  0.12537715  0.88699865  0.71734118  1
+  F  F8  1  0.01369771  0.27713156  0.50235921  1

@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       Fe2NiFeAsNiAsNi2
+_chemical_formula_sum              "Fe3 Ni4 As2"
+_cell_length_a       3.6637444555975427
+_cell_length_b       4.4289034798592235
+_cell_length_c       7.60341215133667
+_cell_angle_alpha    106.05759841677244
+_cell_angle_beta     90.00327416503619
+_cell_angle_gamma    114.48193262229748
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.3684810996055603  0.851058840751648  0.0892657786607742  1.0000
+  Fe  Fe2       1.0  0.7055377960205078  0.5254744291305541  0.5326487421989441  1.0000
+  Ni  Ni1       1.0  0.033949043601751314  0.1813681125640869  0.9780789017677308  1.0000
+  Fe  Fe3       1.0  0.3704701662063598  0.8540399074554442  0.4236041903495789  1.0000
+  As  As1       1.0  0.6928479075431824  0.49918186664581293  0.19326332211494449  1.0000
+  Ni  Ni2       1.0  0.03644964843988417  0.186678409576416  0.31480607390403753  1.0000
+  As  As2       1.0  0.04604961723089217  0.20583091676235196  0.6598506569862367  1.0000
+  Ni  Ni3       1.0  0.3677666783332824  0.8494921326637267  0.7603204846382142  1.0000
+  Ni  Ni4       1.0  0.7064282894134521  0.5264734029769896  0.8751068711280824  1.0000

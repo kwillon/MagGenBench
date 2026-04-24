@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Ba2LiY2Ni(GeO5)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.35412025
+_cell_length_b   5.64499664
+_cell_length_c   7.57977200
+_cell_angle_alpha   99.20446014
+_cell_angle_beta   95.79743195
+_cell_angle_gamma   90.78666687
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2LiY2Ni(GeO5)2
+_chemical_formula_sum   'Ba2 Li1 Y2 Ni1 Ge2 O10'
+_cell_volume   224.88027566
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.40388015  0.80919814  0.46627671  1
+  Ni  Ni1  1  0.40343741  0.31304005  0.21908468  1
+  O  O2  1  0.66788429  0.05192063  0.27425265  1
+  Ba  Ba3  1  0.41020384  0.80159277  0.95656145  1
+  O  O4  1  0.16922320  0.54053718  0.64884257  1
+  O  O5  1  0.63842714  0.54246920  0.65192312  1
+  O  O6  1  0.15518697  0.05138290  0.27558708  1
+  O  O7  1  0.64061958  0.06581261  0.64550507  1
+  Li  Li8  1  0.90340114  0.80608785  0.71277970  1
+  O  O9  1  0.40660447  0.30076745  0.94576436  1
+  Ge  Ge10  1  0.40769818  0.31085065  0.70184505  1
+  O  O11  1  0.16562797  0.06825726  0.65094978  1
+  O  O12  1  0.66402912  0.56603736  0.27147883  1
+  O  O13  1  0.15425850  0.56267780  0.27561718  1
+  Y  Y14  1  0.90571046  0.31311464  0.46606886  1
+  Ge  Ge15  1  0.90867794  0.80896658  0.21805194  1
+  O  O16  1  0.91231549  0.80136782  0.98220628  1
+  Ba  Ba17  1  0.90295690  0.29820740  0.95499671  1

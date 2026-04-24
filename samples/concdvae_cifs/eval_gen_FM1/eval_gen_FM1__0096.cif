@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Ba3InSe5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.58768272
+_cell_length_b   8.40560436
+_cell_length_c   8.38153934
+_cell_angle_alpha   117.61416626
+_cell_angle_beta   101.38984680
+_cell_angle_gamma   91.52561951
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba3InSe5
+_chemical_formula_sum   'Ba3 In1 Se5'
+_cell_volume   338.77223846
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.13502108  0.64045072  0.39626265  1
+  Se  Se1  1  0.94662672  0.44231859  0.99107587  1
+  Se  Se2  1  0.32537550  0.06057014  0.73729312  1
+  Se  Se3  1  0.57102007  0.82004040  0.24589539  1
+  Ba  Ba4  1  0.94163632  0.93707812  0.98644459  1
+  In  In5  1  0.44763935  0.44215134  0.99242061  1
+  Se  Se6  1  0.56396639  0.30876896  0.24044386  1
+  Ba  Ba7  1  0.75885391  0.24312533  0.58534116  1
+  Se  Se8  1  0.33226955  0.56895190  0.74116337  1

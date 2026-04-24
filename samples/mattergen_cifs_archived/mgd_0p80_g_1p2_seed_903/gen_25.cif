@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       GdH3NdH
+_chemical_formula_sum              "Gd1 H4 Nd1"
+_cell_length_a       3.802771690040343
+_cell_length_b       3.8013861556487463
+_cell_length_c       5.390684127807617
+_cell_angle_alpha    89.9919292214169
+_cell_angle_beta     89.98550201230168
+_cell_angle_gamma    90.02534933857594
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Gd  Gd1       1.0  0.3489591181278229  0.1329931914806366  0.26825985312461853  1.0000
+  H   H1        1.0  0.8490452766418458  0.1328406482934952  0.026485657319426537  1.0000
+  H   H2        1.0  0.8489588499069215  0.1331867873668671  0.5101416707038879  1.0000
+  H   H3        1.0  0.3486521542072296  0.6330904364585876  0.026693282648921013  1.0000
+  Nd  Nd1       1.0  0.8488294482231141  0.6331486701965332  0.7683300971984863  1.0000
+  H   H4        1.0  0.3490261733531952  0.6331223845481873  0.5099356770515442  1.0000

@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       TaMn5
+_chemical_formula_sum              "Ta1 Mn5"
+_cell_length_a       2.9376339762088133
+_cell_length_b       4.034060085421044
+_cell_length_c       6.325521945953369
+_cell_angle_alpha    90.01169578837255
+_cell_angle_beta     103.44914316562908
+_cell_angle_gamma    89.91545841943555
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ta  Ta1       1.0  0.33299505710601807  0.9035155177116395  0.5670645833015442  1.0000
+  Mn  Mn1       1.0  0.0068039270117878905  0.9033825397491456  0.9147961735725404  1.0000
+  Mn  Mn2       1.0  0.6595438718795776  0.9038404822349548  0.2194601893424988  1.0000
+  Mn  Mn3       1.0  0.83294677734375  0.4035494029521942  0.566907525062561  1.0000
+  Mn  Mn4       1.0  0.1617264300584793  0.40359196066856384  0.2236752808094025  1.0000
+  Mn  Mn5       1.0  0.505049467086792  0.4034710228443146  0.9108445644378663  1.0000

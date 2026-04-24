@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       EuRhEuHg
+_chemical_formula_sum              "Eu2 Rh1 Hg1"
+_cell_length_a       3.5959570233713585
+_cell_length_b       3.5948500438066433
+_cell_length_c       7.691277980804443
+_cell_angle_alpha    90.05076447049055
+_cell_angle_beta     90.02896250859287
+_cell_angle_gamma    90.01875820523588
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Eu  Eu1       1.0  0.7189595103263856  0.3234526216983795  0.16052305698394778  1.0000
+  Rh  Rh1       1.0  0.21900932490825656  0.8236209154129028  0.9429795145988465  1.0000
+  Eu  Eu2       1.0  0.7184580564498902  0.323897123336792  0.7258455753326417  1.0000
+  Hg  Hg1       1.0  0.2194393575191498  0.8236897587776184  0.4433393776416779  1.0000

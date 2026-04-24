@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       SrNiYbNi3
+_chemical_formula_sum              "Sr1 Ni4 Yb1"
+_cell_length_a       5.161716930064425
+_cell_length_b       5.1616535283090705
+_cell_length_c       5.160691738128662
+_cell_angle_alpha    59.965480394878576
+_cell_angle_beta     59.962127169555785
+_cell_angle_gamma    59.968009707948944
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sr  Sr1       1.0  0.4072801470756531  0.8651862740516663  0.2510407865047455  1.0000
+  Ni  Ni1       1.0  0.03129987418651581  0.48908814787864685  0.3792872726917267  1.0000
+  Yb  Yb1       1.0  0.6572216749191284  0.11588951200246811  0.5010549426078796  1.0000
+  Ni  Ni2       1.0  0.03150399774312973  0.4892695546150207  0.8753634095191956  1.0000
+  Ni  Ni3       1.0  0.5353507399559021  0.4894022941589355  0.8749042749404907  1.0000
+  Ni  Ni4       1.0  0.03126104921102529  0.993428349494934  0.8751230239868164  1.0000

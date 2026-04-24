@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       Fe3InH
+_chemical_formula_sum              "Fe3 In1 H1"
+_cell_length_a       3.8246235113842024
+_cell_length_b       3.8260848412825443
+_cell_length_c       3.8274097442626953
+_cell_angle_alpha    90.06694518786524
+_cell_angle_beta     90.06615288339646
+_cell_angle_gamma    90.0472947318725
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.06979259848594666  0.5852579474449158  0.3575479686260223  1.0000
+  Fe  Fe2       1.0  0.5701313614845276  0.08521540462970734  0.3580413162708282  1.0000
+  Fe  Fe3       1.0  0.07045923173427582  0.08534344285726547  0.8577305674552916  1.0000
+  In  In1       1.0  0.5700415968894958  0.5855702757835389  0.8576228618621825  1.0000
+  H   H1        1.0  0.06988116353750229  0.08541499823331833  0.357682853937149  1.0000

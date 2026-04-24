@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Sr2PrNiRuS3O4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.49738169
+_cell_length_b   6.57135057
+_cell_length_c   7.06202412
+_cell_angle_alpha   107.68171692
+_cell_angle_beta   104.89253235
+_cell_angle_gamma   116.37171173
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2PrNiRuS3O4
+_chemical_formula_sum   'Sr2 Pr1 Ni1 Ru1 S3 O4'
+_cell_volume   228.65022460
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.40286863  0.30554581  0.80072510  1
+  Pr  Pr1  1  0.03563094  0.59966338  0.40865922  1
+  O  O2  1  0.55401915  0.25982043  0.17322773  1
+  Ru  Ru3  1  0.76779693  0.01056901  0.60043097  1
+  S  S4  1  0.97341204  0.39655527  0.93023366  1
+  S  S5  1  0.53197932  0.81271207  0.78317440  1
+  S  S6  1  0.68366075  0.72936374  0.23425919  1
+  Sr  Sr7  1  0.08243820  0.99168074  0.09627554  1
+  Ni  Ni8  1  0.61344063  0.01194313  0.19048023  1
+  O  O9  1  0.98801911  0.23715824  0.45153347  1
+  O  O10  1  0.42458546  0.98704869  0.42504665  1
+  O  O11  1  0.02102119  0.90279603  0.70040214  1

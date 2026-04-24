@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_Sb2IrI
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.67283487
+_cell_length_b   5.03462267
+_cell_length_c   5.64227009
+_cell_angle_alpha   114.77334595
+_cell_angle_beta   97.85598755
+_cell_angle_gamma   88.72970581
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sb2IrI
+_chemical_formula_sum   'Sb2 Ir1 I1'
+_cell_volume   93.77102253
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sb  Sb0  1  0.18595016  0.12906326  0.92074025  1
+  I  I1  1  0.66966110  0.80477607  0.28325856  1
+  Ir  Ir2  1  0.67271721  0.30690750  0.28296638  1
+  Sb  Sb3  1  0.15802830  0.47380748  0.63446426  1

@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_Na2YbPaO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.25857401
+_cell_length_b   4.39244747
+_cell_length_c   6.40723515
+_cell_angle_alpha   90.82613373
+_cell_angle_beta   90.36199188
+_cell_angle_gamma   100.75113678
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2YbPaO4
+_chemical_formula_sum   'Na2 Yb1 Pa1 O4'
+_cell_volume   117.72996927
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.99214911  0.41825348  0.33462721  1
+  O  O1  1  0.48902655  0.41891092  0.53380007  1
+  O  O2  1  0.99495184  0.41696781  0.00454023  1
+  O  O3  1  0.49704671  0.91578245  0.83288151  1
+  Yb  Yb4  1  0.49660921  0.41681057  0.87882984  1
+  Na  Na5  1  0.99720490  0.91694385  0.02335951  1
+  O  O6  1  0.98121601  0.90910017  0.40755939  1
+  Pa  Pa7  1  0.48323041  0.91775942  0.52113140  1

@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       CoAlZnCo
+_chemical_formula_sum              "Co2 Al1 Zn1"
+_cell_length_a       4.0479120724308535
+_cell_length_b       4.046359033009745
+_cell_length_c       4.04630708694458
+_cell_angle_alpha    59.987520736079766
+_cell_angle_beta     59.97021627448009
+_cell_angle_gamma    59.948782780915046
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.19580207765102384  0.5738135576248169  0.02543248049914837  1.0000
+  Al  Al1       1.0  0.4457020759582519  0.8238040208816528  0.27549099922180176  1.0000
+  Zn  Zn1       1.0  0.9457287788391112  0.323876827955246  0.7754386067390442  1.0000
+  Co  Co2       1.0  0.6956586241722106  0.07381924241781236  0.525436520576477  1.0000

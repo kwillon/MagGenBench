@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_NaLi3CuH6Pb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.94405174
+_cell_length_b   5.98616362
+_cell_length_c   6.09584379
+_cell_angle_alpha   111.57783508
+_cell_angle_beta   115.90573883
+_cell_angle_gamma   102.00676727
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaLi3CuH6Pb
+_chemical_formula_sum   'Na1 Li3 Cu1 H6 Pb1'
+_cell_volume   162.85772850
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.15805648  0.84674287  0.53107363  1
+  H  H1  1  0.89540696  0.12204572  0.08576556  1
+  H  H2  1  0.02433121  0.60288316  0.12287012  1
+  Li  Li3  1  0.11671311  0.28240940  0.50736988  1
+  H  H4  1  0.47800076  0.48062861  0.22286576  1
+  Na  Na5  1  0.71564209  0.65439385  0.74588215  1
+  H  H6  1  0.44050500  0.19264895  0.61398941  1
+  Cu  Cu7  1  0.10013396  0.30621421  0.00525188  1
+  Pb  Pb8  1  0.47460014  0.88993704  0.23220029  1
+  H  H9  1  0.97790712  0.08527875  0.63824302  1
+  H  H10  1  0.28968528  0.66125995  0.72122109  1
+  Li  Li11  1  0.64733684  0.31714344  0.02581504  1

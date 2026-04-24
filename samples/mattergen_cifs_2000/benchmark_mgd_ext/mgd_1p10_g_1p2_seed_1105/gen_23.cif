@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       FeGaFeCo
+_chemical_formula_sum              "Fe2 Ga1 Co1"
+_cell_length_a       4.063805638767461
+_cell_length_b       4.062921665650136
+_cell_length_c       4.064192295074463
+_cell_angle_alpha    59.992333233811785
+_cell_angle_beta     59.98793993559553
+_cell_angle_gamma    60.00553497084337
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.4733959734439851  0.9457111358642577  0.4194314181804657  1.0000
+  Ga  Ga1       1.0  0.7233195304870605  0.19561657309532166  0.6694096922874452  1.0000
+  Fe  Fe2       1.0  0.2233715206384659  0.6957162022590637  0.16937628388404846  1.0000
+  Co  Co1       1.0  0.9734466075897217  0.4456335604190826  0.9192593693733215  1.0000

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CaCeClO2F
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.41975641
+_cell_length_b   5.63111496
+_cell_length_c   6.65129614
+_cell_angle_alpha   103.07028198
+_cell_angle_beta   99.11297607
+_cell_angle_gamma   95.77497864
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaCeClO2F
+_chemical_formula_sum   'Ca2 Ce2 Cl2 O4 F2'
+_cell_volume   193.26360448
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.40449455  0.96821666  0.62375748  1
+  O  O1  1  0.69092739  0.26386955  0.79782534  1
+  O  O2  1  0.20557070  0.25928882  0.80399776  1
+  Ce  Ce3  1  0.49105418  0.55628347  0.98077846  1
+  Ca  Ca4  1  0.98926747  0.06245943  0.99052191  1
+  Cl  Cl5  1  0.84049517  0.90133715  0.38089401  1
+  Ca  Ca6  1  0.89595181  0.45850500  0.61968303  1
+  F  F7  1  0.30234528  0.86403340  0.22913110  1
+  O  O8  1  0.20032278  0.76166093  0.79768229  1
+  F  F9  1  0.79434735  0.37819153  0.22446802  1
+  O  O10  1  0.68877816  0.76672405  0.81070054  1
+  Cl  Cl11  1  0.33827990  0.39845899  0.37072584  1

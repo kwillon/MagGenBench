@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       NiCo2RhN
+_chemical_formula_sum              "Ni1 Co2 Rh1 N1"
+_cell_length_a       3.7425283375470415
+_cell_length_b       3.740667378844807
+_cell_length_c       3.800483226776123
+_cell_angle_alpha    89.95357770935927
+_cell_angle_beta     89.92747272231989
+_cell_angle_gamma    89.99927167421166
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ni  Ni1       1.0  0.8940378427505493  0.6127525568008423  0.19370411336421967  1.0000
+  Co  Co1       1.0  0.39352622628211975  0.612278938293457  0.6937845945358276  1.0000
+  Co  Co2       1.0  0.8939228057861328  0.11213557422161104  0.6934897303581238  1.0000
+  Rh  Rh1       1.0  0.3941906988620758  0.11281009018421173  0.19373244047164917  1.0000
+  N   N1        1.0  0.8930673003196716  0.6116340756416321  0.6937468647956848  1.0000

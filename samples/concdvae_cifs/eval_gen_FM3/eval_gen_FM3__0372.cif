@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_NaNdCuClO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.38498831
+_cell_length_b   4.38097906
+_cell_length_c   5.83816576
+_cell_angle_alpha   85.83966064
+_cell_angle_beta   92.13671875
+_cell_angle_gamma   89.43498993
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaNdCuClO3
+_chemical_formula_sum   'Na1 Nd1 Cu1 Cl1 O3'
+_cell_volume   111.77213466
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.77860528  0.42051071  0.47012469  1
+  Cl  Cl1  1  0.28773779  0.92623532  0.46862593  1
+  Cu  Cu2  1  0.79109865  0.91492063  0.46984747  1
+  O  O3  1  0.78901464  0.92034519  0.97301441  1
+  O  O4  1  0.28680849  0.41824752  0.96880454  1
+  Nd  Nd5  1  0.78695732  0.41873923  0.96642816  1
+  Na  Na6  1  0.28931952  0.91975236  0.97090769  1

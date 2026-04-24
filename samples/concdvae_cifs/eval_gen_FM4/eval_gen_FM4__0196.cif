@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Y2CuSiO5F3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.72001648
+_cell_length_b   5.63280344
+_cell_length_c   7.17267370
+_cell_angle_alpha   103.17697144
+_cell_angle_beta   94.22866058
+_cell_angle_gamma   99.78499603
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y2CuSiO5F3
+_chemical_formula_sum   'Y2 Si1 Cu1 O5 F3'
+_cell_volume   181.71559178
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.88984132  0.02174815  0.46974415  1
+  O  O1  1  0.06942350  0.09689496  0.27947819  1
+  O  O2  1  0.48922879  0.16142587  0.01075602  1
+  F  F3  1  0.24047291  0.59668106  0.12508802  1
+  O  O4  1  0.74923527  0.72942472  0.41286170  1
+  Y  Y5  1  0.11830490  0.86463261  0.95114422  1
+  F  F6  1  0.26368886  0.56007922  0.66428626  1
+  F  F7  1  0.73191404  0.61079103  0.89670414  1
+  Y  Y8  1  0.44833127  0.40294814  0.32817107  1
+  Cu  Cu9  1  0.41623217  0.34026355  0.81751829  1
+  O  O10  1  0.65296620  0.19693992  0.50975013  1
+  O  O11  1  0.09302700  0.06975835  0.69595206  1

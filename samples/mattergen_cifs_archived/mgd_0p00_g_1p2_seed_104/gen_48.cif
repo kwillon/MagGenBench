@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       Sm2Y2BiYBi
+_chemical_formula_sum              "Sm2 Y3 Bi2"
+_cell_length_a       4.348901866837415
+_cell_length_b       6.567138331948904
+_cell_length_c       8.764875411987305
+_cell_angle_alpha    108.52256173860465
+_cell_angle_beta     89.9866426543159
+_cell_angle_gamma    109.39363501911735
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sm  Sm1       1.0  0.2717120349407196  0.3258091211318969  0.6739135384559631  1.0000
+  Sm  Sm2       1.0  0.014093769714236207  0.8088873028755187  0.109998844563961  1.0000
+  Y   Y1        1.0  0.6430369019508362  0.0674823746085167  0.8923007249832153  1.0000
+  Y   Y2        1.0  0.76710444688797  0.3153991103172302  0.33938342332839966  1.0000
+  Bi  Bi1       1.0  0.31538477540016174  0.41222196817398066  0.08856455236673354  1.0000
+  Y   Y3        1.0  0.5187168121337891  0.819216787815094  0.44472596049308777  1.0000
+  Bi  Bi2       1.0  0.9701204299926758  0.7227681875228882  0.695972204208374  1.0000

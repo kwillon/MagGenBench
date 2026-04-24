@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Pm2ClO2F
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.99376726
+_cell_length_b   4.21013308
+_cell_length_c   6.29944420
+_cell_angle_alpha   90.77047729
+_cell_angle_beta   89.00352478
+_cell_angle_gamma   116.69727325
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Pm2ClO2F
+_chemical_formula_sum   'Pm2 Cl1 O2 F1'
+_cell_volume   94.61258773
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pm  Pm0  1  0.12234668  0.34780118  0.41039392  1
+  F  F1  1  0.78215516  0.66965026  0.60620946  1
+  Pm  Pm2  1  0.46207869  0.02072337  0.79924726  1
+  O  O3  1  0.12435472  0.35001412  0.76339924  1
+  Cl  Cl4  1  0.78921634  0.68260837  0.10686791  1
+  O  O5  1  0.46111098  0.01397848  0.44560179  1

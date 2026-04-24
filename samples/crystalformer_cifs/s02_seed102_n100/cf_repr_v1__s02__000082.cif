@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_LiCr2CoS8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.62399062
+_cell_length_b   7.01940887
+_cell_length_c   10.92849077
+_cell_angle_alpha   82.59859207
+_cell_angle_beta   78.66049228
+_cell_angle_gamma   67.88885591
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiCr2CoS8
+_chemical_formula_sum   'Li2 Cr4 Co2 S16'
+_cell_volume   460.73517320
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.50000000  0.00000000  0.00000000  1
+  Co  Co1  1  0.50000000  0.50000000  0.00000000  1
+  Li  Li2  1  0.50000000  0.00000000  0.50000000  1
+  Li  Li3  1  0.00000000  0.50000000  0.50000000  1
+  S  S4  1  0.03350854  0.92752890  0.68524303  1
+  S  S5  1  0.96649146  0.07247110  0.31475697  1
+  S  S6  1  0.08453199  0.16407194  0.87824146  1
+  S  S7  1  0.91546801  0.83592806  0.12175854  1
+  Cr  Cr8  1  0.51332880  0.67449037  0.87741014  1
+  Cr  Cr9  1  0.48667120  0.32550963  0.12258986  1
+  S  S10  1  0.07273357  0.19334349  0.87069772  1
+  S  S11  1  0.92726643  0.80665651  0.12930228  1
+  S  S12  1  0.26329105  0.49037409  0.24568766  1
+  S  S13  1  0.73670895  0.50962591  0.75431234  1
+  S  S14  1  0.44228441  0.73002821  0.51616201  1
+  S  S15  1  0.55771559  0.26997179  0.48383799  1
+  S  S16  1  0.51543791  0.69521817  0.48444153  1
+  S  S17  1  0.48456209  0.30478183  0.51555847  1
+  Cr  Cr18  1  0.50420576  0.05300071  0.16533666  1
+  Cr  Cr19  1  0.49579424  0.94699929  0.83466334  1
+  S  S20  1  0.51520431  0.24387211  0.51324966  1
+  S  S21  1  0.48479569  0.75612789  0.48675034  1
+  S  S22  1  0.52929758  0.43417482  0.69673775  1
+  S  S23  1  0.47070242  0.56582518  0.30326225  1

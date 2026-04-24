@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_KNaGdTmCl5O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.27216196
+_cell_length_b   6.75953817
+_cell_length_c   6.82097244
+_cell_angle_alpha   101.76767731
+_cell_angle_beta   90.50104523
+_cell_angle_gamma   90.92015839
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KNaGdTmCl5O
+_chemical_formula_sum   'K1 Na1 Gd1 Tm1 Cl5 O1'
+_cell_volume   237.92401543
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.30244631  0.58774978  0.02813333  1
+  Cl  Cl1  1  0.30932122  0.10654310  0.54270506  1
+  Cl  Cl2  1  0.80614680  0.34519053  0.29416338  1
+  Na  Na3  1  0.30790904  0.60390711  0.52959037  1
+  Cl  Cl4  1  0.80644280  0.85422236  0.29120305  1
+  Tm  Tm5  1  0.81155819  0.12363503  0.56701571  1
+  Cl  Cl6  1  0.80911636  0.84870934  0.78166926  1
+  O  O7  1  0.80831605  0.34533262  0.78395474  1
+  Gd  Gd8  1  0.80616897  0.57344145  0.01411990  1
+  K  K9  1  0.30571687  0.09470446  0.04267105  1

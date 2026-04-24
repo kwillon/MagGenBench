@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Y2LuBiO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.01496410
+_cell_length_b   5.32433033
+_cell_length_c   5.87880230
+_cell_angle_alpha   82.54281616
+_cell_angle_beta   74.05853271
+_cell_angle_gamma   73.01981354
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y2LuBiO6
+_chemical_formula_sum   'Y2 Lu1 Bi1 O6'
+_cell_volume   144.14531741
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.53514510  0.42055792  0.92573893  1
+  O  O1  1  0.40942711  0.13670062  0.17937595  1
+  O  O2  1  0.10678230  0.71680278  0.18921910  1
+  Bi  Bi3  1  0.20794678  0.02206378  0.92456245  1
+  O  O4  1  0.31994566  0.31470928  0.68099833  1
+  O  O5  1  0.63946968  0.70724785  0.67246681  1
+  Y  Y6  1  0.70501608  0.02225387  0.43104056  1
+  O  O7  1  0.82324612  0.31207630  0.18070437  1
+  Lu  Lu8  1  0.03079456  0.41812372  0.42637676  1
+  O  O9  1  0.89992344  0.14446248  0.67418927  1

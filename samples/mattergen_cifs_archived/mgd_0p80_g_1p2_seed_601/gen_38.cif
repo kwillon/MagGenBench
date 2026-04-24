@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       NiEu2Hg
+_chemical_formula_sum              "Ni1 Eu2 Hg1"
+_cell_length_a       3.6480873206833273
+_cell_length_b       3.6470122341479327
+_cell_length_c       7.606590747833252
+_cell_angle_alpha    90.00086310829434
+_cell_angle_beta     90.01017948641905
+_cell_angle_gamma    89.97742872926096
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ni  Ni1       1.0  0.7090554833412169  0.7718169093132019  0.719717264175415  1.0000
+  Eu  Eu1       1.0  0.20915789902210233  0.27187594771385193  0.4987994730472565  1.0000
+  Eu  Eu2       1.0  0.2092480659484863  0.271838903427124  0.9410573244094849  1.0000
+  Hg  Hg1       1.0  0.7086937427520751  0.7717675566673279  0.21973814070224762  1.0000

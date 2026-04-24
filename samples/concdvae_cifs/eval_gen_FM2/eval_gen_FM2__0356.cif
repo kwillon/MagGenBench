@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_KLaCeCo2S4ClO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.85396886
+_cell_length_b   6.04645586
+_cell_length_c   11.37564945
+_cell_angle_alpha   99.97204590
+_cell_angle_beta   99.83181763
+_cell_angle_gamma   89.36891174
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KLaCeCo2S4ClO2
+_chemical_formula_sum   'K1 La1 Ce1 Co2 S4 Cl1 O2'
+_cell_volume   257.19881578
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.08925816  0.89991593  0.07251777  1
+  La  La1  1  0.52427685  0.26457867  0.94309562  1
+  O  O2  1  0.02037192  0.01482739  0.91910237  1
+  Cl  Cl3  1  0.80972201  0.14701150  0.51027715  1
+  Ce  Ce4  1  0.91731161  0.87327766  0.70283902  1
+  Co  Co5  1  0.36653426  0.33439752  0.63927227  1
+  S  S6  1  0.32493418  0.61973584  0.55238211  1
+  K  K7  1  0.71663731  0.58714056  0.32586718  1
+  S  S8  1  0.10891510  0.54202127  0.10127090  1
+  S  S9  1  0.63665718  0.03386075  0.16377318  1
+  O  O10  1  0.42082250  0.08029810  0.73154604  1
+  S  S11  1  0.94449556  0.46060988  0.77353227  1

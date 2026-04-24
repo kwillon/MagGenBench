@@ -1,0 +1,35 @@
+ data_Mn1Al1
+ loop_
+ _atom_type_symbol
+ _atom_type_electronegativity
+ _atom_type_radius
+ _atom_type_ionic_radius
+ Mn 1.5500 1.3900 0.8300
+Al 1.6100 1.2100 0.5350
+ _symmetry_space_group_name_H-M P4/mmm
+_cell_length_a 2.9423
+_cell_length_b 2.9423
+_cell_length_c 3.0012
+_cell_angle_alpha 90.0000
+_cell_angle_beta 90.0000
+_cell_angle_gamma 90.0000
+_symmetry_Int_Tables_number 123
+_chemical_formula_structural MnAl
+_chemical_formula_sum 'Mn1 Al1'
+_cell_volume 26.3491
+_cell_formula_units_Z 1
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 'x, y, z'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Mn Mn0 1 0.5000 0.5000 0.5000 1
+Al Al1 1 0.0000 0.0000 0.0000 1
+

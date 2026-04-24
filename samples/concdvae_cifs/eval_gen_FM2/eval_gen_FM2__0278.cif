@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_HoLuTi3CdS2N3O2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.84230399
+_cell_length_b   3.87311292
+_cell_length_c   12.16046619
+_cell_angle_alpha   90.95604706
+_cell_angle_beta   92.13427734
+_cell_angle_gamma   95.73996735
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HoLuTi3CdS2N3O2
+_chemical_formula_sum   'Ho1 Lu1 Ti3 Cd1 S2 N3 O2'
+_cell_volume   179.89794418
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.14905839  0.01783799  0.07821360  1
+  N  N1  1  0.14049326  0.52087694  0.27642375  1
+  Ti  Ti2  1  0.64262480  0.02407348  0.52572554  1
+  Lu  Lu3  1  0.64238530  0.02142571  0.96529299  1
+  Ti  Ti4  1  0.13579397  0.52594930  0.12463323  1
+  Ti  Ti5  1  0.14472209  0.52491158  0.43246627  1
+  N  N6  1  0.64166093  0.52823156  0.50779891  1
+  S  S7  1  0.14456226  0.52525723  0.89101809  1
+  Ho  Ho8  1  0.14130040  0.52449268  0.66235048  1
+  Cd  Cd9  1  0.63951379  0.01962804  0.28005910  1
+  N  N10  1  0.13968992  0.02628637  0.50418270  1
+  S  S11  1  0.64303118  0.02366063  0.72656357  1
+  O  O12  1  0.64772296  0.52614528  0.07404318  1

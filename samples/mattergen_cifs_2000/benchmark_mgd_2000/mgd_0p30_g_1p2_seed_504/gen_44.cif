@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Gd2CuGd
+_chemical_formula_sum              "Gd3 Cu1"
+_cell_length_a       3.6436521376885165
+_cell_length_b       5.367555997341029
+_cell_length_c       6.405241012573242
+_cell_angle_alpha    114.91462669240838
+_cell_angle_beta     106.53502182793297
+_cell_angle_gamma    89.9550314617609
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Gd  Gd1       1.0  0.8592512011528015  0.7212855219841002  0.5304239392280578  1.0000
+  Gd  Gd2       1.0  0.6536704897880554  0.015016730874776838  0.1180986016988754  1.0000
+  Cu  Cu1       1.0  0.15416444838047028  0.5164137482643127  0.11842113733291622  1.0000
+  Gd  Gd3       1.0  0.4481085538864136  0.3088310956954956  0.7066845893859863  1.0000

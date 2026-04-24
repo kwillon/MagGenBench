@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       Eu2BrEuGa2EuGa2Br
+_chemical_formula_sum              "Eu4 Br2 Ga4"
+_cell_length_a       4.314718881186202
+_cell_length_b       4.315660478372743
+_cell_length_c       17.05903434753418
+_cell_angle_alpha    89.9983974100841
+_cell_angle_beta     90.01550020458231
+_cell_angle_gamma    120.01868097563877
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Eu  Eu1       1.0  0.8424539566040039  0.6646736860275269  0.3611949682235718  1.0000
+  Eu  Eu2       1.0  0.8422427773475647  0.6647955775260925  0.10613814741373062  1.0000
+  Br  Br1       1.0  0.17601019144058228  0.3316090703010559  0.7336896657943726  1.0000
+  Eu  Eu3       1.0  0.8423768281936647  0.6646041274070741  0.6060026288032532  1.0000
+  Ga  Ga1       1.0  0.17595647275447848  0.33099657297134405  0.4726261496543884  1.0000
+  Ga  Ga2       1.0  0.5096604824066162  0.9976179003715515  0.4941691756248474  1.0000
+  Eu  Eu4       1.0  0.8425214290618896  0.6645848155021669  0.8614016175270081  1.0000
+  Ga  Ga3       1.0  0.17586752772331238  0.3319307863712311  0.9943107962608337  1.0000
+  Ga  Ga4       1.0  0.5089608430862427  0.9981606006622314  0.9726088643074036  1.0000
+  Br  Br2       1.0  0.5090811848640442  0.9982274770736694  0.23374900221824646  1.0000

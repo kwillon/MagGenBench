@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_NaLi4AlGe5OF5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.10998551
+_cell_length_b   6.69283432
+_cell_length_c   9.94571901
+_cell_angle_alpha   113.54939751
+_cell_angle_beta   102.71881260
+_cell_angle_gamma   105.28129909
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaLi4AlGe5OF5
+_chemical_formula_sum   'Na1 Li4 Al1 Ge5 O1 F5'
+_cell_volume   334.41083913
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.06545193  0.45856719  0.80626654  1
+  Al  Al1  1  0.16160198  0.52283326  0.36462274  1
+  Ge  Ge2  1  0.13994993  0.75095343  0.53362802  1
+  Ge  Ge3  1  0.33557137  0.00516831  0.43246671  1
+  Li  Li4  1  0.35683884  0.98292421  0.90326243  1
+  Ge  Ge5  1  0.38782156  0.33934127  0.62880411  1
+  Ge  Ge6  1  0.36300326  0.34700062  0.58825718  1
+  Li  Li7  1  0.41426160  0.77629473  0.55006999  1
+  Li  Li8  1  0.40301615  0.58008568  0.78540880  1
+  Ge  Ge9  1  0.42541353  0.91121999  0.80249399  1
+  F  F10  1  0.39683855  0.25929174  0.88901892  1
+  Li  Li11  1  0.60769025  0.18019292  0.43362650  1
+  F  F12  1  0.59539625  0.40818777  0.43621589  1
+  F  F13  1  0.70217118  0.85251636  0.44110187  1
+  O  O14  1  0.86851522  0.12608908  0.89149816  1
+  F  F15  1  0.92106458  0.55139571  0.78533464  1
+  F  F16  1  0.94287315  0.39862677  0.71454515  1

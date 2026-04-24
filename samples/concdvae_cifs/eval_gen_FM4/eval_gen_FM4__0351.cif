@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_LiLuO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.32258320
+_cell_length_b   4.36765480
+_cell_length_c   5.38338184
+_cell_angle_alpha   109.71842957
+_cell_angle_beta   101.82368469
+_cell_angle_gamma   90.04214478
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiLuO2
+_chemical_formula_sum   'Li2 Lu2 O4'
+_cell_volume   93.37650863
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.70910501  0.80042726  0.45480794  1
+  O  O1  1  0.91302639  0.48685908  0.83257353  1
+  Li  Li2  1  0.18466732  0.77387410  0.39134467  1
+  Li  Li3  1  0.44277853  0.52307683  0.90341759  1
+  O  O4  1  0.47404513  0.04959694  0.95307976  1
+  Lu  Lu5  1  0.68033767  0.27312362  0.39628580  1
+  O  O6  1  0.15817173  0.23361798  0.33049762  1
+  Lu  Lu7  1  0.93870842  0.01922622  0.89918965  1

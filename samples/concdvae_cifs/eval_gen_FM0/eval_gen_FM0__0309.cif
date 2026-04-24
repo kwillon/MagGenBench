@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Na2Co5Cu(AsN)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.22035313
+_cell_length_b   5.98497295
+_cell_length_c   6.24917603
+_cell_angle_alpha   114.52154541
+_cell_angle_beta   93.90921783
+_cell_angle_gamma   92.15686798
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2Co5Cu(AsN)2
+_chemical_formula_sum   'Na2 Co5 Cu1 As2 N2'
+_cell_volume   176.75549986
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.09236298  0.70520037  0.84065878  1
+  N  N1  1  0.36000988  0.69213492  0.19966921  1
+  N  N2  1  0.80141830  0.69872952  0.20719990  1
+  As  As3  1  0.58823216  0.40050003  0.56174988  1
+  Co  Co4  1  0.86837262  0.16715287  0.67337114  1
+  As  As5  1  0.58974159  0.05044444  0.91147232  1
+  Co  Co6  1  0.57571369  0.96979219  0.24576990  1
+  Co  Co7  1  0.58088022  0.73701900  0.47805715  1
+  Cu  Cu8  1  0.08415189  0.86397171  0.36701226  1
+  Na  Na9  1  0.09017491  0.32846990  0.22236639  1
+  Co  Co10  1  0.58476365  0.48246485  0.98892987  1
+  Co  Co11  1  0.31296903  0.15705079  0.66536534  1

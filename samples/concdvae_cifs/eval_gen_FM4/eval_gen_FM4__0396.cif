@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_GdTiBeSi2BO8F
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.79704142
+_cell_length_b   5.97062588
+_cell_length_c   6.39902353
+_cell_angle_alpha   111.03501892
+_cell_angle_beta   91.93318176
+_cell_angle_gamma   92.55404663
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GdTiBeSi2BO8F
+_chemical_formula_sum   'Gd1 Ti1 Be1 Si2 B1 O8 F1'
+_cell_volume   170.65013513
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  B  B0  1  0.77680123  0.81397963  0.24605785  1
+  Ti  Ti1  1  0.22499147  0.38662162  0.61916244  1
+  F  F2  1  0.36414409  0.36120602  0.92849195  1
+  O  O3  1  0.41288584  0.70560652  0.69579470  1
+  O  O4  1  0.93797898  0.93878073  0.76199925  1
+  O  O5  1  0.85192227  0.45653066  0.69968265  1
+  O  O6  1  0.71781051  0.63414645  0.36070931  1
+  O  O7  1  0.03623728  0.76694602  0.15860268  1
+  Si  Si8  1  0.73587590  0.68866074  0.63376337  1
+  Be  Be9  1  0.22686940  0.90863425  0.67042530  1
+  O  O10  1  0.59524220  0.97623187  0.17872640  1
+  Gd  Gd11  1  0.84960401  0.31329697  0.02656263  1
+  O  O12  1  0.30668291  0.04849735  0.52809823  1
+  Si  Si13  1  0.27602080  0.99717253  0.27370954  1
+  O  O14  1  0.15853548  0.25823352  0.28746486  1

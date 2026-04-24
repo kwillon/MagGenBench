@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ca2EuNi2BO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.94923592
+_cell_length_b   4.70979309
+_cell_length_c   7.80719280
+_cell_angle_alpha   91.46405029
+_cell_angle_beta   90.41691589
+_cell_angle_gamma   89.34552002
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca2EuNi2BO6
+_chemical_formula_sum   'Ca2 Eu1 Ni2 B1 O6'
+_cell_volume   145.15402305
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.55077320  0.58259732  0.19431633  1
+  O  O1  1  0.54838598  0.35401547  0.89885575  1
+  Ca  Ca2  1  0.06000265  0.92420787  0.45864248  1
+  O  O3  1  0.05832209  0.02472210  0.76078749  1
+  O  O4  1  0.05882873  0.38069597  0.43730491  1
+  B  B5  1  0.54983330  0.80605471  0.21477152  1
+  Ni  Ni6  1  0.55093735  0.42430884  0.40507859  1
+  Eu  Eu7  1  0.05843657  0.51941401  0.73262501  1
+  Ni  Ni8  1  0.55956769  0.03664544  0.76222032  1
+  O  O9  1  0.55382770  0.73481762  0.59125954  1
+  O  O10  1  0.55721891  0.04437568  0.26041922  1
+  Ca  Ca11  1  0.04781121  0.27722976  0.09319250  1

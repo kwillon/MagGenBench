@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_YFeNi2(BiO5)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.55050611
+_cell_length_b   5.88245344
+_cell_length_c   6.69272614
+_cell_angle_alpha   93.05664825
+_cell_angle_beta   90.01498413
+_cell_angle_gamma   90.56291962
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YFeNi2(BiO5)2
+_chemical_formula_sum   'Y1 Fe1 Ni2 Bi2 O10'
+_cell_volume   218.19999342
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.25197625  0.09607179  0.70917660  1
+  Ni  Ni1  1  0.70710486  0.11137808  0.21310335  1
+  O  O2  1  0.77443433  0.14009638  0.95296478  1
+  Y  Y3  1  0.73547721  0.59087610  0.01450243  1
+  Bi  Bi4  1  0.19015498  0.11657207  0.00355948  1
+  O  O5  1  0.95341545  0.87829465  0.19860998  1
+  Fe  Fe6  1  0.48357439  0.87397772  0.60683912  1
+  O  O7  1  0.14331250  0.58538145  0.94251418  1
+  O  O8  1  0.69721591  0.63158554  0.71012026  1
+  O  O9  1  0.45934156  0.84910619  0.14321141  1
+  Bi  Bi10  1  0.98139894  0.37874040  0.57468188  1
+  O  O11  1  0.69576907  0.09735624  0.46287730  1
+  O  O12  1  0.48376915  0.34864318  0.18391564  1
+  O  O13  1  0.26419821  0.66005021  0.46440494  1
+  O  O14  1  0.97568882  0.39129487  0.25511974  1
+  Ni  Ni15  1  0.21707965  0.62236893  0.21171509  1

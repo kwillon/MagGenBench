@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_KNa4PaNbClO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.15980721
+_cell_length_b   7.00175524
+_cell_length_c   6.35078096
+_cell_angle_alpha   93.92182159
+_cell_angle_beta   80.66474152
+_cell_angle_gamma   79.43290710
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KNa4PaNbClO8
+_chemical_formula_sum   'K1 Na4 Pa1 Nb1 Cl1 O8'
+_cell_volume   307.24333460
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.76862478  0.96930546  0.77551192  1
+  O  O1  1  0.50673997  0.19198261  0.51834399  1
+  Pa  Pa2  1  0.78668499  0.24270155  0.62499893  1
+  Nb  Nb3  1  0.26544166  0.09692722  0.43136576  1
+  O  O4  1  0.69117081  0.45597070  0.90635484  1
+  O  O5  1  0.78284359  0.51267755  0.43460405  1
+  O  O6  1  0.08546503  0.23755464  0.69199651  1
+  Cl  Cl7  1  0.18949631  0.67986447  0.97077936  1
+  Na  Na8  1  0.02489340  0.69958216  0.57797194  1
+  O  O9  1  0.33270046  0.18972404  0.15740627  1
+  K  K10  1  0.75318992  0.86203802  0.17177421  1
+  Na  Na11  1  0.47442544  0.48863894  0.23378566  1
+  Na  Na12  1  0.54487169  0.75662994  0.71835327  1
+  O  O13  1  0.98395985  0.08233526  0.35677040  1
+  Na  Na14  1  0.00349608  0.33997127  0.08362010  1
+  O  O15  1  0.34976494  0.81963158  0.43741769  1

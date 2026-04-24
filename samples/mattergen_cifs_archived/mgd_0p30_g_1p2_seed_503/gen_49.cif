@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       GdRhGdCo
+_chemical_formula_sum              "Gd2 Rh1 Co1"
+_cell_length_a       3.4110823301592568
+_cell_length_b       4.825772023493781
+_cell_length_c       4.830022811889648
+_cell_angle_alpha    90.08987413110293
+_cell_angle_beta     90.04913888571991
+_cell_angle_gamma    90.01507673365549
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Gd  Gd1       1.0  0.15126237273216248  0.9261290431022644  0.8945350646972655  1.0000
+  Rh  Rh1       1.0  0.6508697271347046  0.9261399507522584  0.3948913514614105  1.0000
+  Gd  Gd2       1.0  0.15106651186943054  0.4262675344944  0.3945789337158203  1.0000
+  Co  Co1       1.0  0.651135265827179  0.42623770236969  0.8946523666381835  1.0000

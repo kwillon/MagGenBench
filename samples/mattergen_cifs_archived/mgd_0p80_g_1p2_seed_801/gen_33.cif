@@ -1,0 +1,28 @@
+data_image0
+_chemical_formula_structural       ErTmFe
+_chemical_formula_sum              "Er1 Tm1 Fe1"
+_cell_length_a       3.2944286498260364
+_cell_length_b       3.2946627111279803
+_cell_length_c       6.665987968444824
+_cell_angle_alpha    104.29439313101805
+_cell_angle_beta     104.29640273125469
+_cell_angle_gamma    90.01480316602333
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Er  Er1       1.0  0.10464998334646225  0.8102577924728392  0.7821919918060302  1.0000
+  Tm  Tm1       1.0  0.851377546787262  0.556815505027771  0.2748987376689911  1.0000
+  Fe  Fe1       1.0  0.4773145020008087  0.18295823037624356  0.5267407298088074  1.0000

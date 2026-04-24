@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_CaEuScIn6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.41076865
+_cell_length_b   6.15358724
+_cell_length_c   6.26767629
+_cell_angle_alpha   78.76509204
+_cell_angle_beta   77.80969391
+_cell_angle_gamma   64.89282987
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaEuScIn6
+_chemical_formula_sum   'Ca1 Eu1 Sc1 In6'
+_cell_volume   149.50266229
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.04184241  0.01761497  0.97367669  1
+  Sc  Sc1  1  0.24383758  0.53225510  0.49693951  1
+  In  In2  1  0.43383939  0.92114543  0.66798291  1
+  In  In3  1  0.50694510  0.99155350  0.49181480  1
+  In  In4  1  0.52977650  0.24723714  0.01725563  1
+  Ca  Ca5  1  0.52830053  0.56010663  0.42366154  1
+  In  In6  1  0.82508401  0.58635627  0.88684860  1
+  Eu  Eu7  1  0.93891630  0.21220478  0.22261779  1
+  In  In8  1  0.94064463  0.21049174  0.73375399  1

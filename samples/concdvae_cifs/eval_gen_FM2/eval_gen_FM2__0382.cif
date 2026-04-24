@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CsKAlFeAsO6F
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.13071823
+_cell_length_b   6.86116886
+_cell_length_c   7.67230558
+_cell_angle_alpha   104.07989502
+_cell_angle_beta   101.11908722
+_cell_angle_gamma   92.04797363
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsKAlFeAsO6F
+_chemical_formula_sum   'Cs1 K1 Al1 Fe1 As1 O6 F1'
+_cell_volume   256.08324835
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.41868851  0.91349822  0.47168890  1
+  Fe  Fe1  1  0.73868191  0.90263158  0.43557972  1
+  O  O2  1  0.00906626  0.90277070  0.65555298  1
+  Al  Al3  1  0.27025735  0.77500242  0.61040246  1
+  O  O4  1  0.77412468  0.14462373  0.30777669  1
+  As  As5  1  0.95960468  0.39179745  0.29147899  1
+  F  F6  1  0.49361622  0.78649706  0.85833091  1
+  O  O7  1  0.06619033  0.32931808  0.09114832  1
+  O  O8  1  0.20707017  0.49182311  0.50389004  1
+  K  K9  1  0.05198695  0.86408770  0.05950475  1
+  O  O10  1  0.75935024  0.62195677  0.26178142  1
+  Cs  Cs11  1  0.45893064  0.29297233  0.84807009  1

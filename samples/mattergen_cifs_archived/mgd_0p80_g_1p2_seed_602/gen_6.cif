@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       OEuOEuMnO2
+_chemical_formula_sum              "O4 Eu2 Mn1"
+_cell_length_a       3.870291318519271
+_cell_length_b       3.868890414204608
+_cell_length_c       6.814798831939697
+_cell_angle_alpha    106.49629390656975
+_cell_angle_beta     106.52295971180041
+_cell_angle_gamma    90.021354180124
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.3517638146877289  0.8828566670417786  0.6857597827911377  1.0000
+  Eu  Eu1       1.0  0.8798967599868774  0.41117143630981445  0.7424272298812866  1.0000
+  O   O2        1.0  0.02332869917154312  0.05451063439249993  0.0293789803981781  1.0000
+  Eu  Eu2       1.0  0.16675670444965363  0.6979263424873352  0.3166394829750061  1.0000
+  Mn  Mn1       1.0  0.5234089493751526  0.05486624315381051  0.030124425888061523  1.0000
+  O   O3        1.0  0.6947633624076843  0.2259305715560913  0.37285512685775757  1.0000
+  O   O4        1.0  0.5234705209732056  0.5548129677772522  0.02966494858264923  1.0000

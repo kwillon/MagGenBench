@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       GaCo2CrN
+_chemical_formula_sum              "Ga1 Co2 Cr1 N1"
+_cell_length_a       3.809851465897786
+_cell_length_b       3.8078795825366423
+_cell_length_c       3.826131582260132
+_cell_angle_alpha    89.7719015131051
+_cell_angle_beta     89.78145695521131
+_cell_angle_gamma    89.73137798000516
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ga  Ga1       1.0  0.718851625919342  0.3857737183570862  0.32679855823516846  1.0000
+  Co  Co1       1.0  0.21900996565818787  0.38569948077201843  0.8273288607597352  1.0000
+  Co  Co2       1.0  0.7188482880592346  0.8858630061149597  0.8271336555480958  1.0000
+  Cr  Cr1       1.0  0.21907144784927368  0.8858829736709595  0.32707110047340393  1.0000
+  N   N1        1.0  0.21876904368400574  0.8859495520591736  0.8269706964492799  1.0000

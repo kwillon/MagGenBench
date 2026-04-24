@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_PuU(AsRh)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.40324306
+_cell_length_b   5.44282484
+_cell_length_c   6.14760447
+_cell_angle_alpha   89.08626556
+_cell_angle_beta   88.13433075
+_cell_angle_gamma   88.57937622
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   PuU(AsRh)4
+_chemical_formula_sum   'Pu1 U1 As4 Rh4'
+_cell_volume   180.62220047
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  1  0.96741408  0.72221297  0.07128610  1
+  As  As1  1  0.69382501  0.00944094  0.06933735  1
+  U  U2  1  0.36954868  0.39727524  0.07451734  1
+  Rh  Rh3  1  0.86166161  0.34788188  0.32332987  1
+  As  As4  1  0.48958015  0.25044066  0.57265484  1
+  As  As5  1  0.21005495  0.52067828  0.57563007  1
+  Rh  Rh6  1  0.87363720  0.34880039  0.82117724  1
+  Pu  Pu7  1  0.81666112  0.84970617  0.57082438  1
+  Rh  Rh8  1  0.32845074  0.89048952  0.31982446  1
+  Rh  Rh9  1  0.31017867  0.90635478  0.82437670  1

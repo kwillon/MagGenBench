@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_CsHgP2O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.00997543
+_cell_length_b   6.06701946
+_cell_length_c   6.41669750
+_cell_angle_alpha   95.17862701
+_cell_angle_beta   93.70433044
+_cell_angle_gamma   92.54313660
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsHgP2O7
+_chemical_formula_sum   'Cs1 Hg1 P2 O7'
+_cell_volume   193.59007347
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.19478366  0.62987757  0.79334652  1
+  O  O1  1  0.24120295  0.39816391  0.41176480  1
+  P  P2  1  0.03478544  0.52073532  0.55253351  1
+  Hg  Hg3  1  0.56270790  0.02455243  0.49762607  1
+  O  O4  1  0.30908549  0.04608779  0.76983464  1
+  O  O5  1  0.34069386  0.89263678  0.13360232  1
+  O  O6  1  0.88942420  0.93455344  0.92454588  1
+  P  P7  1  0.17433009  0.89139450  0.91459489  1
+  Cs  Cs8  1  0.66420841  0.42462903  0.06144233  1
+  O  O9  1  0.89931118  0.73179567  0.46709156  1
+  O  O10  1  0.83045894  0.35388908  0.60193628  1

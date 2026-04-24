@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Ga2F7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.93105173
+_cell_length_b   3.89831471
+_cell_length_c   8.24260139
+_cell_angle_alpha   96.97991180
+_cell_angle_beta   98.55404663
+_cell_angle_gamma   110.06298828
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ga2F7
+_chemical_formula_sum   'Ga2 F7'
+_cell_volume   115.28638346
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.02346528  0.76886517  0.09462363  1
+  Ga  Ga1  1  0.02822635  0.27180433  0.10210548  1
+  F  F2  1  0.51913393  0.26418585  0.60463840  1
+  Ga  Ga3  1  0.03641956  0.27067548  0.59773088  1
+  F  F4  1  0.53207213  0.28128111  0.10218998  1
+  F  F5  1  0.10911512  0.39299372  0.35767210  1
+  F  F6  1  0.83167684  0.85391515  0.46888578  1
+  F  F7  1  0.24266887  0.68994629  0.74038148  1
+  F  F8  1  0.95973486  0.14498422  0.84497333  1

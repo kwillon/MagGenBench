@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_BaGaCuSe2O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.08556795
+_cell_length_b   5.16688871
+_cell_length_c   6.12246227
+_cell_angle_alpha   116.99514008
+_cell_angle_beta   115.40045166
+_cell_angle_gamma   92.88471985
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaGaCuSe2O
+_chemical_formula_sum   'Ba1 Ga1 Cu1 Se2 O1'
+_cell_volume   123.34571735
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.44661683  0.29149318  0.32544678  1
+  Se  Se1  1  0.70080209  0.03836054  0.82057995  1
+  Ga  Ga2  1  0.79526430  0.62831032  0.01206896  1
+  Se  Se3  1  0.19845024  0.54384965  0.82621706  1
+  Cu  Cu4  1  0.11315185  0.95712250  0.66173440  1
+  O  O5  1  0.94961387  0.79056621  0.32199335  1

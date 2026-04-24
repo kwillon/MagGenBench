@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_KNaBiPtO5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.98440313
+_cell_length_b   5.50393867
+_cell_length_c   5.57794523
+_cell_angle_alpha   95.33077240
+_cell_angle_beta   90.71672821
+_cell_angle_gamma   88.43865204
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KNaBiPtO5
+_chemical_formula_sum   'K1 Na1 Bi1 Pt1 O5'
+_cell_volume   152.29844705
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.93075120  0.94379878  0.01019976  1
+  Pt  Pt1  1  0.42013115  0.95213425  0.99610525  1
+  O  O2  1  0.41564351  0.12156621  0.69971454  1
+  O  O3  1  0.42122608  0.24520549  0.18204412  1
+  Na  Na4  1  0.92670310  0.44949192  0.01002904  1
+  Bi  Bi5  1  0.42273590  0.43409139  0.51765269  1
+  K  K6  1  0.92158520  0.93919539  0.50947535  1
+  O  O7  1  0.42414811  0.63501370  0.85434592  1
+  O  O8  1  0.92489231  0.44244614  0.51046193  1

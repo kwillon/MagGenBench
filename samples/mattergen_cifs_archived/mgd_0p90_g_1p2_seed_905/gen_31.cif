@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       FeNi2Fe
+_chemical_formula_sum              "Fe2 Ni2"
+_cell_length_a       2.5176319470452744
+_cell_length_b       2.5161073722077636
+_cell_length_c       8.374358177185059
+_cell_angle_alpha    81.35788767232438
+_cell_angle_beta     81.34583803727945
+_cell_angle_gamma    60.042963237889325
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.6400021910667418  0.5665889382362366  0.4943062663078308  1.0000
+  Ni  Ni1       1.0  0.8917629718780518  0.8181043267250061  0.740591287612915  1.0000
+  Ni  Ni2       1.0  0.1422080397605896  0.06903906911611557  0.9887032508850098  1.0000
+  Fe  Fe2       1.0  0.3937104046344757  0.31987085938453674  0.23423230648040771  1.0000

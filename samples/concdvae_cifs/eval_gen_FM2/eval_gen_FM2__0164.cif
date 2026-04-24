@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_Ca3SmS4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.30697727
+_cell_length_b   6.31668568
+_cell_length_c   7.05640316
+_cell_angle_alpha   116.38516235
+_cell_angle_beta   109.24320984
+_cell_angle_gamma   91.36236572
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca3SmS4
+_chemical_formula_sum   'Ca3 Sm1 S4'
+_cell_volume   232.89916110
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.79348183  0.09102730  0.01056797  1
+  Ca  Ca1  1  0.29114720  0.59018743  0.01129571  1
+  Sm  Sm2  1  0.03963175  0.84253132  0.51401830  1
+  Ca  Ca3  1  0.54598057  0.34399843  0.51327151  1
+  S  S4  1  0.78814650  0.59371132  0.01428780  1
+  S  S5  1  0.29000548  0.08964261  0.01287727  1
+  S  S6  1  0.54100025  0.84018898  0.51139331  1
+  S  S7  1  0.03970881  0.33774725  0.50880224  1

@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       GdPd2LiPd2
+_chemical_formula_sum              "Gd1 Pd4 Li1"
+_cell_length_a       5.352216146454436
+_cell_length_b       5.35299702528127
+_cell_length_c       5.351255893707275
+_cell_angle_alpha    60.049849732005875
+_cell_angle_beta     60.05338693852411
+_cell_angle_gamma    60.04379165227736
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Gd  Gd1       1.0  0.6867655515670776  0.5948660373687744  0.06868556886911392  1.0000
+  Pd  Pd1       1.0  0.06198357790708542  0.4696182608604431  0.4440062642097473  1.0000
+  Pd  Pd2       1.0  0.061638243496418  0.9706875681877137  0.4440362155437469  1.0000
+  Li  Li1       1.0  0.43710941076278687  0.34475815296173096  0.8188404440879822  1.0000
+  Pd  Pd3       1.0  0.06192915514111519  0.9700068235397339  0.9435636401176453  1.0000
+  Pd  Pd4       1.0  0.5616434216499329  0.9700839519500734  0.4439857900142668  1.0000

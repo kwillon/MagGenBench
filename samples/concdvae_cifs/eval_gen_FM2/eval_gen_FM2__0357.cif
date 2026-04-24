@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_ZrTi2AgS4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.91012716
+_cell_length_b   4.93252087
+_cell_length_c   5.58814430
+_cell_angle_alpha   81.81848145
+_cell_angle_beta   85.07925415
+_cell_angle_gamma   83.65997314
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZrTi2AgS4
+_chemical_formula_sum   'Zr1 Ti2 Ag1 S4'
+_cell_volume   132.80609181
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.46537000  0.47860923  0.53872675  1
+  Ag  Ag1  1  0.96070153  0.97540766  0.53887814  1
+  S  S2  1  0.46214473  0.47484183  0.04444036  1
+  S  S3  1  0.96168959  0.97926158  0.03502917  1
+  S  S4  1  0.96179986  0.47403806  0.54128110  1
+  Ti  Ti5  1  0.46503872  0.97959602  0.04118218  1
+  S  S6  1  0.45582885  0.97995877  0.53877175  1
+  Zr  Zr7  1  0.96093494  0.48246658  0.03515156  1

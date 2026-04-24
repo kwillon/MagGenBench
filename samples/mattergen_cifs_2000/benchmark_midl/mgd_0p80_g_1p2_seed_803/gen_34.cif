@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       H4CrPdHCrH
+_chemical_formula_sum              "H6 Cr2 Pd1"
+_cell_length_a       2.992469204872772
+_cell_length_b       4.323429587842819
+_cell_length_c       5.331537246704102
+_cell_angle_alpha    113.62359682265644
+_cell_angle_beta     106.06506465141481
+_cell_angle_gamma    90.06589997418517
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  H   H1        1.0  0.9208952188491821  0.2693592607975006  0.5556850433349609  1.0000
+  H   H2        1.0  0.9202243089675903  0.7889779210090636  0.5547425150871277  1.0000
+  H   H3        1.0  0.27260926365852356  0.6225196123123168  0.26037979125976557  1.0000
+  H   H4        1.0  0.5965949296951294  0.9818689823150634  0.9075278639793396  1.0000
+  Cr  Cr1       1.0  0.7639654278755188  0.3729930222034454  0.24325796961784357  1.0000
+  Pd  Pd1       1.0  0.09634116291999816  0.7053719162940978  0.9074492454528809  1.0000
+  H   H5        1.0  0.2723904848098755  0.14210967719554898  0.26017171144485474  1.0000
+  Cr  Cr2       1.0  0.42896607518196106  0.03793209046125412  0.5717933773994446  1.0000
+  H   H6        1.0  0.5956381559371948  0.42922878265380854  0.9073216915130615  1.0000

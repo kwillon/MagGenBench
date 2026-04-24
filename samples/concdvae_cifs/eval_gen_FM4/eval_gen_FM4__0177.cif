@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Tm2LuBiO5F3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.70679092
+_cell_length_b   5.83973455
+_cell_length_c   6.42665100
+_cell_angle_alpha   109.25657654
+_cell_angle_beta   109.33162689
+_cell_angle_gamma   106.45305634
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tm2LuBiO5F3
+_chemical_formula_sum   'Tm2 Lu1 Bi1 O5 F3'
+_cell_volume   171.28496131
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.83923030  0.60741317  0.16530570  1
+  Lu  Lu1  1  0.42072302  0.30662820  0.88393921  1
+  Tm  Tm2  1  0.20673028  0.57263744  0.43920079  1
+  F  F3  1  0.96230489  0.12410500  0.17284310  1
+  O  O4  1  0.35446081  0.60945487  0.16848415  1
+  F  F5  1  0.58103603  0.98676914  0.66301751  1
+  Bi  Bi6  1  0.98974943  0.71258336  0.90516376  1
+  Tm  Tm7  1  0.75114799  0.96216524  0.38110319  1
+  O  O8  1  0.09020874  0.89664221  0.65432203  1
+  O  O9  1  0.05088734  0.37853280  0.65014482  1
+  F  F10  1  0.47187757  0.11515442  0.16008173  1
+  O  O11  1  0.53519905  0.48936504  0.67203701  1

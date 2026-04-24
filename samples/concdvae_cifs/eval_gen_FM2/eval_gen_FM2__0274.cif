@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Na3CuSbAuO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.31698465
+_cell_length_b   5.76951456
+_cell_length_c   6.16923237
+_cell_angle_alpha   102.15470886
+_cell_angle_beta   92.80522919
+_cell_angle_gamma   90.40463257
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na3CuSbAuO6
+_chemical_formula_sum   'Na3 Cu1 Sb1 Au1 O6'
+_cell_volume   184.75655023
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.91828591  0.45301002  0.25097099  1
+  Cu  Cu1  1  0.47652179  0.73736989  0.80771035  1
+  Na  Na2  1  0.42187715  0.16169560  0.52406329  1
+  O  O3  1  0.70962894  0.91721720  0.73931921  1
+  Au  Au4  1  0.62300497  0.23779522  0.13660625  1
+  O  O5  1  0.20620921  0.54308432  0.73172998  1
+  O  O6  1  0.69641221  0.47765166  0.67902970  1
+  Na  Na7  1  0.02428015  0.22554797  0.84239596  1
+  O  O8  1  0.35981601  0.99756771  0.03333752  1
+  Sb  Sb9  1  0.91948563  0.66527128  0.55815381  1
+  Na  Na10  1  0.04133563  0.79418981  0.10959347  1
+  O  O11  1  0.07118473  0.92150754  0.48891526  1

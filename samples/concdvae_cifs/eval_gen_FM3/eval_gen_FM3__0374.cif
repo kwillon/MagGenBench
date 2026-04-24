@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Li5LaCl8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.49573040
+_cell_length_b   7.63645840
+_cell_length_c   7.64080429
+_cell_angle_alpha   62.42588806
+_cell_angle_beta   59.44984436
+_cell_angle_gamma   60.58008575
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li5LaCl8
+_chemical_formula_sum   'Li5 La1 Cl8'
+_cell_volume   314.54826477
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.47837389  0.36920583  0.23625639  1
+  Li  Li1  1  0.74159002  0.59373164  0.48773056  1
+  Li  Li2  1  0.10924757  0.98197341  0.36132672  1
+  Li  Li3  1  0.61036390  0.98286605  0.85686326  1
+  Cl  Cl4  1  0.85364163  0.74969202  0.60865289  1
+  Cl  Cl5  1  0.35882780  0.22283599  0.11164363  1
+  Cl  Cl6  1  0.86890954  0.21964504  0.11297038  1
+  Cl  Cl7  1  0.34536594  0.75020766  0.61053228  1
+  Li  Li8  1  0.10735810  0.98683912  0.85921574  1
+  Cl  Cl9  1  0.35442168  0.75269836  0.10238655  1
+  La  La10  1  0.10767482  0.48380643  0.85996926  1
+  Cl  Cl11  1  0.86738604  0.20993951  0.61916339  1
+  Cl  Cl12  1  0.85151857  0.75021464  0.10034496  1
+  Cl  Cl13  1  0.36144847  0.21930857  0.62127030  1

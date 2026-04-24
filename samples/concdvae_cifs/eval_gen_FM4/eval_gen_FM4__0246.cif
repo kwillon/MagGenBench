@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_BaLaScTiO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.70795250
+_cell_length_b   4.99285173
+_cell_length_c   5.81155062
+_cell_angle_alpha   95.15448761
+_cell_angle_beta   92.36247253
+_cell_angle_gamma   90.28474426
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaLaScTiO6
+_chemical_formula_sum   'Ba1 La1 Sc1 Ti1 O6'
+_cell_volume   135.93370952
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.84504753  0.33898738  0.11653212  1
+  O  O1  1  0.84955400  0.89105928  0.12083685  1
+  La  La2  1  0.34753892  0.11031796  0.87823302  1
+  Sc  Sc3  1  0.85046977  0.61456311  0.87438095  1
+  O  O4  1  0.34267753  0.61828339  0.88075745  1
+  O  O5  1  0.84862083  0.34496111  0.63506979  1
+  Ti  Ti6  1  0.84346825  0.11903697  0.37770286  1
+  Ba  Ba7  1  0.34539598  0.61452490  0.38083687  1
+  O  O8  1  0.84270775  0.89727199  0.64381468  1
+  O  O9  1  0.34423259  0.11770381  0.37991956  1

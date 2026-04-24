@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_DyHg(PbSe2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.00821877
+_cell_length_b   6.15274143
+_cell_length_c   9.96572495
+_cell_angle_alpha   91.05341339
+_cell_angle_beta   90.19303131
+_cell_angle_gamma   102.50733185
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   DyHg(PbSe2)2
+_chemical_formula_sum   'Dy1 Hg1 Pb2 Se4'
+_cell_volume   239.89016683
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.63004410  0.84999406  0.21825540  1
+  Dy  Dy1  1  0.13354862  0.85065490  0.00059700  1
+  Pb  Pb2  1  0.62104291  0.35171962  0.24793163  1
+  Se  Se3  1  0.63305950  0.84539068  0.78205109  1
+  Hg  Hg4  1  0.12645106  0.85213792  0.49956164  1
+  Se  Se5  1  0.12272792  0.34638560  0.50413990  1
+  Se  Se6  1  0.12376464  0.34752801  0.99688441  1
+  Pb  Pb7  1  0.62912124  0.34546766  0.75316817  1

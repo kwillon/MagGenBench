@@ -1,0 +1,43 @@
+ data_La1Fe1O3
+ loop_
+ _atom_type_symbol
+ _atom_type_electronegativity
+ _atom_type_radius
+ _atom_type_ionic_radius
+ La 1.1000 1.8700 1.1600
+Fe 1.8300 1.4000 0.8525
+O 3.4400 0.6000 1.2600
+ _symmetry_space_group_name_H-M Pnma
+_cell_length_a 5.5955
+_cell_length_b 7.8339
+_cell_length_c 5.4838
+_cell_angle_alpha 90.0000
+_cell_angle_beta 90.0000
+_cell_angle_gamma 90.0000
+_symmetry_Int_Tables_number 62
+_chemical_formula_structural LaFeO3
+_chemical_formula_sum 'La12 Fe12 O36'
+_cell_volume 241.2870
+_cell_formula_units_Z 12
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 'x, y, z'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+La La0 8 0.2473 0.0038 0.5107 1
+La La1 4 0.0069 0.2500 0.9609 1
+Fe Fe2 8 0.0079 0.6669 0.5000 1
+Fe Fe3 4 0.0000 0.0000 0.0000 1
+O O4 8 0.0100 0.1266 0.7325 1
+O O5 8 0.0137 0.5898 0.8362 1
+O O6 8 0.1782 0.0736 0.0533 1
+O O7 8 0.2153 0.6720 0.3160 1
+O O8 4 0.1053 0.7500 0.6055 1
+

@@ -1,0 +1,28 @@
+data_image0
+_chemical_formula_structural       CuEuAs
+_chemical_formula_sum              "Cu1 Eu1 As1"
+_cell_length_a       4.249056358363218
+_cell_length_b       4.201789386297147
+_cell_length_c       4.201627731323242
+_cell_angle_alpha    119.97123322059228
+_cell_angle_beta     90.00543250491206
+_cell_angle_gamma    89.99078174941309
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cu  Cu1       1.0  0.23753571510314941  0.18167661130428314  0.04661751911044121  1.0000
+  Eu  Eu1       1.0  0.7374129295349121  0.8484898805618285  0.3797164261341095  1.0000
+  As  As1       1.0  0.237318217754364  0.5149920582771301  0.7132086157798767  1.0000

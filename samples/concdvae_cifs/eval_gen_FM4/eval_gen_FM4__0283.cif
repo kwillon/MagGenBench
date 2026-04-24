@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_KHfSi2O5F3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.66103888
+_cell_length_b   6.43451500
+_cell_length_c   6.72387028
+_cell_angle_alpha   110.08355713
+_cell_angle_beta   96.06487274
+_cell_angle_gamma   93.65798187
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KHfSi2O5F3
+_chemical_formula_sum   'K1 Hf1 Si2 O5 F3'
+_cell_volume   187.25223496
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.34932217  0.78011012  0.35671058  1
+  O  O1  1  0.36984754  0.91562843  0.00281656  1
+  Si  Si2  1  0.20457299  0.91099823  0.21905033  1
+  Si  Si3  1  0.27022031  0.29841799  0.62937468  1
+  Hf  Hf4  1  0.39857677  0.83197570  0.68190151  1
+  F  F5  1  0.03386590  0.37336642  0.82519197  1
+  O  O6  1  0.13285682  0.16295777  0.37955740  1
+  O  O7  1  0.47291157  0.14472671  0.71971536  1
+  K  K8  1  0.68539894  0.40014985  0.16835904  1
+  F  F9  1  0.90287077  0.78827423  0.14314741  1
+  F  F10  1  0.89925122  0.82606637  0.66415048  1
+  O  O11  1  0.43183547  0.52643722  0.62548178  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_TbDyBO3F4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.37302780
+_cell_length_b   5.36393023
+_cell_length_c   5.48027706
+_cell_angle_alpha   86.70097351
+_cell_angle_beta   71.99818420
+_cell_angle_gamma   69.30626678
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TbDyBO3F4
+_chemical_formula_sum   'Tb1 Dy1 B1 O3 F4'
+_cell_volume   140.28425031
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.46608132  0.34841424  0.94281328  1
+  F  F1  1  0.61330855  0.23843533  0.40998387  1
+  F  F2  1  0.32396585  0.81650347  0.47247532  1
+  O  O3  1  0.93398261  0.58623970  0.26927155  1
+  B  B4  1  0.93842143  0.76686627  0.08748743  1
+  O  O5  1  0.15332875  0.87293190  0.02169280  1
+  F  F6  1  0.02477153  0.33261478  0.64958102  1
+  O  O7  1  0.72163045  0.82684851  0.98014921  1
+  Dy  Dy8  1  0.28272274  0.15560134  0.25011310  1
+  Tb  Tb9  1  0.59729141  0.59438205  0.68256354  1

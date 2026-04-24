@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_ScMn2Al2B
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.14409924
+_cell_length_b   4.19087315
+_cell_length_c   4.76865339
+_cell_angle_alpha   88.76932526
+_cell_angle_beta   89.06831360
+_cell_angle_gamma   88.29699707
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ScMn2Al2B
+_chemical_formula_sum   'Sc1 Mn2 Al2 B1'
+_cell_volume   82.75329355
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.05738758  0.99677908  0.92316413  1
+  Al  Al1  1  0.05995155  0.48483798  0.19398147  1
+  B  B2  1  0.55948776  0.99594259  0.92013884  1
+  Mn  Mn3  1  0.56048357  0.49669945  0.91725630  1
+  Al  Al4  1  0.05784185  0.49933016  0.65521228  1
+  Sc  Sc5  1  0.55810004  0.98778665  0.42089111  1

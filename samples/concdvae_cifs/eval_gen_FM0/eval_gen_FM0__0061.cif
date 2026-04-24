@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_NaZnIn5Cu
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.52380705
+_cell_length_b   5.97438669
+_cell_length_c   6.56753302
+_cell_angle_alpha   118.18326569
+_cell_angle_beta   98.82836151
+_cell_angle_gamma   91.04625702
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaZnIn5Cu
+_chemical_formula_sum   'Na1 Zn1 In5 Cu1'
+_cell_volume   187.75073105
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.85786891  0.17329390  0.63731003  1
+  In  In1  1  0.86289233  0.67203087  0.63853180  1
+  Cu  Cu2  1  0.19823784  0.59409201  0.98772931  1
+  In  In3  1  0.03254141  0.19533911  0.17813662  1
+  In  In4  1  0.30746064  0.82068086  0.42108217  1
+  Zn  Zn5  1  0.37206081  0.42471111  0.64739937  1
+  Na  Na6  1  0.47301075  0.06736518  0.93485987  1
+  In  In7  1  0.73640358  0.66634864  0.11918506  1

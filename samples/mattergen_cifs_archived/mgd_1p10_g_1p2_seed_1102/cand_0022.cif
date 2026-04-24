@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       CdFeScFe3
+_chemical_formula_sum              "Cd1 Fe4 Sc1"
+_cell_length_a       4.953208741022948
+_cell_length_b       4.953373274720898
+_cell_length_c       4.952855110168457
+_cell_angle_alpha    60.03726565022772
+_cell_angle_beta     60.034029216198356
+_cell_angle_gamma    60.04517529455
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cd  Cd1       1.0  0.1673893789353317  0.8401526202740077  0.16209353493743103  1.0000
+  Fe  Fe1       1.0  0.5428617000569979  0.21535682688716315  0.5372389548806012  1.0000
+  Sc  Sc1       1.0  0.9173933261733678  0.5899770864946051  0.9121895437493261  1.0000
+  Fe  Fe2       1.0  0.5424629456183966  0.7150319812177568  0.5372884863141459  1.0000
+  Fe  Fe3       1.0  0.5424609778050006  0.21501281825562527  0.03703539069044407  1.0000
+  Fe  Fe4       1.0  0.04255070924985954  0.2150374662024879  0.5368927113227859  1.0000

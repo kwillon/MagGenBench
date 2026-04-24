@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_NaCa(NiP)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.46179724
+_cell_length_b   5.52331209
+_cell_length_c   5.77927208
+_cell_angle_alpha   87.99452972
+_cell_angle_beta   89.40032959
+_cell_angle_gamma   88.16137695
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaCa(NiP)2
+_chemical_formula_sum   'Na2 Ca2 Ni4 P4'
+_cell_volume   174.14040775
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.71841747  0.42840415  0.24179694  1
+  Ni  Ni1  1  0.90841746  0.93143219  0.55250663  1
+  Na  Na2  1  0.69032323  0.95322406  0.02357426  1
+  Ni  Ni3  1  0.40284261  0.24593407  0.74065500  1
+  P  P4  1  0.98275661  0.66709948  0.31597766  1
+  Ni  Ni5  1  0.21714199  0.73035324  0.04833055  1
+  Ca  Ca6  1  0.20008878  0.20460910  0.27232096  1
+  P  P7  1  0.14746933  0.99644244  0.81278145  1
+  P  P8  1  0.65640396  0.17046230  0.49046183  1
+  Na  Na9  1  0.44538313  0.71564263  0.52714455  1
+  Ca  Ca10  1  0.92724085  0.46139100  0.77224439  1
+  P  P11  1  0.47439295  0.49670187  0.98552811  1

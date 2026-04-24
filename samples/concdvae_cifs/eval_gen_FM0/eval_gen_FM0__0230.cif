@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Tm2Mg
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.71712828
+_cell_length_b   5.73408985
+_cell_length_c   5.65676308
+_cell_angle_alpha   67.52365112
+_cell_angle_beta   70.08679962
+_cell_angle_gamma   69.11462402
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tm2Mg
+_chemical_formula_sum   'Tm4 Mg2'
+_cell_volume   155.54981001
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.37396652  0.34368703  0.36233443  1
+  Tm  Tm1  1  0.36892301  0.68265432  0.69148618  1
+  Tm  Tm2  1  0.87254637  0.51248932  0.19998078  1
+  Tm  Tm3  1  0.37009227  0.01328204  0.02656542  1
+  Tm  Tm4  1  0.87532157  0.17567305  0.85817868  1
+  Mg  Mg5  1  0.86739784  0.84666705  0.52401328  1

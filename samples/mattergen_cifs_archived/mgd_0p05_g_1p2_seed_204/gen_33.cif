@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       GaMnNiCo
+_chemical_formula_sum              "Ga1 Mn1 Ni1 Co1"
+_cell_length_a       4.08643010003207
+_cell_length_b       4.086000869890448
+_cell_length_c       4.085868835449219
+_cell_angle_alpha    59.937630476462324
+_cell_angle_beta     59.97837410803955
+_cell_angle_gamma    59.99497576513254
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ga  Ga1       1.0  0.8973369598388672  0.4467680752277374  0.3445921838283539  1.0000
+  Mn  Mn1       1.0  0.39741286635398854  0.9468643665313722  0.8445762991905212  1.0000
+  Ni  Ni1       1.0  0.6474482417106628  0.19691124558448794  0.09448318928480143  1.0000
+  Co  Co1       1.0  0.14730800688266749  0.6968384385108949  0.5945671200752258  1.0000

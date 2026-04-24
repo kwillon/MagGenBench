@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Li2GdLi2Gd
+_chemical_formula_sum              "Li4 Gd2"
+_cell_length_a       3.591645815222807
+_cell_length_b       3.5896664213202425
+_cell_length_c       11.605563163757324
+_cell_angle_alpha    89.9438515128377
+_cell_angle_beta     89.98664265499397
+_cell_angle_gamma    89.96754544728192
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.4650096893310547  0.9293469786643982  0.9093656539916992  1.0000
+  Li  Li2       1.0  0.965966522693634  0.42837491631507874  0.510147213935852  1.0000
+  Gd  Gd1       1.0  0.9652083516120911  0.4292289018630982  0.10176397860050201  1.0000
+  Li  Li3       1.0  0.9658101201057434  0.42965829372406006  0.780163586139679  1.0000
+  Li  Li4       1.0  0.46506282687187195  0.9283738732337952  0.6391381025314331  1.0000
+  Gd  Gd2       1.0  0.46518540382385254  0.9287007451057434  0.3176560401916504  1.0000

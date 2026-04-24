@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CaLaTaAlO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.26524401
+_cell_length_b   5.41790962
+_cell_length_c   5.63859844
+_cell_angle_alpha   95.14926147
+_cell_angle_beta   91.28359985
+_cell_angle_gamma   88.86367798
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaLaTaAlO6
+_chemical_formula_sum   'Ca1 La1 Ta1 Al1 O6'
+_cell_volume   129.72151149
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.87981778  0.74269396  0.37406820  1
+  O  O1  1  0.37397701  0.93131793  0.68319488  1
+  O  O2  1  0.37196535  0.54095209  0.06247826  1
+  O  O3  1  0.37760356  0.43461874  0.57232577  1
+  Ta  Ta4  1  0.37147322  0.74184042  0.37663853  1
+  Ca  Ca5  1  0.86819696  0.23390454  0.37294996  1
+  O  O6  1  0.87434614  0.24079998  0.87849271  1
+  La  La7  1  0.87269425  0.74204177  0.87721193  1
+  O  O8  1  0.37530136  0.04629025  0.17230774  1
+  Al  Al9  1  0.37337017  0.23521121  0.87482136  1

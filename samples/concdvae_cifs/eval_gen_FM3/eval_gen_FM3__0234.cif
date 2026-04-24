@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_LiY4CuCl5O4F
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.14635372
+_cell_length_b   6.63543987
+_cell_length_c   7.25300694
+_cell_angle_alpha   82.27313995
+_cell_angle_beta   82.73750305
+_cell_angle_gamma   86.86259460
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiY4CuCl5O4F
+_chemical_formula_sum   'Li1 Y4 Cu1 Cl5 O4 F1'
+_cell_volume   290.55317551
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.86528784  0.62766987  0.73256797  1
+  Y  Y1  1  0.47909048  0.86464542  0.98798829  1
+  O  O2  1  0.75064272  0.63448334  0.99802798  1
+  Cl  Cl3  1  0.15324864  0.97794282  0.73382777  1
+  Y  Y4  1  0.33409238  0.70639020  0.48811132  1
+  Cl  Cl5  1  0.64410287  0.18647170  0.87030703  1
+  O  O6  1  0.30249894  0.64756483  0.17069489  1
+  Y  Y7  1  0.80580294  0.99786508  0.51452148  1
+  Cl  Cl8  1  0.62997293  0.37945220  0.40214771  1
+  O  O9  1  0.97418129  0.70198333  0.46099794  1
+  O  O10  1  0.60306287  0.77900690  0.68016112  1
+  Y  Y11  1  0.99711287  0.52578586  0.19032209  1
+  F  F12  1  0.57249421  0.91037560  0.30195755  1
+  Cl  Cl13  1  0.11366609  0.13374482  0.21414299  1
+  Li  Li14  1  0.52459300  0.45342588  0.07398202  1
+  Cl  Cl15  1  0.16324078  0.46467671  0.79687983  1

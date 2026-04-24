@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_CePr5MgS9O2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.11232042
+_cell_length_b   8.01939297
+_cell_length_c   7.03084087
+_cell_angle_alpha   89.80076599
+_cell_angle_beta   70.14199066
+_cell_angle_gamma   66.45088196
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CePr5MgS9O2
+_chemical_formula_sum   'Ce1 Pr5 Mg1 S9 O2'
+_cell_volume   341.66669715
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  0.88535780  0.16945344  0.38642856  1
+  S  S1  1  0.57356751  0.59280944  0.63184357  1
+  S  S2  1  0.42860383  0.40548709  0.35094187  1
+  S  S3  1  0.20899901  0.73081255  0.09404823  1
+  Pr  Pr4  1  0.47280273  0.75762099  0.29882440  1
+  S  S5  1  0.09380484  0.88045204  0.60895455  1
+  S  S6  1  0.52591640  0.23045003  0.81871343  1
+  Mg  Mg7  1  0.57329899  0.09491629  0.12564433  1
+  S  S8  1  0.94826835  0.44743037  0.15674418  1
+  O  O9  1  0.87168384  0.13202089  0.04933824  1
+  S  S10  1  0.72260946  0.77870429  0.90210545  1
+  Pr  Pr11  1  0.27513769  0.01409511  0.86358351  1
+  S  S12  1  0.62825876  0.95235854  0.43791798  1
+  O  O13  1  0.28098688  0.05106520  0.19486278  1
+  Pr  Pr14  1  0.96112257  0.63850087  0.46305081  1
+  Ce  Ce15  1  0.67709839  0.42646596  0.95576769  1
+  Pr  Pr16  1  0.19187343  0.54705989  0.79295391  1
+  S  S17  1  0.05815610  0.30309415  0.64736027  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CsCuTeO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.56677652
+_cell_length_b   5.81021960
+_cell_length_c   6.86865735
+_cell_angle_alpha   85.03041686
+_cell_angle_beta   78.75719028
+_cell_angle_gamma   61.18670918
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsCuTeO2
+_chemical_formula_sum   'Cs2 Cu2 Te2 O4'
+_cell_volume   156.61877470
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.38685766  0.13108304  0.88263346  1
+  O  O1  1  0.61314234  0.86891696  0.11736654  1
+  Cs  Cs2  1  0.56933358  0.99143159  0.11832176  1
+  Cs  Cs3  1  0.43066642  0.00856841  0.88167824  1
+  Te  Te4  1  0.76762426  0.49429647  0.27994148  1
+  Te  Te5  1  0.23237574  0.50570353  0.72005852  1
+  O  O6  1  0.81805660  0.00686346  0.16550709  1
+  O  O7  1  0.18194340  0.99313654  0.83449291  1
+  Cu  Cu8  1  0.98751168  0.73943056  0.51931525  1
+  Cu  Cu9  1  0.01248832  0.26056944  0.48068475  1

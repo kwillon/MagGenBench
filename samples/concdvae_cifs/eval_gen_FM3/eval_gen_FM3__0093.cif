@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_BaTi2NbVCoO9F
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.92044783
+_cell_length_b   6.14065695
+_cell_length_c   6.50254440
+_cell_angle_alpha   104.77975464
+_cell_angle_beta   99.97291565
+_cell_angle_gamma   101.32675171
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaTi2NbVCoO9F
+_chemical_formula_sum   'Ba1 Ti2 Nb1 V1 Co1 O9 F1'
+_cell_volume   217.82455387
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.28367060  0.25674096  0.85033989  1
+  O  O1  1  0.26678506  0.02725295  0.03513525  1
+  Co  Co2  1  0.68614358  0.54569435  0.26948082  1
+  Nb  Nb3  1  0.30155811  0.04029372  0.32549271  1
+  O  O4  1  0.96209919  0.22862907  0.77696794  1
+  Ti  Ti5  1  0.24629667  0.63527459  0.50771832  1
+  O  O6  1  0.61920124  0.27722126  0.39971095  1
+  O  O7  1  0.01752995  0.76940072  0.31041411  1
+  O  O8  1  0.12911765  0.30281085  0.36507741  1
+  V  V9  1  0.70594966  0.35060972  0.69599092  1
+  F  F10  1  0.95145535  0.66070223  0.67708588  1
+  Ba  Ba11  1  0.73724049  0.94490623  0.99811649  1
+  O  O12  1  0.43289524  0.55175269  0.71680653  1
+  O  O13  1  0.64040065  0.38857377  0.97739637  1
+  O  O14  1  0.39855880  0.03668014  0.64834827  1
+  O  O15  1  0.46712446  0.74598765  0.33182317  1

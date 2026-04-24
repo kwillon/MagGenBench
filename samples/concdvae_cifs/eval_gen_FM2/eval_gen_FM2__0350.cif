@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_Na2Li2CaSiP(HO4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.46799994
+_cell_length_b   6.35558224
+_cell_length_c   6.80071115
+_cell_angle_alpha   88.40958405
+_cell_angle_beta   89.89062500
+_cell_angle_gamma   90.13103485
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2Li2CaSiP(HO4)2
+_chemical_formula_sum   'Na2 Li2 Ca1 Si1 P1 H2 O8'
+_cell_volume   236.24838964
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.43981144  0.44823140  0.40662697  1
+  Li  Li1  1  0.13562144  0.46073377  0.26506022  1
+  O  O2  1  0.62187541  0.15927033  0.13259630  1
+  H  H3  1  0.75597978  0.21439558  0.05368174  1
+  O  O4  1  0.18629649  0.09045055  0.94484252  1
+  O  O5  1  0.04160113  0.75374871  0.16466597  1
+  Na  Na6  1  0.11207657  0.95712286  0.46069807  1
+  P  P7  1  0.13374044  0.83663958  0.94519001  1
+  Ca  Ca8  1  0.61443359  0.75642717  0.22025722  1
+  O  O9  1  0.95731115  0.77753836  0.76828414  1
+  O  O10  1  0.38515472  0.72025561  0.91276699  1
+  Si  Si11  1  0.63566971  0.23909314  0.37518808  1
+  O  O12  1  0.53982592  0.99935937  0.48288575  1
+  H  H13  1  0.35444421  0.13433374  0.00481745  1
+  Li  Li14  1  0.62693965  0.83560610  0.71704471  1
+  O  O15  1  0.91807097  0.30089858  0.43428448  1
+  Na  Na16  1  0.16621576  0.42709905  0.69031268  1

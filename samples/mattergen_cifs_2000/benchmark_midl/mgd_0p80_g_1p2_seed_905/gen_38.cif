@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Li2GdO2CuO2
+_chemical_formula_sum              "Li2 Gd1 O4 Cu1"
+_cell_length_a       3.46017762520596
+_cell_length_b       5.192167357155384
+_cell_length_c       5.287316799163818
+_cell_angle_alpha    104.34247608924491
+_cell_angle_beta     95.14059441335185
+_cell_angle_gamma    96.89220340285105
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.5081335306167603  0.41345086693763733  0.5980244278907776  1.0000
+  Li  Li2       1.0  0.008038725703954697  0.4123135507106781  0.09756893664598465  1.0000
+  Gd  Gd1       1.0  0.5062510967254639  0.9129795432090759  0.09892760217189789  1.0000
+  O   O1        1.0  0.6766866445541382  0.6352221369743347  0.3439219295978546  1.0000
+  O   O2        1.0  0.940581738948822  0.6987884640693665  0.83824223279953  1.0000
+  Cu  Cu1       1.0  0.008475637063384087  0.9132084846496583  0.5986156463623047  1.0000
+  O   O3        1.0  0.07313059270381927  0.12724703550338745  0.3591248691082001  1.0000
+  O   O4        1.0  0.34249216318130493  0.19061179459095  0.8530986905097961  1.0000

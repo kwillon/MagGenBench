@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_NaMgInS3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.80315232
+_cell_length_b   5.39910078
+_cell_length_c   6.57406092
+_cell_angle_alpha   110.89689636
+_cell_angle_beta   105.13249969
+_cell_angle_gamma   90.43857574
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaMgInS3
+_chemical_formula_sum   'Na1 Mg1 In1 S3'
+_cell_volume   120.97482406
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.35256332  0.70777410  0.43169853  1
+  Mg  Mg1  1  0.01794221  0.86322415  0.75627482  1
+  S  S2  1  0.66966110  0.02321023  0.05417921  1
+  S  S3  1  0.01818999  0.37963402  0.77618945  1
+  In  In4  1  0.68818027  0.53612900  0.09176819  1
+  Na  Na5  1  0.34563559  0.19924578  0.41626889  1

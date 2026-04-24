@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Mn3Cu2Ni2H(O3F)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.16753578
+_cell_length_b   5.38003874
+_cell_length_c   8.23275280
+_cell_angle_alpha   105.28229523
+_cell_angle_beta   103.74858856
+_cell_angle_gamma   102.82304382
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mn3Cu2Ni2H(O3F)3
+_chemical_formula_sum   'Mn3 Cu2 Ni2 H1 O9 F3'
+_cell_volume   204.33284727
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.72139692  0.52590311  0.77722293  1
+  O  O1  1  0.03839217  0.55327719  0.38702169  1
+  O  O2  1  0.22893451  0.54300302  0.77068204  1
+  F  F3  1  0.26235563  0.11745220  0.44671980  1
+  Cu  Cu4  1  0.57391334  0.64570397  0.95866823  1
+  O  O5  1  0.02510524  0.95749593  0.67813891  1
+  O  O6  1  0.88720489  0.79352057  0.16542654  1
+  O  O7  1  0.53392887  0.59798133  0.36784109  1
+  O  O8  1  0.04798288  0.25544494  0.98517561  1
+  Mn  Mn9  1  0.89792526  0.84299093  0.41837618  1
+  Mn  Mn10  1  0.88777405  0.23901796  0.72905064  1
+  Ni  Ni11  1  0.21405061  0.66816795  0.22968067  1
+  F  F12  1  0.55399799  0.94928974  0.71480906  1
+  H  H13  1  0.86383337  0.21696915  0.01065691  1
+  F  F14  1  0.57582200  0.25989911  0.04031017  1
+  O  O15  1  0.78188896  0.13350593  0.46842685  1
+  Cu  Cu16  1  0.69983816  0.21882631  0.26353788  1
+  Mn  Mn17  1  0.14277256  0.89667416  0.89326441  1
+  Ni  Ni18  1  0.39160079  0.53712505  0.57243550  1
+  O  O19  1  0.39535671  0.86315292  0.10734501  1

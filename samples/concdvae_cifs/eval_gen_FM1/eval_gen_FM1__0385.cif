@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_MgInS2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.65068483
+_cell_length_b   4.74830055
+_cell_length_c   6.70434046
+_cell_angle_alpha   89.76824188
+_cell_angle_beta   89.09635925
+_cell_angle_gamma   89.91693878
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgInS2
+_chemical_formula_sum   'Mg2 In2 S4'
+_cell_volume   148.03117445
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.02294930  0.24623823  0.16731855  1
+  S  S1  1  0.53216952  0.74582976  0.16814950  1
+  S  S2  1  0.52488762  0.24627328  0.66839612  1
+  In  In3  1  0.52513909  0.74683189  0.66613758  1
+  S  S4  1  0.02537754  0.75169486  0.66977280  1
+  Mg  Mg5  1  0.02765729  0.74248481  0.17161110  1
+  In  In6  1  0.52698475  0.24144700  0.16612718  1
+  Mg  Mg7  1  0.02335509  0.24660626  0.67229712  1

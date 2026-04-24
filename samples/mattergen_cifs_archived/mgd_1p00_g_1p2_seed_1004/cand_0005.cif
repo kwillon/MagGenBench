@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Eu3CHEuH2
+_chemical_formula_sum              "Eu4 C1 H3"
+_cell_length_a       3.793242221912852
+_cell_length_b       5.21656181521659
+_cell_length_c       7.6072096824646
+_cell_angle_alpha    89.90498091606582
+_cell_angle_beta     89.86675234153793
+_cell_angle_gamma    89.9583451830459
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Eu  Eu1       1.0  0.9295704966645856  0.6919381031592827  0.871755958093716  1.0000
+  Eu  Eu2       1.0  0.9297490712775298  0.6918970338959981  0.3714944418652187  1.0000
+  Eu  Eu3       1.0  0.42941570170704074  0.19189213197140984  0.6408280736179602  1.0000
+  C   C1        1.0  0.929596780897843  0.19205981548836717  0.8714255091344069  1.0000
+  H   H1        1.0  0.4295476964489449  0.6917495131176157  0.12782387447236032  1.0000
+  Eu  Eu4       1.0  0.42958334202380405  0.1919879308587971  0.10178430345935233  1.0000
+  H   H2        1.0  0.4298592497940629  0.6918226476146083  0.614685416812173  1.0000
+  H   H3        1.0  0.9296084056715253  0.19190461914378823  0.37132140937542624  1.0000

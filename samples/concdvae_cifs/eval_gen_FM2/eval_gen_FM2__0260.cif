@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_KZnNiCl3O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.95121408
+_cell_length_b   6.30259037
+_cell_length_c   6.52715111
+_cell_angle_alpha   101.85089111
+_cell_angle_beta   93.08070374
+_cell_angle_gamma   96.06433868
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KZnNiCl3O
+_chemical_formula_sum   'K1 Zn1 Ni1 Cl3 O1'
+_cell_volume   157.71410389
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.06280409  0.91171479  0.88087112  1
+  Cl  Cl1  1  0.20886825  0.78760314  0.16051970  1
+  Cl  Cl2  1  0.75015885  0.35342753  0.27627042  1
+  Ni  Ni3  1  0.16034739  0.42119977  0.10659319  1
+  K  K4  1  0.41639107  0.19859146  0.59436160  1
+  Cl  Cl5  1  0.48869729  0.72899556  0.71626800  1
+  O  O6  1  0.04019492  0.20619321  0.86786973  1

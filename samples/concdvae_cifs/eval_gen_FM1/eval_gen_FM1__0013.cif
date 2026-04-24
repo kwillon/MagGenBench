@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Nd4InNi3Bi
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.28020191
+_cell_length_b   5.50809240
+_cell_length_c   8.06701660
+_cell_angle_alpha   100.88958740
+_cell_angle_beta   97.28475189
+_cell_angle_gamma   91.47314453
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nd4InNi3Bi
+_chemical_formula_sum   'Nd4 In1 Ni3 Bi1'
+_cell_volume   228.23810503
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Bi  Bi0  1  0.36403611  0.70290464  0.40264851  1
+  Nd  Nd1  1  0.93455762  0.77513367  0.68403643  1
+  Ni  Ni2  1  0.76920027  0.09362800  0.00426790  1
+  In  In3  1  0.86267358  0.20330666  0.40617713  1
+  Nd  Nd4  1  0.79591960  0.63084096  0.12933609  1
+  Nd  Nd5  1  0.29478079  0.13308617  0.12341391  1
+  Ni  Ni6  1  0.96026713  0.30135033  0.80620688  1
+  Nd  Nd7  1  0.43151823  0.27048844  0.68731999  1
+  Ni  Ni8  1  0.26419273  0.60837275  0.99790323  1

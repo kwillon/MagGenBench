@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Sr5CaMg3GaPb4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.70594645
+_cell_length_b   7.95593691
+_cell_length_c   11.35589886
+_cell_angle_alpha   90.54148102
+_cell_angle_beta   92.77907562
+_cell_angle_gamma   90.20908356
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr5CaMg3GaPb4
+_chemical_formula_sum   'Sr5 Ca1 Mg3 Ga1 Pb4'
+_cell_volume   514.88044838
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pb  Pb0  1  0.41777384  0.10126016  0.04340238  1
+  Sr  Sr1  1  0.41469190  0.06949854  0.37101445  1
+  Pb  Pb2  1  0.91642106  0.98599273  0.59760165  1
+  Sr  Sr3  1  0.41216972  0.63014847  0.10780880  1
+  Ga  Ga4  1  0.91638464  0.96876168  0.15358514  1
+  Mg  Mg5  1  0.40768340  0.75224638  0.59752315  1
+  Mg  Mg6  1  0.90670943  0.32608622  0.23553705  1
+  Mg  Mg7  1  0.41518804  0.11735889  0.73517573  1
+  Pb  Pb8  1  0.41442055  0.51154399  0.80048764  1
+  Sr  Sr9  1  0.91083562  0.40814409  0.58856636  1
+  Sr  Sr10  1  0.92123401  0.30849192  0.92149544  1
+  Ca  Ca11  1  0.91400868  0.73297721  0.36488384  1
+  Pb  Pb12  1  0.40838259  0.48717737  0.38289866  1
+  Sr  Sr13  1  0.91778600  0.81663263  0.85808438  1

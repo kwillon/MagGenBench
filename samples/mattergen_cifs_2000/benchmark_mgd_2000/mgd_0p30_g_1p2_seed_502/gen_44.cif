@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Mn4GaMn
+_chemical_formula_sum              "Mn5 Ga1"
+_cell_length_a       3.8891292773385
+_cell_length_b       3.897043531635806
+_cell_length_c       4.982464790344238
+_cell_angle_alpha    113.15651438954829
+_cell_angle_beta     89.89292562915352
+_cell_angle_gamma    90.01533627615026
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Mn  Mn1       1.0  0.4310406446456909  0.027525266632437706  0.9770913124084472  1.0000
+  Mn  Mn2       1.0  0.9309830665588379  0.525767982006073  0.9740080833435057  1.0000
+  Mn  Mn3       1.0  0.9312214851379395  0.17282378673553467  0.2672884166240692  1.0000
+  Mn  Mn4       1.0  0.4314890503883362  0.6715752482414246  0.26472491025924677  1.0000
+  Ga  Ga1       1.0  0.9311877489089966  0.8494480848312377  0.6207478046417236  1.0000
+  Mn  Mn5       1.0  0.4313651919364929  0.3494985997676849  0.6212977766990662  1.0000

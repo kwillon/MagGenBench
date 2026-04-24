@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Na2Sr2Cl3F2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.24350071
+_cell_length_b   7.76089191
+_cell_length_c   8.38556767
+_cell_angle_alpha   95.87924194
+_cell_angle_beta   86.03892517
+_cell_angle_gamma   91.08116913
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2Sr2Cl3F2
+_chemical_formula_sum   'Na4 Sr4 Cl6 F4'
+_cell_volume   403.19255093
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.15308011  0.04298421  0.21093854  1
+  F  F1  1  0.87455708  0.97093219  0.86261439  1
+  Cl  Cl2  1  0.63392097  0.57483900  0.28322268  1
+  F  F3  1  0.05770174  0.76016861  0.10057271  1
+  Cl  Cl4  1  0.12668860  0.35217556  0.51170629  1
+  Na  Na5  1  0.14248484  0.58164358  0.28134125  1
+  Sr  Sr6  1  0.65413439  0.89166951  0.58246398  1
+  Na  Na7  1  0.67627269  0.80769300  0.05292626  1
+  Na  Na8  1  0.17756106  0.12604986  0.74602371  1
+  Cl  Cl9  1  0.14238963  0.34375924  0.01578417  1
+  Cl  Cl10  1  0.64743239  0.08548745  0.27306193  1
+  Na  Na11  1  0.63013011  0.34700248  0.51278198  1
+  Cl  Cl12  1  0.63667339  0.59078443  0.77654248  1
+  Sr  Sr13  1  0.64514327  0.27161461  0.97761667  1
+  Cl  Cl14  1  0.15285298  0.85426986  0.51616037  1
+  Sr  Sr15  1  0.13689230  0.66420174  0.81413561  1
+  F  F16  1  0.36914557  0.95146912  0.91409802  1
+  F  F17  1  0.56374544  0.16811104  0.68685597  1

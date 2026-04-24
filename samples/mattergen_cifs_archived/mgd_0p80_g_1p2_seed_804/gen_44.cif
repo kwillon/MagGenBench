@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       ZrHgCoZr
+_chemical_formula_sum              "Zr2 Hg1 Co1"
+_cell_length_a       3.209439247578813
+_cell_length_b       3.2120793065009074
+_cell_length_c       7.393576145172119
+_cell_angle_alpha    90.00638190147299
+_cell_angle_beta     89.979354842187
+_cell_angle_gamma    90.07385050683047
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Zr  Zr1       1.0  0.02334199286997318  0.27999791502952576  0.5164149403572083  1.0000
+  Hg  Hg1       1.0  0.5237231850624084  0.7801523208618164  0.8048312664031982  1.0000
+  Co  Co1       1.0  0.5237371921539307  0.7800973653793336  0.3041752278804779  1.0000
+  Zr  Zr2       1.0  0.024152150377631184  0.2801370918750763  0.09258878231048584  1.0000

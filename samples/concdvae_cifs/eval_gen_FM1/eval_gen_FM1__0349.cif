@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_LaAg2AsPdSe4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.93650675
+_cell_length_b   5.96559334
+_cell_length_c   6.78027105
+_cell_angle_alpha   111.44259644
+_cell_angle_beta   109.74308777
+_cell_angle_gamma   90.33758545
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaAg2AsPdSe4
+_chemical_formula_sum   'La1 Ag2 As1 Pd1 Se4'
+_cell_volume   208.05674367
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  1  0.01199131  0.10960954  0.28810796  1
+  La  La1  1  0.10048341  0.73329085  0.68786621  1
+  Se  Se2  1  0.87080133  0.45515829  0.18964739  1
+  Ag  Ag3  1  0.37586659  0.47107071  0.19498959  1
+  Pd  Pd4  1  0.70258039  0.79029220  0.07068405  1
+  Se  Se5  1  0.60304713  0.71326119  0.67854881  1
+  Se  Se6  1  0.36990258  0.97399664  0.20182861  1
+  Ag  Ag7  1  0.62781829  0.21371022  0.69127214  1
+  Se  Se8  1  0.12738517  0.23228346  0.69557780  1

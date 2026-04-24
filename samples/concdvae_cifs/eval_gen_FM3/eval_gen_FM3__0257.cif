@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Eu2TiMnO5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.41681051
+_cell_length_b   5.69518852
+_cell_length_c   5.57180023
+_cell_angle_alpha   88.31974792
+_cell_angle_beta   86.29419708
+_cell_angle_gamma   87.61511993
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Eu2TiMnO5
+_chemical_formula_sum   'Eu2 Ti1 Mn1 O5'
+_cell_volume   139.69217109
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Eu  Eu0  1  0.27164358  0.21751805  0.90514213  1
+  O  O1  1  0.77101892  0.57978559  0.53802729  1
+  O  O2  1  0.76993966  0.06315088  0.66895247  1
+  O  O3  1  0.77381164  0.39690512  0.05869766  1
+  O  O4  1  0.27634966  0.22593263  0.34641629  1
+  Ti  Ti5  1  0.77365059  0.29832324  0.40188140  1
+  Eu  Eu6  1  0.28508636  0.80328709  0.39494431  1
+  Mn  Mn7  1  0.77302635  0.72649270  0.87438637  1
+  O  O8  1  0.27300283  0.81107324  0.97857982  1

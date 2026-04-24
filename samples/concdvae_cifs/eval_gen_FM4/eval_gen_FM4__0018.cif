@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_LaEuAl5O11
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.11588860
+_cell_length_b   5.06891823
+_cell_length_c   12.11480522
+_cell_angle_alpha   94.36131287
+_cell_angle_beta   94.07300568
+_cell_angle_gamma   115.66568756
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaEuAl5O11
+_chemical_formula_sum   'La1 Eu1 Al5 O11'
+_cell_volume   280.44968294
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.37865227  0.55537611  0.27702203  1
+  O  O1  1  0.91262472  0.52137375  0.40428373  1
+  Al  Al2  1  0.97577143  0.48671347  0.54620892  1
+  Al  Al3  1  0.28969401  0.09631565  0.92613959  1
+  O  O4  1  0.02304661  0.81459832  0.59344715  1
+  Eu  Eu5  1  0.65043926  0.76406622  0.11983909  1
+  Al  Al6  1  0.94988370  0.42893854  0.01429146  1
+  O  O7  1  0.87196088  0.04735399  0.28465080  1
+  O  O8  1  0.28135186  0.43892583  0.56457484  1
+  O  O9  1  0.91017157  0.51119751  0.15284418  1
+  Al  Al10  1  0.02641697  0.40778902  0.28104743  1
+  O  O11  1  0.34228536  0.20237508  0.78298414  1
+  O  O12  1  0.61580020  0.11363555  0.98613781  1
+  La  La13  1  0.66467822  0.79592454  0.44398636  1
+  Al  Al14  1  0.32390979  0.16710997  0.63951164  1
+  O  O15  1  0.98534822  0.75577903  0.94873327  1
+  O  O16  1  0.23669955  0.36771086  0.00504307  1
+  O  O17  1  0.64919472  0.18371290  0.58546227  1

@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       GdCoO3
+_chemical_formula_sum              "Gd1 Co1 O3"
+_cell_length_a       3.7953135219710794
+_cell_length_b       3.797775064706821
+_cell_length_c       3.7979726791381836
+_cell_angle_alpha    89.95866619944904
+_cell_angle_beta     89.94748517714879
+_cell_angle_gamma    90.05282718731723
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Gd  Gd1       1.0  0.6985726952552795  0.1273362189531326  0.014002270996570589  1.0000
+  Co  Co1       1.0  0.19837689399719238  0.627173364162445  0.5138258337974548  1.0000
+  O   O1        1.0  0.1985277384519577  0.12691029906272885  0.5141342878341675  1.0000
+  O   O2        1.0  0.699068546295166  0.6276576519012451  0.5139710307121277  1.0000
+  O   O3        1.0  0.1990227997303009  0.6267685294151305  0.014131857082247736  1.0000

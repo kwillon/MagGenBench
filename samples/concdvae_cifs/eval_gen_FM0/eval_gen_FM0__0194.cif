@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Er2In3Ru
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.00010061
+_cell_length_b   6.06688023
+_cell_length_c   6.10012436
+_cell_angle_alpha   80.09110260
+_cell_angle_beta   66.27157593
+_cell_angle_gamma   65.21365356
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Er2In3Ru
+_chemical_formula_sum   'Er2 In3 Ru1'
+_cell_volume   153.79680096
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.41436270  0.73269087  0.53061104  1
+  Er  Er1  1  0.09588857  0.32341379  0.58197612  1
+  In  In2  1  0.36348039  0.35722703  0.99979067  1
+  In  In3  1  0.71537256  0.88885856  0.77287793  1
+  Ru  Ru4  1  0.72759390  0.49163285  0.14690855  1
+  Er  Er5  1  0.00502467  0.92387843  0.16938482  1

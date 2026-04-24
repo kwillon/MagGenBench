@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_MgScAgBi3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.23262930
+_cell_length_b   5.72387981
+_cell_length_c   5.77152443
+_cell_angle_alpha   93.36729431
+_cell_angle_beta   72.74690247
+_cell_angle_gamma   75.72549438
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgScAgBi3
+_chemical_formula_sum   'Mg1 Sc1 Ag1 Bi3'
+_cell_volume   158.35533667
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Bi  Bi0  1  0.16807291  0.78547251  0.32407039  1
+  Mg  Mg1  1  0.84390432  0.60262418  0.99082136  1
+  Sc  Sc2  1  0.48606247  0.95907843  0.66967416  1
+  Ag  Ag3  1  0.16437292  0.28414398  0.32644862  1
+  Bi  Bi4  1  0.82162505  0.10675902  0.01008750  1
+  Bi  Bi5  1  0.49984059  0.45073158  0.65799356  1

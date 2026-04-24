@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_K2LiLaAgAs2O8F
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.47288418
+_cell_length_b   5.54945087
+_cell_length_c   8.89797592
+_cell_angle_alpha   93.41174316
+_cell_angle_beta   89.34029388
+_cell_angle_gamma   95.51844788
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2LiLaAgAs2O8F
+_chemical_formula_sum   'K2 Li1 La1 Ag1 As2 O8 F1'
+_cell_volume   268.51107632
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.11926541  0.33139062  0.66346669  1
+  K  K1  1  0.60779738  0.35378018  0.99982482  1
+  O  O2  1  0.73338729  0.03171443  0.43275908  1
+  O  O3  1  0.60969788  0.39521018  0.59307659  1
+  F  F4  1  0.21559846  0.74194622  0.53927511  1
+  Ag  Ag5  1  0.58229893  0.79328758  0.68532836  1
+  O  O6  1  0.97456437  0.05643818  0.07995436  1
+  O  O7  1  0.22070900  0.64417976  0.08683250  1
+  Li  Li8  1  0.10500757  0.35166177  0.18541311  1
+  O  O9  1  0.32430083  0.99597752  0.85728443  1
+  La  La10  1  0.06141830  0.86176133  0.32183319  1
+  O  O11  1  0.81456757  0.46770734  0.29777598  1
+  O  O12  1  0.88480562  0.69110602  0.85240817  1
+  As  As13  1  0.61819673  0.28720501  0.41348717  1
+  As  As14  1  0.10566217  0.84129435  0.95765996  1
+  O  O15  1  0.33397150  0.23145245  0.32843828  1

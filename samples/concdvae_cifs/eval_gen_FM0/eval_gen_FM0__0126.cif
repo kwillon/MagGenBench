@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_LiMgH2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   2.61036849
+_cell_length_b   2.73881459
+_cell_length_c   6.21588087
+_cell_angle_alpha   88.92187500
+_cell_angle_beta   91.43240356
+_cell_angle_gamma   93.00680542
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiMgH2
+_chemical_formula_sum   'Li1 Mg1 H2'
+_cell_volume   44.35742531
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.52207911  0.42613342  0.12907751  1
+  H  H1  1  0.53947186  0.42213640  0.44252890  1
+  Li  Li2  1  0.02886910  0.91908151  0.48074082  1
+  H  H3  1  0.01806431  0.93291008  0.14878781  1

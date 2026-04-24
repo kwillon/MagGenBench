@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_RbWClO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.64450312
+_cell_length_b   5.57918501
+_cell_length_c   5.59491682
+_cell_angle_alpha   62.03527069
+_cell_angle_beta   63.24845505
+_cell_angle_gamma   62.40323257
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbWClO4
+_chemical_formula_sum   'Rb1 W1 Cl1 O4'
+_cell_volume   131.66964526
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  W  W0  1  0.33256274  0.97129887  0.69219095  1
+  Rb  Rb1  1  0.83450496  0.47548017  0.19156992  1
+  O  O2  1  0.21509475  0.85283053  0.56976658  1
+  Cl  Cl3  1  0.57851160  0.22878504  0.93708837  1
+  O  O4  1  0.69315004  0.85449255  0.56626236  1
+  O  O5  1  0.21706158  0.33191100  0.56656253  1
+  O  O6  1  0.20816442  0.85572839  0.04961005  1

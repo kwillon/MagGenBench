@@ -1,0 +1,26 @@
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# venv/conda локально
+.venv/
+venv/
+.env
+.conda/
+.micromamba/
+
+# git
+.git/
+.gitignore
+
+# outputs / data
+outputs/
+*.log
+
+# OS
+.DS_Store

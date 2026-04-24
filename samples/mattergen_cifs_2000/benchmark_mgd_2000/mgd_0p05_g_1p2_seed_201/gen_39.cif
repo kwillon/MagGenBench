@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       CoFe2Zn
+_chemical_formula_sum              "Co1 Fe2 Zn1"
+_cell_length_a       2.5048235136195527
+_cell_length_b       4.0713105941692795
+_cell_length_c       4.850026607513428
+_cell_angle_alpha    89.97019555682913
+_cell_angle_beta     100.45133272504665
+_cell_angle_gamma    89.97066684017513
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.4149041473865509  0.41026604175567627  0.7705813646316528  1.0000
+  Fe  Fe1       1.0  0.884223222732544  0.4102815091609955  0.2870156168937683  1.0000
+  Fe  Fe2       1.0  0.6490362286567688  0.9100670814514159  0.5363203287124634  1.0000
+  Zn  Zn1       1.0  0.16012023389339447  0.9102196693420409  0.03350955247879028  1.0000

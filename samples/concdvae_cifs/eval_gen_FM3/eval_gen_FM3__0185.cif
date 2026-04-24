@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Li2CaMgHW2O9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.94465971
+_cell_length_b   4.94458055
+_cell_length_c   10.12372303
+_cell_angle_alpha   96.02738190
+_cell_angle_beta   91.04445648
+_cell_angle_gamma   98.20956421
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2CaMgHW2O9
+_chemical_formula_sum   'Li2 Ca1 Mg1 H1 W2 O9'
+_cell_volume   194.24541793
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.71786898  0.18741281  0.27711692  1
+  O  O1  1  0.90003729  0.43587688  0.00083602  1
+  O  O2  1  0.20066229  0.03878966  0.10572647  1
+  H  H3  1  0.21520698  0.45808217  0.71404952  1
+  O  O4  1  0.22781539  0.07432556  0.77393425  1
+  W  W5  1  0.74967980  0.13312426  0.09095363  1
+  W  W6  1  0.22307651  0.91030622  0.60673010  1
+  Ca  Ca7  1  0.73414683  0.43895295  0.47501445  1
+  Li  Li8  1  0.75182045  0.19200444  0.80402493  1
+  O  O9  1  0.06162205  0.57161969  0.71163505  1
+  O  O10  1  0.64296472  0.88404030  0.94919544  1
+  O  O11  1  0.22439043  0.71175551  0.43670860  1
+  Mg  Mg12  1  0.10794762  0.77894050  0.91255277  1
+  O  O13  1  0.23775727  0.20075627  0.50977319  1
+  O  O14  1  0.70649004  0.88803941  0.60974967  1
+  Li  Li15  1  0.21583402  0.01170650  0.31350517  1

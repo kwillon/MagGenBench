@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_RbSrEu2F6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.89878035
+_cell_length_b   6.02523947
+_cell_length_c   5.78208113
+_cell_angle_alpha   93.63261414
+_cell_angle_beta   84.68762207
+_cell_angle_gamma   82.99621582
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbSrEu2F6
+_chemical_formula_sum   'Rb1 Sr1 Eu2 F6'
+_cell_volume   202.51445357
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.54534614  0.44824275  0.39534515  1
+  Rb  Rb1  1  0.80968434  0.75052750  0.13888249  1
+  F  F2  1  0.52084792  0.48731631  0.88106179  1
+  F  F3  1  0.09510999  0.02566264  0.39958107  1
+  Sr  Sr4  1  0.30601606  0.75841165  0.63863248  1
+  F  F5  1  0.54924506  0.01696528  0.84464341  1
+  F  F6  1  0.06707822  0.48002994  0.43078670  1
+  Eu  Eu7  1  0.30664772  0.25527555  0.13707769  1
+  F  F8  1  0.06858815  0.06033983  0.87473762  1
+  Eu  Eu9  1  0.80389029  0.25461528  0.63948423  1

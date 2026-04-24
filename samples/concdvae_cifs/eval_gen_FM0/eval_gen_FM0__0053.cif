@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_AcMgAg2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.50531006
+_cell_length_b   5.48330069
+_cell_length_c   5.27374935
+_cell_angle_alpha   60.56076813
+_cell_angle_beta   60.70711517
+_cell_angle_gamma   59.29156494
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AcMgAg2
+_chemical_formula_sum   'Ac1 Mg1 Ag2'
+_cell_volume   113.00571316
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ac  Ac0  1  0.88209891  0.41970015  0.40464908  1
+  Ag  Ag1  1  0.12821782  0.67124397  0.65971476  1
+  Ag  Ag2  1  0.63499689  0.16971081  0.15574524  1
+  Mg  Mg3  1  0.38585690  0.92059213  0.90142596  1

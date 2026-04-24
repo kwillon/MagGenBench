@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       CrMn3C2Cr
+_chemical_formula_sum              "Cr2 Mn3 C2"
+_cell_length_a       2.650186859789087
+_cell_length_b       4.384197857809836
+_cell_length_c       6.258397102355957
+_cell_angle_alpha    111.98370321160886
+_cell_angle_beta     89.90794520708688
+_cell_angle_gamma    107.66242609165081
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.6497941017150879  0.06577417999505998  0.6542092561721802  1.0000
+  Mn  Mn1       1.0  0.42941808700561523  0.6244517564773561  0.8836807608604431  1.0000
+  Mn  Mn2       1.0  0.20050841569900513  0.16737648844718933  0.024270402267575264  1.0000
+  Mn  Mn3       1.0  0.31521132588386536  0.39617136120796204  0.45419856905937195  1.0000
+  C   C1        1.0  0.6555344462394714  0.07721738517284393  0.2261248528957367  1.0000
+  C   C2        1.0  0.975002646446228  0.7161100506782532  0.6824951767921448  1.0000
+  Cr  Cr2       1.0  0.9799508452415466  0.7260394096374512  0.2544925808906555  1.0000

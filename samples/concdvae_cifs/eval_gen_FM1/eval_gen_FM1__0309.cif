@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_ErPdSe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.99913406
+_cell_length_b   3.89996052
+_cell_length_c   5.64055824
+_cell_angle_alpha   87.16526794
+_cell_angle_beta   90.95877075
+_cell_angle_gamma   95.25363159
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ErPdSe2
+_chemical_formula_sum   'Er1 Pd1 Se2'
+_cell_volume   87.48942225
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  1  0.07250420  0.99030542  0.09778195  1
+  Se  Se1  1  0.07107154  0.99213767  0.59510708  1
+  Pd  Pd2  1  0.56506383  0.49345160  0.60318416  1
+  Se  Se3  1  0.57353801  0.49520248  0.09589809  1

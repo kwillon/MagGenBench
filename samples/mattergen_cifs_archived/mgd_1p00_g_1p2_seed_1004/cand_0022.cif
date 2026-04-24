@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Eu2PdGe
+_chemical_formula_sum              "Eu2 Pd1 Ge1"
+_cell_length_a       5.234409442796879
+_cell_length_b       5.234228600943597
+_cell_length_c       5.234282493591309
+_cell_angle_alpha    60.008253725904275
+_cell_angle_beta     60.00786248559137
+_cell_angle_gamma    59.998231899538986
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Eu  Eu1       1.0  0.6333178276673866  0.9110025773250525  0.6290129427966695  1.0000
+  Eu  Eu2       1.0  0.13376540002294743  0.41116934913318803  0.1288277959882329  1.0000
+  Pd  Pd1       1.0  0.8835445040924772  0.16097864522082186  0.8788498041368764  1.0000
+  Ge  Ge1       1.0  0.38345035964210694  0.6609399919524813  0.37883341332065995  1.0000

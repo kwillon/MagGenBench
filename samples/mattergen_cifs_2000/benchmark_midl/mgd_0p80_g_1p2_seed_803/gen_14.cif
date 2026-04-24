@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       FeCuOCuOCrO2
+_chemical_formula_sum              "Fe1 Cu2 O4 Cr1"
+_cell_length_a       3.082317382452297
+_cell_length_b       3.082773062046901
+_cell_length_c       11.606160163879395
+_cell_angle_alpha    89.86407491990757
+_cell_angle_beta     89.88481137329957
+_cell_angle_gamma    119.77617811353296
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.45452725887298584  0.184750035405159  0.3094359338283539  1.0000
+  Cu  Cu1       1.0  0.1204109862446785  0.5185913443565369  0.5611786842346191  1.0000
+  O   O1        1.0  0.7877412438392639  0.851738154888153  0.219294473528862  1.0000
+  Cu  Cu2       1.0  0.7882123589515686  0.8520567417144775  0.058407776057720184  1.0000
+  O   O2        1.0  0.12111534178256989  0.5186064839363098  0.4004330039024353  1.0000
+  Cr  Cr1       1.0  0.4543084502220154  0.18544000387191772  0.8099367618560791  1.0000
+  O   O3        1.0  0.787284255027771  0.8522385954856873  0.8983769416809082  1.0000
+  O   O4        1.0  0.12113313376903534  0.518496572971344  0.7215676307678223  1.0000

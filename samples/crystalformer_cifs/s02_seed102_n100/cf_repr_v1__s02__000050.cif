@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_NaCaEuUPO7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.87540920
+_cell_length_b   7.04255907
+_cell_length_c   9.00481231
+_cell_angle_alpha   112.02600364
+_cell_angle_beta   116.05942788
+_cell_angle_gamma   97.02356577
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaCaEuUPO7
+_chemical_formula_sum   'Na2 Ca2 Eu2 U2 P2 O14'
+_cell_volume   340.85421165
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  U  U0  1  0.00000000  0.50000000  0.00000000  1
+  U  U1  1  0.50000000  0.50000000  0.50000000  1
+  O  O2  1  0.09218992  0.71347836  0.47881463  1
+  O  O3  1  0.90781008  0.28652164  0.52118537  1
+  O  O4  1  0.20500360  0.78095518  0.48795564  1
+  O  O5  1  0.79499640  0.21904482  0.51204436  1
+  O  O6  1  0.29135091  0.26182579  0.97920373  1
+  O  O7  1  0.70864909  0.73817421  0.02079627  1
+  Ca  Ca8  1  0.44917240  0.46750141  0.31489647  1
+  Ca  Ca9  1  0.55082760  0.53249859  0.68510353  1
+  O  O10  1  0.70112016  0.97064076  0.74767486  1
+  O  O11  1  0.29887984  0.02935924  0.25232514  1
+  Eu  Eu12  1  0.74181302  0.32346323  0.01211318  1
+  Eu  Eu13  1  0.25818698  0.67653677  0.98788682  1
+  Na  Na14  1  0.74267653  0.49398499  0.34353614  1
+  Na  Na15  1  0.25732347  0.50601501  0.65646386  1
+  O  O16  1  0.73561081  0.24460693  0.05245497  1
+  O  O17  1  0.26438919  0.75539307  0.94754503  1
+  O  O18  1  0.79774333  0.97713381  0.38020885  1
+  O  O19  1  0.20225667  0.02286619  0.61979115  1
+  P  P20  1  0.81752418  0.16890524  0.49949784  1
+  P  P21  1  0.18247582  0.83109476  0.50050216  1
+  O  O22  1  0.91047744  0.49862243  0.67880662  1
+  O  O23  1  0.08952256  0.50137757  0.32119338  1

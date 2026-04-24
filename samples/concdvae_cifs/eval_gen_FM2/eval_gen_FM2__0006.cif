@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_NaErVNiO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.67204547
+_cell_length_b   3.79943466
+_cell_length_c   7.59423971
+_cell_angle_alpha   88.31977844
+_cell_angle_beta   89.61428070
+_cell_angle_gamma   87.66652679
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaErVNiO6
+_chemical_formula_sum   'Na1 Er1 V1 Ni1 O6'
+_cell_volume   105.81752772
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  1  0.72652727  0.93091464  0.19019407  1
+  O  O1  1  0.23366757  0.43574294  0.68929744  1
+  O  O2  1  0.22265252  0.93423975  0.42144859  1
+  Ni  Ni3  1  0.22281487  0.44226325  0.95625502  1
+  O  O4  1  0.72601783  0.43490988  0.41914314  1
+  O  O5  1  0.73025095  0.44092670  0.98989558  1
+  V  V6  1  0.22944808  0.43505588  0.46067163  1
+  Na  Na7  1  0.72760737  0.93731177  0.71698534  1
+  O  O8  1  0.22672248  0.44646347  0.20954207  1
+  O  O9  1  0.23119128  0.93962431  0.98597819  1

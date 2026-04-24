@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_KDyTaFe2CuGeO10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.32643080
+_cell_length_b   6.19935179
+_cell_length_c   7.65539265
+_cell_angle_alpha   89.39460754
+_cell_angle_beta   92.49802399
+_cell_angle_gamma   89.13256073
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KDyTaFe2CuGeO10
+_chemical_formula_sum   'K1 Dy1 Ta1 Fe2 Cu1 Ge1 O10'
+_cell_volume   252.49916560
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.67245609  0.65388685  0.15655038  1
+  O  O1  1  0.93436265  0.52994478  0.68007970  1
+  K  K2  1  0.10477600  0.18340468  0.17883798  1
+  Dy  Dy3  1  0.17556028  0.72948325  0.86179316  1
+  O  O4  1  0.37310305  0.94478244  0.68905073  1
+  Ta  Ta5  1  0.12608749  0.22897688  0.65514928  1
+  Fe  Fe6  1  0.62511528  0.46017864  0.55739987  1
+  O  O7  1  0.87432992  0.13918756  0.49939528  1
+  Cu  Cu8  1  0.56075841  0.98470670  0.48563150  1
+  O  O9  1  0.96486723  0.08232599  0.84754503  1
+  O  O10  1  0.35118201  0.28164926  0.46405607  1
+  O  O11  1  0.48740658  0.85368031  0.03757904  1
+  O  O12  1  0.59887028  0.36594704  0.11065277  1
+  O  O13  1  0.61975265  0.70653188  0.37472987  1
+  O  O14  1  0.98353577  0.68028712  0.10610357  1
+  O  O15  1  0.39799181  0.40589491  0.78234577  1
+  Fe  Fe16  1  0.59827459  0.14800435  0.90462381  1

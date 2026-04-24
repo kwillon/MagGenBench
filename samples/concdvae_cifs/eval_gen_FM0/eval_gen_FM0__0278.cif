@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_LuTlTe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.32406378
+_cell_length_b   4.46548796
+_cell_length_c   6.91916037
+_cell_angle_alpha   79.61641693
+_cell_angle_beta   79.48154449
+_cell_angle_gamma   69.68990326
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LuTlTe2
+_chemical_formula_sum   'Lu1 Tl1 Te2'
+_cell_volume   122.19704179
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.23275669  0.13568859  0.10131094  1
+  Te  Te1  1  0.04623318  0.95452613  0.68825376  1
+  Tl  Tl2  1  0.50451380  0.40509725  0.39432222  1
+  Lu  Lu3  1  0.63825274  0.54198658  0.89061671  1

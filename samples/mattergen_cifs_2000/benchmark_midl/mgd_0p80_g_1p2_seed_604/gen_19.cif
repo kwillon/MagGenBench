@@ -1,0 +1,27 @@
+data_image0
+_chemical_formula_structural       IrFe
+_chemical_formula_sum              "Ir1 Fe1"
+_cell_length_a       2.676147224761264
+_cell_length_b       2.677160776397699
+_cell_length_c       3.6536335945129395
+_cell_angle_alpha    89.88878652598018
+_cell_angle_beta     89.86751049832799
+_cell_angle_gamma    89.81673486550989
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ir  Ir1       1.0  0.11728554964065552  0.8213807940483093  0.1840733289718628  1.0000
+  Fe  Fe1       1.0  0.617694079875946  0.32145464420318604  0.6845389008522034  1.0000

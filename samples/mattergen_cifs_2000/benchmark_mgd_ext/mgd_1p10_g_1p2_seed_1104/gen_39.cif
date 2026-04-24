@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       NaGd4CCaC
+_chemical_formula_sum              "Na1 Gd4 C2 Ca1"
+_cell_length_a       3.643590377668486
+_cell_length_b       3.6460857036443053
+_cell_length_c       19.03498649597168
+_cell_angle_alpha    90.03498673188159
+_cell_angle_beta     89.91530815921747
+_cell_angle_gamma    119.77113920152576
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Na  Na1       1.0  0.6687159538269043  0.2644183933734894  0.9408270716667175  1.0000
+  Gd  Gd1       1.0  0.3360735774040222  0.5994109511375427  0.762439489364624  1.0000
+  Gd  Gd2       1.0  0.3357701897621155  0.5984750986099243  0.11822934448719025  1.0000
+  Gd  Gd3       1.0  0.667874276638031  0.26492804288864136  0.6214636564254761  1.0000
+  Gd  Gd4       1.0  0.6698102951049805  0.2663710415363312  0.25958096981048584  1.0000
+  C   C1        1.0  0.0027505175676196965  0.9316231608390808  0.18764632940292358  1.0000
+  Ca  Ca1       1.0  0.3365855813026428  0.5978084206581116  0.44064632058143616  1.0000
+  C   C2        1.0  0.002384391147643358  0.9320992231369019  0.6941035389900208  1.0000

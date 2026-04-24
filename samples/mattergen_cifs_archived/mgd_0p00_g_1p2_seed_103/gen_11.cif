@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Hg3OHgO3
+_chemical_formula_sum              "Hg4 O4"
+_cell_length_a       3.756123822196422
+_cell_length_b       6.232543018722319
+_cell_length_c       6.664130687713623
+_cell_angle_alpha    87.73829484334969
+_cell_angle_beta     89.34636027783475
+_cell_angle_gamma    72.71437005046576
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Hg  Hg1       1.0  0.4705616235733031  0.946050763130188  0.5362441539764404  1.0000
+  Hg  Hg2       1.0  0.9703429341316221  0.9460449814796449  0.036127809435129166  1.0000
+  Hg  Hg3       1.0  0.7201442718505858  0.44561466574668884  0.7869073748588561  1.0000
+  O   O1        1.0  0.17005199193954465  0.1964084357023239  0.912355065345764  1.0000
+  Hg  Hg4       1.0  0.21991586685180659  0.4462205171585083  0.2867021858692169  1.0000
+  O   O2        1.0  0.2701530456542969  0.6949690580368042  0.6611494421958922  1.0000
+  O   O3        1.0  0.7702392935752868  0.6954653263092041  0.16122257709503174  1.0000
+  O   O4        1.0  0.6695321202278136  0.1964942216873169  0.4119542837142945  1.0000

@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_NaRhSe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.99298549
+_cell_length_b   4.64933729
+_cell_length_c   5.72045612
+_cell_angle_alpha   92.13818359
+_cell_angle_beta   89.21069336
+_cell_angle_gamma   98.82233429
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaRhSe3
+_chemical_formula_sum   'Na1 Rh1 Se3'
+_cell_volume   104.86573373
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rh  Rh0  1  0.34220639  0.29138330  0.24272807  1
+  Se  Se1  1  0.83472288  0.29290995  0.95901537  1
+  Na  Na2  1  0.33083451  0.79559058  0.73829412  1
+  Se  Se3  1  0.33653995  0.79203272  0.24015623  1
+  Se  Se4  1  0.82947093  0.30094284  0.51035815  1

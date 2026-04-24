@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Zn2InO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.29946648
+_cell_length_b   5.42052888
+_cell_length_c   8.63316765
+_cell_angle_alpha   84.20943345
+_cell_angle_beta   72.21086782
+_cell_angle_gamma   86.54614577
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zn2InO3
+_chemical_formula_sum   'Zn4 In2 O6'
+_cell_volume   190.50989849
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.29581027  0.47578851  0.54170689  1
+  O  O1  1  0.70418973  0.52421149  0.45829311  1
+  Zn  Zn2  1  0.48262474  0.67113268  0.90512750  1
+  Zn  Zn3  1  0.51737526  0.32886732  0.09487250  1
+  In  In4  1  0.48393023  0.30476282  0.78272485  1
+  In  In5  1  0.51606977  0.69523718  0.21727515  1
+  O  O6  1  0.85691518  0.98735932  0.92389423  1
+  O  O7  1  0.14308482  0.01264068  0.07610577  1
+  Zn  Zn8  1  0.99094970  0.01556749  0.74690608  1
+  Zn  Zn9  1  0.00905030  0.98443251  0.25309392  1
+  O  O10  1  0.93416690  0.92528493  0.19982215  1
+  O  O11  1  0.06583310  0.07471507  0.80017785  1

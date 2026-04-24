@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_MgTe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.67949486
+_cell_length_b   4.74199247
+_cell_length_c   6.33101559
+_cell_angle_alpha   88.02819061
+_cell_angle_beta   88.12033081
+_cell_angle_gamma   98.70217133
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgTe
+_chemical_formula_sum   'Mg2 Te2'
+_cell_volume   138.68382841
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.50905240  0.55506551  0.68043733  1
+  Te  Te1  1  0.01466651  0.05468773  0.18018301  1
+  Mg  Mg2  1  0.50672179  0.55550700  0.17957541  1
+  Mg  Mg3  1  0.00515434  0.05572838  0.67764306  1

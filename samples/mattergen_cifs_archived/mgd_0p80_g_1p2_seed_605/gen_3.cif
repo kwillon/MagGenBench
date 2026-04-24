@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       MnGaHCoH
+_chemical_formula_sum              "Mn1 Ga1 H2 Co1"
+_cell_length_a       2.9297121040940657
+_cell_length_b       2.933747301511113
+_cell_length_c       5.449682235717773
+_cell_angle_alpha    105.54794310359698
+_cell_angle_beta     105.5501433576381
+_cell_angle_gamma    90.01487196944282
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Mn  Mn1       1.0  0.4361075758934021  0.6694856286048889  0.4210016131401062  1.0000
+  Ga  Ga1       1.0  0.09676618874073029  0.3295977711677551  0.7401337027549744  1.0000
+  H   H1        1.0  0.8326438069343567  0.5656105875968933  0.2113971710205078  1.0000
+  Co  Co1       1.0  0.741721510887146  0.9747188687324524  0.0305694118142128  1.0000
+  H   H2        1.0  0.33248719573020935  0.0655812919139862  0.2126283347606659  1.0000

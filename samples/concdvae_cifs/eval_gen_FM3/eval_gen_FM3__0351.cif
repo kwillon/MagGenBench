@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_NaCaPrEu(CuO2)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.76672316
+_cell_length_b   5.95471954
+_cell_length_c   6.98674059
+_cell_angle_alpha   89.03106689
+_cell_angle_beta   88.12875366
+_cell_angle_gamma   87.46830750
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaCaPrEu(CuO2)4
+_chemical_formula_sum   'Na1 Ca1 Pr1 Eu1 Cu4 O8'
+_cell_volume   239.52847725
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.87363863  0.65717566  0.59817541  1
+  O  O1  1  0.13325959  0.91276520  0.85653389  1
+  Pr  Pr2  1  0.37485197  0.15561251  0.60029167  1
+  O  O3  1  0.62137550  0.40915987  0.85045606  1
+  O  O4  1  0.12663010  0.40522560  0.85307276  1
+  Eu  Eu5  1  0.87876147  0.65540570  0.09806935  1
+  Cu  Cu6  1  0.37127203  0.65654027  0.34675407  1
+  Cu  Cu7  1  0.37720093  0.65877640  0.84816009  1
+  O  O8  1  0.13029145  0.40310553  0.33947271  1
+  Ca  Ca9  1  0.37880263  0.15416001  0.10155351  1
+  O  O10  1  0.62782335  0.90623391  0.33949915  1
+  O  O11  1  0.62553608  0.91133684  0.85206103  1
+  Cu  Cu12  1  0.87630445  0.15941043  0.34621945  1
+  O  O13  1  0.13161960  0.90840918  0.34354642  1
+  Cu  Cu14  1  0.87701476  0.16302808  0.85078275  1
+  O  O15  1  0.62346184  0.40180233  0.34671268  1

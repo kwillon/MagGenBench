@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_NaLi2Ca2Dy3Se8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.71097660
+_cell_length_b   5.82185459
+_cell_length_c   11.99118710
+_cell_angle_alpha   89.97033691
+_cell_angle_beta   89.18153381
+_cell_angle_gamma   88.37442780
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaLi2Ca2Dy3Se8
+_chemical_formula_sum   'Na1 Li2 Ca2 Dy3 Se8'
+_cell_volume   398.48757412
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.90468019  0.37579805  0.39054438  1
+  Dy  Dy1  1  0.40161112  0.37608591  0.88654995  1
+  Se  Se2  1  0.39990541  0.37608814  0.13293129  1
+  Li  Li3  1  0.90182769  0.37604728  0.13808261  1
+  Se  Se4  1  0.40030614  0.37495610  0.64060408  1
+  Se  Se5  1  0.90055937  0.87078196  0.63597143  1
+  Ca  Ca6  1  0.90320510  0.87557197  0.88658929  1
+  Na  Na7  1  0.39870462  0.87516159  0.63246137  1
+  Se  Se8  1  0.39571559  0.87793714  0.89571422  1
+  Dy  Dy9  1  0.90116805  0.37411115  0.63194215  1
+  Se  Se10  1  0.90234864  0.37426072  0.88069469  1
+  Se  Se11  1  0.39912677  0.86936599  0.37539291  1
+  Li  Li12  1  0.39888927  0.37433940  0.38646010  1
+  Se  Se13  1  0.90399051  0.87871760  0.13623445  1
+  Dy  Dy14  1  0.39835769  0.87626159  0.13974801  1
+  Ca  Ca15  1  0.90417325  0.87485522  0.38571274  1

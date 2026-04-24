@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_KNaMnCu(GeO4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.06781054
+_cell_length_b   6.66389990
+_cell_length_c   6.78533030
+_cell_angle_alpha   113.38543701
+_cell_angle_beta   92.48576355
+_cell_angle_gamma   92.94700623
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KNaMnCu(GeO4)2
+_chemical_formula_sum   'K1 Na1 Mn1 Cu1 Ge2 O8'
+_cell_volume   209.53938782
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.17548786  0.87116468  0.88527358  1
+  O  O1  1  0.24306010  0.22787011  0.26162976  1
+  Cu  Cu2  1  0.01040138  0.96773189  0.66811693  1
+  K  K3  1  0.50050628  0.46536201  0.66630602  1
+  Ge  Ge4  1  0.61831224  0.81912553  0.32105610  1
+  O  O5  1  0.73274928  0.12990554  0.04406825  1
+  O  O6  1  0.77165049  0.70709306  0.49886763  1
+  Na  Na7  1  0.01145304  0.46896347  0.16337331  1
+  Ge  Ge8  1  0.39679283  0.11626217  0.01048515  1
+  O  O9  1  0.75858438  0.71166593  0.06677133  1
+  O  O10  1  0.27381369  0.81081843  0.29437518  1
+  O  O11  1  0.82065380  0.06782744  0.45278493  1
+  Mn  Mn12  1  0.99896407  0.96615434  0.16456242  1
+  O  O13  1  0.24876110  0.22020438  0.82825601  1

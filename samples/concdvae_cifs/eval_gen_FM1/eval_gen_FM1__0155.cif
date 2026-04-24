@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_SmNi2Bi2Te7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.80361986
+_cell_length_b   6.55607367
+_cell_length_c   12.01367569
+_cell_angle_alpha   99.95443726
+_cell_angle_beta   97.25209808
+_cell_angle_gamma   109.31544495
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SmNi2Bi2Te7
+_chemical_formula_sum   'Sm1 Ni2 Bi2 Te7'
+_cell_volume   344.75926676
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.57004613  0.73470736  0.38252363  1
+  Bi  Bi1  1  0.19440235  0.13253671  0.22470525  1
+  Te  Te2  1  0.23288374  0.00794752  0.44014505  1
+  Bi  Bi3  1  0.72083676  0.51464361  0.97066468  1
+  Sm  Sm4  1  0.95856005  0.31030095  0.58811522  1
+  Te  Te5  1  0.23087348  0.66264623  0.82225674  1
+  Te  Te6  1  0.64349675  0.68379986  0.58679289  1
+  Te  Te7  1  0.06326386  0.15953605  0.98525268  1
+  Te  Te8  1  0.90776068  0.45009601  0.34652111  1
+  Te  Te9  1  0.47249216  0.16989078  0.74517745  1
+  Ni  Ni10  1  0.85790908  0.91810828  0.78591818  1
+  Te  Te11  1  0.48800707  0.76440972  0.17654805  1

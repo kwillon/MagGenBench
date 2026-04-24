@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       MgEu5
+_chemical_formula_sum              "Mg1 Eu5"
+_cell_length_a       5.3474273973584525
+_cell_length_b       5.466575145734921
+_cell_length_c       8.295706748962402
+_cell_angle_alpha    89.9998727308911
+_cell_angle_beta     108.84779187649004
+_cell_angle_gamma    89.98251722152229
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Mg  Mg1       1.0  0.4035714864730835  0.2831053137779236  0.26673513650894165  1.0000
+  Eu  Eu1       1.0  0.06216015666723251  0.283461183309555  0.5833222270011902  1.0000
+  Eu  Eu2       1.0  0.24226903915405273  0.7829958200454711  0.9433813095092773  1.0000
+  Eu  Eu3       1.0  0.5649780035018921  0.783215045928955  0.5902407169342041  1.0000
+  Eu  Eu4       1.0  0.7449192404747009  0.28312942385673523  0.9496517777442932  1.0000
+  Eu  Eu5       1.0  0.9037115573883057  0.7830564975738525  0.26671501994132996  1.0000

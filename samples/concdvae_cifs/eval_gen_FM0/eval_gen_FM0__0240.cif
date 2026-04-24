@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Th4MnRe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.64908075
+_cell_length_b   5.64859819
+_cell_length_c   5.51247597
+_cell_angle_alpha   92.98880005
+_cell_angle_beta   77.84639740
+_cell_angle_gamma   77.48248291
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Th4MnRe
+_chemical_formula_sum   'Th4 Mn1 Re1'
+_cell_volume   166.98650524
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Re  Re0  1  0.27294534  0.54811156  0.14695218  1
+  Th  Th1  1  0.41528678  0.51690346  0.60611767  1
+  Th  Th2  1  0.40845257  0.02228175  0.10971434  1
+  Th  Th3  1  0.85040051  0.41802353  0.98947674  1
+  Th  Th4  1  0.86040103  0.91518575  0.49546957  1
+  Mn  Mn5  1  0.99271131  0.38017136  0.45096099  1

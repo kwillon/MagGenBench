@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       EuZnSnPd
+_chemical_formula_sum              "Eu1 Zn1 Sn1 Pd1"
+_cell_length_a       4.972868023452986
+_cell_length_b       4.973022971720436
+_cell_length_c       4.972891807556152
+_cell_angle_alpha    59.99385617645074
+_cell_angle_beta     60.027186543470165
+_cell_angle_gamma    59.99937059658898
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Eu  Eu1       1.0  0.4911181628704071  0.8546100854873656  0.5553798079490662  1.0000
+  Zn  Zn1       1.0  0.2411966621875763  0.6045631170272827  0.3051839768886566  1.0000
+  Sn  Sn1       1.0  0.9910686612129211  0.35436373949050903  0.055479858070611954  1.0000
+  Pd  Pd1       1.0  0.7411255836486816  0.10462711751461029  0.8052530884742737  1.0000

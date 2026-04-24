@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_K3LiAgBi2SbO9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.89397097
+_cell_length_b   6.92985487
+_cell_length_c   7.31146193
+_cell_angle_alpha   101.20583344
+_cell_angle_beta   93.10137177
+_cell_angle_gamma   94.45983887
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K3LiAgBi2SbO9
+_chemical_formula_sum   'K3 Li1 Ag1 Bi2 Sb1 O9'
+_cell_volume   291.31935752
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.68194407  0.50886393  0.94734597  1
+  Bi  Bi1  1  0.96209013  0.97690946  0.45446384  1
+  K  K2  1  0.46462899  0.83420217  0.64659429  1
+  K  K3  1  0.96023387  0.99156713  0.95014548  1
+  Sb  Sb4  1  0.45625150  0.68037611  0.10776632  1
+  O  O5  1  0.71978521  0.19575496  0.62182713  1
+  O  O6  1  0.97398853  0.74812657  0.66498154  1
+  O  O7  1  0.94764739  0.19647869  0.26349482  1
+  Bi  Bi8  1  0.96871996  0.44930509  0.73594630  1
+  O  O9  1  0.23274553  0.45813531  0.97285235  1
+  Li  Li10  1  0.46269017  0.31306627  0.78996623  1
+  K  K11  1  0.45451954  0.21604380  0.29931536  1
+  Ag  Ag12  1  0.94819826  0.50184530  0.20175791  1
+  O  O13  1  0.22283077  0.76060647  0.30213487  1
+  O  O14  1  0.21373409  0.19522153  0.61691076  1
+  O  O15  1  0.69336826  0.73895919  0.30400997  1
+  O  O16  1  0.44929385  0.91187108  0.99849164  1

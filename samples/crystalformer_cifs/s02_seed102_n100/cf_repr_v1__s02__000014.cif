@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Li3Ca2Pr2Fe(GeO6)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.50919097
+_cell_length_b   6.57531398
+_cell_length_c   7.02813377
+_cell_angle_alpha   90.74029535
+_cell_angle_beta   92.99445712
+_cell_angle_gamma   92.50674063
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li3Ca2Pr2Fe(GeO6)2
+_chemical_formula_sum   'Li3 Ca2 Pr2 Fe1 Ge2 O12'
+_cell_volume   346.17049152
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.00000000  0.00000000  0.00000000  1
+  Li  Li1  1  0.50000000  0.50000000  0.00000000  1
+  Li  Li2  1  0.50000000  0.00000000  0.50000000  1
+  Li  Li3  1  0.00000000  0.50000000  0.50000000  1
+  O  O4  1  0.01366341  0.75452677  0.75495252  1
+  O  O5  1  0.98633659  0.24547323  0.24504748  1
+  O  O6  1  0.02748819  0.73107043  0.76223527  1
+  O  O7  1  0.97251181  0.26892957  0.23776473  1
+  O  O8  1  0.00601496  0.24319442  0.24390123  1
+  O  O9  1  0.99398504  0.75680558  0.75609877  1
+  O  O10  1  0.02962394  0.24936742  0.50001187  1
+  O  O11  1  0.97037606  0.75063258  0.49998813  1
+  Pr  Pr12  1  0.46956480  0.75857671  0.24996425  1
+  Pr  Pr13  1  0.53043520  0.24142329  0.75003575  1
+  O  O14  1  0.05199236  0.51212756  0.23398226  1
+  O  O15  1  0.94800764  0.48787244  0.76601774  1
+  O  O16  1  0.03128530  0.73525904  0.49147627  1
+  O  O17  1  0.96871470  0.26474096  0.50852373  1
+  Ca  Ca18  1  0.49431226  0.26102715  0.26604995  1
+  Ca  Ca19  1  0.50568774  0.73897285  0.73395005  1
+  Ge  Ge20  1  0.54556384  0.24425984  0.25427209  1
+  Ge  Ge21  1  0.45443616  0.75574016  0.74572791  1

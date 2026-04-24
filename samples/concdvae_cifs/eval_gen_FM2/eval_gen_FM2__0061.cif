@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_NaTl2Ni2P2O9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.86967373
+_cell_length_b   6.17959356
+_cell_length_c   7.39680004
+_cell_angle_alpha   86.94441986
+_cell_angle_beta   89.71674347
+_cell_angle_gamma   89.25355530
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaTl2Ni2P2O9
+_chemical_formula_sum   'Na1 Tl2 Ni2 P2 O9'
+_cell_volume   267.89159308
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.70991892  0.35073429  0.77126914  1
+  O  O1  1  0.29100791  0.57091987  0.18371715  1
+  Ni  Ni2  1  0.28547627  0.56275129  0.44795203  1
+  P  P3  1  0.76270312  0.31144038  0.57623762  1
+  O  O4  1  0.52766246  0.82915837  0.99476886  1
+  O  O5  1  0.16252406  0.95971686  0.20007826  1
+  Tl  Tl6  1  0.79448342  0.47355869  0.12077930  1
+  O  O7  1  0.37147647  0.81921458  0.54610270  1
+  Na  Na8  1  0.76234335  0.78202486  0.71684521  1
+  Ni  Ni9  1  0.24888067  0.04082442  0.43500280  1
+  O  O10  1  0.09734517  0.74258655  0.92220032  1
+  O  O11  1  0.91961104  0.10138798  0.54609108  1
+  O  O12  1  0.48959565  0.29869083  0.47866899  1
+  O  O13  1  0.91673762  0.49710193  0.50214821  1
+  Tl  Tl14  1  0.27922860  0.18593080  0.85873830  1
+  P  P15  1  0.27829722  0.77509266  0.07621947  1

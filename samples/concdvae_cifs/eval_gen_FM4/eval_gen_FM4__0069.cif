@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_SrCaLaTaAl2O9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.72757101
+_cell_length_b   4.81108904
+_cell_length_c   8.86827183
+_cell_angle_alpha   88.56809235
+_cell_angle_beta   90.37774658
+_cell_angle_gamma   89.57385254
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrCaLaTaAl2O9
+_chemical_formula_sum   'Sr1 Ca1 La1 Ta1 Al2 O9'
+_cell_volume   201.63355874
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.43656853  0.49923468  0.65439409  1
+  O  O1  1  0.32213607  0.18663785  0.27888417  1
+  O  O2  1  0.23329297  0.70733005  0.00365985  1
+  Sr  Sr3  1  0.19659229  0.66153598  0.38916436  1
+  O  O4  1  0.71631753  0.78636038  0.28352183  1
+  Al  Al5  1  0.67663431  0.13378623  0.29485849  1
+  Al  Al6  1  0.23551999  0.71174020  0.77785116  1
+  Ta  Ta7  1  0.73597503  0.22040671  0.67414308  1
+  O  O8  1  0.52300704  0.99291152  0.81329107  1
+  O  O9  1  0.01662536  0.90942419  0.66195655  1
+  O  O10  1  0.96006030  0.42879647  0.81320608  1
+  La  La11  1  0.74010527  0.70672083  0.02196466  1
+  O  O12  1  0.76048791  0.21728148  0.09720884  1
+  O  O13  1  0.81912667  0.29206726  0.46226475  1
+  Ca  Ca14  1  0.23833279  0.20764799  0.02074231  1

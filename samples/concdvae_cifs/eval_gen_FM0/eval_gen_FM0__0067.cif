@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_DyYAl2Fe2(ReSi2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.22865200
+_cell_length_b   6.37597847
+_cell_length_c   7.57159758
+_cell_angle_alpha   92.09332275
+_cell_angle_beta   93.27685547
+_cell_angle_gamma   93.43133545
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   DyYAl2Fe2(ReSi2)2
+_chemical_formula_sum   'Dy1 Y1 Al2 Fe2 Re2 Si4'
+_cell_volume   203.28117555
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Re  Re0  1  0.08123050  0.67445445  0.84765434  1
+  Si  Si1  1  0.08333865  0.38913700  0.01698342  1
+  Dy  Dy2  1  0.58330786  0.33106905  0.29412618  1
+  Fe  Fe3  1  0.06722476  0.02935235  0.01813680  1
+  Re  Re4  1  0.07072159  0.22448392  0.67545366  1
+  Si  Si5  1  0.57141989  0.14471230  0.88473260  1
+  Si  Si6  1  0.08393084  0.55421871  0.50849211  1
+  Si  Si7  1  0.08785731  0.03616991  0.34854823  1
+  Al  Al8  1  0.57322818  0.47477201  0.73558062  1
+  Fe  Fe9  1  0.08208163  0.69169849  0.21869050  1
+  Y  Y10  1  0.59143722  0.86900175  0.55405688  1
+  Al  Al11  1  0.58151239  0.79889917  0.07022719  1

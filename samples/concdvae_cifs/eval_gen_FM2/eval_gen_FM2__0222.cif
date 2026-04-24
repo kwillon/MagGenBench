@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_BaLaNi2NO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.21792364
+_cell_length_b   5.03344679
+_cell_length_c   5.17021322
+_cell_angle_alpha   97.44874573
+_cell_angle_beta   87.96240997
+_cell_angle_gamma   89.78855133
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaLaNi2NO2
+_chemical_formula_sum   'Ba1 La1 Ni2 N1 O2'
+_cell_volume   108.76828152
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.88829404  0.16125023  0.81356490  1
+  O  O1  1  0.38836944  0.90434414  0.52147979  1
+  Ni  Ni2  1  0.39046144  0.66928601  0.81915444  1
+  Ni  Ni3  1  0.39918149  0.16558909  0.30694333  1
+  N  N4  1  0.39628682  0.42922977  0.10159405  1
+  O  O5  1  0.89066988  0.66287714  0.81203938  1
+  La  La6  1  0.89431512  0.66336113  0.30948982  1

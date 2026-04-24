@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Eu2Ag2Sb2
+_chemical_formula_sum              "Eu2 Ag2 Sb2"
+_cell_length_a       4.823582210794723
+_cell_length_b       4.821945238191884
+_cell_length_c       8.29173755645752
+_cell_angle_alpha    90.03692650560012
+_cell_angle_beta     89.95528525615961
+_cell_angle_gamma    119.97768139837636
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Eu  Eu1       1.0  0.43368643522262573  0.32464686036109924  0.6987410187721252  1.0000
+  Eu  Eu2       1.0  0.4336066246032715  0.3244851529598236  0.19908744096755981  1.0000
+  Ag  Ag1       1.0  0.10030019283294678  0.6579169034957886  0.44825854897499084  1.0000
+  Ag  Ag2       1.0  0.7670078277587891  0.9912062287330627  0.9492447972297668  1.0000
+  Sb  Sb1       1.0  0.10011280328035355  0.658004105091095  0.9498513340950012  1.0000
+  Sb  Sb2       1.0  0.7671658992767333  0.9910156726837157  0.44962054491043085  1.0000

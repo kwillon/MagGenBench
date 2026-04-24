@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Gd4HgN2Hg
+_chemical_formula_sum              "Gd4 Hg2 N2"
+_cell_length_a       3.5588517547338077
+_cell_length_b       3.5579481962614627
+_cell_length_c       15.643613815307617
+_cell_angle_alpha    90.01243344825474
+_cell_angle_beta     90.00813042930903
+_cell_angle_gamma    119.98245022145395
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Gd  Gd1       1.0  0.7036435008049012  0.7076210379600525  0.37177032232284546  1.0000
+  Gd  Gd2       1.0  0.3693599104881287  0.04152967408299447  0.5439196825027466  1.0000
+  Gd  Gd3       1.0  0.7029846310615541  0.7074906826019287  0.04434054344892502  1.0000
+  Gd  Gd4       1.0  0.3690363764762879  0.040788538753986366  0.8724639415740967  1.0000
+  Hg  Hg1       1.0  0.36998373270034796  0.04079780355095864  0.20771212875843048  1.0000
+  N   N1        1.0  0.035888195037841804  0.3745619058609009  0.958742618560791  1.0000
+  N   N2        1.0  0.035945300012826926  0.3743617832660675  0.45809251070022583  1.0000
+  Hg  Hg2       1.0  0.7020604014396669  0.707797408103943  0.7094268202781677  1.0000

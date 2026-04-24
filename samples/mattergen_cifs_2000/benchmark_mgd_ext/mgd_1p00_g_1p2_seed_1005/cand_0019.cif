@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       OLiFeOMgONiO
+_chemical_formula_sum              "O4 Li1 Fe1 Mg1 Ni1"
+_cell_length_a       4.220275493097084
+_cell_length_b       4.220230142689583
+_cell_length_c       5.134799003601074
+_cell_angle_alpha    114.28234263790165
+_cell_angle_beta     114.26474785210765
+_cell_angle_gamma    89.99317846366462
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  O   O1        1.0  0.6259542119598726  0.07343873453855757  0.24644719099765738  1.0000
+  Li  Li1       1.0  0.3712705084542886  0.8194153308970239  0.7379317890011479  1.0000
+  Fe  Fe1       1.0  0.12144946166227633  0.06958369794309929  0.23808216898044407  1.0000
+  O   O2        1.0  0.117340549391636  0.5648313170164153  0.22997172182824735  1.0000
+  Mg  Mg1       1.0  0.6214147809883575  0.5693606740585873  0.23816543791687886  1.0000
+  O   O3        1.0  0.3629894550272807  0.3108854901228833  0.7218596340941076  1.0000
+  Ni  Ni1       1.0  0.8710445747742787  0.3193390364587624  0.7379430517879753  1.0000
+  O   O4        1.0  0.879441261442348  0.8273968112379613  0.7545814521409123  1.0000

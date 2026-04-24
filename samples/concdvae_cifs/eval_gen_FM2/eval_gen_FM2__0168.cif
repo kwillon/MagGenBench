@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_NaMn2CoCuSnO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.39333916
+_cell_length_b   6.25826120
+_cell_length_c   6.46322441
+_cell_angle_alpha   71.88052368
+_cell_angle_beta   62.62134171
+_cell_angle_gamma   62.37152481
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaMn2CoCuSnO8
+_chemical_formula_sum   'Na1 Mn2 Co1 Cu1 Sn1 O8'
+_cell_volume   201.87380009
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.02906332  0.12585106  0.63884014  1
+  O  O1  1  0.74041992  0.48234478  0.36085254  1
+  Cu  Cu2  1  0.64189589  0.81547171  0.72616911  1
+  O  O3  1  0.26437679  0.45841375  0.39692637  1
+  Mn  Mn4  1  0.14951152  0.28264180  0.24354035  1
+  Sn  Sn5  1  0.63815200  0.32483646  0.73012042  1
+  Na  Na6  1  0.95407879  0.83003700  0.00415933  1
+  O  O7  1  0.76397395  0.51907575  0.82574224  1
+  Mn  Mn8  1  0.64303076  0.31994304  0.23027301  1
+  O  O9  1  0.50770962  0.11972161  0.64444500  1
+  O  O10  1  0.23577268  0.49414366  0.85255915  1
+  O  O11  1  0.55865568  0.14899461  0.09665965  1
+  O  O12  1  0.00892709  0.15356091  0.07339653  1
+  Co  Co13  1  0.14071366  0.31297171  0.73449939  1

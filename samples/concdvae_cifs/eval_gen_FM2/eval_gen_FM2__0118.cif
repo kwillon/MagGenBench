@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_NbCo2WO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.86053705
+_cell_length_b   4.94701815
+_cell_length_c   4.94807291
+_cell_angle_alpha   90.65261078
+_cell_angle_beta   92.53686523
+_cell_angle_gamma   91.74337006
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NbCo2WO8
+_chemical_formula_sum   'Nb1 Co2 W1 O8'
+_cell_volume   118.79594282
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  W  W0  1  0.03859460  0.61709440  0.94141793  1
+  O  O1  1  0.28123203  0.56897825  0.61482060  1
+  O  O2  1  0.79467529  0.82590961  0.77423954  1
+  Nb  Nb3  1  0.04620601  0.26178876  0.43919352  1
+  O  O4  1  0.25959370  0.33082160  0.10502415  1
+  O  O5  1  0.77527946  0.05340979  0.28198004  1
+  Co  Co6  1  0.54986453  0.09498749  0.94151682  1
+  Co  Co7  1  0.54974371  0.79539299  0.44253951  1
+  O  O8  1  0.32219747  0.05858227  0.59679747  1
+  O  O9  1  0.80949962  0.56999671  0.26688308  1
+  O  O10  1  0.30182564  0.82482177  0.11153513  1
+  O  O11  1  0.83553177  0.33545986  0.77269727  1

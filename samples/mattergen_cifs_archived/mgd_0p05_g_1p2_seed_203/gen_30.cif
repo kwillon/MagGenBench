@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Co3ReCoRe
+_chemical_formula_sum              "Co4 Re2"
+_cell_length_a       4.149239171874124
+_cell_length_b       4.463989292735537
+_cell_length_c       4.4622673988342285
+_cell_angle_alpha    119.90968133946205
+_cell_angle_beta     90.01310963716278
+_cell_angle_gamma    90.06364619902104
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.17091667652130127  0.4331054985523224  0.595907986164093  1.0000
+  Co  Co2       1.0  0.17090773582458496  0.09102655202150345  0.9388090372085571  1.0000
+  Co  Co3       1.0  0.6709168553352356  0.41854918003082275  0.26637911796569824  1.0000
+  Re  Re1       1.0  0.1709241420030594  0.7441784739494324  0.24914240837097168  1.0000
+  Co  Co4       1.0  0.6708245277404785  0.7607191801071167  0.9234294891357422  1.0000
+  Re  Re2       1.0  0.6707599759101868  0.10719527304172514  0.6129741072654724  1.0000

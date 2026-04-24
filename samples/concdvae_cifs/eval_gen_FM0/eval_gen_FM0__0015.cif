@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_MgTl4Hg(TeI2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.79816437
+_cell_length_b   7.79936361
+_cell_length_c   8.42622948
+_cell_angle_alpha   96.13487244
+_cell_angle_beta   86.63504791
+_cell_angle_gamma   90.58204651
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgTl4Hg(TeI2)2
+_chemical_formula_sum   'Mg1 Tl4 Hg1 Te2 I4'
+_cell_volume   378.21253856
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hg  Hg0  1  0.02934989  0.86943060  0.28410557  1
+  Tl  Tl1  1  0.53542680  0.72393584  0.93614739  1
+  Tl  Tl2  1  0.52751881  0.00764532  0.63186151  1
+  Te  Te3  1  0.53834486  0.36193654  0.78426242  1
+  Tl  Tl4  1  0.52825826  0.22895586  0.12194062  1
+  Te  Te5  1  0.52987474  0.86848915  0.28435689  1
+  Mg  Mg6  1  0.03183059  0.36686006  0.78393978  1
+  I  I7  1  0.02694841  0.05465963  0.93551189  1
+  I  I8  1  0.03156931  0.68305689  0.63141584  1
+  Tl  Tl9  1  0.53526807  0.51070869  0.44506705  1
+  I  I10  1  0.03246536  0.53594798  0.11616068  1
+  I  I11  1  0.02899715  0.19742341  0.44729021  1

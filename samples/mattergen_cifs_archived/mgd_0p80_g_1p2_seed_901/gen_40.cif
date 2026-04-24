@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       TaCoFeCo
+_chemical_formula_sum              "Ta1 Co2 Fe1"
+_cell_length_a       4.187435242290543
+_cell_length_b       4.187558614110057
+_cell_length_c       4.187470436096191
+_cell_angle_alpha    60.02874367463002
+_cell_angle_beta     60.02018548795052
+_cell_angle_gamma    60.013718568552406
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ta  Ta1       1.0  0.670965611934662  0.6308854818344116  0.5211883783340454  1.0000
+  Co  Co1       1.0  0.9208474755287172  0.8812205791473389  0.7708476185798644  1.0000
+  Fe  Fe1       1.0  0.17101165652275088  0.13110768795013428  0.021137883886694908  1.0000
+  Co  Co2       1.0  0.4209648668766022  0.3811714947223664  0.2709709703922272  1.0000

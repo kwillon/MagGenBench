@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Eu2ZnEu
+_chemical_formula_sum              "Eu3 Zn1"
+_cell_length_a       3.960833266813093
+_cell_length_b       5.780506068881996
+_cell_length_c       7.000604629516602
+_cell_angle_alpha    114.36418329748861
+_cell_angle_beta     106.40576903121192
+_cell_angle_gamma    90.00283028255981
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Eu  Eu1       1.0  0.4516685605049133  0.2834199070930481  0.9738683104515075  1.0000
+  Eu  Eu2       1.0  0.24636097252368924  0.5775578022003174  0.5627700090408325  1.0000
+  Zn  Zn1       1.0  0.9522374272346495  0.7837964296340942  0.9739738106727599  1.0000
+  Eu  Eu3       1.0  0.657310426235199  0.9898797273635863  0.38554587960243214  1.0000

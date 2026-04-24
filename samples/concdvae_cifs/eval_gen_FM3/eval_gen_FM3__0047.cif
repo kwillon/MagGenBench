@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Mg2VCoNi3H(O4F)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.02760601
+_cell_length_b   5.33067751
+_cell_length_c   7.02801275
+_cell_angle_alpha   113.35704041
+_cell_angle_beta   95.01295471
+_cell_angle_gamma   90.06016541
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg2VCoNi3H(O4F)2
+_chemical_formula_sum   'Mg2 V1 Co1 Ni3 H1 O8 F2'
+_cell_volume   172.12666126
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.94852000  0.89139277  0.97781622  1
+  O  O1  1  0.42419723  0.02866735  0.65625501  1
+  V  V2  1  0.61191511  0.65943521  0.54618585  1
+  O  O3  1  0.26900494  0.44967306  0.46973044  1
+  Ni  Ni4  1  0.44450957  0.07297912  0.35739952  1
+  Co  Co5  1  0.29065412  0.76379782  0.75488603  1
+  Ni  Ni6  1  0.49957657  0.38680345  0.95081389  1
+  O  O7  1  0.96420634  0.85043961  0.65590191  1
+  O  O8  1  0.85612971  0.28510523  0.03357421  1
+  H  H9  1  0.97633058  0.36148682  0.97138000  1
+  F  F10  1  0.07274373  0.89072442  0.27202743  1
+  O  O11  1  0.57974327  0.69264889  0.27985740  1
+  O  O12  1  0.15781794  0.52361280  0.86550206  1
+  O  O13  1  0.61596382  0.67439741  0.82930177  1
+  O  O14  1  0.75845975  0.31437370  0.44998115  1
+  F  F15  1  0.33376735  0.07644618  0.04786097  1
+  Mg  Mg16  1  0.05735896  0.19326445  0.59246510  1
+  Ni  Ni17  1  0.94226402  0.55695701  0.32936287  1

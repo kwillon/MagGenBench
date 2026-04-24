@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Cs2MnNiF6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.58385754
+_cell_length_b   6.16413975
+_cell_length_c   6.76358414
+_cell_angle_alpha   117.51059723
+_cell_angle_beta   98.30389404
+_cell_angle_gamma   90.60533142
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2MnNiF6
+_chemical_formula_sum   'Cs2 Mn1 Ni1 F6'
+_cell_volume   203.51832395
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.51338738  0.82224041  0.00403246  1
+  Cs  Cs1  1  0.77048731  0.15812640  0.67097914  1
+  F  F2  1  0.75162923  0.68810570  0.72893900  1
+  F  F3  1  0.77509952  0.68769336  0.14570235  1
+  F  F4  1  0.25107422  0.96872640  0.86055875  1
+  Ni  Ni5  1  0.01374291  0.82553577  0.00463635  1
+  F  F6  1  0.24137118  0.54162627  0.85664648  1
+  F  F7  1  0.26931792  0.96694899  0.28493726  1
+  Cs  Cs8  1  0.24884570  0.49585974  0.34042561  1
+  F  F9  1  0.78307700  0.11046444  0.15214577  1

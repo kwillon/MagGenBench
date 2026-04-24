@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_KRb2Au2I4Br
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.81172228
+_cell_length_b   8.16387558
+_cell_length_c   7.64369249
+_cell_angle_alpha   93.46599579
+_cell_angle_beta   75.48159790
+_cell_angle_gamma   72.90002441
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KRb2Au2I4Br
+_chemical_formula_sum   'K1 Rb2 Au2 I4 Br1'
+_cell_volume   446.27365047
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.64445323  0.34589198  0.20851538  1
+  Au  Au1  1  0.30194744  0.34550700  0.83888417  1
+  I  I2  1  0.68192387  0.83848977  0.28922820  1
+  Au  Au3  1  0.46023616  0.88346648  0.63033563  1
+  I  I4  1  0.13139366  0.41956183  0.19703582  1
+  Rb  Rb5  1  0.20587429  0.91082358  0.17538257  1
+  I  I6  1  0.10988309  0.14542830  0.71086192  1
+  Rb  Rb7  1  0.98271024  0.68563926  0.72976619  1
+  Br  Br8  1  0.57863140  0.06349993  0.82594883  1
+  I  I9  1  0.53720397  0.56325257  0.74822521  1

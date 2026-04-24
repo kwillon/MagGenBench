@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       Eu2SnAs3Sn
+_chemical_formula_sum              "Eu2 Sn2 As3"
+_cell_length_a       4.283684511504009
+_cell_length_b       7.898837369816504
+_cell_length_c       7.105123996734619
+_cell_angle_alpha    61.46953748142529
+_cell_angle_beta     72.39398640076035
+_cell_angle_gamma    74.2655599134273
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Eu  Eu1       1.0  0.08362226188182831  0.6913851499557495  0.1700972765684128  1.0000
+  Eu  Eu2       1.0  0.8817734718322754  0.2886217534542084  0.976322889328003  1.0000
+  Sn  Sn1       1.0  0.5807585120201111  0.34041392803192133  0.5267811417579651  1.0000
+  As  As1       1.0  0.5496349930763245  0.011567340232431889  0.9196269512176515  1.0000
+  As  As2       1.0  0.22939786314964294  0.2403128445148468  0.3308327794075012  1.0000
+  As  As3       1.0  0.7451348900794983  0.7407975792884827  0.7979645133018495  1.0000
+  Sn  Sn2       1.0  0.34527131915092474  0.8338586688041687  0.5049364566802979  1.0000

@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       LaSnCo3
+_chemical_formula_sum              "La1 Sn1 Co3"
+_cell_length_a       4.24643593699324
+_cell_length_b       4.249976066168341
+_cell_length_c       5.945664882659912
+_cell_angle_alpha    110.85269897128782
+_cell_angle_beta     110.85700210788039
+_cell_angle_gamma    90.04198083459217
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  La  La1       1.0  0.7936272025108337  0.8157336711883545  0.5690427422523499  1.0000
+  Sn  Sn1       1.0  0.15871281921863556  0.1811707764863968  0.30011364817619324  1.0000
+  Co  Co1       1.0  0.014445037581026554  0.5371963977813721  0.012400797568261623  1.0000
+  Co  Co2       1.0  0.5152795314788818  0.03745334967970848  0.013152518309652824  1.0000
+  Co  Co3       1.0  0.42064985632896423  0.4433193802833557  0.8229677081108093  1.0000

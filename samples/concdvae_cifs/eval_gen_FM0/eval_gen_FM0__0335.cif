@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Rb4NaLi(C2Cl)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.73157167
+_cell_length_b   7.24536657
+_cell_length_c   8.29737759
+_cell_angle_alpha   114.22386932
+_cell_angle_beta   108.25999451
+_cell_angle_gamma   90.48088074
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Rb4NaLi(C2Cl)2
+_chemical_formula_sum   'Rb4 Na1 Li1 C4 Cl2'
+_cell_volume   346.05883910
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  C  C0  1  0.43239117  0.95725787  0.08512732  1
+  C  C1  1  0.86846250  0.34771496  0.17450833  1
+  Cl  Cl2  1  0.72197425  0.82428187  0.73119020  1
+  Cl  Cl3  1  0.23923755  0.22684406  0.73435342  1
+  Rb  Rb4  1  0.98101985  0.96416366  0.24766399  1
+  Rb  Rb5  1  0.18686847  0.65505737  0.63496423  1
+  Li  Li6  1  0.58812857  0.10319874  0.97150218  1
+  C  C7  1  0.48776957  0.08049267  0.26364103  1
+  Rb  Rb8  1  0.49647355  0.59963888  0.23145133  1
+  C  C9  1  0.96504664  0.50974709  0.18301131  1
+  Rb  Rb10  1  0.72184932  0.32838178  0.71647984  1
+  Na  Na11  1  0.10765792  0.14448233  0.99175417  1

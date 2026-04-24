@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_KDyCuS3O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.51719093
+_cell_length_b   5.63155413
+_cell_length_c   5.58152390
+_cell_angle_alpha   74.83125305
+_cell_angle_beta   74.03122711
+_cell_angle_gamma   74.41220856
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KDyCuS3O
+_chemical_formula_sum   'K1 Dy1 Cu1 S3 O1'
+_cell_volume   157.26097377
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.47540900  0.29531983  0.20558360  1
+  Cu  Cu1  1  0.79880601  0.11499827  0.94795197  1
+  S  S2  1  0.05599879  0.38386658  0.76914585  1
+  Dy  Dy3  1  0.95839357  0.28230035  0.29468173  1
+  K  K4  1  0.42514917  0.75753468  0.68630880  1
+  S  S5  1  0.96768874  0.79409182  0.20513287  1
+  O  O6  1  0.75047445  0.06652015  0.68380868  1

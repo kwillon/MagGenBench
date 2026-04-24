@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_NaAl7Fe2Re3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.25089407
+_cell_length_b   6.64453363
+_cell_length_c   6.85435343
+_cell_angle_alpha   72.35920715
+_cell_angle_beta   63.44469833
+_cell_angle_gamma   63.81733322
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaAl7Fe2Re3
+_chemical_formula_sum   'Na1 Al7 Fe2 Re3'
+_cell_volume   226.53358426
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.41537082  0.69983166  0.90901345  1
+  Re  Re1  1  0.20387970  0.52450269  0.36902162  1
+  Re  Re2  1  0.92752022  0.85735542  0.04183439  1
+  Al  Al3  1  0.08463579  0.41159344  0.10950154  1
+  Na  Na4  1  0.63118333  0.20656556  0.68334383  1
+  Fe  Fe5  1  0.38061818  0.08545692  0.31625015  1
+  Fe  Fe6  1  0.88139129  0.57862687  0.80998635  1
+  Al  Al7  1  0.71773040  0.76761425  0.47792265  1
+  Re  Re8  1  0.58815253  0.67343336  0.21290129  1
+  Al  Al9  1  0.20020905  0.77332264  0.61984354  1
+  Al  Al10  1  0.69577467  0.28349593  0.11848094  1
+  Al  Al11  1  0.12195235  0.97969538  0.21179527  1
+  Al  Al12  1  0.11963362  0.17619736  0.72348493  1

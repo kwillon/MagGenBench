@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_NaLiTaMn2HCl4O3F2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.82064533
+_cell_length_b   6.00720549
+_cell_length_c   8.53966045
+_cell_angle_alpha   70.20370483
+_cell_angle_beta   73.50584412
+_cell_angle_gamma   62.10691833
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaLiTaMn2HCl4O3F2
+_chemical_formula_sum   'Na1 Li1 Ta1 Mn2 H1 Cl4 O3 F2'
+_cell_volume   245.46685358
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.36261469  0.77899241  0.00882684  1
+  Cl  Cl1  1  0.19647905  0.37249836  0.26816064  1
+  F  F2  1  0.51174533  0.93259138  0.61127949  1
+  F  F3  1  0.14434615  0.56576157  0.58586681  1
+  Ta  Ta4  1  0.95891148  0.39351133  0.05412349  1
+  O  O5  1  0.26623723  0.16437303  0.93714613  1
+  Mn  Mn6  1  0.84049141  0.64076382  0.47490793  1
+  Mn  Mn7  1  0.44042537  0.25793612  0.69123662  1
+  O  O8  1  0.69880074  0.48006907  0.95176220  1
+  Cl  Cl9  1  0.59667879  0.68922961  0.27155864  1
+  H  H10  1  0.73715293  0.39020461  0.76988208  1
+  O  O11  1  0.75265515  0.34604341  0.65566450  1
+  Cl  Cl12  1  0.02369627  0.77840257  0.92427039  1
+  Na  Na13  1  0.13997465  0.96836835  0.55568147  1
+  Cl  Cl14  1  0.90584201  0.03435944  0.27958190  1

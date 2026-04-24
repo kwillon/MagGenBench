@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CaLu2(NiSe2)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.34432220
+_cell_length_b   7.00917912
+_cell_length_c   8.66486931
+_cell_angle_alpha   105.52849579
+_cell_angle_beta   92.68235016
+_cell_angle_gamma   102.66426086
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaLu2(NiSe2)3
+_chemical_formula_sum   'Ca1 Lu2 Ni3 Se6'
+_cell_volume   246.46396901
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.29652244  0.79390424  0.81446660  1
+  Lu  Lu1  1  0.64074934  0.46082744  0.47865540  1
+  Se  Se2  1  0.18025549  0.54639864  0.27034009  1
+  Ni  Ni3  1  0.46546730  0.12422375  0.64350444  1
+  Se  Se4  1  0.09845244  0.37763068  0.67592877  1
+  Se  Se5  1  0.42370075  0.02957449  0.36449572  1
+  Se  Se6  1  0.51499361  0.21957728  0.93013960  1
+  Ni  Ni7  1  0.80660588  0.79094118  0.31527936  1
+  Se  Se8  1  0.83958316  0.87197727  0.61030996  1
+  Ni  Ni9  1  0.13939807  0.45929289  0.97755951  1
+  Se  Se10  1  0.75185966  0.69452441  0.01716855  1
+  Ca  Ca11  1  0.97031659  0.12496212  0.14746302  1

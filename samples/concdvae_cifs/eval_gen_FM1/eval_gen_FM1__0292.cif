@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_CsKBaReN3F2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.56971502
+_cell_length_b   4.93470621
+_cell_length_c   8.98449039
+_cell_angle_alpha   81.26371765
+_cell_angle_beta   82.90235901
+_cell_angle_gamma   79.13836670
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsKBaReN3F2
+_chemical_formula_sum   'Cs1 K1 Ba1 Re1 N3 F2'
+_cell_volume   195.72106897
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  N  N0  1  0.35368475  0.19569676  0.88692737  1
+  N  N1  1  0.92443943  0.60990679  0.89129001  1
+  F  F2  1  0.41606653  0.68219656  0.38958430  1
+  Re  Re3  1  0.99103540  0.26451781  0.90001452  1
+  N  N4  1  0.83990109  0.11556719  0.08481338  1
+  Cs  Cs5  1  0.91882133  0.18550366  0.38900673  1
+  F  F6  1  0.89820606  0.16190150  0.71421784  1
+  Ba  Ba7  1  0.42430818  0.69866204  0.07784548  1
+  K  K8  1  0.43995148  0.71812928  0.69555473  1

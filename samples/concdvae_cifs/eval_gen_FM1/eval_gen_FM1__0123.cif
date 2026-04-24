@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Ho2CoPt3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.14021111
+_cell_length_b   5.26610327
+_cell_length_c   5.55867672
+_cell_angle_alpha   67.31604004
+_cell_angle_beta   60.99282074
+_cell_angle_gamma   60.78334808
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ho2CoPt3
+_chemical_formula_sum   'Ho2 Co1 Pt3'
+_cell_volume   112.64321662
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pt  Pt0  1  0.56536001  0.64371300  0.26665935  1
+  Pt  Pt1  1  0.55726504  0.15355925  0.26890212  1
+  Ho  Ho2  1  0.18641677  0.77400351  0.89363366  1
+  Co  Co3  1  0.55724984  0.15351011  0.76754272  1
+  Pt  Pt4  1  0.05595790  0.14984043  0.26789650  1
+  Ho  Ho5  1  0.93451804  0.52565986  0.64762396  1

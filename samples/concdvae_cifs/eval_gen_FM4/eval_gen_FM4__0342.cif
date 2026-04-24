@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Li2CeMgTi2O6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.41741037
+_cell_length_b   5.63398600
+_cell_length_c   7.00628042
+_cell_angle_alpha   106.79940033
+_cell_angle_beta   94.71272278
+_cell_angle_gamma   103.55445099
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2CeMgTi2O6
+_chemical_formula_sum   'Li2 Ce1 Mg1 Ti2 O6'
+_cell_volume   123.90340684
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.34937084  0.55261797  0.00679038  1
+  O  O1  1  0.37974700  0.64088094  0.32715493  1
+  O  O2  1  0.69578224  0.24048890  0.93148053  1
+  Ti  Ti3  1  0.66553158  0.19084151  0.65278810  1
+  Mg  Mg4  1  0.84018391  0.55162257  0.49639198  1
+  Li  Li5  1  0.63240063  0.10881706  0.13021977  1
+  Li  Li6  1  0.05798250  0.98781300  0.86984777  1
+  O  O7  1  0.63981432  0.17190903  0.38379478  1
+  O  O8  1  0.99894416  0.86802423  0.07492776  1
+  Ti  Ti9  1  0.02264374  0.91548657  0.35348338  1
+  O  O10  1  0.30316177  0.46217182  0.67818224  1
+  O  O11  1  0.04480079  0.94070023  0.61962396  1

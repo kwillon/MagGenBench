@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Na8NdEuFeMoO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.84762344
+_cell_length_b   6.69783746
+_cell_length_c   7.90080373
+_cell_angle_alpha   89.73915772
+_cell_angle_beta   89.80510333
+_cell_angle_gamma   90.11038173
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na8NdEuFeMoO6
+_chemical_formula_sum   'Na8 Nd1 Eu1 Fe1 Mo1 O6'
+_cell_volume   362.35805110
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.02570498  0.48397531  0.00443181  1
+  O  O1  1  0.05130952  0.48326137  0.51340603  1
+  O  O2  1  0.35947070  0.99636463  0.98025228  1
+  O  O3  1  0.44255755  0.78170495  0.42736622  1
+  Na  Na4  1  0.45970547  0.00187568  0.92784997  1
+  Mo  Mo5  1  0.47371172  0.46882711  0.99312713  1
+  Na  Na6  1  0.49885556  0.52005331  0.50577705  1
+  Na  Na7  1  0.50967687  0.01085024  0.51860256  1
+  Na  Na8  1  0.49754943  0.00369495  0.49807845  1
+  O  O9  1  0.52492409  0.97290408  0.00865784  1
+  Fe  Fe10  1  0.49316591  0.98711461  0.48567787  1
+  O  O11  1  0.52454490  0.52108750  0.98684097  1
+  O  O12  1  0.54082718  0.97566894  0.99637581  1
+  Nd  Nd13  1  0.51073532  0.99062240  0.97852698  1
+  Na  Na14  1  0.50360857  0.52302159  0.99590072  1
+  Eu  Eu15  1  0.97968416  0.98768344  0.49562029  1
+  Na  Na16  1  0.50477637  0.98150304  0.01027182  1
+  Na  Na17  1  0.50839631  0.50823425  0.97967220  1

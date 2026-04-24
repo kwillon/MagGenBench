@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_ZnSiAs4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.83616543
+_cell_length_b   4.85963535
+_cell_length_c   7.02933455
+_cell_angle_alpha   89.16682434
+_cell_angle_beta   91.41567993
+_cell_angle_gamma   92.21432495
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZnSiAs4
+_chemical_formula_sum   'Zn1 Si1 As4'
+_cell_volume   130.89349219
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.93587059  0.78563434  0.66948897  1
+  As  As1  1  0.93981224  0.26523826  0.62613636  1
+  As  As2  1  0.92763466  0.82993919  0.01434822  1
+  As  As3  1  0.43884462  0.73690003  0.46153685  1
+  As  As4  1  0.43556455  0.15919109  0.04986810  1
+  Zn  Zn5  1  0.44250199  0.23554967  0.39703998  1

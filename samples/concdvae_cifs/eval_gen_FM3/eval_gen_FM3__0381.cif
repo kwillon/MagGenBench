@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_BaCa3AlSiClO7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.08398056
+_cell_length_b   6.06270361
+_cell_length_c   6.25149918
+_cell_angle_alpha   81.75138855
+_cell_angle_beta   83.07485962
+_cell_angle_gamma   85.56687927
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaCa3AlSiClO7
+_chemical_formula_sum   'Ba1 Ca3 Al1 Si1 Cl1 O7'
+_cell_volume   226.11570873
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.23738635  0.43709260  0.86183286  1
+  Al  Al1  1  0.51442492  0.73629951  0.54171884  1
+  Ca  Ca2  1  0.76913178  0.49582916  0.99853921  1
+  Ba  Ba3  1  0.34002146  0.92124945  0.06125718  1
+  Cl  Cl4  1  0.89476585  0.19007660  0.33094436  1
+  O  O5  1  0.68161184  0.77409136  0.73297739  1
+  O  O6  1  0.36971900  0.49850574  0.64030242  1
+  O  O7  1  0.07273424  0.25219867  0.84405500  1
+  Ca  Ca8  1  0.98423922  0.96618325  0.67551070  1
+  O  O9  1  0.41352352  0.34192637  0.02891040  1
+  O  O10  1  0.33705494  0.95977253  0.49046105  1
+  O  O11  1  0.60348201  0.65384907  0.28728887  1
+  O  O12  1  0.10118715  0.65528327  0.92207438  1
+  Ca  Ca13  1  0.40887386  0.31073833  0.37720183  1

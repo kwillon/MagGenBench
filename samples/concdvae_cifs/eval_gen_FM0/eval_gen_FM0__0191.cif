@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CaGd5(PbC2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.18738937
+_cell_length_b   6.17555666
+_cell_length_c   7.69074154
+_cell_angle_alpha   91.53240967
+_cell_angle_beta   89.54331970
+_cell_angle_gamma   90.45258331
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaGd5(PbC2)2
+_chemical_formula_sum   'Ca1 Gd5 Pb2 C4'
+_cell_volume   293.74453206
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Gd  Gd0  1  0.39948249  0.21191879  0.66490024  1
+  Pb  Pb1  1  0.91647375  0.20548685  0.39787978  1
+  Gd  Gd2  1  0.88561565  0.18768318  0.89441884  1
+  Ca  Ca3  1  0.73912579  0.72677773  0.12989947  1
+  Pb  Pb4  1  0.22455131  0.72467870  0.39501482  1
+  Gd  Gd5  1  0.40469143  0.21203853  0.12634066  1
+  Gd  Gd6  1  0.73257184  0.71723670  0.66631669  1
+  C  C7  1  0.07685611  0.97078979  0.13967228  1
+  C  C8  1  0.56645280  0.96964651  0.89048523  1
+  C  C9  1  0.57064360  0.46597281  0.89240527  1
+  Gd  Gd10  1  0.25712535  0.74168861  0.89954746  1
+  C  C11  1  0.06377343  0.96024507  0.65770400  1

@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_DyCr3Ag2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.24129391
+_cell_length_b   5.28857231
+_cell_length_c   5.26520538
+_cell_angle_alpha   68.64938354
+_cell_angle_beta   62.59929657
+_cell_angle_gamma   60.11534119
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   DyCr3Ag2
+_chemical_formula_sum   'Dy1 Cr3 Ag2'
+_cell_volume   110.60780865
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cr  Cr0  1  0.87683004  0.90177280  0.26212716  1
+  Cr  Cr1  1  0.38371438  0.39997813  0.26227331  1
+  Ag  Ag2  1  0.37236112  0.90274233  0.76567256  1
+  Cr  Cr3  1  0.37819904  0.90590644  0.26583225  1
+  Ag  Ag4  1  0.75806528  0.27678400  0.62823015  1
+  Dy  Dy5  1  0.99589163  0.53345400  0.89101857  1

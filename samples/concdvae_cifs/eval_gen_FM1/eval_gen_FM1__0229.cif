@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Na2Ca2PtAuCl8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.10976791
+_cell_length_b   7.42402267
+_cell_length_c   7.47431660
+_cell_angle_alpha   113.96443176
+_cell_angle_beta   86.07742310
+_cell_angle_gamma   85.46363068
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2Ca2PtAuCl8
+_chemical_formula_sum   'Na2 Ca2 Pt1 Au1 Cl8'
+_cell_volume   357.18449230
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.59408557  0.98877859  0.23842473  1
+  Na  Na1  1  0.24904928  0.84667301  0.32537746  1
+  Ca  Ca2  1  0.72532445  0.35853931  0.31923726  1
+  Cl  Cl3  1  0.88516766  0.19021100  0.93167317  1
+  Cl  Cl4  1  0.45696151  0.97836095  0.69997668  1
+  Cl  Cl5  1  0.10888140  0.70732111  0.92111605  1
+  Na  Na6  1  0.23232988  0.33364475  0.84642875  1
+  Cl  Cl7  1  0.59076113  0.43523902  0.70476681  1
+  Au  Au8  1  0.24034095  0.58835828  0.58218569  1
+  Ca  Ca9  1  0.75586522  0.81927371  0.84907597  1
+  Pt  Pt10  1  0.74101084  0.09038267  0.58174986  1
+  Cl  Cl11  1  0.01816484  0.20086491  0.47072729  1
+  Cl  Cl12  1  0.88230449  0.73622364  0.45823038  1
+  Cl  Cl13  1  0.37153041  0.47450769  0.25263152  1

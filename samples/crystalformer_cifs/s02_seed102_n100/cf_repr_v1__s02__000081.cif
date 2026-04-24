@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_MoHN2ClO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.08008857
+_cell_length_b   6.08949837
+_cell_length_c   7.22374580
+_cell_angle_alpha   84.78078488
+_cell_angle_beta   80.89358740
+_cell_angle_gamma   75.93956732
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MoHN2ClO2
+_chemical_formula_sum   'Mo2 H2 N4 Cl2 O4'
+_cell_volume   255.78858667
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.16939274  0.61266535  0.94140367  1
+  O  O1  1  0.83060726  0.38733465  0.05859633  1
+  Mo  Mo2  1  0.47555580  0.25548266  0.31965692  1
+  Mo  Mo3  1  0.52444420  0.74451734  0.68034308  1
+  O  O4  1  0.57764316  0.43806745  0.79498723  1
+  O  O5  1  0.42235684  0.56193255  0.20501277  1
+  H  H6  1  0.61810973  0.25370065  0.05721572  1
+  H  H7  1  0.38189027  0.74629935  0.94278428  1
+  Cl  Cl8  1  0.78820098  0.79629280  0.56141533  1
+  Cl  Cl9  1  0.21179902  0.20370720  0.43858467  1
+  N  N10  1  0.72700051  0.08047901  0.34073966  1
+  N  N11  1  0.27299949  0.91952099  0.65926034  1
+  N  N12  1  0.88186846  0.95096018  0.85425277  1
+  N  N13  1  0.11813154  0.04903982  0.14574723  1

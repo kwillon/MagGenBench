@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Rb2SrCeF6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.19591618
+_cell_length_b   5.45120525
+_cell_length_c   7.83186293
+_cell_angle_alpha   88.17271423
+_cell_angle_beta   91.26640320
+_cell_angle_gamma   90.12357330
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Rb2SrCeF6
+_chemical_formula_sum   'Rb2 Sr1 Ce1 F6'
+_cell_volume   221.66253560
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.48675260  0.15228352  0.59853667  1
+  Rb  Rb1  1  0.49195769  0.15713422  0.16472293  1
+  Ce  Ce2  1  0.98458743  0.15012778  0.61253792  1
+  Sr  Sr3  1  0.98443997  0.65416831  0.03744901  1
+  F  F4  1  0.98678845  0.90577585  0.32523948  1
+  F  F5  1  0.98415756  0.40389067  0.32365537  1
+  F  F6  1  0.98496479  0.65761960  0.70365685  1
+  F  F7  1  0.98687649  0.15607196  0.93789077  1
+  F  F8  1  0.48702022  0.66001159  0.05206273  1
+  Rb  Rb9  1  0.47975191  0.65473276  0.47503147  1

@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_SmEuHfS6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.98565674
+_cell_length_b   6.33719444
+_cell_length_c   5.71808290
+_cell_angle_alpha   111.81967926
+_cell_angle_beta   86.41177368
+_cell_angle_gamma   86.25583649
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SmEuHfS6
+_chemical_formula_sum   'Sm1 Eu1 Hf1 S6'
+_cell_volume   200.04585054
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.57226098  0.90518820  0.19457340  1
+  S  S1  1  0.79593140  0.36386755  0.16586074  1
+  S  S2  1  0.32803774  0.58943677  0.52659011  1
+  S  S3  1  0.07638725  0.76891094  0.12078592  1
+  Hf  Hf4  1  0.46579388  0.53020942  0.99496162  1
+  Eu  Eu5  1  0.81441808  0.85689270  0.66820121  1
+  S  S6  1  0.31823158  0.16576576  0.82420361  1
+  S  S7  1  0.79852319  0.36697754  0.67000663  1
+  Sm  Sm8  1  0.17689422  0.18737362  0.33106610  1

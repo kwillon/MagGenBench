@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_K3BaO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.02019596
+_cell_length_b   5.04710054
+_cell_length_c   5.67038727
+_cell_angle_alpha   86.78843689
+_cell_angle_beta   89.52603149
+_cell_angle_gamma   89.66377258
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K3BaO3
+_chemical_formula_sum   'K3 Ba1 O3'
+_cell_volume   143.44041018
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.85114706  0.90987444  0.01341034  1
+  K  K1  1  0.34488204  0.40323132  0.51781875  1
+  K  K2  1  0.34807688  0.90593481  0.01473397  1
+  Ba  Ba3  1  0.84796697  0.40897015  0.01467481  1
+  O  O4  1  0.84572780  0.41195023  0.52163625  1
+  O  O5  1  0.34648371  0.41127902  0.01476026  1
+  K  K6  1  0.84394360  0.91323799  0.51694900  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_LaNiS3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.09970331
+_cell_length_b   6.96191454
+_cell_length_c   7.03962374
+_cell_angle_alpha   119.02803040
+_cell_angle_beta   89.70017242
+_cell_angle_gamma   90.93036652
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaNiS3
+_chemical_formula_sum   'La2 Ni2 S6'
+_cell_volume   218.50693090
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.00820009  0.83730793  0.43432346  1
+  S  S1  1  0.50684863  0.67765105  0.11292686  1
+  Ni  Ni2  1  0.25810853  0.50320870  0.76871514  1
+  S  S3  1  0.00541435  0.33426678  0.42895216  1
+  La  La4  1  0.50881058  0.16925590  0.10157201  1
+  S  S5  1  0.51177508  0.16330577  0.59885335  1
+  S  S6  1  0.00655337  0.85132563  0.94092810  1
+  S  S7  1  0.50908387  0.67672795  0.60330522  1
+  S  S8  1  0.00895555  0.33155787  0.93651378  1
+  Ni  Ni9  1  0.75959456  0.50903815  0.77083063  1

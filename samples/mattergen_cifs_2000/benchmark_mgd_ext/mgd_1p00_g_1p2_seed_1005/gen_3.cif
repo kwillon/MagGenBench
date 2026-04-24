@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       CuMnCuSbMnSb
+_chemical_formula_sum              "Cu2 Mn2 Sb2"
+_cell_length_a       3.9245300214022234
+_cell_length_b       3.9222392659907617
+_cell_length_c       6.3347063064575195
+_cell_angle_alpha    90.01833473274624
+_cell_angle_beta     89.95549016137232
+_cell_angle_gamma    90.02080725982432
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cu  Cu1       1.0  0.8566188812255858  0.21369412541389463  0.6437835097312927  1.0000
+  Mn  Mn1       1.0  0.3561528623104095  0.21366725862026212  0.36651927232742304  1.0000
+  Cu  Cu2       1.0  0.35620892047882075  0.7138797044754027  0.08934605121612547  1.0000
+  Sb  Sb1       1.0  0.3561855554580688  0.7137540578842162  0.6649590730667113  1.0000
+  Mn  Mn2       1.0  0.8559566140174865  0.7138306498527526  0.366864800453186  1.0000
+  Sb  Sb2       1.0  0.8562278151512145  0.21373894810676572  0.06844443082809448  1.0000

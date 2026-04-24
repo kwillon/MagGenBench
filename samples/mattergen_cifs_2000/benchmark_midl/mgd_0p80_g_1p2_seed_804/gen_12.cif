@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       EuCdPbEuCdPb
+_chemical_formula_sum              "Eu2 Cd2 Pb2"
+_cell_length_a       3.720721796599999
+_cell_length_b       5.263264588872436
+_cell_length_c       9.236109733581543
+_cell_angle_alpha    89.97739457683683
+_cell_angle_beta     89.95739578090338
+_cell_angle_gamma    90.03859307232199
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Eu  Eu1       1.0  0.2075381428003311  0.7059645056724548  0.998158872127533  1.0000
+  Cd  Cd1       1.0  0.7083360552787781  0.20567940175533295  0.1545131355524063  1.0000
+  Pb  Pb1       1.0  0.7075774073600769  0.7060400247573853  0.6729652285575867  1.0000
+  Eu  Eu2       1.0  0.20827303826808927  0.20596393942832947  0.49818381667137146  1.0000
+  Cd  Cd2       1.0  0.7083885073661804  0.20611926913261414  0.8417474627494812  1.0000
+  Pb  Pb2       1.0  0.7079160213470459  0.7050372958183289  0.3240823447704315  1.0000

@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       FeMnIrMn
+_chemical_formula_sum              "Fe1 Mn2 Ir1"
+_cell_length_a       3.623094761888597
+_cell_length_b       3.6229202581580333
+_cell_length_c       4.42488956451416
+_cell_angle_alpha    114.1193051179274
+_cell_angle_beta     114.23502345652754
+_cell_angle_gamma    89.99713329891294
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.9824868440628052  0.4951149523258209  0.8820464611053467  1.0000
+  Mn  Mn1       1.0  0.2320871204137802  0.24500775337219238  0.3817879557609558  1.0000
+  Ir  Ir1       1.0  0.4823435842990875  0.9950412511825562  0.8820831775665283  1.0000
+  Mn  Mn2       1.0  0.7330440282821655  0.7450199723243713  0.3822181224822998  1.0000

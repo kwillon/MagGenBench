@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Mn2Zn3GeTe8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.64426327
+_cell_length_b   7.92507124
+_cell_length_c   8.26009941
+_cell_angle_alpha   120.44132996
+_cell_angle_beta   92.58775330
+_cell_angle_gamma   91.12156677
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mn2Zn3GeTe8
+_chemical_formula_sum   'Mn2 Zn3 Ge1 Te8'
+_cell_volume   430.46207225
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.95907104  0.71498173  0.45791909  1
+  Te  Te1  1  0.97453916  0.71400571  0.94474280  1
+  Te  Te2  1  0.46896255  0.72925723  0.70839036  1
+  Te  Te3  1  0.64338404  0.22999284  0.19920719  1
+  Te  Te4  1  0.63257813  0.23466705  0.71265209  1
+  Te  Te5  1  0.13464355  0.21550158  0.94430816  1
+  Mn  Mn6  1  0.30155852  0.46762648  0.82267600  1
+  Zn  Zn7  1  0.29282415  0.95214528  0.56742138  1
+  Te  Te8  1  0.45899644  0.72838348  0.19753705  1
+  Zn  Zn9  1  0.82405072  0.42697731  0.55613142  1
+  Mn  Mn10  1  0.30693531  0.98824710  0.08193988  1
+  Zn  Zn11  1  0.79807347  0.97582912  0.82942533  1
+  Ge  Ge12  1  0.78224593  0.52243662  0.10579057  1
+  Te  Te13  1  0.14443901  0.21060017  0.45180798  1

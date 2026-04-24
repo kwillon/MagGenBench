@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_KLiAlVCrO7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.34308624
+_cell_length_b   5.99082232
+_cell_length_c   6.60057878
+_cell_angle_alpha   89.47887421
+_cell_angle_beta   86.14074707
+_cell_angle_gamma   86.22702026
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KLiAlVCrO7
+_chemical_formula_sum   'K1 Li1 Al1 V1 Cr1 O7'
+_cell_volume   131.60822622
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.07894679  0.28044015  0.27020195  1
+  Cr  Cr1  1  0.57686806  0.82042193  0.26453850  1
+  O  O2  1  0.06864831  0.58586377  0.24551938  1
+  K  K3  1  0.03108574  0.02875070  0.74026465  1
+  O  O4  1  0.58318746  0.72204083  0.97298253  1
+  Li  Li5  1  0.58708745  0.51427251  0.60067809  1
+  O  O6  1  0.56176591  0.80747998  0.50968337  1
+  O  O7  1  0.58253926  0.28956664  0.42398286  1
+  O  O8  1  0.08314112  0.46197844  0.76155305  1
+  V  V9  1  0.07641508  0.53215355  0.98492688  1
+  O  O10  1  0.08093433  0.00294269  0.20850332  1
+  O  O11  1  0.57773829  0.33417740  0.06122707  1

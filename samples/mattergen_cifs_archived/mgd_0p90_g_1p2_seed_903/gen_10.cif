@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       As2EuAsEu
+_chemical_formula_sum              "As3 Eu2"
+_cell_length_a       4.233755537478035
+_cell_length_b       5.870408951677463
+_cell_length_c       5.871294021606445
+_cell_angle_alpha    71.35261567048846
+_cell_angle_beta     68.79878652635078
+_cell_angle_gamma    68.80476265496567
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  As  As1       1.0  0.9077472686767578  0.6377869248390198  0.852063000202179  1.0000
+  As  As2       1.0  0.40779682993888855  0.936583399772644  0.5532423257827759  1.0000
+  Eu  Eu1       1.0  0.6323142051696777  0.211725115776062  0.8281089663505554  1.0000
+  As  As3       1.0  0.9079369902610779  0.2349733859300613  0.25442117452621466  1.0000
+  Eu  Eu2       1.0  0.18324407935142523  0.6612395048141478  0.2783690094947815  1.0000

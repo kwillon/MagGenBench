@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       EuCoGeCo
+_chemical_formula_sum              "Eu1 Co2 Ge1"
+_cell_length_a       4.114981209182566
+_cell_length_b       4.114924860022537
+_cell_length_c       5.57661247253418
+_cell_angle_alpha    68.35494697124304
+_cell_angle_beta     68.34983847150394
+_cell_angle_gamma    59.96802553742182
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Eu  Eu1       1.0  0.22015818953514105  0.1556465774774551  0.8326802253723145  1.0000
+  Co  Co1       1.0  0.40696620941162115  0.34235361218452454  0.2733134627342224  1.0000
+  Ge  Ge1       1.0  0.7202656269073487  0.6558449268341063  0.3324926495552063  1.0000
+  Co  Co2       1.0  0.033857762813568115  0.9693626761436461  0.3913252651691437  1.0000

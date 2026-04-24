@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Li5CaHoSb(O3F)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.08439247
+_cell_length_b   5.77291307
+_cell_length_c   7.11202999
+_cell_angle_alpha   89.51434944
+_cell_angle_beta   87.89890490
+_cell_angle_gamma   90.51810662
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li5CaHoSb(O3F)2
+_chemical_formula_sum   'Li5 Ca1 Ho1 Sb1 O6 F2'
+_cell_volume   208.59359122
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.02519179  0.53505874  0.17236443  1
+  Ho  Ho1  1  0.44869065  0.93809289  0.43017113  1
+  Sb  Sb2  1  0.47414984  0.95252356  0.72259374  1
+  O  O3  1  0.50348820  0.47488299  0.38013249  1
+  Li  Li4  1  0.50331385  0.99659994  0.01562469  1
+  Li  Li5  1  0.51148522  0.50371163  0.49018037  1
+  Ca  Ca6  1  0.50023586  0.95126367  0.44023276  1
+  Li  Li7  1  0.51246314  0.46489841  0.94185341  1
+  F  F8  1  0.52398969  0.46862023  0.49197026  1
+  O  O9  1  0.52302898  0.81216994  0.29926098  1
+  Li  Li10  1  0.51889132  0.52178220  0.97209947  1
+  Li  Li11  1  0.93547297  0.91387385  0.21557869  1
+  O  O12  1  0.98676441  0.51679215  0.51529056  1
+  O  O13  1  0.50385986  0.49538279  0.51119165  1
+  O  O14  1  0.51444666  0.41658422  0.75266556  1
+  O  O15  1  0.97929066  0.45385841  0.98504685  1

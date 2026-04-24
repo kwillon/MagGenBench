@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       Eu2F2EuF4
+_chemical_formula_sum              "Eu3 F6"
+_cell_length_a       3.820448199145514
+_cell_length_b       6.5035563280726745
+_cell_length_c       6.497583866119385
+_cell_angle_alpha    119.9936380223449
+_cell_angle_beta     89.88343167116226
+_cell_angle_gamma    90.00595843406549
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Eu  Eu1       1.0  0.7902429699897766  0.10714656859636305  0.5575291514396667  1.0000
+  Eu  Eu2       1.0  0.32038387656211853  0.7737447619438171  0.8907321691513062  1.0000
+  F   F1        1.0  0.8109683990478516  0.05655910819768905  0.14169731736183167  1.0000
+  F   F2        1.0  0.8120352029800415  0.7411011457443237  0.6080888509750365  1.0000
+  Eu  Eu3       1.0  0.05488893389701844  0.43965426087379456  0.22387827932834625  1.0000
+  F   F3        1.0  0.2991819679737091  0.8231295943260192  0.3061107695102691  1.0000
+  F   F4        1.0  0.29945388436317444  0.3579532206058502  0.5252916812896729  1.0000
+  F   F5        1.0  0.8106090426445007  0.5227551460266113  0.922938883304596  1.0000
+  F   F6        1.0  0.2992442548274994  0.1391114890575409  0.8399645686149597  1.0000

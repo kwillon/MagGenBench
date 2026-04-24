@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Na5Li2Ca2B(Cl3O2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.18515635
+_cell_length_b   7.81541920
+_cell_length_c   8.05751228
+_cell_angle_alpha   87.74549103
+_cell_angle_beta   79.68508911
+_cell_angle_gamma   80.89501953
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na5Li2Ca2B(Cl3O2)2
+_chemical_formula_sum   'Na5 Li2 Ca2 B1 Cl6 O4'
+_cell_volume   378.34937578
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.01093861  0.34417513  0.78904861  1
+  Cl  Cl1  1  0.51053476  0.40639904  0.72457391  1
+  Ca  Ca2  1  0.52222347  0.08758671  0.06460944  1
+  Cl  Cl3  1  0.49567163  0.90195149  0.74585545  1
+  Cl  Cl4  1  0.92340213  0.63351202  0.97747821  1
+  O  O5  1  0.15812470  0.21975948  0.03837930  1
+  B  B6  1  0.05122687  0.08164756  0.03525808  1
+  Na  Na7  1  0.43557882  0.62565702  0.98708814  1
+  Cl  Cl8  1  0.02805845  0.68247795  0.46592274  1
+  Ca  Ca9  1  0.99806958  0.88911217  0.74581569  1
+  O  O10  1  0.12926070  0.93779182  0.11845093  1
+  Cl  Cl11  1  0.53594089  0.40045670  0.23976064  1
+  O  O12  1  0.89279157  0.08324510  0.94059414  1
+  Li  Li13  1  0.85013574  0.83636695  0.21132626  1
+  Na  Na14  1  0.54538858  0.66365749  0.47952101  1
+  Li  Li15  1  0.24150874  0.92127120  0.31925681  1
+  Na  Na16  1  0.55659050  0.13763575  0.48534358  1
+  Cl  Cl17  1  0.03347757  0.15054898  0.50871205  1
+  Na  Na18  1  0.03590658  0.40047130  0.24807310  1
+  O  O19  1  0.54410577  0.92065394  0.30169880  1

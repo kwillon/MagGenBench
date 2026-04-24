@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Pr2AlCo2Sn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.61365509
+_cell_length_b   4.71837091
+_cell_length_c   6.34771919
+_cell_angle_alpha   102.60163879
+_cell_angle_beta   105.49575043
+_cell_angle_gamma   94.59223938
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Pr2AlCo2Sn
+_chemical_formula_sum   'Pr2 Al1 Co2 Sn1'
+_cell_volume   128.53846063
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  1  0.33367375  0.36073771  0.63776100  1
+  Co  Co1  1  0.11043737  0.02079134  0.20601933  1
+  Pr  Pr2  1  0.05196789  0.48709211  0.07494885  1
+  Pr  Pr3  1  0.78047878  0.83691674  0.54694831  1
+  Co  Co4  1  0.70289785  0.30835167  0.38265878  1
+  Al  Al5  1  0.49552035  0.96485764  0.98635447  1

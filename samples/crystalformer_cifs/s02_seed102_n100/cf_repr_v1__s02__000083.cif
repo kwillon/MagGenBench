@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_KNa3Nd2Ti2VO10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.64015352
+_cell_length_b   6.42241394
+_cell_length_c   8.17968554
+_cell_angle_alpha   90.33358869
+_cell_angle_beta   89.58372363
+_cell_angle_gamma   90.96586498
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KNa3Nd2Ti2VO10
+_chemical_formula_sum   'K1 Na3 Nd2 Ti2 V1 O10'
+_cell_volume   348.76491692
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  V  V0  1  0.00000000  0.50000000  0.00000000  1
+  Na  Na1  1  0.50000000  0.50000000  0.00000000  1
+  K  K2  1  0.50000000  0.00000000  0.50000000  1
+  O  O3  1  0.48105799  0.20818524  0.76127069  1
+  O  O4  1  0.51894201  0.79181476  0.23872931  1
+  O  O5  1  0.49414856  0.41986142  0.74908465  1
+  O  O6  1  0.50585144  0.58013858  0.25091535  1
+  Ti  Ti7  1  0.49242497  0.30504021  0.27051401  1
+  Ti  Ti8  1  0.50757503  0.69495979  0.72948599  1
+  Nd  Nd9  1  0.00134425  0.64918508  0.76748257  1
+  Nd  Nd10  1  0.99865575  0.35081492  0.23251743  1
+  O  O11  1  0.73285156  0.83603241  0.42066311  1
+  O  O12  1  0.26714844  0.16396759  0.57933689  1
+  O  O13  1  0.76281257  0.92756462  0.97298723  1
+  O  O14  1  0.23718743  0.07243538  0.02701277  1
+  Na  Na15  1  0.73123889  0.84191345  0.39792042  1
+  Na  Na16  1  0.26876111  0.15808655  0.60207958  1
+  O  O17  1  0.75143445  0.98581727  0.38623445  1
+  O  O18  1  0.24856555  0.01418273  0.61376555  1

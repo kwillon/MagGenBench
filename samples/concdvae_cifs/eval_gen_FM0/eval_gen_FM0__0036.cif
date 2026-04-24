@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_LiRe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.67889214
+_cell_length_b   4.76041269
+_cell_length_c   4.66282320
+_cell_angle_alpha   71.15687561
+_cell_angle_beta   61.44510651
+_cell_angle_gamma   59.02859497
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiRe3
+_chemical_formula_sum   'Li1 Re3'
+_cell_volume   77.80781352
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Re  Re0  1  0.83967656  0.11524637  0.61523151  1
+  Re  Re1  1  0.59028548  0.86943793  0.36472562  1
+  Re  Re2  1  0.33286607  0.61880434  0.11592302  1
+  Li  Li3  1  0.09488161  0.36090237  0.86213708  1
