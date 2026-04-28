@@ -30,7 +30,7 @@ figures_stats_paper_from_csv/
 
 # Large generated/data files
 datasets/raw_data/*.csv
-datasets/*/train_reference.csv
+#datasets/*/train_reference.csv
 tables/*.csv
 outputs/
 figures_stats_paper/
