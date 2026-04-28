@@ -32,16 +32,21 @@ Validated / cleaned structures
 Benchmarking and reference matching
     ↓
 Paper-ready summary tables and PDF outputs
+```
 
 ---
 
 ## More
 
-1. master_runs.downsampled.csv - Generation settings
-2. mattergen_structures.csv -  Primary table with structures 
-3. mattergen_structures.downsampled.csv — reduced subset selected for benchmarking (2000 per model);
+### Key tables
 
-* with_status — validation/filtering status added
-classes — chemical/material class labels added;
-* clean / clean_v2 — cleaned version after fixing labels, statuses, or problematic rows;
-* fixed_paths — paths to CIF files were corrected or normalized
+1. `master_runs.downsampled.csv` — generation settings.
+2. `mattergen_structures.csv` — primary table with MatterGen structures.
+3. `mattergen_structures.downsampled.csv` — reduced subset selected for benchmarking, for example 2000 structures per model.
+
+### Filename suffixes
+
+- `with_status` — validation/filtering status added.
+- `classes` — chemical/material class labels added.
+- `clean` / `clean_v2` — cleaned version after fixing labels, statuses, or problematic rows.
+- `fixed_paths` — CIF file paths were corrected or normalized.
