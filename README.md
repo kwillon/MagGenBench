@@ -382,6 +382,9 @@ mvp --input-dir samples/cdvae --out-dir outputs/cdvae ...
 
 # CrystalFormer
 mvp --input-dir samples/crystalformer --out-dir outputs/crystalformer ...
+
+# CrystalLLM
+mvp --input-dir samples/crystallm --out-dir outputs/crystallm ...
 ```
 
 Затем сравнивать `validity_ratio`, `novelty_ratio`, `duplicate_ratio`, `avg_density` и другие метрики между моделями для объективной оценки качества генерации.
