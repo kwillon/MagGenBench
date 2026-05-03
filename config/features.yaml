@@ -1,0 +1,61 @@
+# =============================================================================
+# Какие дескрипторы считать из CIF
+# =============================================================================
+features:
+  enabled: true
+
+  input:
+    structures_table: "registry/master_structures.csv"
+    cif_path_column: "cif_path"
+
+  basic_structure:
+    enabled: true
+    descriptors:
+      - "formula"
+      - "reduced_formula"
+      - "num_sites"
+      - "num_elements"
+      - "elements"
+      - "spacegroup_number"
+      - "spacegroup_symbol"
+      - "crystal_system"
+      - "volume"
+      - "volume_per_atom"
+      - "density"
+
+  composition:
+    enabled: true
+    descriptors:
+      - "element_fractions"
+      - "contains_transition_metal"
+      - "contains_rare_earth"
+      - "contains_oxygen"
+      - "contains_chalcogen"
+      - "contains_halogen"
+      - "contains_magnetic_element"
+
+  geometry:
+    enabled: true
+    descriptors:
+      - "min_interatomic_distance"
+      - "max_interatomic_distance"
+      - "mean_interatomic_distance"
+      - "coordination_numbers"
+
+  chemistry_classes:
+    enabled: true
+    output_column: "compound_class"
+    classes:
+      - "oxide"
+      - "chalcogenide"
+      - "halide"
+      - "intermetallic"
+      - "metal"
+      - "gas"
+      - "acid"
+      - "base"
+      - "other"
+
+  outputs:
+    features_table: "tables/features/structure_features.csv"
+    class_table: "tables/features/compound_classes.csv"

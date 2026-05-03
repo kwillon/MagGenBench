@@ -1,0 +1,55 @@
+# сколько структур брать на модель
+# по каким правилам считать novelty
+# как делать MP/reference matching
+# какие таблицы сохранять
+benchmark:
+  subset:
+    enabled: true
+    samples_per_model: 2000
+    random_seed: n
+    stratify_by:
+      - model_id
+    output_structures: "registry/master_structures.downsampled.csv"
+    output_runs: "registry/master_runs.downsampled.csv"
+
+  validation_status:
+    use_validation_outputs: true
+    status_column: "status"
+    valid_status_values:
+      - "validated"
+    rejected_status_values:
+      - "rejected"
+
+  novelty:
+    enabled: true
+    reference_type: "train_reference"
+    match_on:
+      formula: true
+      spacegroup: true
+      structure_matcher: false
+    formula_column: "reduced_formula"
+    spacegroup_column: "spacegroup"
+
+  mp_matching:
+    enabled: true
+    reference_name: "Materials Project"
+    match_levels:
+      - "formula"
+      - "formula_spacegroup"
+      - "strict_structure"
+    output_table: "tables/benchmark/mp_matching_results.csv"
+
+  uniqueness:
+    enabled: true
+    method: "pymatgen_structure_matcher"
+    structure_matcher:
+      primitive_cell: true
+      scale: true
+      attempt_supercell: false
+      ltol: 0.2
+      stol: 0.3
+      angle_tol: 5
+
+  outputs:
+    summary_table: "tables/benchmark/benchmark_summary.csv"
+    detailed_table: "tables/benchmark/benchmark_detailed.csv"

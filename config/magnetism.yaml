@@ -1,0 +1,96 @@
+magnetism:
+  enabled: true
+
+  magnetic_elements:
+    transition_3d:
+      - Sc
+      - Ti
+      - V
+      - Cr
+      - Mn
+      - Fe
+      - Co
+      - Ni
+      - Cu
+
+    selected_4d_5d:
+      - Mo
+      - Ru
+      - Rh
+      - Pd
+      - Re
+      - Os
+      - Ir
+
+    lanthanides:
+      - Ce
+      - Pr
+      - Nd
+      - Sm
+      - Eu
+      - Gd
+      - Tb
+      - Dy
+      - Ho
+      - Er
+      - Tm
+      - Yb
+
+  screening_rules:
+    require_magnetic_element: true
+
+    reject_classes:
+      - "gas"
+      - "acid"
+      - "base"
+
+    low_priority_classes:
+      - "simple_salt"
+      - "organic"
+      - "molecular"
+
+    high_priority_classes:
+      - "oxide"
+      - "chalcogenide"
+      - "intermetallic"
+      - "halide"
+
+  oxidation_state_screening:
+    enabled: true
+    allow_unknown_oxidation_states: true
+    magnetic_valence_hints:
+      Fe:
+        - 2
+        - 3
+      Co:
+        - 2
+        - 3
+      Ni:
+        - 2
+        - 3
+      Mn:
+        - 2
+        - 3
+        - 4
+      Cr:
+        - 2
+        - 3
+        - 6
+
+  goodenough_kanamori_rules:
+    enabled: false
+    require_oxide_or_halide_bridge: false
+    bridge_elements:
+      - O
+      - S
+      - Se
+      - Te
+      - F
+      - Cl
+      - Br
+      - I
+
+  outputs:
+    magnetic_candidates: "tables/magnetic_descriptors/magnetic_candidates.csv"
+    rejected_nonmagnetic: "tables/magnetic_descriptors/rejected_nonmagnetic.csv"
+    magnetic_descriptors: "tables/magnetic_descriptors/magnetic_descriptors.csv"

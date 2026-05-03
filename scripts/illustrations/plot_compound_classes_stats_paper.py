@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 ROOT = Path("/mnt/tank/scratch/kkapranova/MagGenBench/MagGenBench")
 
 INPUT_CSV = ROOT / "tables" / "master_structures.downsampled.with_status.classes.clean_v2.fixed_paths.csv"
-FIG_DIR = ROOT / "figures" / "compound_classes"
+FIG_DIR = ROOT / "figures" / "composition"
 FIG_DIR.mkdir(parents=True, exist_ok=True)
 
 

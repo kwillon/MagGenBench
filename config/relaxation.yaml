@@ -1,0 +1,45 @@
+relaxation:
+  enabled: true
+
+  input:
+    structures_table: "registry/master_structures.csv"
+    cif_path_column: "cif_path"
+    use_only_validated: true
+    validation_status_column: "status"
+    allowed_status:
+      - "validated"
+
+  engine:
+    name: "mattersim"
+    type: "mlff"
+    device: "cuda"
+    dtype: "float32"
+
+  settings:
+    relax_cell: true
+    relax_positions: true
+    fmax: 0.05
+    max_steps: 500
+    optimizer: "FIRE"
+    pressure: 0.0
+
+  safety_limits:
+    max_atoms: 500
+    skip_if_failed_parsing: true
+    skip_if_too_close_atoms: true
+    min_distance_before_relaxation: 0.7
+
+  outputs:
+    relaxed_cif_dir: "derived/cif_relaxed"
+    relaxation_table: "tables/relaxation/relaxation_results.csv"
+    failed_table: "tables/relaxation/relaxation_failed.csv"
+
+  columns:
+    input_cif: "cif_path"
+    output_cif: "relaxed_cif_path"
+    initial_energy: "initial_energy"
+    final_energy: "final_energy"
+    energy_per_atom: "energy_per_atom"
+    converged: "relax_converged"
+    n_steps: "relax_steps"
+    error: "relax_error"

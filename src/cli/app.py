@@ -81,7 +81,7 @@ def validate(
     if out_dir is None:
         # Дефолт: outputs/<model_name>
         out_dir = Path("outputs") / model_name
-        print(f"[yellow]⚠ out-dir не указан, используется: {out_dir}[/yellow]")
+        print(f"[yellow] out-dir не указан, используется: {out_dir}[/yellow]")
 
     # ------------------------------------------------------------
     # 3) thresholds: warning если нет
@@ -89,13 +89,13 @@ def validate(
 
     if thresholds is None:
         print(
-            "[yellow]⚠ thresholds не указан, используется config по умолчанию[/yellow]"
+            "[yellow] thresholds не указан, используется config по умолчанию[/yellow]"
         )
         cfg = PipelineConfig()
 
     elif not thresholds.exists():
         print(
-            f"[yellow]⚠ thresholds файл не найден: {thresholds}[/yellow]\n"
+            f"[yellow] thresholds файл не найден: {thresholds}[/yellow]\n"
             "[yellow]Используется config по умолчанию[/yellow]"
         )
         cfg = PipelineConfig()
@@ -109,12 +109,12 @@ def validate(
 
     if train_reference is None:
         print(
-            "[yellow]⚠ train_reference не указан → novelty_ratio не будет рассчитан[/yellow]"
+            "[yellow] train_reference не указан → novelty_ratio не будет рассчитан[/yellow]"
         )
 
     elif not train_reference.exists():
         print(
-            f"[yellow]⚠ train_reference файл не найден: {train_reference}[/yellow]\n"
+            f"[yellow] train_reference файл не найден: {train_reference}[/yellow]\n"
             "[yellow]novelty_ratio не будет рассчитан[/yellow]"
         )
         train_reference = None
@@ -136,7 +136,7 @@ def validate(
     # ------------------------------------------------------------
 
     print(
-        f"\n[bold green]✔ Валидация завершена[/bold green]\n"
+        f"\n[bold green] Валидация завершена[/bold green]\n"
         f"Отчёт: {out_dir / 'validation_report.json'}"
     )
 

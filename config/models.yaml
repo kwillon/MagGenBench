@@ -1,0 +1,14 @@
+# =============================================================================
+# MatterGen, Con-CDVAE, CrystalFormer, CrystalLLM
+# =============================================================================
+models:
+  enabled:
+    - mattergen
+    - crystalformer
+    - crystalllm
+    - concdvae
+
+defaults:
+  file_pattern: "*.cif"
+  validation_output_template: "outputs/validation/{model_id}"
+  input_dir_template: "samples/{model_id}_cifs"

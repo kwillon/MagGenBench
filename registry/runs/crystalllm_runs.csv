@@ -1,0 +1,2 @@
+run_id,model_name,checkpoint_name,checkpoint_file,seed,temperature,top_k,max_new_tokens,num_samples_requested,prompt_dir,device,dtype,compile,target,working_dir,run_dir,raw_dir,manifest_file,log_file,notes
+crystallm_benchmark_30x100_seed1337_t08_k10,CrystaLLM,,,,,,,,,,,,,,runs/crystallm_benchmark_30x100_seed1337_t08_k10,runs/crystallm_benchmark_30x100_seed1337_t08_k10/raw,crystalLLM_manifest.txt,crystalfLLM_Co2FeAl.log,technical run manifest row

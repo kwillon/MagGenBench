@@ -1,0 +1,5 @@
+model_id,model_name,model_short,model_family,version_or_checkpoint,source_type,input_dir,train_reference_path,is_active,notes
+mattergen,MatterGen,mg,diffusion,mattergen_base,generated,models/mattergen/generated_cifs,datasets/mattergen/train_reference.csv,true,Base MatterGen model; conditioned runs should be described in master_runs.csv
+crystalformer,CrystalFormer,cf,transformer,unknown,generated,models/crystalformer/generated_cifs,datasets/crystalformer/train_reference.csv,true,
+crystalllm,CrystalLLM,cllm,language_model,unknown,generated,models/crystalllm/generated_cifs,datasets/crystalllm/train_reference.csv,true,Name may also appear as CrystaLLM in older files
+concdvae,Con-CDVAE,cdvae,diffusion_vae,unknown,generated,models/concdvae/generated_cifs,datasets/concdvae/train_reference.csv,true,

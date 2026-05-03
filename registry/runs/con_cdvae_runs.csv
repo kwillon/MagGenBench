@@ -1,0 +1,6 @@
+benchmark_group,split_type,model,run_name,run_dir,manifest_path,created_utc,exit_code,pretrained_name,dft_mag_density,guidance,batches,batch_size,seed,python_path,mattergen_version,torch_version,torch_geometric_version,pymatgen_version,numpy_version,git_commit,extxyz_path,cif_zip_path,traj_zip_path,source_pt_file,n_structures,min_structure_index,max_structure_index
+eval_gen_FM,unknown,Con-CDVAE,eval_gen_FM0.pt,,,,,,,,,,,,,,,,,,,,,eval_gen_FM0.pt,400,0,399
+eval_gen_FM,unknown,Con-CDVAE,eval_gen_FM1.pt,,,,,,,,,,,,,,,,,,,,,eval_gen_FM1.pt,400,0,399
+eval_gen_FM,unknown,Con-CDVAE,eval_gen_FM2.pt,,,,,,,,,,,,,,,,,,,,,eval_gen_FM2.pt,400,0,399
+eval_gen_FM,unknown,Con-CDVAE,eval_gen_FM3.pt,,,,,,,,,,,,,,,,,,,,,eval_gen_FM3.pt,400,0,399
+eval_gen_FM,unknown,Con-CDVAE,eval_gen_FM4.pt,,,,,,,,,,,,,,,,,,,,,eval_gen_FM4.pt,400,0,399

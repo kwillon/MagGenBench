@@ -1,0 +1,55 @@
+# =============================================================================
+# где лежат samples, tables, outputs, derived
+# =============================================================================
+project:
+  root: "."
+
+registry:
+  dir: "registry"
+  models: "registry/models.csv"
+  datasets: "registry/datasets.csv"
+  master_runs: "registry/master_runs.csv"
+  master_structures: "registry/master_structures.csv"
+
+data:
+  datasets_dir: "datasets"
+  raw_data_dir: "datasets/raw_data"
+
+samples:
+  dir: "samples"
+  mattergen: "samples/mattergen_cifs"
+  crystalformer: "samples/crystalformer_cifs"
+  crystalllm: "samples/crystalllm_cifs"
+  concdvae: "samples/concdvae_cifs"
+
+outputs:
+  dir: "outputs"
+  validation: "outputs/validation"
+  relaxation: "outputs/relaxation"
+  energy: "outputs/energy"
+  magnetic: "outputs/magnetic"
+
+tables:
+  dir: "tables"
+  validation: "tables/validation"
+  features: "tables/features"
+  magnetic_descriptors: "tables/magnetic_descriptors"
+  relaxation: "tables/relaxation"
+  energy: "tables/energy"
+  benchmark: "tables/benchmark"
+  analysis_views: "tables/analysis_views"
+
+derived:
+  dir: "derived"
+  cif_clean: "derived/cif_clean"
+  cif_relaxed: "derived/cif_relaxed"
+  structures_json: "derived/structures_json"
+
+figures:
+  dir: "figures"
+  stats_paper: "figures/stats_paper"
+
+reports:
+  dir: "reports"
+  pdf: "reports/pdf"
+  html: "reports/html"
