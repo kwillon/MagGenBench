@@ -16,8 +16,8 @@ import pandas as pd
 # ============================================================
 
 BASE_DIR = Path(
-    "/mnt/tank/scratch/kkapranova/sww-magnetic-validation-pipeline-master/"
-    "sww-magnetic-validation-pipeline-master"
+    "/mnt/tank/scratch/kkapranova/MagGenBench/"
+    "MagGenBench"
 )
 
 TABLES_DIR = BASE_DIR / "tables"

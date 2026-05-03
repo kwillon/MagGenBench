@@ -2,7 +2,7 @@ from pathlib import Path
 import pandas as pd
 import shutil
 
-base = Path("/mnt/tank/scratch/kkapranova/sww-magnetic-validation-pipeline-master/sww-magnetic-validation-pipeline-master")
+base = Path("/mnt/tank/scratch/kkapranova/MagGenBench/MagGenBench")
 
 downsampled_csv = base / "tables" / "mattergen_structures.downsampled.csv"
 restore_root = base / "samples" / "mattergen_cifs_2000"

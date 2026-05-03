@@ -11,13 +11,13 @@ from pymatgen.symmetry.analyzer import SpacegroupAnalyzer
 
 
 MODEL_CSVS = {
-    "Con-CDVAE": "/mnt/tank/scratch/kkapranova/sww-magnetic-validation-pipeline-master/sww-magnetic-validation-pipeline-master/outputs/concdvae/all_structures.csv",
-    "CrystalFormer": "/mnt/tank/scratch/kkapranova/sww-magnetic-validation-pipeline-master/sww-magnetic-validation-pipeline-master/outputs/crystalformer/all_structures.csv",
-    "CrystaLLM": "/mnt/tank/scratch/kkapranova/sww-magnetic-validation-pipeline-master/sww-magnetic-validation-pipeline-master/outputs/crystallm/all_structures.csv",
-    "MatterGen": "/mnt/tank/scratch/kkapranova/sww-magnetic-validation-pipeline-master/sww-magnetic-validation-pipeline-master/outputs/mattergen/all_structures.csv",
+    "Con-CDVAE": "/mnt/tank/scratch/kkapranova/MagGenBench/MagGenBench/outputs/concdvae/all_structures.csv",
+    "CrystalFormer": "/mnt/tank/scratch/kkapranova/MagGenBench/MagGenBench/outputs/crystalformer/all_structures.csv",
+    "CrystaLLM": "/mnt/tank/scratch/kkapranova/MagGenBench/MagGenBench/outputs/crystallm/all_structures.csv",
+    "MatterGen": "/mnt/tank/scratch/kkapranova/MagGenBench/MagGenBench/outputs/mattergen/all_structures.csv",
 }
 
-OUTDIR = Path("/mnt/tank/scratch/kkapranova/sww-magnetic-validation-pipeline-master/sww-magnetic-validation-pipeline-master/figures_stats_paper_from_csv")
+OUTDIR = Path("/mnt/tank/scratch/kkapranova/MagGenBench/MagGenBench/figures")
 OUTDIR.mkdir(exist_ok=True)
 
 plt.rcParams.update({

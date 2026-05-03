@@ -13,8 +13,8 @@ import matplotlib.pyplot as plt # type: ignore
 
 
 PROJECT_ROOT = Path(
-    "/mnt/tank/scratch/kkapranova/sww-magnetic-validation-pipeline-master/"
-    "sww-magnetic-validation-pipeline-master"
+    "/mnt/tank/scratch/kkapranova/MagGenBench/"
+    "MagGenBench"
 )
 
 MODEL_CSVS = {
@@ -24,7 +24,7 @@ MODEL_CSVS = {
     "MatterGen": PROJECT_ROOT / "outputs/mattergen/all_structures.csv",
 }
 
-OUTDIR = PROJECT_ROOT / "figures_stats_paper_from_csv"
+OUTDIR = PROJECT_ROOT / "figures"
 OUTDIR.mkdir(parents=True, exist_ok=True)
 
 plt.rcParams.update({
