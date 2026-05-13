@@ -6,9 +6,9 @@ from pymatgen.core import Composition
 
 ROOT = Path("/mnt/tank/scratch/kkapranova/MagGenBench/MagGenBench")
 
-GEN_CSV = ROOT / "tables" / "benchmark_ready_generated.csv"
+GEN_CSV = ROOT / "reports" / "benchmark"/ "benchmark_mp" / "benchmark_ready_generated.csv"
 MP_REF_CSV = ROOT / "tables" / "mp_reference_for_benchmark.csv"
-OUT_CSV = ROOT / "tables" / "benchmarking_baseline_table.csv"
+OUT_CSV = ROOT / "reports" / "benchmark"/ "benchmark_mp" / "benchmarking_baseline_table.csv"
 
 
 MODEL_ORDER = [

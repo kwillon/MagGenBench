@@ -8,8 +8,8 @@ registry:
   dir: "registry"
   models: "registry/models.csv"
   datasets: "registry/datasets.csv"
-  master_runs: "registry/master_runs.csv"
-  master_structures: "registry/master_structures.csv"
+  master_runs: "registry/master_runs.downsampled.csv"
+  master_structures: "registry/master_structures.downsampled.csv"
 
 data:
   datasets_dir: "datasets"
@@ -17,7 +17,7 @@ data:
 
 samples:
   dir: "samples"
-  mattergen: "samples/mattergen_cifs"
+  mattergen: "samples/mattergen_cifs_2000"
   crystalformer: "samples/crystalformer_cifs"
   crystalllm: "samples/crystalllm_cifs"
   concdvae: "samples/concdvae_cifs"
