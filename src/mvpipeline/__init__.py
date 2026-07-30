@@ -31,26 +31,46 @@ mvpipeline — validation pipeline для кристаллических стр�
 """
 
 # Pipeline runner (главная функция)
-from .pipeline import run_validation
+def run_validation(*args, **kwargs):
+    """Lazily run the validation pipeline.
 
-# Config
-from .utils import PipelineConfig, DedupConfig, load_config
+    Importing mvpipeline should stay dependency-light for contract modules.
+    The real pipeline import happens on call, so missing pymatgen still raises
+    the original ImportError in environments that try to run validation.
+    """
 
-# Core types
-from .utils import (
-    StructureItem,
-    Descriptors,
-    Rejection,
-    ValidationResult,
-)
+    from .pipeline import run_validation as _run_validation
 
-# Enums and constants
-from .utils import (
-    ValidationStatus,
-    GeometryQuality,
-    RejectionReason,
-    MAGNETIC_ELEMENTS_DEFAULT,
-)
+    return _run_validation(*args, **kwargs)
+
+_LAZY_EXPORTS = {
+    "PipelineConfig": ("mvpipeline.utils.config", "PipelineConfig"),
+    "DedupConfig": ("mvpipeline.utils.config", "DedupConfig"),
+    "load_config": ("mvpipeline.utils.config", "load_config"),
+    "StructureItem": ("mvpipeline.utils.types", "StructureItem"),
+    "Descriptors": ("mvpipeline.utils.types", "Descriptors"),
+    "Rejection": ("mvpipeline.utils.types", "Rejection"),
+    "ValidationResult": ("mvpipeline.utils.types", "ValidationResult"),
+    "ValidationStatus": ("mvpipeline.utils.constants", "ValidationStatus"),
+    "GeometryQuality": ("mvpipeline.utils.constants", "GeometryQuality"),
+    "RejectionReason": ("mvpipeline.utils.constants", "RejectionReason"),
+    "MAGNETIC_ELEMENTS_DEFAULT": (
+        "mvpipeline.utils.constants",
+        "MAGNETIC_ELEMENTS_DEFAULT",
+    ),
+}
+
+
+def __getattr__(name):
+    if name not in _LAZY_EXPORTS:
+        raise AttributeError(f"module {__name__!r} has no attribute {name!r}")
+
+    module_name, attr_name = _LAZY_EXPORTS[name]
+    from importlib import import_module
+
+    value = getattr(import_module(module_name), attr_name)
+    globals()[name] = value
+    return value
 
 __all__ = [
     # main entrypoint

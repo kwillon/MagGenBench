@@ -1,6 +1,45 @@
 magnetism:
   enabled: true
 
+  prediction:
+    enabled: false
+    input:
+      structures_table: "tables/04_magnetic_screening/master_structures.downsampled.with_status.classes.clean_v2.csv"
+      structure_id_column: "structure_id"
+      cif_path_column: "cif_path"
+    backend:
+      name: "fake"
+      model_name: "deterministic-fake-v1"
+      model_file: ""
+    features:
+      kind: "composition"
+      preset: "magpie"
+      feature_order_source: "backend_metadata_required"
+    defaults:
+      moment_unit: "unknown"
+      moment_normalization: "unknown"
+    uncertainty_proxy:
+      enabled: true
+      method: "feature_noise_sensitivity"
+      baseline_error: 0.25
+    outputs:
+      prediction_table: "tables/07_magnetic_descriptors/magnetic_predictions.csv"
+      error_table: "tables/07_magnetic_descriptors/magnetic_prediction_errors.csv"
+    columns:
+      structure_id: "structure_id"
+      status: "status"
+      error_code: "error_code"
+      error_message: "error_message"
+      backend: "backend"
+      model_name: "model_name"
+      predicted_moment_value: "predicted_moment_value"
+      moment_unit: "moment_unit"
+      moment_normalization: "moment_normalization"
+      uncertainty_proxy: "uncertainty_proxy"
+      confidence_score: "confidence_score"
+      risk_level: "risk_level"
+      details: "details"
+
   magnetic_elements:
     transition_3d:
       - Sc

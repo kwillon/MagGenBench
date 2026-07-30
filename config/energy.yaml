@@ -1,0 +1,39 @@
+energy:
+  enabled: false
+
+  input:
+    structures_table: "tables/05_relaxation/relax_input_validated_clean_v2.fixed_paths.csv"
+    structure_id_column: "structure_id"
+    cif_path_column: "cif_path"
+
+  backend:
+    name: "fake"
+    model_name: "deterministic-fake-v1"
+    device: "cpu"
+
+  proxies:
+    isolated_atom_reference:
+      enabled: false
+      label: "formation_energy_proxy"
+    stability_proxy:
+      enabled: true
+      definition: "max(formation_energy_proxy_eV_per_atom, 0)"
+
+  outputs:
+    energy_table: "tables/06_energy/energy_predictions.csv"
+    error_table: "tables/06_energy/energy_errors.csv"
+
+  columns:
+    structure_id: "structure_id"
+    status: "status"
+    error_code: "error_code"
+    error_message: "error_message"
+    backend: "backend"
+    model_name: "model_name"
+    energy_unit: "energy_unit"
+    total_energy: "total_energy_eV"
+    total_energy_per_atom: "total_energy_eV_per_atom"
+    formation_energy_proxy: "formation_energy_proxy_eV"
+    formation_energy_proxy_per_atom: "formation_energy_proxy_eV_per_atom"
+    stability_energy_proxy_per_atom: "stability_energy_proxy_eV_per_atom"
+    details: "details"
