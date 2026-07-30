@@ -53,3 +53,25 @@ Do not:
 - Clearly distinguish predicted magnetic moment from magnetic ordering,
   saturation magnetization, Curie temperature, and DFT magnetic moment.
 - Record units and normalization: total per structure, per atom, or per volume.
+
+## Donor data exclusion
+
+Donor repositories are source-code references only.
+
+Do not copy, move, enumerate, process, or add to MagGenBench:
+
+- donor CIF files;
+- processed structure directories;
+- CSV prediction results;
+- logs and debug outputs;
+- virtual environments;
+- caches;
+- model download caches;
+- generated figures;
+- temporary files.
+
+Inspect donor Python code, configuration, documentation, dependency files,
+model metadata, and output schemas only.
+
+Do not run donor scripts on their CIF collections.
+Do not process more than one explicitly approved fixture CIF.
