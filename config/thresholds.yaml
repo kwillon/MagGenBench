@@ -2,53 +2,53 @@
 # 1. Geometry Checks
 # =============================================================================
 geometry:
-  # Межатомные расстояния (Interatomic Distances) [Å]
+  # Interatomic distances [Å]
   
   d_min_reject: 0.7
-  # Если расстояние < 0.7 -> структура отклоняется (overlap/физически невозможна).
+  # If distance < 0.7 -> the structure is rejected (overlap/physically impossible).
   # Code var: min_interatomic_distance
   
   d_max_suspicious: 1.2
-  # Порог подозрительности.
-  # Если 0.7 < distance < 1.2 -> warning (требует ручной проверки).
+  # Suspicious-distance threshold.
+  # If 0.7 < distance < 1.2 -> warning (requires manual inspection).
 
-  # Объем на атом (Volume per Atom) [Å^3/atom]
+  # Volume per atom [Å^3/atom]
   vol_min: 8.0
-  # Минимальный объем. Слишком плотная упаковка -> ошибка генерации.
+  # Minimum volume. Excessively dense packing -> generation error.
   # Code var: min_volume_per_atom
   
   vol_max: 40.0
-  # Максимальный объем. Слишком большая ячейка -> вакуум/ошибка масштабирования.
+  # Maximum volume. Excessively large cell -> vacuum/scaling error.
   # Code var: max_volume_per_atom
 
 # =============================================================================
 # 2. Physical Properties
 # =============================================================================
 physical_properties:
-  # Плотность (Density) [g/cm^3]
-  # Значения по умолчанию из geometry_checks.py
+  # Density [g/cm^3]
+  # Default values from geometry_checks.py
   
   min_density: 0.5
-  # < 0.5 -> rejected (нереалистично для твердого тела).
+  # < 0.5 -> rejected (unrealistic for a solid).
   
   max_density: 30.0
-  # Максимальная плотность (например, для тяжелых металлов/осмидов).
+  # Maximum density (for example, for heavy metals/osmides).
 
 # =============================================================================
 # 3. System Limits
 # =============================================================================
 system_limits:
-  # Ограничения производительности (CPU validation pipeline)
+  # Performance limits (CPU validation pipeline)
   
   max_n_atoms: 500
-  # Максимальное число атомов в ячейке.
+  # Maximum number of atoms in the cell.
   # Code var: max_n_atoms
 
 # =============================================================================
 # 4. Chemistry & Oxidation States
 # =============================================================================
 oxidation_states:
-  # Формат: Element: [list of possible states]
+  # Format: Element: [list of possible states]
   # States can be integers or strings. Using integers here is fine for YAML.
   
   Ti: [2, 3, 4]
@@ -110,8 +110,8 @@ oxidation_states:
 # 5. Magnetic Properties
 # =============================================================================
 magnetic_elements:
-  # Список элементов, для которых возможен магнитный момент.
-  # Внимание: Должен быть синхронизирован с ключами oxidation_states!
+  # List of elements for which a magnetic moment is possible.
+  # Note: This must be synchronized with the oxidation_states keys!
   - Ti
   - V
   - Cr

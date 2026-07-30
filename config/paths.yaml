@@ -1,6 +1,3 @@
-# =============================================================================
-# где лежат samples, tables, outputs, derived
-# =============================================================================
 project:
   root: "."
 
@@ -8,12 +5,8 @@ registry:
   dir: "registry"
   models: "registry/models.csv"
   datasets: "registry/datasets.csv"
-  master_runs: "registry/master_runs.downsampled.csv"
-  master_structures: "registry/master_structures.downsampled.csv"
-
-data:
-  datasets_dir: "datasets"
-  raw_data_dir: "datasets/raw_data"
+  artifacts: "registry/artifacts.csv"
+  master_runs_downsampled: "registry/master_runs.downsampled.csv"
 
 samples:
   dir: "samples"
@@ -22,34 +15,64 @@ samples:
   crystalllm: "samples/crystalllm_cifs"
   concdvae: "samples/concdvae_cifs"
 
+datasets:
+  dir: "datasets"
+  raw_data: "datasets/raw_data"
+  mattergen_train_reference: "datasets/mattergen/train_reference.csv"
+  crystalformer_train_reference: "datasets/crystalformer/train_reference.csv"
+  crystalllm_train_reference: "datasets/crystalllm/train_reference.csv"
+  concdvae_train_reference: "datasets/concdvae/train_reference.csv"
+
 outputs:
   dir: "outputs"
-  validation: "outputs/validation"
-  relaxation: "outputs/relaxation"
-  energy: "outputs/energy"
-  magnetic: "outputs/magnetic"
+  mattergen: "outputs/mattergen"
+  crystalformer: "outputs/crystalformer"
+  crystalllm: "outputs/crystallm"
+  concdvae: "outputs/concdvae"
 
 tables:
   dir: "tables"
-  validation: "tables/validation"
-  features: "tables/features"
-  magnetic_descriptors: "tables/magnetic_descriptors"
-  relaxation: "tables/relaxation"
-  energy: "tables/energy"
-  benchmark: "tables/benchmark"
-  analysis_views: "tables/analysis_views"
+
+  current_master: "tables/master_structures.downsampled.csv"
+  current_master_with_status: "tables/master_structures.downsampled.with_status.csv"
+  current_master_with_classes: "tables/master_structures.downsampled.with_status.classes.clean_v2.fixed_paths.csv"
+  current_relaxation_input: "tables/relax_input_validated_clean_v2.fixed_paths.csv"
+  current_benchmark_table: "tables/benchmarking_baseline_table.csv"
+
+  master_dir: "tables/01_master"
+  validation_dir: "tables/02_validation"
+  features_dir: "tables/03_features"
+  magnetic_screening_dir: "tables/04_magnetic_screening"
+  relaxation_dir: "tables/05_relaxation"
+  energy_dir: "tables/06_energy"
+  magnetic_descriptors_dir: "tables/07_magnetic_descriptors"
+  benchmarking_dir: "tables/08_benchmarking"
+  paper_dir: "tables/09_paper"
 
 derived:
   dir: "derived"
-  cif_clean: "derived/cif_clean"
-  cif_relaxed: "derived/cif_relaxed"
-  structures_json: "derived/structures_json"
+  parsed_structures: "derived/parsed_structures"
+  validated_structures: "derived/validation/validated_structures"
+  rejected_structures: "derived/validation/rejected_structures"
+  relaxed_structures: "derived/relaxation/relaxed_structures"
+  failed_relaxation: "derived/relaxation/failed_structures"
+  magnetic_outputs: "derived/magnetism"
 
 figures:
   dir: "figures"
-  stats_paper: "figures/stats_paper"
+  validation: "figures/validation"
+  composition: "figures/composition"
+  magnetic_screening: "figures/magnetic_screening"
+  relaxation: "figures/relaxation"
+  energy: "figures/energy"
+  paper: "figures/paper"
 
 reports:
   dir: "reports"
-  pdf: "reports/pdf"
-  html: "reports/html"
+  validation: "reports/validation"
+  relaxation: "reports/relaxation"
+  energy: "reports/energy"
+  benchmark: "reports/benchmark"
+
+logs:
+  dir: "logs"

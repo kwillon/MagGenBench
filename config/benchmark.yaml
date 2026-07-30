@@ -1,7 +1,7 @@
-# сколько структур брать на модель
-# по каким правилам считать novelty
-# как делать MP/reference matching
-# какие таблицы сохранять
+# how many structures to take per model
+# which rules to use for calculating novelty
+# how to perform MP/reference matching
+# which tables to save
 benchmark:
   subset:
     enabled: true
