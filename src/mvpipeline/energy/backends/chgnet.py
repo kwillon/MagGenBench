@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from typing import Any, Callable, Optional
+from typing import Any, Callable, Mapping, Optional
 
 from ..formation import formation_energy_proxy, formation_energy_proxy_per_atom
 from ..proxies import positive_formation_energy_proxy
@@ -20,13 +20,19 @@ def _default_model_loader(model_selector: str, device: str) -> Any:
             "CHGNet backend requires optional dependency 'chgnet'."
         ) from exc
 
-    if model_selector and model_selector != "default":
-        model = CHGNet.load(model_selector)
-    else:
-        model = CHGNet.load()
-    if device != "auto" and hasattr(model, "to"):
-        model = model.to(device)
-    return _CHGNetLoadedModel(model=model)
+    model_name = "0.3.0" if model_selector == "default" else model_selector
+    use_device = None if device == "auto" else device
+    return _CHGNetLoadedModel(
+        model=CHGNet.load(model_name=model_name, use_device=use_device)
+    )
+
+
+def _extract_energy_per_atom(prediction: Any) -> Any:
+    if not isinstance(prediction, Mapping):
+        raise ValueError("CHGNet prediction output must be a mapping")
+    if "e" not in prediction:
+        raise ValueError("CHGNet prediction output has no 'e' field")
+    return prediction["e"]
 
 
 @dataclass
@@ -34,12 +40,15 @@ class _CHGNetLoadedModel:
     model: Any
 
     def predict_energy(self, structure: Any) -> Any:
-        out = self.model.predict_structure(structure)
-        if not isinstance(out, dict):
-            raise ValueError("CHGNet output must be a dict")
-        if "e" not in out:
-            raise ValueError("CHGNet output dict has no 'e' field")
-        return out["e"]
+        prediction = self.model.predict_structure(structure, task="e")
+        return _extract_energy_per_atom(prediction)
+
+
+def _predict_energy_per_atom(model: Any, structure: Any) -> Any:
+    if hasattr(model, "predict_energy"):
+        return model.predict_energy(structure)
+    prediction = model.predict_structure(structure, task="e")
+    return _extract_energy_per_atom(prediction)
 
 
 @dataclass
@@ -76,7 +85,7 @@ class CHGNetBackend:
             )
 
         try:
-            raw_energy = model.predict_energy(item.structure)
+            raw_energy = _predict_energy_per_atom(model, item.structure)
             total, per_atom = normalize_energy(
                 raw_energy, self.output_semantics, item.n_atoms
             )

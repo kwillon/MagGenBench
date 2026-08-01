@@ -2,11 +2,16 @@ import os
 import subprocess
 import sys
 import textwrap
+import types
 
 import pytest
 
 from mvpipeline.energy import EnergyInput, EnergyStatus
-from mvpipeline.energy.backends.chgnet import CHGNetBackend
+from mvpipeline.energy.backends.chgnet import (
+    CHGNetBackend,
+    _CHGNetLoadedModel,
+    _default_model_loader,
+)
 from mvpipeline.energy.backends.factory import create_energy_backend
 from mvpipeline.energy.backends.fake import FakeEnergyBackend
 from mvpipeline.energy.backends.matgl import MatGLBackend
@@ -21,6 +26,17 @@ class MockEnergyModel:
     def predict_energy(self, structure):
         self.calls += 1
         return self.value
+
+
+class StrictMockCHGNetModel:
+    def __init__(self, prediction):
+        self.prediction = prediction
+        self.calls = []
+
+    def predict_structure(self, structure, *, task):
+        assert task == "e"
+        self.calls.append((structure, task))
+        return self.prediction
 
 
 def make_item(n_atoms=4):
@@ -102,20 +118,23 @@ def test_matgl_adapter_uses_injected_loader_once_and_normalizes_total_energy():
 
 
 def test_chgnet_adapter_with_mock_model_converts_per_atom_to_total_energy():
+    model = StrictMockCHGNetModel({"e": -1.5})
     backend = CHGNetBackend(
         model_name="mock-chgnet",
         model_selector="mock-selector",
         output_semantics="energy_per_atom_eV",
-        model_loader=lambda selector, device: MockEnergyModel(-1.5),
+        model_loader=lambda selector, device: model,
     )
 
-    result = backend.predict(make_item(n_atoms=3))
+    item = make_item(n_atoms=3)
+    result = backend.predict(item)
 
     assert result.status == EnergyStatus.OK
     assert result.backend == "chgnet"
     assert result.total_energy_eV == -4.5
     assert result.total_energy_eV_per_atom == -1.5
     assert result.details["model_selector"] == "mock-selector"
+    assert model.calls == [(item.structure, "e")]
 
 
 def test_invalid_n_atoms_returns_structured_error_result():
@@ -149,7 +168,7 @@ def test_missing_optional_dependency_returns_structured_error_result():
 def test_malformed_model_output_returns_structured_error_result():
     backend = CHGNetBackend(
         model_name="mock-chgnet",
-        model_loader=lambda selector, device: MockEnergyModel(None),
+        model_loader=lambda selector, device: StrictMockCHGNetModel({"e": None}),
     )
 
     result = backend.predict(make_item())
@@ -158,6 +177,90 @@ def test_malformed_model_output_returns_structured_error_result():
     assert result.error_code == "model_output_error"
     assert result.error_message
     assert result.total_energy_eV is None
+
+
+def test_chgnet_default_loader_uses_keyword_only_load(monkeypatch):
+    calls = []
+
+    class FakeCHGNet:
+        @staticmethod
+        def load(*, model_name, use_device):
+            calls.append((model_name, use_device))
+            return StrictMockCHGNetModel({"e": -2.0})
+
+    chgnet_module = types.ModuleType("chgnet")
+    chgnet_module.__path__ = []
+    chgnet_model_module = types.ModuleType("chgnet.model")
+    chgnet_model_module.CHGNet = FakeCHGNet
+    chgnet_module.model = chgnet_model_module
+    monkeypatch.setitem(sys.modules, "chgnet", chgnet_module)
+    monkeypatch.setitem(sys.modules, "chgnet.model", chgnet_model_module)
+
+    default_model = _default_model_loader("default", "auto")
+    cpu_model = _default_model_loader("0.2.0", "cpu")
+    cuda_model = _default_model_loader("custom", "cuda")
+
+    assert isinstance(default_model, _CHGNetLoadedModel)
+    assert isinstance(cpu_model, _CHGNetLoadedModel)
+    assert isinstance(cuda_model, _CHGNetLoadedModel)
+    assert calls == [
+        ("0.3.0", None),
+        ("0.2.0", "cpu"),
+        ("custom", "cuda"),
+    ]
+
+
+@pytest.mark.parametrize(
+    ("prediction", "message"),
+    [
+        (["not", "mapping"], "must be a mapping"),
+        ({}, "no 'e' field"),
+        ({"e": "not-a-number"}, "not a scalar"),
+    ],
+)
+def test_chgnet_malformed_prediction_returns_structured_error(prediction, message):
+    backend = CHGNetBackend(
+        model_name="mock-chgnet",
+        model_loader=lambda selector, device: StrictMockCHGNetModel(prediction),
+    )
+
+    result = backend.predict(make_item())
+
+    assert result.status == EnergyStatus.ERROR
+    assert result.error_code == "model_output_error"
+    assert message in result.error_message
+    assert result.total_energy_eV is None
+
+
+def test_chgnet_unexpected_prediction_exception_is_not_hidden():
+    class ExplodingCHGNet:
+        def predict_structure(self, structure, *, task):
+            raise RuntimeError("chgnet exploded")
+
+    backend = CHGNetBackend(
+        model_name="mock-chgnet",
+        model_loader=lambda selector, device: ExplodingCHGNet(),
+    )
+
+    with pytest.raises(RuntimeError, match="chgnet exploded"):
+        backend.predict(make_item())
+
+
+def test_chgnet_loaded_model_wrapper_passes_energy_task_explicitly():
+    model = StrictMockCHGNetModel({"e": -1.25})
+    wrapper = _CHGNetLoadedModel(model=model)
+    item = make_item(n_atoms=2)
+    backend = CHGNetBackend(
+        model_name="mock-chgnet",
+        model_loader=lambda selector, device: wrapper,
+    )
+
+    result = backend.predict(item)
+
+    assert model.calls == [(item.structure, "e")]
+    assert result.status == EnergyStatus.OK
+    assert result.total_energy_eV_per_atom == -1.25
+    assert result.total_energy_eV == -2.5
 
 
 def test_unexpected_model_errors_are_not_hidden():
