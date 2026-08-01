@@ -5,7 +5,17 @@ import textwrap
 from pathlib import Path
 
 
-BLOCKED_IMPORTS = {"yaml", "pymatgen", "matgl", "chgnet", "torch"}
+BLOCKED_IMPORTS = {
+    "yaml",
+    "pymatgen",
+    "matgl",
+    "chgnet",
+    "torch",
+    "matminer",
+    "sklearn",
+    "joblib",
+    "numpy",
+}
 
 
 def run_import_check(body: str) -> subprocess.CompletedProcess[str]:

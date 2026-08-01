@@ -10,7 +10,47 @@ magnetism:
     backend:
       name: "fake"
       model_name: "deterministic-fake-v1"
-      model_file: ""
+      artifact_path: ""
+      baseline_error: 0.25
+      uncertainty_samples: 12
+      uncertainty_noise: 0.0001
+      uncertainty_seed: 42
+      allow_unsafe_compatibility: false
+      metadata:
+        model_name: "deterministic-fake-v1"
+        model_version: ""
+        artifact_path: ""
+        artifact_sha256: ""
+        feature_set: "composition_magpie"
+        feature_labels: []
+        feature_count:
+        target_name: ""
+        moment_unit: "unknown"
+        moment_normalization: "unknown"
+        sklearn_version: ""
+        matminer_version: ""
+    sklearn:
+      name: "sklearn"
+      model_name: "magm-donor-compatible"
+      artifact_path: "models/magnetism/magmom_model_dxmag.pkl"
+      baseline_error: 0.25
+      uncertainty_samples: 12
+      uncertainty_noise: 0.0001
+      uncertainty_seed: 42
+      allow_unsafe_compatibility: false
+      metadata:
+        model_name: "magm-donor-compatible"
+        model_version: ""
+        artifact_path: "models/magnetism/magmom_model_dxmag.pkl"
+        artifact_sha256: ""
+        feature_set: "composition_magpie"
+        feature_labels: []
+        feature_count:
+        target_name: ""
+        moment_unit: "unknown"
+        moment_normalization: "unknown"
+        sklearn_version: ""
+        matminer_version: ""
     features:
       kind: "composition"
       preset: "magpie"
