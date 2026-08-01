@@ -1,17 +1,13 @@
-"""
-Pipeline module: сборка всех компонентов в единый validation pipeline.
+"""Pipeline orchestration package."""
 
-Отвечает за:
-    - запуск пайплайна по шагам (оркестрация),
-    - применение всех проверок (sanity/geometry/chemistry),
-    - дедупликацию и проверку новизны,
-    - запись результатов (validated/rejected + report).
 
-Публичный API:
-    run_validation
-"""
+def run_validation(*args, **kwargs):
+    """Lazily run the validation pipeline."""
 
-from .runner import run_validation
+    from .runner import run_validation as _run_validation
+
+    return _run_validation(*args, **kwargs)
+
 
 __all__ = [
     "run_validation",

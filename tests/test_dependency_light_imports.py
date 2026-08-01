@@ -35,12 +35,13 @@ def run_import_check(body: str) -> subprocess.CompletedProcess[str]:
         blocked = {sorted(BLOCKED_IMPORTS)!r}
         real_import = builtins.__import__
 
-        def guarded_import(name, *args, **kwargs):
-            if name.split(".", 1)[0] in blocked:
+        def guarded_import(name, globals=None, locals=None, fromlist=(), level=0):
+            root = name.split(".", 1)[0]
+            if level == 0 and root in blocked:
                 raise AssertionError(
                     f"{{name}} must not be imported for dependency-light API"
                 )
-            return real_import(name, *args, **kwargs)
+            return real_import(name, globals, locals, fromlist, level)
 
         builtins.__import__ = guarded_import
         """
@@ -113,5 +114,17 @@ def test_lazy_top_level_exports_are_listed_in_public_api():
         }
 
         assert expected.issubset(set(mvpipeline.__all__))
+        """
+    )
+
+
+def test_stage_runner_imports_are_dependency_light():
+    assert_import_check_passes(
+        """
+        import mvpipeline.pipeline
+        import mvpipeline.pipeline.energy_stage
+        import mvpipeline.pipeline.magnetism_stage
+
+        assert callable(mvpipeline.pipeline.run_validation)
         """
     )
