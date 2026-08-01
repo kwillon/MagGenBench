@@ -10,6 +10,20 @@ energy:
     name: "fake"
     model_name: "deterministic-fake-v1"
     device: "cpu"
+    output_semantics: "total_energy_eV"
+
+  matgl:
+    name: "matgl"
+    model_name: "TensorNet-MatPES-PBE-v2025.1-PES"
+    device: "auto"
+    output_semantics: "total_energy_eV"
+
+  chgnet:
+    name: "chgnet"
+    model_name: "default"
+    model_selector: "default"
+    device: "auto"
+    output_semantics: "energy_per_atom_eV"
 
   proxies:
     isolated_atom_reference:
