@@ -252,11 +252,13 @@ magnetism:
 
     reject_classes:
       - "gas"
+      - "hydroxide/base"
       - "acid"
       - "base"
 
     low_priority_classes:
       - "simple_salt"
+      - "salt/ionic compound"
       - "organic"
       - "molecular"
 

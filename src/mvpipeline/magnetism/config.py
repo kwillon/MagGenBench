@@ -5,6 +5,10 @@ from pathlib import Path
 from typing import Any, Mapping, Optional, Sequence, Tuple
 
 
+def _string_tuple(values: Sequence[Any]) -> Tuple[str, ...]:
+    return tuple(str(value) for value in values)
+
+
 @dataclass(frozen=True)
 class MagnetismModelMetadata:
     model_name: str = ""
@@ -51,6 +55,25 @@ class MagnetismBackendSettings:
 
 
 @dataclass(frozen=True)
+class MagneticElementGroups:
+    transition_3d: Tuple[str, ...] = field(default_factory=tuple)
+    selected_4d_5d: Tuple[str, ...] = field(default_factory=tuple)
+    lanthanides: Tuple[str, ...] = field(default_factory=tuple)
+
+    @property
+    def all_elements(self) -> frozenset[str]:
+        return frozenset(self.transition_3d + self.selected_4d_5d + self.lanthanides)
+
+
+@dataclass(frozen=True)
+class MagnetismScreeningRules:
+    require_magnetic_element: bool = True
+    reject_classes: Tuple[str, ...] = field(default_factory=tuple)
+    low_priority_classes: Tuple[str, ...] = field(default_factory=tuple)
+    high_priority_classes: Tuple[str, ...] = field(default_factory=tuple)
+
+
+@dataclass(frozen=True)
 class MagnetismConfig:
     backend: MagnetismBackendSettings = MagnetismBackendSettings()
     sklearn: MagnetismBackendSettings = MagnetismBackendSettings(
@@ -65,6 +88,8 @@ class MagnetismConfig:
             moment_normalization="unknown",
         ),
     )
+    magnetic_elements: MagneticElementGroups = MagneticElementGroups()
+    screening_rules: MagnetismScreeningRules = MagnetismScreeningRules()
 
 
 def metadata_from_mapping(data: Mapping[str, Any]) -> MagnetismModelMetadata:
@@ -113,6 +138,27 @@ def backend_settings_from_mapping(
     )
 
 
+def magnetic_element_groups_from_mapping(
+    data: Mapping[str, Any],
+) -> MagneticElementGroups:
+    return MagneticElementGroups(
+        transition_3d=_string_tuple(data.get("transition_3d", ()) or ()),
+        selected_4d_5d=_string_tuple(data.get("selected_4d_5d", ()) or ()),
+        lanthanides=_string_tuple(data.get("lanthanides", ()) or ()),
+    )
+
+
+def screening_rules_from_mapping(data: Mapping[str, Any]) -> MagnetismScreeningRules:
+    return MagnetismScreeningRules(
+        require_magnetic_element=bool(data.get("require_magnetic_element", True)),
+        reject_classes=_string_tuple(data.get("reject_classes", ()) or ()),
+        low_priority_classes=_string_tuple(data.get("low_priority_classes", ()) or ()),
+        high_priority_classes=_string_tuple(
+            data.get("high_priority_classes", ()) or ()
+        ),
+    )
+
+
 def magnetism_config_from_mapping(data: Mapping[str, Any]) -> MagnetismConfig:
     magnetism = data.get("magnetism", data) or {}
     prediction = magnetism.get("prediction", magnetism) or {}
@@ -123,6 +169,12 @@ def magnetism_config_from_mapping(data: Mapping[str, Any]) -> MagnetismConfig:
         ),
         sklearn=backend_settings_from_mapping(
             prediction.get("sklearn", {}) or {}, default_cfg.sklearn
+        ),
+        magnetic_elements=magnetic_element_groups_from_mapping(
+            magnetism.get("magnetic_elements", {}) or {}
+        ),
+        screening_rules=screening_rules_from_mapping(
+            magnetism.get("screening_rules", {}) or {}
         ),
     )
 
