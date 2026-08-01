@@ -1,8 +1,10 @@
 import csv
+import json
 import os
 import subprocess
 import sys
 import textwrap
+import warnings
 from pathlib import Path
 
 import pytest
@@ -17,6 +19,7 @@ from mvpipeline.pipeline.enrichment_annotations import (
     enrich_manifest_rows,
     enrichment_annotation_config_from_magnetism_config,
     load_enrichment_annotation_config,
+    output_fieldnames,
     run_enrichment_annotations,
 )
 
@@ -127,6 +130,9 @@ def test_ordered_structure_descriptors_and_symmetry_fields():
     row = rows[0]
 
     assert row["structure_id"] == "s1"
+    assert row["cif_load_status"] == "ok"
+    assert row["cif_warning_count"] == 0
+    assert json.loads(row["cif_warnings"]) == []
     assert row["n_sites"] == 2
     assert row["composition_num_atoms"] == 2.0
     assert row["volume_A3"] == 20.0
@@ -141,6 +147,87 @@ def test_ordered_structure_descriptors_and_symmetry_fields():
     assert row["descriptor_source"] == "cif_recomputed"
     assert row["n_atoms"] == "legacy"
     assert row["volume"] == "legacy-volume"
+
+
+def test_cif_loader_warning_success_records_warning_and_runs_magnetic_annotations():
+    def loader(path):
+        warnings.warn("occupancy adjusted", UserWarning)
+        return ordered_structure()
+
+    row = enrich_manifest_rows(
+        [base_row()],
+        structure_loader=loader,
+        symmetry_analyzer=symmetry_ok,
+        config=TEST_CONFIG,
+    )[0]
+
+    assert row["cif_load_status"] == "ok_with_warnings"
+    assert row["cif_warning_count"] == 1
+    assert json.loads(row["cif_warnings"]) == [
+        {"category": "UserWarning", "message": "occupancy adjusted"}
+    ]
+    assert row["descriptor_status"] == "ok"
+    assert row["magnetic_screening_status"] == "candidate"
+
+
+def test_cif_loader_warning_order_is_preserved():
+    def loader(path):
+        warnings.warn("first warning", UserWarning)
+        warnings.warn("second warning", RuntimeWarning)
+        return ordered_structure()
+
+    row = enrich_manifest_rows(
+        [base_row()],
+        structure_loader=loader,
+        symmetry_analyzer=symmetry_ok,
+        config=TEST_CONFIG,
+    )[0]
+
+    assert json.loads(row["cif_warnings"]) == [
+        {"category": "UserWarning", "message": "first warning"},
+        {"category": "RuntimeWarning", "message": "second warning"},
+    ]
+
+
+def test_cif_loader_warning_then_error_preserves_row_and_warning():
+    def loader(path):
+        warnings.warn("partial CIF read before failure", UserWarning)
+        raise ValueError("bad cif")
+
+    row = enrich_manifest_rows(
+        [base_row()],
+        structure_loader=loader,
+        symmetry_analyzer=symmetry_ok,
+        config=TEST_CONFIG,
+    )[0]
+
+    assert row["sample_uid"] == "s1"
+    assert row["structure_id"] == "s1"
+    assert row["cif_load_status"] == "error"
+    assert row["cif_warning_count"] == 1
+    assert json.loads(row["cif_warnings"]) == [
+        {"category": "UserWarning", "message": "partial CIF read before failure"}
+    ]
+    assert row["descriptor_status"] == "error"
+    assert row["descriptor_error_code"] == "cif_parse_error"
+    assert row["magnetic_screening_status"] == "not_evaluated"
+    assert row["magnetic_screening_reason"] == "cif_parse_failed"
+
+
+def test_cif_loader_warnings_are_captured_without_stderr(capsys):
+    def loader(path):
+        warnings.warn("captured warning", UserWarning)
+        return ordered_structure()
+
+    enrich_manifest_rows(
+        [base_row()],
+        structure_loader=loader,
+        symmetry_analyzer=symmetry_ok,
+        config=TEST_CONFIG,
+    )
+
+    captured = capsys.readouterr()
+    assert "captured warning" not in captured.err
 
 
 def test_partial_occupancy_site_and_species_counts():
@@ -188,6 +275,9 @@ def test_cif_parse_failure_preserves_row_and_marks_not_evaluated():
 
     assert row["sample_uid"] == "s1"
     assert row["structure_id"] == "s1"
+    assert row["cif_load_status"] == "error"
+    assert row["cif_warning_count"] == 0
+    assert json.loads(row["cif_warnings"]) == []
     assert row["descriptor_status"] == "error"
     assert row["descriptor_error_code"] == "cif_parse_error"
     assert row["magnetic_screening_status"] == "not_evaluated"
@@ -312,6 +402,18 @@ def test_atomic_header_only_output_for_empty_input(tmp_path):
     assert output_path.read_text(encoding="utf-8").splitlines()[0].split(",") == (
         fieldnames + [field for field in ANNOTATION_FIELDS if field not in fieldnames]
     )
+    header = output_path.read_text(encoding="utf-8").splitlines()[0].split(",")
+    assert "cif_load_status" in header
+    assert "cif_warning_count" in header
+    assert "cif_warnings" in header
+
+
+def test_output_fieldnames_contains_cif_warning_fields_once():
+    fieldnames = output_fieldnames(["sample_uid", "cif_load_status"])
+
+    assert fieldnames.count("cif_load_status") == 1
+    assert fieldnames.count("cif_warning_count") == 1
+    assert fieldnames.count("cif_warnings") == 1
 
 
 def test_limit_is_deterministic():

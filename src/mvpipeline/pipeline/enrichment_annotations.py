@@ -3,6 +3,7 @@ from __future__ import annotations
 import csv
 import json
 import math
+import warnings
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Callable, Iterable, Mapping, Optional, Sequence
@@ -13,6 +14,9 @@ from ..magnetism.config import MagnetismConfig, load_magnetism_config
 
 ANNOTATION_FIELDS = [
     "structure_id",
+    "cif_load_status",
+    "cif_warning_count",
+    "cif_warnings",
     "n_sites",
     "composition_num_atoms",
     "volume_A3",
@@ -78,6 +82,19 @@ class EnrichmentAnnotationReport:
     fieldnames: list[str]
 
 
+@dataclass(frozen=True)
+class StructureLoadResult:
+    structure: Any
+    warnings: list[dict[str, str]]
+
+
+class StructureLoadError(Exception):
+    def __init__(self, original: Exception, warning_records: list[dict[str, str]]):
+        super().__init__(str(original))
+        self.original = original
+        self.warning_records = warning_records
+
+
 def enrichment_annotation_config_from_magnetism_config(
     config: MagnetismConfig,
     *,
@@ -125,6 +142,54 @@ def _finite_scalar(value: Any, field_name: str) -> float:
 
 def _json_array(values: Iterable[str]) -> str:
     return json.dumps(sorted(values), ensure_ascii=False)
+
+
+def _json_warning_records(records: Sequence[Mapping[str, str]]) -> str:
+    return json.dumps(list(records), ensure_ascii=False)
+
+
+def _warning_records(captured: Sequence[warnings.WarningMessage]) -> list[dict[str, str]]:
+    return [
+        {
+            "category": warning.category.__name__,
+            "message": str(warning.message),
+        }
+        for warning in captured
+    ]
+
+
+def _cif_load_annotations(
+    records: Sequence[Mapping[str, str]],
+    *,
+    error: bool,
+) -> dict[str, Any]:
+    if error:
+        status = "error"
+    elif records:
+        status = "ok_with_warnings"
+    else:
+        status = "ok"
+    return {
+        "cif_load_status": status,
+        "cif_warning_count": len(records),
+        "cif_warnings": _json_warning_records(records),
+    }
+
+
+def _load_structure_with_warning_capture(
+    structure_loader: StructureLoader,
+    cif_path: str,
+) -> StructureLoadResult:
+    with warnings.catch_warnings(record=True) as captured:
+        warnings.simplefilter("always")
+        try:
+            structure = structure_loader(cif_path)
+        except Exception as exc:
+            raise StructureLoadError(exc, _warning_records(captured)) from exc
+        return StructureLoadResult(
+            structure=structure,
+            warnings=_warning_records(captured),
+        )
 
 
 def default_structure_loader(cif_path: str) -> Any:
@@ -314,8 +379,13 @@ def classify_compound_class(
     return rules.unlisted_status, "compound_class_unlisted"
 
 
-def _row_parse_error(row: Mapping[str, str], message: str) -> dict[str, Any]:
+def _row_parse_error(
+    row: Mapping[str, str],
+    message: str,
+    warning_records: Sequence[Mapping[str, str]],
+) -> dict[str, Any]:
     return {
+        **_cif_load_annotations(warning_records, error=True),
         "n_sites": "",
         "composition_num_atoms": "",
         "volume_A3": "",
@@ -368,13 +438,19 @@ def enrich_manifest_rows(
         enriched["compound_class_filter_reason"] = reason
 
         try:
-            structure = structure_loader(row.get("cif_path", ""))
-        except Exception as exc:
+            load_result = _load_structure_with_warning_capture(
+                structure_loader,
+                row.get("cif_path", ""),
+            )
+        except StructureLoadError as exc:
             if fail_fast:
-                raise
-            enriched.update(_row_parse_error(row, str(exc)))
+                raise exc.original from exc
+            enriched.update(_row_parse_error(row, str(exc), exc.warning_records))
             output.append(enriched)
             continue
+
+        structure = load_result.structure
+        enriched.update(_cif_load_annotations(load_result.warnings, error=False))
 
         try:
             enriched.update(

@@ -52,6 +52,34 @@ recomputed fields use explicit names:
 Symmetry failures preserve basic descriptors and mark
 `descriptor_status = partial`.
 
+## CIF Loading Warnings
+
+Phase 5A-1 records warnings emitted while loading each CIF. Warning capture is
+limited to the `structure_loader` call; warnings from symmetry analysis or other
+annotation steps are not included.
+
+The warning fields are:
+
+- `cif_load_status`
+- `cif_warning_count`
+- `cif_warnings`
+
+`cif_load_status = ok` means the loader returned a structure without warnings.
+`cif_load_status = ok_with_warnings` means the loader returned a structure and
+emitted one or more warnings. This is not a rejection signal, and it does not
+change the original validation status or rejection reason from the input
+manifest.
+
+`cif_warnings` is a JSON array for later analysis. Each item has `category` and
+`message` fields, preserving the order emitted by the loader. Captured warnings
+are not printed to stderr during annotation.
+
+CIF loader exceptions preserve the row with `cif_load_status = error`.
+Warnings emitted before the exception are retained. In this case
+`descriptor_status = error`, `descriptor_error_code = cif_parse_error`, and
+magnetic screening is marked `not_evaluated` with reason `cif_parse_failed`.
+Descriptor status remains separate from CIF load status.
+
 ## Magnetic Annotations
 
 Magnetic flags are composition heuristics only. They identify configured
