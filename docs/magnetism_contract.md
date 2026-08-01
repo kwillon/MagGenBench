@@ -9,10 +9,10 @@ screening.
 The module does not import matminer, sklearn, joblib, or model artifacts during
 package import.
 
-The donor implementation uses composition-only Magpie features via
-`ElementProperty.from_preset("magpie")`. The Phase 3 sklearn backend preserves
-that behavior through the `composition_magpie` feature set, but it does not
-claim that the model uses structure geometry.
+The verified DXMag profile uses composition-only Magpie features via
+`ElementProperty.from_preset("magpie")`. The sklearn backend preserves that
+behavior through the `composition_magpie` feature set. It does not claim that
+the model uses structure geometry.
 
 ## Input
 
@@ -46,6 +46,33 @@ presented as magnetic ordering, saturation magnetization, Curie temperature, or
 DFT magnetic moment unless a backend documents that target.
 
 `uncertainty_proxy` is a proxy, not calibrated statistical uncertainty.
+
+## Verified DXMag Runtime Profile
+
+The optional sklearn profile in `config/magnetism.yaml` documents the verified
+DXMag model deployment:
+
+- model class: `lightgbm.sklearn.LGBMRegressor`
+- donor commit: `1b29ec689054ef51fe739607d63fa0f57e6f6bb8`
+- artifact path: `models/magnetism/magmom_model_dxmag.pkl`
+- artifact SHA-256:
+  `a76d22393b4f7a2a32e9d57191ea88788a0e5596f262ee0048cc2a9a0facb936`
+- feature set: 132 ordered Magpie composition features from matminer `0.8.0`
+- feature-order SHA-256:
+  `8fdff659a05332499424f1f81e4817dd332cc60f2c8bd04b5b9620b66fd88344`
+- target: median DXMag `total magnetization (muB/f.u.)` grouped by formula
+- output unit: `muB`
+- output normalization: `per_formula_unit`
+
+This is a composition-only ML prediction of a formula-level target. It is not
+a structure-dependent DFT magnetic moment, saturation magnetization, magnetic
+ordering label, Curie temperature, or moment per atom.
+
+The binary artifact is excluded from Git. The verified sklearn profile is also
+not selected by default: prediction remains disabled and the configured
+default backend remains the deterministic fake backend. Negative finite
+regression outputs are preserved as raw model predictions rather than silently
+clipped.
 
 ## Backend Metadata
 

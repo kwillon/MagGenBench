@@ -37,6 +37,27 @@ Relaxation input preparation
 Benchmark tables and figures
 ```
 
+## Verified DXMag magnetism profile
+
+The repository contains an optional, metadata-locked sklearn profile for the
+DXMag composition model:
+
+- backend: `sklearn`
+- model: `dxmag-lightgbm-composition`
+- features: 132 ordered Magpie composition descriptors
+- target: median `total magnetization (muB/f.u.)` grouped by formula
+- output: `muB` per formula unit
+- strict compatibility mode: enabled
+- binary path: `models/magnetism/magmom_model_dxmag.pkl`
+
+The `.pkl` artifact is not stored in Git. The default backend remains
+`deterministic-fake-v1`, and real magnetic prediction is not enabled
+automatically.
+
+This output is a composition-only ML prediction. It must not be described as
+saturation magnetization, magnetic ordering, Curie temperature, or a
+structure-dependent DFT magnetic moment.
+
 ## Repository structure
 
 config/       Pipeline configuration files.

@@ -74,6 +74,26 @@ Magnetism output keeps `predicted_moment_value`, `moment_unit`,
 `moment_normalization`, and `uncertainty_proxy`. It is not reported as Ms,
 saturation magnetization, DFT magnetic moment, or magnetic ordering.
 
+## Verified DXMag Magnetism Run
+
+The magnetism runner has been exercised with the real optional sklearn backend
+after external input preparation. The verified profile uses the DXMag
+LightGBM artifact, 132 ordered Magpie composition features, and strict
+compatibility checking with `allow_unsafe_compatibility = false`.
+
+Verified smoke runs:
+
+- one CIF through direct donor-equivalent and backend inference, with identical
+  scalar predictions
+- `run_magnetism_stage(..., limit=1)`: 1 successful result
+- `run_magnetism_stage(..., limit=5)`: 5 successful results and 0 failures
+- atomic CSV output containing the expected provenance, prediction, unit,
+  normalization, uncertainty proxy, confidence, risk, and model details
+
+The runner preserves finite negative model outputs. It does not silently clip
+them to zero. Interpretation or physical filtering belongs to an explicit
+downstream policy rather than the backend contract.
+
 ## Fake Backend Example
 
 ```python
