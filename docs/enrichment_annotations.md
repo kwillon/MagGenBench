@@ -29,9 +29,12 @@ Generated CSV output is not added to Git.
 ## Descriptors
 
 Descriptors are recomputed from each row's `cif_path`. Existing legacy columns
-such as `n_atoms`, `volume`, `density`, `volume_per_atom`,
-`spacegroup_number`, and `spacegroup_symbol` are preserved as provenance. New
-recomputed fields use explicit names:
+such as `formula_reduced`, `formula_full`, `n_atoms`, `volume`, `density`,
+`volume_per_atom`, `spacegroup_number`, and `spacegroup_symbol` are preserved
+as provenance. New recomputed fields use explicit names:
+
+- `formula_reduced_recomputed`
+- `formula_full_recomputed`
 
 - `n_sites`
 - `composition_num_atoms`

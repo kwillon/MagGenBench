@@ -149,6 +149,29 @@ def test_ordered_structure_descriptors_and_symmetry_fields():
     assert row["volume"] == "legacy-volume"
 
 
+
+def test_recomputed_formula_comes_from_loaded_structure_not_legacy_metadata():
+    structure = ordered_structure()
+    structure.composition.reduced_formula = "FeO2"
+    structure.composition.formula = "Fe1 O2"
+
+    legacy = base_row()
+    legacy["formula_reduced"] = "FeO"
+    legacy["formula_full"] = "Fe1 O1"
+
+    row = enrich_manifest_rows(
+        [legacy],
+        structure_loader=lambda path: structure,
+        symmetry_analyzer=symmetry_ok,
+        config=TEST_CONFIG,
+    )[0]
+
+    assert row["formula_reduced"] == "FeO"
+    assert row["formula_full"] == "Fe1 O1"
+    assert row["formula_reduced_recomputed"] == "FeO2"
+    assert row["formula_full_recomputed"] == "Fe1 O2"
+
+
 def test_cif_loader_warning_success_records_warning_and_runs_magnetic_annotations():
     def loader(path):
         warnings.warn("occupancy adjusted", UserWarning)

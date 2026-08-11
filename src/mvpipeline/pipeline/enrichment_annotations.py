@@ -19,6 +19,8 @@ ANNOTATION_FIELDS = [
     "cif_warnings",
     "n_sites",
     "composition_num_atoms",
+    "formula_reduced_recomputed",
+    "formula_full_recomputed",
     "volume_A3",
     "volume_per_site_A3",
     "volume_per_composition_atom_A3",
@@ -274,9 +276,27 @@ def compute_structural_annotations(
     if composition_atoms <= 0:
         raise ValueError("composition_num_atoms must be positive")
 
+    composition = structure.composition
+    reduced_formula = getattr(
+        composition,
+        "reduced_formula",
+        "",
+    )
+    full_formula = getattr(
+        composition,
+        "formula",
+        "",
+    )
+
     record: dict[str, Any] = {
         "n_sites": n_sites,
         "composition_num_atoms": composition_atoms,
+        "formula_reduced_recomputed": str(
+            reduced_formula or ""
+        ),
+        "formula_full_recomputed": str(
+            full_formula or ""
+        ),
         "volume_A3": volume,
         "volume_per_site_A3": volume / float(n_sites),
         "volume_per_composition_atom_A3": volume / composition_atoms,
