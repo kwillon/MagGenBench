@@ -1,0 +1,36 @@
+# Descriptor Expansion v1 runtime configuration
+
+descriptors:
+  schema_version: "v1"
+  reference_pymatgen_version: "2025.6.14"
+
+  symmetry:
+    symprec: 0.01
+    angle_tolerance: 5
+
+  local_geometry:
+    method: "MinimumDistanceNN"
+    cutoff_angstrom: 10.0
+    tolerance: 0.1
+    get_all_sites: false
+    use_weights: false
+
+  composition:
+    magnetic_screening_config: "config/magnetism.yaml"
+
+  element_properties:
+    - atomic_number
+    - atomic_mass
+    - atomic_radius
+    - electronegativity
+    - periodic_row
+    - periodic_group
+
+  missing_values:
+    in_memory: null
+    csv: ""
+
+  output:
+    preserve_input_order: true
+    require_unique_sample_uid: true
+    pre_round_floats: false
