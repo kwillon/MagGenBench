@@ -11,6 +11,7 @@ Identity fields are not scientific descriptors. They provide stable joins betwee
 | Column | Type | Requirement | Definition |
 |---|---|---|---|
 | `sample_uid` | string | required | Stable benchmark identifier of the structure; unique within a cohort. |
+| `structure_id` | string | required | Pipeline/stage identifier used for joins with CHGNet and DXMag outputs. For standardized production manifests, `structure_id` must equal `sample_uid`. |
 | `model_name` | string | required | Human-readable model or cohort name. |
 | `model_short` | string | required | Stable machine-readable cohort key. |
 | `run_uid` | string | required | Identifier of the generation or benchmark run from which the structure originates. |
@@ -136,15 +137,16 @@ Descriptor extraction is row-preserving with respect to the explicit input manif
 | Column | Type | Definition |
 |---|---|---|
 | `descriptor_schema_version` | string | Constant schema identifier; `v1` for this specification. |
-| `descriptor_status` | string | Overall extraction status: `ok`, `partial`, or `error`. |
-| `descriptor_error_code` | nullable string | Machine-readable error code for a fatal descriptor-extraction failure. |
-| `descriptor_error_message` | nullable string | Human-readable diagnostic message for a fatal descriptor-extraction failure. |
+| `descriptor_v1_source` | string | Descriptor provenance identifier; `cif_recomputed` for Descriptor v1 CIF extraction. |
+| `descriptor_v1_status` | string | Overall extraction status: `ok`, `partial`, or `error`. |
+| `descriptor_v1_error_code` | nullable string | Machine-readable error code for a fatal descriptor-extraction failure. |
+| `descriptor_v1_error_message` | nullable string | Human-readable diagnostic message for a fatal descriptor-extraction failure. |
 
 `descriptor_status = "ok"` means that all Descriptor v1 groups were calculated successfully. `partial` means that the structure was parsed and core descriptors were calculated, but at least one optional descriptor group or elemental-property group is unavailable. `error` means that the structure could not be parsed or the core descriptor extraction failed.
 
 Missing scientific descriptor values are represented as `None` in memory and as empty fields in CSV output. Descriptor extraction performs no zero-filling, mean-filling, or other imputation. Imputation, if required for later statistical or machine-learning analysis, must be a separate downstream operation.
 
-A symmetry or local-geometry failure does not erase successfully calculated structural or composition descriptors. Likewise, elemental-property coverage below `1.0` only invalidates the statistics for that specific property. Such cases set the overall `descriptor_status` to `partial` rather than `error`.
+A symmetry or local-geometry failure does not erase successfully calculated structural or composition descriptors. Likewise, elemental-property coverage below `1.0` only invalidates the statistics for that specific property. Such cases set the overall `descriptor_v1_status` to `partial` rather than `error`.
 
 Floating-point descriptor values are stored without intentional pre-rounding. `sample_uid` must be unique within every output table.
 
