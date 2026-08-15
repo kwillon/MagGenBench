@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_TmRhSe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.37223282
+_cell_length_b   5.53884961
+_cell_length_c   6.32321428
+_cell_angle_alpha   108.99535060
+_cell_angle_beta   112.53228213
+_cell_angle_gamma   93.65192225
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TmRhSe2
+_chemical_formula_sum   'Tm2 Rh2 Se4'
+_cell_volume   160.45685458
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.12029827  0.35059282  0.77618682  1
+  Se  Se1  1  0.38890386  0.24883056  0.27194840  1
+  Se  Se2  1  0.64186686  0.83433896  0.72588646  1
+  Se  Se3  1  0.86352313  0.63509452  0.26086599  1
+  Rh  Rh4  1  0.23822302  0.74630934  0.50534731  1
+  Rh  Rh5  1  0.48814532  0.48914510  1.00000000  1
+  Tm  Tm6  1  0.02093420  0.01923179  0.00000000  1
+  Tm  Tm7  1  0.75148886  0.25672606  0.51431829  1

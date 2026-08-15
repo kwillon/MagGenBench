@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LaFe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.65589058
+_cell_length_b   5.06111575
+_cell_length_c   8.35991436
+_cell_angle_alpha   88.87642121
+_cell_angle_beta   66.37365683
+_cell_angle_gamma   63.33270387
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaFe3
+_chemical_formula_sum   'La3 Fe9'
+_cell_volume   192.13304497
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.00000000  0.49550939  0.49660593  1
+  Fe  Fe1  1  0.13600016  0.41743511  0.75608230  1
+  Fe  Fe2  1  0.35851628  0.05621345  0.23260890  1
+  Fe  Fe3  1  0.32135421  0.34310108  1.00000000  1
+  Fe  Fe4  1  0.34466895  0.57478172  0.25222313  1
+  Fe  Fe5  1  0.68506867  0.39917696  0.77801818  1
+  Fe  Fe6  1  0.68663114  0.68865341  0.00000000  1
+  Fe  Fe7  1  0.68532306  0.94999701  0.73524600  1
+  Fe  Fe8  1  0.86423510  0.57461387  0.25043496  1
+  La  La9  1  0.04714102  1.00000000  0.00000000  1
+  La  La10  1  0.28478324  0.89690512  0.58525324  1
+  La  La11  1  0.72306436  0.14006574  0.42583892  1

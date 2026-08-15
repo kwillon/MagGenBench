@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_LiEuAs3O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.13914889
+_cell_length_b   6.45708149
+_cell_length_c   10.05154798
+_cell_angle_alpha   90.66152373
+_cell_angle_beta   93.19336489
+_cell_angle_gamma   81.62348879
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiEuAs3O5
+_chemical_formula_sum   'Li2 Eu2 As6 O10'
+_cell_volume   393.58813216
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.05315967  0.44265255  0.55118895  1
+  Li  Li1  1  0.46099412  0.64256340  0.02169633  1
+  O  O2  1  0.10549976  0.03466548  0.50027126  1
+  O  O3  1  0.12974653  0.39651701  0.84452641  1
+  O  O4  1  0.18208340  0.79664820  0.21017498  1
+  O  O5  1  0.26941571  0.57760179  0.58577615  1
+  O  O6  1  0.41307569  0.03222832  0.76723927  1
+  O  O7  1  0.58759332  0.01979806  0.28847790  1
+  O  O8  1  0.67429078  0.39396739  0.75238913  1
+  O  O9  1  0.68119526  0.46310213  0.29359826  1
+  O  O10  1  0.74350703  0.93627751  0.39999187  1
+  O  O11  1  0.88592601  0.63020867  0.07269286  1
+  As  As12  1  0.04727796  0.21658939  0.84624386  1
+  As  As13  1  0.12545709  0.74266994  0.19522339  1
+  As  As14  1  0.50495827  0.14459024  0.45706907  1
+  As  As15  1  0.47352698  0.82307631  0.55265379  1
+  As  As16  1  0.66602421  0.40751851  0.25151274  1
+  As  As17  1  0.68209940  0.49394998  0.82890409  1
+  Eu  Eu18  1  0.23501496  0.23415826  0.20293227  1
+  Eu  Eu19  1  0.78576297  0.80838817  0.73559791  1

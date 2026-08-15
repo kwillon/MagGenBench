@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_NdAu2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.66313275
+_cell_length_b   6.05625386
+_cell_length_c   5.94523081
+_cell_angle_alpha   82.86404736
+_cell_angle_beta   65.69627443
+_cell_angle_gamma   67.69432811
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NdAu2
+_chemical_formula_sum   'Nd2 Au4'
+_cell_volume   141.46799840
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nd  Nd0  1  0.46805269  0.77621770  0.28601158  1
+  Nd  Nd1  1  0.54965663  0.22651409  0.71911883  1
+  Au  Au2  1  0.16681579  0.36720851  0.30869988  1
+  Au  Au3  1  0.16066867  0.77451408  0.87682235  1
+  Au  Au4  1  0.83887720  0.22004032  0.14734170  1
+  Au  Au5  1  0.82324529  0.61453414  0.69210547  1

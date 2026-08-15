@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_NaTlSiO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.83250377
+_cell_length_b   5.69836016
+_cell_length_c   8.07019264
+_cell_angle_alpha   89.17976494
+_cell_angle_beta   96.55712378
+_cell_angle_gamma   125.28994986
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaTlSiO4
+_chemical_formula_sum   'Na2 Tl2 Si2 O8'
+_cell_volume   217.05654897
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.19684637  0.33990341  0.78345829  1
+  O  O1  1  0.25500649  0.72539431  0.59394085  1
+  O  O2  1  0.31017593  0.24844958  0.23666462  1
+  O  O3  1  0.30448434  0.77192765  0.92055470  1
+  O  O4  1  0.67670053  0.23344909  0.43788674  1
+  O  O5  1  0.67959070  0.74081099  0.76532191  1
+  O  O6  1  0.77561158  0.29643551  0.06582843  1
+  O  O7  1  0.79686528  0.67367315  0.25841764  1
+  Na  Na8  1  0.30045265  0.69734269  0.21412189  1
+  Na  Na9  1  0.65189290  0.31818411  0.76854098  1
+  Si  Si10  1  0.37467250  0.64153767  0.75553632  1
+  Si  Si11  1  0.61504441  0.34822559  0.24205428  1
+  Tl  Tl12  1  0.00000000  0.00000000  0.49110234  1
+  Tl  Tl13  1  0.95447159  0.99285114  0.95326489  1

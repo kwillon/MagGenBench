@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Sr3CaTl3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.17559090
+_cell_length_b   5.75038853
+_cell_length_c   8.86330113
+_cell_angle_alpha   101.52654498
+_cell_angle_beta   106.51990292
+_cell_angle_gamma   97.94440573
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr3CaTl3
+_chemical_formula_sum   'Sr3 Ca1 Tl3'
+_cell_volume   242.39793361
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.80316424  0.81048667  0.69752377  1
+  Sr  Sr1  1  0.19826171  0.17240077  0.29200599  1
+  Sr  Sr2  1  0.50167733  0.96703619  0.93989533  1
+  Sr  Sr3  1  0.99634546  0.49124888  0.98038876  1
+  Tl  Tl4  1  0.29739320  0.35482788  0.69026333  1
+  Tl  Tl5  1  0.58189893  0.52243304  0.34792346  1
+  Tl  Tl6  1  0.70332485  0.69251347  0.28393376  1

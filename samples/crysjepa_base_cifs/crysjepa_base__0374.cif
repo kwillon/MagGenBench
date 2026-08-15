@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_BaLaNiWO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.60548477
+_cell_length_b   5.65082260
+_cell_length_c   5.64279325
+_cell_angle_alpha   59.42113937
+_cell_angle_beta   60.20283390
+_cell_angle_gamma   59.90950227
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaLaNiWO6
+_chemical_formula_sum   'Ba1 La1 Ni1 W1 O6'
+_cell_volume   125.92941771
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.26507851  0.23504698  0.74743271  1
+  O  O1  1  0.25432372  0.75876498  0.25009060  1
+  O  O2  1  0.26441517  0.72818738  0.75015396  1
+  O  O3  1  0.72504640  0.25451300  0.25494921  1
+  O  O4  1  0.73903841  0.23491168  0.72708201  1
+  O  O5  1  0.75687456  0.76283050  0.26618403  1
+  Ni  Ni6  1  0.00000000  0.00643941  0.00000000  1
+  Ba  Ba7  1  0.24925597  0.23951651  0.25796556  1
+  La  La8  1  0.76389903  0.75854820  0.75026584  1
+  W  W9  1  0.51241612  0.48509055  0.49699932  1

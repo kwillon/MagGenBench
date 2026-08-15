@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_RhPbO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.32388723
+_cell_length_b   6.79375901
+_cell_length_c   6.67824891
+_cell_angle_alpha   91.99759058
+_cell_angle_beta   93.47661358
+_cell_angle_gamma   94.22343532
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RhPbO
+_chemical_formula_sum   'Rh4 Pb4 O4'
+_cell_volume   195.13133628
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.26428929  0.31098536  0.92670876  1
+  O  O1  1  0.24466194  0.87319303  0.42841238  1
+  O  O2  1  0.73943543  0.11870649  0.55273032  1
+  O  O3  1  0.74712437  0.66782343  0.08679571  1
+  Rh  Rh4  1  0.24791957  0.17579712  0.63569617  1
+  Rh  Rh5  1  0.23737779  0.71261346  0.92149270  1
+  Rh  Rh6  1  0.74922293  0.28387195  0.09082615  1
+  Rh  Rh7  1  0.76149541  0.84031707  0.38996008  1
+  Pb  Pb8  1  0.27014118  0.02325323  0.22825252  1
+  Pb  Pb9  1  0.25248855  0.54478514  0.63258886  1
+  Pb  Pb10  1  0.72690463  0.46491727  0.33513302  1
+  Pb  Pb11  1  0.74125057  0.99059027  0.76710367  1

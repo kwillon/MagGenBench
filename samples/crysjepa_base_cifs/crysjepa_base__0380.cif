@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_CeMgTiN6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.82263392
+_cell_length_b   5.63052925
+_cell_length_c   5.43646059
+_cell_angle_alpha   112.74853839
+_cell_angle_beta   100.13519817
+_cell_angle_gamma   82.17229873
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CeMgTiN6
+_chemical_formula_sum   'Ce1 Mg1 Ti1 N6'
+_cell_volume   105.92555924
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  N  N0  1  0.25028720  0.19147384  0.37812090  1
+  N  N1  1  0.31880769  0.19043155  0.82497120  1
+  N  N2  1  0.33764112  0.62449896  0.76103336  1
+  N  N3  1  0.68969405  0.37636641  0.23950712  1
+  N  N4  1  0.68100536  0.79779035  0.14591366  1
+  N  N5  1  0.74909753  0.83785295  0.61735797  1
+  Mg  Mg6  1  0.00000000  0.00000000  0.00193583  1
+  Ce  Ce7  1  0.25682271  0.65954268  0.36926359  1
+  Ti  Ti8  1  0.74659830  0.32900599  0.63112825  1

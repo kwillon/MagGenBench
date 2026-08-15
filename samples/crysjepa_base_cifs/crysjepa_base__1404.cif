@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_BaSr2TaO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.12067278
+_cell_length_b   5.84447777
+_cell_length_c   6.08735413
+_cell_angle_alpha   60.89842652
+_cell_angle_beta   63.92625085
+_cell_angle_gamma   52.96716984
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaSr2TaO6
+_chemical_formula_sum   'Ba1 Sr2 Ta1 O6'
+_cell_volume   148.49594799
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.27740312  0.27897853  0.70717740  1
+  O  O1  1  0.28043577  0.72442281  0.23935063  1
+  O  O2  1  0.28679648  0.73858589  0.74753505  1
+  O  O3  1  0.71448392  0.25056607  0.26694649  1
+  O  O4  1  0.74088019  0.26219773  0.72629911  1
+  O  O5  1  0.72096890  0.74127883  0.28526703  1
+  Sr  Sr6  1  0.75145304  0.75504053  0.76321250  1
+  Sr  Sr7  1  0.00000000  0.00410383  0.00717885  1
+  Ba  Ba8  1  0.28982678  0.24737942  0.25612760  1
+  Ta  Ta9  1  0.50140095  0.48368278  0.49009150  1

@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_CeZn2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.65567873
+_cell_length_b   6.49663912
+_cell_length_c   5.95545760
+_cell_angle_alpha   79.02544116
+_cell_angle_beta   75.17949956
+_cell_angle_gamma   75.05952602
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CeZn2
+_chemical_formula_sum   'Ce2 Zn4'
+_cell_volume   166.75138224
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.17814547  0.32969838  0.31278184  1
+  Zn  Zn1  1  0.15773055  0.82280898  0.88679749  1
+  Zn  Zn2  1  0.82642359  0.18857481  0.15652961  1
+  Zn  Zn3  1  0.82589060  0.65839356  0.71097505  1
+  Ce  Ce4  1  0.49672902  0.25044769  0.72266734  1
+  Ce  Ce5  1  0.49196333  0.73700929  0.26974288  1

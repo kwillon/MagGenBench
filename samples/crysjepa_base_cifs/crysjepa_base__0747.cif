@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Al3CrFe2Ge3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.40711603
+_cell_length_b   6.17754000
+_cell_length_c   6.09036301
+_cell_angle_alpha   120.84876267
+_cell_angle_beta   84.28516873
+_cell_angle_gamma   95.22094815
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al3CrFe2Ge3
+_chemical_formula_sum   'Al3 Cr1 Fe2 Ge3'
+_cell_volume   109.38531241
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.51716930  0.00000000  0.59282035  1
+  Al  Al1  1  0.53028452  0.39654756  0.37417179  1
+  Al  Al2  1  0.51012820  0.58645904  0.99487728  1
+  Cr  Cr3  1  0.00000000  0.00662150  0.24000245  1
+  Fe  Fe4  1  0.99452090  0.23799549  0.98219115  1
+  Fe  Fe5  1  1.00000000  0.72609788  0.74133873  1
+  Ge  Ge6  1  0.50341123  0.00000000  0.00000000  1
+  Ge  Ge7  1  0.98114365  0.32954356  0.66384232  1
+  Ge  Ge8  1  0.99477303  0.63634449  0.32779914  1

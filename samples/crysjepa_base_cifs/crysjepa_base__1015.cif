@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Ce2O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.47157454
+_cell_length_b   5.29736933
+_cell_length_c   6.24866737
+_cell_angle_alpha   100.53314687
+_cell_angle_beta   99.83293251
+_cell_angle_gamma   104.79302360
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ce2O7
+_chemical_formula_sum   'Ce2 O7'
+_cell_volume   136.96733461
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.00000000  0.00670293  0.00000000  1
+  O  O1  1  0.25771511  0.06477373  0.67481464  1
+  O  O2  1  0.30630648  0.55828482  0.38990510  1
+  O  O3  1  0.33097020  0.64151001  0.92131567  1
+  O  O4  1  0.64967501  0.36126074  0.06851362  1
+  O  O5  1  0.68924552  0.42619213  0.58530474  1
+  O  O6  1  0.73394918  0.91428590  0.32522845  1
+  Ce  Ce7  1  0.30439305  0.66000009  0.72500974  1
+  Ce  Ce8  1  0.71378183  0.33191797  0.30404806  1

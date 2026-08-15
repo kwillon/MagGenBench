@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_NdGa3Co2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.72070093
+_cell_length_b   6.69809935
+_cell_length_c   6.38310250
+_cell_angle_alpha   94.52084441
+_cell_angle_beta   95.01309160
+_cell_angle_gamma   88.54119552
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NdGa3Co2
+_chemical_formula_sum   'Nd2 Ga6 Co4'
+_cell_volume   200.39928149
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.51879466  0.17124137  0.72172010  1
+  Co  Co1  1  0.49018338  0.83513576  0.28876615  1
+  Co  Co2  1  0.99517357  0.19283944  0.08166646  1
+  Co  Co3  1  0.99246186  0.84306026  0.87159038  1
+  Ga  Ga4  1  0.21823874  0.04673778  0.39486405  1
+  Ga  Ga5  1  0.19663092  0.47640461  0.08112177  1
+  Ga  Ga6  1  0.36683214  0.23796202  0.88566613  1
+  Ga  Ga7  1  0.64919508  0.77596474  0.13379568  1
+  Ga  Ga8  1  0.78176093  0.56083477  0.89266235  1
+  Ga  Ga9  1  0.78390926  0.97941339  0.61777723  1
+  Nd  Nd10  1  0.26179314  0.64397550  0.59832555  1
+  Nd  Nd11  1  0.72492373  0.35198018  0.38003349  1

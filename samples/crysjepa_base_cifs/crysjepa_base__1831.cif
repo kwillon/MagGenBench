@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_CrNiSn2(O4F)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.20626896
+_cell_length_b   5.98031457
+_cell_length_c   6.91880939
+_cell_angle_alpha   114.30419289
+_cell_angle_beta   104.72281050
+_cell_angle_gamma   98.75890731
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CrNiSn2(O4F)2
+_chemical_formula_sum   'Cr1 Ni1 Sn2 O8 F2'
+_cell_volume   181.63807610
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.23045020  0.24050967  0.42243204  1
+  O  O1  1  0.27081254  0.24841583  0.05270296  1
+  O  O2  1  0.31933996  0.79047686  0.09195636  1
+  O  O3  1  0.31184229  0.79713982  0.51921958  1
+  O  O4  1  0.66991878  0.22666284  0.45572498  1
+  O  O5  1  0.68968391  0.24009366  0.91774446  1
+  O  O6  1  0.72915310  0.75332403  0.93800974  1
+  O  O7  1  0.76176864  0.76312768  0.60350949  1
+  F  F8  1  0.17359182  0.40844515  0.74921972  1
+  F  F9  1  0.88279378  0.59513760  0.25514191  1
+  Cr  Cr10  1  0.22373269  0.46103713  0.26270622  1
+  Ni  Ni11  1  0.75660729  0.51365018  0.74758387  1
+  Sn  Sn12  1  0.39280018  0.03958729  0.21887806  1
+  Sn  Sn13  1  0.60010237  0.97679073  0.73115909  1

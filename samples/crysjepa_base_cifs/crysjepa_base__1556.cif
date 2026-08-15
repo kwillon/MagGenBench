@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_SiNiRu
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.37382188
+_cell_length_b   6.18175511
+_cell_length_c   6.69514805
+_cell_angle_alpha   93.33752041
+_cell_angle_beta   88.59930085
+_cell_angle_gamma   90.81685976
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SiNiRu
+_chemical_formula_sum   'Si4 Ni4 Ru4'
+_cell_volume   139.34494022
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.24417326  0.28217715  0.60650498  1
+  Si  Si1  1  0.26543078  0.75346076  0.90566808  1
+  Si  Si2  1  0.75205851  0.24636005  0.09594110  1
+  Si  Si3  1  0.73728460  0.69105238  0.43001392  1
+  Ni  Ni4  1  0.26873523  0.16645288  0.90704280  1
+  Ni  Ni5  1  0.25624701  0.66611069  0.56964648  1
+  Ni  Ni6  1  0.76328689  0.33736667  0.45175427  1
+  Ni  Ni7  1  0.73897278  0.83611494  0.07415771  1
+  Ru  Ru8  1  0.24360935  0.46315804  0.18948688  1
+  Ru  Ru9  1  0.24429713  0.99415189  0.27641299  1
+  Ru  Ru10  1  0.73740453  0.03624438  0.70585012  1
+  Ru  Ru11  1  0.75602061  0.51196557  0.79347295  1

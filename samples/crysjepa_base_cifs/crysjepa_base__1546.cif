@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Na2Tl2OF5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.13254773
+_cell_length_b   5.82425315
+_cell_length_c   6.56600766
+_cell_angle_alpha   79.61240609
+_cell_angle_beta   77.76739823
+_cell_angle_gamma   70.90472289
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2Tl2OF5
+_chemical_formula_sum   'Na2 Tl2 O1 F5'
+_cell_volume   215.01554050
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.74884284  0.77896833  0.52881855  1
+  F  F1  1  0.22597605  0.23149912  0.48381779  1
+  F  F2  1  0.25479871  0.23687895  0.01581324  1
+  F  F3  1  0.26347637  0.74636072  0.00000000  1
+  F  F4  1  0.75594389  0.25515616  0.02415556  1
+  F  F5  1  0.77212554  0.79337120  0.00650746  1
+  Na  Na6  1  0.14125407  0.20439525  0.22112903  1
+  Na  Na7  1  0.88009834  0.81676769  0.77231455  1
+  Tl  Tl8  1  0.33572277  0.29074207  0.65296912  1
+  Tl  Tl9  1  0.72329313  0.67359108  0.31515211  1

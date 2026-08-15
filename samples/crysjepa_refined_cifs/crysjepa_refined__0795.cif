@@ -1,0 +1,29 @@
+# generated using pymatgen
+data_AcDyHg
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.51066309
+_cell_length_b   4.70744469
+_cell_length_c   5.92901519
+_cell_angle_alpha   72.66470386
+_cell_angle_beta   75.63213105
+_cell_angle_gamma   86.91752140
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AcDyHg
+_chemical_formula_sum   'Ac1 Dy1 Hg1'
+_cell_volume   90.58664831
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.01084811  0.00000000  0.98578942  1
+  Ac  Ac1  1  0.31949317  0.62889600  0.67691457  1
+  Hg  Hg2  1  0.67090660  0.35308647  0.32270464  1

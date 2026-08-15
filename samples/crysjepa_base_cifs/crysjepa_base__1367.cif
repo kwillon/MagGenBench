@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Cs2HgBiI6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.78979191
+_cell_length_b   8.99386940
+_cell_length_c   8.95124977
+_cell_angle_alpha   57.73588285
+_cell_angle_beta   55.58210921
+_cell_angle_gamma   55.32118726
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2HgBiI6
+_chemical_formula_sum   'Cs2 Hg1 Bi1 I6'
+_cell_volume   455.95754353
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  0.22913805  0.24656487  0.73223478  1
+  I  I1  1  0.25364199  0.75609195  0.25624678  1
+  I  I2  1  0.23291293  0.73939449  0.74404979  1
+  I  I3  1  0.74411094  0.23829505  0.24690428  1
+  I  I4  1  0.73180300  0.23928219  0.75568241  1
+  I  I5  1  0.73162532  0.76149231  0.24333133  1
+  Cs  Cs6  1  0.25491288  0.24787009  0.25240439  1
+  Cs  Cs7  1  0.77286839  0.73202163  0.75096309  1
+  Hg  Hg8  1  0.50522703  0.48372033  0.47719014  1
+  Bi  Bi9  1  0.00000000  0.00000000  0.00000000  1

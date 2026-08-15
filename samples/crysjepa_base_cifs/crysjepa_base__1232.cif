@@ -1,0 +1,28 @@
+# generated using pymatgen
+data_TlMo
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.37847605
+_cell_length_b   3.42032013
+_cell_length_c   5.01449367
+_cell_angle_alpha   91.90611833
+_cell_angle_beta   101.60252339
+_cell_angle_gamma   80.11413409
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TlMo
+_chemical_formula_sum   'Tl1 Mo1'
+_cell_volume   55.91795827
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mo  Mo0  1  0.00601165  0.02816671  0.00000000  1
+  Tl  Tl1  1  0.48003656  0.48185232  0.48218393  1

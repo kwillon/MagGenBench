@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_LiMg2Co
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.44737170
+_cell_length_b   4.46695647
+_cell_length_c   4.13641202
+_cell_angle_alpha   88.64464178
+_cell_angle_beta   119.72728182
+_cell_angle_gamma   121.91659574
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiMg2Co
+_chemical_formula_sum   'Li1 Mg2 Co1'
+_cell_volume   57.31341891
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  1.00000000  1.00000000  0.00000000  1
+  Mg  Mg1  1  0.51045591  0.25496742  0.77860320  1
+  Mg  Mg2  1  0.51828408  0.78521776  0.20313850  1
+  Co  Co3  1  0.99783540  0.48455968  0.50008005  1

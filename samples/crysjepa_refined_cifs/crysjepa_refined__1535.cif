@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Zn4InAg
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.66324885
+_cell_length_b   5.44786266
+_cell_length_c   4.93913645
+_cell_angle_alpha   114.77760416
+_cell_angle_beta   85.47881731
+_cell_angle_gamma   101.45588717
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zn4InAg
+_chemical_formula_sum   'Zn4 In1 Ag1'
+_cell_volume   111.65516951
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.49604884  0.45747340  0.49504891  1
+  In  In1  1  0.48799837  0.50818992  0.98644125  1
+  Zn  Zn2  1  0.52908736  1.00000000  0.45708641  1
+  Zn  Zn3  1  1.00000000  0.30890667  0.66591972  1
+  Zn  Zn4  1  1.00000000  0.65125030  0.36627033  1
+  Ag  Ag5  1  0.03556988  0.96626920  0.99099731  1

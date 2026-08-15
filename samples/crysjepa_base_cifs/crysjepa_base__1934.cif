@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_BaUCdTe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.40276406
+_cell_length_b   8.56897742
+_cell_length_c   11.84773671
+_cell_angle_alpha   94.05696863
+_cell_angle_beta   85.75333323
+_cell_angle_gamma   108.16268663
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaUCdTe3
+_chemical_formula_sum   'Ba2 U2 Cd2 Te6'
+_cell_volume   423.00875621
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  0.52605975  0.10175113  0.25079238  1
+  Cd  Cd1  1  0.44871837  0.92895782  0.74105233  1
+  Te  Te2  1  0.07008433  0.14905016  0.75004429  1
+  Te  Te3  1  0.37151289  0.74173093  0.54798555  1
+  Te  Te4  1  0.37341961  0.70295829  0.94873691  1
+  Te  Te5  1  0.61226386  0.26403683  0.05623212  1
+  Te  Te6  1  0.61192447  0.28108230  0.41576001  1
+  Te  Te7  1  0.92882621  0.87119609  0.23295720  1
+  Ba  Ba8  1  0.26155493  0.47437528  0.25184458  1
+  Ba  Ba9  1  0.74441344  0.48843831  0.74207419  1
+  U  U10  1  0.00000000  0.00000000  0.02814345  1
+  U  U11  1  0.00557210  0.00028959  0.48936018  1

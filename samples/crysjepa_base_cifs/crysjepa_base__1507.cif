@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CaCu3(SeO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.82523656
+_cell_length_b   5.64624541
+_cell_length_c   6.09068680
+_cell_angle_alpha   112.52965146
+_cell_angle_beta   94.05419527
+_cell_angle_gamma   96.60782800
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaCu3(SeO3)2
+_chemical_formula_sum   'Ca1 Cu3 Se2 O6'
+_cell_volume   151.05898538
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.17998569  0.34277004  0.41477519  1
+  O  O1  1  0.21525936  0.65900588  0.91182488  1
+  O  O2  1  0.32308877  0.14677818  0.76959664  1
+  O  O3  1  0.69656277  0.29391447  0.11488272  1
+  O  O4  1  0.77100044  0.84424001  0.23529032  1
+  O  O5  1  0.84376878  0.66402167  0.62778431  1
+  Ca  Ca6  1  0.33771601  0.59227711  0.22590183  1
+  Cu  Cu7  1  0.47897694  0.00000000  0.00000000  1
+  Cu  Cu8  1  0.50071675  0.50373864  0.49859375  1
+  Cu  Cu9  1  0.66427028  0.37794521  0.77496022  1
+  Se  Se10  1  0.07184850  0.84936261  0.70977885  1
+  Se  Se11  1  0.93118042  0.15726124  0.28295162  1

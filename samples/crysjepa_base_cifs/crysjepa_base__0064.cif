@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_CaB2Mo3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.00437407
+_cell_length_b   4.20829707
+_cell_length_c   6.00432489
+_cell_angle_alpha   106.06769730
+_cell_angle_beta   115.18674805
+_cell_angle_gamma   85.33301356
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaB2Mo3
+_chemical_formula_sum   'Ca1 B2 Mo3'
+_cell_volume   87.90851178
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  B  B0  1  0.33611453  0.36994314  0.73167539  1
+  B  B1  1  0.65469927  0.66682225  0.27253515  1
+  Ca  Ca2  1  0.00000000  0.00000000  0.03672872  1
+  Mo  Mo3  1  0.22317140  0.43843597  0.34544772  1
+  Mo  Mo4  1  0.46479872  0.81504470  0.64006865  1
+  Mo  Mo5  1  0.77818257  0.26776367  0.53127748  1

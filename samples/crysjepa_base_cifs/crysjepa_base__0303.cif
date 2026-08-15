@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_NaSiN2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.08390678
+_cell_length_b   5.69560084
+_cell_length_c   7.13865043
+_cell_angle_alpha   89.72806542
+_cell_angle_beta   91.43295015
+_cell_angle_gamma   88.89811269
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaSiN2
+_chemical_formula_sum   'Na4 Si4 N8'
+_cell_volume   206.60039440
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  N  N0  1  0.33239409  0.03918020  0.10365108  1
+  N  N1  1  0.33924502  0.54496121  0.42435762  1
+  N  N2  1  0.45084977  0.11754364  0.69870621  1
+  N  N3  1  0.45616940  0.64065105  0.79930639  1
+  N  N4  1  0.82370049  0.46723029  0.56769574  1
+  N  N5  1  0.85497302  0.94971478  0.91791558  1
+  N  N6  1  0.91497481  0.37778044  0.16797155  1
+  N  N7  1  0.92794645  0.91011399  0.33747900  1
+  Na  Na8  1  0.46674165  0.43094420  0.12195992  1
+  Na  Na9  1  0.50183868  0.92494917  0.39632717  1
+  Na  Na10  1  0.98876941  0.09508049  0.59787041  1
+  Na  Na11  1  0.99818766  0.56055999  0.86564231  1
+  Si  Si12  1  0.00000000  0.08194597  0.12299819  1
+  Si  Si13  1  0.01831820  0.55260062  0.39345050  1
+  Si  Si14  1  0.51976657  0.43567973  0.63049334  1
+  Si  Si15  1  0.51104772  0.92003340  0.87002724  1

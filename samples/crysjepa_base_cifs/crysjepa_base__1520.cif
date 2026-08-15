@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_NdFe3SiGe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.17213065
+_cell_length_b   7.50100881
+_cell_length_c   7.03126056
+_cell_angle_alpha   98.13229103
+_cell_angle_beta   88.78894852
+_cell_angle_gamma   91.08352812
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NdFe3SiGe2
+_chemical_formula_sum   'Nd2 Fe6 Si2 Ge4'
+_cell_volume   217.75504265
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.01953754  0.09643975  0.18491513  1
+  Si  Si1  1  0.02686728  0.62212771  0.64256811  1
+  Fe  Fe2  1  0.00000000  0.39280561  0.40379304  1
+  Fe  Fe3  1  0.00000000  0.95063400  0.62298089  1
+  Fe  Fe4  1  0.53077871  0.13583572  0.55932277  1
+  Fe  Fe5  1  0.51978880  0.40204763  0.78745586  1
+  Fe  Fe6  1  0.52385759  0.60389155  0.21114822  1
+  Fe  Fe7  1  0.54849654  0.85834938  0.45111141  1
+  Ge  Ge8  1  0.00000000  0.21251172  0.73499131  1
+  Ge  Ge9  1  0.00636371  0.80187315  0.27929676  1
+  Ge  Ge10  1  0.51360810  0.34064338  0.31458890  1
+  Ge  Ge11  1  0.49545243  0.70936376  0.75399518  1
+  Nd  Nd12  1  0.00288886  0.50347877  0.01089961  1
+  Nd  Nd13  1  0.50290555  0.00000000  0.00690221  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ga2Ag
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.39117793
+_cell_length_b   5.99744830
+_cell_length_c   7.57398342
+_cell_angle_alpha   90.46435703
+_cell_angle_beta   69.51108579
+_cell_angle_gamma   91.02787535
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ga2Ag
+_chemical_formula_sum   'Ga8 Ag4'
+_cell_volume   229.36272948
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.23937257  0.01019420  0.28207001  1
+  Ga  Ga1  1  0.11327498  0.77400678  0.95111072  1
+  Ga  Ga2  1  0.19810125  0.53086674  0.30643371  1
+  Ga  Ga3  1  0.43815115  0.02854903  0.63989639  1
+  Ga  Ga4  1  0.69645542  0.26449180  0.26553106  1
+  Ga  Ga5  1  0.62997770  1.00000000  0.93959409  1
+  Ga  Ga6  1  0.71953696  0.78308278  0.31704792  1
+  Ga  Ga7  1  0.94496989  0.26297933  0.56270087  1
+  Ag  Ag8  1  0.14448963  0.24578026  0.95669150  1
+  Ag  Ag9  1  0.43661025  0.53392619  0.61283022  1
+  Ag  Ag10  1  0.62253636  0.51558745  0.94688600  1
+  Ag  Ag11  1  0.95551759  0.79727232  0.61575723  1

@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_NaHfN
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.74542173
+_cell_length_b   4.22324739
+_cell_length_c   9.16719175
+_cell_angle_alpha   89.42039515
+_cell_angle_beta   96.57813791
+_cell_angle_gamma   114.68625572
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaHfN
+_chemical_formula_sum   'Na2 Hf2 N2'
+_cell_volume   130.77115745
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  N  N0  1  0.00553534  0.01349292  0.00390847  1
+  N  N1  1  0.01015005  0.01447022  0.48884776  1
+  Na  Na2  1  0.33620802  0.68839282  0.66944546  1
+  Na  Na3  1  0.65529978  0.32527605  0.31547958  1
+  Hf  Hf4  1  0.31327084  0.68378305  0.08029123  1
+  Hf  Hf5  1  0.66773617  0.27665329  0.86999834  1

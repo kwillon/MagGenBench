@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_LiPmSiAu
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.28522387
+_cell_length_b   4.81059638
+_cell_length_c   4.72598280
+_cell_angle_alpha   62.78926034
+_cell_angle_beta   55.62618752
+_cell_angle_gamma   61.25772823
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiPmSiAu
+_chemical_formula_sum   'Li1 Pm1 Si1 Au1'
+_cell_volume   84.04230946
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.01676572  0.00000000  0.00000000  1
+  Si  Si1  1  0.48775798  0.49599770  0.49529439  1
+  Pm  Pm2  1  0.24587880  0.25153974  0.25711676  1
+  Au  Au3  1  0.75185078  0.74207664  0.75310099  1

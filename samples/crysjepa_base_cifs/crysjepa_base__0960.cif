@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_In5(SeO2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.91067984
+_cell_length_b   5.54213666
+_cell_length_c   11.78391727
+_cell_angle_alpha   86.20376205
+_cell_angle_beta   94.00192153
+_cell_angle_gamma   96.92942119
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   In5(SeO2)2
+_chemical_formula_sum   'In5 Se2 O4'
+_cell_volume   252.48423855
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.18478771  0.39143541  0.45356196  1
+  O  O1  1  0.23765810  0.72214317  0.09799801  1
+  O  O2  1  0.75816882  0.26056191  0.93399298  1
+  O  O3  1  0.77830303  0.58644420  0.54521346  1
+  Se  Se4  1  0.34803084  0.78028464  0.73065293  1
+  Se  Se5  1  0.64294153  0.22017705  0.28571624  1
+  In  In6  1  0.00976174  0.00026807  0.00000000  1
+  In  In7  1  0.14925183  0.18472658  0.54019338  1
+  In  In8  1  0.38921091  0.41996616  0.84269488  1
+  In  In9  1  0.59853965  0.59759718  0.18005063  1
+  In  In10  1  0.83520943  0.79482591  0.45035976  1

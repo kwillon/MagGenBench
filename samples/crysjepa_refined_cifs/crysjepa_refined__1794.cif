@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Yb2PuFe9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.39515796
+_cell_length_b   4.88315568
+_cell_length_c   8.61423771
+_cell_angle_alpha   76.23200077
+_cell_angle_beta   64.10847362
+_cell_angle_gamma   61.29430897
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Yb2PuFe9
+_chemical_formula_sum   'Yb2 Pu1 Fe9'
+_cell_volume   178.95818913
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.08697145  0.60188663  0.76954883  1
+  Fe  Fe1  1  0.32136711  0.32933676  0.00000000  1
+  Fe  Fe2  1  0.44643262  0.41854355  0.21605159  1
+  Fe  Fe3  1  0.42464730  0.90056139  0.19808502  1
+  Fe  Fe4  1  0.52672857  0.47889394  0.50815916  1
+  Fe  Fe5  1  0.61039281  0.08843297  0.76822734  1
+  Fe  Fe6  1  0.60338295  0.57413435  0.77656090  1
+  Fe  Fe7  1  0.70759052  0.67570364  0.00949710  1
+  Fe  Fe8  1  0.93749130  0.40785310  0.25333527  1
+  Yb  Yb9  1  0.10782191  0.14779627  0.61984503  1
+  Yb  Yb10  1  0.87328267  0.84841466  0.43142599  1
+  Pu  Pu11  1  1.00000000  0.00000000  0.00000000  1

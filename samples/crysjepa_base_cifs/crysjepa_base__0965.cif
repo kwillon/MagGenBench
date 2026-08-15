@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Ba2DyGaO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.22329780
+_cell_length_b   5.76372076
+_cell_length_c   5.65617664
+_cell_angle_alpha   59.90617457
+_cell_angle_beta   62.51478912
+_cell_angle_gamma   59.29828936
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2DyGaO6
+_chemical_formula_sum   'Ba2 Dy1 Ga1 O6'
+_cell_volume   145.05882306
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.28460568  0.26238295  0.72490489  1
+  O  O1  1  0.28292099  0.72486758  0.27180073  1
+  O  O2  1  0.24236371  0.74061722  0.73190534  1
+  O  O3  1  0.73664260  0.26276341  0.25007486  1
+  O  O4  1  0.73980546  0.26988342  0.74669147  1
+  O  O5  1  0.73779833  0.73812199  0.26608503  1
+  Ga  Ga6  1  0.47386059  0.49971980  0.50391877  1
+  Ba  Ba7  1  0.25297266  0.24308877  0.25414622  1
+  Ba  Ba8  1  0.77079397  0.75346577  0.74506414  1
+  Dy  Dy9  1  0.00000000  0.01167270  0.00117178  1

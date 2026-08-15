@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_TlCd2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.85592492
+_cell_length_b   5.70468864
+_cell_length_c   6.53826081
+_cell_angle_alpha   101.13226950
+_cell_angle_beta   104.57424334
+_cell_angle_gamma   119.61555685
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TlCd2
+_chemical_formula_sum   'Tl2 Cd4'
+_cell_volume   170.19452190
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  0.07924153  0.96127152  0.76660728  1
+  Cd  Cd1  1  0.33316129  0.83010232  0.14026858  1
+  Cd  Cd2  1  0.69210511  0.21063429  0.85098600  1
+  Cd  Cd3  1  0.96383274  0.06875635  0.24045788  1
+  Tl  Tl4  1  0.30273965  0.58228081  0.75031888  1
+  Tl  Tl5  1  0.72511548  0.47463974  0.27895075  1

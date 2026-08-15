@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Li2AgBr2F5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.32951283
+_cell_length_b   6.66494408
+_cell_length_c   9.90055953
+_cell_angle_alpha   90.89384807
+_cell_angle_beta   100.87475205
+_cell_angle_gamma   90.64693616
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2AgBr2F5
+_chemical_formula_sum   'Li4 Ag2 Br4 F10'
+_cell_volume   410.07008133
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.08660275  0.46039048  0.84116399  1
+  Li  Li1  1  0.45879093  0.23451602  0.25805509  1
+  Li  Li2  1  0.51174051  0.24160206  0.76487404  1
+  Li  Li3  1  0.90966487  0.85950470  0.21580790  1
+  F  F4  1  0.11478585  0.21851322  0.71019757  1
+  F  F5  1  0.17592809  0.42836669  0.72997320  1
+  F  F6  1  0.20217800  0.57290065  0.11508228  1
+  F  F7  1  0.34487471  0.71444255  0.41763532  1
+  F  F8  1  0.45672908  0.21760787  0.20023106  1
+  F  F9  1  0.57330257  0.52793336  0.62753421  1
+  F  F10  1  0.64956045  0.28708655  0.86949569  1
+  F  F11  1  0.69216448  0.71774817  0.12593442  1
+  F  F12  1  0.80898732  0.40654072  0.60572922  1
+  F  F13  1  0.91472620  0.82572591  0.39571825  1
+  Br  Br14  1  0.17503746  0.12661824  0.18778028  1
+  Br  Br15  1  0.24186851  0.73166525  0.64346457  1
+  Br  Br16  1  0.58341682  0.24646911  0.35298902  1
+  Br  Br17  1  0.79565203  0.79283750  0.83852249  1
+  Ag  Ag18  1  0.51729745  0.52885067  0.11197927  1
+  Ag  Ag19  1  0.97211391  0.43985552  0.48133266  1

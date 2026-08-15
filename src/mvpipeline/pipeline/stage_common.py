@@ -124,6 +124,36 @@ def success_ids_from_records(records: Iterable[Mapping[str, Any]]) -> frozenset[
     )
 
 
+def require_all_status_ok(
+    records: Sequence[Mapping[str, Any]],
+    *,
+    expected_count: int,
+    label: str,
+) -> None:
+    rows = list(records)
+
+    if len(rows) != expected_count:
+        raise RuntimeError(
+            f"{label}: expected {expected_count} rows, got {len(rows)}"
+        )
+
+    bad_statuses = [
+        str(record.get("status") or "")
+        for record in rows
+        if record.get("status") != SUCCESS_STATUS
+    ]
+
+    if bad_statuses:
+        counts = {
+            status: bad_statuses.count(status)
+            for status in sorted(set(bad_statuses))
+        }
+        raise RuntimeError(
+            f"{label}: non-success statuses: {counts}"
+        )
+
+
+
 def select_records_for_run(
     records: Sequence[PreparedStructureRecord],
     settings: StageRunSettings,

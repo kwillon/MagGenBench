@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_LiCuTcNi
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.34557311
+_cell_length_b   4.60900310
+_cell_length_c   4.31613579
+_cell_angle_alpha   48.13687349
+_cell_angle_beta   55.18779151
+_cell_angle_gamma   59.81280824
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiCuTcNi
+_chemical_formula_sum   'Li1 Cu1 Tc1 Ni1'
+_cell_volume   51.79813215
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.25402793  0.23679338  0.26225477  1
+  Tc  Tc1  1  0.01189898  0.00123608  0.00549070  1
+  Cu  Cu2  1  0.72422326  0.74531519  0.75468248  1
+  Ni  Ni3  1  0.50518435  0.51666641  0.51183051  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_K2NaSnCl6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.61700871
+_cell_length_b   7.73426745
+_cell_length_c   7.24545156
+_cell_angle_alpha   59.68054262
+_cell_angle_beta   55.22048981
+_cell_angle_gamma   64.01738977
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2NaSnCl6
+_chemical_formula_sum   'K2 Na1 Sn1 Cl6'
+_cell_volume   295.77431681
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.49931288  0.47817644  0.51168734  1
+  Cl  Cl1  1  0.24120097  0.24589823  0.74584311  1
+  Cl  Cl2  1  0.23003487  0.74177843  0.24402715  1
+  Cl  Cl3  1  0.23345719  0.78922403  0.77170283  1
+  Cl  Cl4  1  0.78263438  0.21969712  0.24937475  1
+  Cl  Cl5  1  0.76491272  0.24749684  0.75990570  1
+  Cl  Cl6  1  0.77427471  0.75339687  0.22329578  1
+  K  K7  1  0.23990119  0.26658803  0.24592035  1
+  Sn  Sn8  1  0.01552655  0.00000000  0.01763764  1
+  K  K9  1  0.74757028  0.74281460  0.74238878  1

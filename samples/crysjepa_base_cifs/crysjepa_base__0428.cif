@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_AlSiH3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.89701884
+_cell_length_b   4.89569776
+_cell_length_c   5.09592356
+_cell_angle_alpha   58.54362904
+_cell_angle_beta   55.23519405
+_cell_angle_gamma   53.41400793
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlSiH3
+_chemical_formula_sum   'Al2 Si2 H6'
+_cell_volume   77.46059420
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  H  H0  1  0.23587096  0.27179202  0.73432267  1
+  H  H1  1  0.27468288  0.74684042  0.27369735  1
+  H  H2  1  0.27593976  0.74557543  0.74684614  1
+  H  H3  1  0.71822160  0.24175254  0.27414507  1
+  H  H4  1  0.71600956  0.25639373  0.75185150  1
+  H  H5  1  0.73914993  0.73212290  0.25513142  1
+  Al  Al6  1  0.01742898  0.00963387  0.00638511  1
+  Al  Al7  1  0.49808973  0.51173145  0.51560688  1
+  Si  Si8  1  0.24107945  0.24139562  0.23316488  1
+  Si  Si9  1  0.73001570  0.76943338  0.78036249  1

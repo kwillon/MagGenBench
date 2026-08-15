@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_UCuSiGe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.48919521
+_cell_length_b   7.55029974
+_cell_length_c   8.61588820
+_cell_angle_alpha   96.82177067
+_cell_angle_beta   89.54916713
+_cell_angle_gamma   87.56555222
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   UCuSiGe
+_chemical_formula_sum   'U4 Cu4 Si4 Ge4'
+_cell_volume   289.67982677
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.26370582  0.33687392  0.43962356  1
+  Si  Si1  1  0.25160813  0.90334707  0.05267211  1
+  Si  Si2  1  0.75498664  0.13441257  0.96188188  1
+  Si  Si3  1  0.74843562  0.64653504  0.55383646  1
+  Cu  Cu4  1  0.24057753  0.08744995  0.32201910  1
+  Cu  Cu5  1  0.26062125  0.58463007  0.24704503  1
+  Cu  Cu6  1  0.74703687  0.39989260  0.74949402  1
+  Cu  Cu7  1  0.75189352  0.91296142  0.66397053  1
+  Ge  Ge8  1  0.26008788  0.24420005  0.04912978  1
+  Ge  Ge9  1  0.25207800  0.77792591  0.49174410  1
+  Ge  Ge10  1  0.78699374  0.25798342  0.53064740  1
+  Ge  Ge11  1  0.75454777  0.75443077  0.92393416  1
+  U  U12  1  0.25513643  0.03942166  0.72493243  1
+  U  U13  1  0.23657161  0.55047387  0.81584692  1
+  U  U14  1  0.74533796  0.45507315  0.17940076  1
+  U  U15  1  0.73300683  0.93680578  0.28563246  1

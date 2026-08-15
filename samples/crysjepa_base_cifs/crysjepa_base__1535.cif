@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CoSnTe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.58864832
+_cell_length_b   6.45904337
+_cell_length_c   6.45891931
+_cell_angle_alpha   87.47283984
+_cell_angle_beta   95.75237476
+_cell_angle_gamma   96.60926578
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CoSnTe
+_chemical_formula_sum   'Co4 Sn4 Te4'
+_cell_volume   271.51903457
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.04563082  0.19663046  0.23343007  1
+  Co  Co1  1  0.47981840  0.36648336  0.69030803  1
+  Co  Co2  1  0.53224337  0.62823009  0.28371981  1
+  Co  Co3  1  0.96866256  0.77133411  0.78741390  1
+  Te  Te4  1  0.10578313  0.28382775  0.86547470  1
+  Te  Te5  1  0.40572873  0.12238000  0.33783728  1
+  Te  Te6  1  0.57862025  0.83995265  0.65754974  1
+  Te  Te7  1  0.87834883  0.70723361  0.16363415  1
+  Sn  Sn8  1  0.16610204  0.76973444  0.48744479  1
+  Sn  Sn9  1  0.32996693  0.68218356  0.94237673  1
+  Sn  Sn10  1  0.66947341  0.27838603  0.04800144  1
+  Sn  Sn11  1  0.85102063  0.23212129  0.54340547  1

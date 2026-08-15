@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_SiOsAu
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.36367724
+_cell_length_b   4.73050420
+_cell_length_c   4.88165176
+_cell_angle_alpha   78.91429567
+_cell_angle_beta   72.17078039
+_cell_angle_gamma   54.20144421
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SiOsAu
+_chemical_formula_sum   'Si2 Os2 Au2'
+_cell_volume   77.79492829
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.00000000  0.00000000  0.00000000  1
+  Si  Si1  1  0.50629574  0.50780499  0.51573300  1
+  Au  Au2  1  0.28632057  0.32518804  0.17963533  1
+  Au  Au3  1  0.75786746  0.71141541  0.84634906  1
+  Os  Os4  1  0.35248509  0.86622506  0.50770700  1
+  Os  Os5  1  0.85972095  0.22631271  0.49801105  1

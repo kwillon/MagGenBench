@@ -1,0 +1,28 @@
+# generated using pymatgen
+data_MgRu
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.53625230
+_cell_length_b   2.99252093
+_cell_length_c   3.24445165
+_cell_angle_alpha   93.74771700
+_cell_angle_beta   95.44906648
+_cell_angle_gamma   95.68260795
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgRu
+_chemical_formula_sum   'Mg1 Ru1'
+_cell_volume   33.91365819
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.03487859  0.00243546  0.00000000  1
+  Ru  Ru1  1  0.48526192  0.49550408  0.49017534  1

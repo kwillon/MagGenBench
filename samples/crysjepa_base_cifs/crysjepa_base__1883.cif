@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_ThTiMnSi6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.55462884
+_cell_length_b   4.99050616
+_cell_length_c   7.54219450
+_cell_angle_alpha   95.06941491
+_cell_angle_beta   95.50659548
+_cell_angle_gamma   113.19128093
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ThTiMnSi6
+_chemical_formula_sum   'Th1 Ti1 Mn1 Si6'
+_cell_volume   155.35544302
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.15849267  0.36789185  0.04225979  1
+  Si  Si1  1  0.16456275  0.80821675  0.34330091  1
+  Si  Si2  1  0.32769632  0.17929687  0.67890686  1
+  Si  Si3  1  0.65527725  0.84089774  0.66152459  1
+  Si  Si4  1  0.82031107  0.15574563  0.37969622  1
+  Si  Si5  1  0.83772314  0.64616579  0.97029275  1
+  Mn  Mn6  1  0.48849586  0.49188417  0.33359680  1
+  Ti  Ti7  1  0.01849492  0.51110244  0.65634477  1
+  Th  Th8  1  0.50072992  1.00000000  0.02513211  1

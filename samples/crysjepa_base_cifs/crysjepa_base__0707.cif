@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Y2TiMn9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.03536542
+_cell_length_b   4.94729575
+_cell_length_c   7.81511972
+_cell_angle_alpha   78.03396304
+_cell_angle_beta   81.88247958
+_cell_angle_gamma   69.25262341
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y2TiMn9
+_chemical_formula_sum   'Y2 Ti1 Mn9'
+_cell_volume   177.61555990
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.66204113  0.66205883  0.09856054  1
+  Mn  Mn1  1  0.01604411  0.00734922  0.54648733  1
+  Mn  Mn2  1  0.00000000  0.01290738  0.95563209  1
+  Mn  Mn3  1  0.17943603  0.35374561  0.23243381  1
+  Mn  Mn4  1  0.18890002  0.85030508  0.24603164  1
+  Mn  Mn5  1  0.28443155  0.21203724  0.41021514  1
+  Mn  Mn6  1  0.31546697  0.78929108  0.81560695  1
+  Mn  Mn7  1  0.71860421  0.20991738  0.28742903  1
+  Mn  Mn8  1  0.79482991  0.14860122  0.70896089  1
+  Mn  Mn9  1  0.81168938  0.67817730  0.73589730  1
+  Y  Y10  1  0.50935215  0.58568531  0.47832328  1
+  Y  Y11  1  0.40959430  0.33584702  0.89442164  1

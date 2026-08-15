@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_Ac3Ru
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.04134130
+_cell_length_b   5.44542017
+_cell_length_c   5.92200217
+_cell_angle_alpha   64.86343947
+_cell_angle_beta   59.51505205
+_cell_angle_gamma   67.74961336
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ac3Ru
+_chemical_formula_sum   'Ac3 Ru1'
+_cell_volume   124.02617138
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ru  Ru0  1  1.00000000  0.00209822  0.99556392  1
+  Ac  Ac1  1  0.23194802  0.25286639  0.25326276  1
+  Ac  Ac2  1  0.53181177  0.53463727  0.51034093  1
+  Ac  Ac3  1  0.76062900  0.73141992  0.80226719  1

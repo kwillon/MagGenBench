@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_TmNb(CO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.73207702
+_cell_length_b   4.89526540
+_cell_length_c   5.96951243
+_cell_angle_alpha   64.95750512
+_cell_angle_beta   69.02937797
+_cell_angle_gamma   60.28442620
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TmNb(CO3)2
+_chemical_formula_sum   'Tm1 Nb1 C2 O6'
+_cell_volume   106.86411113
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  C  C0  1  0.25449994  0.26417974  0.24262947  1
+  C  C1  1  0.74408084  0.74498451  0.74545968  1
+  O  O2  1  0.04580643  0.47059664  0.74509519  1
+  O  O3  1  0.24025322  0.97513539  0.20300668  1
+  O  O4  1  0.50216657  0.22301574  0.24877311  1
+  O  O5  1  0.51920444  0.74457693  0.75957537  1
+  O  O6  1  0.73924577  0.02086902  0.75252235  1
+  O  O7  1  0.96440959  0.54164332  0.23577210  1
+  Nb  Nb8  1  0.00864519  0.00000000  0.01412025  1
+  Tm  Tm9  1  0.48349482  0.49164197  0.49298343  1

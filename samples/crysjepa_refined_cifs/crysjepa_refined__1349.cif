@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_MgZn4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.33701149
+_cell_length_b   4.61269021
+_cell_length_c   6.42135575
+_cell_angle_alpha   113.87385067
+_cell_angle_beta   105.54104484
+_cell_angle_gamma   94.50134939
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgZn4
+_chemical_formula_sum   'Mg1 Zn4'
+_cell_volume   85.09731127
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.98816228  1.00000000  1.00000000  1
+  Zn  Zn1  1  0.28048238  0.79885387  0.54651797  1
+  Zn  Zn2  1  0.37244099  0.40481693  0.81413287  1
+  Zn  Zn3  1  0.57422900  0.62404007  0.16236269  1
+  Zn  Zn4  1  0.73566711  0.19637905  0.49415255  1

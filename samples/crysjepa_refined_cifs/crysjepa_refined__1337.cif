@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_SmFe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.50639923
+_cell_length_b   5.30818946
+_cell_length_c   7.94672470
+_cell_angle_alpha   91.84886616
+_cell_angle_beta   79.64014777
+_cell_angle_gamma   66.41400315
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SmFe2
+_chemical_formula_sum   'Sm4 Fe8'
+_cell_volume   207.99659709
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.00000000  1.00000000  0.46549174  1
+  Fe  Fe1  1  0.01721466  0.99662834  0.98447007  1
+  Fe  Fe2  1  0.19299063  0.12720890  0.76390350  1
+  Fe  Fe3  1  0.20226426  0.68655270  0.74589753  1
+  Fe  Fe4  1  0.35006553  0.85022819  0.21573256  1
+  Fe  Fe5  1  0.71702087  0.15278238  0.77007109  1
+  Fe  Fe6  1  0.86015075  0.30760688  0.22403002  1
+  Fe  Fe7  1  0.88332784  0.87588763  0.24334645  1
+  Sm  Sm8  1  0.33709458  0.31081107  0.05712285  1
+  Sm  Sm9  1  0.38294902  0.34084925  0.41618419  1
+  Sm  Sm10  1  0.68240738  0.68903303  0.54170924  1
+  Sm  Sm11  1  0.68496799  0.65816176  0.97368783  1

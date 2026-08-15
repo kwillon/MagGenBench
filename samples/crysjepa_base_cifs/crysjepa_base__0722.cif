@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Tm2Cr2C3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.68232804
+_cell_length_b   5.50614347
+_cell_length_c   5.37752057
+_cell_angle_alpha   104.28255297
+_cell_angle_beta   94.96958402
+_cell_angle_gamma   99.74505776
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tm2Cr2C3
+_chemical_formula_sum   'Tm2 Cr2 C3'
+_cell_volume   103.19173977
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  C  C0  1  0.00000000  0.00787743  0.51322359  1
+  C  C1  1  0.30378851  0.58835739  0.74249423  1
+  C  C2  1  0.70987397  0.41663051  0.24926111  1
+  Cr  Cr3  1  0.14096691  0.33530372  0.38661176  1
+  Cr  Cr4  1  0.86596406  0.67313689  0.60244995  1
+  Tm  Tm5  1  0.41292715  0.83820158  0.20828575  1
+  Tm  Tm6  1  0.59017950  0.19512750  0.79557878  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ba2CuS2Br
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.73035888
+_cell_length_b   7.40010635
+_cell_length_c   7.76818201
+_cell_angle_alpha   97.96740991
+_cell_angle_beta   85.96242728
+_cell_angle_gamma   90.60261782
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2CuS2Br
+_chemical_formula_sum   'Ba4 Cu2 S4 Br2'
+_cell_volume   382.21141294
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.10652886  0.34404358  0.78864998  1
+  S  S1  1  0.33100465  0.60266376  0.35456237  1
+  S  S2  1  0.61184949  0.41462383  0.15442757  1
+  S  S3  1  0.90147376  0.67452884  0.55713141  1
+  Cu  Cu4  1  0.22159065  0.31130898  0.65329683  1
+  Cu  Cu5  1  0.36506423  0.66539395  0.32785091  1
+  Br  Br6  1  0.53895712  0.11768913  0.27182436  1
+  Br  Br7  1  0.56731766  0.95115459  0.79647732  1
+  Ba  Ba8  1  0.11238648  0.18373857  0.20785995  1
+  Ba  Ba9  1  0.34583300  0.82769018  0.68453413  1
+  Ba  Ba10  1  0.66811866  0.33641818  0.79439116  1
+  Ba  Ba11  1  0.81736588  0.69592053  0.23760076  1

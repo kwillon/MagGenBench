@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_CeCu4Pd
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.81732586
+_cell_length_b   5.12648796
+_cell_length_c   5.08565353
+_cell_angle_alpha   69.81007376
+_cell_angle_beta   66.59874538
+_cell_angle_gamma   59.30731445
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CeCu4Pd
+_chemical_formula_sum   'Ce1 Cu4 Pd1'
+_cell_volume   97.49083752
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.13954934  0.63091743  0.60981351  1
+  Cu  Cu1  1  0.25771055  0.24468754  0.29252097  1
+  Cu  Cu2  1  0.65760481  0.12133172  0.57448542  1
+  Cu  Cu3  1  0.63050616  0.61033261  0.63578832  1
+  Pd  Pd4  1  0.60599643  0.65692341  0.08258951  1
+  Ce  Ce5  1  0.97653407  0.98789757  0.01146442  1

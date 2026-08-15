@@ -1,0 +1,28 @@
+# generated using pymatgen
+data_LiCe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   32.75794538
+_cell_length_b   38.41411290
+_cell_length_c   13.36502758
+_cell_angle_alpha   97.11856376
+_cell_angle_beta   113.78848756
+_cell_angle_gamma   123.64312094
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiCe
+_chemical_formula_sum   'Li1 Ce1'
+_cell_volume   11401.89294414
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.33753800  0.41081938  0.10366946  1
+  Ce  Ce1  1  0.00000000  0.00000000  0.00000000  1

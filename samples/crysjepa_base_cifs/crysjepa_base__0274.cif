@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_KRb2TlBr6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.50162217
+_cell_length_b   8.33500651
+_cell_length_c   8.57802653
+_cell_angle_alpha   54.76897953
+_cell_angle_beta   61.18751230
+_cell_angle_gamma   59.24127554
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KRb2TlBr6
+_chemical_formula_sum   'K1 Rb2 Tl1 Br6'
+_cell_volume   411.25968486
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.49938205  0.50404024  0.51097113  1
+  Br  Br1  1  0.23224668  0.23972438  0.74186558  1
+  Br  Br2  1  0.25444433  0.75251734  0.23377545  1
+  Br  Br3  1  0.23910369  0.75823796  0.78140700  1
+  Br  Br4  1  0.78521514  0.23927052  0.24222736  1
+  Br  Br5  1  0.75289375  0.21263620  0.77031678  1
+  Br  Br6  1  0.76610541  0.76590502  0.23304614  1
+  Rb  Rb7  1  0.26911265  0.23569342  0.26902097  1
+  Rb  Rb8  1  0.73838192  0.77028614  0.75660419  1
+  Tl  Tl9  1  0.00000000  0.00000000  0.00000000  1

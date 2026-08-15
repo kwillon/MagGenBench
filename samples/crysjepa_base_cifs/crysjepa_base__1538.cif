@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_ScTeIr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.18503000
+_cell_length_b   7.41662005
+_cell_length_c   8.21036397
+_cell_angle_alpha   85.50679111
+_cell_angle_beta   94.72667165
+_cell_angle_gamma   98.13305233
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ScTeIr
+_chemical_formula_sum   'Sc4 Te4 Ir4'
+_cell_volume   250.84361831
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  1  0.27294293  0.01802781  0.29993886  1
+  Sc  Sc1  1  0.25070074  0.51171041  0.20670716  1
+  Sc  Sc2  1  0.74028194  0.48123920  0.82028049  1
+  Sc  Sc3  1  0.76639003  0.97353876  0.67982721  1
+  Te  Te4  1  0.25239766  0.18561290  0.91591328  1
+  Te  Te5  1  0.25183704  0.64772147  0.60569912  1
+  Te  Te6  1  0.72150642  0.33990633  0.41361108  1
+  Te  Te7  1  0.71953326  0.85553688  0.07412358  1
+  Ir  Ir8  1  0.24828675  0.28801686  0.60146475  1
+  Ir  Ir9  1  0.23508751  0.79285949  0.93732083  1
+  Ir  Ir10  1  0.75564265  0.22046325  0.09292706  1
+  Ir  Ir11  1  0.74007964  0.75110543  0.39670610  1

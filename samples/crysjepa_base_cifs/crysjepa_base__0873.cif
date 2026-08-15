@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_TeBrCl
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.40145512
+_cell_length_b   8.50214327
+_cell_length_c   11.19019569
+_cell_angle_alpha   94.48640045
+_cell_angle_beta   85.90847039
+_cell_angle_gamma   93.31874015
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TeBrCl
+_chemical_formula_sum   'Te4 Br4 Cl4'
+_cell_volume   415.83364153
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.25303626  0.49971330  0.18956245  1
+  Cl  Cl1  1  0.25286624  0.99824107  0.30972913  1
+  Cl  Cl2  1  0.73539758  0.00000000  0.70332736  1
+  Cl  Cl3  1  0.77107400  0.49544013  0.83615589  1
+  Br  Br4  1  0.27622154  0.15604474  0.90832460  1
+  Br  Br5  1  0.25629124  0.67646611  0.55783492  1
+  Br  Br6  1  0.74688590  0.28850871  0.45433182  1
+  Br  Br7  1  0.74308652  0.83144784  0.09012526  1
+  Te  Te8  1  0.23826391  0.28194332  0.64493501  1
+  Te  Te9  1  0.22632307  0.73620450  0.89421761  1
+  Te  Te10  1  0.76993895  0.25458500  0.12610988  1
+  Te  Te11  1  0.74861670  0.69803649  0.36185795  1

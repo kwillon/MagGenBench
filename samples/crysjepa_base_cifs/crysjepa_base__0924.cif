@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ba3Li2Mn2CoN4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.05722717
+_cell_length_b   5.44100520
+_cell_length_c   8.15835843
+_cell_angle_alpha   92.02210746
+_cell_angle_beta   100.26555328
+_cell_angle_gamma   90.21788390
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba3Li2Mn2CoN4
+_chemical_formula_sum   'Ba3 Li2 Mn2 Co1 N4'
+_cell_volume   220.74593751
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.00000000  0.00036675  0.50694305  1
+  Li  Li1  1  0.51239598  0.51592559  0.01481271  1
+  N  N2  1  0.24231645  0.30183566  0.51902699  1
+  N  N3  1  0.24207810  0.72792608  0.00917641  1
+  N  N4  1  0.75639349  0.26358408  0.00000000  1
+  N  N5  1  0.75704646  0.72924685  0.48182642  1
+  Mn  Mn6  1  0.01584710  0.00000000  0.00000000  1
+  Mn  Mn7  1  0.38261274  0.52211761  0.67611772  1
+  Co  Co8  1  0.55577528  0.50238883  0.33666903  1
+  Ba  Ba9  1  0.00000000  0.48988721  0.32716185  1
+  Ba  Ba10  1  0.50995249  0.00010798  0.25459522  1
+  Ba  Ba11  1  0.52917004  0.00442497  0.75254565  1

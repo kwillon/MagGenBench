@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Ba3CaCuS4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.88340185
+_cell_length_b   8.03155764
+_cell_length_c   9.99267044
+_cell_angle_alpha   115.80467943
+_cell_angle_beta   109.07609613
+_cell_angle_gamma   90.91636385
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba3CaCuS4
+_chemical_formula_sum   'Ba6 Ca2 Cu2 S8'
+_cell_volume   528.93144065
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.00000000  0.25398242  0.72926605  1
+  S  S1  1  0.05010048  0.74716282  0.25157568  1
+  S  S2  1  0.32278240  0.46391085  0.25142455  1
+  S  S3  1  0.50298303  0.02049810  0.71936423  1
+  S  S4  1  0.52204967  0.97407436  0.31131622  1
+  S  S5  1  0.60169482  0.53611076  0.74217927  1
+  S  S6  1  0.73660821  0.18181938  0.22921494  1
+  S  S7  1  0.94288605  0.87303567  0.78948480  1
+  Ca  Ca8  1  0.00774263  0.01868038  0.02293500  1
+  Ca  Ca9  1  0.51377845  0.50066149  0.00612629  1
+  Cu  Cu10  1  0.25595775  0.74179512  0.49541780  1
+  Cu  Cu11  1  0.74623966  0.24828765  0.51064432  1
+  Ba  Ba12  1  0.12309025  0.58380121  0.79524827  1
+  Ba  Ba13  1  0.23678419  0.23799710  0.48039356  1
+  Ba  Ba14  1  0.35353687  0.11155037  0.88390511  1
+  Ba  Ba15  1  0.64458966  0.86984473  0.13796049  1
+  Ba  Ba16  1  0.72535408  0.76619649  0.49114275  1
+  Ba  Ba17  1  0.84215796  0.44367152  0.19575135  1

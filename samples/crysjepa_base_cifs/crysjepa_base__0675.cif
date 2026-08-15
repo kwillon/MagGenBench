@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Cs2AlH7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.95600525
+_cell_length_b   5.83091275
+_cell_length_c   5.73424837
+_cell_angle_alpha   64.04794150
+_cell_angle_beta   63.13049540
+_cell_angle_gamma   59.72654033
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2AlH7
+_chemical_formula_sum   'Cs2 Al1 H7'
+_cell_volume   147.62178673
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  H  H0  1  0.25178024  0.25428876  0.74734628  1
+  H  H1  1  0.24548617  0.77374405  0.22135700  1
+  H  H2  1  0.20328398  0.78068775  0.76266390  1
+  H  H3  1  0.76002491  0.24082594  0.21694463  1
+  H  H4  1  0.78285950  0.24032833  0.76076293  1
+  H  H5  1  0.75768209  0.77981317  0.22351849  1
+  H  H6  1  0.51488179  0.52800781  0.50086623  1
+  Cs  Cs7  1  0.25592852  0.25887716  0.24495611  1
+  Cs  Cs8  1  0.75489140  0.75407034  0.75302482  1
+  Al  Al9  1  0.00000000  0.00000000  0.00000000  1

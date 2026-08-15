@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Rb3ErCl6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.94764796
+_cell_length_b   8.31989470
+_cell_length_c   8.01460925
+_cell_angle_alpha   61.13878561
+_cell_angle_beta   54.86301611
+_cell_angle_gamma   57.83720774
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Rb3ErCl6
+_chemical_formula_sum   'Rb3 Er1 Cl6'
+_cell_volume   354.77905564
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.21276648  0.23875886  0.79833639  1
+  Cl  Cl1  1  0.23785648  0.76744711  0.21829204  1
+  Cl  Cl2  1  0.22230196  0.76392913  0.78266656  1
+  Cl  Cl3  1  0.75196576  0.24929619  0.23627542  1
+  Cl  Cl4  1  0.76901853  0.22912434  0.77969557  1
+  Cl  Cl5  1  0.75403529  0.75370491  0.22485219  1
+  Rb  Rb6  1  0.24691327  0.25897619  0.26389238  1
+  Rb  Rb7  1  0.48489937  0.49150261  0.51930892  1
+  Rb  Rb8  1  0.74481350  0.75932515  0.72312164  1
+  Er  Er9  1  0.01437396  0.01866484  0.00267539  1

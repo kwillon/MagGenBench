@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_TmNiSn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.32009722
+_cell_length_b   7.07545633
+_cell_length_c   7.61985074
+_cell_angle_alpha   89.88836751
+_cell_angle_beta   91.88246077
+_cell_angle_gamma   94.33690256
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TmNiSn
+_chemical_formula_sum   'Tm4 Ni4 Sn4'
+_cell_volume   232.12109206
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.25521055  0.17974317  0.93685460  1
+  Ni  Ni1  1  0.25618485  0.71343708  0.58171386  1
+  Ni  Ni2  1  0.74624157  0.31559134  0.39063650  1
+  Ni  Ni3  1  0.74188334  0.80816793  0.05158859  1
+  Sn  Sn4  1  0.27305710  0.30687600  0.58117348  1
+  Sn  Sn5  1  0.25217068  0.81231654  0.89710796  1
+  Sn  Sn6  1  0.74883509  0.20938046  0.09273985  1
+  Sn  Sn7  1  0.75270134  0.70772231  0.40749863  1
+  Tm  Tm8  1  0.23118740  0.50235850  0.18907057  1
+  Tm  Tm9  1  0.22701360  0.99411666  0.30575085  1
+  Tm  Tm10  1  0.73622268  0.01003948  0.72600603  1
+  Tm  Tm11  1  0.75016940  0.50375569  0.81428307  1

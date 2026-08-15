@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Ba2Ti6MnAl2Ga3As4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.26809318
+_cell_length_b   7.21828558
+_cell_length_c   9.09817023
+_cell_angle_alpha   87.82541152
+_cell_angle_beta   78.53102456
+_cell_angle_gamma   77.27361257
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2Ti6MnAl2Ga3As4
+_chemical_formula_sum   'Ba2 Ti6 Mn1 Al2 Ga3 As4'
+_cell_volume   393.50786881
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.02985208  0.55353200  0.28206143  1
+  Ti  Ti1  1  0.20247050  0.06090817  0.52424425  1
+  Ti  Ti2  1  0.25747302  0.69266617  0.96142071  1
+  Ti  Ti3  1  0.33186653  0.41767401  0.67876065  1
+  Ti  Ti4  1  0.42405900  0.42211965  0.17268258  1
+  Al  Al5  1  0.39669573  0.67651153  0.31903756  1
+  Mn  Mn6  1  0.40532190  0.77046567  0.57391179  1
+  Al  Al7  1  0.71533358  0.16238371  0.34125328  1
+  Ti  Ti8  1  0.76100814  0.31709260  0.98471826  1
+  Ga  Ga9  1  0.72974068  0.53662801  0.33396196  1
+  Ga  Ga10  1  0.79673231  0.31181750  0.59045595  1
+  Ga  Ga11  1  0.89022243  0.56122470  0.68734330  1
+  As  As12  1  0.06496408  0.21899846  0.62097871  1
+  As  As13  1  0.31756949  0.35630438  0.95482475  1
+  As  As14  1  0.70247948  0.63989335  0.01450636  1
+  As  As15  1  0.88982594  0.79981285  0.38151801  1
+  Ba  Ba16  1  0.36792046  0.12140912  0.19968353  1
+  Ba  Ba17  1  0.65627366  0.90028906  0.76869106  1

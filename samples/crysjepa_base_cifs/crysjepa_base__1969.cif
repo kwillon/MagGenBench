@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_VZnSbTe4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.40537530
+_cell_length_b   6.12524873
+_cell_length_c   7.68435020
+_cell_angle_alpha   102.31176020
+_cell_angle_beta   106.89860721
+_cell_angle_gamma   90.86260504
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   VZnSbTe4
+_chemical_formula_sum   'V1 Zn1 Sb1 Te4'
+_cell_volume   237.02979745
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  V  V0  1  0.27379853  0.77805108  0.50555128  1
+  Zn  Zn1  1  0.74385726  0.27518639  0.52412260  1
+  Sb  Sb2  1  0.01208161  0.00000000  0.01737174  1
+  Te  Te3  1  0.13787428  0.30418012  0.70124257  1
+  Te  Te4  1  0.36590901  0.23100702  0.26162371  1
+  Te  Te5  1  0.62820655  0.77102196  0.77480674  1
+  Te  Te6  1  0.83951569  0.71764469  0.27562329  1

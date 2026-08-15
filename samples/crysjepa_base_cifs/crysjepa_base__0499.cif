@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_SrNbH2O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.19411322
+_cell_length_b   5.64480146
+_cell_length_c   6.07473800
+_cell_angle_alpha   100.94047190
+_cell_angle_beta   116.70827615
+_cell_angle_gamma   102.29331736
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrNbH2O
+_chemical_formula_sum   'Sr2 Nb2 H4 O2'
+_cell_volume   146.90754406
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  H  H0  1  0.16043399  0.75548196  0.38877109  1
+  H  H1  1  0.46836165  0.17949495  0.62634099  1
+  H  H2  1  0.57005686  0.77404124  0.13589133  1
+  H  H3  1  0.84183949  0.26676467  0.59033859  1
+  O  O4  1  0.25617865  0.76390034  0.75287139  1
+  O  O5  1  0.73509562  0.30533615  0.15321597  1
+  Sr  Sr6  1  0.20959885  0.20422485  0.25538087  1
+  Sr  Sr7  1  0.79694849  0.73702496  0.73929763  1
+  Nb  Nb8  1  0.25374582  0.42299622  0.91153949  1
+  Nb  Nb9  1  0.72693360  0.84425396  0.41525376  1

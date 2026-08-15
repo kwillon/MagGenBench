@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_NdGeRh
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.40061762
+_cell_length_b   7.06355743
+_cell_length_c   7.53368596
+_cell_angle_alpha   89.63174172
+_cell_angle_beta   93.19673654
+_cell_angle_gamma   92.88127822
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NdGeRh
+_chemical_formula_sum   'Nd4 Ge4 Rh4'
+_cell_volume   233.51569591
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.25135916  0.31447181  0.09568414  1
+  Ge  Ge1  1  0.25032553  0.80294597  0.40516689  1
+  Ge  Ge2  1  0.76719582  0.19945870  0.59283668  1
+  Ge  Ge3  1  0.75167102  0.68010348  0.91905671  1
+  Rh  Rh4  1  0.28435180  0.18641396  0.40589967  1
+  Rh  Rh5  1  0.22447294  0.66770124  0.04621125  1
+  Rh  Rh6  1  0.72616965  0.34243223  0.92328811  1
+  Rh  Rh7  1  0.75041062  0.84116179  0.56719369  1
+  Nd  Nd8  1  0.25554824  0.48657066  0.68578261  1
+  Nd  Nd9  1  0.24989764  0.99202091  0.81028354  1
+  Nd  Nd10  1  0.71957481  0.02711406  0.19226904  1
+  Nd  Nd11  1  0.72774774  0.51769084  0.32924670  1

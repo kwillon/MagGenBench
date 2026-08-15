@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_YTe4Pb3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.08751647
+_cell_length_b   4.52392013
+_cell_length_c   13.04182832
+_cell_angle_alpha   90.11651052
+_cell_angle_beta   88.10306899
+_cell_angle_gamma   101.23188851
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YTe4Pb3
+_chemical_formula_sum   'Y1 Te4 Pb3'
+_cell_volume   294.25103168
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.00876981  0.00817117  0.00476326  1
+  Te  Te1  1  0.00000000  0.00000000  0.20779486  1
+  Te  Te2  1  0.01211205  0.00798278  0.74573225  1
+  Te  Te3  1  0.49883938  0.50219178  0.00031043  1
+  Te  Te4  1  0.49666372  0.49464056  0.50181484  1
+  Pb  Pb5  1  0.00000000  0.00000000  0.51433688  1
+  Pb  Pb6  1  0.51601255  0.49130777  0.21961690  1
+  Pb  Pb7  1  0.48831141  0.49071720  0.74990749  1

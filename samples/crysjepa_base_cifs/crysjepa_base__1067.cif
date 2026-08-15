@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Y3Zr2Ga8Ni
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.89601958
+_cell_length_b   8.09832558
+_cell_length_c   8.29788840
+_cell_angle_alpha   77.44432175
+_cell_angle_beta   79.70777121
+_cell_angle_gamma   78.56702365
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y3Zr2Ga8Ni
+_chemical_formula_sum   'Y3 Zr2 Ga8 Ni1'
+_cell_volume   311.59056569
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.21475819  0.14052373  0.58229667  1
+  Ga  Ga1  1  0.13093148  0.56628716  0.13290216  1
+  Ga  Ga2  1  0.30061322  0.00940900  0.29050666  1
+  Ga  Ga3  1  0.34581864  0.29662928  0.01094592  1
+  Ga  Ga4  1  0.68592882  0.69920957  0.97088015  1
+  Ga  Ga5  1  0.67297679  0.96800315  0.69505256  1
+  Ga  Ga6  1  0.90262097  0.41249654  0.85925949  1
+  Ga  Ga7  1  0.84369820  0.87663597  0.42752695  1
+  Ga  Ga8  1  1.00000000  0.46719015  0.49688235  1
+  Y  Y9  1  0.00000000  0.00489241  0.01764057  1
+  Y  Y10  1  0.28595242  0.72192752  0.71085840  1
+  Y  Y11  1  0.68862158  0.29157552  0.30417097  1
+  Zr  Zr12  1  0.49086279  0.29116437  0.68086231  1
+  Zr  Zr13  1  0.49410617  0.69398367  0.32620242  1

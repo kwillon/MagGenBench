@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_LaFe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.32590697
+_cell_length_b   5.12798115
+_cell_length_c   5.00493670
+_cell_angle_alpha   65.42896279
+_cell_angle_beta   58.44746769
+_cell_angle_gamma   64.87439917
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaFe2
+_chemical_formula_sum   'La2 Fe4'
+_cell_volume   102.08527281
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.36764705  0.37016937  0.37153140  1
+  Fe  Fe1  1  0.39421603  0.35871935  0.90267098  1
+  Fe  Fe2  1  0.37305605  0.90183830  0.37579232  1
+  Fe  Fe3  1  0.88549548  0.39907324  0.36804810  1
+  La  La4  1  0.01656478  1.00000000  0.00000000  1
+  La  La5  1  0.77576792  0.73400915  0.75209659  1

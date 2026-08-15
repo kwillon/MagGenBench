@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_PuNp2TiCu3Si8Mo2Pt
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.62517647
+_cell_length_b   5.52731841
+_cell_length_c   14.33396817
+_cell_angle_alpha   90.28680327
+_cell_angle_beta   88.79018612
+_cell_angle_gamma   106.53950845
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   PuNp2TiCu3Si8Mo2Pt
+_chemical_formula_sum   'Pu1 Np2 Ti1 Cu3 Si8 Mo2 Pt1'
+_cell_volume   351.20469283
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.20904699  0.35848138  0.11450155  1
+  Si  Si1  1  0.21583989  0.51022661  0.65303290  1
+  Si  Si2  1  0.22303224  0.92174405  0.33559769  1
+  Si  Si3  1  0.21023919  0.94280612  0.87368762  1
+  Si  Si4  1  0.71457964  0.08141235  0.13038033  1
+  Si  Si5  1  0.72292769  0.11713283  0.64424938  1
+  Si  Si6  1  0.71259147  0.53709716  0.33629507  1
+  Si  Si7  1  0.71106166  0.63875526  0.86027861  1
+  Ti  Ti8  1  0.50589865  0.79471934  0.18852337  1
+  Cu  Cu9  1  0.48560670  0.18195257  0.79045665  1
+  Cu  Cu10  1  0.49896950  0.31244984  0.43133786  1
+  Cu  Cu11  1  0.50029457  0.70209020  0.52842623  1
+  Mo  Mo12  1  0.00999438  0.22998814  0.26417279  1
+  Mo  Mo13  1  0.00000000  0.25238049  0.56768882  1
+  Np  Np14  1  0.00789647  0.53977269  0.93982357  1
+  Pu  Pu15  1  0.00000000  0.72179228  0.48077109  1
+  Np  Np16  1  0.49770847  0.47114441  0.07054436  1
+  Pt  Pt17  1  0.52014804  0.85859901  0.73492992  1

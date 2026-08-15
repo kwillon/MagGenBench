@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Zn5Ag
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.76404339
+_cell_length_b   5.20483595
+_cell_length_c   4.93203401
+_cell_angle_alpha   128.82038181
+_cell_angle_beta   88.38699984
+_cell_angle_gamma   94.13561032
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zn5Ag
+_chemical_formula_sum   'Zn5 Ag1'
+_cell_volume   95.01089041
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.47773218  0.48236531  0.00000000  1
+  Zn  Zn1  1  0.50375766  0.47334427  0.48569903  1
+  Zn  Zn2  1  0.48893341  0.99927646  0.48586634  1
+  Zn  Zn3  1  1.00000000  0.32858762  0.64277691  1
+  Zn  Zn4  1  0.99885750  0.65176618  0.34304836  1
+  Ag  Ag5  1  0.00000000  1.00000000  1.00000000  1

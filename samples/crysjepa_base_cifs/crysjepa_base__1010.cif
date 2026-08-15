@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_Al3Os
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.03824899
+_cell_length_b   4.49859025
+_cell_length_c   4.54131513
+_cell_angle_alpha   59.01221578
+_cell_angle_beta   59.87150281
+_cell_angle_gamma   60.08347840
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al3Os
+_chemical_formula_sum   'Al3 Os1'
+_cell_volume   57.86822134
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.01654692  0.00000000  0.00000000  1
+  Al  Al1  1  0.26110238  0.24123800  0.26443166  1
+  Al  Al2  1  0.76160800  0.74261075  0.73600334  1
+  Os  Os3  1  0.48242894  0.48591176  0.48118043  1

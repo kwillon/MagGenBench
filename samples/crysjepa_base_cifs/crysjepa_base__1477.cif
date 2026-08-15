@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Rb3Fe2N4Cl3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.82917963
+_cell_length_b   6.04770122
+_cell_length_c   9.84562802
+_cell_angle_alpha   109.42700620
+_cell_angle_beta   86.51247566
+_cell_angle_gamma   107.74917717
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Rb3Fe2N4Cl3
+_chemical_formula_sum   'Rb3 Fe2 N4 Cl3'
+_cell_volume   258.00332657
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  N  N0  1  0.14441258  0.57341784  0.85433644  1
+  N  N1  1  0.33107820  0.72738183  0.46350840  1
+  N  N2  1  0.66437316  0.26499322  0.52981579  1
+  N  N3  1  0.84793359  0.38525617  0.14776088  1
+  Cl  Cl4  1  0.14870046  0.27771398  0.54295033  1
+  Cl  Cl5  1  0.29159486  0.14512314  0.20090833  1
+  Cl  Cl6  1  0.71408296  0.84209657  0.82673824  1
+  Fe  Fe7  1  0.11213763  0.12642129  0.29660919  1
+  Fe  Fe8  1  0.87798715  0.86327910  0.73507267  1
+  Rb  Rb9  1  0.33915114  0.61738378  0.09386589  1
+  Rb  Rb10  1  0.63046378  0.33942756  0.88234681  1
+  Rb  Rb11  1  0.87598920  0.72117245  0.43072352  1

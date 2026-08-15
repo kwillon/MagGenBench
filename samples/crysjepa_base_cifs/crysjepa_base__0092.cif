@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_DyAg2Br
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.27240080
+_cell_length_b   5.20888106
+_cell_length_c   5.52798010
+_cell_angle_alpha   51.91964692
+_cell_angle_beta   54.02761237
+_cell_angle_gamma   60.29569866
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   DyAg2Br
+_chemical_formula_sum   'Dy1 Ag2 Br1'
+_cell_volume   94.57392603
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  1  0.24109712  0.24902213  0.24059515  1
+  Ag  Ag1  1  0.75715494  0.74124455  0.75952607  1
+  Dy  Dy2  1  0.51163644  0.52232194  0.50440985  1
+  Br  Br3  1  0.00000000  0.03170175  0.00000000  1

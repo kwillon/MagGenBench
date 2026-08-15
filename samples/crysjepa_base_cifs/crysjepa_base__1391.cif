@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Cr2InAg3O8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.99935781
+_cell_length_b   6.13815876
+_cell_length_c   6.28135183
+_cell_angle_alpha   72.78514348
+_cell_angle_beta   62.91830140
+_cell_angle_gamma   59.86591681
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cr2InAg3O8
+_chemical_formula_sum   'Cr2 In1 Ag3 O8'
+_cell_volume   177.43236565
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.21569243  0.22607787  0.24892096  1
+  O  O1  1  0.23523295  0.26314336  0.72339183  1
+  O  O2  1  0.20991674  0.76921940  0.27021867  1
+  O  O3  1  0.28330627  0.76037252  0.73366934  1
+  O  O4  1  0.74211568  0.24280514  0.24816422  1
+  O  O5  1  0.76117736  0.23606649  0.73871583  1
+  O  O6  1  0.72915059  0.76056534  0.28427094  1
+  O  O7  1  0.77346462  0.75928080  0.72779101  1
+  Cr  Cr8  1  0.00434180  0.49963984  0.48201314  1
+  Cr  Cr9  1  0.51431525  0.00000000  0.51543552  1
+  Ag  Ag10  1  0.00661861  0.00000000  0.46943936  1
+  Ag  Ag11  1  0.46280217  0.51859307  0.22131340  1
+  Ag  Ag12  1  0.57706320  0.52679348  0.80465555  1
+  In  In13  1  0.00000000  0.00000000  0.00418234  1

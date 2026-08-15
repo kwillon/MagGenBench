@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Mn2VPN
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.25984385
+_cell_length_b   5.35682156
+_cell_length_c   5.99391125
+_cell_angle_alpha   95.58679380
+_cell_angle_beta   91.72934515
+_cell_angle_gamma   107.40912545
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mn2VPN
+_chemical_formula_sum   'Mn4 V2 P2 N2'
+_cell_volume   99.20509664
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  N  N0  1  0.00000000  0.01947755  0.00434324  1
+  N  N1  1  0.00000000  0.03023913  0.49352047  1
+  P  P2  1  0.24070387  0.49364614  0.25815818  1
+  P  P3  1  0.75043857  0.49439037  0.73245651  1
+  V  V4  1  0.11637150  0.26934871  0.67829895  1
+  V  V5  1  0.83981037  0.69528902  0.38649076  1
+  Mn  Mn6  1  0.34963736  0.79323691  0.70892090  1
+  Mn  Mn7  1  0.57909864  0.22334555  0.31027296  1
+  Mn  Mn8  1  0.55859333  0.21203442  0.95738322  1
+  Mn  Mn9  1  0.83449930  0.77888054  0.10829917  1

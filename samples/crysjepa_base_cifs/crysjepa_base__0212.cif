@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_ZnReP4O13
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.09258668
+_cell_length_b   7.48450091
+_cell_length_c   8.25837518
+_cell_angle_alpha   106.85208785
+_cell_angle_beta   96.42255980
+_cell_angle_gamma   100.73804166
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZnReP4O13
+_chemical_formula_sum   'Zn1 Re1 P4 O13'
+_cell_volume   291.33750643
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.02596847  0.89547908  0.71239603  1
+  O  O1  1  0.12004223  0.36489043  0.19628491  1
+  O  O2  1  0.22647716  0.78028280  0.43106288  1
+  O  O3  1  0.29075190  0.43290541  0.59813875  1
+  O  O4  1  0.34643731  0.62026441  0.94141650  1
+  O  O5  1  0.45566630  0.05547285  0.13577494  1
+  O  O6  1  0.47636542  0.67013782  0.70978886  1
+  O  O7  1  0.57654929  0.30268458  0.38700235  1
+  O  O8  1  0.59551817  0.91923922  0.60642403  1
+  O  O9  1  0.71861023  0.33584169  0.86211014  1
+  O  O10  1  0.75438511  0.51780647  0.30418599  1
+  O  O11  1  0.88017815  0.60820335  0.70720935  1
+  O  O12  1  0.95416379  0.73313206  0.21659540  1
+  P  P13  1  0.13397530  0.43442950  0.60786730  1
+  P  P14  1  0.24915110  0.42389268  0.23299375  1
+  P  P15  1  0.66411954  0.64644235  0.79667455  1
+  P  P16  1  0.72825968  0.58644557  0.28450537  1
+  Zn  Zn17  1  0.51301759  0.15922332  0.50565690  1
+  Re  Re18  1  0.50345421  0.06425253  0.95156920  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_NaCu(BiAs)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.49558227
+_cell_length_b   6.57045139
+_cell_length_c   6.91943576
+_cell_angle_alpha   104.80229011
+_cell_angle_beta   97.82161841
+_cell_angle_gamma   93.76745464
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaCu(BiAs)2
+_chemical_formula_sum   'Na2 Cu2 Bi4 As4'
+_cell_volume   281.29656353
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.21786679  0.42200023  0.02058749  1
+  Na  Na1  1  0.78809333  0.52582932  0.00213707  1
+  Cu  Cu2  1  0.27744144  0.17510849  0.50402582  1
+  Cu  Cu3  1  0.72072726  0.80786920  0.46532288  1
+  As  As4  1  0.11985875  0.89024538  0.38537684  1
+  As  As5  1  0.36272997  0.09061547  0.86097741  1
+  As  As6  1  0.62286538  0.56861436  0.66054904  1
+  As  As7  1  0.87019241  0.27299717  0.21037877  1
+  Bi  Bi8  1  0.13417853  0.73208565  0.77265859  1
+  Bi  Bi9  1  0.35194847  0.38762584  0.34057122  1
+  Bi  Bi10  1  0.62070936  0.88924527  0.15346809  1
+  Bi  Bi11  1  0.87834448  0.13185807  0.63831675  1

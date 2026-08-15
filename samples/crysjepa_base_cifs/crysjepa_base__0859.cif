@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_CeYTiFe10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.97996861
+_cell_length_b   6.89193717
+_cell_length_c   6.89662657
+_cell_angle_alpha   84.57865892
+_cell_angle_beta   58.49776933
+_cell_angle_gamma   74.56356710
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CeYTiFe10
+_chemical_formula_sum   'Ce1 Y1 Ti1 Fe10'
+_cell_volume   194.25106323
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.03537393  0.64916062  0.36156994  1
+  Fe  Fe1  1  0.00642060  1.00000000  0.50720251  1
+  Fe  Fe2  1  0.29202536  0.20912753  0.23058416  1
+  Fe  Fe3  1  0.36214772  0.61748266  0.62993860  1
+  Fe  Fe4  1  0.48537019  0.23089345  0.77152354  1
+  Fe  Fe5  1  0.50067967  0.49154815  0.00000000  1
+  Fe  Fe6  1  0.48680303  0.79008001  0.20944090  1
+  Fe  Fe7  1  0.51695991  1.00000000  0.47066253  1
+  Fe  Fe8  1  0.65540123  0.34326386  0.33506030  1
+  Fe  Fe9  1  0.69855970  0.77803975  0.79021162  1
+  Fe  Fe10  1  1.00000000  0.48435390  0.02011886  1
+  Y  Y11  1  0.99803144  0.99544573  0.00000000  1
+  Ce  Ce12  1  0.97695172  0.33275652  0.64746761  1

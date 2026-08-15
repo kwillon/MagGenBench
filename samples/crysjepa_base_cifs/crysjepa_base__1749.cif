@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_AgO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.05695296
+_cell_length_b   3.39220756
+_cell_length_c   5.53307691
+_cell_angle_alpha   90.51711574
+_cell_angle_beta   90.21546590
+_cell_angle_gamma   99.45163792
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AgO
+_chemical_formula_sum   'Ag2 O2'
+_cell_volume   56.59498316
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.00000000  0.00000000  0.22932631  1
+  O  O1  1  0.00432833  0.00036898  0.73916781  1
+  Ag  Ag2  1  0.01022574  0.50688261  0.00679973  1
+  Ag  Ag3  1  0.49050522  0.98795176  0.51371533  1

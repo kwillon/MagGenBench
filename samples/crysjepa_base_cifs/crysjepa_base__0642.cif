@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_Ac3Ho
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.26401161
+_cell_length_b   5.23632888
+_cell_length_c   6.40045627
+_cell_angle_alpha   98.12836739
+_cell_angle_beta   106.72573722
+_cell_angle_gamma   92.92521952
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ac3Ho
+_chemical_formula_sum   'Ac3 Ho1'
+_cell_volume   166.47689681
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ho  Ho0  1  0.00000000  0.00000000  0.00040297  1
+  Ac  Ac1  1  0.27145475  0.78108042  0.51924753  1
+  Ac  Ac2  1  0.49933240  0.51126552  0.00097327  1
+  Ac  Ac3  1  0.73615056  0.25184140  0.49881250  1

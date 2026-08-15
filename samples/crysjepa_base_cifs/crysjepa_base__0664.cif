@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Hf2Si
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.32972530
+_cell_length_b   5.75737935
+_cell_length_c   5.76368793
+_cell_angle_alpha   69.85768852
+_cell_angle_beta   58.85402663
+_cell_angle_gamma   54.73178476
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf2Si
+_chemical_formula_sum   'Hf4 Si2'
+_cell_volume   123.31949539
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.24094637  0.99659419  0.98380452  1
+  Si  Si1  1  0.74513662  0.99802947  0.99214405  1
+  Hf  Hf2  1  0.13933970  0.18785456  0.49239418  1
+  Hf  Hf3  1  0.32108822  0.50940555  0.82783633  1
+  Hf  Hf4  1  0.68078554  0.49132767  0.19558911  1
+  Hf  Hf5  1  0.83792114  0.82789922  0.50851274  1

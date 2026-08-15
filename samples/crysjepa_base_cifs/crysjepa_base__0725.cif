@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Pr3Te
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.63689524
+_cell_length_b   8.42823518
+_cell_length_c   10.71634078
+_cell_angle_alpha   92.81631228
+_cell_angle_beta   90.75920921
+_cell_angle_gamma   84.26508787
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Pr3Te
+_chemical_formula_sum   'Pr12 Te4'
+_cell_volume   595.70165355
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Te  Te0  1  0.03416033  0.87575036  0.26928902  1
+  Te  Te1  1  0.48530734  0.37400287  0.25019202  1
+  Te  Te2  1  0.56915933  0.61303425  0.75598359  1
+  Te  Te3  1  0.94002867  0.11138495  0.75835043  1
+  Pr  Pr4  1  0.13485640  0.16088271  0.07052552  1
+  Pr  Pr5  1  0.15693560  0.16349477  0.43747407  1
+  Pr  Pr6  1  0.13775595  0.46448734  0.76730305  1
+  Pr  Pr7  1  0.33427638  0.68225652  0.05389554  1
+  Pr  Pr8  1  0.33134851  0.68029249  0.42762768  1
+  Pr  Pr9  1  0.36960596  0.95704877  0.74532312  1
+  Pr  Pr10  1  0.63872820  0.06681588  0.24813543  1
+  Pr  Pr11  1  0.66631937  0.32886708  0.55630076  1
+  Pr  Pr12  1  0.67039949  0.31094301  0.93762940  1
+  Pr  Pr13  1  0.87199450  0.52615565  0.27735597  1
+  Pr  Pr14  1  0.82144612  0.80463201  0.56813800  1
+  Pr  Pr15  1  0.86238188  0.86467701  0.93810135  1

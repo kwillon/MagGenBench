@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_EuY3O6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.66473809
+_cell_length_b   6.08348068
+_cell_length_c   6.05501801
+_cell_angle_alpha   61.53807440
+_cell_angle_beta   71.05303547
+_cell_angle_gamma   59.06925648
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   EuY3O6
+_chemical_formula_sum   'Eu1 Y3 O6'
+_cell_volume   156.47390598
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.03830191  0.45033777  0.74661452  1
+  O  O1  1  0.22848758  0.96385449  0.23355243  1
+  O  O2  1  0.45941585  0.70437765  0.74864656  1
+  O  O3  1  0.55388170  0.24992777  0.24128604  1
+  O  O4  1  0.73807651  0.06137994  0.75286931  1
+  O  O5  1  0.96318495  0.57949293  0.25219995  1
+  Y  Y6  1  0.16205905  0.15640387  0.54915631  1
+  Y  Y7  1  0.36402965  0.35003653  0.91570210  1
+  Y  Y8  1  0.63939804  0.63644469  0.11232562  1
+  Eu  Eu9  1  0.86995077  0.85418183  0.46534142  1

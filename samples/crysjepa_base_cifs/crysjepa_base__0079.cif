@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_ErCo2Ni3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.03960374
+_cell_length_b   4.31922504
+_cell_length_c   4.95718935
+_cell_angle_alpha   114.71968164
+_cell_angle_beta   90.73769234
+_cell_angle_gamma   80.85877718
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ErCo2Ni3
+_chemical_formula_sum   'Er1 Co2 Ni3'
+_cell_volume   77.43074429
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.52201581  0.01560868  0.52102369  1
+  Co  Co1  1  0.51950836  0.49858782  0.51187825  1
+  Ni  Ni2  1  0.51510608  0.48200104  0.00120212  1
+  Ni  Ni3  1  0.98405915  0.34016290  0.67020661  1
+  Ni  Ni4  1  0.98145193  0.67887825  0.33798715  1
+  Er  Er5  1  0.01522258  0.02451230  0.00000000  1

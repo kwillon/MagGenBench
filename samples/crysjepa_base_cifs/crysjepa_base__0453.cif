@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Ba2FeOsO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.09812296
+_cell_length_b   5.61635250
+_cell_length_c   5.92131056
+_cell_angle_alpha   65.31526689
+_cell_angle_beta   63.97955433
+_cell_angle_gamma   61.65049630
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2FeOsO6
+_chemical_formula_sum   'Ba2 Fe1 Os1 O6'
+_cell_volume   154.66760392
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.20361586  0.27929419  0.73410493  1
+  O  O1  1  0.24523786  0.77875215  0.69512922  1
+  O  O2  1  0.29282361  0.75414795  0.20766973  1
+  O  O3  1  0.69776207  0.25203067  0.77047521  1
+  O  O4  1  0.74101675  0.22613877  0.29374832  1
+  O  O5  1  0.79026717  0.73012984  0.23401350  1
+  Fe  Fe6  1  0.51964676  0.51437700  0.50797230  1
+  Ba  Ba7  1  0.25792906  0.24903399  0.25232106  1
+  Ba  Ba8  1  0.75610512  0.74171269  0.72652650  1
+  Os  Os9  1  0.00368299  0.00000000  0.00835191  1

@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_Tb3Y
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.59847733
+_cell_length_b   3.87528449
+_cell_length_c   10.26081684
+_cell_angle_alpha   90.20851818
+_cell_angle_beta   79.46014817
+_cell_angle_gamma   88.95604254
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb3Y
+_chemical_formula_sum   'Tb3 Y1'
+_cell_volume   140.64727003
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  1.00000000  0.02531019  1.00000000  1
+  Tb  Tb1  1  0.51474309  0.51879722  0.22569427  1
+  Tb  Tb2  1  0.49763802  0.52777362  0.79096729  1
+  Tb  Tb3  1  0.98913097  0.03940873  0.50121367  1

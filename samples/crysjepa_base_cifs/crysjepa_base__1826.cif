@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_Ta(BrO)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.01265670
+_cell_length_b   4.03767826
+_cell_length_c   9.51474281
+_cell_angle_alpha   99.55593126
+_cell_angle_beta   91.30738369
+_cell_angle_gamma   85.98790185
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta(BrO)2
+_chemical_formula_sum   'Ta1 Br2 O2'
+_cell_volume   151.63467181
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.00659030  0.49600804  0.01463235  1
+  O  O1  1  0.51411039  0.01064367  0.00000000  1
+  Br  Br2  1  0.04979588  0.01065905  0.27474299  1
+  Br  Br3  1  0.03916230  0.00000000  0.71027792  1
+  Ta  Ta4  1  0.02630532  0.02633971  0.00000000  1

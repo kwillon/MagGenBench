@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Cs2HoMnF6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.26108762
+_cell_length_b   6.53290621
+_cell_length_c   6.49472215
+_cell_angle_alpha   57.01564914
+_cell_angle_beta   58.22721536
+_cell_angle_gamma   53.22529900
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2HoMnF6
+_chemical_formula_sum   'Cs2 Ho1 Mn1 F6'
+_cell_volume   170.34729782
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.24456114  0.26138470  0.76469237  1
+  F  F1  1  0.20375413  0.79364955  0.23929651  1
+  F  F2  1  0.24112798  0.76194555  0.76294386  1
+  F  F3  1  0.75957280  0.25747228  0.24469431  1
+  F  F4  1  0.76272899  0.24288245  0.75262296  1
+  F  F5  1  0.73926210  0.77396929  0.24546185  1
+  Mn  Mn6  1  0.00000000  0.00000000  0.00000000  1
+  Cs  Cs7  1  0.23637152  0.25981990  0.25165230  1
+  Cs  Cs8  1  0.74229962  0.74388677  0.75291330  1
+  Ho  Ho9  1  0.49947542  0.50119829  0.48160803  1

@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_CaAc3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.51873701
+_cell_length_b   5.14494478
+_cell_length_c   5.80031242
+_cell_angle_alpha   88.92525996
+_cell_angle_beta   86.60682973
+_cell_angle_gamma   92.23775651
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaAc3
+_chemical_formula_sum   'Ca1 Ac3'
+_cell_volume   164.24099295
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.05810967  0.00304734  0.97006524  1
+  Ac  Ac1  1  0.02364129  0.52664858  0.50631213  1
+  Ac  Ac2  1  0.48239821  0.01359201  0.49904534  1
+  Ac  Ac3  1  0.48882362  0.51705927  1.00000000  1

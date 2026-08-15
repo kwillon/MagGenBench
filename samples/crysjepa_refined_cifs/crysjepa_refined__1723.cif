@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Cd2Bi
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.70335688
+_cell_length_b   8.79470150
+_cell_length_c   8.35983717
+_cell_angle_alpha   113.50247808
+_cell_angle_beta   85.84488808
+_cell_angle_gamma   96.68623333
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cd2Bi
+_chemical_formula_sum   'Cd6 Bi3'
+_cell_volume   247.89220222
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  0.09741049  0.74132490  0.70607513  1
+  Cd  Cd1  1  0.25446394  0.00000000  0.39648795  1
+  Cd  Cd2  1  0.43873152  0.33143371  0.01539558  1
+  Cd  Cd3  1  0.92753315  0.05304617  0.72762579  1
+  Cd  Cd4  1  0.98278946  0.31815070  0.31970778  1
+  Cd  Cd5  1  1.00000000  0.68801391  0.01377068  1
+  Bi  Bi6  1  0.54558688  0.43962249  0.65408087  1
+  Bi  Bi7  1  0.53407931  0.70689237  0.38587588  1
+  Bi  Bi8  1  0.56116927  1.00000000  0.04601192  1

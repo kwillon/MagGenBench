@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_Tb3Pr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.17747064
+_cell_length_b   5.13130434
+_cell_length_c   5.21038056
+_cell_angle_alpha   93.34126799
+_cell_angle_beta   91.61290834
+_cell_angle_gamma   96.92533095
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb3Pr
+_chemical_formula_sum   'Tb3 Pr1'
+_cell_volume   137.09514551
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  1.00000000  1.00000000  1.00000000  1
+  Tb  Tb1  1  0.01988043  0.50081778  0.51092416  1
+  Tb  Tb2  1  0.51228470  1.00000000  0.48607641  1
+  Tb  Tb3  1  0.50653899  0.50058228  1.00000000  1

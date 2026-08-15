@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_LaMg5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.61601669
+_cell_length_b   5.68636626
+_cell_length_c   9.01731110
+_cell_angle_alpha   91.31261927
+_cell_angle_beta   77.05408338
+_cell_angle_gamma   95.49433622
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaMg5
+_chemical_formula_sum   'La1 Mg5'
+_cell_volume   179.87064890
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.07473695  0.50607163  0.82540739  1
+  Mg  Mg1  1  0.34492651  0.03048697  0.34081706  1
+  Mg  Mg2  1  0.42676723  0.49448633  0.09101005  1
+  Mg  Mg3  1  0.59902942  0.98519731  0.67102379  1
+  Mg  Mg4  1  1.00000000  0.99215436  0.04514238  1
+  La  La5  1  0.77090806  0.46611819  0.45408690  1

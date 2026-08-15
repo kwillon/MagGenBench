@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_Zn3Ag
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.22391680
+_cell_length_b   3.91273919
+_cell_length_c   4.15958570
+_cell_angle_alpha   109.43654860
+_cell_angle_beta   87.25178399
+_cell_angle_gamma   92.16661184
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zn3Ag
+_chemical_formula_sum   'Zn3 Ag1'
+_cell_volume   64.73605557
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.50259447  0.50823033  1.00000000  1
+  Zn  Zn1  1  0.51170713  1.00000000  0.49841818  1
+  Zn  Zn2  1  0.91525954  0.49383193  0.49019980  1
+  Ag  Ag3  1  1.00000000  0.00226305  0.98643678  1

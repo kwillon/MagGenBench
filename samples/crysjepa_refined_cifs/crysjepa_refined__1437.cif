@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_LaNdFe4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.41479573
+_cell_length_b   5.34625078
+_cell_length_c   5.38253512
+_cell_angle_alpha   54.29833506
+_cell_angle_beta   53.41977757
+_cell_angle_gamma   61.29245817
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaNdFe4
+_chemical_formula_sum   'La1 Nd1 Fe4'
+_cell_volume   99.48867059
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.37371045  0.37395918  0.37552184  1
+  Fe  Fe1  1  0.35925165  0.38770211  0.89387071  1
+  Fe  Fe2  1  0.39129540  0.89569277  0.38181606  1
+  Fe  Fe3  1  0.89004213  0.36302668  0.39634189  1
+  La  La4  1  0.00845918  0.98997200  0.00000000  1
+  Nd  Nd5  1  0.74073237  0.75882673  0.77190089  1

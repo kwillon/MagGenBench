@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_MgScFe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.36009450
+_cell_length_b   4.31485226
+_cell_length_c   6.31114472
+_cell_angle_alpha   99.72755468
+_cell_angle_beta   104.10465371
+_cell_angle_gamma   101.65338786
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgScFe
+_chemical_formula_sum   'Mg2 Sc2 Fe2'
+_cell_volume   109.76380432
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.14441159  0.77707654  0.37112314  1
+  Mg  Mg1  1  0.85093135  0.22376195  0.65946776  1
+  Sc  Sc2  1  0.37754110  0.74013555  0.86861628  1
+  Sc  Sc3  1  0.62390429  0.25363946  0.17136195  1
+  Fe  Fe4  1  0.30099374  0.25348589  0.69173831  1
+  Fe  Fe5  1  0.66232812  0.72365862  0.29322353  1

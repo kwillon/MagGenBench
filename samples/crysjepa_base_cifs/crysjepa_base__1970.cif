@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Ho2MnGe6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.21047356
+_cell_length_b   3.81435839
+_cell_length_c   10.92781786
+_cell_angle_alpha   93.40484856
+_cell_angle_beta   100.50646799
+_cell_angle_gamma   94.04099327
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ho2MnGe6
+_chemical_formula_sum   'Ho2 Mn1 Ge6'
+_cell_volume   171.66454380
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.69583148  0.49639550  0.35693067  1
+  Ge  Ge1  1  0.09856380  0.50381923  0.15875529  1
+  Ge  Ge2  1  0.26515287  0.49194136  0.53725731  1
+  Ge  Ge3  1  0.44278952  0.50912452  0.89244670  1
+  Ge  Ge4  1  0.57277948  0.00486934  0.11271411  1
+  Ge  Ge5  1  0.75096321  0.87972391  0.52044392  1
+  Ge  Ge6  1  0.91349018  0.51053226  0.82958341  1
+  Ho  Ho7  1  0.21268035  0.01884991  0.36579233  1
+  Ho  Ho8  1  0.89407146  0.00000000  0.72339189  1

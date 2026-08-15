@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_BaSiHg
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.33152956
+_cell_length_b   8.20471450
+_cell_length_c   8.42064236
+_cell_angle_alpha   92.67242947
+_cell_angle_beta   93.90096679
+_cell_angle_gamma   93.40343157
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaSiHg
+_chemical_formula_sum   'Ba4 Si4 Hg4'
+_cell_volume   366.37328397
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.27150479  0.31189904  0.09943423  1
+  Si  Si1  1  0.25730628  0.81254041  0.44288778  1
+  Si  Si2  1  0.77578372  0.19707146  0.56448972  1
+  Si  Si3  1  0.76618874  0.67430782  0.88613355  1
+  Ba  Ba4  1  0.26111534  0.49727648  0.67419410  1
+  Ba  Ba5  1  0.24425051  0.98148078  0.81396252  1
+  Ba  Ba6  1  0.72411507  0.03342274  0.18437719  1
+  Ba  Ba7  1  0.74214160  0.53795302  0.31502274  1
+  Hg  Hg8  1  0.25069115  0.18054880  0.40043902  1
+  Hg  Hg9  1  0.24745157  0.66783738  0.08968759  1
+  Hg  Hg10  1  0.74360096  0.32760325  0.91453439  1
+  Hg  Hg11  1  0.75975966  0.83341873  0.56458795  1

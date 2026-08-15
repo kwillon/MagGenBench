@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_LaPrEu3ZnIn3GaBi4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.70572122
+_cell_length_b   7.60542804
+_cell_length_c   10.33000674
+_cell_angle_alpha   74.24771678
+_cell_angle_beta   74.18704531
+_cell_angle_gamma   80.12220604
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaPrEu3ZnIn3GaBi4
+_chemical_formula_sum   'La1 Pr1 Eu3 Zn1 In3 Ga1 Bi4'
+_cell_volume   485.13980757
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.03057741  0.36191449  0.62317079  1
+  Zn  Zn1  1  0.12933800  0.68393391  0.12959607  1
+  Eu  Eu2  1  0.20199093  0.77567446  0.65781975  1
+  Ga  Ga3  1  0.28552133  0.21037488  0.71691346  1
+  Eu  Eu4  1  0.36636704  0.37465295  0.33957207  1
+  Eu  Eu5  1  0.36362094  0.92687470  0.09500206  1
+  Pr  Pr6  1  0.50906575  0.66393846  0.64575827  1
+  In  In7  1  0.79763120  0.08633639  0.57526052  1
+  In  In8  1  0.71158385  0.78435642  0.34021816  1
+  In  In9  1  0.83038455  0.34180743  0.28780767  1
+  Bi  Bi10  1  0.30022225  0.58777654  0.39067507  1
+  Bi  Bi11  1  0.65785044  0.27653721  0.05651117  1
+  Bi  Bi12  1  0.70435512  0.35517690  0.73622042  1
+  Bi  Bi13  1  0.80632663  0.87952125  0.79292709  1

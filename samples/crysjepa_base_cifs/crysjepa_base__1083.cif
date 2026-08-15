@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Sr2TlCuO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.65442689
+_cell_length_b   5.13343200
+_cell_length_c   6.36745998
+_cell_angle_alpha   88.65083947
+_cell_angle_beta   121.97062316
+_cell_angle_gamma   122.78131473
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2TlCuO6
+_chemical_formula_sum   'Sr2 Tl1 Cu1 O6'
+_cell_volume   122.52166576
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.00000000  0.24701156  0.24671082  1
+  O  O1  1  0.02749931  0.31353319  0.73849392  1
+  O  O2  1  0.01056512  0.75604153  0.72209615  1
+  O  O3  1  0.47811636  0.25556394  0.30214378  1
+  O  O4  1  0.48751882  0.74147052  0.68274975  1
+  O  O5  1  0.97004485  0.71870446  0.26194960  1
+  Cu  Cu6  1  0.00000000  0.49651217  0.48704430  1
+  Sr  Sr7  1  0.51699322  0.28044486  0.73459876  1
+  Sr  Sr8  1  0.46755546  0.74027443  0.25671029  1
+  Tl  Tl9  1  0.00000000  0.00520159  0.00704845  1

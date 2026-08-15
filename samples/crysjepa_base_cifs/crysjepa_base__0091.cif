@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_GdFe2SiB2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.23369838
+_cell_length_b   5.65572464
+_cell_length_c   6.84828946
+_cell_angle_alpha   87.32147113
+_cell_angle_beta   87.26360289
+_cell_angle_gamma   80.40893861
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GdFe2SiB2
+_chemical_formula_sum   'Gd2 Fe4 Si2 B4'
+_cell_volume   161.37807732
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  B  B0  1  0.09476559  0.13579156  0.10034063  1
+  B  B1  1  0.22597133  0.66683805  0.53204459  1
+  B  B2  1  0.76386017  0.31324914  0.45560610  1
+  B  B3  1  0.90889448  0.85166520  0.90871000  1
+  Si  Si4  1  0.18588354  0.26257497  0.60965782  1
+  Si  Si5  1  0.77256048  0.77048320  0.40194571  1
+  Fe  Fe6  1  0.14628023  0.88698530  0.76102215  1
+  Fe  Fe7  1  0.39237797  0.17764707  0.34524173  1
+  Fe  Fe8  1  0.61212176  0.79493302  0.64461929  1
+  Fe  Fe9  1  0.82590353  0.09111631  0.19715741  1
+  Gd  Gd10  1  0.29445696  0.64734733  0.13726610  1
+  Gd  Gd11  1  0.68759578  0.34894276  0.84401935  1

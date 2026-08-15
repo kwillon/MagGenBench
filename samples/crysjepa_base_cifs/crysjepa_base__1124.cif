@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Fe2Br5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.40362047
+_cell_length_b   7.77317737
+_cell_length_c   7.67886857
+_cell_angle_alpha   105.16793371
+_cell_angle_beta   86.72370485
+_cell_angle_gamma   77.21327174
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Fe2Br5
+_chemical_formula_sum   'Fe2 Br5'
+_cell_volume   189.78511517
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.46735668  0.32299358  0.90598935  1
+  Fe  Fe1  1  0.52469718  0.68156099  0.43422633  1
+  Br  Br2  1  0.00000000  0.02324532  0.50503230  1
+  Br  Br3  1  0.00094583  0.29988039  0.76655430  1
+  Br  Br4  1  0.02441448  0.70158201  0.21085469  1
+  Br  Br5  1  0.50588328  0.24832942  0.23894975  1
+  Br  Br6  1  0.52093422  0.73340923  0.74154276  1

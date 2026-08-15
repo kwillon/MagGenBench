@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_BaCaTl2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.87782696
+_cell_length_b   6.19291418
+_cell_length_c   5.80501215
+_cell_angle_alpha   65.79647783
+_cell_angle_beta   59.50291491
+_cell_angle_gamma   56.63846785
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaCaTl2
+_chemical_formula_sum   'Ba1 Ca1 Tl2'
+_cell_volume   149.53490226
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.04391226  0.00000000  0.00575152  1
+  Ba  Ba1  1  0.48457581  0.48386550  0.47993383  1
+  Tl  Tl2  1  0.25099638  0.26980478  0.25388858  1
+  Tl  Tl3  1  0.77303571  0.77866155  0.73744911  1

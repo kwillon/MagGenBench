@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Li3CaMg6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.05174425
+_cell_length_b   5.61902860
+_cell_length_c   10.25045096
+_cell_angle_alpha   104.60816364
+_cell_angle_beta   88.91637492
+_cell_angle_gamma   112.67359188
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li3CaMg6
+_chemical_formula_sum   'Li3 Ca1 Mg6'
+_cell_volume   258.80076523
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.26424035  0.88150144  0.28719243  1
+  Li  Li1  1  0.46349657  0.28487635  0.88092822  1
+  Li  Li2  1  0.92825198  0.09224974  0.07672326  1
+  Mg  Mg3  1  0.05146285  0.38117337  0.69756114  1
+  Mg  Mg4  1  0.19657572  0.71032935  0.99461806  1
+  Mg  Mg5  1  0.38914007  0.00000000  0.63481027  1
+  Mg  Mg6  1  0.60351664  0.55756080  0.16133423  1
+  Mg  Mg7  1  0.79637319  0.88494736  0.81711960  1
+  Mg  Mg8  1  0.96623027  0.19643924  0.35133588  1
+  Ca  Ca9  1  0.72517741  0.65585929  0.49741656  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Rb2NaCuOF5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.92194149
+_cell_length_b   6.06565201
+_cell_length_c   6.67382179
+_cell_angle_alpha   66.30462897
+_cell_angle_beta   66.09635220
+_cell_angle_gamma   54.01234143
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Rb2NaCuOF5
+_chemical_formula_sum   'Rb2 Na1 Cu1 O1 F5'
+_cell_volume   172.93512953
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.23239025  0.21360493  0.74770355  1
+  F  F1  1  0.24790458  0.75681341  0.25000477  1
+  F  F2  1  0.25778109  0.76461732  0.77480286  1
+  F  F3  1  0.76551521  0.22056787  0.24787129  1
+  F  F4  1  0.76750582  0.24924634  0.77773952  1
+  F  F5  1  0.79649860  0.77172863  0.22945502  1
+  Na  Na6  1  0.51746601  0.50233948  0.54269296  1
+  Rb  Rb7  1  0.26329687  0.27451554  0.25138357  1
+  Rb  Rb8  1  0.77138865  0.75507939  0.74984205  1
+  Cu  Cu9  1  0.00000000  0.00000000  0.00000000  1

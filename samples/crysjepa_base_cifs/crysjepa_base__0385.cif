@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Na2AsPbO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.16488529
+_cell_length_b   6.01250025
+_cell_length_c   7.20315918
+_cell_angle_alpha   90.60911356
+_cell_angle_beta   95.35717745
+_cell_angle_gamma   96.68523327
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2AsPbO4
+_chemical_formula_sum   'Na4 As2 Pb2 O8'
+_cell_volume   263.95890263
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.14145175  0.15036075  0.42086121  1
+  O  O1  1  0.15996881  0.70383573  0.11740008  1
+  O  O2  1  0.34123170  0.01154158  0.92247707  1
+  O  O3  1  0.38242912  0.51001543  0.66143894  1
+  O  O4  1  0.63071340  0.48861673  0.38260484  1
+  O  O5  1  0.66212541  0.98629832  0.08525766  1
+  O  O6  1  0.84489542  0.32132941  0.85249573  1
+  O  O7  1  0.88514203  0.89906597  0.56475079  1
+  Na  Na8  1  0.20891821  0.54532641  0.86410046  1
+  Na  Na9  1  0.24035941  0.79020953  0.46090180  1
+  Na  Na10  1  0.78881907  0.18836111  0.52000052  1
+  Na  Na11  1  0.74114120  0.48293447  0.15173465  1
+  As  As12  1  0.21780588  0.18299150  0.76143283  1
+  As  As13  1  0.75458491  0.81912333  0.28238249  1
+  Pb  Pb14  1  0.29647663  0.23670131  0.18485852  1
+  Pb  Pb15  1  0.66657913  0.74361581  0.83369380  1

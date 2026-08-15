@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Th(NiP)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.73244086
+_cell_length_b   3.98846820
+_cell_length_c   9.11556834
+_cell_angle_alpha   94.25437205
+_cell_angle_beta   95.40995698
+_cell_angle_gamma   85.24251678
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Th(NiP)2
+_chemical_formula_sum   'Th2 Ni4 P4'
+_cell_volume   134.32946351
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  P  P0  1  0.00000000  0.00177044  0.48509714  1
+  P  P1  1  0.00000000  0.48811954  0.88952255  1
+  P  P2  1  0.49651414  0.00000000  0.11570186  1
+  P  P3  1  0.47621676  0.50937158  0.51898777  1
+  Ni  Ni4  1  0.00517000  0.00000000  0.00000000  1
+  Ni  Ni5  1  0.00642328  0.50763559  0.61331189  1
+  Ni  Ni6  1  0.48694080  0.00000000  0.37572995  1
+  Ni  Ni7  1  0.49327791  0.49496061  0.00000000  1
+  Th  Th8  1  0.01385584  0.49536967  0.23614050  1
+  Th  Th9  1  0.50562257  0.00000000  0.76028472  1

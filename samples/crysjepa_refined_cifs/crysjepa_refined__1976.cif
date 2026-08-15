@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_CeNdFe4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.23202673
+_cell_length_b   4.94888205
+_cell_length_c   4.84444367
+_cell_angle_alpha   95.21035452
+_cell_angle_beta   114.05610833
+_cell_angle_gamma   117.21492048
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CeNdFe4
+_chemical_formula_sum   'Ce1 Nd1 Fe4'
+_cell_volume   95.74124375
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.24397962  0.41506743  0.63939375  1
+  Fe  Fe1  1  0.27041399  0.87143868  0.62332475  1
+  Fe  Fe2  1  0.73424149  0.39212057  0.15109032  1
+  Fe  Fe3  1  0.74065560  0.39011776  0.67073375  1
+  Ce  Ce4  1  0.50047672  0.72627717  0.25077471  1
+  Nd  Nd5  1  0.00000000  0.00000000  0.02189417  1

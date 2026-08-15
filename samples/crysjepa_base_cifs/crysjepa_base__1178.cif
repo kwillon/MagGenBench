@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Hg3I8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.92464727
+_cell_length_b   9.42709665
+_cell_length_c   10.09365014
+_cell_angle_alpha   91.73669887
+_cell_angle_beta   88.72743368
+_cell_angle_gamma   88.81394288
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hg3I8
+_chemical_formula_sum   'Hg3 I8'
+_cell_volume   658.29089374
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  I  I0  1  0.02144274  0.24629684  0.75692236  1
+  I  I1  1  0.00218274  0.65885514  0.44217217  1
+  I  I2  1  0.06971459  0.71001196  0.80652994  1
+  I  I3  1  0.48315200  0.01443079  0.00000000  1
+  I  I4  1  0.47281450  0.49397451  0.02738038  1
+  I  I5  1  0.53847575  0.97822756  0.52925378  1
+  I  I6  1  0.95535129  0.26034328  0.27351311  1
+  I  I7  1  0.93110847  0.78921163  0.21483733  1
+  Hg  Hg8  1  0.17257740  0.99175340  0.57861191  1
+  Hg  Hg9  1  0.66059405  0.27998552  0.11940213  1
+  Hg  Hg10  1  0.71910405  0.69857842  0.02544327  1

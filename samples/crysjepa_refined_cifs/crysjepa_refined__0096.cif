@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_InHg
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.28259954
+_cell_length_b   7.95426738
+_cell_length_c   8.69312164
+_cell_angle_alpha   81.68119385
+_cell_angle_beta   72.20032700
+_cell_angle_gamma   80.98176985
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InHg
+_chemical_formula_sum   'In8 Hg8'
+_cell_volume   471.02677199
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.03541287  0.16046870  0.53091145  1
+  In  In1  1  0.16356687  0.83976883  0.93056369  1
+  In  In2  1  0.37703007  0.44332829  0.48034856  1
+  In  In3  1  0.49758551  0.18247622  0.29851255  1
+  In  In4  1  0.50612110  0.85163093  0.72165823  1
+  In  In5  1  0.61316323  0.50990701  0.59408981  1
+  In  In6  1  0.83928883  0.19626719  0.10365858  1
+  In  In7  1  0.96024638  0.83427340  0.47015259  1
+  Hg  Hg8  1  0.03307383  0.56731778  0.35890123  1
+  Hg  Hg9  1  0.17576784  0.76202506  0.21348451  1
+  Hg  Hg10  1  0.26741135  0.28905416  1.00000000  1
+  Hg  Hg11  1  0.39152992  0.07086686  0.68252057  1
+  Hg  Hg12  1  0.61784858  0.90831232  0.28984725  1
+  Hg  Hg13  1  0.70254701  0.65819043  0.04748575  1
+  Hg  Hg14  1  0.83269107  0.24707800  0.82346046  1
+  Hg  Hg15  1  0.93746930  0.37709099  0.62080359  1

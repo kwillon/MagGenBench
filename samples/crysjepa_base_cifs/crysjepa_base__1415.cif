@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Ta3Ni
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.37801479
+_cell_length_b   6.92626629
+_cell_length_c   7.48715558
+_cell_angle_alpha   93.71322387
+_cell_angle_beta   69.62356773
+_cell_angle_gamma   77.78632471
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta3Ni
+_chemical_formula_sum   'Ta12 Ni4'
+_cell_volume   252.59080501
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.03670909  0.68031359  0.26728389  1
+  Ni  Ni1  1  0.46062684  0.23738641  0.25408146  1
+  Ni  Ni2  1  0.56219286  0.76113105  0.70629638  1
+  Ni  Ni3  1  0.93241191  0.29210722  0.72427416  1
+  Ta  Ta4  1  0.11538456  0.34491798  0.39660043  1
+  Ta  Ta5  1  0.05298523  0.91206634  0.40693060  1
+  Ta  Ta6  1  0.15412433  0.16844942  0.02070174  1
+  Ta  Ta7  1  0.46390882  0.03740123  0.58107197  1
+  Ta  Ta8  1  0.34236538  0.80365950  0.97395480  1
+  Ta  Ta9  1  0.44887048  0.43845975  0.66193044  1
+  Ta  Ta10  1  0.54173505  0.35205141  0.04559585  1
+  Ta  Ta11  1  0.55275404  0.59212935  0.31255841  1
+  Ta  Ta12  1  0.65720326  0.96562445  0.21056314  1
+  Ta  Ta13  1  0.81707674  0.03232580  0.80429244  1
+  Ta  Ta14  1  0.86554074  0.65349877  0.62131119  1
+  Ta  Ta15  1  0.95359665  0.64837295  0.95979851  1

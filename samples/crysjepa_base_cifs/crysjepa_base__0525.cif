@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_YbGa2Co
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.71832032
+_cell_length_b   6.62144432
+_cell_length_c   7.86600616
+_cell_angle_alpha   94.25146642
+_cell_angle_beta   87.39758765
+_cell_angle_gamma   82.87455957
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YbGa2Co
+_chemical_formula_sum   'Yb4 Ga8 Co4'
+_cell_volume   294.27242703
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.11935665  0.78053558  0.90580851  1
+  Co  Co1  1  0.44773960  0.42148837  0.36214483  1
+  Co  Co2  1  0.57723635  0.58722806  0.64184862  1
+  Co  Co3  1  0.86169255  0.21696834  0.07886209  1
+  Ga  Ga4  1  0.11781473  0.12017086  0.12418618  1
+  Ga  Ga5  1  0.15584357  0.54061860  0.73160803  1
+  Ga  Ga6  1  0.32687864  0.72272527  0.28468028  1
+  Ga  Ga7  1  0.39919338  0.83312279  0.64232063  1
+  Ga  Ga8  1  0.58177125  0.14628144  0.35499725  1
+  Ga  Ga9  1  0.66765237  0.25944400  0.71480352  1
+  Ga  Ga10  1  0.82038075  0.45978153  0.25122771  1
+  Ga  Ga11  1  0.89814979  0.92009658  0.89249957  1
+  Yb  Yb12  1  0.16988300  0.20420560  0.51714176  1
+  Yb  Yb13  1  0.36932945  0.25758484  0.96065044  1
+  Yb  Yb14  1  0.63671935  0.71848249  0.05581819  1
+  Yb  Yb15  1  0.84139609  0.78806680  0.47545883  1

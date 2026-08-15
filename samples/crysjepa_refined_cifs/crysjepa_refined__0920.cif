@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_TiFe3Sn2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.09150821
+_cell_length_b   5.22961415
+_cell_length_c   7.47064485
+_cell_angle_alpha   89.84169119
+_cell_angle_beta   81.08679084
+_cell_angle_gamma   73.91069442
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiFe3Sn2
+_chemical_formula_sum   'Ti2 Fe6 Sn4'
+_cell_volume   188.64939480
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.06282970  0.07429846  0.14303750  1
+  Ti  Ti1  1  0.51087999  0.79673898  0.70180893  1
+  Fe  Fe2  1  0.15812263  0.14089724  0.74004322  1
+  Fe  Fe3  1  0.18922979  0.68830049  0.76809645  1
+  Fe  Fe4  1  0.30532721  0.84678602  0.24386021  1
+  Fe  Fe5  1  0.71781278  0.14616534  0.77563334  1
+  Fe  Fe6  1  0.81068128  0.34189734  0.24959803  1
+  Fe  Fe7  1  0.85186625  0.83771020  0.25874117  1
+  Sn  Sn8  1  0.29994479  0.35174787  0.05319577  1
+  Sn  Sn9  1  0.33327517  0.32973740  0.44271436  1
+  Sn  Sn10  1  0.68614650  0.65983027  0.57090384  1
+  Sn  Sn11  1  0.68995202  0.66778916  0.94660878  1

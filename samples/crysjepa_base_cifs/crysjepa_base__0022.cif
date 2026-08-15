@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_ErSiOs2C
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.11721301
+_cell_length_b   6.19786867
+_cell_length_c   7.08203251
+_cell_angle_alpha   92.94475208
+_cell_angle_beta   84.47804174
+_cell_angle_gamma   105.46634539
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ErSiOs2C
+_chemical_formula_sum   'Er2 Si2 Os4 C2'
+_cell_volume   173.30403543
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  C  C0  1  0.00796121  0.00000000  0.00000000  1
+  C  C1  1  0.01824087  0.00000000  0.49354908  1
+  Si  Si2  1  0.27735165  0.54660380  0.21337676  1
+  Si  Si3  1  0.73513794  0.45816812  0.75771511  1
+  Er  Er4  1  0.52054822  0.10004888  0.25380167  1
+  Er  Er5  1  0.45799980  0.90365064  0.73108882  1
+  Os  Os6  1  0.17105326  0.30900222  0.55377358  1
+  Os  Os7  1  0.15376909  0.33228433  0.93795568  1
+  Os  Os8  1  0.83841115  0.68738949  0.05837449  1
+  Os  Os9  1  0.81641561  0.67096883  0.46797115  1

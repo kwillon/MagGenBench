@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_V2CoGe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.27292402
+_cell_length_b   5.27016626
+_cell_length_c   7.45357084
+_cell_angle_alpha   94.76052424
+_cell_angle_beta   87.45260343
+_cell_angle_gamma   91.37984414
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   V2CoGe
+_chemical_formula_sum   'V8 Co4 Ge4'
+_cell_volume   206.16689074
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  V  V0  1  0.00901640  0.39506030  0.35097206  1
+  V  V1  1  0.02007562  0.59497327  0.63142663  1
+  V  V2  1  0.25660127  0.15007192  0.09820168  1
+  V  V3  1  0.26615155  0.87406254  0.86235607  1
+  V  V4  1  0.52568221  0.26823986  0.61074662  1
+  V  V5  1  0.49511540  0.71562535  0.24184233  1
+  V  V6  1  0.79195911  0.16470000  0.11972307  1
+  V  V7  1  0.77410585  0.82354629  0.88659984  1
+  Co  Co8  1  0.00000000  0.14639831  0.52957380  1
+  Co  Co9  1  0.04017042  0.64787471  0.02970151  1
+  Co  Co10  1  0.50797963  0.38037542  0.92881912  1
+  Co  Co11  1  0.49335474  0.87020564  0.47867966  1
+  Ge  Ge12  1  0.00000000  0.29330826  0.80721641  1
+  Ge  Ge13  1  0.04254691  0.76513678  0.34305704  1
+  Ge  Ge14  1  0.49724334  0.30639139  0.26775008  1
+  Ge  Ge15  1  0.51759768  0.73853868  0.72432333  1

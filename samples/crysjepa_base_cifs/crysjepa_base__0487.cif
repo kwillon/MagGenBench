@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_NiSb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.12053297
+_cell_length_b   4.11931512
+_cell_length_c   5.33620261
+_cell_angle_alpha   89.29169500
+_cell_angle_beta   88.58506708
+_cell_angle_gamma   124.72383868
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NiSb
+_chemical_formula_sum   'Ni2 Sb2'
+_cell_volume   74.38344056
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.33634278  0.66898811  0.56919748  1
+  Ni  Ni1  1  0.67320675  0.31757244  0.04389760  1
+  Sb  Sb2  1  0.22783443  0.68872154  0.20734002  1
+  Sb  Sb3  1  0.75805277  0.30382159  0.67862707  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_DyNi3(SO)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.62428176
+_cell_length_b   5.59172865
+_cell_length_c   5.93669853
+_cell_angle_alpha   108.84763772
+_cell_angle_beta   109.49894819
+_cell_angle_gamma   96.57995267
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   DyNi3(SO)4
+_chemical_formula_sum   'Dy1 Ni3 S4 O4'
+_cell_volume   161.30118738
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.08849998  0.10117812  0.34340513  1
+  O  O1  1  0.38017935  0.71710145  0.52511698  1
+  O  O2  1  0.64618152  0.25907105  0.47983077  1
+  O  O3  1  0.88351142  0.88948458  0.64113283  1
+  S  S4  1  0.15844958  0.35424399  0.78346032  1
+  S  S5  1  0.37598902  0.30386025  0.18444481  1
+  S  S6  1  0.63565391  0.73781508  0.80895150  1
+  S  S7  1  0.87523162  0.64490575  0.19515446  1
+  Ni  Ni8  1  0.01315236  0.58398312  0.51250952  1
+  Ni  Ni9  1  0.55029446  0.35053864  0.58555096  1
+  Ni  Ni10  1  0.50689626  0.83369523  0.36622846  1
+  Dy  Dy11  1  0.97001201  0.00000000  0.02059628  1

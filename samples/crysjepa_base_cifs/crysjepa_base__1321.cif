@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_AgSnPd2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.66545255
+_cell_length_b   4.40660863
+_cell_length_c   4.38186399
+_cell_angle_alpha   60.27695237
+_cell_angle_beta   68.48776329
+_cell_angle_gamma   64.33166308
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AgSnPd2
+_chemical_formula_sum   'Ag1 Sn1 Pd2'
+_cell_volume   69.17203247
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pd  Pd0  1  0.26787513  0.23519182  0.24937306  1
+  Pd  Pd1  1  0.75144762  0.73097867  0.75413328  1
+  Ag  Ag2  1  0.50984031  0.49964577  0.51580918  1
+  Sn  Sn3  1  0.00392743  0.00320165  0.01707352  1

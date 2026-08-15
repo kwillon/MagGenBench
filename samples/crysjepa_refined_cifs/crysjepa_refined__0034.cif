@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_Li2NdMg
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.17421456
+_cell_length_b   4.85786021
+_cell_length_c   4.57261527
+_cell_angle_alpha   120.87544842
+_cell_angle_beta   109.69730492
+_cell_angle_gamma   90.01669787
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2NdMg
+_chemical_formula_sum   'Li2 Nd1 Mg1'
+_cell_volume   90.71523787
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.23755762  0.73909843  0.48390031  1
+  Li  Li1  1  0.73075318  0.24513711  0.51112121  1
+  Mg  Mg2  1  0.48572293  0.46368605  1.00000000  1
+  Nd  Nd3  1  0.97101921  0.00091685  0.98672062  1

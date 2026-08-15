@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Ba2Cd2InI5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.67332410
+_cell_length_b   8.65729622
+_cell_length_c   8.43518325
+_cell_angle_alpha   56.88053052
+_cell_angle_beta   61.26977966
+_cell_angle_gamma   57.27533396
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2Cd2InI5
+_chemical_formula_sum   'Ba2 Cd2 In1 I5'
+_cell_volume   430.56585845
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  0.25336552  0.24563235  0.24263228  1
+  Cd  Cd1  1  0.75512505  0.75107479  0.73818547  1
+  Ba  Ba2  1  0.33881786  0.30970508  0.70468891  1
+  Ba  Ba3  1  0.69716823  0.69982845  0.25745150  1
+  I  I4  1  0.21784797  0.41674313  0.66526657  1
+  I  I5  1  0.25328571  0.76204073  0.24111368  1
+  I  I6  1  0.32537442  0.75332379  0.73135638  1
+  I  I7  1  0.72014815  0.24698128  0.24730192  1
+  I  I8  1  0.73956186  0.22376060  0.74869430  1
+  In  In9  1  0.00000000  0.02075472  0.00000000  1

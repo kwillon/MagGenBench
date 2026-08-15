@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_SmHo5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.20845416
+_cell_length_b   6.03758868
+_cell_length_c   6.75843816
+_cell_angle_alpha   71.29335032
+_cell_angle_beta   59.42944973
+_cell_angle_gamma   69.90474403
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SmHo5
+_chemical_formula_sum   'Sm1 Ho5'
+_cell_volume   201.47694742
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sm  Sm0  1  0.00000000  1.00000000  0.97837967  1
+  Ho  Ho1  1  0.15740414  0.49528262  0.47475988  1
+  Ho  Ho2  1  0.33941266  0.33796576  1.00000000  1
+  Ho  Ho3  1  0.49273205  0.87260467  0.49576116  1
+  Ho  Ho4  1  0.67167336  0.68399978  0.99553633  1
+  Ho  Ho5  1  0.86509198  0.20159143  0.51143259  1

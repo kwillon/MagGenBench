@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Hf3Sb2Os3N
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.60748264
+_cell_length_b   6.88690583
+_cell_length_c   6.78593194
+_cell_angle_alpha   116.61459794
+_cell_angle_beta   108.18798474
+_cell_angle_gamma   82.39941711
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf3Sb2Os3N
+_chemical_formula_sum   'Hf3 Sb2 Os3 N1'
+_cell_volume   143.19189472
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  N  N0  1  0.49412364  0.00000000  0.00000000  1
+  Sb  Sb1  1  1.00000000  0.34282312  0.65226424  1
+  Sb  Sb2  1  1.00000000  0.66709059  0.32449350  1
+  Hf  Hf3  1  0.51613551  0.00106006  0.57763743  1
+  Hf  Hf4  1  0.51011902  0.38830405  0.37419239  1
+  Hf  Hf5  1  0.49976087  0.58778328  1.00000000  1
+  Os  Os6  1  0.99891311  0.26434979  0.99274623  1
+  Os  Os7  1  1.00000000  0.78000754  0.77459043  1
+  Os  Os8  1  0.98800391  0.98554361  0.23293826  1

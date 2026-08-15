@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Rb2MnAgF6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.07817031
+_cell_length_b   6.48094274
+_cell_length_c   6.30694394
+_cell_angle_alpha   58.74317219
+_cell_angle_beta   54.10041986
+_cell_angle_gamma   59.78190788
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Rb2MnAgF6
+_chemical_formula_sum   'Rb2 Mn1 Ag1 F6'
+_cell_volume   164.77982418
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  F  F0  1  0.21048662  0.22816673  0.78999925  1
+  F  F1  1  0.21024266  0.77898312  0.21805583  1
+  F  F2  1  0.22454681  0.74815249  0.76403952  1
+  F  F3  1  0.77938473  0.21674667  0.22861253  1
+  F  F4  1  0.78196388  0.23123620  0.76782691  1
+  F  F5  1  0.78149152  0.75712049  0.21791032  1
+  Mn  Mn6  1  0.00000000  0.00000000  0.00096526  1
+  Rb  Rb7  1  0.26157212  0.23447806  0.24593192  1
+  Rb  Rb8  1  0.74149621  0.74330622  0.72439826  1
+  Ag  Ag9  1  0.50283569  0.50111204  0.49415380  1

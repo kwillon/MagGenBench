@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_SiTc4As3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.36079227
+_cell_length_b   5.77502747
+_cell_length_c   6.64235796
+_cell_angle_alpha   88.94353778
+_cell_angle_beta   94.81509005
+_cell_angle_gamma   92.33886131
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SiTc4As3
+_chemical_formula_sum   'Si1 Tc4 As3'
+_cell_volume   128.34272523
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.29725575  0.23586991  0.47504115  1
+  Tc  Tc1  1  0.10030252  0.05221549  0.18327305  1
+  Tc  Tc2  1  0.23619390  0.51030010  0.73746991  1
+  Tc  Tc3  1  0.49825892  0.96209145  0.80783188  1
+  Tc  Tc4  1  0.76822418  0.49705565  0.27065602  1
+  As  As5  1  0.18954536  0.67874753  0.11704203  1
+  As  As6  1  0.58103788  0.27373287  0.91778851  1
+  As  As7  1  0.72307849  0.81394291  0.51853287  1

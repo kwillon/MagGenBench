@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Th2PdSe6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.14473564
+_cell_length_b   5.55746918
+_cell_length_c   11.10128623
+_cell_angle_alpha   96.31871551
+_cell_angle_beta   103.11007433
+_cell_angle_gamma   96.16720039
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Th2PdSe6
+_chemical_formula_sum   'Th2 Pd1 Se6'
+_cell_volume   245.20594058
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.24553186  0.23344928  0.47350195  1
+  Se  Se1  1  0.38703933  0.15031822  0.82934254  1
+  Se  Se2  1  0.37299076  0.67377317  0.78728306  1
+  Se  Se3  1  0.62508816  0.32145724  0.20267086  1
+  Se  Se4  1  0.62294674  0.85278404  0.19522962  1
+  Se  Se5  1  0.79219437  0.77351594  0.54169202  1
+  Pd  Pd6  1  0.00000000  0.42909956  0.00000000  1
+  Th  Th7  1  0.15451062  0.67800415  0.32456425  1
+  Th  Th8  1  0.81803781  0.29639459  0.65383840  1

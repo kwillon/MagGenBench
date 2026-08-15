@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CrBiO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.05057861
+_cell_length_b   5.63432909
+_cell_length_c   6.69842631
+_cell_angle_alpha   113.36426037
+_cell_angle_beta   111.20927756
+_cell_angle_gamma   88.37125457
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CrBiO4
+_chemical_formula_sum   'Cr2 Bi2 O8'
+_cell_volume   161.65132749
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.15359573  0.29582244  0.10801813  1
+  O  O1  1  0.21396738  0.07272116  0.42314470  1
+  O  O2  1  0.26464552  0.66193640  0.61033350  1
+  O  O3  1  0.43449196  0.76659536  0.16895400  1
+  O  O4  1  0.54939377  0.21823400  0.89089102  1
+  O  O5  1  0.72405416  0.32566151  0.37548107  1
+  O  O6  1  0.81452560  0.93863952  0.63527441  1
+  O  O7  1  0.84925932  0.70649296  0.91571283  1
+  Cr  Cr8  1  0.33138847  0.15447283  0.23392081  1
+  Cr  Cr9  1  0.61652988  0.87413388  0.75861621  1
+  Bi  Bi10  1  0.12655535  0.33659947  0.73434061  1
+  Bi  Bi11  1  0.87250030  0.63912785  0.26190680  1

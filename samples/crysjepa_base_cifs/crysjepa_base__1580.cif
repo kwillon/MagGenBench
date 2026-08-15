@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Sr2CoWO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.28392141
+_cell_length_b   5.62580186
+_cell_length_c   5.47954467
+_cell_angle_alpha   112.42486995
+_cell_angle_beta   89.57531163
+_cell_angle_gamma   118.98152764
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2CoWO6
+_chemical_formula_sum   'Sr2 Co1 W1 O6'
+_cell_volume   128.50474322
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.20609112  0.12963822  0.75437731  1
+  O  O1  1  0.24214564  0.21907794  0.28487852  1
+  O  O2  1  0.28431141  0.79629594  0.25400394  1
+  O  O3  1  0.72955489  0.20575519  0.76216400  1
+  O  O4  1  0.73442996  0.81405735  0.72912478  1
+  O  O5  1  0.78967506  0.85562432  0.23958346  1
+  Co  Co6  1  0.49881181  0.00000000  0.51127130  1
+  Sr  Sr7  1  0.26844868  0.56936026  0.74997723  1
+  Sr  Sr8  1  0.74091828  0.43126529  0.27802667  1
+  W  W9  1  0.00000000  0.00000000  0.00000000  1

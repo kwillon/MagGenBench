@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Ho2C3N2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.56463401
+_cell_length_b   4.51709794
+_cell_length_c   6.71189360
+_cell_angle_alpha   109.09887025
+_cell_angle_beta   99.77385166
+_cell_angle_gamma   99.92295077
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ho2C3N2
+_chemical_formula_sum   'Ho2 C3 N2'
+_cell_volume   97.58291407
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  C  C0  1  0.01171010  0.00000000  0.02679554  1
+  C  C1  1  0.26200628  0.73731905  0.51943201  1
+  C  C2  1  0.74209356  0.27924630  0.49576518  1
+  N  N3  1  0.13477799  0.21044804  0.25326169  1
+  N  N4  1  0.88894850  0.77084583  0.73458266  1
+  Ho  Ho5  1  0.37021878  0.25651753  0.73863834  1
+  Ho  Ho6  1  0.61625451  0.75510889  0.25619811  1

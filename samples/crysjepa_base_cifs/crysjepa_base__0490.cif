@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Ta4ZnS4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.23384718
+_cell_length_b   7.15208393
+_cell_length_c   7.63702397
+_cell_angle_alpha   84.84553467
+_cell_angle_beta   75.10211044
+_cell_angle_gamma   66.94155627
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta4ZnS4
+_chemical_formula_sum   'Ta4 Zn1 S4'
+_cell_volume   157.04788105
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.08122917  0.71330237  0.26568478  1
+  S  S1  1  0.28989351  0.76620263  0.66676062  1
+  S  S2  1  0.66487426  0.22649288  0.31129953  1
+  S  S3  1  0.93408781  0.32147154  0.75141722  1
+  Zn  Zn4  1  0.00000000  0.00388058  0.02163192  1
+  Ta  Ta5  1  0.30911729  0.32053003  0.08653546  1
+  Ta  Ta6  1  0.38510716  0.91219515  0.32699785  1
+  Ta  Ta7  1  0.61470622  0.07879765  0.68604594  1
+  Ta  Ta8  1  0.68093282  0.64941478  0.91099864  1

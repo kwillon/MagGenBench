@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CeMnSi
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.10062895
+_cell_length_b   7.06437024
+_cell_length_c   7.77652144
+_cell_angle_alpha   97.07662620
+_cell_angle_beta   97.35667157
+_cell_angle_gamma   91.15001824
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CeMnSi
+_chemical_formula_sum   'Ce4 Mn4 Si4'
+_cell_volume   221.56966138
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.25642842  0.29451105  0.58995742  1
+  Si  Si1  1  0.25850147  0.76670486  0.90806299  1
+  Si  Si2  1  0.76121926  0.18956746  0.09625505  1
+  Si  Si3  1  0.74482256  0.71406949  0.39194846  1
+  Mn  Mn4  1  0.25989720  0.15958187  0.93744874  1
+  Mn  Mn5  1  0.25386059  0.63009590  0.52986789  1
+  Mn  Mn6  1  0.77074772  0.36609888  0.44042015  1
+  Mn  Mn7  1  0.75829893  0.85960430  0.06105083  1
+  Ce  Ce8  1  0.27823237  0.01809360  0.30538931  1
+  Ce  Ce9  1  0.26112556  0.52816737  0.19481927  1
+  Ce  Ce10  1  0.74241102  0.48153552  0.82991290  1
+  Ce  Ce11  1  0.77236634  0.96317834  0.69072992  1

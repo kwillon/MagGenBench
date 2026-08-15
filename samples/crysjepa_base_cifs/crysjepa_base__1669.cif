@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Ni7H2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.10981900
+_cell_length_b   5.35810302
+_cell_length_c   5.66417459
+_cell_angle_alpha   119.43698103
+_cell_angle_beta   88.46637558
+_cell_angle_gamma   81.97284710
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ni7H2
+_chemical_formula_sum   'Ni7 H2'
+_cell_volume   80.89092548
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  H  H0  1  0.00000000  0.00221081  0.02129219  1
+  H  H1  1  0.00383085  0.55692446  0.49399632  1
+  Ni  Ni2  1  0.00086791  0.22115415  0.75316876  1
+  Ni  Ni3  1  0.00000000  0.38007009  0.21583426  1
+  Ni  Ni4  1  0.01510804  0.72013032  0.70663667  1
+  Ni  Ni5  1  0.49142450  0.26954302  0.14078563  1
+  Ni  Ni6  1  0.47517148  0.41978562  0.61239600  1
+  Ni  Ni7  1  0.47870556  0.66198021  0.97262889  1
+  Ni  Ni8  1  0.50684744  0.97380662  0.35932559  1

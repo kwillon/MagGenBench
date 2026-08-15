@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_GaHg3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.05747986
+_cell_length_b   6.46186067
+_cell_length_c   6.44165188
+_cell_angle_alpha   82.18847451
+_cell_angle_beta   66.13400114
+_cell_angle_gamma   62.62258164
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaHg3
+_chemical_formula_sum   'Ga2 Hg6'
+_cell_volume   204.36650994
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.32623595  0.33103222  0.22867221  1
+  Ga  Ga1  1  0.70995325  0.64615113  0.76252717  1
+  Hg  Hg2  1  0.20352821  0.18295324  0.72523236  1
+  Hg  Hg3  1  0.15519015  0.69492888  0.76062149  1
+  Hg  Hg4  1  0.38097689  0.86121500  0.17314574  1
+  Hg  Hg5  1  0.67642277  0.16446905  0.85890192  1
+  Hg  Hg6  1  0.84932995  0.31981161  0.23701075  1
+  Hg  Hg7  1  0.83862811  0.82421988  0.29767445  1

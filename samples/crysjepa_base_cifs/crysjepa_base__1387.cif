@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_KCaTe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.20553225
+_cell_length_b   7.86565941
+_cell_length_c   8.70603877
+_cell_angle_alpha   64.19917854
+_cell_angle_beta   64.96739021
+_cell_angle_gamma   56.50996947
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KCaTe3
+_chemical_formula_sum   'K2 Ca2 Te6'
+_cell_volume   409.18421908
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.00734972  0.00000000  0.01631866  1
+  Ca  Ca1  1  0.51596361  0.52535218  0.51733500  1
+  K  K2  1  0.16918483  0.17889376  0.51746744  1
+  K  K3  1  0.86437774  0.81404370  0.46171209  1
+  Te  Te4  1  0.07756985  0.71444875  0.76088309  1
+  Te  Te5  1  0.28982076  0.59395808  0.23196141  1
+  Te  Te6  1  0.44452289  0.07632488  0.76673299  1
+  Te  Te7  1  0.55381858  0.93168908  0.18991950  1
+  Te  Te8  1  0.72580546  0.42510447  0.78293836  1
+  Te  Te9  1  0.92779315  0.27204388  0.20460866  1

@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_YbTiFe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.34215470
+_cell_length_b   3.89673268
+_cell_length_c   4.02315340
+_cell_angle_alpha   64.13053705
+_cell_angle_beta   59.05678881
+_cell_angle_gamma   58.99416696
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YbTiFe2
+_chemical_formula_sum   'Yb1 Ti1 Fe2'
+_cell_volume   48.66206186
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.47838309  0.51840073  0.51029640  1
+  Fe  Fe1  1  0.25175425  0.24109432  0.25055915  1
+  Fe  Fe2  1  0.68950582  0.78724372  0.78209382  1
+  Yb  Yb3  1  0.96103048  0.01284191  0.00000000  1

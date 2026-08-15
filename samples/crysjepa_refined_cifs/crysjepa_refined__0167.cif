@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CaEuMg
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.25992574
+_cell_length_b   7.73202487
+_cell_length_c   10.18122865
+_cell_angle_alpha   92.17981426
+_cell_angle_beta   81.15575836
+_cell_angle_gamma   92.89938215
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaEuMg
+_chemical_formula_sum   'Ca4 Eu4 Mg4'
+_cell_volume   408.43013267
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.25412250  0.23047076  0.84956604  1
+  Mg  Mg1  1  0.24450085  0.72551924  0.60949004  1
+  Mg  Mg2  1  0.75839823  0.32321367  0.40776342  1
+  Mg  Mg3  1  0.76406711  0.82172376  0.18520540  1
+  Ca  Ca4  1  0.25552207  0.08224045  0.24813172  1
+  Ca  Ca5  1  0.26636103  0.31510544  0.85944813  1
+  Ca  Ca6  1  0.64626163  0.70405978  0.20123975  1
+  Ca  Ca7  1  0.75249910  0.93218440  0.75536478  1
+  Eu  Eu8  1  0.26712197  0.28318506  0.51738673  1
+  Eu  Eu9  1  0.26167464  0.69208205  0.95690393  1
+  Eu  Eu10  1  0.76194155  0.31663340  0.09260139  1
+  Eu  Eu11  1  0.73018068  0.78863728  0.51211262  1

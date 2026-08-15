@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_SmGePt
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.58982677
+_cell_length_b   7.06608900
+_cell_length_c   7.82124753
+_cell_angle_alpha   89.42382365
+_cell_angle_beta   92.11194728
+_cell_angle_gamma   83.63947461
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SmGePt
+_chemical_formula_sum   'Sm4 Ge4 Pt4'
+_cell_volume   251.90149480
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.25836262  0.20299806  0.91373616  1
+  Ge  Ge1  1  0.26048923  0.68240798  0.59616607  1
+  Ge  Ge2  1  0.74506986  0.29281396  0.39195952  1
+  Ge  Ge3  1  0.72389221  0.81716210  0.10862647  1
+  Sm  Sm4  1  0.24679124  0.00387812  0.27049693  1
+  Sm  Sm5  1  0.21102269  0.54002225  0.17431214  1
+  Sm  Sm6  1  0.76111710  0.46840483  0.78439337  1
+  Sm  Sm7  1  0.76007122  1.00000000  0.67376459  1
+  Pt  Pt8  1  0.24349682  0.27894807  0.58051294  1
+  Pt  Pt9  1  0.23746826  0.79984695  0.91677648  1
+  Pt  Pt10  1  0.72695684  0.21436486  0.06140750  1
+  Pt  Pt11  1  0.74581462  0.72571689  0.41299903  1

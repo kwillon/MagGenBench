@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Li3NbSiO5F2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.53825198
+_cell_length_b   3.68877619
+_cell_length_c   11.78952430
+_cell_angle_alpha   89.92384894
+_cell_angle_beta   92.77592606
+_cell_angle_gamma   120.36847568
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li3NbSiO5F2
+_chemical_formula_sum   'Li3 Nb1 Si1 O5 F2'
+_cell_volume   132.55823105
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.00000000  0.00331884  0.27819720  1
+  Li  Li1  1  0.34974986  0.67682272  0.19204187  1
+  Li  Li2  1  0.68307078  0.32854086  0.82153279  1
+  O  O3  1  0.00336237  0.00000000  0.18978786  1
+  O  O4  1  0.01416344  0.03877485  0.83680403  1
+  O  O5  1  0.35615611  0.67433625  0.39170471  1
+  O  O6  1  0.33539715  0.66143984  0.68492573  1
+  O  O7  1  0.66258591  0.31965923  0.33654198  1
+  F  F8  1  0.01785263  0.00000000  0.51089042  1
+  F  F9  1  0.37283045  0.62983990  0.00958851  1
+  Nb  Nb10  1  0.02291604  0.03415360  0.75993830  1
+  Si  Si11  1  0.61049354  0.37458599  0.35347593  1

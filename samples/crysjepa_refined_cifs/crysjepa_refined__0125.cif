@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_Sm3Os
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.37659324
+_cell_length_b   4.89734972
+_cell_length_c   5.03317638
+_cell_angle_alpha   70.50245489
+_cell_angle_beta   56.57437247
+_cell_angle_gamma   65.23591463
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sm3Os
+_chemical_formula_sum   'Sm3 Os1'
+_cell_volume   99.50486613
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sm  Sm0  1  0.23400047  0.25017801  0.23870407  1
+  Sm  Sm1  1  0.51517510  0.49242926  0.50802219  1
+  Sm  Sm2  1  0.73814523  0.76593798  0.75674534  1
+  Os  Os3  1  1.00000000  1.00000000  1.00000000  1

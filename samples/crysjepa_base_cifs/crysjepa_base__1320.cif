@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_LaZr5Ti(Sb3Ru2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.99663996
+_cell_length_b   8.04099360
+_cell_length_c   7.92965658
+_cell_angle_alpha   113.27627647
+_cell_angle_beta   107.58218367
+_cell_angle_gamma   109.10009454
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaZr5Ti(Sb3Ru2)2
+_chemical_formula_sum   'La1 Zr5 Ti1 Sb6 Ru4'
+_cell_volume   384.07653799
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.36286035  0.25351316  0.35234353  1
+  Zr  Zr1  1  0.33229643  0.59025323  0.97069871  1
+  Zr  Zr2  1  0.57186347  0.36157516  0.71729058  1
+  Zr  Zr3  1  0.63045353  0.89366716  0.62836605  1
+  Zr  Zr4  1  0.92992163  0.63162744  0.34314105  1
+  Zr  Zr5  1  0.96331322  0.31176373  0.60454661  1
+  Sb  Sb6  1  0.23023710  0.72181523  0.76405495  1
+  Sb  Sb7  1  0.25222677  0.68318558  0.37021366  1
+  Sb  Sb8  1  0.43813840  0.20134658  0.77063280  1
+  Sb  Sb9  1  0.55463123  0.78673124  0.20848382  1
+  Sb  Sb10  1  0.75231403  0.25499505  0.21763924  1
+  Sb  Sb11  1  0.76137555  0.61932474  0.67353851  1
+  Ru  Ru12  1  0.47197163  0.51275569  0.50192761  1
+  Ru  Ru13  1  0.46086031  0.99690294  0.98446620  1
+  Ru  Ru14  1  0.98049557  0.48551360  0.96636993  1
+  Ru  Ru15  1  0.98242044  0.98925489  0.51231503  1
+  La  La16  1  0.00000000  0.00000000  0.00000000  1

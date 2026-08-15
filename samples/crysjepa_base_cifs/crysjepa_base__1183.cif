@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_SmCuAs
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.23259849
+_cell_length_b   4.60027127
+_cell_length_c   8.30401317
+_cell_angle_alpha   93.41375609
+_cell_angle_beta   89.63561083
+_cell_angle_gamma   122.12088008
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SmCuAs
+_chemical_formula_sum   'Sm2 Cu2 As2'
+_cell_volume   136.63414854
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  1  0.32157874  0.64345735  0.74834824  1
+  As  As1  1  0.62712038  0.32817841  0.23306465  1
+  Cu  Cu2  1  0.32951736  0.66180009  0.25951621  1
+  Cu  Cu3  1  0.66955799  0.31570521  0.73002398  1
+  Sm  Sm4  1  0.02078431  0.00424710  0.01585517  1
+  Sm  Sm5  1  0.01401852  0.00000000  0.48168355  1

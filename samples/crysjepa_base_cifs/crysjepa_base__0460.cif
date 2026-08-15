@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Co2Bi2Te3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.53010089
+_cell_length_b   5.09228863
+_cell_length_c   18.45708899
+_cell_angle_alpha   90.51258490
+_cell_angle_beta   93.98009813
+_cell_angle_gamma   95.73203760
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Co2Bi2Te3
+_chemical_formula_sum   'Co4 Bi4 Te6'
+_cell_volume   422.57408218
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.14122432  0.53254151  0.21300992  1
+  Co  Co1  1  0.36766049  0.88181853  0.75317597  1
+  Co  Co2  1  0.66705257  0.12474112  0.27625030  1
+  Co  Co3  1  0.86136538  0.46930003  0.79751933  1
+  Te  Te4  1  0.00075844  0.01477639  0.17908898  1
+  Te  Te5  1  0.01795438  0.00000000  0.77481097  1
+  Te  Te6  1  0.27854523  0.27427286  0.43389931  1
+  Te  Te7  1  0.34097636  0.34403080  0.91705585  1
+  Te  Te8  1  0.64394826  0.66898215  0.08729313  1
+  Te  Te9  1  0.73451662  0.73955488  0.54195750  1
+  Bi  Bi10  1  0.22606501  0.21509486  0.61724317  1
+  Bi  Bi11  1  0.26702026  0.32711601  0.17122400  1
+  Bi  Bi12  1  0.75701636  0.65663737  0.85844707  1
+  Bi  Bi13  1  0.77696091  0.75998139  0.37956268  1

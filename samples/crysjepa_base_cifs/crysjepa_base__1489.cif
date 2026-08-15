@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_KNaHf2O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.70897087
+_cell_length_b   6.64816741
+_cell_length_c   8.80854749
+_cell_angle_alpha   103.87142201
+_cell_angle_beta   101.13531914
+_cell_angle_gamma   115.20583793
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KNaHf2O5
+_chemical_formula_sum   'K2 Na2 Hf4 O10'
+_cell_volume   325.03048311
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.10770075  0.24081336  0.26870114  1
+  O  O1  1  0.17451701  0.32794157  0.85769415  1
+  O  O2  1  0.27582014  0.49085832  0.56378466  1
+  O  O3  1  0.35505411  0.70232958  0.08826902  1
+  O  O4  1  0.40313220  0.83687878  0.72413927  1
+  O  O5  1  0.53267390  0.10649027  0.24486519  1
+  O  O6  1  0.63111824  0.29380715  0.90370429  1
+  O  O7  1  0.71485567  0.48126459  0.46319726  1
+  O  O8  1  0.81211275  0.68616718  0.16848372  1
+  O  O9  1  0.87545025  0.83052564  0.70549744  1
+  Na  Na10  1  0.11732638  0.67557466  0.44126090  1
+  Na  Na11  1  0.54326695  0.03657553  0.55949557  1
+  K  K12  1  0.74127007  0.32701463  0.50843841  1
+  K  K13  1  0.02336167  0.00437322  0.02994025  1
+  Hf  Hf14  1  0.27447867  0.52427047  0.20776308  1
+  Hf  Hf15  1  0.33842716  0.69296312  0.80927527  1
+  Hf  Hf16  1  0.64603591  0.33379287  0.13887124  1
+  Hf  Hf17  1  0.73312116  0.41982549  0.79585207  1

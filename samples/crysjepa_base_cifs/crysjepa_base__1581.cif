@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Sr(GeTe)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.82469493
+_cell_length_b   4.64528202
+_cell_length_c   26.82745920
+_cell_angle_alpha   88.50483386
+_cell_angle_beta   86.38324671
+_cell_angle_gamma   118.28707742
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr(GeTe)2
+_chemical_formula_sum   'Sr3 Ge6 Te6'
+_cell_volume   527.33123428
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.32953882  0.63718343  0.06452159  1
+  Ge  Ge1  1  0.32029149  0.67574978  0.39595973  1
+  Ge  Ge2  1  0.32752383  0.66835338  0.75428718  1
+  Ge  Ge3  1  0.65309149  0.34523237  0.23222290  1
+  Ge  Ge4  1  0.65539461  0.33320564  0.57175446  1
+  Ge  Ge5  1  0.65181416  0.33964294  0.91437680  1
+  Sr  Sr6  1  0.00000000  0.00000000  0.15686335  1
+  Sr  Sr7  1  0.00000000  0.00000000  0.47842020  1
+  Sr  Sr8  1  0.01551408  0.00776553  0.80602223  1
+  Te  Te9  1  0.32667997  0.68520892  0.27984563  1
+  Te  Te10  1  0.35179946  0.67380130  0.57577699  1
+  Te  Te11  1  0.35329068  0.65272045  0.95299029  1
+  Te  Te12  1  0.65710276  0.33250776  0.09019674  1
+  Te  Te13  1  0.65655577  0.34161860  0.44104367  1
+  Te  Te14  1  0.68297297  0.33846852  0.73980129  1

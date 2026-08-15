@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_CdHg5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.79427938
+_cell_length_b   5.46904067
+_cell_length_c   5.83049089
+_cell_angle_alpha   89.62267550
+_cell_angle_beta   65.25983780
+_cell_angle_gamma   73.19937434
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CdHg5
+_chemical_formula_sum   'Cd1 Hg5'
+_cell_volume   159.24613626
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  0.99475205  0.99726492  0.03003081  1
+  Hg  Hg1  1  0.22664106  0.54641926  0.60724235  1
+  Hg  Hg2  1  0.33499587  0.00000000  0.32362497  1
+  Hg  Hg3  1  0.50823987  0.60078615  0.93293238  1
+  Hg  Hg4  1  0.71509707  0.07027007  0.60041839  1
+  Hg  Hg5  1  0.95409495  0.46877524  0.11590771  1

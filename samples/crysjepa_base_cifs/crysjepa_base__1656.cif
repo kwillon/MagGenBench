@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Zn2As4Ru3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.11054756
+_cell_length_b   6.60528185
+_cell_length_c   6.55197676
+_cell_angle_alpha   92.51960716
+_cell_angle_beta   73.85425767
+_cell_angle_gamma   73.43338054
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zn2As4Ru3
+_chemical_formula_sum   'Zn2 As4 Ru3'
+_cell_volume   162.31066069
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  1  0.08648738  0.74158365  0.24572386  1
+  As  As1  1  0.35838440  0.77784461  0.77053386  1
+  As  As2  1  0.64764476  0.20452894  0.26380771  1
+  As  As3  1  0.87581837  0.31167489  0.68125355  1
+  Zn  Zn4  1  0.00068038  0.02069301  0.00072945  1
+  Zn  Zn5  1  0.46392077  0.51354402  0.48481861  1
+  Ru  Ru6  1  0.26134238  0.36264956  0.24310017  1
+  Ru  Ru7  1  0.50912058  0.31911284  0.79794866  1
+  Ru  Ru8  1  0.71958882  0.71684062  0.73452687  1

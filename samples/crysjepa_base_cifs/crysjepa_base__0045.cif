@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Ba3TePb3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.82990063
+_cell_length_b   9.07198278
+_cell_length_c   8.94632447
+_cell_angle_alpha   109.32042093
+_cell_angle_beta   107.00882599
+_cell_angle_gamma   113.35499697
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba3TePb3
+_chemical_formula_sum   'Ba6 Te2 Pb6'
+_cell_volume   541.56741326
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.01504454  0.42541608  0.45559695  1
+  Ba  Ba1  1  0.19664823  0.06786355  0.73251528  1
+  Ba  Ba2  1  0.45791686  0.34169355  0.52310961  1
+  Ba  Ba3  1  0.51981729  0.84803545  0.50216079  1
+  Ba  Ba4  1  0.66670287  0.66809368  0.20563978  1
+  Ba  Ba5  1  0.85026872  0.98438513  0.00792822  1
+  Te  Te6  1  0.89387953  0.50240099  0.20574276  1
+  Te  Te7  1  0.97346461  0.47087863  0.84518027  1
+  Pb  Pb8  1  0.10986564  0.90929389  0.28731054  1
+  Pb  Pb9  1  0.25457254  0.38256502  0.14472733  1
+  Pb  Pb10  1  0.39311886  0.60041964  0.77888042  1
+  Pb  Pb11  1  0.62681901  0.28130296  0.88302189  1
+  Pb  Pb12  1  0.75986409  0.13494137  0.35299397  1
+  Pb  Pb13  1  0.87637520  0.76745558  0.64240181  1

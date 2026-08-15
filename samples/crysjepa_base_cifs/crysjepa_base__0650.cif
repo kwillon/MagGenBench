@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_CeIn2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.64231253
+_cell_length_b   4.46975626
+_cell_length_c   21.77788413
+_cell_angle_alpha   81.16596339
+_cell_angle_beta   85.08609468
+_cell_angle_gamma   63.77085376
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CeIn2
+_chemical_formula_sum   'Ce5 In10'
+_cell_volume   400.47231832
+_cell_formula_units_Z   5
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.04545137  0.02009223  0.82138306  1
+  In  In1  1  0.13739108  0.13663879  0.61186123  1
+  In  In2  1  0.19937374  0.21764311  0.45375204  1
+  In  In3  1  0.32439765  0.33027688  0.98471624  1
+  In  In4  1  0.44278750  0.40122747  0.77210426  1
+  In  In5  1  0.58606023  0.56151098  0.22422488  1
+  In  In6  1  0.62832910  0.64751142  0.05665652  1
+  In  In7  1  0.79489630  0.78978819  0.55688065  1
+  In  In8  1  0.89920306  0.85576147  0.37817132  1
+  In  In9  1  0.93309581  0.97183913  0.17692292  1
+  Ce  Ce10  1  0.02134267  0.02180406  0.02571320  1
+  Ce  Ce11  1  0.31444216  0.32315019  0.23667391  1
+  Ce  Ce12  1  0.39328980  0.38901985  0.39814883  1
+  Ce  Ce13  1  0.63488871  0.61454868  0.57647234  1
+  Ce  Ce14  1  0.73735392  0.73006821  0.80852973  1

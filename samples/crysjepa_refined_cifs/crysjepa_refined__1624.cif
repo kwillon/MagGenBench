@@ -1,0 +1,28 @@
+# generated using pymatgen
+data_LiEu
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.14611293
+_cell_length_b   3.94818944
+_cell_length_c   4.12848640
+_cell_angle_alpha   88.55478417
+_cell_angle_beta   97.14686976
+_cell_angle_gamma   85.67701377
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiEu
+_chemical_formula_sum   'Li1 Eu1'
+_cell_volume   66.82508086
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.00621470  1.00000000  0.97765529  1
+  Eu  Eu1  1  0.52951199  0.51241601  0.49521711  1

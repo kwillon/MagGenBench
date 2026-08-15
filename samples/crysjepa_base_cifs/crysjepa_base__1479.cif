@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Li2NbCuO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.05406658
+_cell_length_b   4.96179486
+_cell_length_c   5.69493008
+_cell_angle_alpha   59.96987549
+_cell_angle_beta   65.87842102
+_cell_angle_gamma   59.51183496
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2NbCuO6
+_chemical_formula_sum   'Li2 Nb1 Cu1 O6'
+_cell_volume   104.22906063
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.28620693  0.28397787  0.15772714  1
+  Li  Li1  1  0.77644771  0.78659153  0.63617545  1
+  O  O2  1  0.12281290  0.38674581  0.75554335  1
+  O  O3  1  0.22548431  0.85899746  0.29763132  1
+  O  O4  1  0.40579921  0.74254608  0.74735755  1
+  O  O5  1  0.62305188  0.23820959  0.25159031  1
+  O  O6  1  0.68389297  0.13963787  0.75179178  1
+  O  O7  1  0.84460431  0.58944976  0.29495785  1
+  Cu  Cu8  1  0.00633135  0.01140098  0.97674417  1
+  Nb  Nb9  1  0.49385336  0.49072340  0.47907093  1

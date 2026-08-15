@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Lu2AgTe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.51113889
+_cell_length_b   4.59445572
+_cell_length_c   8.88693168
+_cell_angle_alpha   88.61092080
+_cell_angle_beta   87.12419171
+_cell_angle_gamma   86.54334438
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Lu2AgTe3
+_chemical_formula_sum   'Lu2 Ag1 Te3'
+_cell_volume   183.58433486
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  1  0.00929999  0.00000000  0.00000000  1
+  Te  Te1  1  0.01161689  0.49705446  0.33603466  1
+  Te  Te2  1  0.48674330  0.00000000  0.64923453  1
+  Te  Te3  1  0.50320673  0.50364691  0.00000000  1
+  Lu  Lu4  1  0.00000000  0.50424850  0.69302583  1
+  Lu  Lu5  1  0.49421769  0.01722071  0.27037048  1

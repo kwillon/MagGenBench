@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Nd2In3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.18497486
+_cell_length_b   8.23290493
+_cell_length_c   8.75128781
+_cell_angle_alpha   94.33880713
+_cell_angle_beta   88.19943349
+_cell_angle_gamma   87.23529499
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nd2In3
+_chemical_formula_sum   'Nd4 In6'
+_cell_volume   300.12094494
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.00000000  0.00000000  0.00000000  1
+  In  In1  1  0.01226504  0.46015745  0.48227203  1
+  In  In2  1  0.00616189  0.16070268  0.60741234  1
+  In  In3  1  0.01773838  0.41451490  0.14465505  1
+  In  In4  1  0.00000000  0.58855051  0.89025056  1
+  In  In5  1  0.00075970  0.87301850  0.37434149  1
+  Nd  Nd6  1  0.49030179  0.18408968  0.31427208  1
+  Nd  Nd7  1  0.51587307  0.28551009  0.81046325  1
+  Nd  Nd8  1  0.51588315  0.67213571  0.16505589  1
+  Nd  Nd9  1  0.49070248  0.81430334  0.67665845  1

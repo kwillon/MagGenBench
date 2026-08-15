@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Zr3Ni
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.72176126
+_cell_length_b   6.00697592
+_cell_length_c   9.80782691
+_cell_angle_alpha   86.36344673
+_cell_angle_beta   81.00591197
+_cell_angle_gamma   73.29367104
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr3Ni
+_chemical_formula_sum   'Zr12 Ni4'
+_cell_volume   318.84024589
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.11692303  0.15412448  0.53780657  1
+  Ni  Ni1  1  0.36753801  0.30312836  0.14248203  1
+  Ni  Ni2  1  0.61321872  0.65422338  0.90238702  1
+  Ni  Ni3  1  0.89147484  0.83465004  0.42902616  1
+  Zr  Zr4  1  0.00005636  0.31015816  0.00179285  1
+  Zr  Zr5  1  0.03837537  0.74690837  0.80045754  1
+  Zr  Zr6  1  0.17700519  0.47393718  0.51261008  1
+  Zr  Zr7  1  0.24731173  0.92433101  0.28427181  1
+  Zr  Zr8  1  0.33223394  0.66009259  0.00000000  1
+  Zr  Zr9  1  0.41377822  0.03079068  0.75225341  1
+  Zr  Zr10  1  0.49410915  0.77429473  0.52332950  1
+  Zr  Zr11  1  0.59166890  0.26410094  0.29747877  1
+  Zr  Zr12  1  0.66860789  0.99978471  0.10704733  1
+  Zr  Zr13  1  0.76839006  0.40684745  0.79993439  1
+  Zr  Zr14  1  0.82628810  0.10795446  0.57352346  1
+  Zr  Zr15  1  0.90105486  0.57451618  0.23519380  1

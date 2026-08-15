@@ -1,0 +1,28 @@
+# generated using pymatgen
+data_PrHo
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.63736512
+_cell_length_b   3.88723485
+_cell_length_c   5.12271881
+_cell_angle_alpha   90.52638098
+_cell_angle_beta   82.96712878
+_cell_angle_gamma   94.95729599
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   PrHo
+_chemical_formula_sum   'Pr1 Ho1'
+_cell_volume   71.61767734
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  0.00000000  0.98232096  0.00000000  1
+  Ho  Ho1  1  0.52395523  0.47797754  0.51832217  1

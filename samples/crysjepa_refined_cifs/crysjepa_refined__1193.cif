@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_LaNdCr4CdFe2Au5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.00492944
+_cell_length_b   6.87633910
+_cell_length_c   7.15113935
+_cell_angle_alpha   83.75776132
+_cell_angle_beta   72.40534776
+_cell_angle_gamma   74.44495007
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaNdCr4CdFe2Au5
+_chemical_formula_sum   'La1 Nd1 Cr4 Cd1 Fe2 Au5'
+_cell_volume   271.03813200
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cr  Cr0  1  0.10497925  0.76894683  0.68343377  1
+  Cr  Cr1  1  0.27124134  0.33774272  0.80745709  1
+  Cr  Cr2  1  0.54887861  0.71508271  0.35960928  1
+  Cr  Cr3  1  0.71220273  0.32184079  0.47135833  1
+  Cd  Cd4  1  0.12274846  0.25335115  0.61821932  1
+  La  La5  1  0.16290529  0.25696802  0.17310743  1
+  Fe  Fe6  1  0.26875576  0.82395935  0.66802406  1
+  Au  Au7  1  0.41805467  0.55136514  0.18312395  1
+  Au  Au8  1  0.51365089  0.30952683  0.70714253  1
+  Au  Au9  1  0.49955106  0.78471977  0.47763264  1
+  Au  Au10  1  0.52690476  0.47138357  0.94627982  1
+  Au  Au11  1  0.77460223  0.15811324  0.31752956  1
+  Fe  Fe12  1  0.81981951  0.65871251  0.42657563  1
+  Nd  Nd13  1  0.95169032  0.90260315  0.04343013  1

@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_Ac2LaEr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.39953163
+_cell_length_b   5.36601141
+_cell_length_c   6.10286112
+_cell_angle_alpha   116.17836969
+_cell_angle_beta   110.87653114
+_cell_angle_gamma   86.26103611
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ac2LaEr
+_chemical_formula_sum   'Ac2 La1 Er1'
+_cell_volume   147.37342168
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.47832268  0.49153495  0.96727276  1
+  Er  Er1  1  1.00000000  1.00000000  0.98397583  1
+  Ac  Ac2  1  0.24531217  0.73871589  0.48746702  1
+  Ac  Ac3  1  0.78045571  0.24690200  0.49603987  1

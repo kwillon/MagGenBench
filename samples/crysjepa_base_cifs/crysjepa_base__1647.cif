@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_TbIn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.67975557
+_cell_length_b   4.02033007
+_cell_length_c   7.83038318
+_cell_angle_alpha   95.87432104
+_cell_angle_beta   85.60018185
+_cell_angle_gamma   85.80044180
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TbIn
+_chemical_formula_sum   'Tb2 In2'
+_cell_volume   114.50889938
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.00000000  0.00000000  0.51028824  1
+  In  In1  1  0.02465816  0.00000000  0.00679714  1
+  Tb  Tb2  1  0.48739555  0.49877197  0.26332378  1
+  Tb  Tb3  1  0.52876252  0.49681979  0.74786764  1

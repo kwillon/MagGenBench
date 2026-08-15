@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_Al3Zn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.09901141
+_cell_length_b   4.32979152
+_cell_length_c   4.72237981
+_cell_angle_alpha   115.44137821
+_cell_angle_beta   109.60298096
+_cell_angle_gamma   82.80805537
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al3Zn
+_chemical_formula_sum   'Al3 Zn1'
+_cell_volume   71.28016431
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.24451932  0.73438358  0.49366507  1
+  Al  Al1  1  0.75448155  0.26213244  0.47835204  1
+  Al  Al2  1  1.00000000  0.00000000  1.00000000  1
+  Zn  Zn3  1  0.49019325  0.53688312  1.00000000  1

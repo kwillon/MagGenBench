@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_AgAu5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.85960084
+_cell_length_b   5.02286490
+_cell_length_c   5.15719593
+_cell_angle_alpha   118.82166745
+_cell_angle_beta   94.35640053
+_cell_angle_gamma   92.56573368
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AgAu5
+_chemical_formula_sum   'Ag1 Au5'
+_cell_volume   109.49193103
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  1  0.46131083  1.00000000  1.00000000  1
+  Au  Au1  1  0.01887754  0.67529154  1.00000000  1
+  Au  Au2  1  0.47781020  0.31401134  0.68767166  1
+  Au  Au3  1  0.49258775  0.68634093  0.32103777  1
+  Au  Au4  1  0.99896061  0.27818716  0.32564029  1
+  Au  Au5  1  1.00000000  0.96074390  0.70950598  1

@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_ErMgNpPt3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.43074755
+_cell_length_b   5.18555053
+_cell_length_c   5.57431227
+_cell_angle_alpha   115.86556382
+_cell_angle_beta   86.18361846
+_cell_angle_gamma   93.42939902
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ErMgNpPt3
+_chemical_formula_sum   'Er1 Mg1 Np1 Pt3'
+_cell_volume   114.92099199
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.02607606  0.01261791  0.00000000  1
+  Er  Er1  1  0.01869624  0.69702727  0.33804932  1
+  Pt  Pt2  1  0.52648628  0.48460093  0.00011678  1
+  Pt  Pt3  1  0.49929452  0.49538559  0.49984148  1
+  Pt  Pt4  1  0.47479361  0.96446341  0.52323580  1
+  Np  Np5  1  0.99466580  0.33580279  0.66711766  1

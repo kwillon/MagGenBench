@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_HfAlRu
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.41958842
+_cell_length_b   4.92530198
+_cell_length_c   5.42125003
+_cell_angle_alpha   87.73500178
+_cell_angle_beta   92.53414143
+_cell_angle_gamma   115.58812082
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfAlRu
+_chemical_formula_sum   'Hf2 Al2 Ru2'
+_cell_volume   106.30326822
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.00000000  0.00000000  0.00000000  1
+  Al  Al1  1  0.00000000  0.00000000  0.48793277  1
+  Ru  Ru2  1  0.35742319  0.75170320  0.26595682  1
+  Ru  Ru3  1  0.63898510  0.26522166  0.75131226  1
+  Hf  Hf4  1  0.31233290  0.63368726  0.75777620  1
+  Hf  Hf5  1  0.66678363  0.35359609  0.24212575  1

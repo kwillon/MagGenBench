@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_SrInSbAs
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.27331193
+_cell_length_b   4.27136746
+_cell_length_c   6.29220892
+_cell_angle_alpha   77.77763868
+_cell_angle_beta   95.76827742
+_cell_angle_gamma   103.78618740
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrInSbAs
+_chemical_formula_sum   'Sr1 In1 Sb1 As1'
+_cell_volume   108.86232788
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  1  0.00000000  0.00692866  0.00825488  1
+  Sr  Sr1  1  0.00000000  0.00000000  0.50332022  1
+  In  In2  1  0.49781781  0.50299710  0.00374124  1
+  Sb  Sb3  1  0.50959957  0.51589799  0.50918853  1

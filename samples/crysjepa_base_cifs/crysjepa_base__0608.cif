@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Yb2Pt2C2N
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.29726965
+_cell_length_b   4.69132657
+_cell_length_c   6.14917506
+_cell_angle_alpha   97.21860506
+_cell_angle_beta   110.25253993
+_cell_angle_gamma   88.59720822
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Yb2Pt2C2N
+_chemical_formula_sum   'Yb2 Pt2 C2 N1'
+_cell_volume   88.51251666
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  C  C0  1  0.00100441  0.02065136  0.00049299  1
+  C  C1  1  0.26613671  0.74380916  0.48695186  1
+  N  N2  1  0.72156709  0.27513292  0.51915014  1
+  Yb  Yb3  1  0.12879528  0.27579206  0.29285258  1
+  Yb  Yb4  1  0.86143667  0.72066087  0.71549034  1
+  Pt  Pt5  1  0.34954634  0.22901854  0.82126570  1
+  Pt  Pt6  1  0.60350448  0.79563802  0.16863769  1

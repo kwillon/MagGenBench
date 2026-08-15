@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_YbAlGe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.18284660
+_cell_length_b   7.21696037
+_cell_length_c   8.54551559
+_cell_angle_alpha   90.58521172
+_cell_angle_beta   91.11793244
+_cell_angle_gamma   95.54985372
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YbAlGe
+_chemical_formula_sum   'Yb4 Al4 Ge4'
+_cell_volume   256.69013055
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.24916710  0.12191693  0.92758429  1
+  Al  Al1  1  0.25553450  0.63942790  0.57296979  1
+  Al  Al2  1  0.76547503  0.36841139  0.44526458  1
+  Al  Al3  1  0.73933446  0.89305627  0.04815361  1
+  Ge  Ge4  1  0.25660706  0.26889175  0.59813058  1
+  Ge  Ge5  1  0.26023999  0.78703171  0.90244150  1
+  Ge  Ge6  1  0.76334000  0.22535373  0.11276762  1
+  Ge  Ge7  1  0.72738719  0.71826369  0.38437784  1
+  Yb  Yb8  1  0.26148522  0.00082340  0.33898321  1
+  Yb  Yb9  1  0.25341153  0.51163691  0.18935613  1
+  Yb  Yb10  1  0.74140012  0.48987815  0.83540094  1
+  Yb  Yb11  1  0.75869089  0.99475503  0.64507502  1

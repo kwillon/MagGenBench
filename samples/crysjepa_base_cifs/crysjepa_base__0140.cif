@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Cd2CuO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.24466419
+_cell_length_b   6.23862821
+_cell_length_c   6.21498961
+_cell_angle_alpha   95.05949782
+_cell_angle_beta   124.68812569
+_cell_angle_gamma   108.14050526
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cd2CuO4
+_chemical_formula_sum   'Cd4 Cu2 O8'
+_cell_volume   177.94851785
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.18262245  0.05248701  0.36583081  1
+  O  O1  1  0.20167257  0.63668990  0.90142143  1
+  O  O2  1  0.33706525  0.16568406  0.77249473  1
+  O  O3  1  0.31301546  0.60315692  0.41143736  1
+  O  O4  1  0.72958893  0.34287113  0.50193858  1
+  O  O5  1  0.73585397  0.76922387  0.83909792  1
+  O  O6  1  0.80443555  0.29175207  0.07864933  1
+  O  O7  1  0.79135221  0.80524951  0.35884508  1
+  Cu  Cu8  1  0.00513873  0.00000000  0.00000000  1
+  Cu  Cu9  1  0.47417066  0.49428511  0.98951125  1
+  Cd  Cd10  1  0.27976838  0.28892013  0.30642286  1
+  Cd  Cd11  1  0.39809310  0.84161729  0.61726642  1
+  Cd  Cd12  1  0.83313125  0.11681375  0.48971295  1
+  Cd  Cd13  1  0.95466363  0.53273225  0.58486658  1

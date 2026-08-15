@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Yb4MnSn8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.83414620
+_cell_length_b   4.53065957
+_cell_length_c   16.64443833
+_cell_angle_alpha   89.04802794
+_cell_angle_beta   92.29143787
+_cell_angle_gamma   84.12516224
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Yb4MnSn8
+_chemical_formula_sum   'Yb4 Mn1 Sn8'
+_cell_volume   362.26109829
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.00000000  0.00000000  0.35195723  1
+  Sn  Sn1  1  0.00806083  0.00000000  0.46049157  1
+  Sn  Sn2  1  0.00000000  0.00000000  0.73938501  1
+  Sn  Sn3  1  0.00000000  0.49986658  0.21714148  1
+  Sn  Sn4  1  0.00000000  0.50562066  0.92431176  1
+  Sn  Sn5  1  0.48768204  0.00000000  0.23129939  1
+  Sn  Sn6  1  0.51809376  0.00000000  0.58130413  1
+  Sn  Sn7  1  0.48653761  0.52288508  0.05661179  1
+  Sn  Sn8  1  0.49683923  0.49722645  0.76523393  1
+  Yb  Yb9  1  0.00000000  0.00000000  0.09988038  1
+  Yb  Yb10  1  0.01349478  0.49591967  0.61630785  1
+  Yb  Yb11  1  0.47806451  0.01310552  0.89541066  1
+  Yb  Yb12  1  0.51410514  0.51343685  0.36801463  1

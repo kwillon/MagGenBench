@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_TlHg2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.40012116
+_cell_length_b   5.69686705
+_cell_length_c   6.76370592
+_cell_angle_alpha   69.34644360
+_cell_angle_beta   78.46348586
+_cell_angle_gamma   59.79595674
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TlHg2
+_chemical_formula_sum   'Tl2 Hg4'
+_cell_volume   168.20547104
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hg  Hg0  1  0.32171652  0.36141381  0.20161022  1
+  Hg  Hg1  1  0.66531163  0.66996777  0.78075039  1
+  Hg  Hg2  1  1.00000000  0.00337431  0.46841675  1
+  Hg  Hg3  1  0.99653816  0.00287011  1.00000000  1
+  Tl  Tl4  1  0.32962093  0.34433094  0.74505174  1
+  Tl  Tl5  1  0.66063762  0.70773572  0.25476459  1

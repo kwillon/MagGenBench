@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_ErMg5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.42946336
+_cell_length_b   6.04212580
+_cell_length_c   7.52231759
+_cell_angle_alpha   76.01614285
+_cell_angle_beta   74.16781527
+_cell_angle_gamma   78.42314513
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ErMg5
+_chemical_formula_sum   'Er1 Mg5'
+_cell_volume   143.99064742
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.17782396  0.18385512  0.37193224  1
+  Mg  Mg1  1  0.20395590  0.56015712  0.03850465  1
+  Mg  Mg2  1  0.41221103  0.31957382  0.71624380  1
+  Mg  Mg3  1  0.48735967  0.70007139  0.31307620  1
+  Mg  Mg4  1  0.96401936  0.05682573  0.02226989  1
+  Er  Er5  1  0.79723698  0.81371927  0.72273934  1

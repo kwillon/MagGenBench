@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_HoAlFe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.38468868
+_cell_length_b   5.52790400
+_cell_length_c   8.20848598
+_cell_angle_alpha   87.03168677
+_cell_angle_beta   89.32718738
+_cell_angle_gamma   122.22497267
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HoAlFe
+_chemical_formula_sum   'Ho4 Al4 Fe4'
+_cell_volume   206.19569031
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.37307537  0.17567250  0.72138095  1
+  Al  Al1  1  0.84703577  0.65236920  0.74316800  1
+  Al  Al2  1  1.00000000  0.00000000  0.04389746  1
+  Al  Al3  1  0.98613006  0.01442409  0.50019479  1
+  Fe  Fe4  1  0.15592448  0.36806554  0.23286501  1
+  Fe  Fe5  1  0.18382008  0.81384236  0.24334937  1
+  Fe  Fe6  1  0.64319730  0.80274504  0.23241673  1
+  Fe  Fe7  1  0.82437038  0.15962717  0.73759431  1
+  Ho  Ho8  1  0.34932059  0.65571493  0.55794293  1
+  Ho  Ho9  1  0.31275076  0.67015219  0.94492882  1
+  Ho  Ho10  1  0.65416318  0.31683469  0.07878849  1
+  Ho  Ho11  1  0.69187713  0.31575763  0.43911839  1

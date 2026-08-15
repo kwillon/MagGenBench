@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_Mn2AlIn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.24938298
+_cell_length_b   4.17976647
+_cell_length_c   4.15751245
+_cell_angle_alpha   64.53187599
+_cell_angle_beta   60.98739441
+_cell_angle_gamma   55.56668560
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mn2AlIn
+_chemical_formula_sum   'Mn2 Al1 In1'
+_cell_volume   52.00529038
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.76319933  0.76230633  0.75030249  1
+  Mn  Mn1  1  0.00000000  0.00000000  0.00017445  1
+  Mn  Mn2  1  0.50158030  0.47862846  0.51643759  1
+  In  In3  1  0.25488758  0.23147696  0.23182952  1

@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Zr2Co2O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.36918543
+_cell_length_b   5.40344535
+_cell_length_c   8.09604021
+_cell_angle_alpha   100.07300856
+_cell_angle_beta   110.98669426
+_cell_angle_gamma   88.39046546
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr2Co2O5
+_chemical_formula_sum   'Zr4 Co4 O10'
+_cell_volume   215.76885738
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.06592438  0.22068764  0.28768036  1
+  O  O1  1  0.11744650  0.89538127  0.47697973  1
+  O  O2  1  0.21496311  0.22472125  0.94974798  1
+  O  O3  1  0.25607222  0.76913023  0.04939881  1
+  O  O4  1  0.27164689  0.46040004  0.73139125  1
+  O  O5  1  0.56108177  0.54209965  0.29618394  1
+  O  O6  1  0.62879294  0.13254680  0.51872039  1
+  O  O7  1  0.68886393  0.29816261  0.96009129  1
+  O  O8  1  0.77114332  0.80697477  0.05784516  1
+  O  O9  1  0.84648550  0.77628672  0.74574447  1
+  Co  Co10  1  0.28559494  0.15530363  0.49421489  1
+  Co  Co11  1  0.46918070  0.53530747  0.46448645  1
+  Co  Co12  1  0.78011322  0.84281528  0.53384358  1
+  Co  Co13  1  0.96589565  0.00000000  0.98295331  1
+  Zr  Zr14  1  0.13083503  0.60730201  0.21208191  1
+  Zr  Zr15  1  0.38220027  0.80737472  0.77600086  1
+  Zr  Zr16  1  0.61327207  0.15737730  0.20177776  1
+  Zr  Zr17  1  0.89468545  0.40009224  0.78626931  1

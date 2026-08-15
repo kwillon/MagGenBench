@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_InHg3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.54342169
+_cell_length_b   4.15031989
+_cell_length_c   9.46248074
+_cell_angle_alpha   91.08543959
+_cell_angle_beta   83.84333815
+_cell_angle_gamma   116.73637411
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InHg3
+_chemical_formula_sum   'In1 Hg3'
+_cell_volume   123.49629119
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.00000000  0.02268735  0.54989856  1
+  Hg  Hg1  1  0.00121207  0.00000000  0.03353002  1
+  Hg  Hg2  1  0.36006710  0.67297673  0.35066378  1
+  Hg  Hg3  1  0.34028977  0.62823987  0.83151096  1

@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_LuIn2Ga
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.18117290
+_cell_length_b   5.35415564
+_cell_length_c   4.85440089
+_cell_angle_alpha   55.36645823
+_cell_angle_beta   63.68876495
+_cell_angle_gamma   63.93956601
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LuIn2Ga
+_chemical_formula_sum   'Lu1 In2 Ga1'
+_cell_volume   96.06377177
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.51370233  0.47378558  0.49744052  1
+  In  In1  1  0.23550528  0.24412829  0.22853723  1
+  In  In2  1  0.75455606  0.76592058  0.76392931  1
+  Lu  Lu3  1  0.00508534  0.00909591  0.01857459  1

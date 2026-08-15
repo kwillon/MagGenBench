@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_Eu3Ru
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.17050017
+_cell_length_b   5.53647277
+_cell_length_c   5.38535238
+_cell_angle_alpha   111.25012743
+_cell_angle_beta   108.14512635
+_cell_angle_gamma   109.23298043
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Eu3Ru
+_chemical_formula_sum   'Eu3 Ru1'
+_cell_volume   118.29203327
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ru  Ru0  1  1.00000000  1.00000000  1.00000000  1
+  Eu  Eu1  1  0.25913590  0.64391011  0.67835987  1
+  Eu  Eu2  1  0.48153785  0.77599078  0.31012812  1
+  Eu  Eu3  1  0.76975757  0.25244907  0.38512576  1

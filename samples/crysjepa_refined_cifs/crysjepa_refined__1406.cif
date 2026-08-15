@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Nd3Fe10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.65329631
+_cell_length_b   6.41762101
+_cell_length_c   6.80220669
+_cell_angle_alpha   103.11351357
+_cell_angle_beta   97.28327077
+_cell_angle_gamma   117.55118030
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nd3Fe10
+_chemical_formula_sum   'Nd3 Fe10'
+_cell_volume   205.28048914
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.01752248  0.58872646  0.99711645  1
+  Fe  Fe1  1  0.36407810  0.46898970  0.27229890  1
+  Fe  Fe2  1  0.38174349  0.85347295  0.87122917  1
+  Fe  Fe3  1  0.47530887  0.21255031  0.39390972  1
+  Fe  Fe4  1  0.56104106  0.17984521  0.78104281  1
+  Fe  Fe5  1  0.52726465  0.88504517  0.21624917  1
+  Fe  Fe6  1  0.52094901  0.51870853  1.00000000  1
+  Fe  Fe7  1  0.60856879  0.86007190  0.55483770  1
+  Fe  Fe8  1  0.67296833  0.25641415  0.11622140  1
+  Fe  Fe9  1  0.67770070  0.59019285  0.70237905  1
+  Nd  Nd10  1  0.00897441  0.02713175  1.00000000  1
+  Nd  Nd11  1  0.05873661  0.31498459  0.62607712  1
+  Nd  Nd12  1  1.00000000  0.70860261  0.38106263  1

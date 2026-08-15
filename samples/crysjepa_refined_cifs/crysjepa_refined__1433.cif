@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_CaMg8AlPb3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.70040817
+_cell_length_b   7.25482233
+_cell_length_c   9.34554639
+_cell_angle_alpha   85.57688796
+_cell_angle_beta   61.70209498
+_cell_angle_gamma   65.65410374
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaMg8AlPb3
+_chemical_formula_sum   'Ca1 Mg8 Al1 Pb3'
+_cell_volume   306.64969228
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.05171350  0.90862471  0.30604967  1
+  Mg  Mg1  1  0.07784648  0.94509357  0.26361039  1
+  Mg  Mg2  1  0.42747396  0.18088563  0.72445869  1
+  Mg  Mg3  1  0.44699699  0.62296230  0.72336268  1
+  Mg  Mg4  1  0.51995373  0.62554383  0.19711643  1
+  Mg  Mg5  1  0.56999558  0.97227621  0.18037732  1
+  Mg  Mg6  1  0.63470095  0.33902034  0.33177447  1
+  Mg  Mg7  1  0.76075149  0.96325600  0.78219730  1
+  Mg  Mg8  1  0.95976019  0.31022206  0.68873835  1
+  Ca  Ca9  1  0.75215250  0.60456645  0.99149543  1
+  Pb  Pb10  1  0.03969228  0.32091412  0.43315402  1
+  Pb  Pb11  1  0.35336360  0.27184549  0.96288443  1
+  Pb  Pb12  1  0.70231217  0.71244550  0.53853130  1

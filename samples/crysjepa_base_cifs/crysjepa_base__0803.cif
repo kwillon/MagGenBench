@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_RbTaSO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.40079971
+_cell_length_b   4.37403779
+_cell_length_c   13.54110790
+_cell_angle_alpha   98.18168942
+_cell_angle_beta   88.68001368
+_cell_angle_gamma   89.73528482
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbTaSO4
+_chemical_formula_sum   'Rb2 Ta2 S2 O8'
+_cell_volume   257.92665961
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.01746613  0.00338190  0.31489220  1
+  O  O1  1  0.00000000  0.02543596  0.70447725  1
+  O  O2  1  0.00000000  0.51871467  0.24774039  1
+  O  O3  1  0.01354016  0.51005650  0.70103371  1
+  O  O4  1  0.27096090  0.50614840  0.04241565  1
+  O  O5  1  0.52139169  0.00329257  0.10942612  1
+  O  O6  1  0.52496731  0.03937531  0.32568532  1
+  O  O7  1  0.47366756  0.01114884  0.73915571  1
+  S  S8  1  0.00343631  0.00000000  0.33762741  1
+  S  S9  1  0.00862974  0.01941334  0.68154514  1
+  Rb  Rb10  1  0.00563999  0.00000000  0.00000000  1
+  Rb  Rb11  1  0.49159867  0.50286269  0.48953027  1
+  Ta  Ta12  1  0.52216768  0.49317205  0.17553122  1
+  Ta  Ta13  1  0.52161664  0.50457394  0.81975323  1

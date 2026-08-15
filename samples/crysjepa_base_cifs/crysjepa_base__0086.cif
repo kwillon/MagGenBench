@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_KRb2TlCl6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.56518235
+_cell_length_b   8.03296460
+_cell_length_c   8.01419898
+_cell_angle_alpha   62.90030417
+_cell_angle_beta   65.83917311
+_cell_angle_gamma   59.22082643
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KRb2TlCl6
+_chemical_formula_sum   'K1 Rb2 Tl1 Cl6'
+_cell_volume   410.38777562
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.24317028  0.24009213  0.76179576  1
+  Cl  Cl1  1  0.25061080  0.77205467  0.23929833  1
+  Cl  Cl2  1  0.23642096  0.76066512  0.79540104  1
+  Cl  Cl3  1  0.77236861  0.23034914  0.23630625  1
+  Cl  Cl4  1  0.76894718  0.21061699  0.77319717  1
+  Cl  Cl5  1  0.78623486  0.76144010  0.25000116  1
+  K  K6  1  0.51149040  0.49176580  0.49877635  1
+  Rb  Rb7  1  0.24670757  0.26786098  0.24877892  1
+  Rb  Rb8  1  0.73881859  0.74466425  0.75975496  1
+  Tl  Tl9  1  0.01059920  0.00000000  0.00000000  1

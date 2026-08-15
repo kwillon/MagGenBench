@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_BaInPd
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.48646732
+_cell_length_b   7.92992601
+_cell_length_c   8.64998652
+_cell_angle_alpha   89.86971057
+_cell_angle_beta   89.07160929
+_cell_angle_gamma   92.55655125
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaInPd
+_chemical_formula_sum   'Ba4 In4 Pd4'
+_cell_volume   307.39558765
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pd  Pd0  1  0.25546834  0.28519592  0.87685692  1
+  Pd  Pd1  1  0.26239651  0.79406047  0.61946690  1
+  Pd  Pd2  1  0.72384578  0.21797560  0.38584572  1
+  Pd  Pd3  1  0.77023667  0.72453701  0.11977145  1
+  In  In4  1  0.24949823  0.14269446  0.57846296  1
+  In  In5  1  0.24918324  0.64808792  0.93301749  1
+  In  In6  1  0.74224162  0.35694301  0.07352165  1
+  In  In7  1  0.77036184  0.85960597  0.44326317  1
+  Ba  Ba8  1  0.25811052  0.03212105  0.17284235  1
+  Ba  Ba9  1  0.26562798  0.56484920  0.34509099  1
+  Ba  Ba10  1  0.74872720  0.44969600  0.67755371  1
+  Ba  Ba11  1  0.78415346  0.95955187  0.83382386  1

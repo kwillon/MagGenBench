@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Sr7Zn(CdAu3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.20941219
+_cell_length_b   6.78486979
+_cell_length_c   13.97510345
+_cell_angle_alpha   101.20059347
+_cell_angle_beta   93.46048435
+_cell_angle_gamma   84.28193040
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr7Zn(CdAu3)2
+_chemical_formula_sum   'Sr7 Zn1 Cd2 Au6'
+_cell_volume   481.70767837
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.32705808  0.66921383  0.15288234  1
+  Sr  Sr1  1  0.19911630  0.29852837  0.08426913  1
+  Sr  Sr2  1  0.23661652  0.70329309  0.39684436  1
+  Sr  Sr3  1  0.27797267  0.92887074  0.72633076  1
+  Sr  Sr4  1  0.62950563  0.27253041  0.78200579  1
+  Sr  Sr5  1  0.73024559  0.09347572  0.27935651  1
+  Sr  Sr6  1  0.74432504  0.32429889  0.56080508  1
+  Sr  Sr7  1  0.77339649  0.73317170  0.93926543  1
+  Cd  Cd8  1  0.23521127  0.21605995  0.42766541  1
+  Cd  Cd9  1  0.75293845  0.31103411  0.88410783  1
+  Au  Au10  1  0.20262834  0.05637470  0.22594644  1
+  Au  Au11  1  0.25223115  0.42974240  0.64213288  1
+  Au  Au12  1  0.27561343  0.53649551  0.89398992  1
+  Au  Au13  1  0.72352600  0.48338410  0.12963749  1
+  Au  Au14  1  0.73102605  0.69687951  0.47088408  1
+  Au  Au15  1  0.78447038  0.92525834  0.72174805  1

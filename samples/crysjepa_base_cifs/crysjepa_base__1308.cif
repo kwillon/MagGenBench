@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_YbMgNi2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.29221771
+_cell_length_b   4.75036085
+_cell_length_c   4.81741793
+_cell_angle_alpha   49.10942087
+_cell_angle_beta   55.88255950
+_cell_angle_gamma   58.04405347
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YbMgNi2
+_chemical_formula_sum   'Yb1 Mg1 Ni2'
+_cell_volume   59.37669354
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.48941168  0.49501446  0.51053572  1
+  Ni  Ni1  1  0.22725604  0.24929449  0.24337184  1
+  Ni  Ni2  1  0.73231035  0.77382487  0.74450564  1
+  Yb  Yb3  1  0.00000000  0.00000000  0.00000000  1

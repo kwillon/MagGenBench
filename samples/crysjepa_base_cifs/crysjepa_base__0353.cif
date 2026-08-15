@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_La2CdCu2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.95447785
+_cell_length_b   8.01515382
+_cell_length_c   7.64333539
+_cell_angle_alpha   88.32947549
+_cell_angle_beta   91.94285735
+_cell_angle_gamma   85.80348515
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La2CdCu2
+_chemical_formula_sum   'La4 Cd2 Cu4'
+_cell_volume   241.35118630
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.96326476  0.09851982  0.63224715  1
+  Cu  Cu1  1  1.00000000  0.38807902  0.10158192  1
+  Cu  Cu2  1  1.00000000  0.60574317  0.85599434  1
+  Cu  Cu3  1  0.98283559  0.89526135  0.38468048  1
+  Cd  Cd4  1  0.00000000  0.00000000  0.00000000  1
+  Cd  Cd5  1  1.00000000  0.51075441  0.49593931  1
+  La  La6  1  0.49039871  0.17915109  0.30714753  1
+  La  La7  1  0.52294248  0.31858149  0.81480813  1
+  La  La8  1  0.49897641  0.66463834  0.20473391  1
+  La  La9  1  0.47702551  0.83387041  0.68732494  1

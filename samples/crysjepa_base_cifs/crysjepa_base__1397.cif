@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_InSe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.72228535
+_cell_length_b   3.95018269
+_cell_length_c   9.67924667
+_cell_angle_alpha   87.05380520
+_cell_angle_beta   84.43158241
+_cell_angle_gamma   115.51357397
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   InSe
+_chemical_formula_sum   'In2 Se2'
+_cell_volume   127.14611937
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.34489480  0.66613346  0.30081618  1
+  Se  Se1  1  0.37148613  0.59184521  0.72703618  1
+  In  In2  1  0.33177796  0.67801315  0.00655792  1
+  In  In3  1  0.67985547  0.33201680  0.51546103  1

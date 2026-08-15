@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_CePd2Pb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.63318322
+_cell_length_b   4.38959994
+_cell_length_c   4.87290724
+_cell_angle_alpha   84.32389326
+_cell_angle_beta   89.22356765
+_cell_angle_gamma   72.32622570
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CePd2Pb
+_chemical_formula_sum   'Ce1 Pd2 Pb1'
+_cell_volume   93.94947250
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pd  Pd0  1  0.00000000  0.51045245  0.51624322  1
+  Pd  Pd1  1  0.52052152  0.00183756  0.50731534  1
+  Ce  Ce2  1  0.00000000  0.00466206  0.02144319  1
+  Pb  Pb3  1  0.50005090  0.48654282  0.00000000  1

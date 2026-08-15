@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_ZrGe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.54457931
+_cell_length_b   3.49086474
+_cell_length_c   8.14958223
+_cell_angle_alpha   102.94784833
+_cell_angle_beta   93.81352898
+_cell_angle_gamma   91.22822472
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZrGe2
+_chemical_formula_sum   'Zr2 Ge4'
+_cell_volume   97.99004494
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.24262753  0.22644012  0.48548386  1
+  Ge  Ge1  1  0.25233972  0.58686787  0.09880663  1
+  Ge  Ge2  1  0.75575721  0.42171180  0.86874253  1
+  Ge  Ge3  1  0.75421160  0.77686733  0.50834948  1
+  Zr  Zr4  1  0.27731586  0.89895314  0.78492504  1
+  Zr  Zr5  1  0.73461616  0.12222540  0.23624049  1

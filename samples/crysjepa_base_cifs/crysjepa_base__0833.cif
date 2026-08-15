@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_HoSnO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.05733779
+_cell_length_b   4.98997032
+_cell_length_c   6.52434212
+_cell_angle_alpha   117.11419874
+_cell_angle_beta   109.97230323
+_cell_angle_gamma   87.22017930
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HoSnO4
+_chemical_formula_sum   'Ho2 Sn2 O8'
+_cell_volume   136.60415712
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.04596739  0.22365934  0.93432176  1
+  O  O1  1  0.22725348  0.39396808  0.43137005  1
+  O  O2  1  0.28797382  0.94574428  0.55258489  1
+  O  O3  1  0.38930142  0.72645622  0.94902593  1
+  O  O4  1  0.59164453  0.28812882  0.05674455  1
+  O  O5  1  0.67725319  0.06459308  0.43549579  1
+  O  O6  1  0.79310817  0.65334994  0.62532836  1
+  O  O7  1  0.95677865  0.76419938  0.08268449  1
+  Sn  Sn8  1  0.12884474  0.82874048  0.77317917  1
+  Sn  Sn9  1  0.86208338  0.18496315  0.24824944  1
+  Ho  Ho10  1  0.38612092  0.62689441  0.27232447  1
+  Ho  Ho11  1  0.63752276  0.35963559  0.72746140  1

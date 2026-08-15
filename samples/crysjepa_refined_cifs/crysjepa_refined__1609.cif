@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Mn4Sn9
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.48502503
+_cell_length_b   6.87665698
+_cell_length_c   8.26684476
+_cell_angle_alpha   100.09047579
+_cell_angle_beta   85.04521104
+_cell_angle_gamma   84.13710693
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mn4Sn9
+_chemical_formula_sum   'Mn4 Sn9'
+_cell_volume   303.64969754
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.07760593  0.79326057  0.12264946  1
+  Mn  Mn1  1  0.31237179  0.84308314  0.87650734  1
+  Mn  Mn2  1  0.55824703  0.12052327  0.11782221  1
+  Mn  Mn3  1  0.82898337  0.38718608  0.82384270  1
+  Sn  Sn4  1  0.12926759  0.22413769  0.31340533  1
+  Sn  Sn5  1  0.20768811  0.56433147  0.38933980  1
+  Sn  Sn6  1  0.25986859  0.69522494  0.93578237  1
+  Sn  Sn7  1  0.38451350  0.34830737  0.66728467  1
+  Sn  Sn8  1  0.49759707  0.13082343  0.75116450  1
+  Sn  Sn9  1  0.61466223  0.82466304  0.22224064  1
+  Sn  Sn10  1  0.66829467  0.50799382  0.41778225  1
+  Sn  Sn11  1  0.84427077  0.29482096  0.06988941  1
+  Sn  Sn12  1  0.97226274  0.80005181  0.64627492  1

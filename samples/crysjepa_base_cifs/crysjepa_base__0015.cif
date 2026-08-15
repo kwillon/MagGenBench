@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_KLi4Si3O4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.20194471
+_cell_length_b   6.37169419
+_cell_length_c   7.29357117
+_cell_angle_alpha   95.00396515
+_cell_angle_beta   100.33129398
+_cell_angle_gamma   87.75285179
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KLi4Si3O4
+_chemical_formula_sum   'K1 Li4 Si3 O4'
+_cell_volume   145.78946688
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.23987144  0.08661386  0.70823109  1
+  Li  Li1  1  0.24472618  0.57382441  0.83647037  1
+  Li  Li2  1  0.74336231  0.42864624  0.18119092  1
+  Li  Li3  1  0.73533428  0.90056664  0.27655062  1
+  O  O4  1  0.24425548  0.18414761  0.37971362  1
+  O  O5  1  0.25599489  0.68193275  0.14037138  1
+  O  O6  1  0.73922300  0.30233949  0.83309865  1
+  O  O7  1  0.77795249  0.82076710  0.61853009  1
+  Si  Si8  1  0.25720781  0.15100899  0.13739611  1
+  Si  Si9  1  0.27687982  0.64539421  0.38121104  1
+  Si  Si10  1  0.73638195  0.35061345  0.60473049  1
+  K  K11  1  0.74552637  0.85817826  0.87916470  1

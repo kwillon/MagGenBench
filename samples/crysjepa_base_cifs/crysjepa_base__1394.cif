@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_BaCaFeCuO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.95418380
+_cell_length_b   5.38812806
+_cell_length_c   10.48008750
+_cell_angle_alpha   94.35290909
+_cell_angle_beta   87.10050123
+_cell_angle_gamma   120.12141660
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaCaFeCuO4
+_chemical_formula_sum   'Ba2 Ca2 Fe2 Cu2 O8'
+_cell_volume   241.25303567
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.10729296  0.24234852  0.16642652  1
+  O  O1  1  0.11340049  0.77278113  0.11480574  1
+  O  O2  1  0.27225363  0.16135800  0.74983203  1
+  O  O3  1  0.29665253  0.57039011  0.47353145  1
+  O  O4  1  0.70525986  0.40832898  0.51703417  1
+  O  O5  1  0.70293659  0.84100628  0.24614555  1
+  O  O6  1  0.86559516  0.18919004  0.89606458  1
+  O  O7  1  0.87815630  0.74196678  0.78896558  1
+  Ca  Ca8  1  0.31998724  0.75333512  0.23013085  1
+  Ca  Ca9  1  0.69132209  0.22082017  0.78224397  1
+  Cu  Cu10  1  0.00371403  0.49561745  0.44332895  1
+  Cu  Cu11  1  0.45037276  0.00110301  0.52960539  1
+  Fe  Fe12  1  0.19132033  0.76155466  0.91833746  1
+  Fe  Fe13  1  0.82121676  0.22562899  0.07754911  1
+  Ba  Ba14  1  0.35653961  0.66088867  0.69415593  1
+  Ba  Ba15  1  0.61944336  0.31994146  0.29405269  1

@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_KTi5O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.49768252
+_cell_length_b   6.88722567
+_cell_length_c   7.31786631
+_cell_angle_alpha   83.74355020
+_cell_angle_beta   77.53674105
+_cell_angle_gamma   80.20647343
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KTi5O7
+_chemical_formula_sum   'K1 Ti5 O7'
+_cell_volume   169.14080790
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.04728119  0.14213565  0.66681540  1
+  O  O1  1  0.00591954  0.31280056  0.23538275  1
+  O  O2  1  0.00267718  0.69453317  0.81332493  1
+  O  O3  1  0.46203393  0.30214804  0.83066863  1
+  O  O4  1  0.50414199  0.49261954  0.49867699  1
+  O  O5  1  0.56127900  0.67416722  0.15767673  1
+  O  O6  1  0.92016804  0.83209026  0.36009717  1
+  Ti  Ti7  1  0.08801886  0.50051445  0.01375755  1
+  Ti  Ti8  1  0.22967723  0.55313659  0.63549680  1
+  Ti  Ti9  1  0.37319708  0.83951926  0.39123526  1
+  Ti  Ti10  1  0.62403291  0.12753628  0.61158603  1
+  Ti  Ti11  1  0.78776556  0.43518925  0.35535690  1
+  K  K12  1  0.48207080  0.00000000  0.98269665  1

@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_Ca3VO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.80063577
+_cell_length_b   3.38134079
+_cell_length_c   8.53578102
+_cell_angle_alpha   102.12328604
+_cell_angle_beta   89.21160560
+_cell_angle_gamma   75.90186731
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca3VO4
+_chemical_formula_sum   'Ca3 V1 O4'
+_cell_volume   103.77460241
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.00352515  0.00000000  0.21336584  1
+  O  O1  1  0.00043266  0.01636538  0.78200865  1
+  O  O2  1  0.50565267  0.51968390  0.00000000  1
+  O  O3  1  0.50257462  0.51750278  0.47008407  1
+  Ca  Ca4  1  0.01001388  0.00000000  0.49949968  1
+  Ca  Ca5  1  0.52495980  0.49016792  0.24721932  1
+  Ca  Ca6  1  0.50407165  0.50546241  0.77411050  1
+  V  V7  1  0.02620538  0.02995784  0.00000000  1

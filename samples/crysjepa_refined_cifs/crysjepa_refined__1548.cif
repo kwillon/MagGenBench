@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_In3Pb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.90243314
+_cell_length_b   6.44773870
+_cell_length_c   8.75803968
+_cell_angle_alpha   88.50773420
+_cell_angle_beta   81.85577514
+_cell_angle_gamma   109.44730963
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   In3Pb
+_chemical_formula_sum   'In6 Pb2'
+_cell_volume   257.61534204
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.15972458  0.29911798  0.69933373  1
+  In  In1  1  0.39600870  0.59802538  0.43363163  1
+  In  In2  1  0.35351887  0.74778801  0.05603969  1
+  In  In3  1  0.40288883  0.76899481  0.49109435  1
+  In  In4  1  0.65122128  0.24710754  0.50339168  1
+  In  In5  1  0.66958010  0.26326519  1.00000000  1
+  Pb  Pb6  1  0.11086729  0.17616990  0.27951348  1
+  Pb  Pb7  1  0.92100680  0.84396052  0.73807204  1

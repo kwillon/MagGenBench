@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Cs2TaCuCl6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.39567442
+_cell_length_b   7.20954357
+_cell_length_c   7.13361605
+_cell_angle_alpha   55.84295965
+_cell_angle_beta   54.53015179
+_cell_angle_gamma   57.13590895
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2TaCuCl6
+_chemical_formula_sum   'Cs2 Ta1 Cu1 Cl6'
+_cell_volume   242.70635567
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.25698528  0.24413721  0.77207959  1
+  Cl  Cl1  1  0.26376781  0.78082836  0.22423239  1
+  Cl  Cl2  1  0.23535484  0.73427939  0.76202369  1
+  Cl  Cl3  1  0.74138212  0.26081046  0.24128151  1
+  Cl  Cl4  1  0.77479792  0.24059430  0.76197141  1
+  Cl  Cl5  1  0.74581039  0.74037015  0.23214538  1
+  Cu  Cu6  1  0.50000358  0.51850832  0.49170059  1
+  Cs  Cs7  1  0.27177656  0.25098613  0.25687754  1
+  Cs  Cs8  1  0.76356190  0.73020637  0.73228806  1
+  Ta  Ta9  1  0.00000000  0.01838599  0.01496562  1

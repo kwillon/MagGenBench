@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Sr5CaIO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.20639032
+_cell_length_b   7.33387172
+_cell_length_c   6.87048698
+_cell_angle_alpha   60.43523922
+_cell_angle_beta   61.20481262
+_cell_angle_gamma   52.81586332
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr5CaIO8
+_chemical_formula_sum   'Sr5 Ca1 I1 O8'
+_cell_volume   242.64325936
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.19115551  0.19415477  0.79216933  1
+  O  O1  1  0.24577963  0.25760880  0.25084487  1
+  O  O2  1  0.20105548  0.75248384  0.20134881  1
+  O  O3  1  0.23408395  0.80062908  0.74474913  1
+  O  O4  1  0.77914417  0.20423394  0.21806329  1
+  O  O5  1  0.78869265  0.26276645  0.80765653  1
+  O  O6  1  0.72520071  0.75504190  0.73541474  1
+  O  O7  1  0.77628827  0.79896969  0.20941013  1
+  Ca  Ca8  1  0.02027462  0.03805412  0.04220138  1
+  Sr  Sr9  1  0.00000000  0.36206821  0.64402509  1
+  Sr  Sr10  1  0.00917787  0.66135961  0.36822051  1
+  Sr  Sr11  1  0.50579250  0.32499158  0.02578586  1
+  Sr  Sr12  1  0.50076199  0.69047695  0.00000000  1
+  Sr  Sr13  1  0.49862915  0.98363680  0.51024705  1
+  I  I14  1  0.00000000  0.00000000  0.00173662  1

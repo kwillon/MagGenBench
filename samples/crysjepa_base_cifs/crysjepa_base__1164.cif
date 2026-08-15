@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Cr4InFeSe8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.65082805
+_cell_length_b   7.46596849
+_cell_length_c   7.13026104
+_cell_angle_alpha   57.16285418
+_cell_angle_beta   57.98636001
+_cell_angle_gamma   60.19204362
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cr4InFeSe8
+_chemical_formula_sum   'Cr4 In1 Fe1 Se8'
+_cell_volume   277.31984280
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cr  Cr0  1  0.36869231  0.85491490  0.85885239  1
+  Cr  Cr1  1  0.89085782  0.37532350  0.87133121  1
+  Cr  Cr2  1  0.86291033  0.89163828  0.37739459  1
+  Cr  Cr3  1  0.87190408  0.87027699  0.85238516  1
+  Fe  Fe4  1  0.50369132  0.48351392  0.50038087  1
+  Se  Se5  1  0.11473578  0.10725339  0.13715009  1
+  Se  Se6  1  0.13803586  0.10562873  0.66679323  1
+  Se  Se7  1  0.06825195  0.65044385  0.64014012  1
+  Se  Se8  1  0.11176613  0.66081011  0.12474322  1
+  Se  Se9  1  0.64226937  0.11293430  0.62037981  1
+  Se  Se10  1  0.65198153  0.11574944  0.10890028  1
+  Se  Se11  1  0.63986897  0.64136082  0.08681822  1
+  Se  Se12  1  0.65754700  0.63942999  0.62972730  1
+  In  In13  1  0.24396530  0.26745597  0.26465669  1

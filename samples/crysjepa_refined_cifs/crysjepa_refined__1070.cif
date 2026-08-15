@@ -1,0 +1,28 @@
+# generated using pymatgen
+data_CaLa
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.97433322
+_cell_length_b   3.82601364
+_cell_length_c   4.60331649
+_cell_angle_alpha   93.69734302
+_cell_angle_beta   86.91972698
+_cell_angle_gamma   92.00487646
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaLa
+_chemical_formula_sum   'Ca1 La1'
+_cell_volume   69.71584121
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.97257066  0.98712438  0.01291782  1
+  La  La1  1  0.47508898  0.49929562  0.49545512  1

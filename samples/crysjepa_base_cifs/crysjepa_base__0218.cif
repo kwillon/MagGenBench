@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_ScMnSi
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.75434239
+_cell_length_b   6.49730854
+_cell_length_c   7.28653578
+_cell_angle_alpha   92.70844910
+_cell_angle_beta   92.51266307
+_cell_angle_gamma   97.21140145
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ScMnSi
+_chemical_formula_sum   'Sc4 Mn4 Si4'
+_cell_volume   175.91608817
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.26600599  0.29099834  0.09112776  1
+  Si  Si1  1  0.25286627  0.78619713  0.39447474  1
+  Si  Si2  1  0.75347954  0.19256666  0.61157632  1
+  Si  Si3  1  0.73603112  0.68317598  0.89407551  1
+  Sc  Sc4  1  0.24787740  0.49724168  0.69590551  1
+  Sc  Sc5  1  0.25394481  0.97763997  0.79142499  1
+  Sc  Sc6  1  0.73525983  0.00000000  0.17793439  1
+  Sc  Sc7  1  0.74495625  0.48914146  0.30664548  1
+  Mn  Mn8  1  0.24577767  0.18342434  0.42402613  1
+  Mn  Mn9  1  0.26874754  0.70537937  0.04465555  1
+  Mn  Mn10  1  0.74167484  0.34042338  0.92344052  1
+  Mn  Mn11  1  0.74549174  0.81779844  0.57442123  1

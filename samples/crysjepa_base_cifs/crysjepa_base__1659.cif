@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_K2BiO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.39429258
+_cell_length_b   6.08086198
+_cell_length_c   7.98102342
+_cell_angle_alpha   84.90620515
+_cell_angle_beta   117.88446279
+_cell_angle_gamma   88.35504741
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2BiO
+_chemical_formula_sum   'K4 Bi2 O2'
+_cell_volume   229.74861575
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.19775479  0.23210146  0.30679375  1
+  O  O1  1  0.82854664  0.75130451  0.70626426  1
+  K  K2  1  0.21521021  0.77915132  0.53471863  1
+  K  K3  1  0.42060199  0.22152191  0.83506626  1
+  K  K4  1  0.58696598  0.75406665  0.14031242  1
+  K  K5  1  0.75566751  0.21781647  0.42586833  1
+  Bi  Bi6  1  0.15954071  0.42507583  0.20300519  1
+  Bi  Bi7  1  0.82536393  0.57371068  0.77141380  1

@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_MgAlZnCd
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.14445215
+_cell_length_b   4.34706047
+_cell_length_c   4.84534862
+_cell_angle_alpha   114.12447122
+_cell_angle_beta   99.29788565
+_cell_angle_gamma   90.93377123
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgAlZnCd
+_chemical_formula_sum   'Mg1 Al1 Zn1 Cd1'
+_cell_volume   78.29442381
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.52268058  0.51096308  0.00000000  1
+  Al  Al1  1  0.98277372  0.00069910  0.00000000  1
+  Zn  Zn2  1  0.76591206  0.25019607  0.51828754  1
+  Cd  Cd3  1  0.30018675  0.75099081  0.51396346  1

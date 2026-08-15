@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Ba2CaEuFe3O8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.10684457
+_cell_length_b   6.20643402
+_cell_length_c   7.83241251
+_cell_angle_alpha   94.50767513
+_cell_angle_beta   91.52421544
+_cell_angle_gamma   130.35316243
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2CaEuFe3O8
+_chemical_formula_sum   'Ba2 Ca1 Eu1 Fe3 O8'
+_cell_volume   224.35300654
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.00835907  0.50133377  1.00000000  1
+  O  O1  1  0.15424733  0.35926545  0.31836587  1
+  O  O2  1  0.16459240  0.92581660  0.32350338  1
+  O  O3  1  0.35231140  0.15624097  0.70484817  1
+  O  O4  1  0.50170678  0.00412784  0.02841421  1
+  O  O5  1  0.63275224  0.63760841  0.24535790  1
+  O  O6  1  0.75721627  0.97671735  0.67353219  1
+  O  O7  1  0.85937667  0.52640188  0.68604994  1
+  Ca  Ca8  1  0.00000000  0.00066636  0.00000000  1
+  Fe  Fe9  1  0.00000000  0.00000000  0.52123040  1
+  Fe  Fe10  1  0.33017620  0.66329145  0.27824253  1
+  Fe  Fe11  1  0.66717613  0.31566858  0.73189741  1
+  Ba  Ba12  1  0.32239214  0.67232603  0.67260641  1
+  Ba  Ba13  1  0.66600293  0.33472893  0.31131899  1
+  Eu  Eu14  1  0.50040638  0.52308309  1.00000000  1

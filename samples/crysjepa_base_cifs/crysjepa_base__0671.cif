@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_MgIn4GeS7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.67351691
+_cell_length_b   7.53406115
+_cell_length_c   7.47672022
+_cell_angle_alpha   61.48925008
+_cell_angle_beta   58.76832179
+_cell_angle_gamma   56.45116177
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgIn4GeS7
+_chemical_formula_sum   'Mg1 In4 Ge1 S7'
+_cell_volume   296.79308324
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.23516247  0.54808736  0.54313320  1
+  S  S1  1  0.41294336  0.38278127  0.35750261  1
+  S  S2  1  0.39853388  0.37426496  0.87738484  1
+  S  S3  1  0.36821073  0.89595699  0.37298116  1
+  S  S4  1  0.61754233  0.79120076  0.82533067  1
+  S  S5  1  0.88676482  0.38581356  0.84097654  1
+  S  S6  1  0.85810208  0.65446436  0.37583217  1
+  S  S7  1  0.87720788  0.86527091  0.85054284  1
+  Ge  Ge8  1  0.57771093  0.58767563  0.59587979  1
+  In  In9  1  0.07136151  0.10358842  0.23615257  1
+  In  In10  1  0.12868172  0.59927452  0.13817702  1
+  In  In11  1  0.53313500  0.15753457  0.57564408  1
+  In  In12  1  0.63385659  0.16411135  0.10443189  1

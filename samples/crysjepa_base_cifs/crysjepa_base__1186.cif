@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_Ni3As
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.14655725
+_cell_length_b   4.87611764
+_cell_length_c   5.08599734
+_cell_angle_alpha   125.36544230
+_cell_angle_beta   90.94728610
+_cell_angle_gamma   90.02902384
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ni3As
+_chemical_formula_sum   'Ni6 As2'
+_cell_volume   83.84114247
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.24279086  0.14092672  0.32537001  1
+  Ni  Ni1  1  0.27347869  0.18329042  0.83303738  1
+  Ni  Ni2  1  0.22796729  0.67118019  0.83274990  1
+  Ni  Ni3  1  0.75417483  0.33405015  0.16318263  1
+  Ni  Ni4  1  0.74652630  0.81596231  0.15182756  1
+  Ni  Ni5  1  0.74492687  0.82783061  0.67697543  1
+  As  As6  1  0.25417486  0.65872306  0.30336219  1
+  As  As7  1  0.73369604  0.32932016  0.65976679  1

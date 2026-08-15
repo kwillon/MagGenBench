@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_MnCr2Cu4TeSe5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.35841941
+_cell_length_b   6.90424563
+_cell_length_c   7.02955218
+_cell_angle_alpha   62.26324382
+_cell_angle_beta   63.26278652
+_cell_angle_gamma   57.30398959
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnCr2Cu4TeSe5
+_chemical_formula_sum   'Mn1 Cr2 Cu4 Te1 Se5'
+_cell_volume   256.39040606
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.09508479  0.63052243  0.62324625  1
+  Cr  Cr1  1  0.57129985  0.18907535  0.22259763  1
+  Cr  Cr2  1  0.63482386  0.57756400  0.10425454  1
+  Cu  Cu3  1  0.12578295  0.22833304  0.76286644  1
+  Cu  Cu4  1  0.21321562  0.72136194  0.25944853  1
+  Cu  Cu5  1  0.64482296  0.69892740  0.66599876  1
+  Cu  Cu6  1  0.45718434  0.30907983  0.35860425  1
+  Se  Se7  1  0.40550864  0.37164989  0.37699762  1
+  Se  Se8  1  0.40119037  0.47745934  0.85246503  1
+  Se  Se9  1  0.51943737  0.86209196  0.50576913  1
+  Se  Se10  1  0.84109396  0.35608146  0.83671081  1
+  Se  Se11  1  0.89478892  0.82571507  0.34929156  1
+  Te  Te12  1  0.87714916  0.88003582  0.87518162  1

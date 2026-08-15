@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_MnFe2Si2Ni3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.07826004
+_cell_length_b   6.29049651
+_cell_length_c   6.51041223
+_cell_angle_alpha   83.58338890
+_cell_angle_beta   68.45063558
+_cell_angle_gamma   66.58907899
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnFe2Si2Ni3
+_chemical_formula_sum   'Mn2 Fe4 Si4 Ni6'
+_cell_volume   177.37030349
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.12690885  0.22209401  0.38686505  1
+  Si  Si1  1  0.45426363  0.33125335  0.76549685  1
+  Si  Si2  1  0.50386143  0.65186203  0.19948603  1
+  Si  Si3  1  0.89315999  0.78921735  0.48674691  1
+  Mn  Mn4  1  0.01981921  0.49087894  0.58661872  1
+  Mn  Mn5  1  0.16748077  0.23050427  0.09610908  1
+  Fe  Fe6  1  0.30363294  0.79356372  0.93857425  1
+  Fe  Fe7  1  0.53754169  0.85105240  0.25622815  1
+  Fe  Fe8  1  0.72126037  0.08211388  0.86416554  1
+  Fe  Fe9  1  0.86210430  0.74669886  0.70876902  1
+  Ni  Ni10  1  0.04397450  0.96167904  0.29702443  1
+  Ni  Ni11  1  0.39280304  0.02172439  0.60766906  1
+  Ni  Ni12  1  0.38460526  0.62828487  0.62132043  1
+  Ni  Ni13  1  0.55901235  0.36320949  0.07381348  1
+  Ni  Ni14  1  0.69687301  0.35106632  0.42862326  1
+  Ni  Ni15  1  0.98205715  0.58525884  0.93860072  1

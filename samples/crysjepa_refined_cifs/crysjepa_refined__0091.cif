@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_TlCd3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.66701412
+_cell_length_b   4.83080164
+_cell_length_c   5.49286956
+_cell_angle_alpha   116.45378525
+_cell_angle_beta   109.80132686
+_cell_angle_gamma   90.58669084
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TlCd3
+_chemical_formula_sum   'Tl1 Cd3'
+_cell_volume   102.39009506
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  0.23486997  0.74499696  0.50407922  1
+  Cd  Cd1  1  0.51523304  0.51877284  0.00000000  1
+  Cd  Cd2  1  0.75465620  0.25791356  0.50644058  1
+  Tl  Tl3  1  0.02359281  0.01112835  0.03212629  1

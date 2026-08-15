@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_TiPb2O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.60359079
+_cell_length_b   4.84791287
+_cell_length_c   12.49128108
+_cell_angle_alpha   85.97115290
+_cell_angle_beta   88.30673291
+_cell_angle_gamma   94.53232112
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiPb2O5
+_chemical_formula_sum   'Ti2 Pb4 O10'
+_cell_volume   277.04672238
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.06225852  0.03503614  0.62677753  1
+  O  O1  1  0.24443081  0.58185828  0.62242353  1
+  O  O2  1  0.49883738  0.05940682  0.78644472  1
+  O  O3  1  0.46761450  0.88563257  0.06300155  1
+  O  O4  1  0.46163464  0.95707059  0.31913444  1
+  O  O5  1  0.90012473  0.28599024  0.03585362  1
+  O  O6  1  0.86543971  0.28423420  0.56912309  1
+  O  O7  1  0.96176064  0.42449209  0.22798277  1
+  O  O8  1  0.96950108  0.59309888  0.89416003  1
+  O  O9  1  0.99174654  0.91336429  0.29737648  1
+  Ti  Ti10  1  0.23078878  0.81497145  0.19918181  1
+  Ti  Ti11  1  0.80792272  0.19594513  0.87469870  1
+  Pb  Pb12  1  0.25599909  0.24340139  0.54403424  1
+  Pb  Pb13  1  0.38728246  0.44707415  0.02561055  1
+  Pb  Pb14  1  0.73457861  0.62598437  0.40429431  1
+  Pb  Pb15  1  0.74961525  0.67335808  0.68247187  1

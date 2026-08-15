@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_Dy2MnIn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.20921989
+_cell_length_b   5.27416885
+_cell_length_c   5.54104168
+_cell_angle_alpha   53.47925168
+_cell_angle_beta   58.64422979
+_cell_angle_gamma   61.25404064
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Dy2MnIn
+_chemical_formula_sum   'Dy2 Mn1 In1'
+_cell_volume   101.17005393
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.01110836  0.00161854  0.01730065  1
+  In  In1  1  0.51126188  0.47564593  0.50447601  1
+  Dy  Dy2  1  0.25663871  0.25264886  0.25383717  1
+  Dy  Dy3  1  0.73175097  0.75121754  0.75400645  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Cs2RbDyCl6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.16512519
+_cell_length_b   8.47109915
+_cell_length_c   8.02991017
+_cell_angle_alpha   58.94748698
+_cell_angle_beta   63.60492941
+_cell_angle_gamma   60.16139137
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2RbDyCl6
+_chemical_formula_sum   'Cs2 Rb1 Dy1 Cl6'
+_cell_volume   399.32493883
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.22707748  0.22958009  0.77717066  1
+  Cl  Cl1  1  0.22105591  0.77993900  0.22956929  1
+  Cl  Cl2  1  0.23188418  0.76987934  0.78400308  1
+  Cl  Cl3  1  0.76718634  0.22207850  0.20814222  1
+  Cl  Cl4  1  0.76628017  0.22929142  0.73585236  1
+  Cl  Cl5  1  0.78789902  0.76091820  0.23807001  1
+  Rb  Rb6  1  0.51776057  0.48794246  0.49036077  1
+  Cs  Cs7  1  0.23265237  0.26301387  0.26678544  1
+  Cs  Cs8  1  0.74489462  0.72180760  0.74756318  1
+  Dy  Dy9  1  0.01031297  0.00000000  0.00163332  1

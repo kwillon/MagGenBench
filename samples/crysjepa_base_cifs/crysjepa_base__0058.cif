@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_LiHgSe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.88315441
+_cell_length_b   4.23652198
+_cell_length_c   7.08206193
+_cell_angle_alpha   78.67639928
+_cell_angle_beta   76.40397767
+_cell_angle_gamma   57.78757312
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiHgSe2
+_chemical_formula_sum   'Li1 Hg1 Se2'
+_cell_volume   95.45388459
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.49409437  0.47416133  0.50061929  1
+  Se  Se1  1  0.27814791  0.24063058  0.29097807  1
+  Se  Se2  1  0.76171023  0.72961932  0.73160714  1
+  Hg  Hg3  1  0.00000000  0.00582409  0.00084782  1

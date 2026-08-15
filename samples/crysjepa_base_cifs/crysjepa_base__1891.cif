@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_Sm3Ag
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.57521192
+_cell_length_b   5.91403179
+_cell_length_c   5.78630311
+_cell_angle_alpha   55.91860231
+_cell_angle_beta   58.90930031
+_cell_angle_gamma   59.79927905
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sm3Ag
+_chemical_formula_sum   'Sm3 Ag1'
+_cell_volume   129.03223107
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  1  0.00000000  0.00000000  0.01324869  1
+  Sm  Sm1  1  0.25851232  0.26859632  0.22896075  1
+  Sm  Sm2  1  0.51462436  0.50391161  0.48513213  1
+  Sm  Sm3  1  0.74911827  0.74708170  0.74944860  1

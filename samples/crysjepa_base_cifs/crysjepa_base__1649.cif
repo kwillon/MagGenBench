@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_DyAlInCu3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.53306568
+_cell_length_b   5.46226957
+_cell_length_c   5.30890451
+_cell_angle_alpha   116.64788433
+_cell_angle_beta   87.76819176
+_cell_angle_gamma   86.24252040
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   DyAlInCu3
+_chemical_formula_sum   'Dy1 Al1 In1 Cu3'
+_cell_volume   116.89270527
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.51626515  0.00000000  0.00000000  1
+  Cu  Cu1  1  0.02600364  0.20817305  0.68072045  1
+  Cu  Cu2  1  0.00279880  0.83672619  0.33249614  1
+  Cu  Cu3  1  0.48032889  0.00265051  0.49097979  1
+  In  In4  1  0.49909529  0.49609581  0.50831485  1
+  Dy  Dy5  1  0.01625810  0.51864970  0.00000000  1

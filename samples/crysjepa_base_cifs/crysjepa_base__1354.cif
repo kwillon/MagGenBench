@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Ho2Sn3Au5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.96378159
+_cell_length_b   8.45807601
+_cell_length_c   8.61649643
+_cell_angle_alpha   109.75179597
+_cell_angle_beta   105.75585364
+_cell_angle_gamma   104.54124928
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ho2Sn3Au5
+_chemical_formula_sum   'Ho4 Sn6 Au10'
+_cell_volume   486.60936060
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  1  0.12108011  0.16644581  0.36675248  1
+  Sn  Sn1  1  0.22922565  0.90528429  0.62394941  1
+  Sn  Sn2  1  0.42852798  0.78341115  0.11906888  1
+  Sn  Sn3  1  0.64168972  0.40363124  0.30541605  1
+  Sn  Sn4  1  0.78630888  0.62229443  0.86828142  1
+  Sn  Sn5  1  0.92164129  0.13700303  0.80449206  1
+  Au  Au6  1  0.06476932  0.87818938  0.20748594  1
+  Au  Au7  1  0.22960941  0.38551858  0.13374548  1
+  Au  Au8  1  0.29179382  0.62951201  0.78685939  1
+  Au  Au9  1  0.30723032  0.27495888  0.78062946  1
+  Au  Au10  1  0.45680484  0.16915640  0.44760796  1
+  Au  Au11  1  0.55091870  0.43912518  0.92759162  1
+  Au  Au12  1  0.64594847  0.10426030  0.62728572  1
+  Au  Au13  1  0.77759451  0.74716681  0.36907911  1
+  Au  Au14  1  0.84414965  0.24225616  0.16903542  1
+  Au  Au15  1  0.89666027  0.81140101  0.72695965  1
+  Ho  Ho16  1  0.18981843  0.63441056  0.31304696  1
+  Ho  Ho17  1  0.47495207  0.22990061  0.17113271  1
+  Ho  Ho18  1  0.60448253  0.77600670  0.58836883  1
+  Ho  Ho19  1  0.82774383  0.38549080  0.67284310  1

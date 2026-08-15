@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_LiYbEu2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.77625345
+_cell_length_b   5.75692836
+_cell_length_c   5.97802397
+_cell_angle_alpha   114.67312463
+_cell_angle_beta   112.21115694
+_cell_angle_gamma   88.49050591
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiYbEu2
+_chemical_formula_sum   'Li1 Yb1 Eu2'
+_cell_volume   165.18284369
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.53100425  0.51866496  0.00791887  1
+  Eu  Eu1  1  0.27244151  0.77422237  0.51530796  1
+  Eu  Eu2  1  0.74458015  0.25723195  0.50784934  1
+  Yb  Yb3  1  0.00279162  0.00120573  0.00322916  1

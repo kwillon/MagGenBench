@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_ZrPb3S4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.30720263
+_cell_length_b   4.09517831
+_cell_length_c   12.91307367
+_cell_angle_alpha   78.35703141
+_cell_angle_beta   84.01022846
+_cell_angle_gamma   57.67901933
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZrPb3S4
+_chemical_formula_sum   'Zr1 Pb3 S4'
+_cell_volume   188.51905599
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.13296254  0.13532801  0.63985127  1
+  S  S1  1  0.38137156  0.36330390  0.87080848  1
+  S  S2  1  0.60865647  0.63466513  0.09542464  1
+  S  S3  1  0.89245290  0.86360168  0.35599050  1
+  Zr  Zr4  1  0.00000000  0.00000000  0.01708419  1
+  Pb  Pb5  1  0.25277767  0.24878888  0.21675062  1
+  Pb  Pb6  1  0.49707314  0.51146722  0.51328540  1
+  Pb  Pb7  1  0.72796214  0.73456496  0.75268322  1

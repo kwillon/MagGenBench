@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Mn2Ga2O3F7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.50658532
+_cell_length_b   5.33861243
+_cell_length_c   8.64296088
+_cell_angle_alpha   72.64603434
+_cell_angle_beta   74.55490071
+_cell_angle_gamma   75.62482537
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mn2Ga2O3F7
+_chemical_formula_sum   'Mn2 Ga2 O3 F7'
+_cell_volume   229.78781721
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.15321217  0.76823342  0.16386387  1
+  F  F1  1  0.19550596  0.27205205  0.60066116  1
+  O  O2  1  0.34658504  0.68174130  0.45999822  1
+  O  O3  1  0.75659120  0.27092505  0.86137021  1
+  F  F4  1  0.25266111  0.29026717  0.22433029  1
+  F  F5  1  0.26762655  0.75403732  0.82506651  1
+  F  F6  1  0.61462814  0.67149997  0.13546175  1
+  F  F7  1  0.66137367  0.33626428  0.50496209  1
+  F  F8  1  0.78005415  0.15963896  0.22867770  1
+  F  F9  1  0.78134125  0.68274599  0.69283801  1
+  Mn  Mn10  1  0.43983841  0.44258791  0.83099329  1
+  Mn  Mn11  1  0.52785313  0.54511315  0.24494883  1
+  Ga  Ga12  1  0.09534647  0.12373638  0.69408065  1
+  Ga  Ga13  1  0.88784993  0.87027872  0.27946725  1

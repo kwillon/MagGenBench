@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_AlZn3Ag2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   2.92961561
+_cell_length_b   2.76594614
+_cell_length_c   11.27266022
+_cell_angle_alpha   93.99439083
+_cell_angle_beta   78.36235971
+_cell_angle_gamma   88.98690096
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlZn3Ag2
+_chemical_formula_sum   'Al1 Zn3 Ag2'
+_cell_volume   89.20198348
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.06168418  0.06560939  0.49758455  1
+  Zn  Zn1  1  0.50259960  0.51103711  0.02060466  1
+  Zn  Zn2  1  0.52433485  0.51618576  0.35038930  1
+  Zn  Zn3  1  0.57479036  0.52252805  0.65011495  1
+  Ag  Ag4  1  0.00975681  0.03030840  0.14945701  1
+  Ag  Ag5  1  0.04680656  0.01478479  0.86710382  1

@@ -53,7 +53,7 @@ class BufferedCSVWriter:
         _ensure_parent(self.path)
 
         # newline="" важно для csv в Windows/macOS, чтобы не было пустых строк
-        self._file = self.path.open("a", encoding="utf-8", newline="")
+        self._file = self.path.open("w", encoding="utf-8", newline="")
         self._writer = csv.DictWriter(self._file, fieldnames=self.fieldnames)
         self._writer.writeheader()
         self._wrote_header = True

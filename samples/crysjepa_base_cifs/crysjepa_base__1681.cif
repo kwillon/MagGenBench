@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_SmYO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.29026633
+_cell_length_b   6.35702753
+_cell_length_c   6.35934969
+_cell_angle_alpha   109.83232520
+_cell_angle_beta   105.52163300
+_cell_angle_gamma   115.50598150
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SmYO4
+_chemical_formula_sum   'Sm2 Y2 O8'
+_cell_volume   188.53386584
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.06226803  0.34711921  0.28678328  1
+  O  O1  1  0.06991921  0.75230199  0.67950958  1
+  O  O2  1  0.13457792  0.30937046  0.81135434  1
+  O  O3  1  0.25102910  0.95172399  0.29968995  1
+  O  O4  1  0.51614141  0.32875901  0.22000514  1
+  O  O5  1  0.59759599  0.94432425  0.68381810  1
+  O  O6  1  0.67977977  0.48294768  0.78404582  1
+  O  O7  1  0.69758463  0.87439525  0.19136968  1
+  Y  Y8  1  0.25267431  0.74410993  0.49474999  1
+  Y  Y9  1  0.48657492  0.49398059  1.00000000  1
+  Sm  Sm10  1  0.01023562  0.00000000  0.00000000  1
+  Sm  Sm11  1  0.73341584  0.24200715  0.53937888  1

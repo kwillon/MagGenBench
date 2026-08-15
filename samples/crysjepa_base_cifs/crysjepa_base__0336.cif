@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_AuS2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.29087698
+_cell_length_b   5.02924731
+_cell_length_c   6.98416945
+_cell_angle_alpha   91.77434460
+_cell_angle_beta   97.35424110
+_cell_angle_gamma   91.31664521
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AuS2
+_chemical_formula_sum   'Au2 S4'
+_cell_volume   149.35084404
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  S  S0  1  0.08618414  0.24437910  0.30506411  1
+  S  S1  1  0.39788625  0.24498439  0.82968438  1
+  S  S2  1  0.58815742  0.71193552  0.17115249  1
+  S  S3  1  0.87398285  0.74664640  0.67142141  1
+  Au  Au4  1  0.17849819  0.68566203  0.91369581  1
+  Au  Au5  1  0.64167792  0.26023525  0.45045233  1

@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Nb2AlSiN3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.85513061
+_cell_length_b   6.33080147
+_cell_length_c   6.67829617
+_cell_angle_alpha   97.73554878
+_cell_angle_beta   118.18840930
+_cell_angle_gamma   115.39298051
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nb2AlSiN3
+_chemical_formula_sum   'Nb4 Al2 Si2 N6'
+_cell_volume   209.06323712
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.24296331  0.64234567  0.61866719  1
+  Si  Si1  1  0.71853864  0.18781629  0.40849322  1
+  N  N2  1  0.18589166  0.47568259  0.26245013  1
+  N  N3  1  0.22764164  0.54310918  0.74148434  1
+  N  N4  1  0.35579333  0.03037376  0.66655582  1
+  N  N5  1  0.67822576  0.00798489  0.26691830  1
+  N  N6  1  0.75823343  0.35164282  0.73606318  1
+  N  N7  1  0.79263777  0.56032008  0.36307898  1
+  Al  Al8  1  0.42333475  0.80202359  0.87688535  1
+  Al  Al9  1  0.87117380  0.37879506  0.05333436  1
+  Nb  Nb10  1  0.23399541  0.30639392  0.00000000  1
+  Nb  Nb11  1  0.24697940  0.25340214  0.52413172  1
+  Nb  Nb12  1  0.69492531  0.55844676  0.40853846  1
+  Nb  Nb13  1  0.75857872  0.83993691  0.62656736  1

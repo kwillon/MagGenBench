@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_BaNd4O8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.63895277
+_cell_length_b   7.87905076
+_cell_length_c   7.88996070
+_cell_angle_alpha   80.99624124
+_cell_angle_beta   82.72115682
+_cell_angle_gamma   73.77472895
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaNd4O8
+_chemical_formula_sum   'Ba1 Nd4 O8'
+_cell_volume   213.70781394
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.08676712  0.04596959  0.71325380  1
+  O  O1  1  0.16489385  0.33545670  0.40788874  1
+  O  O2  1  0.22155167  0.65950149  0.91867840  1
+  O  O3  1  0.47154841  0.35572088  0.73107511  1
+  O  O4  1  0.55074453  0.64926285  0.27782786  1
+  O  O5  1  0.76242238  0.35909003  0.06359398  1
+  O  O6  1  0.82605565  0.69161052  0.60691720  1
+  O  O7  1  0.90716553  0.93793654  0.31215063  1
+  Nd  Nd8  1  0.16546267  0.49016896  0.19414113  1
+  Nd  Nd9  1  0.37060970  0.83008879  0.50054741  1
+  Nd  Nd10  1  0.64032990  0.18326691  0.52335024  1
+  Nd  Nd11  1  0.81719184  0.53286707  0.79789674  1
+  Ba  Ba12  1  0.02734399  0.03872899  0.00000000  1

@@ -17,7 +17,10 @@ from mvpipeline.magnetism.records import MAGNETISM_RECORD_FIELDS
 from mvpipeline.pipeline.energy_stage import run_energy_stage
 from mvpipeline.pipeline.enrichment import run_enrichment
 from mvpipeline.pipeline.magnetism_stage import run_magnetism_stage
-from mvpipeline.pipeline.stage_common import success_ids_from_records
+from mvpipeline.pipeline.stage_common import (
+    require_all_status_ok,
+    success_ids_from_records,
+)
 
 
 def prepared_records():
@@ -361,3 +364,38 @@ def test_magnetism_csv_keeps_contract_field_names(tmp_path):
     assert "moment_normalization" in text
     assert "saturation_magnetization" not in text
     assert "DFT magnetic moment" not in text
+
+
+def test_require_all_status_ok_accepts_all_success():
+    require_all_status_ok(
+        [
+            {"structure_id": "s1", "status": "ok"},
+            {"structure_id": "s2", "status": "ok"},
+        ],
+        expected_count=2,
+        label="energy",
+    )
+
+
+def test_require_all_status_ok_rejects_error_status():
+    with pytest.raises(RuntimeError, match="non-success statuses"):
+        require_all_status_ok(
+            [
+                {"structure_id": "s1", "status": "ok"},
+                {"structure_id": "s2", "status": "error"},
+            ],
+            expected_count=2,
+            label="magnetism",
+        )
+
+
+def test_require_all_status_ok_rejects_wrong_count():
+    with pytest.raises(RuntimeError, match="expected 3 rows, got 2"):
+        require_all_status_ok(
+            [
+                {"structure_id": "s1", "status": "ok"},
+                {"structure_id": "s2", "status": "ok"},
+            ],
+            expected_count=3,
+            label="energy",
+        )

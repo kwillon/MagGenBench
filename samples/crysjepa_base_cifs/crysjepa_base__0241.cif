@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Mn4Te4W
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.68215690
+_cell_length_b   3.74413927
+_cell_length_c   19.66015001
+_cell_angle_alpha   89.95154380
+_cell_angle_beta   90.34581502
+_cell_angle_gamma   110.24464037
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mn4Te4W
+_chemical_formula_sum   'Mn4 Te4 W1'
+_cell_volume   254.29582156
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.32938895  0.65839106  0.16057637  1
+  Mn  Mn1  1  0.34921747  0.65323412  0.62055743  1
+  Mn  Mn2  1  0.66761577  0.32511804  0.37137726  1
+  Mn  Mn3  1  0.68061119  0.33061665  0.80673403  1
+  Te  Te4  1  0.32997051  0.69995219  0.38382149  1
+  Te  Te5  1  0.32435748  0.63820761  0.82421547  1
+  Te  Te6  1  0.66186714  0.34550375  0.15144882  1
+  Te  Te7  1  0.67067683  0.35008198  0.62109995  1
+  W  W8  1  0.33143079  0.64966422  0.02638848  1

@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_NiHO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.04202217
+_cell_length_b   3.81428294
+_cell_length_c   5.79858517
+_cell_angle_alpha   103.50809406
+_cell_angle_beta   94.60828035
+_cell_angle_gamma   101.17043683
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NiHO2
+_chemical_formula_sum   'Ni2 H2 O4'
+_cell_volume   63.62244229
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  H  H0  1  0.10496507  0.04164116  0.83380246  1
+  H  H1  1  0.89567608  0.95806205  0.18978389  1
+  O  O2  1  0.11042175  0.26889607  0.39285377  1
+  O  O3  1  0.26106399  0.22403125  0.86104506  1
+  O  O4  1  0.74141246  0.73893183  0.13557765  1
+  O  O5  1  0.87629771  0.74281013  0.61171991  1
+  Ni  Ni6  1  0.25437999  0.61081517  0.30274981  1
+  Ni  Ni7  1  0.73506463  0.35714519  0.67149472  1

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_LaNiGe2Rh
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.53528189
+_cell_length_b   8.94342775
+_cell_length_c   10.14922885
+_cell_angle_alpha   92.00558294
+_cell_angle_beta   98.43478946
+_cell_angle_gamma   92.00882492
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaNiGe2Rh
+_chemical_formula_sum   'La4 Ni4 Ge8 Rh4'
+_cell_volume   406.62391492
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rh  Rh0  1  0.25208527  0.33439973  0.83107227  1
+  Rh  Rh1  1  0.24386354  0.70937741  0.35271391  1
+  Rh  Rh2  1  0.75817895  0.30729589  0.65125257  1
+  Rh  Rh3  1  0.76456058  0.67824090  0.20020436  1
+  Ni  Ni4  1  0.24604556  0.13019691  0.92502105  1
+  Ni  Ni5  1  0.26666266  0.58954883  0.59574479  1
+  Ni  Ni6  1  0.72105587  0.39390084  0.39142668  1
+  Ni  Ni7  1  0.74778366  0.85518533  0.06712057  1
+  Ge  Ge8  1  0.25939602  0.20617357  0.38504907  1
+  Ge  Ge9  1  0.26105759  0.39356181  0.61819452  1
+  Ge  Ge10  1  0.25548366  0.73030305  0.88181424  1
+  Ge  Ge11  1  0.25887832  0.86396927  0.13774979  1
+  Ge  Ge12  1  0.74021208  0.09297874  0.84591550  1
+  Ge  Ge13  1  0.73402786  0.27279189  0.08433817  1
+  Ge  Ge14  1  0.73636585  0.63337660  0.39421457  1
+  Ge  Ge15  1  0.75911391  0.79780591  0.63592422  1
+  La  La16  1  0.26211050  0.41823170  0.12861222  1
+  La  La17  1  0.23321411  0.93896818  0.61041296  1
+  La  La18  1  0.75226206  0.09981448  0.37454775  1
+  La  La19  1  0.74888539  0.61063093  0.85998189  1

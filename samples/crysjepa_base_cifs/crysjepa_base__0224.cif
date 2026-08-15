@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_MgSnH6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.54945960
+_cell_length_b   5.15178484
+_cell_length_c   5.06764401
+_cell_angle_alpha   61.74735795
+_cell_angle_beta   55.37868391
+_cell_angle_gamma   69.85070769
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgSnH6
+_chemical_formula_sum   'Mg1 Sn1 H6'
+_cell_volume   85.62980354
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  H  H0  1  0.18103686  0.33597001  0.70433772  1
+  H  H1  1  0.25665110  0.79281163  0.25104904  1
+  H  H2  1  0.33330426  0.74964857  0.75413901  1
+  H  H3  1  0.68566126  0.25090140  0.23602819  1
+  H  H4  1  0.74665004  0.18783534  0.74890637  1
+  H  H5  1  0.83327985  0.67579758  0.25981241  1
+  Mg  Mg6  1  0.50330561  0.48617023  0.53407764  1
+  Sn  Sn7  1  0.00000000  0.00000000  0.00000000  1

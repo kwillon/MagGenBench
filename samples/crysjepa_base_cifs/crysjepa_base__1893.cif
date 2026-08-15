@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_U3Cd4Pt5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.87203270
+_cell_length_b   5.24772902
+_cell_length_c   9.51676239
+_cell_angle_alpha   83.64095196
+_cell_angle_beta   90.54895146
+_cell_angle_gamma   119.36935253
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   U3Cd4Pt5
+_chemical_formula_sum   'U3 Cd4 Pt5'
+_cell_volume   253.65542625
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  0.17483380  0.81696361  0.51539242  1
+  Cd  Cd1  1  0.29686514  0.79092115  0.84852791  1
+  Cd  Cd2  1  0.78891867  0.11353239  0.08422705  1
+  Cd  Cd3  1  0.83358592  0.19012864  0.47046173  1
+  Pt  Pt4  1  0.15124322  0.36467415  0.84879690  1
+  Pt  Pt5  1  0.30301398  0.19114262  0.52630532  1
+  Pt  Pt6  1  0.44246373  0.26428816  0.18971747  1
+  Pt  Pt7  1  0.75954896  0.78447628  0.15449230  1
+  Pt  Pt8  1  0.85396868  0.72705811  0.66011190  1
+  U  U9  1  0.30430552  0.66002274  0.15996839  1
+  U  U10  1  0.56119543  0.52774829  0.45622540  1
+  U  U11  1  0.67652082  0.32269877  0.81001681  1

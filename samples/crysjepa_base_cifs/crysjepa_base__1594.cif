@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Cs3BiCl6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.21054033
+_cell_length_b   8.50132359
+_cell_length_c   8.19833479
+_cell_angle_alpha   53.63792895
+_cell_angle_beta   61.53589361
+_cell_angle_gamma   61.97372507
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs3BiCl6
+_chemical_formula_sum   'Cs3 Bi1 Cl6'
+_cell_volume   390.68085080
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cl  Cl0  1  0.22500074  0.22723788  0.77141690  1
+  Cl  Cl1  1  0.22186467  0.74187064  0.23063178  1
+  Cl  Cl2  1  0.23240037  0.79323906  0.78120458  1
+  Cl  Cl3  1  0.78204322  0.24174386  0.22549647  1
+  Cl  Cl4  1  0.76509696  0.20131098  0.77596498  1
+  Cl  Cl5  1  0.79157156  0.75467640  0.25413394  1
+  Cs  Cs6  1  0.23248859  0.24892296  0.23242700  1
+  Cs  Cs7  1  0.48796657  0.49840325  0.50730056  1
+  Cs  Cs8  1  0.74482822  0.74551272  0.74448514  1
+  Bi  Bi9  1  0.00765703  0.01815993  0.00000000  1

@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_NdRh3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.45505976
+_cell_length_b   6.09938751
+_cell_length_c   5.96832347
+_cell_angle_alpha   122.20795200
+_cell_angle_beta   87.66954275
+_cell_angle_gamma   92.22720220
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NdRh3
+_chemical_formula_sum   'Nd2 Rh6'
+_cell_volume   137.08013811
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nd  Nd0  1  0.20970762  0.65219885  0.32929736  1
+  Nd  Nd1  1  0.75726527  0.32555711  0.67315555  1
+  Rh  Rh2  1  0.24950287  0.15171045  0.33163080  1
+  Rh  Rh3  1  0.25437862  0.17176594  0.83947539  1
+  Rh  Rh4  1  0.25693578  0.68362588  0.82534397  1
+  Rh  Rh5  1  0.74812514  0.30919382  0.17262293  1
+  Rh  Rh6  1  0.74739915  0.85747969  0.16989206  1
+  Rh  Rh7  1  0.73767173  0.84528512  0.71509975  1

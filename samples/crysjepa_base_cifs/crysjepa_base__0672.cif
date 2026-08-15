@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_CeZn2InNi2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.11438853
+_cell_length_b   5.67426774
+_cell_length_c   5.59884867
+_cell_angle_alpha   62.41006829
+_cell_angle_beta   70.94141463
+_cell_angle_gamma   60.16661858
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CeZn2InNi2
+_chemical_formula_sum   'Ce1 Zn2 In1 Ni2'
+_cell_volume   123.93993810
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.45106050  0.46633878  0.49502149  1
+  Zn  Zn1  1  0.94123429  0.97901499  0.48367578  1
+  Ni  Ni2  1  0.48659348  0.04050473  0.45676455  1
+  Ni  Ni3  1  0.47991714  1.00000000  0.96505308  1
+  In  In4  1  0.10771035  0.65882474  0.11949469  1
+  Ce  Ce5  1  0.85943854  0.36226282  0.85526443  1

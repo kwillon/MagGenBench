@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_YUNi3B
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.71752097
+_cell_length_b   4.98837914
+_cell_length_c   5.20606213
+_cell_angle_alpha   57.93305737
+_cell_angle_beta   59.18985616
+_cell_angle_gamma   59.55525035
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YUNi3B
+_chemical_formula_sum   'Y1 U1 Ni3 B1'
+_cell_volume   84.40221499
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  B  B0  1  0.40064463  0.38994470  0.37757051  1
+  Ni  Ni1  1  0.36387658  0.36526170  0.87136900  1
+  Ni  Ni2  1  0.35998398  0.85938746  0.38084793  1
+  Ni  Ni3  1  0.85217363  0.36256841  0.37268722  1
+  Y  Y4  1  0.75895458  0.76120502  0.72570705  1
+  U  U5  1  0.01948974  0.01203782  0.00957178  1

@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_GdTl2Cr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.59584792
+_cell_length_b   4.96282901
+_cell_length_c   5.27218751
+_cell_angle_alpha   58.90387152
+_cell_angle_beta   56.50192600
+_cell_angle_gamma   58.79192765
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GdTl2Cr
+_chemical_formula_sum   'Gd1 Tl2 Cr1'
+_cell_volume   98.82383656
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cr  Cr0  1  0.49359849  0.50066632  0.49053332  1
+  Gd  Gd1  1  0.01284804  0.00000000  0.03198883  1
+  Tl  Tl2  1  0.23554626  0.25134549  0.26595339  1
+  Tl  Tl3  1  0.77359599  0.74025488  0.76419091  1

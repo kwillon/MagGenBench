@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_AcNpPd4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.61600454
+_cell_length_b   5.51605062
+_cell_length_c   5.69027288
+_cell_angle_alpha   62.67963230
+_cell_angle_beta   62.99626748
+_cell_angle_gamma   59.18305805
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AcNpPd4
+_chemical_formula_sum   'Ac1 Np1 Pd4'
+_cell_volume   128.84431325
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pd  Pd0  1  0.36254445  0.84621048  0.87006420  1
+  Pd  Pd1  1  0.85426444  0.39059702  0.88433498  1
+  Pd  Pd2  1  0.87725657  0.88531977  0.37197077  1
+  Pd  Pd3  1  0.85802811  0.86741471  0.88547760  1
+  Ac  Ac4  1  0.22930144  0.25302464  0.25845778  1
+  Np  Np5  1  0.49527925  0.49101162  0.51178086  1

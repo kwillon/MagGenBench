@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Pu7Fe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.97543675
+_cell_length_b   7.63594547
+_cell_length_c   8.12486753
+_cell_angle_alpha   87.65479203
+_cell_angle_beta   82.64790787
+_cell_angle_gamma   86.37934130
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Pu7Fe
+_chemical_formula_sum   'Pu14 Fe2'
+_cell_volume   305.36421849
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.29435864  0.67586523  0.39846388  1
+  Fe  Fe1  1  0.73791599  0.24330428  0.52023679  1
+  Pu  Pu2  1  0.15929595  0.17519145  0.01959516  1
+  Pu  Pu3  1  0.18827331  0.46658558  0.66529554  1
+  Pu  Pu4  1  0.18795215  0.85664028  0.11913945  1
+  Pu  Pu5  1  0.28267527  0.05480588  0.59541392  1
+  Pu  Pu6  1  0.24937978  0.30414468  0.40212241  1
+  Pu  Pu7  1  0.30113131  0.46321839  0.14913891  1
+  Pu  Pu8  1  0.27578822  0.66411245  0.96122003  1
+  Pu  Pu9  1  0.52083176  0.11885232  0.81020963  1
+  Pu  Pu10  1  0.61029279  0.92539537  0.17775708  1
+  Pu  Pu11  1  0.71387303  0.52992034  0.16078836  1
+  Pu  Pu12  1  0.70543575  0.80868733  0.84023380  1
+  Pu  Pu13  1  0.77677637  0.67068881  0.61085975  1
+  Pu  Pu14  1  0.85873014  0.30366552  0.83121538  1
+  Pu  Pu15  1  0.78567606  0.96107757  0.45064035  1

@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Ti2FeGe6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.93271567
+_cell_length_b   4.33383239
+_cell_length_c   9.41865538
+_cell_angle_alpha   90.00526539
+_cell_angle_beta   88.99873261
+_cell_angle_gamma   113.46266500
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti2FeGe6
+_chemical_formula_sum   'Ti2 Fe1 Ge6'
+_cell_volume   147.22982848
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.05088777  0.24557464  0.10816871  1
+  Ti  Ti1  1  0.19973226  0.54054970  0.37644386  1
+  Ti  Ti2  1  0.50857651  0.92428571  0.95015872  1
+  Ge  Ge3  1  0.15029027  0.01529450  0.33733317  1
+  Ge  Ge4  1  0.19300796  0.47800189  0.89185810  1
+  Ge  Ge5  1  0.32078040  0.11948180  0.64725137  1
+  Ge  Ge6  1  0.65500814  0.04554738  0.38365382  1
+  Ge  Ge7  1  0.70814019  0.56931514  0.12944165  1
+  Ge  Ge8  1  0.78193450  0.58645231  0.64013553  1

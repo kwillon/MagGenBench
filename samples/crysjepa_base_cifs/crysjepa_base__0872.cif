@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_GdPaZn2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.82256661
+_cell_length_b   4.98870887
+_cell_length_c   5.18357800
+_cell_angle_alpha   58.73316907
+_cell_angle_beta   58.37015042
+_cell_angle_gamma   60.83366845
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GdPaZn2
+_chemical_formula_sum   'Gd1 Pa1 Zn2'
+_cell_volume   86.70460951
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.28339109  0.25123888  0.26690406  1
+  Zn  Zn1  1  0.77497828  0.72170371  0.73272103  1
+  Gd  Gd2  1  0.49588826  0.50421220  0.51128834  1
+  Pa  Pa3  1  0.00324365  0.00089375  0.00000000  1

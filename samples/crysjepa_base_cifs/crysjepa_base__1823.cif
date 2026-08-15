@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Ba2LiTaO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.49584448
+_cell_length_b   5.52884322
+_cell_length_c   5.61907352
+_cell_angle_alpha   58.50202236
+_cell_angle_beta   65.11378015
+_cell_angle_gamma   63.72312515
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2LiTaO6
+_chemical_formula_sum   'Ba2 Li1 Ta1 O6'
+_cell_volume   126.46459752
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.47139359  0.49079886  0.46866921  1
+  O  O1  1  0.19195828  0.26426995  0.73316944  1
+  O  O2  1  0.22888266  0.77409828  0.24368151  1
+  O  O3  1  0.23039360  0.76330757  0.76268470  1
+  O  O4  1  0.76394737  0.24167867  0.24120082  1
+  O  O5  1  0.76339215  0.22310740  0.74591649  1
+  O  O6  1  0.76061320  0.77411962  0.24687448  1
+  Ba  Ba7  1  0.26236287  0.27714390  0.23516947  1
+  Ba  Ba8  1  0.73285705  0.73725837  0.72385246  1
+  Ta  Ta9  1  0.00000000  0.00000000  0.00766762  1

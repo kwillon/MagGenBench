@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Ag2Ge2O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.77479369
+_cell_length_b   5.98663102
+_cell_length_c   5.62214137
+_cell_angle_alpha   97.06162771
+_cell_angle_beta   77.19515989
+_cell_angle_gamma   88.78082257
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ag2Ge2O7
+_chemical_formula_sum   'Ag2 Ge2 O7'
+_cell_volume   155.32742072
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.17208311  0.02416585  0.38903826  1
+  O  O1  1  0.17418906  0.43633443  0.11074414  1
+  O  O2  1  0.27003229  0.65254533  0.63128453  1
+  O  O3  1  0.51629043  0.01465316  0.00383117  1
+  O  O4  1  0.76215857  0.37629580  0.34778214  1
+  O  O5  1  0.82227516  0.57361567  0.93318510  1
+  O  O6  1  0.83061826  0.93479055  0.62441927  1
+  Ge  Ge7  1  0.09446330  0.74490196  0.80124921  1
+  Ge  Ge8  1  0.90844035  0.25369307  0.18278019  1
+  Ag  Ag9  1  0.47845346  0.30940562  0.64055634  1
+  Ag  Ag10  1  0.51578522  0.67591512  0.37280205  1

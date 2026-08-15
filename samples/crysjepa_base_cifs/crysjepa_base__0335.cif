@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Hf3O6F
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.93630909
+_cell_length_b   5.93889780
+_cell_length_c   8.26080618
+_cell_angle_alpha   94.42605966
+_cell_angle_beta   94.43367052
+_cell_angle_gamma   82.98699655
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf3O6F
+_chemical_formula_sum   'Hf6 O12 F2'
+_cell_volume   287.51599755
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.04915825  0.05785205  0.74186343  1
+  O  O1  1  0.08321185  0.45470202  0.23030517  1
+  O  O2  1  0.14768693  0.26792338  0.47265911  1
+  O  O3  1  0.25149158  0.78885627  0.11862805  1
+  O  O4  1  0.39369187  0.15627289  0.30641609  1
+  O  O5  1  0.38573068  0.72003722  0.76323932  1
+  O  O6  1  0.59429669  0.27343610  0.19957833  1
+  O  O7  1  0.59316295  0.85878396  0.67225063  1
+  O  O8  1  0.74571043  0.18888251  0.86345315  1
+  O  O9  1  0.83251554  0.71169007  0.51824802  1
+  O  O10  1  0.90319026  0.54151887  0.78842920  1
+  O  O11  1  0.95018268  0.95484251  0.28235346  1
+  F  F12  1  0.44871110  0.38584068  0.74693286  1
+  F  F13  1  0.59097552  0.59355325  0.25950730  1
+  Hf  Hf14  1  0.03481147  0.00000000  0.00776858  1
+  Hf  Hf15  1  0.47302306  0.16129337  0.46509701  1
+  Hf  Hf16  1  0.43913907  0.47178626  0.11929215  1
+  Hf  Hf17  1  0.53710103  0.83333790  0.63889486  1
+  Hf  Hf18  1  0.97860616  0.51174861  0.87106556  1
+  Hf  Hf19  1  0.99890947  0.91708410  0.51119995  1

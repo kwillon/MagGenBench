@@ -1,0 +1,28 @@
+# generated using pymatgen
+data_GeO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.17668901
+_cell_length_b   3.35319017
+_cell_length_c   2.93567165
+_cell_angle_alpha   56.16180166
+_cell_angle_beta   65.56350655
+_cell_angle_gamma   59.57327628
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GeO
+_chemical_formula_sum   'Ge1 O1'
+_cell_volume   22.01505872
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.51032192  0.47390601  0.50193739  1
+  Ge  Ge1  1  0.00308960  0.02291291  0.00000000  1

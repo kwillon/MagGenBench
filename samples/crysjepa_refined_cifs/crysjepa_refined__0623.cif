@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_KTl2Cd
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.08732047
+_cell_length_b   5.14676372
+_cell_length_c   7.23354664
+_cell_angle_alpha   122.88164929
+_cell_angle_beta   92.01852018
+_cell_angle_gamma   111.11781658
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KTl2Cd
+_chemical_formula_sum   'K1 Tl2 Cd1'
+_cell_volume   141.78627655
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.50425690  1.00000000  0.47922048  1
+  Cd  Cd1  1  1.00000000  0.99905479  1.00000000  1
+  Tl  Tl2  1  0.30861348  0.57980949  0.84054744  1
+  Tl  Tl3  1  0.70278251  0.46708503  0.11656085  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_KSnO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.03419571
+_cell_length_b   6.08053686
+_cell_length_c   6.37623025
+_cell_angle_alpha   66.08701350
+_cell_angle_beta   75.43473510
+_cell_angle_gamma   57.99481499
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KSnO3
+_chemical_formula_sum   'K2 Sn2 O6'
+_cell_volume   151.13646537
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.10218867  0.25143039  0.28557265  1
+  O  O1  1  0.27187097  0.17387122  0.73315912  1
+  O  O2  1  0.45771611  0.45178372  0.25434449  1
+  O  O3  1  0.55309063  0.56959856  0.74290830  1
+  O  O4  1  0.73755342  0.84383529  0.26423737  1
+  O  O5  1  0.89671004  0.77118069  0.72670627  1
+  K  K6  1  0.18105784  0.73293304  0.25924036  1
+  K  K7  1  0.81838948  0.27772415  0.72617739  1
+  Sn  Sn8  1  0.28184259  0.73239070  0.79510820  1
+  Sn  Sn9  1  0.70068157  0.26044577  0.21789366  1

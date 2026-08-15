@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_SmAlCu4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.94297393
+_cell_length_b   5.64374257
+_cell_length_c   5.45748038
+_cell_angle_alpha   126.53563277
+_cell_angle_beta   88.13221602
+_cell_angle_gamma   85.75235473
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SmAlCu4
+_chemical_formula_sum   'Sm1 Al1 Cu4'
+_cell_volume   96.86554292
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.03457670  0.00000000  0.00000000  1
+  Cu  Cu1  1  0.49799490  0.32589582  0.15031810  1
+  Cu  Cu2  1  0.48274073  0.82470667  0.14955518  1
+  Cu  Cu3  1  0.49408305  0.83032161  0.65697461  1
+  Cu  Cu4  1  0.98864967  0.69676346  0.30737790  1
+  Sm  Sm5  1  0.98248893  0.32731566  0.64171416  1

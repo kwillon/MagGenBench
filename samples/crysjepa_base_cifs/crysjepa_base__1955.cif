@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Hf3Al13
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.10520842
+_cell_length_b   3.78720087
+_cell_length_c   16.61675749
+_cell_angle_alpha   91.60052014
+_cell_angle_beta   85.71232177
+_cell_angle_gamma   85.05454914
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf3Al13
+_chemical_formula_sum   'Hf3 Al13'
+_cell_volume   256.50906021
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.01381655  0.01574652  0.40222871  1
+  Al  Al1  1  0.00000000  0.00000000  0.59498358  1
+  Al  Al2  1  0.02520386  0.49530223  0.00923698  1
+  Al  Al3  1  0.00175829  0.51645929  0.29541937  1
+  Al  Al4  1  0.00000000  0.48992807  0.49971116  1
+  Al  Al5  1  0.00000000  0.50925684  0.74261922  1
+  Al  Al6  1  0.49218056  0.01231786  0.00189047  1
+  Al  Al7  1  0.48849794  0.00637125  0.21811992  1
+  Al  Al8  1  0.52380568  0.00000000  0.40452760  1
+  Al  Al9  1  0.50096428  0.01774355  0.61257130  1
+  Al  Al10  1  0.49646699  0.00000000  0.78055936  1
+  Al  Al11  1  0.50351858  0.50485069  0.13704079  1
+  Al  Al12  1  0.51287353  0.51471645  0.84892935  1
+  Hf  Hf13  1  0.02466087  0.02321259  0.10261013  1
+  Hf  Hf14  1  0.01786108  0.00656417  0.88024110  1
+  Hf  Hf15  1  0.50110209  0.48596913  0.47850388  1

@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_GeHO2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.64444623
+_cell_length_b   5.00330194
+_cell_length_c   5.29386944
+_cell_angle_alpha   87.29364944
+_cell_angle_beta   94.91314429
+_cell_angle_gamma   86.74224245
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GeHO2
+_chemical_formula_sum   'Ge2 H2 O4'
+_cell_volume   95.88799799
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  H  H0  1  0.00000000  0.73699152  0.39330336  1
+  H  H1  1  0.50629222  0.24439770  0.94673306  1
+  O  O2  1  0.01301454  0.56807172  0.69789952  1
+  O  O3  1  0.04962897  0.88443816  0.26949269  1
+  O  O4  1  0.48576388  0.11414204  0.74955988  1
+  O  O5  1  0.53229058  0.46509275  0.21993765  1
+  Ge  Ge6  1  0.01082828  0.72288364  0.81504506  1
+  Ge  Ge7  1  0.52154738  0.22824429  0.48030549  1

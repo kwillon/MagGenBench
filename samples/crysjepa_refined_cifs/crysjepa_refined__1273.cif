@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_PrFe5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.72913706
+_cell_length_b   5.17145858
+_cell_length_c   4.62285351
+_cell_angle_alpha   56.53655572
+_cell_angle_beta   87.51710858
+_cell_angle_gamma   95.77869620
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   PrFe5
+_chemical_formula_sum   'Pr1 Fe5'
+_cell_volume   93.17102829
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.45990664  0.43175203  0.49371156  1
+  Fe  Fe1  1  0.51902092  0.49841416  1.00000000  1
+  Fe  Fe2  1  0.48690668  1.00000000  0.48320651  1
+  Fe  Fe3  1  1.00000000  0.35073614  0.33312154  1
+  Fe  Fe4  1  1.00000000  0.68013436  0.66101480  1
+  Pr  Pr5  1  1.00000000  1.00000000  0.99125755  1

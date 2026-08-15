@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_TiCd2Ge
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.77722904
+_cell_length_b   4.57241851
+_cell_length_c   4.92588320
+_cell_angle_alpha   70.31543663
+_cell_angle_beta   70.10365321
+_cell_angle_gamma   66.93367300
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiCd2Ge
+_chemical_formula_sum   'Ti1 Cd2 Ge1'
+_cell_volume   90.47503843
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.00908248  0.00173147  0.01056923  1
+  Ge  Ge1  1  0.51082128  0.49064058  0.50471389  1
+  Cd  Cd2  1  0.27327982  0.26425624  0.25472650  1
+  Cd  Cd3  1  0.74881870  0.76240230  0.74118513  1

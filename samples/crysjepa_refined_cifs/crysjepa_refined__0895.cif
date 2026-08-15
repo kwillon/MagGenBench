@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_AlGa5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.61357268
+_cell_length_b   5.53289031
+_cell_length_c   6.34465899
+_cell_angle_alpha   73.48617645
+_cell_angle_beta   72.73928163
+_cell_angle_gamma   68.96267385
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlGa5
+_chemical_formula_sum   'Al1 Ga5'
+_cell_volume   110.79415331
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.40078241  0.21607129  0.25734842  1
+  Ga  Ga1  1  0.00000000  0.02284143  1.00000000  1
+  Ga  Ga2  1  0.08249249  0.87934047  0.56557137  1
+  Ga  Ga3  1  0.32822177  0.31926948  0.66191900  1
+  Ga  Ga4  1  0.68126577  0.67451292  0.31781286  1
+  Ga  Ga5  1  0.74552697  0.58769590  0.96538723  1

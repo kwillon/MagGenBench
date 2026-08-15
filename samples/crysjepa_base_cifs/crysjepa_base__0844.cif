@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_HfNp3(MnSi2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.81024385
+_cell_length_b   6.65216045
+_cell_length_c   6.64213914
+_cell_angle_alpha   86.67044867
+_cell_angle_beta   89.57952262
+_cell_angle_gamma   89.99815371
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfNp3(MnSi2)2
+_chemical_formula_sum   'Hf1 Np3 Mn2 Si4'
+_cell_volume   168.06528443
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.00003816  0.40270391  0.13489807  1
+  Si  Si1  1  0.99032700  0.13491943  0.55865610  1
+  Si  Si2  1  1.00000000  0.57853729  0.87043917  1
+  Si  Si3  1  0.99087787  0.87353635  0.42509383  1
+  Mn  Mn4  1  0.00432196  0.00000000  0.00118664  1
+  Mn  Mn5  1  1.00000000  0.49420252  0.49768278  1
+  Hf  Hf6  1  0.50605959  0.23406330  0.72893453  1
+  Np  Np7  1  0.48004532  0.29315007  0.25624630  1
+  Np  Np8  1  0.51291627  0.69476944  0.72825515  1
+  Np  Np9  1  0.49406910  0.77714264  0.26335979  1

@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_RbCdIn5Sn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.92163782
+_cell_length_b   6.84801842
+_cell_length_c   7.10472170
+_cell_angle_alpha   62.50892318
+_cell_angle_beta   82.68916007
+_cell_angle_gamma   73.94976201
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbCdIn5Sn
+_chemical_formula_sum   'Rb1 Cd1 In5 Sn1'
+_cell_volume   245.61233963
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.02762945  0.48101282  0.01515815  1
+  Cd  Cd1  1  0.99646074  0.95490813  0.57014298  1
+  In  In2  1  0.47856504  0.52517688  0.75708514  1
+  In  In3  1  0.52523029  0.47546425  0.30987132  1
+  In  In4  1  0.47184008  0.97498399  0.29924703  1
+  In  In5  1  0.53693098  0.98004633  0.74344361  1
+  In  In6  1  1.00000000  0.45891383  0.49244455  1
+  Sn  Sn7  1  0.04644208  0.94310421  0.03326074  1

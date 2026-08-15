@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_RbSnO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.70190939
+_cell_length_b   4.59017145
+_cell_length_c   4.08516606
+_cell_angle_alpha   99.24422001
+_cell_angle_beta   97.57854784
+_cell_angle_gamma   94.10002603
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbSnO3
+_chemical_formula_sum   'Rb1 Sn1 O3'
+_cell_volume   85.87521729
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.00494217  0.00117549  0.50888222  1
+  O  O1  1  0.00468056  0.48880702  0.00000000  1
+  O  O2  1  0.50010478  0.01241107  0.01074400  1
+  Rb  Rb3  1  0.49975809  0.49257866  0.49533165  1
+  Sn  Sn4  1  0.00850844  0.00000000  0.00041096  1

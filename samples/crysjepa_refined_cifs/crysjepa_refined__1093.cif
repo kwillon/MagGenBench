@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_Ac3Sm
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.52421971
+_cell_length_b   5.47808085
+_cell_length_c   6.60134829
+_cell_angle_alpha   72.60661545
+_cell_angle_beta   67.20174075
+_cell_angle_gamma   86.75166770
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ac3Sm
+_chemical_formula_sum   'Ac3 Sm1'
+_cell_volume   175.34483972
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sm  Sm0  1  1.00000000  0.00000000  1.00000000  1
+  Ac  Ac1  1  0.25393790  0.76278538  0.50569522  1
+  Ac  Ac2  1  0.47436386  0.50680184  1.00000000  1
+  Ac  Ac3  1  0.73404622  0.22239399  0.51624978  1

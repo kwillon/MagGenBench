@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_Cd(AgAs)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.46947773
+_cell_length_b   3.87074475
+_cell_length_c   6.32873986
+_cell_angle_alpha   110.75289118
+_cell_angle_beta   105.42749467
+_cell_angle_gamma   92.07878616
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cd(AgAs)2
+_chemical_formula_sum   'Cd1 Ag2 As2'
+_cell_volume   97.65517971
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  1  0.38386124  0.38063368  0.78040051  1
+  As  As1  1  0.62977052  0.61330515  0.22987171  1
+  Ag  Ag2  1  0.23873799  0.78095657  0.51303983  1
+  Ag  Ag3  1  0.77104181  0.24789432  0.46482229  1
+  Cd  Cd4  1  0.03778268  0.01377717  0.00191975  1

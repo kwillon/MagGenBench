@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_NaMn2CoO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.59531222
+_cell_length_b   5.28243826
+_cell_length_c   7.01199977
+_cell_angle_alpha   85.32571687
+_cell_angle_beta   90.08046278
+_cell_angle_gamma   58.94008033
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaMn2CoO8
+_chemical_formula_sum   'Na1 Mn2 Co1 O8'
+_cell_volume   176.71893708
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.20043845  0.24469088  0.94153917  1
+  O  O1  1  0.22443695  0.73542601  0.81829572  1
+  O  O2  1  0.28944901  0.32142401  0.55843872  1
+  O  O3  1  0.29362628  0.78231937  0.18604156  1
+  O  O4  1  0.73009408  0.23709069  0.83328110  1
+  O  O5  1  0.74040729  0.69277710  0.45808071  1
+  O  O6  1  0.77672672  0.27382246  0.19914380  1
+  O  O7  1  0.79499388  0.77726537  0.02743092  1
+  Na  Na8  1  0.00000000  0.00000000  0.51397049  1
+  Mn  Mn9  1  0.34509876  0.38310239  0.79547435  1
+  Mn  Mn10  1  0.62987268  0.61258394  0.19540352  1
+  Co  Co11  1  0.00000000  0.02662114  0.00000000  1

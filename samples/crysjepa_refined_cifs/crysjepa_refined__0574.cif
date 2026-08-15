@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_Ac3Pr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.63543364
+_cell_length_b   5.36756882
+_cell_length_c   6.78157015
+_cell_angle_alpha   66.93720742
+_cell_angle_beta   57.69991877
+_cell_angle_gamma   85.19742688
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ac3Pr
+_chemical_formula_sum   'Ac3 Pr1'
+_cell_volume   157.43832128
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  0.99442881  0.02661484  0.00607401  1
+  Ac  Ac1  1  0.25962159  0.76066291  0.50884032  1
+  Ac  Ac2  1  0.49938276  0.54297364  0.00000000  1
+  Ac  Ac3  1  0.75219387  0.25504774  0.50799656  1

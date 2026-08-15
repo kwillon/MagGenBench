@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Be2Cu
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.94308859
+_cell_length_b   4.67524789
+_cell_length_c   6.90199286
+_cell_angle_alpha   93.81421635
+_cell_angle_beta   92.81763760
+_cell_angle_gamma   117.21179828
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Be2Cu
+_chemical_formula_sum   'Be8 Cu4'
+_cell_volume   112.44972500
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Be  Be0  1  0.00000000  0.00000000  0.00290263  1
+  Be  Be1  1  0.00131239  0.00000000  0.52825874  1
+  Be  Be2  1  0.18342555  0.34003580  0.76112396  1
+  Be  Be3  1  0.17612191  0.83316565  0.76828891  1
+  Be  Be4  1  0.33978847  0.15144607  0.24535562  1
+  Be  Be5  1  0.65404272  0.84804976  0.76576573  1
+  Be  Be6  1  0.83286202  0.17690912  0.23976029  1
+  Be  Be7  1  0.85245800  0.65810019  0.24278465  1
+  Cu  Cu8  1  0.33057067  0.65535837  0.06440030  1
+  Cu  Cu9  1  0.34143755  0.64438307  0.43053636  1
+  Cu  Cu10  1  0.71412557  0.32607147  0.55103153  1
+  Cu  Cu11  1  0.68610680  0.34098962  0.94357866  1

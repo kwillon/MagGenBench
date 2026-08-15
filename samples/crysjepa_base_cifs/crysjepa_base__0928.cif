@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_NdDy3(CuGe)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.74731873
+_cell_length_b   6.96929182
+_cell_length_c   6.66459874
+_cell_angle_alpha   93.01191805
+_cell_angle_beta   96.29795276
+_cell_angle_gamma   89.78460651
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NdDy3(CuGe)3
+_chemical_formula_sum   'Nd1 Dy3 Cu3 Ge3'
+_cell_volume   172.76394217
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.00197362  0.00282974  0.02441514  1
+  Cu  Cu1  1  0.00086250  0.35543612  0.59710401  1
+  Cu  Cu2  1  0.00000000  0.59548211  0.41047069  1
+  Ge  Ge3  1  0.02168046  0.37520263  0.13299341  1
+  Ge  Ge4  1  0.00480365  0.63333768  0.85531771  1
+  Ge  Ge5  1  0.00000000  0.91517907  0.43602079  1
+  Dy  Dy6  1  0.54024160  0.17495328  0.33654764  1
+  Dy  Dy7  1  0.50336248  0.33050418  0.79952157  1
+  Dy  Dy8  1  0.51856977  0.64519209  0.18662843  1
+  Nd  Nd9  1  0.45716524  0.81501919  0.67378592  1

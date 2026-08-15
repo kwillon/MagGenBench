@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Tb4Bi2Te2As
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.80362875
+_cell_length_b   8.37065478
+_cell_length_c   8.57401529
+_cell_angle_alpha   117.23065655
+_cell_angle_beta   80.84791507
+_cell_angle_gamma   87.70428735
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb4Bi2Te2As
+_chemical_formula_sum   'Tb4 Bi2 Te2 As1'
+_cell_volume   300.13516192
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  1  0.00000000  0.00440676  0.00060516  1
+  Te  Te1  1  0.49927041  0.32335559  0.69359964  1
+  Te  Te2  1  0.50435120  0.68569261  0.32234102  1
+  Tb  Tb3  1  0.02544042  0.96829224  0.71049261  1
+  Tb  Tb4  1  1.00000000  0.44397986  0.45081761  1
+  Tb  Tb5  1  1.00000000  0.56989121  1.00000000  1
+  Tb  Tb6  1  0.99242526  0.99379319  0.33842415  1
+  Bi  Bi7  1  0.48983857  0.26619565  0.21235767  1
+  Bi  Bi8  1  0.52307218  0.73741323  0.74811047  1

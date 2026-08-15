@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_Ca3Eu
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.81374805
+_cell_length_b   4.21927397
+_cell_length_c   12.69896197
+_cell_angle_alpha   90.74004973
+_cell_angle_beta   97.00345092
+_cell_angle_gamma   121.01214870
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca3Eu
+_chemical_formula_sum   'Ca3 Eu1'
+_cell_volume   173.13607910
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.46662006  0.25474256  0.74338883  1
+  Ca  Ca1  1  0.49421322  0.78217036  0.23290862  1
+  Ca  Ca2  1  1.00000000  0.46136278  0.48850983  1
+  Eu  Eu3  1  0.00000000  0.00000000  1.00000000  1

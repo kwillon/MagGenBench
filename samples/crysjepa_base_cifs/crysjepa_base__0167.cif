@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Dy3Mn(Co3Si4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.94393179
+_cell_length_b   6.08324311
+_cell_length_c   10.22112555
+_cell_angle_alpha   100.20246387
+_cell_angle_beta   87.61473643
+_cell_angle_gamma   106.71071942
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Dy3Mn(Co3Si4)2
+_chemical_formula_sum   'Dy3 Mn1 Co6 Si8'
+_cell_volume   231.14303240
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.15037929  0.12174830  0.32409760  1
+  Si  Si1  1  0.15589274  0.21410948  0.92229152  1
+  Si  Si2  1  0.28626055  0.55319679  0.66769713  1
+  Si  Si3  1  0.32170001  0.73612267  0.24362370  1
+  Si  Si4  1  0.59397638  0.46723235  0.40493819  1
+  Si  Si5  1  0.66348910  0.31129187  0.73426515  1
+  Si  Si6  1  0.81731170  0.78284425  0.09672178  1
+  Si  Si7  1  0.86943805  0.87050688  0.70768714  1
+  Mn  Mn8  1  0.45772392  0.52984548  0.49821344  1
+  Co  Co9  1  0.11460882  0.18009774  0.48569772  1
+  Co  Co10  1  0.23706871  0.30349320  0.72120047  1
+  Co  Co11  1  0.41348657  0.66690558  0.07025878  1
+  Co  Co12  1  0.57824302  0.41055927  0.91851914  1
+  Co  Co13  1  0.78997457  0.69145381  0.26103434  1
+  Co  Co14  1  0.87131292  0.83054018  0.51652288  1
+  Dy  Dy15  1  0.41141585  0.87462455  0.74148560  1
+  Dy  Dy16  1  0.59902054  0.08034664  0.23189723  1
+  Dy  Dy17  1  0.97464734  0.53910393  0.94407940  1

@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Zn5Ga
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.32170259
+_cell_length_b   5.31228914
+_cell_length_c   4.96532948
+_cell_angle_alpha   117.60251354
+_cell_angle_beta   85.70000649
+_cell_angle_gamma   92.51265067
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zn5Ga
+_chemical_formula_sum   'Zn5 Ga1'
+_cell_volume   100.73049399
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.49188906  0.46586034  0.47243619  1
+  Zn  Zn1  1  0.47538713  0.52601022  1.00000000  1
+  Zn  Zn2  1  0.51808041  1.00000000  0.46502027  1
+  Zn  Zn3  1  1.00000000  0.31893244  0.63592440  1
+  Zn  Zn4  1  1.00000000  0.64386618  0.33163616  1
+  Ga  Ga5  1  1.00000000  1.00000000  0.97609413  1

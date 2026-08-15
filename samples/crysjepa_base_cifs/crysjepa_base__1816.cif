@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_FeSiSn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.97106866
+_cell_length_b   4.32441894
+_cell_length_c   6.43190224
+_cell_angle_alpha   100.63880099
+_cell_angle_beta   113.10100305
+_cell_angle_gamma   83.31550281
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   FeSiSn
+_chemical_formula_sum   'Fe2 Si2 Sn2'
+_cell_volume   99.73106486
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.39432630  0.29565319  0.80493391  1
+  Si  Si1  1  0.60834414  0.74862444  0.18186396  1
+  Fe  Fe2  1  0.27759022  0.80739653  0.49373981  1
+  Fe  Fe3  1  0.75480735  0.18466426  0.50215667  1
+  Sn  Sn4  1  0.10620452  0.27698275  0.25358751  1
+  Sn  Sn5  1  0.87751657  0.67311281  0.74372566  1

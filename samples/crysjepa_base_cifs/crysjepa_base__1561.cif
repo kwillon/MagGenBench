@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_Tl2CoP
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.67402546
+_cell_length_b   4.53394695
+_cell_length_c   5.22808125
+_cell_angle_alpha   69.69079872
+_cell_angle_beta   64.33896431
+_cell_angle_gamma   58.21306964
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tl2CoP
+_chemical_formula_sum   'Tl2 Co1 P1'
+_cell_volume   83.85695905
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  P  P0  1  0.01993292  0.00000000  0.00000000  1
+  Co  Co1  1  0.47375351  0.50343770  0.49859932  1
+  Tl  Tl2  1  0.24474603  0.25605547  0.25272188  1
+  Tl  Tl3  1  0.74778259  0.76019347  0.72452497  1

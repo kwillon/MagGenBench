@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CoNiO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.10885450
+_cell_length_b   5.24643251
+_cell_length_c   5.29076064
+_cell_angle_alpha   111.06898955
+_cell_angle_beta   94.03644600
+_cell_angle_gamma   120.96041142
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CoNiO3
+_chemical_formula_sum   'Co2 Ni2 O6'
+_cell_volume   107.54372672
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.03496064  0.49079937  0.28006265  1
+  O  O1  1  0.21075083  0.18287736  0.72364682  1
+  O  O2  1  0.46489134  0.21240334  0.29512885  1
+  O  O3  1  0.56425500  0.78851992  0.69689715  1
+  O  O4  1  0.76190984  0.80492252  0.26109380  1
+  O  O5  1  0.92766720  0.52387792  0.71850222  1
+  Co  Co6  1  0.16391194  0.31931973  0.43838745  1
+  Co  Co7  1  0.85762799  0.69194096  0.51057273  1
+  Ni  Ni8  1  0.34964082  0.70498979  0.04314952  1
+  Ni  Ni9  1  0.62335688  0.27491593  0.92587245  1

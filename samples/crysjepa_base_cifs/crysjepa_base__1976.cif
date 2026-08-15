@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_BaGaAgBr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.58678597
+_cell_length_b   7.02453252
+_cell_length_c   12.76730320
+_cell_angle_alpha   93.53773471
+_cell_angle_beta   87.34650517
+_cell_angle_gamma   100.57395315
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaGaAgBr
+_chemical_formula_sum   'Ba4 Ga4 Ag4 Br4'
+_cell_volume   491.28785838
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.24933626  0.26286721  0.57576144  1
+  Ga  Ga1  1  0.25371799  0.46455690  0.78466910  1
+  Ga  Ga2  1  0.73554873  0.52375436  0.21919787  1
+  Ga  Ga3  1  0.74694800  0.77480704  0.43342337  1
+  Br  Br4  1  0.23817943  0.01977154  0.81402922  1
+  Br  Br5  1  0.23922309  0.55852801  0.30659723  1
+  Br  Br6  1  0.74400789  0.39730266  0.74296880  1
+  Br  Br7  1  0.73594397  0.97698516  0.20238096  1
+  Ag  Ag8  1  0.26190582  0.13406135  0.33844072  1
+  Ag  Ag9  1  0.23325400  0.66957432  0.92341465  1
+  Ag  Ag10  1  0.76979107  0.29896426  0.11207891  1
+  Ag  Ag11  1  0.77277428  0.87767375  0.63106948  1
+  Ba  Ba12  1  0.25205761  0.28619936  0.08947908  1
+  Ba  Ba13  1  0.26028275  0.72977358  0.52586919  1
+  Ba  Ba14  1  0.73113030  0.25451463  0.47071576  1
+  Ba  Ba15  1  0.74593443  0.72316206  0.91758692  1

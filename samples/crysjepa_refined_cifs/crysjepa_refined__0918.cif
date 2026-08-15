@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Zn2Ag
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.44846640
+_cell_length_b   5.31650785
+_cell_length_c   6.51840629
+_cell_angle_alpha   100.24378256
+_cell_angle_beta   91.82947487
+_cell_angle_gamma   115.39365106
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zn2Ag
+_chemical_formula_sum   'Zn4 Ag2'
+_cell_volume   105.45014751
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zn  Zn0  1  0.13343088  0.81602633  0.53537035  1
+  Zn  Zn1  1  0.52597207  0.44540238  0.17217444  1
+  Zn  Zn2  1  0.46964598  0.51042336  0.85959476  1
+  Zn  Zn3  1  0.89343941  0.21388951  0.45861596  1
+  Ag  Ag4  1  0.17333178  0.85137838  0.17724396  1
+  Ag  Ag5  1  0.81211382  0.13399838  0.87853843  1

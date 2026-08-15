@@ -1,0 +1,30 @@
+# generated using pymatgen
+data_YbMgPt2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.50983935
+_cell_length_b   4.29852830
+_cell_length_c   4.51726708
+_cell_angle_alpha   64.31054371
+_cell_angle_beta   65.07005063
+_cell_angle_gamma   70.00055128
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YbMgPt2
+_chemical_formula_sum   'Yb1 Mg1 Pt2'
+_cell_volume   70.18892033
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.50221020  0.49921215  0.48600346  1
+  Yb  Yb1  1  0.00061395  0.00000000  0.00513757  1
+  Pt  Pt2  1  0.27801061  0.24687505  0.24455371  1
+  Pt  Pt3  1  0.74099100  0.74216765  0.75963360  1

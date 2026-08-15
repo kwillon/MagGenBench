@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Pu2TaCd2Se5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.24684066
+_cell_length_b   4.17165544
+_cell_length_c   16.34367695
+_cell_angle_alpha   82.95720523
+_cell_angle_beta   84.53716552
+_cell_angle_gamma   52.35125782
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Pu2TaCd2Se5
+_chemical_formula_sum   'Pu2 Ta1 Cd2 Se5'
+_cell_volume   227.45163399
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Se  Se0  1  0.08429013  0.11499936  0.71000433  1
+  Se  Se1  1  0.27661455  0.31130955  0.11679958  1
+  Se  Se2  1  0.49605006  0.50960958  0.50270176  1
+  Se  Se3  1  0.72055584  0.65814418  0.89092177  1
+  Se  Se4  1  0.90505701  0.89064050  0.27731773  1
+  Cd  Cd5  1  0.00915308  0.00000000  0.00195430  1
+  Cd  Cd6  1  0.21662715  0.22126162  0.38712806  1
+  Pu  Pu7  1  0.36085460  0.37850967  0.77097857  1
+  Ta  Ta8  1  0.61047828  0.61224556  0.20810778  1
+  Pu  Pu9  1  0.76909387  0.79519486  0.60350835  1

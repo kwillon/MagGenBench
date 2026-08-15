@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Fe12Tc
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.84832844
+_cell_length_b   6.04982747
+_cell_length_c   5.73922372
+_cell_angle_alpha   83.40507722
+_cell_angle_beta   60.36829217
+_cell_angle_gamma   74.97159285
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Fe12Tc
+_chemical_formula_sum   'Fe12 Tc1'
+_cell_volume   141.30244697
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.29308206  0.17553081  0.21032484  1
+  Fe  Fe1  1  0.37654293  0.63915396  0.67373818  1
+  Fe  Fe2  1  0.49370664  0.02214009  0.50221437  1
+  Fe  Fe3  1  0.48801523  0.22300664  0.79862893  1
+  Fe  Fe4  1  0.48624548  0.47944570  0.98181397  1
+  Fe  Fe5  1  0.53205144  0.77100092  0.21493270  1
+  Fe  Fe6  1  0.64118594  0.36668333  0.31811759  1
+  Fe  Fe7  1  0.71920985  0.80222303  0.77609462  1
+  Fe  Fe8  1  1.00000000  0.00000000  0.49506208  1
+  Fe  Fe9  1  1.00000000  0.38098079  0.65167999  1
+  Fe  Fe10  1  1.00000000  0.51834416  1.00000000  1
+  Fe  Fe11  1  1.00000000  0.66646618  0.34512365  1
+  Tc  Tc12  1  1.00000000  0.00000000  1.00000000  1
