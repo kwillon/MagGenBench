@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Fe3AsP
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.42181587
+_cell_length_b   4.74395037
+_cell_length_c   7.58878756
+_cell_angle_alpha   92.10415649
+_cell_angle_beta   87.38877869
+_cell_angle_gamma   89.27531433
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Fe3AsP
+_chemical_formula_sum   'Fe6 As2 P2'
+_cell_volume   122.96467675
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.80895352  0.17978528  0.09012748  1
+  Fe  Fe1  1  0.31201506  0.44293493  0.29829252  1
+  P  P2  1  0.81497645  0.69138366  0.17739838  1
+  Fe  Fe3  1  0.81501633  0.71087182  0.47846127  1
+  As  As4  1  0.31027022  0.74905217  0.68660909  1
+  Fe  Fe5  1  0.31181890  0.68409932  0.98838514  1
+  Fe  Fe6  1  0.31495085  0.95439285  0.29944259  1
+  As  As7  1  0.80126113  0.20771651  0.47288209  1
+  Fe  Fe8  1  0.81634998  0.40962270  0.77629524  1
+  P  P9  1  0.31945819  0.15918700  0.88738006  1

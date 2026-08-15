@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Fe5SiFe2
+_chemical_formula_sum              "Fe7 Si1"
+_cell_length_a       4.691591173408963
+_cell_length_b       4.696021287529936
+_cell_length_c       4.907293796539307
+_cell_angle_alpha    99.93604267318808
+_cell_angle_beta     99.93920538539186
+_cell_angle_gamma    117.02949942441096
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.8054884076118469  0.048000842332839966  0.7808458209037781  1.0000
+  Fe  Fe2       1.0  0.30095440149307257  0.5445386171340943  0.28165608644485474  1.0000
+  Fe  Fe3       1.0  0.30171340703964233  0.048254068940877914  0.03134319558739663  1.0000
+  Fe  Fe4       1.0  0.8015989065170288  0.5480250120162964  0.5311416387557983  1.0000
+  Fe  Fe5       1.0  0.8016154766082764  0.5481128096580505  0.031233878806233406  1.0000
+  Si  Si1       1.0  0.3016285300254822  0.047714028507471085  0.53167724609375  1.0000
+  Fe  Fe6       1.0  0.30180820822715765  0.5516832470893861  0.7806625366210938  1.0000
+  Fe  Fe7       1.0  0.7980719804763794  0.04785267636179924  0.2819477915763855  1.0000

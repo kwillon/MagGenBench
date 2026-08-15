@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       FeGeFe6
+_chemical_formula_sum              "Fe7 Ge1"
+_cell_length_a       2.5424941587986307
+_cell_length_b       4.966323848864034
+_cell_length_c       8.054425239562988
+_cell_angle_alpha    89.87701812260599
+_cell_angle_beta     90.15969233358136
+_cell_angle_gamma    109.84309511286138
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.4614264965057373  0.8539865016937256  0.2753819525241852  1.0000
+  Ge  Ge1       1.0  0.9673784971237183  0.10712754726409913  0.528805673122406  1.0000
+  Fe  Fe2       1.0  0.9681036472320557  0.10609086602926254  0.029286757111549377  1.0000
+  Fe  Fe3       1.0  0.46019160747528076  0.8539566993713379  0.7818493247032166  1.0000
+  Fe  Fe4       1.0  0.47475361824035645  0.35995569825172424  0.7833265066146851  1.0000
+  Fe  Fe5       1.0  0.4744715094566345  0.36015287041664124  0.27544790506362915  1.0000
+  Fe  Fe6       1.0  0.9689409136772156  0.6072494983673096  0.5288663506507874  1.0000
+  Fe  Fe7       1.0  0.966918408870697  0.6070246696472168  0.029323484748601913  1.0000

@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Fe2AlFe2CAlFe
+_chemical_formula_sum              "Fe5 Al2 C1"
+_cell_length_a       3.7537868906662837
+_cell_length_b       4.647781466698585
+_cell_length_c       5.678232669830322
+_cell_angle_alpha    95.98544782734366
+_cell_angle_beta     90.03144186881825
+_cell_angle_gamma    113.95222667218694
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.6473846435546875  0.3080344498157501  0.7494944930076599  1.0000
+  Fe  Fe2       1.0  0.07181774079799653  0.15657036006450656  0.04938426613807678  1.0000
+  Al  Al1       1.0  0.5071732401847839  0.027347447350621223  0.3335198760032654  1.0000
+  Fe  Fe3       1.0  0.9282887578010559  0.8699343204498292  0.6088457703590393  1.0000
+  Fe  Fe4       1.0  0.3680356442928315  0.7477552890777589  0.887502133846283  1.0000
+  C   C1        1.0  0.14741919934749603  0.3077499568462372  0.7498831152915955  1.0000
+  Al  Al2       1.0  0.7888092994689941  0.5907264947891235  0.1646798700094223  1.0000
+  Fe  Fe5       1.0  0.22479696571826935  0.4617171585559845  0.4510553479194641  1.0000

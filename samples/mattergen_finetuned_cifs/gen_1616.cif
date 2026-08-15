@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       TaCo7
+_chemical_formula_sum              "Ta1 Co7"
+_cell_length_a       4.05330779649733
+_cell_length_b       4.420676916213196
+_cell_length_c       5.137190818786621
+_cell_angle_alpha    90.04153688322943
+_cell_angle_beta     89.93451464302254
+_cell_angle_gamma    89.9921409577343
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ta  Ta1       1.0  0.009869469329714775  0.26680177450180054  0.5753269195556641  1.0000
+  Co  Co1       1.0  0.009753920137882233  0.7649766206741333  0.8398048877716064  1.0000
+  Co  Co2       1.0  0.009566796943545341  0.764882504940033  0.31033346056938166  1.0000
+  Co  Co3       1.0  0.5085839629173279  0.5897458791732788  0.07435089349746704  1.0000
+  Co  Co4       1.0  0.5088430047035217  0.09204965829849243  0.3102622926235199  1.0000
+  Co  Co5       1.0  0.5092635750770569  0.09192617982625961  0.8398112058639526  1.0000
+  Co  Co6       1.0  0.0094755869358778  0.27102968096733093  0.07509466260671616  1.0000
+  Co  Co7       1.0  0.5094690918922424  0.6315418481826782  0.5754267573356628  1.0000

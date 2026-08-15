@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Fe4N
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.36910176
+_cell_length_b   4.31382942
+_cell_length_c   7.69127369
+_cell_angle_alpha   78.33310699
+_cell_angle_beta   85.09467316
+_cell_angle_gamma   86.17678070
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Fe4N
+_chemical_formula_sum   'Fe8 N2'
+_cell_volume   108.93268302
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.74846518  0.61195201  0.58484411  1
+  Fe  Fe1  1  0.26120690  0.15030342  0.14369828  1
+  Fe  Fe2  1  0.26052052  0.15916952  0.63919109  1
+  Fe  Fe3  1  0.26494622  0.61925077  0.84068310  1
+  Fe  Fe4  1  0.77650505  0.16459328  0.39736164  1
+  N  N5  1  0.76184464  0.89046794  0.74718976  1
+  N  N6  1  0.75795358  0.88105232  0.24373168  1
+  Fe  Fe7  1  0.74133658  0.61157680  0.08375918  1
+  Fe  Fe8  1  0.25157365  0.61130244  0.34241661  1
+  Fe  Fe9  1  0.76841801  0.17298067  0.89959419  1

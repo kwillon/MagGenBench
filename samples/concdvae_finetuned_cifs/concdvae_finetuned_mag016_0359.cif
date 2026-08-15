@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_SmTa3(Fe5B)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.27396107
+_cell_length_b   7.81929302
+_cell_length_c   13.45988369
+_cell_angle_alpha   102.68350220
+_cell_angle_beta   90.59700775
+_cell_angle_gamma   88.88864136
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SmTa3(Fe5B)4
+_chemical_formula_sum   'Sm1 Ta3 Fe20 B4'
+_cell_volume   336.09554321
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.05233235  0.01806310  0.09788671  1
+  Fe  Fe1  1  0.54900575  0.98674482  0.81810468  1
+  Fe  Fe2  1  0.05139768  0.19766867  0.94522721  1
+  B  B3  1  0.04715131  0.06209560  0.34494504  1
+  Fe  Fe4  1  0.04588054  0.11427295  0.71761775  1
+  Fe  Fe5  1  0.54011005  0.65327007  0.82158548  1
+  Fe  Fe6  1  0.04901571  0.45030403  0.72407788  1
+  Ta  Ta7  1  0.54697675  0.55997509  0.26259896  1
+  B  B8  1  0.03909656  0.37105894  0.55692810  1
+  Fe  Fe9  1  0.55221784  0.31636673  0.82569039  1
+  Fe  Fe10  1  0.55094892  0.91348022  0.60850024  1
+  Fe  Fe11  1  0.05245036  0.29933578  0.26192105  1
+  Fe  Fe12  1  0.04227657  0.80742484  0.23257656  1
+  Fe  Fe13  1  0.53799927  0.04596138  0.23453359  1
+  Fe  Fe14  1  0.54487526  0.25574088  0.10820831  1
+  Fe  Fe15  1  0.56420547  0.90506178  0.38206011  1
+  Ta  Ta16  1  0.55118805  0.74151009  0.06317204  1
+  B  B17  1  0.55058116  0.02249894  0.98892140  1
+  Fe  Fe18  1  0.05091549  0.78065991  0.71279269  1
+  Fe  Fe19  1  0.54765773  0.24936260  0.62450123  1
+  Fe  Fe20  1  0.05075845  0.48876217  0.10478692  1
+  Sm  Sm21  1  0.04825653  0.66776890  0.46828061  1
+  Fe  Fe22  1  0.05627906  0.85616046  0.92030185  1
+  Fe  Fe23  1  0.05392195  0.07107817  0.51009554  1
+  B  B24  1  0.55304605  0.40579152  0.99301201  1
+  Ta  Ta25  1  0.55135453  0.28789678  0.42102250  1
+  Fe  Fe26  1  0.54357719  0.56470484  0.61430836  1
+  Fe  Fe27  1  0.04738712  0.53015196  0.92834646  1

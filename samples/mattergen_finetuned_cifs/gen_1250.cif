@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Fe4NFe
+_chemical_formula_sum              "Fe5 N1"
+_cell_length_a       2.80892395217366
+_cell_length_b       4.7528847224086075
+_cell_length_c       5.2599287033081055
+_cell_angle_alpha    90.50600345423571
+_cell_angle_beta     74.44171230301473
+_cell_angle_gamma    72.65284622940054
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.31800514459609985  0.6165645122528076  0.8737109899520874  1.0000
+  Fe  Fe2       1.0  0.5176424980163573  0.8233488202095033  0.2676198184490204  1.0000
+  Fe  Fe3       1.0  0.7167104482650757  0.032150525599718094  0.660505473613739  1.0000
+  Fe  Fe4       1.0  0.12171085923910137  0.4493135809898377  0.43305519223213196  1.0000
+  N   N1        1.0  0.01741378754377359  0.324638843536377  0.7674532532691956  1.0000
+  Fe  Fe5       1.0  0.9138345122337341  0.19784215092659  0.100707046687603  1.0000

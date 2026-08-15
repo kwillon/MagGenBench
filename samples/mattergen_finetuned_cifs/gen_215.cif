@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Fe3Co
+_chemical_formula_sum              "Fe3 Co1"
+_cell_length_a       2.4820680757631717
+_cell_length_b       4.726395138489086
+_cell_length_c       4.725320339202881
+_cell_angle_alpha    117.02026400339213
+_cell_angle_beta     100.05617825950009
+_cell_angle_gamma    100.05160259825057
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.9728189706802368  0.790465235710144  0.5639307498931885  1.0000
+  Fe  Fe2       1.0  0.4725593030452728  0.7908764481544495  0.06516130268573757  1.0000
+  Fe  Fe3       1.0  0.47306838631629944  0.29110437631607056  0.5644548535346985  1.0000
+  Co  Co1       1.0  0.9724993705749512  0.29023897647857666  0.06471633911132812  1.0000

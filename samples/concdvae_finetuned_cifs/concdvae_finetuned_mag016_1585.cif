@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Fe17Ge7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.95352936
+_cell_length_b   4.42281294
+_cell_length_c   16.41206360
+_cell_angle_alpha   82.48820496
+_cell_angle_beta   87.77609253
+_cell_angle_gamma   84.13239288
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Fe17Ge7
+_chemical_formula_sum   'Fe17 Ge7'
+_cell_volume   282.92910665
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.25850725  0.64846587  0.97602874  1
+  Fe  Fe1  1  0.97531086  0.47442043  0.45350000  1
+  Ge  Ge2  1  0.34852406  0.26825503  0.73323363  1
+  Ge  Ge3  1  0.43885702  0.25941983  0.54082435  1
+  Ge  Ge4  1  0.02822322  0.00076389  0.37843394  1
+  Fe  Fe5  1  0.71181023  0.46531186  0.06197111  1
+  Fe  Fe6  1  0.30170843  0.18379125  0.89332038  1
+  Fe  Fe7  1  0.07810637  0.54173219  0.29359236  1
+  Fe  Fe8  1  0.38872457  0.81796688  0.65194798  1
+  Fe  Fe9  1  0.16974448  0.58855909  0.13355617  1
+  Ge  Ge10  1  0.93122935  0.73910224  0.57367092  1
+  Fe  Fe11  1  0.56353843  0.85032666  0.30795640  1
+  Fe  Fe12  1  0.87847358  0.19097674  0.64639395  1
+  Fe  Fe13  1  0.75804979  0.00084674  0.97975749  1
+  Ge  Ge14  1  0.78795075  0.53961903  0.89675868  1
+  Fe  Fe15  1  0.82508957  0.07895089  0.81544268  1
+  Fe  Fe16  1  0.67853498  0.91200006  0.14604710  1
+  Fe  Fe17  1  0.31790227  0.73148954  0.81296891  1
+  Fe  Fe18  1  0.12900981  0.06866299  0.21552798  1
+  Ge  Ge19  1  0.21994963  0.12078392  0.05478873  1
+  Fe  Fe20  1  0.84338993  0.63198304  0.73270828  1
+  Fe  Fe21  1  0.52343154  0.32322064  0.38576180  1
+  Fe  Fe22  1  0.46439451  0.79824460  0.47371247  1
+  Ge  Ge23  1  0.61685753  0.39139059  0.22371414  1

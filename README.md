@@ -95,7 +95,7 @@ pip install -e .
 Validate generated CIF structures:
 ```
 mvp validate \
-  --input-dir samples/mattergen_cifs_2000 \
+  --input-dir samples/mattergen_cifs \
   --out-dir outputs/mattergen \
   --train-reference datasets/mattergen/train_reference.csv \
   --thresholds config/thresholds.yaml

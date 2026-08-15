@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Co2TiCo3
+_chemical_formula_sum              "Co5 Ti1"
+_cell_length_a       2.9425232651433686
+_cell_length_b       2.944185497035882
+_cell_length_c       8.215399742126465
+_cell_angle_alpha    89.99807639103167
+_cell_angle_beta     89.99266688154741
+_cell_angle_gamma    90.00042597619114
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.009751874022185802  0.12890318036079407  0.8601216077804565  1.0000
+  Co  Co2       1.0  0.509708046913147  0.6287102103233337  0.7001538276672363  1.0000
+  Ti  Ti1       1.0  0.5102945566177368  0.6287184953689575  0.35994771122932434  1.0000
+  Co  Co3       1.0  0.010288508608937263  0.12942363321781158  0.18548466265201569  1.0000
+  Co  Co4       1.0  0.5095787048339844  0.6290597915649414  0.01976999267935753  1.0000
+  Co  Co5       1.0  0.010065942071378231  0.12825484573841095  0.534320592880249  1.0000

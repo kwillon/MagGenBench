@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Co3Si
+_chemical_formula_sum              "Co3 Si1"
+_cell_length_a       2.7813026349516217
+_cell_length_b       3.9488949287356996
+_cell_length_c       3.9470558166503906
+_cell_angle_alpha    90.13473482245867
+_cell_angle_beta     90.04604481068291
+_cell_angle_gamma    90.03437884086946
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.6098288893699646  0.6632025837898254  0.17253603041172028  1.0000
+  Co  Co2       1.0  0.10997937619686127  0.16440139710903168  0.17268401384353638  1.0000
+  Co  Co3       1.0  0.10980764031410217  0.6633192300796508  0.6715295314788818  1.0000
+  Si  Si1       1.0  0.6098560094833374  0.16396412253379822  0.6720488667488098  1.0000

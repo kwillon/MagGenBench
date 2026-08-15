@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       NFe4PFe2
+_chemical_formula_sum              "N1 Fe6 P1"
+_cell_length_a       4.551152384032075
+_cell_length_b       4.830319454970792
+_cell_length_c       4.824120044708252
+_cell_angle_alpha    119.86666529432564
+_cell_angle_beta     90.01494012981655
+_cell_angle_gamma    90.01259737370776
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  N   N1        1.0  0.7708868980407715  0.519597053527832  0.26217913627624506  1.0000
+  Fe  Fe1       1.0  0.009535234421491623  0.1759943813085556  0.9557345509529115  1.0000
+  Fe  Fe2       1.0  0.009654583409428596  0.5575569868087769  0.6055224537849426  1.0000
+  Fe  Fe3       1.0  0.010840306989848614  0.8268290162086487  0.22556123137474063  1.0000
+  Fe  Fe4       1.0  0.5318477749824524  0.8256003260612488  0.6058310866355896  1.0000
+  P   P1        1.0  0.27105429768562317  0.18820749223232272  0.5967122912406921  1.0000
+  Fe  Fe5       1.0  0.5314922332763672  0.5580960512161256  0.9566135406494142  1.0000
+  Fe  Fe6       1.0  0.5323119163513184  0.1767336130142212  0.22691723704338077  1.0000

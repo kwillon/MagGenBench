@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Fe4PtFe2Pt
+_chemical_formula_sum              "Fe6 Pt2"
+_cell_length_a       2.9619686910341696
+_cell_length_b       5.875513223369864
+_cell_length_c       5.90026330947876
+_cell_angle_alpha    90.75448573202831
+_cell_angle_beta     90.00824654300791
+_cell_angle_gamma    90.05719850774487
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.8511753678321838  0.5883577466011047  0.30729156732559204  1.0000
+  Fe  Fe2       1.0  0.8514007329940796  0.07000800967216492  0.3106400966644287  1.0000
+  Fe  Fe3       1.0  0.35105180740356445  0.3379522860050201  0.07433019578456879  1.0000
+  Fe  Fe4       1.0  0.3518124222755432  0.8194236159324646  0.07816191762685776  1.0000
+  Pt  Pt1       1.0  0.8513070940971375  0.06683038920164108  0.8292841315269471  1.0000
+  Fe  Fe5       1.0  0.3512539565563202  0.8220170736312866  0.5584197044372559  1.0000
+  Fe  Fe6       1.0  0.8511322736740112  0.5857462882995605  0.8269854784011842  1.0000
+  Pt  Pt2       1.0  0.3514007329940796  0.3412827253341674  0.5559729933738708  1.0000

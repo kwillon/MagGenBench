@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Fe7SbN2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.31188202
+_cell_length_b   5.68168497
+_cell_length_c   5.60233688
+_cell_angle_alpha   115.53827667
+_cell_angle_beta   96.79042816
+_cell_angle_gamma   102.90282440
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Fe7SbN2
+_chemical_formula_sum   'Fe7 Sb1 N2'
+_cell_volume   117.06842143
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  N  N0  1  0.32393935  0.60059774  0.79816854  1
+  Fe  Fe1  1  0.07286879  0.86186349  0.92287689  1
+  Sb  Sb2  1  0.08252448  0.86786479  0.42796928  1
+  Fe  Fe3  1  0.07950862  0.36742780  0.42346057  1
+  N  N4  1  0.82986778  0.12597412  0.05256367  1
+  Fe  Fe5  1  0.08200687  0.36870274  0.92738384  1
+  Fe  Fe6  1  0.57705998  0.87003118  0.16393381  1
+  Fe  Fe7  1  0.55952847  0.35110527  0.17141324  1
+  Fe  Fe8  1  0.58732140  0.36975500  0.66738510  1
+  Fe  Fe9  1  0.58025485  0.85858083  0.68384337  1

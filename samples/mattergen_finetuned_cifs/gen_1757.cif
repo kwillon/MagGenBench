@@ -1,0 +1,34 @@
+data_image0
+_chemical_formula_structural       AlCoFe2CoFe2AlFe
+_chemical_formula_sum              "Al2 Co2 Fe5"
+_cell_length_a       2.918066890166533
+_cell_length_b       6.3483577915849665
+_cell_length_c       6.2342987060546875
+_cell_angle_alpha    107.45157883672329
+_cell_angle_beta     103.50661417602606
+_cell_angle_gamma    89.93978073917772
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.7609564065933228  0.4815467298030854  0.18740044534206396  1.0000
+  Co  Co1       1.0  0.20601676404476166  0.14152690768241882  0.07717368751764299  1.0000
+  Fe  Fe1       1.0  0.09078642725944519  0.4872824549674988  0.8456665873527528  1.0000
+  Fe  Fe2       1.0  0.6601151823997498  0.8174587488174438  0.9848273396492006  1.0000
+  Co  Co2       1.0  0.31910839676856995  0.8214380741119385  0.3035912215709687  1.0000
+  Fe  Fe3       1.0  0.8749161958694458  0.15105688571929932  0.4142901003360749  1.0000
+  Fe  Fe4       1.0  0.4303455352783203  0.4782624244689942  0.526018500328064  1.0000
+  Al  Al2       1.0  0.9868283271789551  0.8201891779899597  0.6394531726837158  1.0000
+  Fe  Fe5       1.0  0.5441412329673767  0.1624763458967209  0.7541821599006654  1.0000

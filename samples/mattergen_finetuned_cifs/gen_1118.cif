@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       CoFe2Sn
+_chemical_formula_sum              "Co1 Fe2 Sn1"
+_cell_length_a       4.2580060817006
+_cell_length_b       4.257530728735086
+_cell_length_c       4.257354259490967
+_cell_angle_alpha    59.98622460176899
+_cell_angle_beta     59.94348324530038
+_cell_angle_gamma    59.999445092532454
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.03172829747200012  0.6774885058403015  0.6306092143058777  1.0000
+  Fe  Fe1       1.0  0.28195333480834955  0.9271838665008544  0.8803907036781312  1.0000
+  Fe  Fe2       1.0  0.7818763852119447  0.42735633254051203  0.3803310990333556  1.0000
+  Sn  Sn1       1.0  0.5317431688308717  0.17737528681755066  0.1306041777133941  1.0000

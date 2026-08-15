@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Co2FeRh2Fe
+_chemical_formula_sum              "Co2 Fe2 Rh2"
+_cell_length_a       4.149188999090035
+_cell_length_b       4.927782630153046
+_cell_length_c       4.140841960906982
+_cell_angle_alpha    89.93724672430818
+_cell_angle_beta     89.9975709571737
+_cell_angle_gamma    65.06371341479205
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.05326789617538452  0.3793640434741974  0.3427784740924835  1.0000
+  Co  Co2       1.0  0.695541262626648  0.09336396306753159  0.34279581904411316  1.0000
+  Fe  Fe1       1.0  0.19942963123321536  0.08614663034677505  0.8432039022445679  1.0000
+  Rh  Rh1       1.0  0.8741864562034607  0.7367143034934998  0.8427342772483826  1.0000
+  Rh  Rh2       1.0  0.3740569651126861  0.7365843057632446  0.3430563807487488  1.0000
+  Fe  Fe2       1.0  0.5493562817573547  0.38706275820732117  0.8433324694633484  1.0000

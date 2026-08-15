@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       SiFe2Co
+_chemical_formula_sum              "Si1 Fe2 Co1"
+_cell_length_a       2.8696849455606346
+_cell_length_b       3.968465157288483
+_cell_length_c       3.970031976699829
+_cell_angle_alpha    89.96999065238296
+_cell_angle_beta     89.99499597594766
+_cell_angle_gamma    89.90084864338395
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Si  Si1       1.0  0.7981364727020264  0.13034658133983612  0.9548641443252565  1.0000
+  Fe  Fe1       1.0  0.29807233810424805  0.13011953234672546  0.45463764667510986  1.0000
+  Fe  Fe2       1.0  0.2981281578540802  0.6292162537574768  0.9556604623794557  1.0000
+  Co  Co1       1.0  0.798133134841919  0.6300456523895264  0.454795777797699  1.0000

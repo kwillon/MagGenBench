@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Fe5P
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.76613712
+_cell_length_b   5.24967241
+_cell_length_c   8.49499702
+_cell_angle_alpha   103.34156036
+_cell_angle_beta   93.59168243
+_cell_angle_gamma   111.25479126
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Fe5P
+_chemical_formula_sum   'Fe10 P2'
+_cell_volume   150.31020515
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.10339272  0.15613374  0.30531353  1
+  Fe  Fe1  1  0.87308359  0.69294477  0.82194179  1
+  Fe  Fe2  1  0.33029526  0.60787553  0.54571271  1
+  P  P3  1  0.88972133  0.72105795  0.10674355  1
+  Fe  Fe4  1  0.97814560  0.90736330  0.53892916  1
+  Fe  Fe5  1  0.21597861  0.36822295  0.02490106  1
+  Fe  Fe6  1  0.58163267  0.08192163  0.78944069  1
+  Fe  Fe7  1  0.43592775  0.80457056  0.30756259  1
+  P  P8  1  0.20864584  0.34594017  0.74160117  1
+  Fe  Fe9  1  0.52815676  0.99652088  0.05798053  1
+  Fe  Fe10  1  0.76230562  0.46727911  0.29708984  1
+  Fe  Fe11  1  0.66608757  0.26472849  0.54264975  1

@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       CNi4
+_chemical_formula_sum              "C1 Ni4"
+_cell_length_a       3.7600546254720633
+_cell_length_b       3.7577710341704877
+_cell_length_c       3.760946273803711
+_cell_angle_alpha    89.99423782516863
+_cell_angle_beta     89.97806393584969
+_cell_angle_gamma    89.99913507045893
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  C   C1        1.0  0.8486055731773376  0.7282004356384277  0.7185416221618651  1.0000
+  Ni  Ni1       1.0  0.8487117290496826  0.22856582701206207  0.7186707854270934  1.0000
+  Ni  Ni2       1.0  0.3483809232711792  0.22859972715377808  0.21867564320564267  1.0000
+  Ni  Ni3       1.0  0.348371297121048  0.7285736799240112  0.7187193632125853  1.0000
+  Ni  Ni4       1.0  0.8486347198486328  0.728430449962616  0.2186227440834045  1.0000

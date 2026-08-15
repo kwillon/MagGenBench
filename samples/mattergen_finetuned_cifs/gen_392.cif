@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Fe3Ta
+_chemical_formula_sum              "Fe3 Ta1"
+_cell_length_a       3.0894658667078825
+_cell_length_b       4.101725588999938
+_cell_length_c       4.871925354003906
+_cell_angle_alpha    114.96109830577309
+_cell_angle_beta     108.473669373486
+_cell_angle_gamma    90.02239830664172
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.303481787443161  0.10862903296947479  0.46714040637016296  1.0000
+  Fe  Fe2       1.0  0.8149280548095703  0.6203274726867676  0.4910113215446472  1.0000
+  Fe  Fe3       1.0  0.5590646266937256  0.8644542694091796  0.9788071513175964  1.0000
+  Ta  Ta1       1.0  0.059052873402833946  0.3638014495372772  0.9791094660758972  1.0000

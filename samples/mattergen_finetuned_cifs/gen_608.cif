@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Fe2CFe
+_chemical_formula_sum              "Fe3 C1"
+_cell_length_a       2.8576160916678877
+_cell_length_b       2.854896830227935
+_cell_length_c       5.375585079193115
+_cell_angle_alpha    105.33736280819552
+_cell_angle_beta     105.36335208746907
+_cell_angle_gamma    90.04565553591391
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.1208568662405014  0.47822448611259455  0.4879177510738373  1.0000
+  Fe  Fe2       1.0  0.7563285231590271  0.11353274434804916  0.7562305927276611  1.0000
+  C   C1        1.0  0.9412909746170044  0.29615771770477295  0.1220230311155319  1.0000
+  Fe  Fe3       1.0  0.4393679201602936  0.7951802015304564  0.12244503200054165  1.0000

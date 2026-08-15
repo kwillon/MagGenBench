@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Fe6SnFe
+_chemical_formula_sum              "Fe7 Sn1"
+_cell_length_a       4.0723414789568455
+_cell_length_b       4.080700420498155
+_cell_length_c       7.735795974731445
+_cell_angle_alpha    89.84816740038137
+_cell_angle_beta     89.91198185136963
+_cell_angle_gamma    119.78209355365556
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.4450458288192749  0.1909906566143036  0.19533033668994904  1.0000
+  Fe  Fe2       1.0  0.7796045541763306  0.8584787249565125  0.7760851383209229  1.0000
+  Fe  Fe3       1.0  0.4462961256504059  0.19310350716114044  0.8687353134155273  1.0000
+  Fe  Fe4       1.0  0.7789941430091858  0.8584022521972656  0.08557356894016266  1.0000
+  Fe  Fe5       1.0  0.11213309317827225  0.5231521129608154  0.6525207161903381  1.0000
+  Fe  Fe6       1.0  0.1127382218837738  0.5254276394844055  0.9721151590347289  1.0000
+  Sn  Sn1       1.0  0.7778192758560181  0.8578445315361024  0.4417954087257385  1.0000
+  Fe  Fe7       1.0  0.11166297644376755  0.5240113735198975  0.2878125011920929  1.0000

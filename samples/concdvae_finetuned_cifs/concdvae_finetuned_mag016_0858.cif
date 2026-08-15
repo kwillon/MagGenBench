@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Fe15SiGe2BP
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.87939095
+_cell_length_b   3.80669951
+_cell_length_c   15.23439693
+_cell_angle_alpha   91.55480957
+_cell_angle_beta   89.69320679
+_cell_angle_gamma   86.73599243
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Fe15SiGe2BP
+_chemical_formula_sum   'Fe15 Si1 Ge2 B1 P1'
+_cell_volume   224.52360996
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.53731704  0.45068946  0.14052737  1
+  Fe  Fe1  1  0.54273129  0.96145195  0.24285170  1
+  Fe  Fe2  1  0.04713249  0.95035732  0.14657345  1
+  Fe  Fe3  1  0.54696429  0.43597254  0.94940686  1
+  Ge  Ge4  1  0.04660755  0.93545389  0.35219115  1
+  B  B5  1  0.54128677  0.46814770  0.27398974  1
+  Fe  Fe6  1  0.04569060  0.93583971  0.94814694  1
+  Si  Si7  1  0.54555166  0.93048573  0.85135728  1
+  Fe  Fe8  1  0.04308993  0.42405537  0.48602071  1
+  Fe  Fe9  1  0.04001202  0.44097033  0.04479035  1
+  Fe  Fe10  1  0.54333764  0.42123285  0.39484602  1
+  Fe  Fe11  1  0.54692698  0.42889974  0.59286666  1
+  Fe  Fe12  1  0.04388166  0.92532670  0.58872360  1
+  Fe  Fe13  1  0.54808736  0.94386804  0.04689918  1
+  Fe  Fe14  1  0.03892718  0.45023230  0.24709642  1
+  Fe  Fe15  1  0.04448289  0.93409544  0.75548601  1
+  Ge  Ge16  1  0.55095422  0.92109370  0.49147165  1
+  P  P17  1  0.05177201  0.42859256  0.67436469  1
+  Fe  Fe18  1  0.54765320  0.43080023  0.75608706  1
+  Fe  Fe19  1  0.05002536  0.43463355  0.85527837  1

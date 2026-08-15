@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Fe3Ge
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.70147204
+_cell_length_b   8.16080856
+_cell_length_c   11.00966930
+_cell_angle_alpha   96.89048767
+_cell_angle_beta   90.71649933
+_cell_angle_gamma   92.14092255
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Fe3Ge
+_chemical_formula_sum   'Fe21 Ge7'
+_cell_volume   329.88824152
+_cell_formula_units_Z   7
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.26070619  0.51498657  0.64657152  1
+  Fe  Fe1  1  0.27288842  0.37008211  0.43373337  1
+  Ge  Ge2  1  0.76078904  0.29817638  0.57518363  1
+  Fe  Fe3  1  0.26691055  0.65627414  0.86405903  1
+  Fe  Fe4  1  0.76552188  0.01359846  0.64917773  1
+  Fe  Fe5  1  0.27310556  0.22526009  0.22278666  1
+  Fe  Fe6  1  0.76996511  0.16076058  0.36270234  1
+  Fe  Fe7  1  0.26991603  0.22840063  0.72086209  1
+  Fe  Fe8  1  0.76408982  0.58048111  0.50641227  1
+  Fe  Fe9  1  0.26834515  0.94094831  0.79083049  1
+  Fe  Fe10  1  0.77461821  0.86989743  0.93458652  1
+  Fe  Fe11  1  0.26841357  0.36794370  0.93517613  1
+  Fe  Fe12  1  0.26648948  0.65499699  0.36353958  1
+  Fe  Fe13  1  0.26309389  0.94075739  0.29356363  1
+  Ge  Ge14  1  0.76067257  0.86958659  0.43570119  1
+  Ge  Ge15  1  0.76311004  0.58731937  0.00547595  1
+  Ge  Ge16  1  0.76462823  0.44322777  0.29107755  1
+  Fe  Fe17  1  0.77010745  0.29871091  0.07539657  1
+  Fe  Fe18  1  0.76784772  0.44067252  0.79189372  1
+  Fe  Fe19  1  0.25760683  0.79877561  0.57882893  1
+  Ge  Ge20  1  0.76642144  0.73055518  0.72083998  1
+  Fe  Fe21  1  0.26681206  0.08770294  0.00756623  1
+  Fe  Fe22  1  0.26598263  0.79936850  0.07742906  1
+  Fe  Fe23  1  0.25793183  0.08338168  0.50282443  1
+  Fe  Fe24  1  0.26949960  0.51361448  0.14967705  1
+  Ge  Ge25  1  0.76848221  0.15742025  0.86456931  1
+  Fe  Fe26  1  0.77040511  0.72891366  0.22224873  1
+  Ge  Ge27  1  0.76357400  0.01484570  0.15024553  1

@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       PtCoFePt
+_chemical_formula_sum              "Pt2 Co1 Fe1"
+_cell_length_a       2.7021630205502887
+_cell_length_b       2.702835606081794
+_cell_length_c       7.480592250823975
+_cell_angle_alpha    89.98940205138369
+_cell_angle_beta     89.99020118315954
+_cell_angle_gamma    89.95755970837897
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Pt  Pt1       1.0  0.5817200541496277  0.1286727339029312  0.20528823137283322  1.0000
+  Co  Co1       1.0  0.08179805427789688  0.6286475658416748  0.4511390626430511  1.0000
+  Fe  Fe1       1.0  0.0814327597618103  0.628868818283081  0.9514769911766051  1.0000
+  Pt  Pt2       1.0  0.5816259980201721  0.1286323517560959  0.6974715590476989  1.0000

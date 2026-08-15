@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Fe5Si
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.68669224
+_cell_length_b   4.08733177
+_cell_length_c   5.12219667
+_cell_angle_alpha   113.00571442
+_cell_angle_beta   92.09786987
+_cell_angle_gamma   103.15618896
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Fe5Si
+_chemical_formula_sum   'Fe5 Si1'
+_cell_volume   68.49926672
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.18433589  0.60991961  0.74184930  1
+  Fe  Fe1  1  0.50533450  0.27132487  0.90520072  1
+  Fe  Fe2  1  0.53564805  0.30271626  0.42101350  1
+  Fe  Fe3  1  0.18647109  0.61307091  0.24129103  1
+  Fe  Fe4  1  0.82495677  0.92012775  0.05934197  1
+  Fe  Fe5  1  0.86071897  0.96000755  0.57565302  1

@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Fe2ZnFe
+_chemical_formula_sum              "Fe3 Zn1"
+_cell_length_a       4.100124055731987
+_cell_length_b       4.0996614722070355
+_cell_length_c       4.099417686462402
+_cell_angle_alpha    59.97052438411586
+_cell_angle_beta     59.99103721801359
+_cell_angle_gamma    59.97839380831931
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.15598122775554654  0.7474004030227661  0.27695497870445257  1.0000
+  Fe  Fe2       1.0  0.9057281017303467  0.4972231090068817  0.026810282841324806  1.0000
+  Zn  Zn1       1.0  0.6557156443595886  0.24735616147518158  0.7767229080200195  1.0000
+  Fe  Fe3       1.0  0.4057618379592896  0.9974368810653688  0.5267001390457153  1.0000

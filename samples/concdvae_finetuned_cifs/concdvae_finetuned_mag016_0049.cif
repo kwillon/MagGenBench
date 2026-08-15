@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Fe4Si
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.86459351
+_cell_length_b   5.40465879
+_cell_length_c   10.17842007
+_cell_angle_alpha   93.63392639
+_cell_angle_beta   89.05503845
+_cell_angle_gamma   88.77747345
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Fe4Si
+_chemical_formula_sum   'Fe16 Si4'
+_cell_volume   212.08504958
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.35304803  0.62117529  0.65645647  1
+  Fe  Fe1  1  0.34962276  0.51747459  0.25066245  1
+  Fe  Fe2  1  0.35017434  0.71855801  0.05284644  1
+  Si  Si3  1  0.34823382  0.01570058  0.25709206  1
+  Fe  Fe4  1  0.34719294  0.91130054  0.85222858  1
+  Fe  Fe5  1  0.85277557  0.15893225  0.84683645  1
+  Fe  Fe6  1  0.34522942  0.11781786  0.65079105  1
+  Fe  Fe7  1  0.84657937  0.26069757  0.24641250  1
+  Si  Si8  1  0.84973752  0.55726784  0.43975550  1
+  Fe  Fe9  1  0.85081893  0.85724360  0.64395291  1
+  Fe  Fe10  1  0.85437286  0.06238170  0.44687456  1
+  Fe  Fe11  1  0.84943628  0.36143863  0.64281213  1
+  Si  Si12  1  0.84587139  0.95737433  0.04722736  1
+  Fe  Fe13  1  0.85511214  0.66064203  0.84471726  1
+  Fe  Fe14  1  0.35409784  0.31329444  0.45297787  1
+  Fe  Fe15  1  0.84809631  0.46254900  0.05181328  1
+  Fe  Fe16  1  0.35243008  0.80779457  0.45602906  1
+  Fe  Fe17  1  0.34826258  0.21146543  0.05237390  1
+  Fe  Fe18  1  0.85112572  0.76959860  0.24696553  1
+  Fe  Fe19  1  0.34997413  0.41307235  0.85509419  1

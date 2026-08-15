@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Fe7Sc
+_chemical_formula_sum              "Fe7 Sc1"
+_cell_length_a       4.122108561387638
+_cell_length_b       4.122388745536203
+_cell_length_c       5.90237283706665
+_cell_angle_alpha    90.0246868100305
+_cell_angle_beta     90.01274080688816
+_cell_angle_gamma    89.95122129332948
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.6207461953163147  0.4126316606998444  0.5726137757301331  1.0000
+  Fe  Fe2       1.0  0.6205403804779053  0.9123044610023499  0.34011325240135193  1.0000
+  Fe  Fe3       1.0  0.12061201781034471  0.9126347303390503  0.5725868344306946  1.0000
+  Fe  Fe4       1.0  0.12064295262098312  0.9124603867530823  0.07254599034786224  1.0000
+  Fe  Fe5       1.0  0.6206381320953369  0.9124642014503479  0.8044253587722778  1.0000
+  Fe  Fe6       1.0  0.12076380848884583  0.4125630557537079  0.8048257231712341  1.0000
+  Fe  Fe7       1.0  0.1207381933927536  0.41240176558494573  0.3406316041946411  1.0000
+  Sc  Sc1       1.0  0.6206510066986084  0.4122611880302429  0.07246994227170944  1.0000

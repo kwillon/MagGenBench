@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Fe2Co2Fe2CoGe
+_chemical_formula_sum              "Fe4 Co3 Ge1"
+_cell_length_a       4.032776951171864
+_cell_length_b       4.0431763836928525
+_cell_length_c       5.720846176147461
+_cell_angle_alpha    89.98155416181656
+_cell_angle_beta     90.01389510843137
+_cell_angle_gamma    90.03971322550689
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.8102588653564453  0.2656172811985016  0.2397610992193222  1.0000
+  Fe  Fe2       1.0  0.3103119432926178  0.2658750116825104  0.9936761260032654  1.0000
+  Co  Co1       1.0  0.31034642457962036  0.7657413482666016  0.24009469151496887  1.0000
+  Co  Co2       1.0  0.810081422328949  0.26583412289619446  0.7478327751159668  1.0000
+  Fe  Fe3       1.0  0.3100881278514862  0.26564365625381464  0.49273741245269775  1.0000
+  Fe  Fe4       1.0  0.8101834058761597  0.7657332420349121  0.9937426447868347  1.0000
+  Co  Co3       1.0  0.3099850118160248  0.7658661007881165  0.747464120388031  1.0000
+  Ge  Ge1       1.0  0.8101015090942383  0.7656422257423401  0.49433255195617676  1.0000

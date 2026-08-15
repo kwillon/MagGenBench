@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       FeCoFe4CoFe
+_chemical_formula_sum              "Fe6 Co2"
+_cell_length_a       4.02403509424292
+_cell_length_b       4.026504469804712
+_cell_length_c       5.720584392547607
+_cell_angle_alpha    89.89235871223725
+_cell_angle_beta     89.89472197145173
+_cell_angle_gamma    89.93769068450493
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.2770915627479553  0.3550793528556824  0.21738934516906738  1.0000
+  Co  Co1       1.0  0.27710530161857605  0.8553920984268188  0.9708957076072693  1.0000
+  Fe  Fe2       1.0  0.27688783407211304  0.8553322553634644  0.471422404050827  1.0000
+  Fe  Fe3       1.0  0.7772927284240723  0.3548046946525574  0.9680917263031006  1.0000
+  Fe  Fe4       1.0  0.7772541642189026  0.85536789894104  0.21904990077018738  1.0000
+  Fe  Fe5       1.0  0.7776129245758057  0.8553313612937927  0.7204731702804565  1.0000
+  Co  Co2       1.0  0.27685773372650146  0.3552621304988861  0.718520998954773  1.0000
+  Fe  Fe6       1.0  0.7772504687309265  0.3553811311721802  0.4698992967605591  1.0000

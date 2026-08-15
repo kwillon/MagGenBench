@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Fe2PFe
+_chemical_formula_sum              "Fe3 P1"
+_cell_length_a       3.9374938471518424
+_cell_length_b       3.9370705273880273
+_cell_length_c       3.9373092651367188
+_cell_angle_alpha    60.05300442931113
+_cell_angle_beta     59.99377284625322
+_cell_angle_gamma    60.049617010855734
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.6665507555007935  0.5750640630722046  0.7344523668289186  1.0000
+  Fe  Fe2       1.0  0.4164864420890808  0.3251980245113373  0.4842120409011842  1.0000
+  P   P1        1.0  0.16634324193000793  0.07558000832796097  0.23450589179992679  1.0000
+  Fe  Fe3       1.0  0.9163815379142761  0.8255890011787413  0.9843583106994631  1.0000

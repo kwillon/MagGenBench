@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       CoTaFe4
+_chemical_formula_sum              "Co1 Ta1 Fe4"
+_cell_length_a       2.582215946764363
+_cell_length_b       4.0448577322090005
+_cell_length_c       7.140693664550781
+_cell_angle_alpha    90.1376581259888
+_cell_angle_beta     90.67548775347244
+_cell_angle_gamma    90.18701307602613
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.24500323832035065  0.8845374584197998  0.12136206775903703  1.0000
+  Ta  Ta1       1.0  0.6082229614257812  0.3840447664260865  0.9421258568763734  1.0000
+  Fe  Fe1       1.0  0.969478189945221  0.8847129940986633  0.7610222697257996  1.0000
+  Fe  Fe2       1.0  0.28064772486686707  0.3845479786396027  0.5988723039627075  1.0000
+  Fe  Fe3       1.0  0.6050658226013184  0.8844760656356812  0.4412380158901215  1.0000
+  Fe  Fe4       1.0  0.9302753806114197  0.3842269480228424  0.2854991555213928  1.0000

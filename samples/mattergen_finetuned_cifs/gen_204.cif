@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       TiFe3
+_chemical_formula_sum              "Ti1 Fe3"
+_cell_length_a       2.924423788940193
+_cell_length_b       2.925009051209846
+_cell_length_c       5.734694480895996
+_cell_angle_alpha    89.99064514566425
+_cell_angle_beta     89.98544737067068
+_cell_angle_gamma    89.96952619567207
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ti  Ti1       1.0  0.34707534313201904  0.21380557119846344  0.07011455297470093  1.0000
+  Fe  Fe1       1.0  0.847202718257904  0.7134109735488893  0.8097360730171204  1.0000
+  Fe  Fe2       1.0  0.8468612432479858  0.7136857509613036  0.33046984672546387  1.0000
+  Fe  Fe3       1.0  0.34705960750579834  0.21320194005966187  0.5699185729026794  1.0000

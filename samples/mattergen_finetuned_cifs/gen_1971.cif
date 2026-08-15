@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       PdBe2Rh
+_chemical_formula_sum              "Pd1 Be2 Rh1"
+_cell_length_a       2.833477278190746
+_cell_length_b       3.9559443490461783
+_cell_length_c       3.9553029537200928
+_cell_angle_alpha    89.97814589872723
+_cell_angle_beta     90.00672341075584
+_cell_angle_gamma    89.96277797382213
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Pd  Pd1       1.0  0.8295530080795288  0.0956522822380066  0.5676268935203552  1.0000
+  Be  Be1       1.0  0.32970455288887024  0.5968000888824463  0.5671149492263794  1.0000
+  Be  Be2       1.0  0.32968276739120483  0.09663451462984086  0.06651477515697479  1.0000
+  Rh  Rh1       1.0  0.8290674686431885  0.5958911776542664  0.06647816300392151  1.0000

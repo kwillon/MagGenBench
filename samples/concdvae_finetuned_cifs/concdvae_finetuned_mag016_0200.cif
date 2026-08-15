@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Fe6PtN2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.62557006
+_cell_length_b   4.89033699
+_cell_length_c   6.72966003
+_cell_angle_alpha   106.57317352
+_cell_angle_beta   91.58491516
+_cell_angle_gamma   99.67620850
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Fe6PtN2
+_chemical_formula_sum   'Fe6 Pt1 N2'
+_cell_volume   112.37320668
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  N  N0  1  0.66762877  0.54369307  0.42874363  1
+  Pt  Pt1  1  0.11538664  0.20462652  0.86052012  1
+  Fe  Fe2  1  0.50239098  0.80195248  0.68554258  1
+  Fe  Fe3  1  0.93258375  0.70159084  0.95985281  1
+  Fe  Fe4  1  0.99815261  0.91597652  0.40364695  1
+  Fe  Fe5  1  0.13385466  0.40231934  0.31970525  1
+  N  N6  1  0.42238164  0.66114551  0.93841296  1
+  Fe  Fe7  1  0.59175247  0.25762203  0.56936699  1
+  Fe  Fe8  1  0.54320031  0.05993305  0.13745557  1

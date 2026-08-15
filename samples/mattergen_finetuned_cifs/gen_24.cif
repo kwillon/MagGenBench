@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Fe7Ta
+_chemical_formula_sum              "Fe7 Ta1"
+_cell_length_a       4.082554888980954
+_cell_length_b       5.021520140428951
+_cell_length_c       5.024566650390625
+_cell_angle_alpha    108.66346687160637
+_cell_angle_beta     89.866759183787
+_cell_angle_gamma    89.91433826833934
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.13929779827594757  0.5081483721733093  0.022118102759122828  1.0000
+  Fe  Fe2       1.0  0.6399160027503967  0.757977306842804  0.2725890278816223  1.0000
+  Fe  Fe3       1.0  0.6395221948623657  0.25812438130378723  0.7724365592002869  1.0000
+  Fe  Fe4       1.0  0.1395784169435501  0.00880428683012724  0.5224806070327759  1.0000
+  Fe  Fe5       1.0  0.6396575570106506  0.7712500095367432  0.7860373854637145  1.0000
+  Fe  Fe6       1.0  0.13964882493019104  0.008264722302556038  0.022530201822519302  1.0000
+  Fe  Fe7       1.0  0.6396540999412537  0.24475035071372986  0.2593635320663452  1.0000
+  Ta  Ta1       1.0  0.13942350447177887  0.5084775686264038  0.5217353105545044  1.0000

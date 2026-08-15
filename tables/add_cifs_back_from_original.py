@@ -5,7 +5,7 @@ import shutil
 base = Path("/mnt/tank/scratch/kkapranova/MagGenBench/MagGenBench")
 
 downsampled_csv = base / "tables" / "mattergen_structures.downsampled.csv"
-restore_root = base / "samples" / "mattergen_cifs_2000"
+restore_root = base / "samples" / "mattergen_cifs"
 
 df = pd.read_csv(downsampled_csv, low_memory=False)
 restore_root.mkdir(parents=True, exist_ok=True)

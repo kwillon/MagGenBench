@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Fe3Re
+_chemical_formula_sum              "Fe3 Re1"
+_cell_length_a       2.936980579121539
+_cell_length_b       4.118042148274641
+_cell_length_c       4.116115570068359
+_cell_angle_alpha    89.9842247663001
+_cell_angle_beta     90.01443469572257
+_cell_angle_gamma    89.99556971190965
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.45928215980529785  0.2895860970020294  0.1836818158626556  1.0000
+  Fe  Fe2       1.0  0.9594139456748962  0.789279580116272  0.1835831254720688  1.0000
+  Fe  Fe3       1.0  0.9592819213867188  0.29025688767433167  0.6838133931159973  1.0000
+  Re  Re1       1.0  0.4592643082141876  0.7895138859748839  0.6838081479072571  1.0000

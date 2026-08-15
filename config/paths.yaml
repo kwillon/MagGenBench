@@ -10,7 +10,7 @@ registry:
 
 samples:
   dir: "samples"
-  mattergen: "samples/mattergen_cifs_2000"
+  mattergen: "samples/mattergen_cifs"
   crystalformer: "samples/crystalformer_cifs"
   crystalllm: "samples/crystalllm_cifs"
   concdvae: "samples/concdvae_cifs"

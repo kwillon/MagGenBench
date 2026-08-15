@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Co2FeSc
+_chemical_formula_sum              "Co2 Fe1 Sc1"
+_cell_length_a       3.0275102200869455
+_cell_length_b       3.029616118126416
+_cell_length_c       5.996632099151611
+_cell_angle_alpha    89.99881405159513
+_cell_angle_beta     89.95915797555384
+_cell_angle_gamma    89.97440295632936
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.03036430850625038  0.17733567953109744  0.5672416090965271  1.0000
+  Co  Co2       1.0  0.5300939679145813  0.6772645711898805  0.7838160991668701  1.0000
+  Fe  Fe1       1.0  0.5299937129020691  0.677274763584137  0.3608238697052002  1.0000
+  Sc  Sc1       1.0  0.029884757474064827  0.17700591683387756  0.064363494515419  1.0000

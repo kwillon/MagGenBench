@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Fe3V
+_chemical_formula_sum              "Fe3 V1"
+_cell_length_a       2.4872045172686623
+_cell_length_b       4.012788801920734
+_cell_length_c       4.745373725891113
+_cell_angle_alpha    90.0069283162515
+_cell_angle_beta     100.34790323129694
+_cell_angle_gamma    89.96099529740088
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.6035784482955933  0.5773634314537048  0.7603427767753601  1.0000
+  Fe  Fe2       1.0  0.3535698354244232  0.07766018062829971  0.007944185286760337  1.0000
+  Fe  Fe3       1.0  0.852379322052002  0.07788779586553574  0.512505829334259  1.0000
+  V   V1        1.0  0.10316621512174606  0.5778164863586426  0.2603451907634735  1.0000

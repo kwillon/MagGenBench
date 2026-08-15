@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Co2VCo
+_chemical_formula_sum              "Co3 V1"
+_cell_length_a       3.556638908469034
+_cell_length_b       3.5584268893201325
+_cell_length_c       3.5608837604522705
+_cell_angle_alpha    89.91840223417493
+_cell_angle_beta     89.95403533155516
+_cell_angle_gamma    89.96379567423524
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.807404100894928  0.07455562800168991  0.845144510269165  1.0000
+  Co  Co2       1.0  0.3064889907836914  0.07450061291456221  0.3452945649623871  1.0000
+  V   V1        1.0  0.30614373087882996  0.574896514415741  0.8452206254005432  1.0000
+  Co  Co3       1.0  0.8071947693824768  0.5747701525688171  0.3447454273700714  1.0000

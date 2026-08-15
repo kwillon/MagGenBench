@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_TaFe5N
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.78491545
+_cell_length_b   4.67376184
+_cell_length_c   7.97935534
+_cell_angle_alpha   90.05416107
+_cell_angle_beta   88.97397614
+_cell_angle_gamma   116.29470062
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TaFe5N
+_chemical_formula_sum   'Ta2 Fe10 N2'
+_cell_volume   159.95189534
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  1  0.02628157  0.91358554  0.48797259  1
+  N  N1  1  0.37095052  0.24292806  0.66589153  1
+  Fe  Fe2  1  0.36722511  0.58963525  0.54481989  1
+  N  N3  1  0.70473683  0.91253012  0.92002088  1
+  Fe  Fe4  1  0.71105945  0.25377488  0.54335302  1
+  Fe  Fe5  1  0.03173072  0.24084480  0.79472828  1
+  Fe  Fe6  1  0.72342694  0.58270556  0.78407502  1
+  Ta  Ta7  1  0.04783842  0.92361945  0.10170420  1
+  Fe  Fe8  1  0.70708269  0.26121196  0.04028805  1
+  Fe  Fe9  1  0.03744532  0.41721240  0.29156846  1
+  Fe  Fe10  1  0.36256272  0.90756768  0.79527420  1
+  Fe  Fe11  1  0.53811663  0.41762102  0.29153818  1
+  Fe  Fe12  1  0.36064118  0.57152367  0.03875589  1
+  Fe  Fe13  1  0.53612334  0.92045385  0.29319811  1

@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Fe2SbFe3
+_chemical_formula_sum              "Fe5 Sb1"
+_cell_length_a       3.090062669744785
+_cell_length_b       3.091838066401081
+_cell_length_c       8.358617782592773
+_cell_angle_alpha    90.0197349218657
+_cell_angle_beta     90.01045952424059
+_cell_angle_gamma    89.98465506806049
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Fe  Fe1       1.0  0.6250397562980652  0.15458303689956668  0.9977405071258545  1.0000
+  Fe  Fe2       1.0  0.12389037013053894  0.6546573042869569  0.5341191291809082  1.0000
+  Sb  Sb1       1.0  0.6245883703231812  0.1543231308460236  0.3397049009799957  1.0000
+  Fe  Fe3       1.0  0.6239573359489441  0.15441560745239258  0.6824535131454468  1.0000
+  Fe  Fe4       1.0  0.12488876283168793  0.6542038321495056  0.14631986618041992  1.0000
+  Fe  Fe5       1.0  0.1241791620850563  0.6543314456939697  0.8398298025131226  1.0000

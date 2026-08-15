@@ -1,0 +1,28 @@
+data_image0
+_chemical_formula_structural       Co2Si
+_chemical_formula_sum              "Co2 Si1"
+_cell_length_a       2.7235703478306834
+_cell_length_b       2.724934753532678
+_cell_length_c       4.803742408752441
+_cell_angle_alpha    106.47741054512444
+_cell_angle_beta     106.55238576980157
+_cell_angle_gamma    89.95569459461511
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.14140444993972778  0.8319145441055298  0.3480839729309082  1.0000
+  Co  Co2       1.0  0.4527391791343689  0.14309367537498474  0.9704070091247559  1.0000
+  Si  Si1       1.0  0.7971126437187195  0.48758828639984136  0.6593086123466492  1.0000

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Co4N
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.05628872
+_cell_length_b   4.98276711
+_cell_length_c   4.28244829
+_cell_angle_alpha   104.20333862
+_cell_angle_beta   89.08238220
+_cell_angle_gamma   99.03890228
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Co4N
+_chemical_formula_sum   'Co8 N2'
+_cell_volume   103.26765368
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.37771562  0.53317827  0.23891246  1
+  Co  Co1  1  0.09376995  0.36982998  0.69694847  1
+  Co  Co2  1  0.01129331  0.04900309  0.14489099  1
+  Co  Co3  1  0.73430061  0.91690004  0.59383303  1
+  Co  Co4  1  0.59489107  0.39235961  0.70114666  1
+  N  N5  1  0.91028523  0.68450844  0.79829460  1
+  N  N6  1  0.31639662  0.21861181  0.91940415  1
+  Co  Co7  1  0.87938255  0.52748394  0.22636902  1
+  Co  Co8  1  0.52494752  0.04527390  0.15359406  1
+  Co  Co9  1  0.23260184  0.89290583  0.59725696  1
