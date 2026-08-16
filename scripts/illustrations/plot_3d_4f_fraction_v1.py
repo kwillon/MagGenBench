@@ -1,54 +1,53 @@
 from __future__ import annotations
 
-from pathlib import Path
-
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parents[2]
-INPUT = ROOT / "runs" / "analysis_v1" / "unified_analysis_v1.csv"
-OUTDIR = ROOT / "figures" / "unified_analysis_v1"
-
-GROUPS = [
-    ("MatterGen baseline", "baseline_master", "MatterGen"),
-    ("MatterGen fine-tuned", "mattergen_finetuned", None),
-    ("Con-CDVAE baseline", "baseline_master", "Con-CDVAE"),
-    ("Con-CDVAE fine-tuned", "concdvae_finetuned", None),
-    ("CrystalFormer baseline", "baseline_master", "CrystalFormer"),
-    ("CrystaLLM baseline", "baseline_master", "CrystaLLM"),
-    ("Crys-JEPA Base", "crysjepa_base", None),
-    ("Crys-JEPA Refined", "crysjepa_refined", None),
-]
-
-def as_bool(series: pd.Series) -> pd.Series:
-    return series.astype(str).str.strip().str.lower().isin(["true", "1"])
+from mvpipeline.analysis.plotting import (
+    STANDARD_PLOT_GROUPS,
+    bool_series_values,
+    build_plot_groups,
+    repository_root_from_script,
+    save_figure,
+    unified_analysis_figure_dir,
+    unified_analysis_v1_path,
+    validate_unified_analysis_rows,
+)
 
 def main() -> None:
-    df = pd.read_csv(INPUT, low_memory=False)
-    if len(df) != 10684:
-        raise RuntimeError(f"Expected 10684 rows, got {len(df)}")
+    root = repository_root_from_script(__file__)
+    input_path = unified_analysis_v1_path(root)
+    output_dir = unified_analysis_figure_dir(root)
+
+    df = pd.read_csv(input_path, low_memory=False)
+    validate_unified_analysis_rows(
+        df,
+        required_columns=("contains_3d", "contains_4f"),
+    )
 
     rows = []
-    for label, cohort, family in GROUPS:
-        mask = df["analysis_cohort"].eq(cohort)
-        if family is not None:
-            mask &= df["analysis_family"].eq(family)
-        group = df.loc[mask]
-        if group.empty:
-            raise RuntimeError(f"Empty group: {label}")
+    for group, group_rows in build_plot_groups(df, groups=STANDARD_PLOT_GROUPS):
         rows.append({
-            "group": label,
-            "n": len(group),
-            "contains_3d_percent": 100.0 * as_bool(group["contains_3d"]).mean(),
-            "contains_4f_percent": 100.0 * as_bool(group["contains_4f"]).mean(),
+            "group": group.label,
+            "n": len(group_rows),
+            "contains_3d_percent": (
+                100.0 * np.mean(
+                    bool_series_values(row["contains_3d"] for row in group_rows)
+                )
+            ),
+            "contains_4f_percent": (
+                100.0 * np.mean(
+                    bool_series_values(row["contains_4f"] for row in group_rows)
+                )
+            ),
         })
 
     summary = pd.DataFrame(rows)
-    OUTDIR.mkdir(parents=True, exist_ok=True)
-    summary.to_csv(OUTDIR / "3d_4f_fraction_by_cohort.csv", index=False)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    summary.to_csv(output_dir / "3d_4f_fraction_by_cohort.csv", index=False)
 
     x = np.arange(len(summary))
     width = 0.36
@@ -72,11 +71,11 @@ def main() -> None:
     ax.spines["right"].set_visible(False)
     ax.legend(frameon=False)
     fig.tight_layout()
-    fig.savefig(OUTDIR / "08_3d_4f_fraction_by_cohort.png", dpi=300, bbox_inches="tight")
+    save_figure(fig, output_dir / "08_3d_4f_fraction_by_cohort.png")
     plt.close(fig)
 
     print(summary.round(2).to_string(index=False))
-    print("OUTPUT:", OUTDIR / "08_3d_4f_fraction_by_cohort.png")
+    print("OUTPUT:", output_dir / "08_3d_4f_fraction_by_cohort.png")
     print("PLOT_3D_4F_FRACTION: PASSED")
 
 if __name__ == "__main__":

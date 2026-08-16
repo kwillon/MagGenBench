@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from pathlib import Path
+
 import pandas as pd
 import pytest
 
@@ -10,9 +12,20 @@ from mvpipeline.analysis.cohorts import (
 )
 from mvpipeline.analysis.plotting import (
     STANDARD_PLOT_GROUPS,
+    bool_series_values,
     build_plot_groups,
+    numeric_values,
     plot_group_for_row,
     validate_unified_analysis_rows,
+)
+
+
+MIGRATED_PLOT_SCRIPTS = (
+    "plot_structural_distributions_v1.py",
+    "plot_compound_class_heatmap_v1.py",
+    "plot_3d_4f_fraction_v1.py",
+    "plot_magnetic_screening_fraction_v1.py",
+    "plot_dxmag_predicted_moment_v1.py",
 )
 
 
@@ -217,3 +230,27 @@ def test_group_construction_preserves_rows_and_sample_uids() -> None:
         "cj-b",
         "cj-r",
     ]
+
+
+def test_boolean_helper_matches_current_plotting_semantics() -> None:
+    assert bool_series_values(
+        ["true", "True", " TRUE ", "1", "false", "0", "", None]
+    ) == [True, True, True, True, False, False, False, False]
+
+
+def test_numeric_helper_preserves_negative_floating_point_values() -> None:
+    assert numeric_values(["-1.25", "0", "2.5"]) == [-1.25, 0.0, 2.5]
+
+
+def test_migrated_plot_scripts_use_canonical_grouping() -> None:
+    root = Path(__file__).resolve().parents[1]
+    scripts_dir = root / "scripts" / "illustrations"
+
+    for filename in MIGRATED_PLOT_SCRIPTS:
+        source = (scripts_dir / filename).read_text(encoding="utf-8")
+        assert "STANDARD_PLOT_GROUPS" in source
+        assert "build_plot_groups" in source
+        assert "\nGROUPS =" not in source
+        assert "\nGROUP_ORDER =" not in source
+        assert "Expected 10684" not in source
+        assert 'Path(__file__).resolve().parents[2]' not in source

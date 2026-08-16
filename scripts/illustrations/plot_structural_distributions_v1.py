@@ -1,28 +1,19 @@
 from __future__ import annotations
 
-import csv
-from pathlib import Path
-
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import pandas as pd
 
-
-ROOT = Path(__file__).resolve().parents[2]
-INPUT = ROOT / "runs" / "analysis_v1" / "unified_analysis_v1.csv"
-OUTDIR = ROOT / "figures" / "unified_analysis_v1"
-
-GROUPS = [
-    ("MatterGen\nbaseline", "baseline_master", "MatterGen"),
-    ("MatterGen\nfine-tuned", "mattergen_finetuned", None),
-    ("Con-CDVAE\nbaseline", "baseline_master", "Con-CDVAE"),
-    ("Con-CDVAE\nfine-tuned", "concdvae_finetuned", None),
-    ("CrystalFormer\nbaseline", "baseline_master", "CrystalFormer"),
-    ("CrystaLLM\nbaseline", "baseline_master", "CrystaLLM"),
-    ("Crys-JEPA\nBase", "crysjepa_base", None),
-    ("Crys-JEPA\nRefined", "crysjepa_refined", None),
-]
+from mvpipeline.analysis.plotting import (
+    STANDARD_PLOT_GROUPS,
+    build_plot_groups,
+    repository_root_from_script,
+    save_figure,
+    unified_analysis_figure_dir,
+    unified_analysis_v1_path,
+    validate_unified_analysis_rows,
+)
 
 METRICS = [
     (
@@ -49,34 +40,11 @@ METRICS = [
 ]
 
 
-def subset(
-    df: pd.DataFrame,
-    cohort: str,
-    family: str | None,
-) -> pd.DataFrame:
-    mask = df["analysis_cohort"].eq(cohort)
-    if family is not None:
-        mask &= df["analysis_family"].eq(family)
-
-    out = df.loc[mask].copy()
-    if out.empty:
-        raise RuntimeError(
-            f"Empty group: cohort={cohort!r}, family={family!r}"
-        )
-    return out
+def structural_label(label: str) -> str:
+    return label.replace(" ", "\n", 1)
 
 
-def prepare_groups(df: pd.DataFrame):
-    prepared = []
-
-    for label, cohort, family in GROUPS:
-        group = subset(df, cohort, family)
-        prepared.append((label, group))
-
-    return prepared
-
-
-def write_summary(groups) -> None:
+def write_summary(groups, output_dir) -> None:
     rows = []
 
     for label, group in groups:
@@ -108,7 +76,7 @@ def write_summary(groups) -> None:
             )
 
     pd.DataFrame(rows).to_csv(
-        OUTDIR / "structural_distribution_summary.csv",
+        output_dir / "structural_distribution_summary.csv",
         index=False,
     )
 
@@ -121,6 +89,7 @@ def plot_metric(
     ylabel: str,
     log_y: bool,
     filename: str,
+    output_dir,
 ) -> None:
     labels = []
     values = []
@@ -174,42 +143,30 @@ def plot_metric(
     ax.tick_params(axis="x", labelsize=9)
 
     fig.tight_layout()
-    fig.savefig(
-        OUTDIR / filename,
-        dpi=300,
-        bbox_inches="tight",
-    )
+    save_figure(fig, output_dir / filename)
     plt.close(fig)
 
 
 def main() -> None:
-    if not INPUT.is_file():
-        raise FileNotFoundError(INPUT)
+    root = repository_root_from_script(__file__)
+    input_path = unified_analysis_v1_path(root)
+    output_dir = unified_analysis_figure_dir(root)
 
-    OUTDIR.mkdir(parents=True, exist_ok=True)
+    if not input_path.is_file():
+        raise FileNotFoundError(input_path)
 
-    df = pd.read_csv(INPUT, low_memory=False)
+    output_dir.mkdir(parents=True, exist_ok=True)
 
-    required = {
-        "analysis_cohort",
-        "analysis_family",
-        "density",
-        "volume_per_atom",
-        "n_atoms",
-    }
-    missing = sorted(required - set(df.columns))
-    if missing:
-        raise RuntimeError(
-            f"Missing required columns: {missing}"
-        )
-
-    if len(df) != 10684:
-        raise RuntimeError(
-            f"Expected 10684 unified rows, got {len(df)}"
-        )
-
-    groups = prepare_groups(df)
-    write_summary(groups)
+    df = pd.read_csv(input_path, low_memory=False)
+    validate_unified_analysis_rows(
+        df,
+        required_columns=("density", "volume_per_atom", "n_atoms"),
+    )
+    groups = [
+        (structural_label(group.label), pd.DataFrame(group_rows))
+        for group, group_rows in build_plot_groups(df, groups=STANDARD_PLOT_GROUPS)
+    ]
+    write_summary(groups, output_dir)
 
     for metric, title, ylabel, log_y, filename in METRICS:
         plot_metric(
@@ -219,18 +176,19 @@ def main() -> None:
             ylabel=ylabel,
             log_y=log_y,
             filename=filename,
+            output_dir=output_dir,
         )
 
-    print("INPUT:", INPUT)
+    print("INPUT:", input_path)
     print("ROWS:", len(df))
-    print("OUTPUT_DIR:", OUTDIR)
+    print("OUTPUT_DIR:", output_dir)
     print(
         "OUTPUT:",
-        OUTDIR / "structural_distribution_summary.csv",
+        output_dir / "structural_distribution_summary.csv",
     )
 
     for _, _, _, _, filename in METRICS:
-        print("OUTPUT:", OUTDIR / filename)
+        print("OUTPUT:", output_dir / filename)
 
     print("PLOT_STRUCTURAL_DISTRIBUTIONS_V1: PASSED")
 

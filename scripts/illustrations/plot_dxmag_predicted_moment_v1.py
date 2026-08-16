@@ -1,48 +1,35 @@
 from __future__ import annotations
 
-from pathlib import Path
-
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import pandas as pd
 
-
-ROOT = Path(__file__).resolve().parents[2]
-INPUT = ROOT / "runs" / "analysis_v1" / "unified_analysis_v1.csv"
-OUTDIR = ROOT / "figures" / "unified_analysis_v1"
-
-GROUPS = [
-    ("MatterGen baseline", "baseline_master", "MatterGen"),
-    ("MatterGen fine-tuned", "mattergen_finetuned", None),
-    ("Con-CDVAE baseline", "baseline_master", "Con-CDVAE"),
-    ("Con-CDVAE fine-tuned", "concdvae_finetuned", None),
-    ("CrystalFormer baseline", "baseline_master", "CrystalFormer"),
-    ("CrystaLLM baseline", "baseline_master", "CrystaLLM"),
-    ("Crys-JEPA Base", "crysjepa_base", None),
-    ("Crys-JEPA Refined", "crysjepa_refined", None),
-]
-
-PNG_OUT = OUTDIR / "10_dxmag_predicted_moment_distribution.png"
-CSV_OUT = OUTDIR / "dxmag_predicted_moment_summary.csv"
-
-
-def select_group(
-    df: pd.DataFrame,
-    *,
-    cohort: str,
-    family: str | None,
-) -> pd.DataFrame:
-    x = df[df["analysis_cohort"] == cohort].copy()
-    if family is not None:
-        x = x[x["analysis_family"] == family].copy()
-    return x
+from mvpipeline.analysis.plotting import (
+    STANDARD_PLOT_GROUPS,
+    build_plot_groups,
+    repository_root_from_script,
+    save_figure,
+    unified_analysis_figure_dir,
+    unified_analysis_v1_path,
+    validate_unified_analysis_rows,
+)
 
 
 def main() -> None:
-    OUTDIR.mkdir(parents=True, exist_ok=True)
+    root = repository_root_from_script(__file__)
+    input_path = unified_analysis_v1_path(root)
+    output_dir = unified_analysis_figure_dir(root)
+    png_out = output_dir / "10_dxmag_predicted_moment_distribution.png"
+    csv_out = output_dir / "dxmag_predicted_moment_summary.csv"
 
-    df = pd.read_csv(INPUT, low_memory=False)
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    df = pd.read_csv(input_path, low_memory=False)
+    validate_unified_analysis_rows(
+        df,
+        required_columns=("magnetism_predicted_moment_value",),
+    )
     df["moment"] = pd.to_numeric(
         df["magnetism_predicted_moment_value"],
         errors="coerce",
@@ -54,11 +41,11 @@ def main() -> None:
     plot_data = []
     summary_rows = []
 
-    for label, cohort, family in GROUPS:
-        x = select_group(df, cohort=cohort, family=family)
+    for group, group_rows in build_plot_groups(df, groups=STANDARD_PLOT_GROUPS):
+        x = pd.DataFrame(group_rows)
 
         if x.empty:
-            raise RuntimeError(f"Empty group: {label}")
+            raise RuntimeError(f"Empty group: {group.label}")
 
         values = x["moment"].astype(float)
 
@@ -66,7 +53,7 @@ def main() -> None:
 
         summary_rows.append(
             {
-                "group": label,
+                "group": group.label,
                 "n": int(values.count()),
                 "mean": float(values.mean()),
                 "median": float(values.median()),
@@ -84,13 +71,13 @@ def main() -> None:
         )
 
     summary = pd.DataFrame(summary_rows)
-    summary.to_csv(CSV_OUT, index=False)
+    summary.to_csv(csv_out, index=False)
 
     fig, ax = plt.subplots(figsize=(14, 7.5))
 
     ax.boxplot(
         plot_data,
-        labels=[g[0] for g in GROUPS],
+        tick_labels=[group.label for group in STANDARD_PLOT_GROUPS],
         showfliers=False,
         widths=0.6,
         patch_artist=False,
@@ -102,12 +89,12 @@ def main() -> None:
     ax.tick_params(axis="x", rotation=35)
 
     fig.tight_layout()
-    fig.savefig(PNG_OUT, dpi=300, bbox_inches="tight")
+    save_figure(fig, png_out)
     plt.close(fig)
 
     print(summary.round(3).to_string(index=False))
-    print("OUTPUT:", PNG_OUT)
-    print("OUTPUT:", CSV_OUT)
+    print("OUTPUT:", png_out)
+    print("OUTPUT:", csv_out)
     print("PLOT_DXMAG_PREDICTED_MOMENT_V1: PASSED")
 
 
