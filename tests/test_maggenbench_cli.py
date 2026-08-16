@@ -73,7 +73,9 @@ def test_figures_cli_reports_missing_input_csv(tmp_path) -> None:
     )
 
     assert result.exit_code != 0
+    assert "Input CSV does not exist:" in result.output
     assert "missing.csv" in result.output
+    assert not (tmp_path / "figures").exists()
 
 
 def test_figures_cli_accepts_explicit_input_and_output_dir(
