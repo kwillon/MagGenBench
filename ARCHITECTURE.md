@@ -1,303 +1,160 @@
-## Архитектура и структура кода
+# MagGenBench Architecture
 
-Код разбит на модули так, чтобы пайплайн был:
+MagGenBench is organized as a reproducible scientific repository with a small public command surface, reusable package code under `src/mvpipeline`, and explicit separation between current code, generated artifacts, run recipes, and archived provenance.
 
-* модульным (каждая проверка — отдельный компонент),
-* тестируемым (можно тестировать чтение, валидации, дедуп, novelty отдельно),
-* расширяемым (новые проверки и метрики добавляются без переписывания всего пайплайна).
+## Design Goals
 
-### Общая идея
+- A new contributor should understand the repository structure from `README.md`.
+- Current reusable code lives under `src/mvpipeline`.
+- Scripts and run recipes are thin orchestration layers.
+- Generated tables, figures, run artifacts, scientific data, provenance, current scripts, and legacy scripts have separate roles.
+- Current-code areas should not contain unexplained backup, copy, temporary, obsolete, or zero-purpose files.
+- Machine-specific absolute paths should not exist in reusable package code.
+- The public execution surface should remain small and consistent.
 
-* `cli/` — только консольный интерфейс, без логики валидаций.
+## Data Flow
 
-* `pipeline/runner.py` — главный оркестратор, который вызывает модули в правильном порядке.
+The current frozen Analysis v1 flow is:
 
-* `io/`, `validation/`, `analysis/`, `dedup/`, `novelty/`, `report/` — изолированные блоки логики.
+```text
+model CIF outputs
+  -> validation and annotation manifests
+  -> Descriptor v1 results
+  -> CHGNet energy enrichment
+  -> DXMag magnetism enrichment
+  -> unified_analysis_v1.csv
+  -> Analysis v1 tables and figures
+```
 
-* `ui/` — веб-интерфейс, который использует тот же `run_validation(...)`, что и CLI.
+Expensive model generation, descriptor extraction, CHGNet execution, and DXMag execution are not rerun by the Analysis v1 reproducer. The reproducer consumes frozen required inputs, rebuilds the unified analysis table, verifies its checksum, and then regenerates figures/statistics.
 
----
+## Package Responsibilities
 
-## `scripts/` — вспомогательные скрипты запуска
+`src/mvpipeline` is the current reusable package root.
 
-### `scripts/run_validation.sh`
+| Package | Responsibility |
+| --- | --- |
+| `analysis` | Canonical production cohort registry, unified-analysis helpers, plotting group definitions, shared figure conventions, and Analysis v1 figure generation. |
+| `annotations` | Annotation preparation and production-manifest helpers for active workflows. |
+| `descriptors` | Descriptor v1 implementation and descriptor table handling. |
+| `energy` | CHGNet backend adapters and energy-stage result handling. |
+| `magnetism` | DXMag backend adapters and magnetism-stage result handling. |
+| `io` | Lightweight manifest, CIF, CSV, and table IO helpers. |
+| `pipeline` | Shared orchestration primitives for checkpointed batch stages and enrichment run checks. |
+| `reproduction` | One-command Analysis v1 reproduction from frozen inputs. |
+| `validation` | CIF validation and validation report logic. |
+| `dedup`, `novelty`, `report`, `utils` | Supporting duplicate detection, novelty checks, report generation, and shared utilities. |
 
-Запускает валидацию для набора моделей (MatterGen / Con-CDVAE / CrystalFormer и т.д.).
+Generic machinery and production registry data are separated. For example, reusable unified-analysis execution remains distinct from the canonical production cohort registry, and plotting code consumes canonical cohort/group metadata rather than defining scientific cohort identities independently.
 
-### `scripts/run_docker.sh`
+## Orchestration Layers
 
-Запускает тот же `scripts/run_validation.sh`, но внутри Docker.
+MagGenBench has four orchestration layers:
 
-## `cli/` - CLI интерфейс
+| Layer | Role |
+| --- | --- |
+| `maggenbench` | Current reproducibility CLI for Analysis v1 reproduction and figure generation. |
+| `mvp` | Existing validation CLI retained for compatibility. |
+| `scripts/` | Thin semantic wrappers around reusable package code. |
+| `runs/` | Documented active run recipes and provenance for production workflows. |
 
-## `cli/app.py`
+The supported public commands are:
 
-CLI-обёртка над пайплайном:
+```bash
+maggenbench reproduce analysis-v1
+maggenbench figures analysis-v1
+mvp
+```
 
-- принимает аргументы (`--input-dir`, `--out-dir`, `--thresholds`, `--train-reference`, `--model-name`)
+Legacy phase names and archived scripts are not part of the public execution surface.
 
-- загружает конфиг из YAML (или берёт дефолты)
+## Analysis V1 Reproduction
 
-- вызывает `run_validation(...)`
+`maggenbench reproduce analysis-v1` is the documented one-command paper-reproduction target for Analysis v1. It regenerates analysis tables/statistics/figures from frozen required inputs without rerunning expensive model generation or enrichment.
 
-- печатает итоговый отчёт (`validation_report.json`) в консоль
+The reproducer:
 
-## `ui/` — Streamlit интерфейс
+1. Resolves required inputs from the repository or an artifact root.
+2. Accepts the historical baseline joined table through `--baseline-joined`.
+3. Builds `unified_analysis_v1.csv`.
+4. Verifies the frozen SHA-256.
+5. Generates the 15 Analysis v1 figure/statistics outputs.
 
-UI — это отдельный слой, который не дублирует логику пайплайна. Он:
+Frozen invariants:
 
-- запускает `run_validation(...)`
+- `10684` production rows.
+- `124` columns.
+- Unique `sample_uid`.
+- `sample_uid == structure_id`.
+- Canonical cohort identities, order, and counts: `baseline_master = 4702`, `mattergen_finetuned = 1376`, `concdvae_finetuned = 1299`, `crysjepa_base = 1764`, `crysjepa_refined = 1543`.
+- Descriptor v1 status counts: `ok = 10681`, `partial = 3`.
+- Energy status counts: `ok = 10680`, `error = 4`.
+- Magnetism status counts: `ok = 10684`.
+- Descriptor v1 schema and semantics.
+- CHGNet and DXMag semantics.
+- SHA-256: `a559a092755a91ea2c9035a08a61a41b8279a81b8dbe2ba52cb888cb17b4cb6c`.
 
-- читает `outputs/*/validation_report.json` и `all_structures.csv`
+## Figure Generation
 
-- даёт фильтры и просмотр структуры (включая 3D)
+`maggenbench figures analysis-v1` regenerates the current Analysis v1 visual/statistical outputs from an existing unified CSV. Figure behavior is centralized in `mvpipeline.analysis.figures_v1`; cohort grouping and validation are shared with the canonical analysis metadata.
 
-** `ui/app.py`
+The figure output contract is the 15-file set documented in `README.md`. Existing visual choices, filenames, cohort order, labels, and calculations are treated as regression-sensitive for Analysis v1.
 
-Точка входа Streamlit-приложения:
+## Artifact And Provenance Boundaries
 
-- настраивает страницу
+Current-code areas:
 
-- рисует базовую “главную” страницу
+- `src/mvpipeline`
+- active semantic wrappers under `scripts/`
+- active run recipes under `runs/`
+- tests under `tests/`
 
-- подключает экраны из `ui/views/`
+Generated or externally supplied areas:
 
-## `ui/views/`
+- `figures/`
+- `tables/`
+- `reports/`
+- `outputs/`
+- `reproduced/`
+- full production CIF collections
+- large model/checkpoint artifacts
+- local logs and caches
 
-Экраны интерфейса. Обычно:
+Provenance-only areas:
 
-- `run_view.py` — форма запуска пайплайна
+- `archive/`
+- run-specific manifests, checksums, and README files
 
-- `explore_view.py` — просмотр `all_structures.csv`, фильтры, карточка структуры, 3D viewer
+Current code should not import from `archive/` or `scripts/legacy`. Historical files remain only to explain how earlier artifacts were produced.
 
-- `compare_view.py` — сравнение моделей по `validation_report.json`
+## Environment Boundaries
 
-Каждый view — это “render-функция”, которая строит UI, но не реализует бизнес-логику валидации.
+The lightweight analysis and documentation environment should be able to install the package, run unit tests, rebuild Analysis v1 from frozen inputs, and regenerate figures.
 
-## `ui/lib/`
+Heavy model environments should remain separate when dependencies conflict:
 
-Общие утилиты для UI, чтобы не размазывать код по views:
+- CHGNet energy enrichment can use a backend-specific environment.
+- DXMag magnetism enrichment can use a backend-specific environment and externally supplied model artifact.
+- MatterGen, Con-CDVAE, CrystalFormer, CrystaLLM, and Crys-JEPA generation or refinement workflows can use their own environments today and future containers where appropriate.
 
-- `fs.py` — поиск запусков в `outputs/`, чтение `report.json`, сбор индекса запусков
+Docker/Compose reproducibility for Analysis v1 is planned, not currently accepted as the verified workflow. Current verified Analysis v1 acceptance used the checkout/PYTHONPATH environment. The future Docker or Docker Compose layer should follow the same boundary:
 
-- `data.py` — загрузка и нормализация `all_structures.csv` (типы, булевые, числовые), фильтрация
+- one lightweight analysis/figure environment;
+- optional backend-specific environments;
+- mounted external artifact roots for large inputs, model binaries, and generated outputs.
 
-- `viz.py` — визуализация структуры
+## Backward Compatibility
 
-## Корень пакета `mvpipeline/`
+The repository still retains compatibility entry points and historical references where they are useful for provenance. Compatibility code should stay thin and should call reusable package modules. New scientific behavior should not be implemented in legacy scripts.
 
-### `__init__.py`
+## Extension Guidance
 
-Служебный файл пакета (версия, экспорт публичных API, при необходимости).
+When adding a model, descriptor, or analysis stage:
 
-### `config.py`
-
-Единое место для параметров пайплайна (порогов и переключателей).
-
-Примеры того, что хранится в конфиге:
-
-* `min_distance`, `max_distance`
-* `min_density`, `max_density`
-* `min_volume_per_atom`, `max_volume_per_atom`
-* `max_atoms`
-* список магнитных элементов
-* параметры `StructureMatcher` (tolerances)
-* режимы строгости (например, что делать при невозможности определить заряд)
-
-***Данные берутся с thresholds.yaml***
-
-Цель: чтобы настройки менялись централизованно, без поиска констант по коду.
-
-### `constants.py`
-
-Константы проекта, которые должны быть стабильными:
-
-* коды причин отклонения (строки, которые попадут в `rejection_reasons` и reason.json)
-* дефолтный список магнитных элементов
-* дефолтные значения порогов (если не задаются в конфиге)
-
-Важно: коды причин отклонения — часть “публичного интерфейса” отчёта, их нельзя менять произвольно.
-
-### `types.py`
-
-Общие типы данных (dataclasses / TypedDict), которые используются между модулями.
-
-Например:
-
-* описание входного файла (`structure_id`, `path`)
-* результат проверки (`status`, `reason`, `details`)
-* вычисленные дескрипторы (`density`, `volume_per_atom`, `n_atoms`, …)
-
-Цель: чтобы модули не обменивались “сырыми dict” и была единая структура данных.
-
-### `logging.py`
-
-Настройка логов (обычно через `rich`):
-
-* формат сообщений,
-* уровень логирования (verbose/non-verbose),
-* единый logger для всех модулей.
-
----
-
-## `io/` — работа с файловой системой (ввод/вывод)
-
-### `io/discover.py`
-
-Отвечает за поиск CIF-файлов.
-
-* рекурсивно находит `*.cif` в `input_dir`
-* формирует `structure_id`
-
-### `io/cif_reader.py`
-
-Отвечает за безопасное чтение CIF.
-
-* читает файл и возвращает объект структуры (например, `pymatgen.Structure`)
-* ловит ошибки и возвращает “понятную” причину (`cif_parse_error`)
-
-### `io/writers.py`
-
-Отвечает за сохранение результатов.
-
-* копирует валидные CIF в `validated_structures/`
-* копирует отклонённые CIF в `rejected_structures/`
-* создаёт `*.reason.json` рядом с отклонёнными
-
-Цель: все операции записи на диск находятся в одном месте.
-
----
-
-## `validation/` — правила, которые могут отклонить структуру
-
-Это набор проверок, каждая в своём модуле. Каждая проверка возвращает либо “ok”, либо причину отклонения + детали.
-
-### `validation/cif_sanity.py`
-
-Быстрые sanity-checks структуры после парсинга:
-
-* структура не пустая
-* корректная решётка
-* координаты атомов корректны
-
-### `validation/geometry.py`
-
-Геометрические ограничения:
-
-* min/max расстояния между атомами
-* min/max объём на атом
-
-Главная цель — отсеять физически невозможные структуры.
-
-### `validation/chemistry.py`
-
-Химическая проверка:
-
-* charge neutrality (в best-effort режиме или строгом — зависит от конфигурации)
-
-Если удаётся определить заряд и он не ноль → отклоняем.
-
-### `validation/magnetism.py`
-
-Проверка “магнитности по составу”:
-
-* определяет, есть ли в структуре магнитные элементы (Fe/Co/Ni/Mn/Cr/V…)
-* **не отклоняет**, используется только для метрики `magnetic_ratio`.
-
----
-
-## `analysis/` — вычисление свойств и “фичей” структуры
-
-### `analysis/descriptors.py`
-
-Считает базовые дескрипторы для отчёта:
-
-* `density`
-* `volume_per_atom`
-* `n_atoms`
-* `reduced_formula` (если используется)
-
-### `analysis/spacegroup.py`
-
-Модуль для определения пространственной группы (space group) структуры.
-
----
-
-## `dedup/` — удаление дубликатов
-
-### `dedup/matcher.py`
-
-Определяет, является ли структура дубликатом уже принятой.
-
-* использует `pymatgen.analysis.structure_matcher.StructureMatcher`
-* хранит набор уже валидированных структур (или индекс по “бакетам”)
-* на вход получает структуру и возвращает:
-
-  * duplicate / not duplicate
-  * (опционально) с чем совпало
-
-Если duplicate → структура отклоняется с причиной `duplicate`.
-
----
-
-## `novelty/` — проверка новизны относительно train dataset
-
-### `novelty/train_reference.py`
-
-Загрузка и индексирование `train_reference.csv`:
-
-* читает CSV
-* строит быстрый lookup (например, set ключей)
-* даёт функцию проверки новизны
-
-Novelty считается по `reduced_formula` (или по формуле, если spacegroup отсутствует в train).
-
-Важно: novelty — **метрика**, а не причина отклонения (по умолчанию).
-
----
-
-## `report/` — отчёты и артефакты анализа
-
-### `report/records.py`
-
-Формирует и записывает общий CSV со всеми структурами: `all_structures.csv`.
-
-Зачем он нужен:
-* чтобы после одного запуска получить единый датасет для анализа
-* строить графики распределений (density/vpa/min_distance)
-* сравнивать генераторы (MatterGen vs Con-CDVAE и т.д.)
-
-Что содержит CSV (ключевые поля):
-
-* `structure_id`, `input_path`
-* `status` (validated/rejected)
-* `rejection_reason` (если rejected)
-* флаги качества/метрик: `is_suspicious`, `is_duplicate`, `is_novel`, `is_magnetic`
-* дескрипторы: `n_atoms`, `density`, `volume_per_atom`, `reduced_formula`, `spacegroup`, `min_distance`
-* `charge_solution_json` — найденные степени окисления (если удалось подобрать)
-* `details_json` — полный JSON с деталями проверок (чтобы ничего не потерять)
-
----
-
-## `pipeline/` — сборка всего в единый конвейер
-
-### `pipeline/runner.py`
-
-Главный оркестратор, который выполняет pipeline по шагам:
-
-1. найти все CIF (`io.discover`)
-2. загрузить train_reference (`novelty.train_reference`)
-3. для каждого CIF:
-
-   * прочитать CIF (`io.cif_reader`)
-   * sanity-check (`validation.cif_sanity`)
-   * геометрия (`validation.geometry`)
-   * плотность/ограничения (там же или в geometry/analysis, зависит от реализации)
-   * дескрипторы (`analysis.descriptors`)
-   * magnetic flag (`validation.magnetism`)
-   * дедуп (`dedup.matcher`)
-   * novelty (`novelty.train_reference`)
-   * сохранить в validated/rejected (`io.writers`)
-   * обновить агрегатор отчёта (`report.aggregator`)
-4. записать `validation_report.json` (`report.schema` + writers)
-
+1. Decide whether it is part of the current public surface, an active run recipe, or archived provenance.
+2. Put reusable logic under `src/mvpipeline`.
+3. Keep wrapper scripts thin.
+4. Use canonical registries for cohort and plotting metadata.
+5. Document required external artifacts and environment constraints.
+6. Add dependency-light tests with fixtures or fake backends.
+7. Preserve Analysis v1 invariants unless introducing a new explicitly versioned analysis.
