@@ -205,7 +205,7 @@ def test_finetuned_preparation_enforces_expected_total(tmp_path):
 def test_phase5b_wrapper_uses_semantic_scripts_and_preserves_stage_order():
     repo_root = Path(__file__).resolve().parents[1]
     wrapper = (
-        repo_root / "runs" / "phase5b_finetuned_annotations" / "run.sh"
+        repo_root / "runs" / "annotations" / "finetuned" / "run.sh"
     ).read_text(encoding="utf-8")
 
     assert 'PYTHONPATH="$ROOT/src"' in wrapper
@@ -225,3 +225,10 @@ def test_phase5b_wrapper_uses_semantic_scripts_and_preserves_stage_order():
     ]
     positions = [wrapper.index(needle) for needle in stage_needles]
     assert positions == sorted(positions)
+
+
+def test_semantic_annotation_run_path_replaces_old_active_path():
+    repo_root = Path(__file__).resolve().parents[1]
+
+    assert (repo_root / "runs" / "annotations" / "finetuned" / "run.sh").is_file()
+    assert not (repo_root / "runs" / "phase5b_finetuned_annotations").exists()

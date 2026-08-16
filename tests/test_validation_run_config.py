@@ -186,19 +186,19 @@ def test_crysjepa_existing_output_guard_is_preserved(tmp_path):
 def test_wrapper_defaults_and_delegation_are_exact():
     wrappers = {
         "mattergen-finetuned": (
-            "runs/phase5b_mattergen_finetuned_validation/run_validation.sh",
+            "runs/validation/mattergen_finetuned/run_validation.sh",
             MAIN_ROOT,
         ),
         "concdvae-finetuned": (
-            "runs/phase5b_concdvae_finetuned_validation/run_validation.sh",
+            "runs/validation/concdvae_finetuned/run_validation.sh",
             MAIN_ROOT,
         ),
         "crysjepa-base": (
-            "runs/crysjepa_base_validation/run_validation.sh",
+            "runs/validation/crysjepa_base/run_validation.sh",
             CRYSJEPA_ROOT,
         ),
         "crysjepa-refined": (
-            "runs/crysjepa_refined_validation/run_validation.sh",
+            "runs/validation/crysjepa_refined/run_validation.sh",
             CRYSJEPA_ROOT,
         ),
     }
@@ -223,3 +223,21 @@ def test_wrapper_defaults_and_delegation_are_exact():
         assert "--thresholds" not in text
         assert "--model-name" not in text
 
+
+def test_semantic_validation_run_paths_replace_old_active_paths():
+    repo_root = Path(__file__).resolve().parents[1]
+    new_paths = [
+        repo_root / "runs" / "validation" / "mattergen_finetuned" / "run_validation.sh",
+        repo_root / "runs" / "validation" / "concdvae_finetuned" / "run_validation.sh",
+        repo_root / "runs" / "validation" / "crysjepa_base" / "run_validation.sh",
+        repo_root / "runs" / "validation" / "crysjepa_refined" / "run_validation.sh",
+    ]
+    old_paths = [
+        repo_root / "runs" / "phase5b_mattergen_finetuned_validation",
+        repo_root / "runs" / "phase5b_concdvae_finetuned_validation",
+        repo_root / "runs" / "crysjepa_base_validation",
+        repo_root / "runs" / "crysjepa_refined_validation",
+    ]
+
+    assert all(path.is_file() for path in new_paths)
+    assert not any(path.exists() for path in old_paths)

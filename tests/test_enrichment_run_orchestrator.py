@@ -236,10 +236,10 @@ def test_module_import_is_dependency_light():
 def test_shell_wrappers_invoke_orchestrator_and_keep_defaults():
     repo_root = Path(__file__).resolve().parents[1]
     fine_tuned = (
-        repo_root / "runs" / "phase5b_finetuned_enrichment" / "run.sh"
+        repo_root / "runs" / "enrichment" / "finetuned" / "run.sh"
     ).read_text(encoding="utf-8")
     crysjepa = (
-        repo_root / "runs" / "crysjepa_enrichment" / "run.sh"
+        repo_root / "runs" / "enrichment" / "crysjepa" / "run.sh"
     ).read_text(encoding="utf-8")
 
     for text in (fine_tuned, crysjepa):
@@ -282,6 +282,21 @@ def test_shell_wrappers_invoke_orchestrator_and_keep_defaults():
     assert '--cohort "Crys-JEPA-Refined" 1543' in crysjepa
     assert "--require-energy-ok" in crysjepa
     assert "--require-magnetism-ok" in crysjepa
+
+
+def test_semantic_enrichment_run_paths_replace_old_active_paths():
+    repo_root = Path(__file__).resolve().parents[1]
+    new_paths = [
+        repo_root / "runs" / "enrichment" / "finetuned" / "run.sh",
+        repo_root / "runs" / "enrichment" / "crysjepa" / "run.sh",
+    ]
+    old_paths = [
+        repo_root / "runs" / "phase5b_finetuned_enrichment",
+        repo_root / "runs" / "crysjepa_enrichment",
+    ]
+
+    assert all(path.is_file() for path in new_paths)
+    assert not any(path.exists() for path in old_paths)
 
 
 def test_active_enrichment_scripts_use_semantic_path():
