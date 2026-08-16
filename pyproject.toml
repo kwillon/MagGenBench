@@ -17,4 +17,5 @@ where = ["src"]
 
 [project.scripts]
 mvp = "cli.app:app"
+maggenbench = "mvpipeline.cli:app"
 
