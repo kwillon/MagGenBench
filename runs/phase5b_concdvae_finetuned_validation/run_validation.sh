@@ -1,16 +1,14 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-REPO=/mnt/tank/scratch/kkapranova/MagGenBench/MagGenBench
-MVP=/nfs/home/kkapranova/anaconda3/envs/mvpipeline/bin/mvp
+REPO="${MAGGENBENCH_ROOT:-/mnt/tank/scratch/kkapranova/MagGenBench/MagGenBench}"
+MVP="${MAGGENBENCH_MVP:-/nfs/home/kkapranova/anaconda3/envs/mvpipeline/bin/mvp}"
+PY="${MAGGENBENCH_VALIDATION_PY:-${MVP%/mvp}/python}"
 
 cd "$REPO"
 export PYTHONPATH="$REPO/src"
 
-"$MVP" \
-  --input-dir samples/concdvae_finetuned_cifs \
-  --out-dir outputs/concdvae_finetuned \
-  --train-reference datasets/mattergen/train_reference.csv \
-  --thresholds config/thresholds.yaml \
-  --model-name Con-CDVAE-finetuned \
-  --no-pretty
+"$PY" scripts/validation/run_validation.py \
+  --cohort concdvae-finetuned \
+  --repo-root "$REPO" \
+  --mvp "$MVP"
