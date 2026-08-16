@@ -10,9 +10,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 
 sys.path.insert(0, str(ROOT / "src"))
-sys.path.insert(0, str(ROOT / "scripts" / "legacy"))
 
-from add_compound_class import classify_formula
+from mvpipeline.annotations.compound_class import classify_formula
 from mvpipeline.pipeline.enrichment_annotations import (
     run_enrichment_annotations,
 )
