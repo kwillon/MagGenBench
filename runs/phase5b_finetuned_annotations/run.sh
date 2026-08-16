@@ -5,15 +5,17 @@ ROOT=/mnt/tank/scratch/kkapranova/MagGenBench/MagGenBench
 PY=/mnt/tank/scratch/kkapranova/envs/maggenbench-magnetism/bin/python
 
 cd "$ROOT"
-export PYTHONPATH="$ROOT/src:$ROOT/scripts/legacy"
+export PYTHONPATH="$ROOT/src"
 
 echo "============================================================"
 echo "MatterGen fine-tuned"
 echo "============================================================"
 
-"$PY" scripts/phase5b/prepare_mattergen_finetuned_annotations.py
+"$PY" scripts/annotations/prepare_finetuned_annotations.py \
+  --cohort mattergen-finetuned \
+  --repo-root "$ROOT"
 
-"$PY" scripts/phase5a6/prepare_production_manifest.py \
+"$PY" scripts/annotations/prepare_production_manifest.py \
   --input tables/04_magnetic_screening/phase5b_mattergen_finetuned_enrichment_annotations.csv \
   --output tables/04_magnetic_screening/phase5b_mattergen_finetuned_production_annotations.csv
 
@@ -23,9 +25,11 @@ echo "============================================================"
 echo "Con-CDVAE fine-tuned"
 echo "============================================================"
 
-"$PY" scripts/phase5b/prepare_concdvae_finetuned_annotations.py
+"$PY" scripts/annotations/prepare_finetuned_annotations.py \
+  --cohort concdvae-finetuned \
+  --repo-root "$ROOT"
 
-"$PY" scripts/phase5a6/prepare_production_manifest.py \
+"$PY" scripts/annotations/prepare_production_manifest.py \
   --input tables/04_magnetic_screening/phase5b_concdvae_finetuned_enrichment_annotations.csv \
   --output tables/04_magnetic_screening/phase5b_concdvae_finetuned_production_annotations.csv
 
