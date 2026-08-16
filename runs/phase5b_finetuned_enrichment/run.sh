@@ -27,58 +27,10 @@ echo "============================================================"
 echo "Pre-flight"
 echo "============================================================"
 
-"$MAG_PY" - <<'PY'
-from pathlib import Path
-import csv
-
-expected = {
-    Path(
-        "tables/04_magnetic_screening/"
-        "phase5b_mattergen_finetuned_production_annotations.csv"
-    ): 1376,
-    Path(
-        "tables/04_magnetic_screening/"
-        "phase5b_concdvae_finetuned_production_annotations.csv"
-    ): 1299,
-}
-
-for path, expected_rows in expected.items():
-    if not path.is_file():
-        raise RuntimeError(f"Missing manifest: {path}")
-
-    with path.open(
-        "r",
-        encoding="utf-8-sig",
-        newline="",
-    ) as f:
-        rows = list(csv.DictReader(f))
-
-    ids = [
-        (row.get("structure_id") or "").strip()
-        for row in rows
-    ]
-
-    if len(rows) != expected_rows:
-        raise RuntimeError(
-            f"{path}: expected {expected_rows} rows, got {len(rows)}"
-        )
-
-    if len(ids) != len(set(ids)):
-        raise RuntimeError(
-            f"{path}: duplicate structure_id"
-        )
-
-    if any(not x for x in ids):
-        raise RuntimeError(
-            f"{path}: empty structure_id"
-        )
-
-    print(path)
-    print("  rows:", len(rows))
-    print("  unique_structure_id:", len(set(ids)))
-
-print("PHASE5B_ENRICHMENT_PREFLIGHT: PASSED")
-PY
+"$MAG_PY" -m mvpipeline.pipeline.enrichment_run_checks preflight \
+  --manifest "$MG_MANIFEST" 1376 \
+  --manifest "$CDVAE_MANIFEST" 1299 \
+  --pass-label "PHASE5B_ENRICHMENT_PREFLIGHT: PASSED"
 
 
 echo
@@ -158,118 +110,7 @@ echo "============================================================"
 echo "Final audit"
 echo "============================================================"
 
-"$MAG_PY" - <<'PY'
-from pathlib import Path
-from collections import Counter
-import csv
-
-cohorts = {
-    "MatterGen-finetuned": {
-        "expected": 1376,
-        "annotations": Path(
-            "tables/04_magnetic_screening/"
-            "phase5b_mattergen_finetuned_production_annotations.csv"
-        ),
-        "energy": Path(
-            "tables/06_energy/"
-            "phase5b_mattergen_finetuned_chgnet.csv"
-        ),
-        "magnetism": Path(
-            "tables/07_magnetic_descriptors/"
-            "phase5b_mattergen_finetuned_dxmag.csv"
-        ),
-        "joined": Path(
-            "tables/04_magnetic_screening/"
-            "phase5b_mattergen_finetuned_joined.csv"
-        ),
-    },
-    "Con-CDVAE-finetuned": {
-        "expected": 1299,
-        "annotations": Path(
-            "tables/04_magnetic_screening/"
-            "phase5b_concdvae_finetuned_production_annotations.csv"
-        ),
-        "energy": Path(
-            "tables/06_energy/"
-            "phase5b_concdvae_finetuned_chgnet.csv"
-        ),
-        "magnetism": Path(
-            "tables/07_magnetic_descriptors/"
-            "phase5b_concdvae_finetuned_dxmag.csv"
-        ),
-        "joined": Path(
-            "tables/04_magnetic_screening/"
-            "phase5b_concdvae_finetuned_joined.csv"
-        ),
-    },
-}
-
-def read_rows(path):
-    with path.open(
-        "r",
-        encoding="utf-8-sig",
-        newline="",
-    ) as f:
-        return list(csv.DictReader(f))
-
-for name, cfg in cohorts.items():
-    print()
-    print(name)
-
-    for key in [
-        "annotations",
-        "energy",
-        "magnetism",
-        "joined",
-    ]:
-        path = cfg[key]
-
-        if not path.is_file():
-            raise RuntimeError(
-                f"{name}: missing {key}: {path}"
-            )
-
-        rows = read_rows(path)
-
-        print(f"  {key}_rows:", len(rows))
-
-        if len(rows) != cfg["expected"]:
-            raise RuntimeError(
-                f"{name}: {key} expected "
-                f"{cfg['expected']} rows, got {len(rows)}"
-            )
-
-    energy = read_rows(cfg["energy"])
-    magnetism = read_rows(cfg["magnetism"])
-    joined = read_rows(cfg["joined"])
-
-    energy_status = Counter(
-        (r.get("status") or "").strip()
-        for r in energy
-    )
-
-    magnetism_status = Counter(
-        (r.get("status") or "").strip()
-        for r in magnetism
-    )
-
-    joined_ids = [
-        (r.get("structure_id") or "").strip()
-        for r in joined
-    ]
-
-    print("  energy_status:", dict(energy_status))
-    print("  magnetism_status:", dict(magnetism_status))
-    print(
-        "  unique_joined_structure_id:",
-        len(set(joined_ids)),
-    )
-
-    if len(joined_ids) != len(set(joined_ids)):
-        raise RuntimeError(
-            f"{name}: duplicate joined structure_id"
-        )
-
-print()
-print("PHASE5B_FINETUNED_ENRICHMENT: PASSED")
-PY
+"$MAG_PY" -m mvpipeline.pipeline.enrichment_run_checks final-audit \
+  --cohort "MatterGen-finetuned" 1376 "$MG_MANIFEST" "$MG_ENERGY" "$MG_MAG" "$MG_JOIN" \
+  --cohort "Con-CDVAE-finetuned" 1299 "$CDVAE_MANIFEST" "$CDVAE_ENERGY" "$CDVAE_MAG" "$CDVAE_JOIN" \
+  --pass-label "PHASE5B_FINETUNED_ENRICHMENT: PASSED"

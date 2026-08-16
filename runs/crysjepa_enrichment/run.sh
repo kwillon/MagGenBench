@@ -27,58 +27,10 @@ echo "============================================================"
 echo "Pre-flight"
 echo "============================================================"
 
-"$MAG_PY" - <<'PY'
-from pathlib import Path
-import csv
-
-expected = {
-    Path(
-        "tables/04_magnetic_screening/"
-        "crysjepa_base_production_annotations.csv"
-    ): 1764,
-    Path(
-        "tables/04_magnetic_screening/"
-        "crysjepa_refined_production_annotations.csv"
-    ): 1543,
-}
-
-for path, expected_rows in expected.items():
-    if not path.is_file():
-        raise RuntimeError(f"Missing manifest: {path}")
-
-    with path.open(
-        "r",
-        encoding="utf-8-sig",
-        newline="",
-    ) as f:
-        rows = list(csv.DictReader(f))
-
-    ids = [
-        (row.get("structure_id") or "").strip()
-        for row in rows
-    ]
-
-    if len(rows) != expected_rows:
-        raise RuntimeError(
-            f"{path}: expected {expected_rows} rows, got {len(rows)}"
-        )
-
-    if len(ids) != len(set(ids)):
-        raise RuntimeError(
-            f"{path}: duplicate structure_id"
-        )
-
-    if any(not x for x in ids):
-        raise RuntimeError(
-            f"{path}: empty structure_id"
-        )
-
-    print(path)
-    print("  rows:", len(rows))
-    print("  unique_structure_id:", len(set(ids)))
-
-print("PHASE5B_ENRICHMENT_PREFLIGHT: PASSED")
-PY
+"$MAG_PY" -m mvpipeline.pipeline.enrichment_run_checks preflight \
+  --manifest "$MG_MANIFEST" 1764 \
+  --manifest "$CDVAE_MANIFEST" 1543 \
+  --pass-label "PHASE5B_ENRICHMENT_PREFLIGHT: PASSED"
 
 
 echo
@@ -158,132 +110,9 @@ echo "============================================================"
 echo "Final audit"
 echo "============================================================"
 
-"$MAG_PY" - <<'PY'
-from pathlib import Path
-from collections import Counter
-import csv
-
-from mvpipeline.pipeline.stage_common import require_all_status_ok
-
-cohorts = {
-    "Crys-JEPA-Base": {
-        "expected": 1764,
-        "annotations": Path(
-            "tables/04_magnetic_screening/"
-            "crysjepa_base_production_annotations.csv"
-        ),
-        "energy": Path(
-            "tables/06_energy/"
-            "crysjepa_base_chgnet.csv"
-        ),
-        "magnetism": Path(
-            "tables/07_magnetic_descriptors/"
-            "crysjepa_base_dxmag.csv"
-        ),
-        "joined": Path(
-            "tables/04_magnetic_screening/"
-            "crysjepa_base_joined.csv"
-        ),
-    },
-    "Crys-JEPA-Refined": {
-        "expected": 1543,
-        "annotations": Path(
-            "tables/04_magnetic_screening/"
-            "crysjepa_refined_production_annotations.csv"
-        ),
-        "energy": Path(
-            "tables/06_energy/"
-            "crysjepa_refined_chgnet.csv"
-        ),
-        "magnetism": Path(
-            "tables/07_magnetic_descriptors/"
-            "crysjepa_refined_dxmag.csv"
-        ),
-        "joined": Path(
-            "tables/04_magnetic_screening/"
-            "crysjepa_refined_joined.csv"
-        ),
-    },
-}
-
-def read_rows(path):
-    with path.open(
-        "r",
-        encoding="utf-8-sig",
-        newline="",
-    ) as f:
-        return list(csv.DictReader(f))
-
-for name, cfg in cohorts.items():
-    print()
-    print(name)
-
-    for key in [
-        "annotations",
-        "energy",
-        "magnetism",
-        "joined",
-    ]:
-        path = cfg[key]
-
-        if not path.is_file():
-            raise RuntimeError(
-                f"{name}: missing {key}: {path}"
-            )
-
-        rows = read_rows(path)
-
-        print(f"  {key}_rows:", len(rows))
-
-        if len(rows) != cfg["expected"]:
-            raise RuntimeError(
-                f"{name}: {key} expected "
-                f"{cfg['expected']} rows, got {len(rows)}"
-            )
-
-    energy = read_rows(cfg["energy"])
-    magnetism = read_rows(cfg["magnetism"])
-    joined = read_rows(cfg["joined"])
-
-    energy_status = Counter(
-        (r.get("status") or "").strip()
-        for r in energy
-    )
-
-    magnetism_status = Counter(
-        (r.get("status") or "").strip()
-        for r in magnetism
-    )
-
-    require_all_status_ok(
-        energy,
-        expected_count=cfg["expected"],
-        label=f"{name} energy",
-    )
-
-    require_all_status_ok(
-        magnetism,
-        expected_count=cfg["expected"],
-        label=f"{name} magnetism",
-    )
-
-    joined_ids = [
-        (r.get("structure_id") or "").strip()
-        for r in joined
-    ]
-
-    print("  energy_status:", dict(energy_status))
-    print("  magnetism_status:", dict(magnetism_status))
-    print(
-        "  unique_joined_structure_id:",
-        len(set(joined_ids)),
-    )
-
-    if len(joined_ids) != len(set(joined_ids)):
-        raise RuntimeError(
-            f"{name}: duplicate joined structure_id"
-        )
-
-print()
-print("CRYSJEPA_ENRICHMENT: PASSED")
-PY
+"$MAG_PY" -m mvpipeline.pipeline.enrichment_run_checks final-audit \
+  --cohort "Crys-JEPA-Base" 1764 "$MG_MANIFEST" "$MG_ENERGY" "$MG_MAG" "$MG_JOIN" \
+  --cohort "Crys-JEPA-Refined" 1543 "$CDVAE_MANIFEST" "$CDVAE_ENERGY" "$CDVAE_MAG" "$CDVAE_JOIN" \
+  --require-energy-ok \
+  --require-magnetism-ok \
+  --pass-label "CRYSJEPA_ENRICHMENT: PASSED"
