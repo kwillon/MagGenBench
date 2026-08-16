@@ -4,11 +4,11 @@ import argparse
 from pathlib import Path
 
 from batch_common import (
-    load_manifest_rows,
     prepare_records,
     status_summary,
 )
 
+from mvpipeline.io.manifests import load_manifest_rows
 from mvpipeline.magnetism.backends.sklearn import (
     SklearnMagnetismBackend,
 )

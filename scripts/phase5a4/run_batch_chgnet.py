@@ -6,13 +6,13 @@ from pathlib import Path
 import yaml
 
 from batch_common import (
-    load_manifest_rows,
     prepare_records,
     status_summary,
 )
 
 from mvpipeline.energy.backends.chgnet import CHGNetBackend
 from mvpipeline.energy.records import ENERGY_RECORD_FIELDS
+from mvpipeline.io.manifests import load_manifest_rows
 from mvpipeline.pipeline.batch_stage import (
     load_previous_stage_results,
     run_checkpointed_batch,
