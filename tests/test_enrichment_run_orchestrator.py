@@ -301,8 +301,9 @@ def test_active_enrichment_scripts_use_semantic_path():
 
     assert all(path.is_file() for path in new_paths)
     assert not any(path.exists() for path in old_paths)
+    assert not (repo_root / "scripts" / "phase5a4").exists()
     assert (
-        repo_root / "scripts" / "phase5a4" / "prepare_batch_manifest.py"
+        repo_root / "archive" / "scripts" / "phase5a4" / "prepare_batch_manifest.py"
     ).is_file()
 
 
