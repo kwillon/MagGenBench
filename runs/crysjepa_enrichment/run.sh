@@ -8,7 +8,7 @@ MAG_PY="${MAGGENBENCH_MAGNETISM_PY:-/mnt/tank/scratch/kkapranova/envs/maggenbenc
 
 cd "$ROOT"
 
-export PYTHONPATH="$ROOT/src:$ROOT/scripts/phase5a4"
+export PYTHONPATH="$ROOT/src:$ROOT/scripts/enrichment"
 
 MG_MANIFEST=tables/04_magnetic_screening/crysjepa_base_production_annotations.csv
 CDVAE_MANIFEST=tables/04_magnetic_screening/crysjepa_refined_production_annotations.csv

@@ -8,9 +8,9 @@ from typing import Sequence
 
 
 CHECKS_MODULE = "mvpipeline.pipeline.enrichment_run_checks"
-CHGNET_SCRIPT = "scripts/phase5a4/run_batch_chgnet.py"
-DXMAG_SCRIPT = "scripts/phase5a4/run_batch_dxmag.py"
-JOIN_SCRIPT = "scripts/phase5a4/run_batch_join.py"
+CHGNET_SCRIPT = "scripts/enrichment/run_batch_chgnet.py"
+DXMAG_SCRIPT = "scripts/enrichment/run_batch_dxmag.py"
+JOIN_SCRIPT = "scripts/enrichment/run_batch_join.py"
 
 
 @dataclass(frozen=True)

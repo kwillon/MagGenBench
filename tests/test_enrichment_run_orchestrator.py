@@ -244,6 +244,8 @@ def test_shell_wrappers_invoke_orchestrator_and_keep_defaults():
 
     for text in (fine_tuned, crysjepa):
         assert "mvpipeline.pipeline.enrichment_run_orchestrator" in text
+        assert '$ROOT/src:$ROOT/scripts/enrichment' in text
+        assert '$ROOT/src:$ROOT/scripts/phase5a4' not in text
         assert (
             "MAGGENBENCH_ENERGY_PY:-"
             "/mnt/tank/scratch/kkapranova/envs/"
@@ -280,3 +282,42 @@ def test_shell_wrappers_invoke_orchestrator_and_keep_defaults():
     assert '--cohort "Crys-JEPA-Refined" 1543' in crysjepa
     assert "--require-energy-ok" in crysjepa
     assert "--require-magnetism-ok" in crysjepa
+
+
+def test_active_enrichment_scripts_use_semantic_path():
+    repo_root = Path(__file__).resolve().parents[1]
+    new_paths = [
+        repo_root / "scripts" / "enrichment" / "run_batch_chgnet.py",
+        repo_root / "scripts" / "enrichment" / "run_batch_dxmag.py",
+        repo_root / "scripts" / "enrichment" / "run_batch_join.py",
+        repo_root / "scripts" / "enrichment" / "batch_common.py",
+    ]
+    old_paths = [
+        repo_root / "scripts" / "phase5a4" / "run_batch_chgnet.py",
+        repo_root / "scripts" / "phase5a4" / "run_batch_dxmag.py",
+        repo_root / "scripts" / "phase5a4" / "run_batch_join.py",
+        repo_root / "scripts" / "phase5a4" / "batch_common.py",
+    ]
+
+    assert all(path.is_file() for path in new_paths)
+    assert not any(path.exists() for path in old_paths)
+    assert (
+        repo_root / "scripts" / "phase5a4" / "prepare_batch_manifest.py"
+    ).is_file()
+
+
+def test_active_orchestration_no_longer_points_at_phase5a4_scripts():
+    assert CHGNET_SCRIPT == "scripts/enrichment/run_batch_chgnet.py"
+    assert DXMAG_SCRIPT == "scripts/enrichment/run_batch_dxmag.py"
+    assert JOIN_SCRIPT == "scripts/enrichment/run_batch_join.py"
+
+    active_values = [
+        CHGNET_SCRIPT,
+        DXMAG_SCRIPT,
+        JOIN_SCRIPT,
+    ]
+
+    assert not any(
+        "scripts/phase5a4/run_batch_" in value
+        for value in active_values
+    )
