@@ -399,19 +399,6 @@ def reproduce_analysis_v1(
             f"Output already exists: {output_path}; use --force to replace it"
         )
 
-    from mvpipeline.analysis.figures_v1 import (
-        generate_analysis_v1_figures,
-        prepare_analysis_v1_figure_outputs,
-    )
-
-    try:
-        prepare_analysis_v1_figure_outputs(
-            figure_output_dir,
-            force=force,
-        )
-    except RuntimeError as exc:
-        raise ReproductionError(str(exc)) from exc
-
     manifest_path = root / ANALYSIS_V1_MANIFEST_RELATIVE_PATH
     manifest_entries = parse_sha256_manifest(manifest_path)
     expected_output = unified_output_manifest_entry(manifest_entries)
@@ -440,6 +427,19 @@ def reproduce_analysis_v1(
             "Reproduced unified Analysis v1 SHA256 mismatch: "
             f"expected={expected_output.digest}, actual={digest}"
         )
+
+    from mvpipeline.analysis.figures_v1 import (
+        generate_analysis_v1_figures,
+        prepare_analysis_v1_figure_outputs,
+    )
+
+    try:
+        prepare_analysis_v1_figure_outputs(
+            figure_output_dir,
+            force=force,
+        )
+    except RuntimeError as exc:
+        raise ReproductionError(str(exc)) from exc
 
     try:
         figure_report = generate_analysis_v1_figures(

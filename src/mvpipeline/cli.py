@@ -88,6 +88,9 @@ def figures_analysis_v1_command(
 ) -> None:
     from mvpipeline.analysis.figures_v1 import generate_analysis_v1_figures
 
+    if not input_csv.is_file():
+        raise typer.BadParameter(f"Input CSV does not exist: {input_csv}")
+
     try:
         report = generate_analysis_v1_figures(
             input_csv=input_csv,

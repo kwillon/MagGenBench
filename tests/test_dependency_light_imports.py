@@ -136,9 +136,12 @@ def test_cli_and_analysis_v1_figure_contract_imports_are_dependency_light():
     assert_import_check_passes(
         """
         import mvpipeline.cli
+        import mvpipeline.analysis
         import mvpipeline.analysis.figures_v1
 
         assert mvpipeline.cli.app is not None
+        assert "compute_basic_descriptors" in mvpipeline.analysis.__all__
+        assert "get_spacegroup_number" in mvpipeline.analysis.__all__
         assert mvpipeline.analysis.figures_v1.ANALYSIS_V1_FIGURE_FILENAMES
         """
     )
