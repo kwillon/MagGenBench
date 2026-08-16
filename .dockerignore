@@ -1,26 +1,36 @@
-# python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.egg-info/
-dist/
-build/
-
-# venv/conda локально
-.venv/
-venv/
-.env
-.conda/
-.micromamba/
-
-# git
+# VCS and editor state
 .git/
 .gitignore
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.vscode/
+.idea/
 
-# outputs / data
+# Python build and cache output
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Local environments
+.env
+.venv/
+venv/
+env/
+.conda/
+.micromamba/
+mvpipeline_env/
+
+# Local generated outputs
+artifacts/
 outputs/
+reproduced/
+reports/
 *.log
+figures/unified_analysis_v1/
 
-# OS
+# OS noise
 .DS_Store
+Thumbs.db

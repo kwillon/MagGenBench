@@ -1,25 +1,43 @@
-FROM mambaorg/micromamba:1.5.8
+FROM python:3.11-slim AS runtime
 
-# Рабочая директория внутри контейнера
-WORKDIR /app
+ENV MPLBACKEND=Agg \
+    PIP_NO_CACHE_DIR=1 \
+    PYTHONUNBUFFERED=1
 
-# 1) Сначала кладём env-файл отдельно — это даёт кеш слоёв
-COPY --chown=$MAMBA_USER:$MAMBA_USER environment.yml /app/environment.yml
+WORKDIR /build
 
-# 2) Создаём окружение (имя берём из environment.yml -> name:)
-RUN micromamba create -y -f /app/environment.yml && \
-    micromamba clean -a -y
+RUN python -m pip install --upgrade pip setuptools wheel && \
+    python -m pip install \
+        matplotlib \
+        numpy \
+        pandas \
+        pytest \
+        pyyaml \
+        rich \
+        typer
 
-# Важно: активируем окружение для всех последующих RUN/CMD
-ENV MAMBA_DOCKERFILE_ACTIVATE=1
+COPY pyproject.toml README.md ./
+COPY src ./src
 
-# 3) Копируем код проекта
-COPY --chown=$MAMBA_USER:$MAMBA_USER . /app
+RUN python -m pip install .
 
-# 4) Ставим пакет в editable (чтобы консольная команда mvp появилась)
-# Если у вас pyproject.toml настроен корректно, mvp появится автоматически.
-RUN micromamba run -n mvpipeline pip install -e .
+WORKDIR /workspace
 
-# По умолчанию показываем help
-ENTRYPOINT ["micromamba", "run", "-n", "mvpipeline"]
-CMD ["mvp", "--help"]
+CMD ["maggenbench", "--help"]
+
+
+FROM runtime AS test
+
+WORKDIR /build
+
+COPY tests ./tests
+COPY scripts ./scripts
+
+CMD ["python", "-m", "pytest", "-q", \
+    "tests/test_analysis_v1_figures.py", \
+    "tests/test_maggenbench_cli.py", \
+    "tests/test_reproduction_analysis_v1.py", \
+    "tests/test_unified_analysis.py", \
+    "tests/test_analysis_cohorts.py", \
+    "tests/test_analysis_plotting.py", \
+    "tests/test_dependency_light_imports.py"]

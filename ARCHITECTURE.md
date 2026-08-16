@@ -135,13 +135,18 @@ Heavy model environments should remain separate when dependencies conflict:
 
 - CHGNet energy enrichment can use a backend-specific environment.
 - DXMag magnetism enrichment can use a backend-specific environment and externally supplied model artifact.
-- MatterGen, Con-CDVAE, CrystalFormer, CrystaLLM, and Crys-JEPA generation or refinement workflows can use their own environments today and future containers where appropriate.
+- MatterGen, Con-CDVAE, CrystalFormer, CrystaLLM, and Crys-JEPA generation or refinement workflows can use their own environments or future backend-specific containers where appropriate.
 
-Docker/Compose reproducibility for Analysis v1 is planned, not currently accepted as the verified workflow. Current verified Analysis v1 acceptance used the checkout/PYTHONPATH environment. The future Docker or Docker Compose layer should follow the same boundary:
+The current Docker/Compose layer implements only the lightweight Analysis v1 surface. It installs MagGenBench as a normal package, exposes the `maggenbench` and `mvp` console entry points, and uses a headless Matplotlib backend. It does not include CHGNet, DXMag, generative-model runtimes, checkpoints, training environments, or production data.
+
+The Compose mount contract follows the same boundary:
 
 - one lightweight analysis/figure environment;
-- optional backend-specific environments;
-- mounted external artifact roots for large inputs, model binaries, and generated outputs.
+- `/workspace` for the repository checkout and frozen contract files;
+- `/artifacts` for externally supplied frozen artifacts, including the explicit `--baseline-joined` CSV;
+- `/output` for host-visible reproduced outputs.
+
+`MAGGENBENCH_ARTIFACT_ROOT` is required for the `/artifacts` mount so Compose fails clearly instead of creating or mounting a placeholder artifact directory. `MAGGENBENCH_OUTPUT_ROOT` may use the safe generated-output default.
 
 ## Backward Compatibility
 

@@ -1,0 +1,21 @@
+services:
+  analysis:
+    build:
+      context: .
+      target: runtime
+    image: maggenbench-analysis:latest
+    working_dir: /workspace
+    environment:
+      MPLBACKEND: Agg
+    volumes:
+      - type: bind
+        source: .
+        target: /workspace
+        read_only: true
+      - type: bind
+        source: ${MAGGENBENCH_ARTIFACT_ROOT:?Set MAGGENBENCH_ARTIFACT_ROOT to the frozen artifact directory}
+        target: /artifacts
+        read_only: true
+      - type: bind
+        source: ${MAGGENBENCH_OUTPUT_ROOT:-./reproduced}
+        target: /output

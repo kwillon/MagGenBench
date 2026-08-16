@@ -62,7 +62,7 @@ Use an environment suitable for the lightweight analysis and validation code:
 pip install -e .
 ```
 
-Heavy model backends are intentionally not forced into this same environment. CHGNet, DXMag, MatterGen, Con-CDVAE, CrystalFormer, CrystaLLM, and Crys-JEPA can have incompatible dependency stacks; model execution should use separate documented backend environments today, with container recipes planned where they are useful, rather than one monolithic Python environment.
+Heavy model backends are intentionally not forced into this same environment. CHGNet, DXMag, MatterGen, Con-CDVAE, CrystalFormer, CrystaLLM, and Crys-JEPA can have incompatible dependency stacks; model execution should use separate documented backend environments rather than one monolithic Python environment.
 
 ## Public Commands
 
@@ -186,15 +186,57 @@ Small, versioned fixtures and metadata can live in Git. Large or machine-specifi
 
 Generated outputs should go under explicit artifact locations such as `reproduced/`, `outputs/`, `reports/`, `tables/`, or `figures/` depending on their role. Reproduced outputs are artifacts, not source code.
 
-## Planned Docker Reproducibility
+## Docker Reproducibility
 
-Docker/Compose reproducibility for the current Analysis v1 workflow is the next planned engineering layer, not an accepted user workflow yet. Current verified Analysis v1 acceptance used the checkout/PYTHONPATH environment.
+The repository includes a lightweight Docker/Compose configuration for the Analysis v1 reproducibility surface. It installs MagGenBench as a normal package, exposes the packaged `maggenbench` and `mvp` console commands, and sets Matplotlib to a noninteractive backend for headless figure generation.
 
-The planned container design should encode the environment boundaries already documented here:
+The lightweight image is only for package installation, CLI smoke checks, Analysis v1 figure generation, Analysis v1 reproduction from frozen inputs, and the Phase 6 analysis/reproduction tests. It does not contain model checkpoints or heavy model runtimes.
 
-- a lightweight analysis/figure environment for reproducing Analysis v1 tables and figures from frozen inputs;
-- separate backend environments where appropriate for CHGNet, DXMag, MatterGen, Con-CDVAE, CrystalFormer, CrystaLLM, or Crys-JEPA;
-- mounted external artifact roots for large inputs, model binaries, caches, and generated outputs.
+Local runtime acceptance requires Docker/Compose on the host; if Docker is unavailable, treat the container files as implemented but not locally smoke-tested.
+
+Build the image:
+
+```bash
+docker compose build analysis
+```
+
+Help smoke checks:
+
+```bash
+docker compose run --rm analysis maggenbench --help
+docker compose run --rm analysis maggenbench figures analysis-v1 --help
+docker compose run --rm analysis maggenbench reproduce analysis-v1 --help
+```
+
+Run the lightweight container regression target:
+
+```bash
+docker compose run --rm analysis python -m pytest -q \
+  tests/test_analysis_v1_figures.py \
+  tests/test_maggenbench_cli.py \
+  tests/test_reproduction_analysis_v1.py \
+  tests/test_unified_analysis.py \
+  tests/test_analysis_cohorts.py \
+  tests/test_analysis_plotting.py \
+  tests/test_dependency_light_imports.py
+```
+
+For real Analysis v1 reproduction, mount externally supplied frozen artifacts and write outputs to a host-visible directory:
+
+```bash
+MAGGENBENCH_ARTIFACT_ROOT=/path/to/artifacts \
+MAGGENBENCH_OUTPUT_ROOT=./reproduced \
+docker compose run --rm analysis \
+  maggenbench reproduce analysis-v1 \
+    --repo-root /workspace \
+    --artifact-root /artifacts \
+    --baseline-joined /artifacts/baseline_joined.csv \
+    --output-dir /output/analysis_v1
+```
+
+The historical absolute baseline path in `runs/analysis_v1/final_sha256.txt` is provenance only. The mounted `--baseline-joined` file is the runtime input, and its checksum is still validated against the frozen manifest digest.
+
+`MAGGENBENCH_ARTIFACT_ROOT` is required and must point to the directory containing the frozen Analysis v1 artifacts. For the command above, that directory must contain `baseline_joined.csv` at its root. `MAGGENBENCH_OUTPUT_ROOT` is optional and defaults to `./reproduced`.
 
 Do not force all model ecosystems into a single Python environment.
 
