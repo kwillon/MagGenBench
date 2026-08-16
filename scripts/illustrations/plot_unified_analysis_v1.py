@@ -1,79 +1,23 @@
 from __future__ import annotations
 
-import csv
 from collections import Counter
-from pathlib import Path
 
 import matplotlib.pyplot as plt
 
-
-ROOT = Path(__file__).resolve().parents[2]
-INPUT = ROOT / "runs" / "analysis_v1" / "unified_analysis_v1.csv"
-OUTDIR = ROOT / "figures" / "unified_analysis_v1"
-
-CRYSTAL_SYSTEM_ORDER = [
-    "triclinic",
-    "monoclinic",
-    "orthorhombic",
-    "tetragonal",
-    "trigonal",
-    "hexagonal",
-    "cubic",
-]
-
-BASELINE_FAMILIES = [
-    "MatterGen",
-    "Con-CDVAE",
-    "CrystalFormer",
-    "CrystaLLM",
-]
-
-FINETUNE_COHORTS = [
-    ("MatterGen baseline", "baseline_master", "MatterGen"),
-    ("MatterGen fine-tuned", "mattergen_finetuned", None),
-    ("Con-CDVAE baseline", "baseline_master", "Con-CDVAE"),
-    ("Con-CDVAE fine-tuned", "concdvae_finetuned", None),
-]
-
-CRYSJEPA_COHORTS = [
-    ("Crys-JEPA Base", "crysjepa_base"),
-    ("Crys-JEPA Refined", "crysjepa_refined"),
-]
-
-
-def apply_paper_style() -> None:
-    plt.rcParams.update(
-        {
-            "figure.figsize": (10, 6),
-            "axes.spines.top": False,
-            "axes.spines.right": False,
-            "axes.grid": False,
-            "savefig.bbox": "tight",
-            "savefig.dpi": 300,
-            "font.size": 11,
-        }
-    )
-
-
-def read_rows(path: Path) -> list[dict[str, str]]:
-    with path.open("r", encoding="utf-8-sig", newline="") as handle:
-        return list(csv.DictReader(handle))
-
-
-def require_ok_input(rows: list[dict[str, str]]) -> None:
-    if not rows:
-        raise RuntimeError("Unified analysis table is empty.")
-
-    missing = [r for r in rows if not r.get("crystal_system", "").strip()]
-    if missing:
-        raise RuntimeError(f"Missing crystal_system rows: {len(missing)}")
-
-    bad_symmetry = [
-        r for r in rows
-        if (r.get("symmetry_status", "").strip() or "") != "ok"
-    ]
-    if bad_symmetry:
-        raise RuntimeError(f"Non-ok symmetry_status rows: {len(bad_symmetry)}")
+from mvpipeline.analysis.plotting import (
+    BASELINE_PLOT_GROUPS,
+    CRYSTAL_SYSTEM_ORDER,
+    CRYSJEPA_COMPARISON_GROUPS,
+    FINETUNING_COMPARISON_GROUPS,
+    apply_unified_plot_style,
+    build_plot_groups,
+    load_unified_analysis_rows,
+    repository_root_from_script,
+    save_figure,
+    unified_analysis_figure_dir,
+    unified_analysis_v1_path,
+    validate_unified_analysis_rows,
+)
 
 
 def crystal_system_percentages(rows: list[dict[str, str]]) -> dict[str, float]:
@@ -86,30 +30,6 @@ def crystal_system_percentages(rows: list[dict[str, str]]) -> dict[str, float]:
         cs: 100.0 * counts.get(cs, 0) / total
         for cs in CRYSTAL_SYSTEM_ORDER
     }
-
-
-def subset_baseline_family(
-    rows: list[dict[str, str]],
-    family: str,
-) -> list[dict[str, str]]:
-    out = [
-        r for r in rows
-        if r.get("analysis_cohort") == "baseline_master"
-        and r.get("analysis_family") == family
-    ]
-    if not out:
-        raise RuntimeError(f"Empty baseline subset for family: {family}")
-    return out
-
-
-def subset_cohort(
-    rows: list[dict[str, str]],
-    cohort: str,
-) -> list[dict[str, str]]:
-    out = [r for r in rows if r.get("analysis_cohort") == cohort]
-    if not out:
-        raise RuntimeError(f"Empty cohort: {cohort}")
-    return out
 
 
 def plot_grouped_bars(
@@ -137,60 +57,84 @@ def plot_grouped_bars(
     ax.legend(frameon=False)
     ax.set_ylim(bottom=0)
 
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    fig.savefig(output_path)
+    save_figure(fig, output_path)
     plt.close(fig)
 
 
 def main() -> None:
-    apply_paper_style()
-    rows = read_rows(INPUT)
-    require_ok_input(rows)
+    root = repository_root_from_script(__file__)
+    input_path = unified_analysis_v1_path(root)
+    output_dir = unified_analysis_figure_dir(root)
 
-    OUTDIR.mkdir(parents=True, exist_ok=True)
+    apply_unified_plot_style()
+    rows = load_unified_analysis_rows(input_path)
+    validate_unified_analysis_rows(
+        rows,
+        required_columns=("crystal_system", "symmetry_status"),
+    )
+
+    missing = [r for r in rows if not r.get("crystal_system", "").strip()]
+    if missing:
+        raise RuntimeError(f"Missing crystal_system rows: {len(missing)}")
+
+    bad_symmetry = [
+        r for r in rows
+        if (r.get("symmetry_status", "").strip() or "") != "ok"
+    ]
+    if bad_symmetry:
+        raise RuntimeError(f"Non-ok symmetry_status rows: {len(bad_symmetry)}")
+
+    grouped_rows = {
+        group.label: group_rows
+        for group, group_rows in build_plot_groups(rows)
+    }
+
+    output_dir.mkdir(parents=True, exist_ok=True)
 
     # 1. Core baselines
     baseline_values = {
-        family: crystal_system_percentages(subset_baseline_family(rows, family))
-        for family in BASELINE_FAMILIES
+        group.analysis_family: crystal_system_percentages(
+            list(grouped_rows[group.label])
+        )
+        for group in BASELINE_PLOT_GROUPS
     }
     plot_grouped_bars(
         baseline_values,
         title="Crystal-system distribution across baseline models",
-        output_path=OUTDIR / "01_crystal_system_core_baseline.png",
+        output_path=output_dir / "01_crystal_system_core_baseline.png",
     )
 
     # 2. Fine-tuning comparison
     finetune_values = {}
-    for label, cohort, family in FINETUNE_COHORTS:
-        if cohort == "baseline_master":
-            subset = subset_baseline_family(rows, family)
-        else:
-            subset = subset_cohort(rows, cohort)
-        finetune_values[label] = crystal_system_percentages(subset)
+    for group in FINETUNING_COMPARISON_GROUPS:
+        finetune_values[group.label] = crystal_system_percentages(
+            list(grouped_rows[group.label])
+        )
 
     plot_grouped_bars(
         finetune_values,
         title="Crystal-system distribution: baseline vs fine-tuned cohorts",
-        output_path=OUTDIR / "02_crystal_system_finetuning.png",
+        output_path=output_dir / "02_crystal_system_finetuning.png",
     )
 
     # 3. Crys-JEPA comparison
     crysjepa_values = {
-        label: crystal_system_percentages(subset_cohort(rows, cohort))
-        for label, cohort in CRYSJEPA_COHORTS
+        group.label: crystal_system_percentages(
+            list(grouped_rows[group.label])
+        )
+        for group in CRYSJEPA_COMPARISON_GROUPS
     }
     plot_grouped_bars(
         crysjepa_values,
         title="Crystal-system distribution: Crys-JEPA Base vs Refined",
-        output_path=OUTDIR / "03_crystal_system_crysjepa.png",
+        output_path=output_dir / "03_crystal_system_crysjepa.png",
     )
 
-    print("INPUT:", INPUT)
+    print("INPUT:", input_path)
     print("ROWS:", len(rows))
-    print("OUTPUT_DIR:", OUTDIR)
+    print("OUTPUT_DIR:", output_dir)
     print("FILES:")
-    for path in sorted(OUTDIR.glob("*.png")):
+    for path in sorted(output_dir.glob("*.png")):
         print(" ", path)
     print("PLOT_UNIFIED_ANALYSIS_V1: PASSED")
 
