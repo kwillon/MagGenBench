@@ -42,6 +42,15 @@ def rows(*ids, status="ok"):
     ]
 
 
+def manifest_rows(*ids):
+    return [
+        {
+            "structure_id": structure_id,
+        }
+        for structure_id in ids
+    ]
+
+
 def write_artifacts(tmp_path, *, energy_status="ok", magnetism_status="ok"):
     annotations = tmp_path / "annotations.csv"
     energy = tmp_path / "energy.csv"
@@ -94,7 +103,7 @@ def test_correct_manifest_row_count_passes(tmp_path, capsys):
     write_csv(
         manifest,
         ["structure_id"],
-        rows("s1", "s2"),
+        manifest_rows("s1", "s2"),
     )
 
     check_manifest_preflight(
@@ -113,7 +122,7 @@ def test_wrong_expected_manifest_count_fails(tmp_path):
     write_csv(
         manifest,
         ["structure_id"],
-        rows("s1"),
+        manifest_rows("s1"),
     )
 
     with pytest.raises(RuntimeError, match="expected 2 rows, got 1"):
@@ -128,7 +137,7 @@ def test_empty_required_manifest_id_fails(tmp_path):
     write_csv(
         manifest,
         ["structure_id"],
-        rows(""),
+        manifest_rows(""),
     )
 
     with pytest.raises(RuntimeError, match="empty structure_id"):
@@ -143,7 +152,7 @@ def test_duplicate_manifest_id_fails(tmp_path):
     write_csv(
         manifest,
         ["structure_id"],
-        rows("s1", "s1"),
+        manifest_rows("s1", "s1"),
     )
 
     with pytest.raises(RuntimeError, match="duplicate structure_id"):
@@ -302,7 +311,7 @@ def test_cli_exits_nonzero_on_validation_failure(tmp_path):
     write_csv(
         manifest,
         ["structure_id"],
-        rows("s1"),
+        manifest_rows("s1"),
     )
 
     repo_root = Path(__file__).resolve().parents[1]
