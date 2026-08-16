@@ -21,6 +21,7 @@ from mvpipeline.analysis.plotting import (
 
 
 MIGRATED_PLOT_SCRIPTS = (
+    "plot_unified_analysis_v1.py",
     "plot_structural_distributions_v1.py",
     "plot_compound_class_heatmap_v1.py",
     "plot_3d_4f_fraction_v1.py",
@@ -248,8 +249,7 @@ def test_migrated_plot_scripts_use_canonical_grouping() -> None:
 
     for filename in MIGRATED_PLOT_SCRIPTS:
         source = (scripts_dir / filename).read_text(encoding="utf-8")
-        assert "STANDARD_PLOT_GROUPS" in source
-        assert "build_plot_groups" in source
+        assert "mvpipeline.analysis.figures_v1" in source
         assert "\nGROUPS =" not in source
         assert "\nGROUP_ORDER =" not in source
         assert "Expected 10684" not in source

@@ -15,6 +15,8 @@ BLOCKED_IMPORTS = {
     "sklearn",
     "joblib",
     "numpy",
+    "pandas",
+    "matplotlib",
 }
 
 
@@ -126,5 +128,17 @@ def test_stage_runner_imports_are_dependency_light():
         import mvpipeline.pipeline.magnetism_stage
 
         assert callable(mvpipeline.pipeline.run_validation)
+        """
+    )
+
+
+def test_cli_and_analysis_v1_figure_contract_imports_are_dependency_light():
+    assert_import_check_passes(
+        """
+        import mvpipeline.cli
+        import mvpipeline.analysis.figures_v1
+
+        assert mvpipeline.cli.app is not None
+        assert mvpipeline.analysis.figures_v1.ANALYSIS_V1_FIGURE_FILENAMES
         """
     )

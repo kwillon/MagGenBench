@@ -6,6 +6,7 @@ from pathlib import Path
 import pytest
 
 from mvpipeline.analysis.cohorts import ProductionAnalysisCohort
+from mvpipeline.analysis import figures_v1
 from mvpipeline.analysis.unified import UnifiedAnalysisReport
 from mvpipeline.reproduction import analysis_v1
 from mvpipeline.reproduction.analysis_v1 import (
@@ -191,6 +192,55 @@ def install_fake_unified_builder(monkeypatch, rows: list[dict[str, str]]) -> Non
     )
 
 
+def install_fake_figure_generator(
+    monkeypatch,
+    calls: list[tuple[Path, Path]],
+    events: list[str] | None = None,
+):
+    def fake_prepare(output_dir, *, force=False):
+        if events is not None:
+            events.append("prepare_figures")
+        output_root = Path(output_dir)
+        existing = [
+            path
+            for path in figures_v1.owned_analysis_v1_figure_paths(output_root)
+            if path.exists()
+        ]
+        if existing and not force:
+            raise RuntimeError("Analysis v1 figure output already exists")
+        output_root.mkdir(parents=True, exist_ok=True)
+        if force:
+            for path in existing:
+                path.unlink()
+
+    def fake_generate(*, input_csv, output_dir, force=False):
+        if events is not None:
+            events.append("generate_figures")
+        input_path = Path(input_csv)
+        output_root = Path(output_dir)
+        calls.append((input_path, output_root))
+        output_root.mkdir(parents=True, exist_ok=True)
+        outputs = figures_v1.owned_analysis_v1_figure_paths(output_root)
+        for path in outputs:
+            path.write_text("figure\n", encoding="utf-8")
+        return figures_v1.AnalysisV1FigureReport(
+            input_csv=input_path,
+            output_dir=output_root,
+            output_files=outputs,
+        )
+
+    monkeypatch.setattr(
+        figures_v1,
+        "prepare_analysis_v1_figure_outputs",
+        fake_prepare,
+    )
+    monkeypatch.setattr(
+        figures_v1,
+        "generate_analysis_v1_figures",
+        fake_generate,
+    )
+
+
 def test_checksum_manifest_parses_real_supported_syntax(tmp_path) -> None:
     digest = "a" * 64
     manifest = write_text(
@@ -321,10 +371,36 @@ def test_baseline_joined_must_match_historical_digest(tmp_path) -> None:
         )
 
 
+def test_frozen_input_checksum_failure_precedes_figure_preparation(
+    tmp_path,
+    monkeypatch,
+) -> None:
+    baseline, _ = write_tiny_inputs(tmp_path)
+    descriptor = tmp_path / "inputs/baseline_descriptors.csv"
+    descriptor.write_text("changed\n", encoding="utf-8")
+    events = []
+    install_fake_figure_generator(monkeypatch, [], events)
+
+    with pytest.raises(ReproductionError, match="SHA256 mismatch"):
+        reproduce_analysis_v1(
+            repo_root=tmp_path,
+            baseline_joined=baseline,
+            output_dir=tmp_path / "out",
+            invariants=tiny_invariants(tiny_rows()),
+            cohorts=tiny_cohorts(),
+        )
+
+    assert events == []
+    assert not (tmp_path / "out/figures").exists()
+
+
 def test_reproduction_writes_only_requested_output_dir(tmp_path, monkeypatch) -> None:
     rows = tiny_rows()
     baseline, expected_digest = write_tiny_inputs(tmp_path)
+    figure_calls = []
+    events = []
     install_fake_unified_builder(monkeypatch, rows)
+    install_fake_figure_generator(monkeypatch, figure_calls, events)
 
     result = reproduce_analysis_v1(
         repo_root=tmp_path,
@@ -336,6 +412,11 @@ def test_reproduction_writes_only_requested_output_dir(tmp_path, monkeypatch) ->
 
     assert result.output_path == tmp_path / "out/unified_analysis_v1.csv"
     assert result.sha256 == expected_digest
+    assert result.figure_output_dir == tmp_path / "out/figures"
+    assert figure_calls == [
+        (tmp_path / "out/unified_analysis_v1.csv", tmp_path / "out/figures")
+    ]
+    assert events == ["prepare_figures", "generate_figures"]
     assert not (tmp_path / "runs/analysis_v1/unified_analysis_v1.csv").exists()
 
 
@@ -359,6 +440,7 @@ def test_force_replaces_only_target_csv(tmp_path, monkeypatch) -> None:
     write_text(tmp_path / "out/unified_analysis_v1.csv", "existing\n")
     keep = write_text(tmp_path / "out/keep.txt", "keep\n")
     install_fake_unified_builder(monkeypatch, rows)
+    install_fake_figure_generator(monkeypatch, [])
 
     reproduce_analysis_v1(
         repo_root=tmp_path,
@@ -370,6 +452,89 @@ def test_force_replaces_only_target_csv(tmp_path, monkeypatch) -> None:
     )
 
     assert keep.read_text(encoding="utf-8") == "keep\n"
+
+
+def test_invariant_failure_precedes_figure_preparation(
+    tmp_path,
+    monkeypatch,
+) -> None:
+    rows = tiny_rows(analysis_family="Con-CDVAE")
+    baseline, _ = write_tiny_inputs(
+        tmp_path,
+        output_digest=digest_text(csv_text(rows)),
+    )
+    events = []
+    install_fake_unified_builder(monkeypatch, rows)
+    install_fake_figure_generator(monkeypatch, [], events)
+
+    with pytest.raises(ReproductionError, match="Unexpected analysis_family"):
+        reproduce_analysis_v1(
+            repo_root=tmp_path,
+            baseline_joined=baseline,
+            output_dir=tmp_path / "out",
+            invariants=tiny_invariants(tiny_rows()),
+            cohorts=tiny_cohorts(),
+        )
+
+    assert events == []
+    assert not (tmp_path / "out/figures").exists()
+
+
+def test_reproduction_existing_figure_output_fails_without_force(
+    tmp_path,
+    monkeypatch,
+) -> None:
+    rows = tiny_rows()
+    baseline, _ = write_tiny_inputs(tmp_path)
+    existing = (
+        tmp_path
+        / "out/figures"
+        / figures_v1.ANALYSIS_V1_FIGURE_FILENAMES[0]
+    )
+    existing.parent.mkdir(parents=True)
+    existing.write_text("existing\n", encoding="utf-8")
+    install_fake_unified_builder(monkeypatch, rows)
+    install_fake_figure_generator(monkeypatch, [])
+
+    with pytest.raises(ReproductionError, match="figure output already exists"):
+        reproduce_analysis_v1(
+            repo_root=tmp_path,
+            baseline_joined=baseline,
+            output_dir=tmp_path / "out",
+            invariants=tiny_invariants(rows),
+            cohorts=tiny_cohorts(),
+        )
+
+
+def test_reproduction_force_replaces_owned_figures_only(
+    tmp_path,
+    monkeypatch,
+) -> None:
+    rows = tiny_rows()
+    baseline, _ = write_tiny_inputs(tmp_path)
+    owned = (
+        tmp_path
+        / "out/figures"
+        / figures_v1.ANALYSIS_V1_FIGURE_FILENAMES[0]
+    )
+    unrelated = tmp_path / "out/figures/notes.txt"
+    owned.parent.mkdir(parents=True)
+    owned.write_text("old\n", encoding="utf-8")
+    unrelated.write_text("keep\n", encoding="utf-8")
+    install_fake_unified_builder(monkeypatch, rows)
+    install_fake_figure_generator(monkeypatch, [])
+
+    reproduce_analysis_v1(
+        repo_root=tmp_path,
+        baseline_joined=baseline,
+        output_dir=tmp_path / "out",
+        force=True,
+        invariants=tiny_invariants(rows),
+        cohorts=tiny_cohorts(),
+    )
+
+    assert owned.read_text(encoding="utf-8") == "figure\n"
+    assert unrelated.read_text(encoding="utf-8") == "keep\n"
 
 
 def test_expected_production_invariants_are_available() -> None:
@@ -462,9 +627,84 @@ def test_analysis_family_state_contract_is_checked() -> None:
 def test_output_sha256_mismatch_fails(tmp_path, monkeypatch) -> None:
     rows = tiny_rows()
     baseline, _ = write_tiny_inputs(tmp_path, output_digest="0" * 64)
+    figure_calls = []
+    events = []
     install_fake_unified_builder(monkeypatch, rows)
+    install_fake_figure_generator(monkeypatch, figure_calls, events)
 
     with pytest.raises(ReproductionError, match="SHA256 mismatch"):
+        reproduce_analysis_v1(
+            repo_root=tmp_path,
+            baseline_joined=baseline,
+            output_dir=tmp_path / "out",
+            invariants=tiny_invariants(rows),
+            cohorts=tiny_cohorts(),
+        )
+    assert figure_calls == []
+    assert events == []
+    assert not (tmp_path / "out/figures").exists()
+
+
+def test_figure_preparation_happens_after_verified_output_sha(
+    tmp_path,
+    monkeypatch,
+) -> None:
+    rows = tiny_rows()
+    baseline, _ = write_tiny_inputs(tmp_path)
+    events = []
+    install_fake_unified_builder(monkeypatch, rows)
+    install_fake_figure_generator(monkeypatch, [], events)
+    original_sha256_file = analysis_v1.sha256_file
+
+    def recording_sha256_file(path):
+        digest = original_sha256_file(path)
+        if Path(path).name == "unified_analysis_v1.csv":
+            events.append("verify_output_sha")
+        return digest
+
+    monkeypatch.setattr(analysis_v1, "sha256_file", recording_sha256_file)
+
+    reproduce_analysis_v1(
+        repo_root=tmp_path,
+        baseline_joined=baseline,
+        output_dir=tmp_path / "out",
+        invariants=tiny_invariants(rows),
+        cohorts=tiny_cohorts(),
+    )
+
+    assert events == [
+        "verify_output_sha",
+        "prepare_figures",
+        "generate_figures",
+    ]
+
+
+def test_reproduction_figure_failure_fails_reproduction(
+    tmp_path,
+    monkeypatch,
+) -> None:
+    rows = tiny_rows()
+    baseline, _ = write_tiny_inputs(tmp_path)
+    install_fake_unified_builder(monkeypatch, rows)
+
+    def fake_prepare(output_dir, *, force=False):
+        Path(output_dir).mkdir(parents=True, exist_ok=True)
+
+    def fake_generate(*, input_csv, output_dir, force=False):
+        raise RuntimeError("plot failed")
+
+    monkeypatch.setattr(
+        figures_v1,
+        "prepare_analysis_v1_figure_outputs",
+        fake_prepare,
+    )
+    monkeypatch.setattr(
+        figures_v1,
+        "generate_analysis_v1_figures",
+        fake_generate,
+    )
+
+    with pytest.raises(ReproductionError, match="plot failed"):
         reproduce_analysis_v1(
             repo_root=tmp_path,
             baseline_joined=baseline,
@@ -481,6 +721,7 @@ def test_reproduction_does_not_call_other_pipeline_stages(
     rows = tiny_rows()
     baseline, _ = write_tiny_inputs(tmp_path)
     install_fake_unified_builder(monkeypatch, rows)
+    install_fake_figure_generator(monkeypatch, [])
 
     forbidden_names = [
         "run_validation",

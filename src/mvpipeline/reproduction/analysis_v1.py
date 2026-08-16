@@ -69,6 +69,8 @@ class ReproductionResult:
     row_count: int
     column_count: int
     sha256: str
+    figure_output_dir: Path
+    figure_files: tuple[Path, ...]
 
 
 PRODUCTION_INVARIANTS = ProductionInvariants(
@@ -390,11 +392,25 @@ def reproduce_analysis_v1(
     baseline_path = Path(baseline_joined)
     destination_dir = Path(output_dir)
     output_path = destination_dir / UNIFIED_ANALYSIS_V1_FILENAME
+    figure_output_dir = destination_dir / "figures"
 
     if output_path.exists() and not force:
         raise ReproductionError(
             f"Output already exists: {output_path}; use --force to replace it"
         )
+
+    from mvpipeline.analysis.figures_v1 import (
+        generate_analysis_v1_figures,
+        prepare_analysis_v1_figure_outputs,
+    )
+
+    try:
+        prepare_analysis_v1_figure_outputs(
+            figure_output_dir,
+            force=force,
+        )
+    except RuntimeError as exc:
+        raise ReproductionError(str(exc)) from exc
 
     manifest_path = root / ANALYSIS_V1_MANIFEST_RELATIVE_PATH
     manifest_entries = parse_sha256_manifest(manifest_path)
@@ -425,9 +441,20 @@ def reproduce_analysis_v1(
             f"expected={expected_output.digest}, actual={digest}"
         )
 
+    try:
+        figure_report = generate_analysis_v1_figures(
+            input_csv=report.output_path,
+            output_dir=figure_output_dir,
+            force=False,
+        )
+    except (FileNotFoundError, RuntimeError) as exc:
+        raise ReproductionError(str(exc)) from exc
+
     return ReproductionResult(
         output_path=report.output_path,
         row_count=len(rows),
         column_count=len(rows[0]) if rows else 0,
         sha256=digest,
+        figure_output_dir=figure_report.output_dir,
+        figure_files=figure_report.output_files,
     )
