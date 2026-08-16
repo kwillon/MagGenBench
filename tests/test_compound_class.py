@@ -9,6 +9,7 @@ REPRESENTATIVE_FORMULAS = [
     "H2",
     "Fe",
     "O",
+    "B",
     "HCl",
     "NaOH",
     "FeNi",
@@ -49,7 +50,8 @@ def test_compound_class_representative_labels():
     assert classify_formula("") == "unknown"
     assert classify_formula("H2") == "gas"
     assert classify_formula("Fe") == "metal"
-    assert classify_formula("O") == "elemental nonmetal"
+    assert classify_formula("O") == "gas"
+    assert classify_formula("B") == "elemental nonmetal"
     assert classify_formula("HCl") == "acid"
     assert classify_formula("NaOH") == "hydroxide/base"
     assert classify_formula("FeNi") == "intermetallic"
