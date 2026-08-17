@@ -37,7 +37,7 @@ Every top-level directory has a specific role:
 | `archive/` | Historical scripts and superseded paths retained for provenance only. Current code must not depend on this directory. |
 | `tests/` | Unit and regression tests for the current package, wrappers, and reproducibility surface. |
 
-Repository metadata and packaging files live at the root, including `pyproject.toml`, `environment.yml`, `Dockerfile`, `REFACTOR_PLAN.md`, and `REPO_AUDIT.md`.
+Repository metadata and packaging files live at the root, including `pyproject.toml`, `environment.yml`, `Dockerfile`, and `AGENTS.md` for developer/tooling guidance. Historical audit and refactor planning records live under `archive/docs/`.
 
 ## Package Areas
 

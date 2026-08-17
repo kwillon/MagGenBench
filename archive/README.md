@@ -9,7 +9,8 @@ part of the current MagGenBench execution surface.
 - `scripts/phase5a6`: superseded production-manifest helper.
 - `scripts/phase5b`: superseded fine-tuned annotation preparation.
 - `scripts/table_building`: historical table and data-preparation helpers.
-- `docs`: historical implementation and run notes retained for provenance.
+- `docs`: historical phase/run notes, repository audit and refactor planning
+  records, and provenance retained for development history.
 - `source_backups`: historical source backups retained because their behavior
   differs from the canonical implementation.
 
@@ -17,5 +18,5 @@ Archive code is not the supported production entry point. Historical names are
 intentionally preserved here for provenance. Active reusable code lives under
 `src/mvpipeline`, and active script entry points live under semantic
 `scripts/` directories. Current contracts and guides live under `docs/`;
-historical phase/run notes live under `archive/docs/`. Frozen scientific
-artifacts are not moved into `archive/`.
+historical phase/run notes and refactor records live under `archive/docs/`.
+Frozen scientific artifacts are not moved into `archive/`.
