@@ -15,8 +15,34 @@ artifacts, not hand-curated source data.
   of lightweight Analysis v1 reproduction.
 - `06_energy/`: frozen CHGNet energy-stage outputs.
 - `07_magnetic_descriptors/`: frozen DXMag/magnetism-stage outputs.
+- `08_standardized_enrichment/`: post-v1 standardized per-structure CHGNet
+  and DXMag master table for all current cohorts.
 - `legacy/`: retained historical artifacts, including some exact duplicates,
   preserved for provenance and compatibility.
+
+`tables/` contains tracked canonical/frozen scientific artifacts. `runs/`
+contains execution recipes, provenance, and checksum contracts. `reproduced/`
+contains generated reproduction outputs and is ignored.
+
+## Standardized Enrichment Coverage
+
+Use `tables/08_standardized_enrichment/standardized_enrichment.csv` for
+per-structure inspection. One row is one structure. The table includes
+structure identity, model/cohort, formula, structural/compositional
+annotations, CHGNet output, and DXMag output.
+
+| Cohort | CHGNet | DXMag |
+| --- | --- | --- |
+| MatterGen baseline | yes | yes |
+| MatterGen fine-tuned | yes | yes |
+| Con-CDVAE baseline | yes | yes |
+| Con-CDVAE fine-tuned | yes | yes |
+| CrystalFormer baseline | yes | yes |
+| CrystaLLM baseline | yes | yes |
+| Crys-JEPA Base | yes | yes |
+| Crys-JEPA Refined | yes | yes |
+
+Descriptor v2 is not yet present in this table.
 
 ## Frozen Names And Duplicates
 

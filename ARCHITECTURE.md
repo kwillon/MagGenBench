@@ -28,6 +28,20 @@ model CIF outputs
 
 Expensive model generation, descriptor extraction, CHGNet execution, and DXMag execution are not rerun by the Analysis v1 reproducer. The reproducer consumes frozen required inputs, rebuilds the unified analysis table, verifies its checksum, and then regenerates figures/statistics.
 
+The post-v1 standardized enrichment layer keeps the frozen Analysis v1 flow
+separate while publishing a symmetric per-structure enrichment interface:
+
+```text
+source/annotation artifacts
+  -> standardized CHGNet + DXMag per cohort
+  -> standardized_enrichment.csv
+  -> future Descriptor v2 / Analysis v2
+```
+
+The standardized master does not rewrite Analysis v1 or Descriptor v1. It is
+the current recommended table for inspecting CHGNet and DXMag outputs across
+all eight current cohorts.
+
 ## Package Responsibilities
 
 `src/mvpipeline` is the current reusable package root.
@@ -37,6 +51,7 @@ Expensive model generation, descriptor extraction, CHGNet execution, and DXMag e
 | `analysis` | Canonical production cohort registry, unified-analysis helpers, plotting group definitions, shared figure conventions, and Analysis v1 figure generation. |
 | `annotations` | Annotation preparation and production-manifest helpers for active workflows. |
 | `descriptors` | Descriptor v1 implementation and descriptor table handling. |
+| `enrichment` | Standardized post-v1 enrichment registry, manifest preparation, master-table construction, and invariant checks. |
 | `energy` | CHGNet backend adapters and energy-stage result handling. |
 | `magnetism` | DXMag backend adapters and magnetism-stage result handling. |
 | `io` | Lightweight manifest, CIF, CSV, and table IO helpers. |

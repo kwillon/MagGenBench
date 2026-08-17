@@ -48,6 +48,7 @@ The active package is `mvpipeline`:
 | `mvpipeline.analysis` | Cohort registry, unified analysis helpers, figure-generation logic, and Analysis v1 plotting conventions. |
 | `mvpipeline.annotations` | Production annotation and manifest preparation helpers. |
 | `mvpipeline.descriptors` | Descriptor v1 extraction and schema-preserving descriptor code. |
+| `mvpipeline.enrichment` | Post-v1 standardized enrichment registry, manifest preparation, and master-table validation helpers. |
 | `mvpipeline.energy` | CHGNet-oriented backend adapters and energy result handling. |
 | `mvpipeline.magnetism` | DXMag-oriented backend adapters and magnetism result handling. |
 | `mvpipeline.io` | Dependency-light CSV, manifest, CIF, and table IO helpers. |
@@ -160,6 +161,30 @@ The complete Analysis v1 figure/statistics output set contains 15 files:
 - `09_magnetic_screening_element_fraction.png`
 - `dxmag_predicted_moment_summary.csv`
 - `10_dxmag_predicted_moment_distribution.png`
+
+## Standardized Enrichment
+
+The recommended current per-structure interface for energy and magnetism data
+is:
+
+```text
+tables/08_standardized_enrichment/standardized_enrichment.csv
+```
+
+This post-v1 reference table keeps frozen Analysis v1 unchanged while
+publishing symmetric CHGNet and DXMag artifacts for all eight current cohorts:
+MatterGen baseline/fine-tuned, Con-CDVAE baseline/fine-tuned, CrystalFormer
+baseline, CrystaLLM baseline, Crys-JEPA Base, and Crys-JEPA Refined.
+
+The standardized master has `10684` rows, `87` columns, populated
+`formula_reduced` and `formula_full_canonical` for every row, CHGNet status
+counts `ok = 10680` and `error = 4`, and DXMag status count `ok = 10684`.
+Its SHA-256 is:
+
+`8a62cc9720de9249cdb2c6ce929fa3f98e065ef93c881c1c1160d330940db02d`
+
+See `runs/enrichment/standardized/README.md` and
+`tables/README.md` for the standardized run contract and coverage map.
 
 ## Run Recipes
 
