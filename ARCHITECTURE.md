@@ -116,6 +116,7 @@ Generated or externally supplied areas:
 - `reports/`
 - `outputs/`
 - `reproduced/`
+- exploratory Analysis v1 figures under `figures/unified_analysis_v1/`
 - full production CIF collections
 - large model/checkpoint artifacts
 - local logs and caches
@@ -124,6 +125,10 @@ Provenance-only areas:
 
 - `archive/`
 - run-specific manifests, checksums, and README files
+
+Publication artifacts selected for a manuscript belong under `paper/figures/`
+or `paper/tables/` when they exist; exploratory outputs do not move there
+automatically.
 
 Current code should not import from `archive/` or `scripts/legacy`. Historical files remain only to explain how earlier artifacts were produced.
 

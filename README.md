@@ -31,6 +31,7 @@ Every top-level directory has a specific role:
 | `samples/` | Versioned sample CIF inputs included with the repository where appropriate. |
 | `tables/` | Table outputs and table-oriented artifacts. Generated tables should be treated as artifacts, not source. |
 | `figures/` | Figure outputs. Reproduced figures are generated artifacts, not reusable code. |
+| `paper/` | Policy and future location for manuscript-selected publication figures/tables. |
 | `reports/` | Generated reports and audit outputs. |
 | `docs/` | Supporting documentation beyond the primary README and architecture notes. |
 | `archive/` | Historical scripts and superseded paths retained for provenance only. Current code must not depend on this directory. |
@@ -184,7 +185,7 @@ Small, versioned fixtures and metadata can live in Git. Large or machine-specifi
 - Generated production CSVs when they are too large or are frozen publication artifacts.
 - Logs, temporary files, and local reproduction outputs.
 
-Generated outputs should go under explicit artifact locations such as `reproduced/`, `outputs/`, `reports/`, `tables/`, or `figures/` depending on their role. Reproduced outputs are artifacts, not source code.
+Generated outputs should go under explicit artifact locations such as `reproduced/`, `outputs/`, `reports/`, `tables/`, or `figures/` depending on their role. Reproduced outputs are artifacts, not source code. See `tables/README.md`, `paper/README.md`, and `archive/README.md` for artifact and provenance policy details.
 
 ## Docker Reproducibility
 
