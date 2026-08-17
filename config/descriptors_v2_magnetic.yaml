@@ -1,0 +1,19 @@
+descriptors_v2_magnetic:
+  schema_version: "v2-magnetic"
+  magnetic_screening_config: "config/magnetism.yaml"
+
+  symmetry:
+    symprec: 0.01
+    angle_tolerance: 5
+
+  local_geometry:
+    method: "MinimumDistanceNN"
+    cutoff_angstrom: 10.0
+    tolerance: 0.1
+    get_all_sites: false
+    use_weights: false
+
+  output:
+    preserve_input_order: true
+    require_unique_sample_uid: true
+    pre_round_floats: false
