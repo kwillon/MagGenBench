@@ -1,23 +1,24 @@
 # Paper Artifacts
 
-This directory is reserved for publication artifacts deliberately selected for
-the manuscript.
+Descriptor v1 and Analysis v1 remain frozen for reproducibility.
 
-Tracked here in future work:
+The downstream standardized enrichment layer, Magnetic Descriptor v2,
+and Analysis v2 magnetic are also frozen scientific artifacts and must
+not be overwritten by publication-figure work.
 
-- final figures actually used in the manuscript under `paper/figures/`;
-- final manuscript tables under `paper/tables/`, if used;
-- enough provenance or code references to reproduce the selected artifacts.
+Exploratory and reproducible Analysis v2 figure outputs are generated
+under:
 
-Not automatically tracked here:
+reproduced/analysis_v2_magnetic/
 
-- exploratory plots;
-- smoke-test figures;
-- every intermediate Analysis v1 image;
-- reproduction outputs.
+Only manuscript-selected final figures belong under:
 
-Descriptor v1 and Analysis v1 are frozen. Future Descriptor v2 work must be a
-separate scientific layer and must not overwrite Descriptor v1 artifacts or
-Analysis v1 contracts. After Descriptor v2 and final scientific analysis,
-publication-ready selected figures should be generated or copied deliberately
-into `paper/figures/` and committed.
+paper/figures/
+
+Final manuscript tables are reserved under:
+
+paper/tables/
+
+Publication figure work must not overwrite frozen scientific artifacts.
+Publication artifacts under paper/ must retain reproducible provenance
+to the corresponding analysis code and frozen scientific inputs.

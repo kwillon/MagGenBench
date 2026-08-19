@@ -8,6 +8,8 @@ The repository goal is to be self-explanatory and reproducible: reusable code li
 
 MagGenBench currently supports the frozen Analysis v1 workflow. Analysis v1 combines validation, Descriptor v1 structural/composition descriptors, CHGNet energy enrichment, DXMag magnetism enrichment, and plotting into one unified analysis table and a fixed set of paper figures/statistics.
 
+Downstream of Analysis v1, the standardized enrichment table, Magnetic Descriptor v2, and Analysis v2 magnetic table are also frozen scientific artifacts. Magnetic Descriptor v2 and Analysis v2 magnetic are separate layers built from the standardized enrichment interface; they do not rewrite or replace frozen Analysis v1.
+
 The benchmark distinguishes these cohort roles:
 
 - Core baseline model families: MatterGen, Con-CDVAE, CrystalFormer, CrystaLLM.
@@ -45,7 +47,7 @@ The active package is `mvpipeline`:
 
 | Package | Role |
 | --- | --- |
-| `mvpipeline.analysis` | Cohort registry, unified analysis helpers, figure-generation logic, and Analysis v1 plotting conventions. |
+| `mvpipeline.analysis` | Cohort registry, unified analysis helpers, figure-generation logic, Analysis v1 plotting conventions, and Analysis v2 magnetic integration/figure helpers. |
 | `mvpipeline.annotations` | Production annotation and manifest preparation helpers. |
 | `mvpipeline.descriptors` | Descriptor v1 extraction and schema-preserving descriptor code. |
 | `mvpipeline.enrichment` | Post-v1 standardized enrichment registry, manifest preparation, and master-table validation helpers. |
@@ -193,8 +195,10 @@ Active run recipes live under semantic paths in `runs/`:
 - `runs/validation/`
 - `runs/annotations/`
 - `runs/enrichment/`
+- `runs/descriptors/magnetic/`
 - `runs/descriptor_v1_full/`
 - `runs/analysis_v1/`
+- `runs/analysis_v2_magnetic/`
 
 These directories document how frozen production artifacts were prepared and how current workflows are orchestrated. They are not a substitute for reusable package code; shared behavior belongs in `src/mvpipeline`.
 
@@ -295,6 +299,7 @@ Descriptor changes must preserve the frozen Descriptor v1 contract unless a new 
 - CHGNet outputs in this repository are machine-learning energy predictions. They are not DFT formation energies, hull distances, or thermodynamic stability labels unless explicitly transformed and documented.
 - DXMag outputs are predicted magnetic moments in `muB/f.u.`. They are not magnetic ordering, saturation magnetization, Curie temperature, or structure-dependent DFT magnetic moments.
 - Composition screens for magnetic elements indicate chemical plausibility, not a verified magnetic ground state.
+- Magnetic Descriptor v2 describes composition, magnetic-site geometry, and symmetry proxies. It does not establish magnetic order.
 - Descriptor v1 is frozen for Analysis v1 reproducibility. Changes require a new versioned descriptor contract.
 
 ## Provenance
