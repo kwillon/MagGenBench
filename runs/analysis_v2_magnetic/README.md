@@ -10,7 +10,13 @@ The output is generated under:
 
 `reproduced/analysis_v2_magnetic/analysis_v2_magnetic.csv`
 
-No tracked canonical Analysis v2 CSV is created in this checkpoint.
+The accepted canonical Analysis v2 magnetic artifact is:
+
+`tables/10_analysis_v2_magnetic/analysis_v2_magnetic.csv`
+
+Its SHA-256 contract is recorded in `final_sha256.txt`:
+
+`221deb82b2ac3e5442b4930dd9dcf05dc411e46244f1ce80a401a7d6775bc181`
 
 ## Contract
 
@@ -38,6 +44,10 @@ The output keeps the standardized-enrichment version of the ten shared
 identity columns and appends only the 31 Descriptor-v2-specific columns. It
 does not create `_x`, `_y`, or duplicate identity columns.
 
+Server acceptance confirmed that the first 87 output columns preserve the
+standardized enrichment schema and values exactly, and that the appended 31
+Descriptor-v2-specific columns preserve Descriptor v2 values exactly.
+
 ## Join Semantics
 
 `structure_id` is the primary join key. Both inputs must have unique
@@ -63,6 +73,14 @@ Any mismatch fails loudly. The output preserves the row order of
 | `crysjepa_refined` | 1543 |
 
 Total: `10684`.
+
+## Accepted Status Counts
+
+- `descriptor_v2_status`: `ok = 10684`
+- `magnetic_geometry_status`: `ok = 7756`, `not_applicable = 2928`
+- `magnetic_symmetry_status`: `ok = 10684`
+- `energy_status`: `ok = 10680`, `error = 4`
+- `magnetism_status`: `ok = 10684`
 
 ## Scope
 

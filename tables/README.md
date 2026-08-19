@@ -19,6 +19,9 @@ artifacts, not hand-curated source data.
   and DXMag master table for all current cohorts.
 - `09_descriptor_v2_magnetic/`: canonical/frozen Magnetic Descriptor v2
   per-structure layer derived from the standardized enrichment input.
+- `10_analysis_v2_magnetic/`: canonical/frozen Analysis v2 per-structure
+  integration layer combining standardized enrichment and Magnetic Descriptor
+  v2.
 - `legacy/`: retained historical artifacts, including some exact duplicates,
   preserved for provenance and compatibility.
 
@@ -47,6 +50,12 @@ annotations, CHGNet output, and DXMag output.
 Magnetic Descriptor v2 remains a separate layer at
 `tables/09_descriptor_v2_magnetic/descriptor_v2_magnetic.csv`; its columns are
 not merged into the standardized enrichment master table.
+
+Analysis v2 magnetic is a downstream integration layer at
+`tables/10_analysis_v2_magnetic/analysis_v2_magnetic.csv`. It combines the
+unchanged standardized enrichment table with the unchanged Magnetic Descriptor
+v2 table. It does not replace either source table, and Analysis v1 remains
+frozen.
 
 ## Frozen Names And Duplicates
 
