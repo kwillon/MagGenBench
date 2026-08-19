@@ -13,7 +13,30 @@ The run recipe writes generated output to:
 
 `reproduced/descriptor_v2_magnetic/descriptor_v2_magnetic.csv`
 
-No tracked production Descriptor-v2 CSV is created in this checkpoint.
+The accepted canonical Descriptor-v2 artifact is:
+
+`tables/09_descriptor_v2_magnetic/descriptor_v2_magnetic.csv`
+
+Its SHA-256 contract is recorded in `final_sha256.txt`.
+
+Accepted full-run facts:
+
+- input rows: `10684`
+- output rows: `10684`
+- columns: `41`
+- unique `structure_id`: `10684`
+- unique `sample_uid`: `10684`
+- `sample_uid == structure_id` for all `10684` rows
+- `descriptor_v2_status`: `ok = 10684`
+- `magnetic_geometry_status`: `ok = 7756`, `not_applicable = 2928`
+- `magnetic_symmetry_status`: `ok = 10684`
+- all relevant fractions are within `[0, 1]`
+- no infinities
+- magnetic/nonmagnetic status mismatch: `0`
+- non-finite magnetic geometry values for magnetic structures: `0`
+- non-null magnetic geometry values for nonmagnetic structures: `0`
+- `n_symmetry_unique_magnetic_sites > n_symmetry_unique_sites` violations: `0`
+- `contains_3d_and_configured_lanthanide` mismatches: `0`
 
 ## Scientific Fields
 

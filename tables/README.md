@@ -17,6 +17,8 @@ artifacts, not hand-curated source data.
 - `07_magnetic_descriptors/`: frozen DXMag/magnetism-stage outputs.
 - `08_standardized_enrichment/`: post-v1 standardized per-structure CHGNet
   and DXMag master table for all current cohorts.
+- `09_descriptor_v2_magnetic/`: canonical/frozen Magnetic Descriptor v2
+  per-structure layer derived from the standardized enrichment input.
 - `legacy/`: retained historical artifacts, including some exact duplicates,
   preserved for provenance and compatibility.
 
@@ -42,7 +44,9 @@ annotations, CHGNet output, and DXMag output.
 | Crys-JEPA Base | yes | yes |
 | Crys-JEPA Refined | yes | yes |
 
-Descriptor v2 is not yet present in this table.
+Magnetic Descriptor v2 remains a separate layer at
+`tables/09_descriptor_v2_magnetic/descriptor_v2_magnetic.csv`; its columns are
+not merged into the standardized enrichment master table.
 
 ## Frozen Names And Duplicates
 
