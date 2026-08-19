@@ -154,10 +154,13 @@ def test_analysis_v2_output_is_deterministic(tmp_path):
 
 
 def test_analysis_v2_duplicate_structure_id_failure(tmp_path):
+    duplicate = [std_row("s1"), std_row("s2")]
+    duplicate[1]["structure_id"] = "s1"
+
     with pytest.raises(RuntimeError, match="duplicate structure_id"):
         build_small(
             tmp_path,
-            [std_row("s1"), std_row("s1")],
+            duplicate,
             [desc_row("s1"), desc_row("s2")],
         )
 
