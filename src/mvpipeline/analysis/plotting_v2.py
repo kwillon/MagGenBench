@@ -51,6 +51,12 @@ ANALYSIS_V2_STANDALONE_BASENAMES = (
     "03_configured_lanthanide_fraction_v2",
     "04_magnetic_neighbor_fraction_v2",
 )
+ANALYSIS_V2_PCA_BASENAMES = (
+    "05_pca_composition_symmetry_v2",
+    "06_pca_magnetic_geometry_v2",
+    "07_pca_adaptation_shifts_v2",
+    "08_pca_loadings_v2",
+)
 
 
 @dataclass(frozen=True)
