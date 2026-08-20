@@ -32,6 +32,16 @@ def test_analysis_v2_publication_palette_and_order_are_explicit():
     assert plotting_v2.ANALYSIS_V2_DARK_TEXT == "#23324F"
     assert plotting_v2.ANALYSIS_V2_WARM_NEUTRAL == "#524534"
     assert plotting_v2.ANALYSIS_V2_OVERVIEW_CREAM == "#F0E2C5"
+    assert plotting_v2.ANALYSIS_V2_MAGNETIC_COHORT_LABELS == {
+        "mattergen_baseline": "MatterGen\nBase",
+        "mattergen_finetuned": "MatterGen\nFT",
+        "concdvae_baseline": "Con-CDVAE\nBase",
+        "concdvae_finetuned": "Con-CDVAE\nFT",
+        "crystalformer_baseline": "CrystalFormer\nBase",
+        "crystallm_baseline": "CrystaLLM\nBase",
+        "crysjepa_base": "Crys-JEPA\nBase",
+        "crysjepa_refined": "Crys-JEPA\nRef.",
+    }
 
 
 def test_analysis_v2_export_paths_use_generated_reproduced_area(tmp_path):
@@ -52,6 +62,18 @@ def test_analysis_v2_export_paths_use_generated_reproduced_area(tmp_path):
     assert paths.svg == tmp_path / "preview.svg"
 
 
+def test_analysis_v2_export_basenames_are_explicit():
+    assert plotting_v2.ANALYSIS_V2_PREVIEW_BASENAME == (
+        "magnetic_domain_overview_v2_preview"
+    )
+    assert plotting_v2.ANALYSIS_V2_STANDALONE_BASENAMES == (
+        "01_cohort_sizes_v2",
+        "02_transition_3d_fraction_v2",
+        "03_configured_lanthanide_fraction_v2",
+        "04_magnetic_neighbor_fraction_v2",
+    )
+
+
 def test_analysis_v2_figure_scripts_are_thin_wrappers():
     root = Path(__file__).resolve().parents[1]
 
@@ -64,5 +86,6 @@ def test_analysis_v2_figure_scripts_are_thin_wrappers():
 
     assert "audit_analysis_v2_magnetic_inputs" in audit
     assert "generate_analysis_v2_magnetic_preview_figure" in preview
+    assert "standalone_png:" in preview
     assert "pd.read_csv" not in audit
     assert "plt.subplots" not in preview

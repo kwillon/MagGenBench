@@ -9,8 +9,8 @@ from .plotting_v2 import (
     ANALYSIS_V2_MAGNETIC_COHORT_ORDER,
     ANALYSIS_V2_AUDIT_OUTPUT_DIR,
     ANALYSIS_V2_FIGURE_OUTPUT_DIR,
-    ANALYSIS_V2_OUTPUT_DIR,
     ANALYSIS_V2_PREVIEW_BASENAME,
+    ANALYSIS_V2_STANDALONE_BASENAMES,
     FigureExportPaths,
     apply_analysis_v2_publication_style,
     save_analysis_v2_figure_bundle,
@@ -81,6 +81,7 @@ class AnalysisV2MagneticPreviewReport:
     input_csv: Path
     output_dir: Path
     figure_paths: FigureExportPaths
+    standalone_paths: tuple[FigureExportPaths, ...] = ()
 
 
 def _read_analysis_v2_dataframe(input_csv: str | Path):
@@ -293,7 +294,18 @@ def _panel_label(ax, label: str) -> None:
     )
 
 
-def _plot_counts(ax, df) -> None:
+def _format_cohort_axis(ax, *, with_labels: bool = True) -> None:
+    x = _cohort_positions()
+    ax.set_xticks(x)
+    if with_labels:
+        ax.set_xticklabels(_cohort_labels(), rotation=0)
+        ax.tick_params(axis="x", pad=5)
+    else:
+        ax.set_xticklabels([])
+        ax.tick_params(axis="x", length=0)
+
+
+def _plot_counts(ax, df, *, panel: str | None = None) -> None:
     counts = (
         df["analysis_cohort"]
         .value_counts()
@@ -318,52 +330,61 @@ def _plot_counts(ax, df) -> None:
             fontsize=7.2,
         )
     ax.set_ylabel("Structures")
-    ax.set_xticks(x)
-    ax.set_xticklabels(_cohort_labels(), rotation=0)
+    _format_cohort_axis(ax)
     ax.set_ylim(0, max(counts.values) * 1.14)
     _style_axis(ax)
-    _panel_label(ax, "A")
+    if panel:
+        _panel_label(ax, panel)
 
 
-def _plot_prevalence_and_nonzero_box(
-    ax,
-    df,
-    *,
-    variable: str,
-    ylabel: str,
-    panel: str,
-) -> None:
-    import numpy as np
-
-    x = _cohort_positions()
-    colors = _cohort_colors()
+def _nonzero_values_by_cohort(df, variable: str):
+    values_by_cohort = []
     prevalence = []
-    nonzero = []
     for cohort in ANALYSIS_V2_MAGNETIC_COHORT_ORDER:
         values = _finite_values(df.loc[df["analysis_cohort"] == cohort, variable])
         prevalence.append(100.0 * float((values > 0).mean()) if len(values) else 0.0)
-        nonzero.append(values[values > 0].to_numpy())
+        values_by_cohort.append(values[values > 0].to_numpy())
+    return prevalence, values_by_cohort
 
+
+def _plot_fraction_prevalence_axis(
+    df,
+    *,
+    variable: str,
+    ax,
+    with_labels: bool,
+) -> None:
+    x = _cohort_positions()
+    prevalence, _ = _nonzero_values_by_cohort(df, variable)
     ax.bar(
         x,
         prevalence,
-        color=colors,
+        color=_cohort_colors(),
         alpha=0.84,
         edgecolor="#23324F",
         linewidth=0.45,
     )
-    ax.set_ylabel("Structures with fraction > 0 (%)")
+    ax.set_ylabel("Prevalence (>0), %")
     ax.set_ylim(0, 100)
-    ax.set_xticks(x)
-    ax.set_xticklabels(_cohort_labels(), rotation=0)
+    _format_cohort_axis(ax, with_labels=with_labels)
     _style_axis(ax)
 
-    inset = ax.inset_axes([0.08, 0.47, 0.86, 0.42])
+def _plot_fraction_nonzero_axis(
+    df,
+    *,
+    variable: str,
+    ax,
+    with_labels: bool,
+) -> None:
+    import numpy as np
+
+    x = _cohort_positions()
+    _, nonzero = _nonzero_values_by_cohort(df, variable)
     box_data = [
         values if len(values) else np.array([np.nan])
         for values in nonzero
     ]
-    bp = inset.boxplot(
+    bp = ax.boxplot(
         box_data,
         positions=x,
         widths=0.58,
@@ -374,15 +395,39 @@ def _plot_prevalence_and_nonzero_box(
         whiskerprops={"linewidth": 0.55, "color": "#23324F"},
         capprops={"linewidth": 0.55, "color": "#23324F"},
     )
-    for patch, color in zip(bp["boxes"], colors):
+    for patch, color in zip(bp["boxes"], _cohort_colors()):
         patch.set_facecolor(color)
-        patch.set_alpha(0.38)
-    inset.set_xticks([])
-    inset.set_ylabel("nonzero", fontsize=7)
-    inset.tick_params(axis="y", labelsize=7)
-    inset.set_title(ylabel, fontsize=8, pad=1)
-    inset.grid(axis="y", color="#D5D5D5", linewidth=0.35, alpha=0.5)
-    _panel_label(ax, panel)
+        patch.set_alpha(0.52)
+    ax.set_ylabel("Fraction among\nnonzero structures")
+    ax.set_ylim(0, 1.02)
+    _format_cohort_axis(ax, with_labels=with_labels)
+    _style_axis(ax)
+
+
+def _plot_fraction_panel(
+    top_ax,
+    bottom_ax,
+    df,
+    *,
+    variable: str,
+    title: str,
+    panel: str | None = None,
+) -> None:
+    _plot_fraction_prevalence_axis(
+        df,
+        variable=variable,
+        ax=top_ax,
+        with_labels=False,
+    )
+    _plot_fraction_nonzero_axis(
+        df,
+        variable=variable,
+        ax=bottom_ax,
+        with_labels=True,
+    )
+    top_ax.set_title(title, pad=6)
+    if panel:
+        _panel_label(top_ax, panel)
 
 
 def _plot_applicable_box(
@@ -391,7 +436,7 @@ def _plot_applicable_box(
     *,
     variable: str,
     ylabel: str,
-    panel: str,
+    panel: str | None = None,
 ) -> None:
     colors = _cohort_colors()
     x = _cohort_positions()
@@ -426,49 +471,136 @@ def _plot_applicable_box(
     ax.set_ylabel(ylabel)
     ax.set_xticks(x)
     ax.set_xticklabels(labels, rotation=0)
+    ax.tick_params(axis="x", pad=5)
     ax.set_ylim(0, 1.02)
     _style_axis(ax)
-    _panel_label(ax, panel)
+    if panel:
+        _panel_label(ax, panel)
 
 
-def generate_analysis_v2_magnetic_preview_figure(
-    input_csv: str | Path = ANALYSIS_V2_MAGNETIC_INPUT,
-    output_dir: str | Path = ANALYSIS_V2_FIGURE_OUTPUT_DIR,
-) -> AnalysisV2MagneticPreviewReport:
+def _new_figure(figsize: tuple[float, float]):
     import matplotlib
 
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
 
     apply_analysis_v2_publication_style()
+    fig = plt.figure(figsize=figsize, constrained_layout=True)
+    fig.patch.set_facecolor("white")
+    return fig
+
+
+def generate_analysis_v2_magnetic_standalone_figures(
+    input_csv: str | Path = ANALYSIS_V2_MAGNETIC_INPUT,
+    output_dir: str | Path = ANALYSIS_V2_FIGURE_OUTPUT_DIR,
+) -> tuple[FigureExportPaths, ...]:
+    df = _read_analysis_v2_dataframe(input_csv)
+    _require_audit_columns(df)
+    output_root = Path(output_dir)
+
+    paths: list[FigureExportPaths] = []
+
+    fig = _new_figure((8.8, 4.2))
+    import matplotlib.pyplot as plt
+
+    ax = fig.add_subplot(1, 1, 1)
+    _plot_counts(ax, df)
+    paths.append(save_analysis_v2_figure_bundle(
+        fig, output_root, ANALYSIS_V2_STANDALONE_BASENAMES[0]
+    ))
+    plt.close(fig)
+
+    for basename, variable, title in (
+        (
+            ANALYSIS_V2_STANDALONE_BASENAMES[1],
+            "transition_3d_fraction",
+            "3d transition-metal fraction",
+        ),
+        (
+            ANALYSIS_V2_STANDALONE_BASENAMES[2],
+            "configured_lanthanide_fraction",
+            "Configured lanthanide fraction",
+        ),
+    ):
+        fig = _new_figure((8.8, 5.8))
+        sub = fig.add_gridspec(2, 1, height_ratios=[1.0, 1.25], hspace=0.08)
+        top_ax = fig.add_subplot(sub[0, 0])
+        bottom_ax = fig.add_subplot(sub[1, 0], sharex=top_ax)
+        _plot_fraction_panel(
+            top_ax,
+            bottom_ax,
+            df,
+            variable=variable,
+            title=title,
+        )
+        paths.append(save_analysis_v2_figure_bundle(fig, output_root, basename))
+        plt.close(fig)
+
+    fig = _new_figure((8.8, 4.8))
+    ax = fig.add_subplot(1, 1, 1)
+    _plot_applicable_box(
+        ax,
+        df,
+        variable="magnetic_site_magnetic_neighbor_fraction_mean",
+        ylabel="Magnetic-neighbor fraction",
+    )
+    paths.append(save_analysis_v2_figure_bundle(
+        fig, output_root, ANALYSIS_V2_STANDALONE_BASENAMES[3]
+    ))
+    plt.close(fig)
+
+    return tuple(paths)
+
+
+def generate_analysis_v2_magnetic_preview_figure(
+    input_csv: str | Path = ANALYSIS_V2_MAGNETIC_INPUT,
+    output_dir: str | Path = ANALYSIS_V2_FIGURE_OUTPUT_DIR,
+    *,
+    export_standalone: bool = True,
+) -> AnalysisV2MagneticPreviewReport:
     df = _read_analysis_v2_dataframe(input_csv)
     _require_audit_columns(df)
 
-    fig, axes = plt.subplots(
-        2,
-        2,
-        figsize=(12.0, 8.2),
-        constrained_layout=True,
-    )
-    fig.patch.set_facecolor("white")
+    fig = _new_figure((14.2, 9.4))
+    import matplotlib.pyplot as plt
 
-    _plot_counts(axes[0, 0], df)
-    _plot_prevalence_and_nonzero_box(
-        axes[0, 1],
+    outer = fig.add_gridspec(2, 2, wspace=0.12, hspace=0.22)
+    ax_counts = fig.add_subplot(outer[0, 0])
+    transition_grid = outer[0, 1].subgridspec(
+        2, 1, height_ratios=[1.0, 1.25], hspace=0.08
+    )
+    ax_transition_top = fig.add_subplot(transition_grid[0, 0])
+    ax_transition_bottom = fig.add_subplot(
+        transition_grid[1, 0], sharex=ax_transition_top
+    )
+    lanthanide_grid = outer[1, 0].subgridspec(
+        2, 1, height_ratios=[1.0, 1.25], hspace=0.08
+    )
+    ax_lanthanide_top = fig.add_subplot(lanthanide_grid[0, 0])
+    ax_lanthanide_bottom = fig.add_subplot(
+        lanthanide_grid[1, 0], sharex=ax_lanthanide_top
+    )
+    ax_neighbor = fig.add_subplot(outer[1, 1])
+
+    _plot_counts(ax_counts, df, panel="A")
+    _plot_fraction_panel(
+        ax_transition_top,
+        ax_transition_bottom,
         df,
         variable="transition_3d_fraction",
-        ylabel="3d transition-metal fraction",
         panel="B",
+        title="3d transition-metal fraction",
     )
-    _plot_prevalence_and_nonzero_box(
-        axes[1, 0],
+    _plot_fraction_panel(
+        ax_lanthanide_top,
+        ax_lanthanide_bottom,
         df,
         variable="configured_lanthanide_fraction",
-        ylabel="configured lanthanide fraction",
         panel="C",
+        title="Configured lanthanide fraction",
     )
     _plot_applicable_box(
-        axes[1, 1],
+        ax_neighbor,
         df,
         variable="magnetic_site_magnetic_neighbor_fraction_mean",
         ylabel="Magnetic-neighbor fraction",
@@ -481,9 +613,18 @@ def generate_analysis_v2_magnetic_preview_figure(
         ANALYSIS_V2_PREVIEW_BASENAME,
     )
     plt.close(fig)
+    standalone_paths = (
+        generate_analysis_v2_magnetic_standalone_figures(
+            input_csv=input_csv,
+            output_dir=output_dir,
+        )
+        if export_standalone
+        else ()
+    )
 
     return AnalysisV2MagneticPreviewReport(
         input_csv=Path(input_csv),
         output_dir=Path(output_dir),
         figure_paths=paths,
+        standalone_paths=standalone_paths,
     )

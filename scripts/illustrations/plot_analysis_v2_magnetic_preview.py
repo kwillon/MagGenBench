@@ -49,6 +49,10 @@ def main() -> None:
     print("png:", preview.figure_paths.png)
     print("pdf:", preview.figure_paths.pdf)
     print("svg:", preview.figure_paths.svg)
+    for paths in preview.standalone_paths:
+        print("standalone_png:", paths.png)
+        print("standalone_pdf:", paths.pdf)
+        print("standalone_svg:", paths.svg)
     print("ANALYSIS_V2_MAGNETIC_PREVIEW_FIGURE: PASSED")
 
 

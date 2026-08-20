@@ -16,14 +16,14 @@ ANALYSIS_V2_MAGNETIC_COHORT_ORDER = (
 )
 
 ANALYSIS_V2_MAGNETIC_COHORT_LABELS = {
-    "mattergen_baseline": "MatterGen\nbaseline",
-    "mattergen_finetuned": "MatterGen\nfine-tuned",
-    "concdvae_baseline": "Con-CDVAE\nbaseline",
-    "concdvae_finetuned": "Con-CDVAE\nfine-tuned",
-    "crystalformer_baseline": "CrystalFormer\nbaseline",
-    "crystallm_baseline": "CrystaLLM\nbaseline",
+    "mattergen_baseline": "MatterGen\nBase",
+    "mattergen_finetuned": "MatterGen\nFT",
+    "concdvae_baseline": "Con-CDVAE\nBase",
+    "concdvae_finetuned": "Con-CDVAE\nFT",
+    "crystalformer_baseline": "CrystalFormer\nBase",
+    "crystallm_baseline": "CrystaLLM\nBase",
     "crysjepa_base": "Crys-JEPA\nBase",
-    "crysjepa_refined": "Crys-JEPA\nRefined",
+    "crysjepa_refined": "Crys-JEPA\nRef.",
 }
 
 ANALYSIS_V2_MAGNETIC_COHORT_COLORS = {
@@ -45,6 +45,12 @@ ANALYSIS_V2_AUDIT_OUTPUT_DIR = ANALYSIS_V2_OUTPUT_DIR / "audit"
 ANALYSIS_V2_FIGURE_OUTPUT_DIR = ANALYSIS_V2_OUTPUT_DIR / "figures"
 
 ANALYSIS_V2_PREVIEW_BASENAME = "magnetic_domain_overview_v2_preview"
+ANALYSIS_V2_STANDALONE_BASENAMES = (
+    "01_cohort_sizes_v2",
+    "02_transition_3d_fraction_v2",
+    "03_configured_lanthanide_fraction_v2",
+    "04_magnetic_neighbor_fraction_v2",
+)
 
 
 @dataclass(frozen=True)
