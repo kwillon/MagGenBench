@@ -360,7 +360,7 @@ def _save_adaptation_shift_figure(
 
     fig = _new_figure((12.2, 4.6))
     fig.suptitle(
-        "Centroid shifts in composition + global symmetry PCA space",
+        "Centroid shifts in composition and global symmetry PCA space",
         fontsize=11,
     )
     axes = fig.subplots(1, 3, sharex=True, sharey=True)
@@ -414,13 +414,13 @@ def _save_loadings_figure(
         axes[0, 0],
         composition.loadings,
         "PC1",
-        title="Composition + symmetry PC1",
+        title="Composition and global symmetry PC1",
     )
     _plot_loading_axis(
         axes[0, 1],
         composition.loadings,
         "PC2",
-        title="Composition + symmetry PC2",
+        title="Composition and global symmetry PC2",
     )
     _plot_loading_axis(
         axes[1, 0],
@@ -559,7 +559,7 @@ def generate_analysis_v2_pca_outputs(
             composition,
             output_dir=figure_root,
             basename=ANALYSIS_V2_PCA_BASENAMES[0],
-            title="Composition + global symmetry PCA",
+            title="Composition and global symmetry PCA",
         ),
         _save_scatter_figure(
             magnetic_geometry,
