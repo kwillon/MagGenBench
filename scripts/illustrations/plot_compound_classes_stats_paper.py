@@ -296,7 +296,7 @@ def main():
     df = pd.read_csv(INPUT_CSV, low_memory=False)
 
     if "compound_class" not in df.columns:
-        raise ValueError("Column compound_class was not found. Run add_compound_class.py first.")
+        raise ValueError("Column compound_class was not found. Use an annotated canonical input table containing compound_class.")
 
     df["compound_class"] = df["compound_class"].fillna("unknown").astype(str)
 

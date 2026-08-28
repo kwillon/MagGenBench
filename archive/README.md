@@ -36,3 +36,16 @@ overlap with current benchmark inputs under `samples/`.
 
 Current code must not depend on historical CIF archives. Large CIF collections
 belong in external artifact storage rather than the Git source tree.
+
+## Legacy standalone scripts
+
+Superseded standalone preprocessing, benchmarking, validation, relaxation,
+and exploratory helper scripts are retained under:
+
+`archive/scripts/legacy/`
+
+These scripts are preserved for historical provenance only. Some retain old
+paths, environment assumptions, or obsolete workflow conventions and are not
+part of the supported execution surface.
+
+Current code and tests must not depend on them.

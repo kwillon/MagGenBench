@@ -202,7 +202,7 @@ Active run recipes live under semantic paths in `runs/`:
 
 These directories document how frozen production artifacts were prepared and how current workflows are orchestrated. They are not a substitute for reusable package code; shared behavior belongs in `src/mvpipeline`.
 
-Historical phase-based scripts and superseded layouts belong under `archive/` for provenance. Current code must not depend on `archive/` or `scripts/legacy`.
+Historical phase-based scripts and superseded layouts belong under `archive/` for provenance. Current code must not depend on `archive/`.
 
 ## Data And Artifact Policy
 

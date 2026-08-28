@@ -145,7 +145,7 @@ Publication artifacts selected for a manuscript belong under `paper/figures/`
 or `paper/tables/` when they exist; exploratory outputs do not move there
 automatically.
 
-Current code should not import from `archive/` or `scripts/legacy`. Historical files remain only to explain how earlier artifacts were produced.
+Current code should not import from `archive/`. Historical files remain only to explain how earlier artifacts were produced.
 
 ## Environment Boundaries
 
