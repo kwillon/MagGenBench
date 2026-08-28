@@ -122,7 +122,7 @@ def _plot_compound_distribution(
     )
 
     ax.set_title(
-        "Compound-class distribution across cohorts",
+        "Compound-class distribution across generated sets",
         pad=8,
     )
 
@@ -253,7 +253,7 @@ def save_manuscript_figure6(
         fraction=0.022,
     )
     cbar_a.set_label(
-        "Share of cohort (%)"
+        "Share within generated set (%)"
     )
 
     # ------------------------------------------------------------

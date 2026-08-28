@@ -18,7 +18,7 @@ def main() -> int:
         f"{report.validation_input_csv}"
     )
 
-    print("\n===== Analysis v2 cohort sizes =====")
+    print("\n===== Number of structures retained for analysis =====")
     print(
         report.analysis_counts.to_string()
     )

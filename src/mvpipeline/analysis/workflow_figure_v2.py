@@ -351,14 +351,14 @@ def save_study_workflow_figure(
     ax.axis("off")
 
     # ------------------------------------------------------------------
-    # Crystal-generation cohorts
+    # Generated structure sets
     # ------------------------------------------------------------------
 
     _title(
         ax,
         x=0.5,
         y=0.955,
-        text="Crystal-generation cohorts",
+        text="Generated structure sets",
         fontsize=10.5,
     )
 
@@ -633,14 +633,14 @@ def save_study_workflow_figure(
         y=desc_y,
         w=desc_w,
         h=desc_h,
-        title="Standardized enrichment\n+ Magnetic Descriptor v2",
+        title="Standardized enrichment\n+ magnetically informed descriptors",
         note="harmonized magnetic descriptor space",
         facecolor="#E8EFF1",
         title_size=8.4,
     )
 
     # ------------------------------------------------------------------
-    # Comparative Analysis v2
+    # Integrated structural and magnetic analysis
     # ------------------------------------------------------------------
 
     ana_x = 0.315
@@ -662,7 +662,7 @@ def save_study_workflow_figure(
         y=ana_y,
         w=ana_w,
         h=ana_h,
-        title="Comparative Analysis v2",
+        title="Integrated structural and magnetic analysis",
         note=(
             "structure · magnetism · energy · PCA · "
             "adaptation · diversity"

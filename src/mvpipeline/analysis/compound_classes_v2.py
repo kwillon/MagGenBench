@@ -340,7 +340,7 @@ def save_compound_class_distribution_heatmap(
     ax.set_yticks(range(len(ANALYSIS_V2_MAGNETIC_COHORT_ORDER)))
     ax.set_yticklabels(_distribution_row_labels())
     ax.set_title(
-        "Compound-class distribution across generated cohorts",
+        "Compound-class distribution across generated sets",
         pad=9,
     )
 
@@ -351,7 +351,7 @@ def save_compound_class_distribution_heatmap(
     )
 
     cbar = fig.colorbar(image, ax=ax, pad=0.02)
-    cbar.set_label("Share of cohort (%)")
+    cbar.set_label("Share within generated set (%)")
 
     paths = save_analysis_v2_figure_bundle(
         fig,

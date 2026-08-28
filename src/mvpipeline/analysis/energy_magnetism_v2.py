@@ -254,7 +254,7 @@ def _plot_all_cohorts(ax, paired) -> None:
 
     _style_energy_moment_axis(ax)
     ax.set_xlim(*_robust_energy_limits(paired))
-    ax.set_title("Energy–magnetism landscape across generated cohorts", pad=7)
+    ax.set_title("Energy–magnetism landscape across generated sets", pad=7)
     ax.legend(
         loc="center left",
         bbox_to_anchor=(1.02, 0.5),

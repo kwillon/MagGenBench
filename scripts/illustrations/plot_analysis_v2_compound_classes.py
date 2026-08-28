@@ -8,11 +8,11 @@ from mvpipeline.analysis.compound_classes_v2 import (
 def main() -> int:
     report = run_analysis_v2_compound_classes()
 
-    print("===== Analysis v2 compound-class figures =====")
+    print("===== Compound-class analysis figures =====")
     print(f"input: {report.input_csv}")
     print(f"class order: {', '.join(report.class_order)}")
 
-    print("\n===== Distribution, % within cohort =====")
+    print("\n===== Distribution, % within generated set =====")
     print(report.distribution_table.round(2).to_string())
 
     print("\n===== Adaptation deltas, percentage points =====")

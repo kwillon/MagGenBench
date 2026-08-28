@@ -8,7 +8,7 @@ from mvpipeline.analysis.paper_pipeline_figure_v2 import (
 def main() -> int:
     report = run_paper_pipeline_figure()
 
-    print("===== Analysis v2 manuscript-style pipeline =====")
+    print("===== Manuscript-style analysis pipeline =====")
     print(f"figure_png: {report.figure_paths.png}")
     print(f"figure_pdf: {report.figure_paths.pdf}")
     print(f"figure_svg: {report.figure_paths.svg}")

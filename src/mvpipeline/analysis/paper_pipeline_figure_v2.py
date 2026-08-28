@@ -579,7 +579,7 @@ def save_paper_pipeline_figure(
         y=desc_y,
         w=desc_w,
         h=desc_h,
-        title="Descriptor v2",
+        title="Magnetically informed descriptors",
         facecolor="#E8EFF1",
         title_size=8.4,
     )
@@ -604,7 +604,7 @@ def save_paper_pipeline_figure(
         y=ana_y,
         w=ana_w,
         h=ana_h,
-        title="Analysis v2",
+        title="Integrated structural and magnetic analysis",
         facecolor="#E9EDF4",
         title_size=8.8,
     )

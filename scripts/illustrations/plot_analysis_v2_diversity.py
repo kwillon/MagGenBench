@@ -8,10 +8,10 @@ from mvpipeline.analysis.diversity_figures_v2 import (
 def main() -> int:
     report = run_analysis_v2_diversity()
 
-    print("===== Analysis v2 chemical uniqueness =====")
+    print("===== Chemical uniqueness analysis =====")
     print(f"input: {report.input_csv}")
 
-    print("\n===== Cohort summary =====")
+    print("\n===== Generated-set summary =====")
     print(report.summary_table.round(3).to_string())
 
     print("\n===== Adaptation/refinement deltas, percentage points =====")

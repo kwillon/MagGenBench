@@ -142,7 +142,7 @@ def _plot_analysis_cohort_sizes(ax, counts) -> None:
 
     ax.set_ylabel("Structures")
     ax.set_title(
-        "Final analysis cohort sizes",
+        "Number of structures retained for analysis",
         pad=8,
     )
 

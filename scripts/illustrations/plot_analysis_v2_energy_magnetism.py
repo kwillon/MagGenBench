@@ -8,12 +8,12 @@ from mvpipeline.analysis.energy_magnetism_v2 import (
 def main() -> int:
     report = run_analysis_v2_energy_magnetism()
 
-    print("===== Analysis v2 energy–magnetism figures =====")
+    print("===== Energy–magnetism analysis figures =====")
     print(f"input: {report.input_csv}")
     print(f"total rows: {report.n_total}")
     print(f"paired finite rows: {report.n_paired}")
 
-    print("\n===== Cohort summary =====")
+    print("\n===== Generated-set summary =====")
     print(
         report.summary[
             [
