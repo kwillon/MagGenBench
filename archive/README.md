@@ -20,3 +20,19 @@ intentionally preserved here for provenance. Active reusable code lives under
 `scripts/` directories. Current contracts and guides live under `docs/`;
 historical phase/run notes and refactor records live under `archive/docs/`.
 Frozen scientific artifacts are not moved into `archive/`.
+
+## Historical CIF collections
+
+Large historical/generated CIF collections are not retained in the current
+source tree.
+
+Their provenance is recorded under:
+
+- `archive/manifests/cif_archive_manifest.csv`
+- `archive/manifests/cif_archive_summary.md`
+
+The manifest records original paths, SHA-256 hashes, file sizes, and exact
+overlap with current benchmark inputs under `samples/`.
+
+Current code must not depend on historical CIF archives. Large CIF collections
+belong in external artifact storage rather than the Git source tree.
