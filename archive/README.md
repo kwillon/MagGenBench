@@ -49,3 +49,16 @@ paths, environment assumptions, or obsolete workflow conventions and are not
 part of the supported execution surface.
 
 Current code and tests must not depend on them.
+
+## Legacy configuration files
+
+Superseded configuration files that are no longer consumed by the current
+runtime are retained under:
+
+`archive/config/legacy/`
+
+These files document earlier benchmarking, feature, model, and relaxation
+workflow conventions. They are provenance-only and are not part of the
+supported configuration surface.
+
+Current code, scripts, tests, and run recipes must not depend on them.
