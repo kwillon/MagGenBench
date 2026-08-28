@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+.pytest_cache/
 
 # env
 .venv/
@@ -14,6 +15,7 @@ __pycache__/
 outputs/
 reports/
 reproduced/
+/models/
 validated_structures/
 rejected_structures/
 *.log
@@ -26,30 +28,20 @@ mvpipeline_env/
 # Large generated/data files
 datasets/raw_data/*.csv
 tables/*.csv
-outputs/
 figures_stats_paper_from_csv/
 
-# Large generated/data files
-datasets/raw_data/*.csv
-#datasets/*/train_reference.csv
-tables/*.csv
-outputs/
 figures_stats_paper/
-figures_stats_paper_from_csv/
 figures_stats_paper_from_reports/
 *.zip
 *.exe
 
-# OS
-.DS_Store
-Thumbs.db
 
-# Generated Phase 5A enrichment artifacts
+# Generated enrichment artifacts
 /tables/04_magnetic_screening/master_structures_with_enrichment_annotations.csv
 /tables/04_magnetic_screening/master_structures_with_enrichment_annotations.summary.json
 /tables/04_magnetic_screening/master_structures_with_enrichment_results.csv
 
-# Generated Phase 5A-3 real one-structure smoke outputs
+# Generated enrichment smoke outputs
 /tables/04_magnetic_screening/phase5a3_real_enrichment_one_row.csv
 /tables/06_energy/phase5a3_chgnet_one_row.csv
 /tables/07_magnetic_descriptors/phase5a3_dxmag_one_row.csv
