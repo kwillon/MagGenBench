@@ -28,7 +28,6 @@ Every top-level directory has a specific role:
 | `scripts/` | Thin semantic command wrappers and compatibility scripts. Active reusable logic should not live here. |
 | `runs/` | Human-readable run recipes, provenance, and stage-level READMEs for reproducible workflows. |
 | `config/` | Configuration files used by validation and pipeline stages. |
-| `registry/` | Registry-style metadata for models, datasets, runs, and artifacts. |
 | `datasets/` | Reference datasets used by validation, novelty, and benchmark workflows. |
 | `samples/` | Versioned sample CIF inputs included with the repository where appropriate. |
 | `tables/` | Table outputs and table-oriented artifacts. Generated tables should be treated as artifacts, not source. |

@@ -62,3 +62,16 @@ workflow conventions. They are provenance-only and are not part of the
 supported configuration surface.
 
 Current code, scripts, tests, and run recipes must not depend on them.
+
+## Legacy registry
+
+The former top-level metadata registry is retained under:
+
+`archive/registry/legacy/`
+
+It records historical model, dataset, and generation-run metadata from an
+earlier repository organization. The tables contain legacy and
+machine-specific paths and are not consumed by the current runtime,
+reproduction workflows, or tests.
+
+Current code must not depend on the archived registry.
