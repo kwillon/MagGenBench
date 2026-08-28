@@ -14,7 +14,7 @@ MagGenBench is organized as a reproducible scientific repository with a small pu
 
 ## Data Flow
 
-The current frozen Analysis v1 flow is:
+The repository preserves the frozen Analysis v1 flow:
 
 ```text
 model CIF outputs
@@ -33,14 +33,13 @@ separate while publishing a symmetric per-structure enrichment interface:
 
 ```text
 source/annotation artifacts
-  -> standardized CHGNet + DXMag per cohort
+  -> standardized CHGNet + DXMag per generated set
   -> standardized_enrichment.csv
-  -> future Descriptor v2 / Analysis v2
+  -> Magnetically informed Descriptor v2
+  -> Analysis v2 magnetic
 ```
 
-The standardized master does not rewrite Analysis v1 or Descriptor v1. It is
-the current recommended table for inspecting CHGNet and DXMag outputs across
-all eight current cohorts.
+The standardized master does not rewrite frozen Analysis v1 or Descriptor v1. It is the canonical CHGNet/DXMag interface feeding Magnetic Descriptor v2 and the current integrated Analysis v2 magnetic layer across all eight generated sets.
 
 ## Package Responsibilities
 
@@ -48,9 +47,9 @@ all eight current cohorts.
 
 | Package | Responsibility |
 | --- | --- |
-| `analysis` | Canonical production cohort registry, unified-analysis helpers, plotting group definitions, shared figure conventions, and Analysis v1 figure generation. |
+| `analysis` | Analysis integration, grouping metadata, frozen Analysis v1 support, Analysis v2 magnetic analysis, PCA, and publication-figure conventions. |
 | `annotations` | Annotation preparation and production-manifest helpers for active workflows. |
-| `descriptors` | Descriptor v1 implementation and descriptor table handling. |
+| `descriptors` | Frozen Descriptor v1 support and Magnetically informed Descriptor v2 calculation and table handling. |
 | `enrichment` | Standardized post-v1 enrichment registry, manifest preparation, master-table construction, and invariant checks. |
 | `energy` | CHGNet backend adapters and energy-stage result handling. |
 | `magnetism` | DXMag backend adapters and magnetism-stage result handling. |
@@ -83,7 +82,7 @@ mvp
 
 Legacy phase names and archived scripts are not part of the public execution surface.
 
-## Analysis V1 Reproduction
+## Frozen Analysis V1 Reproduction
 
 `maggenbench reproduce analysis-v1` is the documented one-command paper-reproduction target for Analysis v1. It regenerates analysis tables/statistics/figures from frozen required inputs without rerunning expensive model generation or enrichment.
 
@@ -114,6 +113,12 @@ Frozen invariants:
 `maggenbench figures analysis-v1` regenerates the current Analysis v1 visual/statistical outputs from an existing unified CSV. Figure behavior is centralized in `mvpipeline.analysis.figures_v1`; cohort grouping and validation are shared with the canonical analysis metadata.
 
 The figure output contract is the 15-file set documented in `README.md`. Existing visual choices, filenames, cohort order, labels, and calculations are treated as regression-sensitive for Analysis v1.
+
+## Current Analysis V2 Magnetic
+
+Current publication analysis consumes `tables/10_analysis_v2_magnetic/analysis_v2_magnetic.csv`, built deterministically from `tables/08_standardized_enrichment/` and `tables/09_descriptor_v2_magnetic/`. It supports structural, magnetic-domain, PCA, energy-magnetism, and diversity analyses. Generated audits, projections, and previews belong under `reproduced/`; manuscript-selected artifacts belong under `paper/`.
+
+PCA centroid shifts are descriptive set-level summaries, not paired structure trajectories or causal effects. Crys-JEPA Refined is a generatively refined comparator set, not a geometry relaxation of individual Base structures.
 
 ## Artifact And Provenance Boundaries
 
@@ -181,4 +186,4 @@ When adding a model, descriptor, or analysis stage:
 4. Use canonical registries for cohort and plotting metadata.
 5. Document required external artifacts and environment constraints.
 6. Add dependency-light tests with fixtures or fake backends.
-7. Preserve Analysis v1 invariants unless introducing a new explicitly versioned analysis.
+7. Preserve frozen scientific contracts unless introducing an explicitly versioned successor.

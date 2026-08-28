@@ -4,40 +4,53 @@ MagGenBench is a scientific benchmark repository for analyzing inorganic crystal
 
 The repository goal is to be self-explanatory and reproducible: reusable code lives under `src/mvpipeline`, active run recipes have semantic locations under `runs/`, generated artifacts are separated from source, and the public execution surface is intentionally small.
 
-## Scientific Scope
+## Current Scientific Workflow
 
-MagGenBench currently supports the frozen Analysis v1 workflow. Analysis v1 combines validation, Descriptor v1 structural/composition descriptors, CHGNet energy enrichment, DXMag magnetism enrichment, and plotting into one unified analysis table and a fixed set of paper figures/statistics.
+MagGenBench compares inorganic crystal structures produced by generative models, with emphasis on magnetic-material discovery signals.
 
-Downstream of Analysis v1, the standardized enrichment table, Magnetic Descriptor v2, and Analysis v2 magnetic table are also frozen scientific artifacts. Magnetic Descriptor v2 and Analysis v2 magnetic are separate layers built from the standardized enrichment interface; they do not rewrite or replace frozen Analysis v1.
+The current integrated analysis covers eight generated sets: MatterGen baseline and fine-tuned, Con-CDVAE baseline and fine-tuned, CrystalFormer baseline, CrystaLLM baseline, Crys-JEPA Base, and Crys-JEPA Refined.
 
-The benchmark distinguishes these cohort roles:
+```text
+generated crystal structures
+  -> structural validation and annotation
+  -> CHGNet predicted energy + DXMag predicted magnetic moment
+  -> standardized enrichment (tables/08)
+  -> Magnetically informed descriptors (tables/09)
+  -> integrated structural and magnetic analysis (tables/10)
+  -> structural / magnetic-domain / PCA / energy-magnetism / diversity analyses
+  -> manuscript-selected figures under paper/figures/
+```
 
-- Core baseline model families: MatterGen, Con-CDVAE, CrystalFormer, CrystaLLM.
-- Adapted cohorts: MatterGen fine-tuned, Con-CDVAE fine-tuned.
-- Comparator cohorts: Crys-JEPA Base, Crys-JEPA Refined.
+MatterGen and Con-CDVAE fine-tuned sets represent magnetic-material adaptation. Crys-JEPA Base and Refined are comparator sets; Refined is a generatively refined set, not a geometry relaxation of individual Base structures.
 
-Crys-JEPA is present in shared analysis infrastructure as a comparator cohort. It is not a fifth core baseline model family.
+Frozen Analysis v1 remains available as a historical reproducibility surface. Its scientific contracts, checksums, and original outputs are preserved, but it is not the current endpoint of the repository.
 
 ## Repository Layout
 
-Every top-level directory has a specific role:
+Tracked repository areas have explicit roles:
 
 | Path | Purpose |
 | --- | --- |
-| `src/` | Current reusable Python package code. New reusable code belongs under `src/mvpipeline`. |
-| `scripts/` | Thin semantic command wrappers and compatibility scripts. Active reusable logic should not live here. |
-| `runs/` | Human-readable run recipes, provenance, and stage-level READMEs for reproducible workflows. |
-| `config/` | Configuration files used by validation and pipeline stages. |
-| `datasets/` | Reference datasets used by validation, novelty, and benchmark workflows. |
-| `samples/` | Versioned sample CIF inputs included with the repository where appropriate. |
-| `tables/` | Table outputs and table-oriented artifacts. Generated tables should be treated as artifacts, not source. |
-| `paper/` | Policy and future location for manuscript-selected publication figures/tables. |
-| `reports/` | Generated reports and audit outputs. |
-| `docs/` | Supporting documentation beyond the primary README and architecture notes. |
-| `archive/` | Historical scripts and superseded paths retained for provenance only. Current code must not depend on this directory. |
-| `tests/` | Unit and regression tests for the current package, wrappers, and reproducibility surface. |
+| `src/` | Reusable Python package code under `src/mvpipeline`. |
+| `scripts/` | Thin user-facing workflow and compatibility wrappers. |
+| `runs/` | Lightweight run recipes, manifests, checksums, and provenance. |
+| `config/` | Active validation, descriptor, energy, and magnetism configuration. |
+| `datasets/` | Training-reference datasets used by validation and novelty workflows. |
+| `samples/` | Versioned CIF generated sets used by the benchmark. |
+| `tables/` | Canonical scientific tabular stages and frozen analysis artifacts. |
+| `paper/` | Manuscript-selected publication artifacts. |
+| `docs/` | Scientific and technical documentation. |
+| `archive/` | Historical provenance only. Active code must not depend on it. |
+| `tests/` | Unit, regression, and reproducibility tests. |
 
-Repository metadata and packaging files live at the root, including `pyproject.toml`, `environment.yml`, `Dockerfile`, and `AGENTS.md` for developer/tooling guidance. Historical audit and refactor planning records live under `archive/docs/`.
+Local generated/runtime areas may exist in a working checkout but are not
+tracked source-code areas:
+
+| Path | Purpose |
+| --- | --- |
+| `models/` | External runtime model artifacts, including the DXMag model. |
+| `outputs/` | Generated validation and stage outputs. |
+| `reproduced/` | Regenerated analysis tables, audits, projections, and figures. |
 
 ## Package Areas
 
@@ -45,9 +58,9 @@ The active package is `mvpipeline`:
 
 | Package | Role |
 | --- | --- |
-| `mvpipeline.analysis` | Cohort registry, unified analysis helpers, figure-generation logic, Analysis v1 plotting conventions, and Analysis v2 magnetic integration/figure helpers. |
+| `mvpipeline.analysis` | Analysis integration, grouping metadata, frozen Analysis v1 support, Analysis v2 magnetic analysis, PCA, and publication-figure logic. |
 | `mvpipeline.annotations` | Production annotation and manifest preparation helpers. |
-| `mvpipeline.descriptors` | Descriptor v1 extraction and schema-preserving descriptor code. |
+| `mvpipeline.descriptors` | Frozen Descriptor v1 support and Magnetically informed Descriptor v2 calculation. |
 | `mvpipeline.enrichment` | Post-v1 standardized enrichment registry, manifest preparation, and master-table validation helpers. |
 | `mvpipeline.energy` | CHGNet-oriented backend adapters and energy result handling. |
 | `mvpipeline.magnetism` | DXMag-oriented backend adapters and magnetism result handling. |
@@ -92,7 +105,7 @@ mvp \
 
 Former phase-style `mvp` subcommands are not packaged entry points in the current repository.
 
-## Reproduce Analysis v1
+## Frozen Analysis v1 Reproduction
 
 Analysis v1 can be regenerated from frozen required inputs without rerunning expensive generation, CHGNet, DXMag, descriptor extraction, or model inference:
 
@@ -132,13 +145,13 @@ The frozen unified table contract is:
 - Production cohort order, Descriptor v1 semantics, CHGNet semantics, and DXMag semantics are frozen.
 - Expected SHA-256 for `unified_analysis_v1.csv`: `a559a092755a91ea2c9035a08a61a41b8279a81b8dbe2ba52cb888cb17b4cb6c`.
 
-## Generate Analysis v1 Figures
+## Frozen Analysis v1 Figures
 
 Figures can also be regenerated from an existing unified Analysis v1 CSV:
 
 ```bash
 maggenbench figures analysis-v1 \
-  --input-csv runs/analysis_v1/unified_analysis_v1.csv \
+  --input-csv reproduced/analysis_v1/unified_analysis_v1.csv \
   --output-dir reproduced/analysis_v1/figures
 ```
 
@@ -186,6 +199,22 @@ Its SHA-256 is:
 See `runs/enrichment/standardized/README.md` and
 `tables/README.md` for the standardized run contract and coverage map.
 
+## Magnetically Informed Descriptors
+
+The accepted Descriptor v2 layer is `tables/09_descriptor_v2_magnetic/descriptor_v2_magnetic.csv`. It contains `10684` structures and `41` columns and is derived from the standardized enrichment table without modifying that source artifact. Its SHA-256 is `7667aad820f859a13b326c1b6d3c76c258ca4b63bc55ef20066ce99d79e11980`.
+
+Magnetic-site geometry is evaluated only where applicable; `not_applicable` is a scientific state and must not be replaced by zero-valued geometry.
+
+## Integrated Structural And Magnetic Analysis
+
+The canonical current analysis table is `tables/10_analysis_v2_magnetic/analysis_v2_magnetic.csv`. It contains `10684` structures and `118` columns and deterministically combines the accepted standardized enrichment and magnetic descriptor layers. Its SHA-256 is `221deb82b2ac3e5442b4930dd9dcf05dc411e46244f1ce80a401a7d6775bc181`.
+
+Current publication analysis includes structural, magnetic-domain, PCA, energy-magnetism, adaptation, and diversity views. PCA centroid shifts are descriptive set-level summaries rather than paired structure trajectories or causal effects.
+
+## Manuscript Figures
+
+Manuscript-selected publication artifacts are tracked under `paper/figures/`. The current main set contains six figures covering the workflow, structural overview, magnetic domain, descriptor space, energy-magnetism landscape, and diversity/adaptation analysis. PCA loadings are retained as supplementary material. Exploratory previews, audits, projections, and regenerated figures remain under `reproduced/`.
+
 ## Run Recipes
 
 Active run recipes live under semantic paths in `runs/`:
@@ -218,7 +247,7 @@ Generated outputs should go under explicit artifact locations such as `reproduce
 
 The repository includes a lightweight Docker/Compose configuration for the Analysis v1 reproducibility surface. It installs MagGenBench as a normal package, exposes the packaged `maggenbench` and `mvp` console commands, and sets Matplotlib to a noninteractive backend for headless figure generation.
 
-The lightweight image is only for package installation, CLI smoke checks, Analysis v1 figure generation, Analysis v1 reproduction from frozen inputs, and the Phase 6 analysis/reproduction tests. It does not contain model checkpoints or heavy model runtimes.
+The lightweight image is only for package installation, CLI smoke checks, Analysis v1 figure generation, Analysis v1 reproduction from frozen inputs, and the lightweight analysis/reproduction regression tests. It does not contain model checkpoints or heavy model runtimes.
 
 Local runtime acceptance requires Docker/Compose on the host; if Docker is unavailable, treat the container files as implemented but not locally smoke-tested.
 
