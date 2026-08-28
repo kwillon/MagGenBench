@@ -6,7 +6,7 @@ artifacts, not hand-curated source data.
 
 ## Current Roles
 
-- `01_master/`: master/input tabular artifacts from earlier benchmark assembly.
+- `01_master/`: upstream benchmark master snapshot externalized after verifying that its 102 fields and all row values are preserved unchanged in `02_validation/`; provenance is recorded under `archive/manifests/`.
 - `02_validation/`: structural-validation outputs and provenance tables.
 - `03_features/`: annotation and compound-classification stage artifacts.
 - `04_magnetic_screening/`: canonical joined cohort inputs and production
