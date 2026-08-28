@@ -85,7 +85,7 @@ PRODUCTION_ANALYSIS_COHORTS = (
         analysis_family=None,
         analysis_state="baseline",
         descriptor_path=Path(
-            "runs/descriptor_v1_full/"
+            "descriptor_v1/"
             "baseline_master_descriptors_v1.csv"
         ),
         joined_path=None,
@@ -95,7 +95,7 @@ PRODUCTION_ANALYSIS_COHORTS = (
         analysis_family="MatterGen",
         analysis_state="fine_tuned",
         descriptor_path=Path(
-            "runs/descriptor_v1_full/"
+            "descriptor_v1/"
             "mattergen_finetuned_descriptors_v1.csv"
         ),
         joined_path=Path(
@@ -108,7 +108,7 @@ PRODUCTION_ANALYSIS_COHORTS = (
         analysis_family="Con-CDVAE",
         analysis_state="fine_tuned",
         descriptor_path=Path(
-            "runs/descriptor_v1_full/"
+            "descriptor_v1/"
             "concdvae_finetuned_descriptors_v1.csv"
         ),
         joined_path=Path(
@@ -121,7 +121,7 @@ PRODUCTION_ANALYSIS_COHORTS = (
         analysis_family="Crys-JEPA",
         analysis_state="base",
         descriptor_path=Path(
-            "runs/descriptor_v1_full/"
+            "descriptor_v1/"
             "crysjepa_base_descriptors_v1.csv"
         ),
         joined_path=Path(
@@ -134,7 +134,7 @@ PRODUCTION_ANALYSIS_COHORTS = (
         analysis_family="Crys-JEPA",
         analysis_state="refined",
         descriptor_path=Path(
-            "runs/descriptor_v1_full/"
+            "descriptor_v1/"
             "crysjepa_refined_descriptors_v1.csv"
         ),
         joined_path=Path(

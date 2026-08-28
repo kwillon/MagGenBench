@@ -110,7 +110,7 @@ def test_production_analysis_specs_use_supplied_baseline_join() -> None:
     ] == list(PRODUCTION_ANALYSIS_COHORT_ORDER)
     assert specs[0].joined_path == baseline_joined
     assert specs[0].descriptor_path == Path(
-        "runs/descriptor_v1_full/"
+        "descriptor_v1/"
         "baseline_master_descriptors_v1.csv"
     )
     assert specs[1].joined_path == Path(

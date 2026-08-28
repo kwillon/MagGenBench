@@ -195,7 +195,7 @@ Active run recipes live under semantic paths in `runs/`:
 - `runs/annotations/`
 - `runs/enrichment/`
 - `runs/descriptors/magnetic/`
-- `runs/descriptor_v1_full/`
+- `runs/descriptors/v1/`
 - `runs/analysis_v1/`
 - `runs/analysis_v2_magnetic/`
 

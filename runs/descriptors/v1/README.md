@@ -45,3 +45,16 @@ tables/04_magnetic_screening/baseline_master_production_annotations.csv is a loc
 
 ## Integrity
 SHA-256 checksums for production descriptor outputs, the baseline production manifest, and runtime configuration are recorded in final_sha256.txt.
+
+## Artifact location
+
+Production Descriptor v1 CSV files are frozen external artifacts and are not
+stored under `runs/`.
+
+For Analysis v1 reproduction they are resolved relative to the supplied
+artifact root:
+
+`descriptor_v1/<cohort>_descriptors_v1.csv`
+
+The SHA-256 digests in `final_sha256.txt` define the frozen artifact contract.
+The `runs/descriptors/v1/` directory contains provenance and run metadata only.
