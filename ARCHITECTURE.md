@@ -126,12 +126,11 @@ Current-code areas:
 
 Generated or externally supplied areas:
 
-- `figures/`
 - `tables/`
 - `reports/`
 - `outputs/`
 - `reproduced/`
-- exploratory Analysis v1 figures under `figures/unified_analysis_v1/`
+- reproducible analysis outputs and figures under `reproduced/`
 - full production CIF collections
 - large model/checkpoint artifacts
 - local logs and caches

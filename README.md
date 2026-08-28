@@ -32,7 +32,6 @@ Every top-level directory has a specific role:
 | `datasets/` | Reference datasets used by validation, novelty, and benchmark workflows. |
 | `samples/` | Versioned sample CIF inputs included with the repository where appropriate. |
 | `tables/` | Table outputs and table-oriented artifacts. Generated tables should be treated as artifacts, not source. |
-| `figures/` | Figure outputs. Reproduced figures are generated artifacts, not reusable code. |
 | `paper/` | Policy and future location for manuscript-selected publication figures/tables. |
 | `reports/` | Generated reports and audit outputs. |
 | `docs/` | Supporting documentation beyond the primary README and architecture notes. |
@@ -141,7 +140,7 @@ Figures can also be regenerated from an existing unified Analysis v1 CSV:
 ```bash
 maggenbench figures analysis-v1 \
   --input-csv runs/analysis_v1/unified_analysis_v1.csv \
-  --output-dir figures/unified_analysis_v1
+  --output-dir reproduced/analysis_v1/figures
 ```
 
 The output directory may already exist. Without `--force`, the command fails only when one or more owned Analysis v1 output files already exist. With `--force`, only those known Analysis v1-owned files are replaced; unrelated files in the directory are preserved, and no recursive directory deletion occurs.
@@ -214,7 +213,7 @@ Small, versioned fixtures and metadata can live in Git. Large or machine-specifi
 - Generated production CSVs when they are too large or are frozen publication artifacts.
 - Logs, temporary files, and local reproduction outputs.
 
-Generated outputs should go under explicit artifact locations such as `reproduced/`, `outputs/`, `reports/`, `tables/`, or `figures/` depending on their role. Reproduced outputs are artifacts, not source code. See `tables/README.md`, `paper/README.md`, and `archive/README.md` for artifact and provenance policy details.
+Generated outputs should go under explicit artifact locations such as `reproduced/`, `outputs/`, `reports/`, or `tables/` depending on their role. Reproducible analysis figures belong under `reproduced/`; manuscript-selected publication artifacts belong under `paper/`. Generated outputs are artifacts, not source code. See `tables/README.md`, `paper/README.md`, and `archive/README.md` for artifact and provenance policy details.
 
 ## Docker Reproducibility
 

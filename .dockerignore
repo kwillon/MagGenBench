@@ -29,8 +29,10 @@ outputs/
 reproduced/
 reports/
 *.log
-figures/unified_analysis_v1/
 
 # OS noise
 .DS_Store
 Thumbs.db
+
+# Generated figure outputs
+figures/

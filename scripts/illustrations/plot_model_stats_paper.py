@@ -24,7 +24,7 @@ MODEL_CSVS = {
     "MatterGen": PROJECT_ROOT / "outputs/mattergen/all_structures.csv",
 }
 
-OUTDIR = PROJECT_ROOT / "figures"
+OUTDIR = PROJECT_ROOT / "reproduced" / "exploratory" / "model_stats"
 OUTDIR.mkdir(parents=True, exist_ok=True)
 
 plt.rcParams.update({

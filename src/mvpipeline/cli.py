@@ -76,7 +76,7 @@ def figures_analysis_v1_command(
         help="Unified Analysis v1 CSV to plot.",
     ),
     output_dir: Path = typer.Option(
-        Path("figures/unified_analysis_v1"),
+        Path("reproduced/analysis_v1/figures"),
         "--output-dir",
         help="Directory for Analysis v1 figure outputs.",
     ),

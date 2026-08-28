@@ -58,14 +58,6 @@ derived:
   failed_relaxation: "derived/relaxation/failed_structures"
   magnetic_outputs: "derived/magnetism"
 
-figures:
-  dir: "figures"
-  validation: "figures/validation"
-  composition: "figures/composition"
-  magnetic_screening: "figures/magnetic_screening"
-  relaxation: "figures/relaxation"
-  energy: "figures/energy"
-  paper: "figures/paper"
 
 reports:
   dir: "reports"

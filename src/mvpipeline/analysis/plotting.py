@@ -16,7 +16,7 @@ UNIFIED_ANALYSIS_V1_RELATIVE_PATH = Path(
     "runs/analysis_v1/unified_analysis_v1.csv"
 )
 UNIFIED_ANALYSIS_FIGURE_DIR_RELATIVE_PATH = Path(
-    "figures/unified_analysis_v1"
+    "reproduced/analysis_v1/figures"
 )
 
 DEFAULT_FIGURE_DPI = 300
