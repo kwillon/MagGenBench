@@ -4,26 +4,29 @@ MagGenBench is a scientific benchmark repository for analyzing inorganic crystal
 
 The repository goal is to be self-explanatory and reproducible: reusable code lives under `src/mvpipeline`, active run recipes have semantic locations under `runs/`, generated artifacts are separated from source, and the public execution surface is intentionally small.
 
+```mermaid
+flowchart LR
+    G["Generated crystal sets<br/>MatterGen · Con-CDVAE · CrystalFormer · CrystaLLM · Crys-JEPA"]
+    V["Structural validation<br/>and annotation"]
+    E["CHGNet energy<br/>+ DXMag magnetic moment"]
+    T8["Standardized enrichment<br/>tables/08"]
+    D["Magnetically informed descriptors<br/>tables/09"]
+    T10["Integrated structural & magnetic analysis<br/>tables/10"]
+    A["PCA · energy–magnetism<br/>diversity · manuscript figures"]
+    G --> V --> E --> T8 --> D --> T10 --> A
+```
+
 ## Current Scientific Workflow
 
 MagGenBench compares inorganic crystal structures produced by generative models, with emphasis on magnetic-material discovery signals.
 
 The current integrated analysis covers eight generated sets: MatterGen baseline and fine-tuned, Con-CDVAE baseline and fine-tuned, CrystalFormer baseline, CrystaLLM baseline, Crys-JEPA Base, and Crys-JEPA Refined.
 
-```text
-generated crystal structures
-  -> structural validation and annotation
-  -> CHGNet predicted energy + DXMag predicted magnetic moment
-  -> standardized enrichment (tables/08)
-  -> Magnetically informed descriptors (tables/09)
-  -> integrated structural and magnetic analysis (tables/10)
-  -> structural / magnetic-domain / PCA / energy-magnetism / diversity analyses
-  -> manuscript-selected figures under paper/figures/
-```
-
 MatterGen and Con-CDVAE fine-tuned sets represent magnetic-material adaptation. Crys-JEPA Base and Refined are comparator sets; Refined is a generatively refined set, not a geometry relaxation of individual Base structures.
 
 Frozen Analysis v1 remains available as a historical reproducibility surface. Its scientific contracts, checksums, and original outputs are preserved, but it is not the current endpoint of the repository.
+
+Scientific interpretation constraints are documented in [`docs/SCIENTIFIC_CONVENTIONS.md`](docs/SCIENTIFIC_CONVENTIONS.md).
 
 ## Repository Layout
 
