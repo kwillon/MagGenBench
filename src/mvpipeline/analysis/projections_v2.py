@@ -434,6 +434,20 @@ def _save_loadings_figure(
         "PC2",
         title="Magnetic geometry PC2",
     )
+
+    for ax, label in zip(axes.flat, ("A", "B", "C", "D")):
+        ax.text(
+            -0.08,
+            1.06,
+            label,
+            transform=ax.transAxes,
+            fontsize=12,
+            fontweight="bold",
+            va="top",
+            ha="left",
+            color=ANALYSIS_V2_DARK_TEXT,
+        )
+
     paths = save_analysis_v2_figure_bundle(
         fig,
         output_dir,

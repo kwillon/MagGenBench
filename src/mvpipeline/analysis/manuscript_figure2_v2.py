@@ -31,6 +31,23 @@ from .validation_figures_v2 import (
 
 FIGURE_BASENAME = "manuscript_figure2_structural_overview_v2_preview"
 
+CRYSJEPA_BASE_VALIDATION_INPUT = Path(
+    "tables/03_features/crysjepa_base_with_classes.csv"
+)
+
+BASELINE_DISPLAY_ORDER = (
+    "MatterGen",
+    "Con-CDVAE",
+    "CrystalFormer",
+    "CrystaLLM",
+    "Crys-JEPA",
+)
+
+BASELINE_DISPLAY_COLORS = {
+    **MODEL_COLORS,
+    "Crys-JEPA": ANALYSIS_V2_MAGNETIC_COHORT_COLORS["crysjepa_base"],
+}
+
 
 @dataclass(frozen=True)
 class ManuscriptFigure2Report:
@@ -163,18 +180,18 @@ def _plot_analysis_cohort_sizes(ax, counts) -> None:
 
 
 def _plot_validation_outcome(ax, model_summary) -> None:
-    y = list(range(len(MODEL_ORDER)))
+    y = list(range(len(BASELINE_DISPLAY_ORDER)))
 
     ax.barh(
         y,
-        [100.0] * len(MODEL_ORDER),
+        [100.0] * len(BASELINE_DISPLAY_ORDER),
         color="#EEEAE2",
         edgecolor="none",
         height=0.60,
         zorder=1,
     )
 
-    for index, model in enumerate(MODEL_ORDER):
+    for index, model in enumerate(BASELINE_DISPLAY_ORDER):
         value = float(
             model_summary.loc[
                 model,
@@ -197,7 +214,7 @@ def _plot_validation_outcome(ax, model_summary) -> None:
         ax.barh(
             index,
             value,
-            color=MODEL_COLORS[model],
+            color=BASELINE_DISPLAY_COLORS[model],
             edgecolor=ANALYSIS_V2_DARK_TEXT,
             linewidth=0.55,
             height=0.60,
@@ -216,14 +233,14 @@ def _plot_validation_outcome(ax, model_summary) -> None:
         )
 
     ax.set_yticks(y)
-    ax.set_yticklabels(MODEL_ORDER)
+    ax.set_yticklabels(BASELINE_DISPLAY_ORDER)
     ax.invert_yaxis()
 
     ax.set_xlim(0, 100)
     ax.set_xlabel("Validated structures (%)")
 
     ax.set_title(
-        "Baseline structural validation",
+        "Base generated sets: structural validation",
         pad=8,
     )
 
@@ -277,12 +294,12 @@ def _plot_rejection_profile(ax, rejection_summary) -> None:
     )
 
     ax.set_yticks(
-        range(len(MODEL_ORDER))
+        range(len(BASELINE_DISPLAY_ORDER))
     )
-    ax.set_yticklabels(MODEL_ORDER)
+    ax.set_yticklabels(BASELINE_DISPLAY_ORDER)
 
     ax.set_title(
-        "Baseline rejection profile",
+        "Base generated sets: rejection profile",
         pad=8,
     )
 
@@ -327,6 +344,90 @@ def _plot_rejection_profile(ax, rejection_summary) -> None:
     )
 
     _panel_label(ax, "C")
+
+
+def _extend_with_crysjepa_base(
+    validation_summary,
+    rejection_summary,
+    *,
+    input_csv: str | Path = CRYSJEPA_BASE_VALIDATION_INPUT,
+):
+    import pandas as pd
+
+    path = Path(input_csv)
+    if not path.is_file():
+        raise FileNotFoundError(path)
+
+    df = pd.read_csv(path, low_memory=False)
+
+    required = {"status", "rejection_reason"}
+    missing = sorted(required.difference(df.columns))
+    if missing:
+        raise RuntimeError(
+            f"Crys-JEPA Base validation table is missing columns: {missing}"
+        )
+
+    status = (
+        df["status"]
+        .fillna("")
+        .astype(str)
+        .str.strip()
+        .str.lower()
+    )
+    reasons = (
+        df["rejection_reason"]
+        .fillna("")
+        .astype(str)
+        .str.strip()
+    )
+
+    n_total = int(len(df))
+    n_validated = int(status.eq("validated").sum())
+    n_rejected = int(status.eq("rejected").sum())
+
+    if n_total != 2000:
+        raise RuntimeError(
+            f"Expected 2000 Crys-JEPA Base structures, found {n_total}"
+        )
+
+    if n_validated + n_rejected != n_total:
+        raise RuntimeError(
+            "Crys-JEPA Base validation statuses do not cover all rows"
+        )
+
+    summary = validation_summary.copy()
+    summary.loc["Crys-JEPA", "n_total"] = n_total
+    summary.loc["Crys-JEPA", "n_validated"] = n_validated
+    summary.loc["Crys-JEPA", "n_rejected"] = n_rejected
+    summary.loc["Crys-JEPA", "validated_percent"] = (
+        100.0 * n_validated / n_total
+    )
+    summary.loc["Crys-JEPA", "rejected_percent"] = (
+        100.0 * n_rejected / n_total
+    )
+    summary = summary.reindex(BASELINE_DISPLAY_ORDER)
+
+    rejection = rejection_summary.copy()
+
+    if n_rejected:
+        rejection.loc["Crys-JEPA"] = [
+            100.0 * int(reasons.eq(reason).sum()) / n_rejected
+            for reason in REJECTION_REASON_ORDER
+        ]
+    else:
+        rejection.loc["Crys-JEPA"] = [0.0] * len(REJECTION_REASON_ORDER)
+
+    rejection = rejection.reindex(
+        index=BASELINE_DISPLAY_ORDER,
+        columns=REJECTION_REASON_ORDER,
+    )
+
+    if abs(float(rejection.loc["Crys-JEPA"].sum()) - 100.0) > 1e-8:
+        raise RuntimeError(
+            "Crys-JEPA Base rejection profile does not sum to 100%"
+        )
+
+    return summary, rejection
 
 
 def save_manuscript_figure2(
@@ -408,6 +509,13 @@ def run_manuscript_figure2(
     validation_summary, rejection_summary = (
         build_validation_tables(
             validation_records
+        )
+    )
+
+    validation_summary, rejection_summary = (
+        _extend_with_crysjepa_base(
+            validation_summary,
+            rejection_summary,
         )
     )
 
