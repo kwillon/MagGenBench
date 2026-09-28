@@ -1,100 +1,143 @@
-# MagGenBench
+﻿# MagGenBench
 
-MagGenBench is a scientific benchmark repository for analyzing inorganic crystal structures produced by generative models, with emphasis on magnetic-material discovery signals.
+MagGenBench is a scientific benchmark for evaluating inorganic crystal
+structures produced by generative models, with particular attention to signals
+relevant to magnetic-material discovery. It provides a common workflow for
+structure harmonization, quality control, property enrichment, descriptor
+analysis, and comparison across model families.
 
-The repository goal is to be self-explanatory and reproducible: reusable code lives under `src/mvpipeline`, active run recipes have semantic locations under `runs/`, generated artifacts are separated from source, and the public execution surface is intentionally small.
+The repository separates reusable code, accepted scientific tables, run
+provenance, regenerated outputs, and manuscript-selected artifacts so that the
+reported analyses can be inspected and reproduced without conflating source
+code with generated results.
 
-```mermaid
-flowchart LR
-    G["Generated crystal sets<br/>MatterGen · Con-CDVAE · CrystalFormer · CrystaLLM · Crys-JEPA"]
-    V["Structural validation<br/>and annotation"]
-    E["CHGNet energy<br/>+ DXMag magnetic moment"]
-    T8["Standardized enrichment<br/>tables/08"]
-    D["Magnetically informed descriptors<br/>tables/09"]
-    T10["Integrated structural & magnetic analysis<br/>tables/10"]
-    A["PCA · energy–magnetism<br/>diversity · manuscript figures"]
-    G --> V --> E --> T8 --> D --> T10 --> A
-```
+## Overview
 
-## Current Scientific Workflow
+Generative crystal models produce structures in different formats and under
+different sampling or adaptation regimes. MagGenBench places these outputs in a
+shared CIF-based representation, applies consistent structural checks, and
+compares the retained structures using energy, magnetic-moment, composition,
+local-environment, symmetry, and chemical-diversity descriptors.
 
-MagGenBench compares inorganic crystal structures produced by generative models, with emphasis on magnetic-material discovery signals.
+The accepted downstream dataset contains eight generated sets and is represented
+by the integrated table at
+[`tables/10_analysis_v2_magnetic/analysis_v2_magnetic.csv`](tables/10_analysis_v2_magnetic/analysis_v2_magnetic.csv).
+Scientific interpretation conventions are documented in
+[`docs/SCIENTIFIC_CONVENTIONS.md`](docs/SCIENTIFIC_CONVENTIONS.md).
 
-The current integrated analysis covers eight generated sets: MatterGen baseline and fine-tuned, Con-CDVAE baseline and fine-tuned, CrystalFormer baseline, CrystaLLM baseline, Crys-JEPA Base, and Crys-JEPA Refined.
+## Evaluated Generative Models
 
-MatterGen and Con-CDVAE fine-tuned sets represent magnetic-material adaptation. Crys-JEPA Base and Refined are comparator sets; Refined is a generatively refined set, not a geometry relaxation of individual Base structures.
+| Model | Sets in the accepted downstream analysis | Status and interpretation |
+| --- | --- | --- |
+| MatterGen | Base, Fine-tuned | Both sets are analyzed; Fine-tuned is the magnetically adapted variant. |
+| Con-CDVAE | Base, Fine-tuned | Both sets are analyzed; Fine-tuned is the magnetically adapted variant. |
+| CrystalFormer | Base | Fine-tuned generation is ongoing and is not included in the accepted downstream dataset. |
+| CrystaLLM | Base | Fine-tuned generation is ongoing and is not included in the accepted downstream dataset. |
+| Crys-JEPA | Base, Refined | Both sets are analyzed. Refined is a generatively refined comparator, not a geometry relaxation of paired Base structures. |
 
-Frozen Analysis v1 remains available as a historical reproducibility surface. Its scientific contracts, checksums, and original outputs are preserved, but it is not the current endpoint of the repository.
+## Workflow
 
-Scientific interpretation constraints are documented in [`docs/SCIENTIFIC_CONVENTIONS.md`](docs/SCIENTIFIC_CONVENTIONS.md).
+The study workflow is summarized in
+[manuscript Figure 1](paper/figures/fig01_pipeline.pdf):
+
+1. Collect generated structures and model-native outputs.
+2. Harmonize structures into a common CIF-based representation.
+3. Apply structural quality control and retain accepted structures.
+4. Enrich retained structures with CHGNet-predicted energy per atom and a
+   DXMag-derived, composition-based predicted magnetic moment.
+5. Calculate magnetic-composition, local magnetic-geometry, and symmetry
+   descriptors.
+6. Compare generated structures with magnetic reference spaces using descriptor
+   construction, nearest-neighbor distances, and a magnetic-versus-nonmagnetic
+   distance contrast.
+7. Integrate structural, magnetic, descriptor-space, energy-magnetism, and
+   chemical-diversity analyses at the generated-set level.
+
+The reference-space branches in Figure 1 represent similarity or affinity to
+AFM, FM, FiM, and NM reference subsets; they are not predictions of magnetic
+ground state. Figure 1 also shows selected-candidate DFT validation as a study
+continuation. Reference-space and DFT calculations are not currently exposed as
+packaged run recipes or accepted result tables in this repository.
+
+### Interpretation Notes
+
+- CHGNet values used here are predicted energies per atom. They are not
+  automatically formation energies, energies above hull, or thermodynamic
+  stability labels.
+- The DXMag-derived model is composition-based. It does not predict AFM, FM, or
+  FiM order and cannot distinguish polymorphs with the same composition.
+- PCA and generated-set shifts are descriptive population summaries, not paired
+  structure trajectories or causal effects.
+
+## Main Analyses
+
+- Structural validation, retention, and rejection profiles
+- Magnetic-element composition and local magnetic environments
+- Magnetic-site and crystallographic symmetry descriptors
+- Magnetic reference-space screening in the broader study design
+- Descriptor-space PCA
+- Predicted energy-magnetism landscapes
+- Chemical composition, compound classes, and diversity
+- Candidate-level DFT validation as a study-design continuation; no packaged
+  result table is currently included
 
 ## Repository Layout
 
-Tracked repository areas have explicit roles:
-
-| Path | Purpose |
+| Path | Contents |
 | --- | --- |
-| `src/` | Reusable Python package code under `src/mvpipeline`. |
-| `scripts/` | Thin user-facing workflow and compatibility wrappers. |
-| `runs/` | Lightweight run recipes, manifests, checksums, and provenance. |
-| `config/` | Active validation, descriptor, energy, and magnetism configuration. |
-| `datasets/` | Training-reference datasets used by validation and novelty workflows. |
-| `samples/` | Versioned CIF generated sets used by the benchmark. |
-| `tables/` | Canonical scientific tabular stages and frozen analysis artifacts. |
-| `paper/` | Manuscript-selected publication artifacts. |
-| `docs/` | Scientific and technical documentation. |
-| `archive/` | Historical provenance only. Active code must not depend on it. |
-| `tests/` | Unit, regression, and reproducibility tests. |
+| [`src/`](src/) | Reusable Python package code under `src/mvpipeline`. |
+| [`scripts/`](scripts/) | Thin command-line wrappers for validation, enrichment, analysis, and figures. |
+| [`runs/`](runs/) | Run recipes, configuration records, checksums, and execution provenance. |
+| [`config/`](config/) | Structural validation, energy, magnetism, and descriptor configuration. |
+| [`datasets/`](datasets/) | Versioned training-reference and supporting datasets. |
+| [`samples/`](samples/) | Versioned generated CIF sets used by the benchmark. |
+| [`tables/`](tables/) | Canonical scientific tables and documented stage outputs. |
+| [`paper/`](paper/) | Manuscript-selected figures and publication metadata. |
+| [`docs/`](docs/) | Scientific contracts, conventions, provenance, and stage documentation. |
+| [`tests/`](tests/) | Unit, regression, artifact-contract, and figure-generation tests. |
+| [`archive/`](archive/) | Historical provenance retained outside the active workflow. |
 
-Local generated/runtime areas may exist in a working checkout but are not
-tracked source-code areas:
-
-| Path | Purpose |
-| --- | --- |
-| `models/` | External runtime model artifacts, including the DXMag model. |
-| `outputs/` | Generated validation and stage outputs. |
-| `reproduced/` | Regenerated analysis tables, audits, projections, and figures. |
-
-## Package Areas
-
-The active package is `mvpipeline`:
-
-| Package | Role |
-| --- | --- |
-| `mvpipeline.analysis` | Analysis integration, grouping metadata, frozen Analysis v1 support, Analysis v2 magnetic analysis, PCA, and publication-figure logic. |
-| `mvpipeline.annotations` | Production annotation and manifest preparation helpers. |
-| `mvpipeline.descriptors` | Frozen Descriptor v1 support and Magnetically informed Descriptor v2 calculation. |
-| `mvpipeline.enrichment` | Post-v1 standardized enrichment registry, manifest preparation, and master-table validation helpers. |
-| `mvpipeline.energy` | CHGNet-oriented backend adapters and energy result handling. |
-| `mvpipeline.magnetism` | DXMag-oriented backend adapters and magnetism result handling. |
-| `mvpipeline.io` | Dependency-light CSV, manifest, CIF, and table IO helpers. |
-| `mvpipeline.pipeline` | Shared orchestration helpers for batch stages and enrichment runs. |
-| `mvpipeline.validation`, `dedup`, `novelty`, `report`, `utils` | Validation, duplicate checks, novelty checks, report creation, and shared utilities. |
-| `mvpipeline.reproduction` | Frozen Analysis v1 reproduction from required inputs. |
+`outputs/` and `reproduced/` are generated, untracked working areas. Validation
+outputs normally go under `outputs/`; regenerated tables, audits, projections,
+and figure previews go under `reproduced/`. Large model artifacts may be supplied
+separately under `models/` or through explicit runtime paths.
 
 ## Installation
 
-Use an environment suitable for the lightweight analysis and validation code:
+Python 3.10 or newer is required. The repository environment includes the
+scientific dependencies used by validation and analysis:
 
 ```bash
-pip install -e .
+conda env create -f environment.yml
+conda activate mvpipeline
+python -m pip install -e .
 ```
 
-Heavy model backends are intentionally not forced into this same environment. CHGNet, DXMag, MatterGen, Con-CDVAE, CrystalFormer, CrystaLLM, and Crys-JEPA can have incompatible dependency stacks; model execution should use separate documented backend environments rather than one monolithic Python environment.
+The editable install provides the `mvp` validation command and the
+`maggenbench` reproducibility command. CHGNet, DXMag, and the generative models
+may require separate backend-specific environments and external model artifacts;
+they are intentionally not forced into one monolithic runtime.
 
-## Public Commands
-
-The documented public surface is intentionally small:
+A lightweight container for package checks and frozen-input reproduction can be
+built with:
 
 ```bash
-maggenbench reproduce analysis-v1
-maggenbench figures analysis-v1
-mvp
+docker compose build analysis
 ```
 
-`maggenbench` is the current reproducibility CLI. `mvp` is the existing validation CLI retained for compatibility.
+The container does not include generative-model runtimes, CHGNet or DXMag model
+artifacts, or production datasets.
 
-The validation CLI accepts root options such as:
+## Running the Workflow
+
+There is no single command that reruns generation, structural validation,
+CHGNet, DXMag, descriptor calculation, integrated analysis, and every manuscript
+figure. These stages use different dependency environments and are documented by
+the recipes under [`runs/`](runs/).
+
+### Structural Validation
+
+The installed validation command accepts a directory of CIF files:
 
 ```bash
 mvp \
@@ -106,232 +149,101 @@ mvp \
   --no-pretty
 ```
 
-Former phase-style `mvp` subcommands are not packaged entry points in the current repository.
+Use the model-specific recipes in [`runs/validation/`](runs/validation/) for the
+accepted production configurations.
 
-## Frozen Analysis v1 Reproduction
+### Enrichment and Integrated Analysis
 
-Analysis v1 can be regenerated from frozen required inputs without rerunning expensive generation, CHGNet, DXMag, descriptor extraction, or model inference:
+The standardized CHGNet/DXMag workflow requires separate energy and magnetism
+environments. Its inputs, environment variables, and acceptance checks are
+documented in
+[`runs/enrichment/standardized/README.md`](runs/enrichment/standardized/README.md).
 
-```bash
-maggenbench reproduce analysis-v1 \
-  --repo-root . \
-  --artifact-root /path/to/artifacts \
-  --baseline-joined /path/to/baseline_joined.csv \
-  --output-dir reproduced/analysis_v1
-```
-
-The reproducer resolves required artifacts in this order:
-
-1. `<repo-root>/<relative-path>`
-2. `<artifact-root>/<relative-path>`
-3. explicit failure if the artifact is missing
-
-The historical baseline joined table came from a machine-specific production location and is not a good primary user path. Supply it with `--baseline-joined` when reproducing from a fresh clone.
-
-Expected output:
-
-```text
-reproduced/analysis_v1/
-    unified_analysis_v1.csv
-    figures/
-        ...
-```
-
-The frozen unified table contract is:
-
-- `10684` rows.
-- `124` columns.
-- `sample_uid` is unique.
-- `sample_uid == structure_id`.
-- Production cohort identities and counts are frozen: `baseline_master = 4702`, `mattergen_finetuned = 1376`, `concdvae_finetuned = 1299`, `crysjepa_base = 1764`, `crysjepa_refined = 1543`.
-- Production status counts are frozen: Descriptor v1 `ok = 10681`, Descriptor v1 `partial = 3`; energy `ok = 10680`, energy `error = 4`; magnetism `ok = 10684`.
-- Production cohort order, Descriptor v1 semantics, CHGNet semantics, and DXMag semantics are frozen.
-- Expected SHA-256 for `unified_analysis_v1.csv`: `a559a092755a91ea2c9035a08a61a41b8279a81b8dbe2ba52cb888cb17b4cb6c`.
-
-## Frozen Analysis v1 Figures
-
-Figures can also be regenerated from an existing unified Analysis v1 CSV:
+Given the accepted standardized enrichment table, the magnetic descriptors and
+integrated table can be regenerated with:
 
 ```bash
-maggenbench figures analysis-v1 \
-  --input-csv reproduced/analysis_v1/unified_analysis_v1.csv \
-  --output-dir reproduced/analysis_v1/figures
+bash runs/descriptors/magnetic/run.sh
+bash runs/analysis_v2_magnetic/run.sh
 ```
 
-The output directory may already exist. Without `--force`, the command fails only when one or more owned Analysis v1 output files already exist. With `--force`, only those known Analysis v1-owned files are replaced; unrelated files in the directory are preserved, and no recursive directory deletion occurs.
+These scripts write generated results under `reproduced/`; they do not overwrite
+the accepted tables under `tables/`.
 
-The complete Analysis v1 figure/statistics output set contains 15 files:
+### Manuscript Figure Previews
 
-- `01_crystal_system_core_baseline.png`
-- `02_crystal_system_finetuning.png`
-- `03_crystal_system_crysjepa.png`
-- `structural_distribution_summary.csv`
-- `04_density_distribution.png`
-- `05_volume_per_site_distribution.png`
-- `06_sites_per_cell_distribution.png`
-- `compound_class_distribution_percent.csv`
-- `07_compound_class_heatmap.png`
-- `3d_4f_fraction_by_cohort.csv`
-- `08_3d_4f_fraction_by_cohort.png`
-- `magnetic_screening_element_fraction_summary.csv`
-- `09_magnetic_screening_element_fraction.png`
-- `dxmag_predicted_moment_summary.csv`
-- `10_dxmag_predicted_moment_distribution.png`
+Figure 1 and Figures 2-6 can be regenerated from the accepted repository inputs:
 
-## Standardized Enrichment
-
-The recommended current per-structure interface for energy and magnetism data
-is:
-
-```text
-tables/08_standardized_enrichment/standardized_enrichment.csv
+```bash
+python scripts/illustrations/plot_paper_pipeline_v3.py
+python scripts/illustrations/plot_manuscript_figure2_v2.py
+python scripts/illustrations/plot_manuscript_figure3_v2.py
+python scripts/illustrations/plot_manuscript_figure4_v2.py
+python scripts/illustrations/plot_manuscript_figure5_v2.py
+python scripts/illustrations/plot_manuscript_figure6_v2.py
 ```
 
-This post-v1 reference table keeps frozen Analysis v1 unchanged while
-publishing symmetric CHGNet and DXMag artifacts for all eight current cohorts:
-MatterGen baseline/fine-tuned, Con-CDVAE baseline/fine-tuned, CrystalFormer
-baseline, CrystaLLM baseline, Crys-JEPA Base, and Crys-JEPA Refined.
+The internal filenames retain version suffixes because they are executable paths;
+the visible manuscript figures use scientific titles without development labels.
 
-The standardized master has `10684` rows, `87` columns, populated
-`formula_reduced` and `formula_full_canonical` for every row, CHGNet status
-counts `ok = 10680` and `error = 4`, and DXMag status count `ok = 10684`.
-Its SHA-256 is:
+### Packaged Reproduction Command
 
-`8a62cc9720de9249cdb2c6ce929fa3f98e065ef93c881c1c1160d330940db02d`
+The `maggenbench` CLI currently exposes a frozen-input compatibility surface:
 
-See `runs/enrichment/standardized/README.md` and
-`tables/README.md` for the standardized run contract and coverage map.
+```bash
+maggenbench reproduce analysis-v1 --help
+maggenbench figures analysis-v1 --help
+```
 
-## Magnetically Informed Descriptors
-
-The accepted Descriptor v2 layer is `tables/09_descriptor_v2_magnetic/descriptor_v2_magnetic.csv`. It contains `10684` structures and `41` columns and is derived from the standardized enrichment table without modifying that source artifact. Its SHA-256 is `7667aad820f859a13b326c1b6d3c76c258ca4b63bc55ef20066ce99d79e11980`.
-
-Magnetic-site geometry is evaluated only where applicable; `not_applicable` is a scientific state and must not be replaced by zero-valued geometry.
-
-## Integrated Structural And Magnetic Analysis
-
-The canonical current analysis table is `tables/10_analysis_v2_magnetic/analysis_v2_magnetic.csv`. It contains `10684` structures and `118` columns and deterministically combines the accepted standardized enrichment and magnetic descriptor layers. Its SHA-256 is `221deb82b2ac3e5442b4930dd9dcf05dc411e46244f1ce80a401a7d6775bc181`.
-
-Current publication analysis includes structural, magnetic-domain, PCA, energy-magnetism, adaptation, and diversity views. PCA centroid shifts are descriptive set-level summaries rather than paired structure trajectories or causal effects.
+These commands remain available for exact reproduction of the corresponding
+frozen artifact contract. They are not a one-command entry point for the current
+eight-set manuscript workflow.
 
 ## Manuscript Figures
 
-Manuscript-selected publication artifacts are tracked under `paper/figures/`. The current main set contains six figures covering the workflow, structural overview, magnetic domain, descriptor space, energy-magnetism landscape, and diversity/adaptation analysis. PCA loadings are retained as supplementary material. Exploratory previews, audits, projections, and regenerated figures remain under `reproduced/`.
+Reproducible PNG, PDF, and SVG previews are generated under
+`reproduced/analysis_v2_magnetic/figures/`. Manuscript-selected PDFs are tracked
+under [`paper/figures/`](paper/figures/), whose
+[`README.md`](paper/figures/README.md) maps each manuscript figure to its
+reproduced source.
 
-## Run Recipes
+Selected publication artifacts are verified by
+[`paper/figures/SHA256SUMS.txt`](paper/figures/SHA256SUMS.txt). Figures should be
+changed in the plotting code and regenerated rather than edited manually.
 
-Active run recipes live under semantic paths in `runs/`:
+## Reproducibility and Provenance
 
-- `runs/validation/`
-- `runs/annotations/`
-- `runs/enrichment/`
-- `runs/descriptors/magnetic/`
-- `runs/descriptors/v1/`
-- `runs/analysis_v1/`
-- `runs/analysis_v2_magnetic/`
+- Model, run, and configuration metadata are versioned under `runs/` and
+  `config/`.
+- Stable `sample_uid` and `structure_id` values are propagated across manifests,
+  enrichment outputs, descriptor tables, and integrated analyses.
+- Accepted joins require unique identifiers and agreement of shared identity
+  fields.
+- Generated artifacts are kept separate from reusable source code and accepted
+  tables.
+- Frozen and manuscript-selected artifacts are verified using SHA-256 checksum
+  manifests stored with the corresponding run or publication metadata.
 
-These directories document how frozen production artifacts were prepared and how current workflows are orchestrated. They are not a substitute for reusable package code; shared behavior belongs in `src/mvpipeline`.
+Relevant documentation includes [`tables/README.md`](tables/README.md),
+[`runs/README.md`](runs/README.md), and
+[`docs/provenance.md`](docs/provenance.md). The checksum manifests and technical
+provenance files remain authoritative; raw digest values are intentionally not
+duplicated here.
 
-Historical phase-based scripts and superseded layouts belong under `archive/` for provenance. Current code must not depend on `archive/`.
+## Data Availability
 
-## Data And Artifact Policy
+Versioned samples, supporting datasets, canonical tables, and manuscript
+artifacts are included where their size and licensing permit. Large generated
+collections, model checkpoints, backend caches, and machine-specific production
+artifacts must be supplied separately using the paths documented by the relevant
+run recipe.
 
-Small, versioned fixtures and metadata can live in Git. Large or machine-specific artifacts should be supplied externally and mounted or passed by path, including:
+Repository data and artifact roles are described in
+[`tables/README.md`](tables/README.md), [`runs/README.md`](runs/README.md), and
+[`paper/README.md`](paper/README.md). No external archival DOI is declared by the
+current repository metadata.
 
-- Full generated CIF collections.
-- Large model checkpoints and binary model artifacts.
-- CHGNet, DXMag, and model-backend caches.
-- Generated production CSVs when they are too large or are frozen publication artifacts.
-- Logs, temporary files, and local reproduction outputs.
+## License
 
-Generated outputs should go under explicit artifact locations such as `reproduced/`, `outputs/`, `reports/`, or `tables/` depending on their role. Reproducible analysis figures belong under `reproduced/`; manuscript-selected publication artifacts belong under `paper/`. Generated outputs are artifacts, not source code. See `tables/README.md`, `paper/README.md`, and `archive/README.md` for artifact and provenance policy details.
+MagGenBench is distributed under the [MIT License](LICENSE).
 
-## Docker Reproducibility
-
-The repository includes a lightweight Docker/Compose configuration for the Analysis v1 reproducibility surface. It installs MagGenBench as a normal package, exposes the packaged `maggenbench` and `mvp` console commands, and sets Matplotlib to a noninteractive backend for headless figure generation.
-
-The lightweight image is only for package installation, CLI smoke checks, Analysis v1 figure generation, Analysis v1 reproduction from frozen inputs, and the lightweight analysis/reproduction regression tests. It does not contain model checkpoints or heavy model runtimes.
-
-Local runtime acceptance requires Docker/Compose on the host; if Docker is unavailable, treat the container files as implemented but not locally smoke-tested.
-
-Build the image:
-
-```bash
-docker compose build analysis
-```
-
-Help smoke checks:
-
-```bash
-docker compose run --rm analysis maggenbench --help
-docker compose run --rm analysis maggenbench figures analysis-v1 --help
-docker compose run --rm analysis maggenbench reproduce analysis-v1 --help
-```
-
-Run the lightweight container regression target:
-
-```bash
-docker compose run --rm analysis python -m pytest -q \
-  tests/test_analysis_v1_figures.py \
-  tests/test_maggenbench_cli.py \
-  tests/test_reproduction_analysis_v1.py \
-  tests/test_unified_analysis.py \
-  tests/test_analysis_cohorts.py \
-  tests/test_analysis_plotting.py \
-  tests/test_dependency_light_imports.py
-```
-
-For real Analysis v1 reproduction, mount externally supplied frozen artifacts and write outputs to a host-visible directory:
-
-```bash
-MAGGENBENCH_ARTIFACT_ROOT=/path/to/artifacts \
-MAGGENBENCH_OUTPUT_ROOT=./reproduced \
-docker compose run --rm analysis \
-  maggenbench reproduce analysis-v1 \
-    --repo-root /workspace \
-    --artifact-root /artifacts \
-    --baseline-joined /artifacts/baseline_joined.csv \
-    --output-dir /output/analysis_v1
-```
-
-The historical absolute baseline path in `runs/analysis_v1/final_sha256.txt` is provenance only. The mounted `--baseline-joined` file is the runtime input, and its checksum is still validated against the frozen manifest digest.
-
-`MAGGENBENCH_ARTIFACT_ROOT` is required and must point to the directory containing the frozen Analysis v1 artifacts. For the command above, that directory must contain `baseline_joined.csv` at its root. `MAGGENBENCH_OUTPUT_ROOT` is optional and defaults to `./reproduced`.
-
-Do not force all model ecosystems into a single Python environment.
-
-## Tests
-
-Run lightweight tests from an installed development environment:
-
-```bash
-python -m pytest -q
-```
-
-Some production workflows require server-side environments and external artifacts. Local tests should not download models, run GPU workloads, or process the full production sample directories.
-
-## Adding A Model
-
-To add a model to the current architecture:
-
-1. Add cohort metadata to the canonical registry only when the cohort is part of a supported analysis surface.
-2. Keep model-specific execution in a thin script or run recipe.
-3. Put reusable parsing, annotation, enrichment, or analysis logic under `src/mvpipeline`.
-4. Document required external artifacts and environment constraints.
-5. Add lightweight tests with fixtures or fake backends.
-
-## Adding A Descriptor
-
-Descriptor changes must preserve the frozen Descriptor v1 contract unless a new descriptor version is explicitly introduced. New descriptor code should document schema, units, missing-value behavior, and provenance.
-
-## Scientific Interpretation Caveats
-
-- CHGNet outputs in this repository are machine-learning energy predictions. They are not DFT formation energies, hull distances, or thermodynamic stability labels unless explicitly transformed and documented.
-- DXMag outputs are predicted magnetic moments in `muB/f.u.`. They are not magnetic ordering, saturation magnetization, Curie temperature, or structure-dependent DFT magnetic moments.
-- Composition screens for magnetic elements indicate chemical plausibility, not a verified magnetic ground state.
-- Magnetic Descriptor v2 describes composition, magnetic-site geometry, and symmetry proxies. It does not establish magnetic order.
-- Descriptor v1 is frozen for Analysis v1 reproducibility. Changes require a new versioned descriptor contract.
-
-## Provenance
-
-Analysis v1 provenance is captured in the run recipes, checksum manifests, canonical cohort registry, and tests. Reproduction should start from a fresh clone plus documented external artifacts and should not require inspecting implementation files to understand the repository layout or public commands.
