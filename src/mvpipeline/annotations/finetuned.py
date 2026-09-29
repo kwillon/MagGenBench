@@ -91,9 +91,30 @@ CONCDVAE_FINETUNED = FinetunedAnnotationCohort(
 )
 
 
+CRYSTALLM_FINETUNED = FinetunedAnnotationCohort(
+    key="crystallm-finetuned",
+    input_path=Path("outputs/crystallm_finetuned/all_structures.csv"),
+    adapted_output_path=Path(
+        "tables/03_features/"
+        "phase5b_crystallm_finetuned_with_classes.csv"
+    ),
+    enriched_output_path=Path(
+        "tables/04_magnetic_screening/"
+        "phase5b_crystallm_finetuned_enrichment_annotations.csv"
+    ),
+    sample_uid_prefix="crystallm_ft__",
+    model_name="CrystaLLM-finetuned",
+    model_short="cllm_ft",
+    run_uid="crystallm_finetuned_lr5e-4_step275_seed1337_20x100",
+    expected_total=2000,
+    pass_label="PHASE5B_CRYSTALLM_ANNOTATIONS: PASSED",
+)
+
+
 FINETUNED_COHORTS = {
     MATTERGEN_FINETUNED.key: MATTERGEN_FINETUNED,
     CONCDVAE_FINETUNED.key: CONCDVAE_FINETUNED,
+    CRYSTALLM_FINETUNED.key: CRYSTALLM_FINETUNED,
 }
 
 

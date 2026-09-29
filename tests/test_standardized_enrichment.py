@@ -26,6 +26,7 @@ EXPECTED_COUNTS = {
     "concdvae_finetuned": 1299,
     "crystalformer_baseline": 1083,
     "crystallm_baseline": 98,
+    "crystallm_finetuned": 217,
     "crysjepa_base": 1764,
     "crysjepa_refined": 1543,
 }
@@ -95,7 +96,7 @@ def test_standardized_master_energy_and_magnetism_status_contract():
         row for row in rows if row["magnetism_status"] == "error"
     ]
 
-    assert len(energy_ok) == 10680
+    assert len(energy_ok) == 10897
     assert len(energy_error) == 4
     assert {row["structure_id"] for row in energy_error} == EXPECTED_ENERGY_ERROR_IDS
 

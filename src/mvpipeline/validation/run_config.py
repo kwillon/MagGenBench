@@ -38,6 +38,17 @@ CONCDVAE_FINETUNED_VALIDATION = ValidationCohortConfig(
 )
 
 
+CRYSTALLM_FINETUNED_VALIDATION = ValidationCohortConfig(
+    key="crystallm-finetuned",
+    input_dir=Path("samples/crystallm_finetuned_cifs"),
+    out_dir=Path("outputs/crystallm_finetuned"),
+    train_reference=Path("datasets/mattergen/train_reference.csv"),
+    thresholds=Path("config/thresholds.yaml"),
+    model_name="CrystaLLM-finetuned",
+    refuse_existing_output=True,
+)
+
+
 CRYSJEPA_BASE_VALIDATION = ValidationCohortConfig(
     key="crysjepa-base",
     input_dir=Path("samples/crysjepa_base_cifs"),
@@ -63,6 +74,7 @@ CRYSJEPA_REFINED_VALIDATION = ValidationCohortConfig(
 VALIDATION_COHORTS = {
     MATTERGEN_FINETUNED_VALIDATION.key: MATTERGEN_FINETUNED_VALIDATION,
     CONCDVAE_FINETUNED_VALIDATION.key: CONCDVAE_FINETUNED_VALIDATION,
+    CRYSTALLM_FINETUNED_VALIDATION.key: CRYSTALLM_FINETUNED_VALIDATION,
     CRYSJEPA_BASE_VALIDATION.key: CRYSJEPA_BASE_VALIDATION,
     CRYSJEPA_REFINED_VALIDATION.key: CRYSJEPA_REFINED_VALIDATION,
 }
