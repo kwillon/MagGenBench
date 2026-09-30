@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Co5Ir2Pt2Rh
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.20291798
+_cell_length_b   4.95291248
+_cell_length_c   9.94595867
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   107.17580065
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Co5Ir2Pt2Rh
+_chemical_formula_sum   'Co10 Ir4 Rh2 Pt4'
+_cell_volume   244.87303428
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rh  Rh0  1  0.00000000  0.00000000  0.00000000  1
+  Rh  Rh1  1  0.00000000  0.50000000  0.50000000  1
+  Co  Co2  1  0.50000000  0.00000000  0.50000000  1
+  Co  Co3  1  0.50000000  0.50000000  0.00000000  1
+  Pt  Pt4  1  0.35999068  0.78706584  0.11131181  1
+  Pt  Pt5  1  0.64000932  0.28706584  0.38868819  1
+  Pt  Pt6  1  0.64000932  0.21293416  0.88868819  1
+  Pt  Pt7  1  0.35999068  0.71293416  0.61131181  1
+  Ir  Ir8  1  0.64584386  0.02445672  0.78664817  1
+  Ir  Ir9  1  0.35415614  0.52445672  0.71335183  1
+  Ir  Ir10  1  0.35415614  0.97554328  0.21335183  1
+  Ir  Ir11  1  0.64584386  0.47554328  0.28664817  1
+  Co  Co12  1  0.71950940  0.99897702  0.19606637  1
+  Co  Co13  1  0.28049060  0.49897702  0.30393363  1
+  Co  Co14  1  0.28049060  0.00102298  0.80393363  1
+  Co  Co15  1  0.71950940  0.50102298  0.69606637  1
+  Co  Co16  1  0.87102260  0.16013114  0.65639381  1
+  Co  Co17  1  0.12897740  0.66013114  0.84360619  1
+  Co  Co18  1  0.12897740  0.83986886  0.34360619  1
+  Co  Co19  1  0.87102260  0.33986886  0.15639381  1

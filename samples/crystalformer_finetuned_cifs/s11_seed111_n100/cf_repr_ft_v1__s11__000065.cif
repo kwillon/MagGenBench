@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_FeGeP
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.51834607
+_cell_length_b   3.51834607
+_cell_length_c   13.47091913
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   FeGeP
+_chemical_formula_sum   'Fe3 Ge3 P3'
+_cell_volume   144.41256170
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  P  P0  1  0.00000000  0.00000000  0.98460149  1
+  P  P1  1  0.66666669  0.33333334  0.31793484  1
+  P  P2  1  0.33333334  0.66666669  0.65126818  1
+  Ge  Ge3  1  0.00000000  0.00000000  0.36846217  1
+  Ge  Ge4  1  0.66666669  0.33333334  0.70179551  1
+  Ge  Ge5  1  0.33333334  0.66666669  0.03512885  1
+  Fe  Fe6  1  0.00000000  0.00000000  0.77963175  1
+  Fe  Fe7  1  0.66666669  0.33333334  0.11296510  1
+  Fe  Fe8  1  0.33333334  0.66666669  0.44629844  1

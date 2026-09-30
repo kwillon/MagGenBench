@@ -1,0 +1,154 @@
+ data_Fe2V1Al1
+ loop_
+ _atom_type_symbol
+ _atom_type_electronegativity
+ _atom_type_radius
+ _atom_type_ionic_radius
+ Fe 1.8300 1.4000 0.8525
+V 1.6300 1.3500 0.6400
+Al 1.6100 1.2100 0.5350
+ _symmetry_space_group_name_H-M Fm-3m
+_cell_length_a 5.91287000
+_cell_length_b 5.91287000
+_cell_length_c 5.91287000
+_cell_angle_alpha 90.00000000
+_cell_angle_beta 90.00000000
+_cell_angle_gamma 90.00000000
+_symmetry_Int_Tables_number 225
+_chemical_formula_structural Fe2VAl
+_chemical_formula_sum 'Fe8 V4 Al4'
+_cell_volume 207.85941037
+_cell_formula_units_Z 4
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 'x, y, z'
+2 '-x, -y, -z'
+3 '-y, x, z'
+4 'y, -x, -z'
+5 '-x, -y, z'
+6 'x, y, -z'
+7 'y, -x, z'
+8 '-y, x, -z'
+9 'x, -y, -z'
+10 '-x, y, z'
+11 '-y, -x, -z'
+12 'y, x, z'
+13 '-x, y, -z'
+14 'x, -y, z'
+15 'y, x, -z'
+16 '-y, -x, z'
+17 'z, x, y'
+18 '-z, -x, -y'
+19 'z, -y, x'
+20 '-z, -x, -y'
+21 'z, -x, -x'
+22 'x, -y, -y'
+23 'z, x, y'
+24 '-z, -y, x'
+25 '-z, x, -z'
+26 '-z, -x, y'
+27 '-z, y, -x'
+28 'z, y, y'
+29 '-z, x, -z'
+30 '-z, x, -y'
+31 'z, x, y'
+32 'y, -z, -x'
+33 'y, z, -x'
+34 '-y, -z, x'
+35 'x, -z, y'
+36 '-x, z, -y'
+37 '-y, -z, x'
+38 'y, -z, x'
+39 '-x, z, -y'
+40 '-y, z, -y'
+41 '-y, -z, x'
+42 'y, z, y'
+43 '-y, -z, -x'
+44 'x, z, y'
+45 'y, z, -x'
+46 '-y, z, -x'
+47 'x, z, y'
+48 '-x, z, x'
+49 'x, -z, -y'
+50 '-x, -y, z'
+51 '-y, -z, x'
+52 'y, x, z'
+53 'z, -y, -x'
+54 'y, -z, x'
+55 'y, z, -x'
+56 '-y, -x+y'
+57 '-y, -z'
+58 '-y, -z, x'
+59 'z, -z, -x'
+60 '-z, y, -x'
+61 'z, -z, x'
+62 '-y, -y, x'
+63 'z, x, y'
+64 '-y, z, -x'
+65 'z, y, y'
+66 'z, -z, -x'
+67 'z, -z, -x'
+68 'y, -z, -x'
+69 'z, -y, x'
+70 'z, -z, x'
+71 '-z, x, -y'
+72 '-z, y, x'
+73 '-z, -x+y'
+74 'z, x, y'
+75 'z, y, x'
+76 'y, z, -x'
+77 'z, -x, -y'
+78 'z, -z, x'
+79 'y, -z, -x'
+80 'z, -z, x'
+81 '-z, -z, z'
+82 '-z, -x, y'
+83 '-z, -y, -x'
+84 'y, -z, -x'
+85 'y, z, -x'
+86 '-z, -y, x'
+87 'x, z, y'
+88 '-x, z, -y'
+89 '-y, z, -y'
+80 'y, -z, -y'
+81 '-y, z, -x'
+82 '-y, z, -x'
+81 'x, z, -y'
+82 '-y, z+1/2, -z+1/2'
+83 '-z+1/2, -x+1/2, -y'
+84 '-y+1/2, y+1/2, x'
+85 '-y+1/2, z+1/2, -x'
+86 'z+1/2, z+1/2, -y'
+87 '-y+1/2, z+1/2, x+1/2'
+88 'y+1/2, z+1/2, -z+1/2, z+1/2, y'
+89 'x+1/2, z+1/2, -y+1/2'
+80 '-x+1/2, -z+1/2, z+1/2'
+81 'y+1/2, y+1/2, -x'
+82 '-y+1/2, z+1/2, z+1/2, y'
+83 'y+1/2, -z+1/2, -x+1/2'
+84 '-x, z+1/2, -x+1/2'
+85 'x+1/2, -z+1/2, z+1/2'
+86 'y+1/2, -y+1/2, z+1/2'
+87 '-y+1/2, -x+1/2, -y+1/2'
+88 '-y+1/2, z+1/2, y+1/2'
+89 '-y+1/2, -z+1/2, z+1/2, -x'
+90 'y+1/2, -z+1/2, -y'
+91 'x+1/2, -z+1/2, x+1/2'
+92 '-y+1/2, z+1/2, z+1/2'
+93 'x+1/2, y+1/2, -y+1/2'
+94 '-x+1/2, z+1/2, z+1/2'
+95 '-y+1/2, -x+1/2, z'
+96 '-y, x, z+1/2, x+1/2'
+97 '-x+1/2, x, -z+1/2'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Sc Sc0 2 0.00000000 0.00000000 0.00000000 1.0
+Fe Fe1 8 0.10386000 0.31020000 0.50000000 1.0
+

@@ -1,0 +1,36 @@
+ data_Fe1F2
+ loop_
+ _atom_type_symbol
+ _atom_type_electronegativity
+ _atom_type_radius
+ _atom_type_ionic_radius
+ Fe 1.8300 1.4000 0.8525
+F 3.9800 0.5000 1.3300
+ _symmetry_space_group_name_H-M P42/<unk>
+, -y, x-y, z'
+5 '-y, x, -z'
+6 '-y, x, -z'
+7 '-y, y, -z'
+8 'x, -y, x, z'
+9 'x+1/2, y+1/2, z'
+10 '-x+1/2, -y+1/2, -z'
+11 '-y+1/2, -x+1/2, z'
+12 'x+1/2, -y+1/2, -z'
+13 'x+1/2, -y+1/2, z'
+14 '-x+1/2, -y+1/2, z'
+15 'x+1/2, -y+1/2, z'
+16 '-y+1/2, -x+1/2, z'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Fe Fe0 4 0.00000000 0.10113000 0.25000000 1.0
+Fe Fe1 4 0.00000000 0.20052000 0.75000000 1.0
+Fe Fe2 4 0.00000000 0.30056000 0.25000000 1.0
+Fe Fe3 4 0.00000000 0.40047000 0.75000000 1.0
+N N4 2 0.00000000 0.000000 0.50000000 1.0
+

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_KNbCr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.62001884
+_cell_length_b   6.41975827
+_cell_length_c   8.81983591
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KNbCr
+_chemical_formula_sum   'K4 Nb4 Cr4'
+_cell_volume   261.59107819
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  1  0.12199874  0.17323461  0.76339054  1
+  Nb  Nb1  1  0.37800126  0.82676539  0.26339054  1
+  Nb  Nb2  1  0.87800126  0.67323461  0.73660946  1
+  Nb  Nb3  1  0.62199874  0.32676539  0.23660946  1
+  Cr  Cr4  1  0.18249388  0.26837562  0.64137857  1
+  Cr  Cr5  1  0.31750612  0.73162438  0.14137857  1
+  Cr  Cr6  1  0.81750612  0.76837562  0.85862143  1
+  Cr  Cr7  1  0.68249388  0.23162438  0.35862143  1
+  K  K8  1  0.34443388  0.09823959  0.85998329  1
+  K  K9  1  0.15556612  0.90176041  0.35998329  1
+  K  K10  1  0.65556612  0.59823959  0.64001671  1
+  K  K11  1  0.84443388  0.40176041  0.14001671  1

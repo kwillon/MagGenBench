@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_TaNbCo3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.43193281
+_cell_length_b   4.27226664
+_cell_length_c   7.84622303
+_cell_angle_alpha   107.72112533
+_cell_angle_beta   93.92717001
+_cell_angle_gamma   102.30938079
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TaNbCo3
+_chemical_formula_sum   'Ta2 Nb2 Co6'
+_cell_volume   136.83342935
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.00000000  0.00000000  0.50000000  1
+  Co  Co1  1  0.00000000  0.50000000  0.50000000  1
+  Co  Co2  1  0.59684205  0.68360231  0.95348169  1
+  Co  Co3  1  0.40315795  0.31639769  0.04651831  1
+  Ta  Ta4  1  0.76050600  0.39781610  0.63210244  1
+  Ta  Ta5  1  0.23949400  0.60218390  0.36789756  1
+  Co  Co6  1  0.85612408  0.09331407  0.80595337  1
+  Co  Co7  1  0.14387592  0.90668593  0.19404663  1
+  Nb  Nb8  1  0.91815011  0.84588751  0.03211241  1
+  Nb  Nb9  1  0.08184989  0.15411249  0.96788759  1

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ta2TiFe8Co
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.25667619
+_cell_length_b   5.39044884
+_cell_length_c   4.31330973
+_cell_angle_alpha   106.27879184
+_cell_angle_beta   80.54602034
+_cell_angle_gamma   94.47193795
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta2TiFe8Co
+_chemical_formula_sum   'Ta2 Ti1 Fe8 Co1'
+_cell_volume   115.66202660
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.18373672  0.67974762  0.00606542  1
+  Fe  Fe1  1  0.25496643  0.92281361  0.34642957  1
+  Fe  Fe2  1  0.43269040  0.69680188  0.97399335  1
+  Ti  Ti3  1  0.52390370  0.13213995  0.64762553  1
+  Fe  Fe4  1  0.50915433  0.71955494  0.10360165  1
+  Fe  Fe5  1  0.62079037  0.82298006  0.60912275  1
+  Ta  Ta6  1  0.72504981  0.91140595  0.78927762  1
+  Fe  Fe7  1  0.78818528  0.86685212  0.44232629  1
+  Fe  Fe8  1  0.87044111  0.98852203  0.29313744  1
+  Ta  Ta9  1  0.01824560  0.12149591  0.31150928  1
+  Fe  Fe10  1  0.05061507  0.52417475  0.86641326  1
+  Co  Co11  1  0.00176006  0.74762118  0.89407797  1

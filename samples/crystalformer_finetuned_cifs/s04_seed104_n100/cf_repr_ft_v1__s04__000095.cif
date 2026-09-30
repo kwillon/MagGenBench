@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_TaAlFe2SiGe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.19110711
+_cell_length_b   5.74737685
+_cell_length_c   8.73082268
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TaAlFe2SiGe
+_chemical_formula_sum   'Ta4 Al4 Fe8 Si4 Ge4'
+_cell_volume   260.48626687
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.01768585  0.98386140  0.75041790  1
+  Fe  Fe1  1  0.48231415  0.01613860  0.25041790  1
+  Fe  Fe2  1  0.98231415  0.48386140  0.74958210  1
+  Fe  Fe3  1  0.51768585  0.51613860  0.24958210  1
+  Fe  Fe4  1  0.10476390  0.97319161  0.44812855  1
+  Fe  Fe5  1  0.39523610  0.02680839  0.94812855  1
+  Fe  Fe6  1  0.89523610  0.47319161  0.05187145  1
+  Fe  Fe7  1  0.60476390  0.52680839  0.55187145  1
+  Ta  Ta8  1  0.10907319  0.82938566  0.18161978  1
+  Ta  Ta9  1  0.39092681  0.17061434  0.68161978  1
+  Ta  Ta10  1  0.89092681  0.32938566  0.31838022  1
+  Ta  Ta11  1  0.60907319  0.67061434  0.81838022  1
+  Ge  Ge12  1  0.38211925  0.97984226  0.47669318  1
+  Ge  Ge13  1  0.11788075  0.02015774  0.97669318  1
+  Ge  Ge14  1  0.61788075  0.47984226  0.02330682  1
+  Ge  Ge15  1  0.88211925  0.52015774  0.52330682  1
+  Al  Al16  1  0.34526311  0.14113969  0.08532269  1
+  Al  Al17  1  0.15473689  0.85886031  0.58532269  1
+  Al  Al18  1  0.65473689  0.64113969  0.41467731  1
+  Al  Al19  1  0.84526311  0.35886031  0.91467731  1
+  Si  Si20  1  0.76202339  0.87998048  0.42662678  1
+  Si  Si21  1  0.73797661  0.12001952  0.92662678  1
+  Si  Si22  1  0.23797661  0.37998048  0.07337322  1
+  Si  Si23  1  0.26202339  0.62001952  0.57337322  1

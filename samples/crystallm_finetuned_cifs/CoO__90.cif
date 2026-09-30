@@ -1,0 +1,131 @@
+ data_Co1O1
+ loop_
+ _atom_type_symbol
+ _atom_type_electronegativity
+ _atom_type_radius
+ _atom_type_ionic_radius
+ Co 1.8800 1.2500 0.7450
+O 3.4400 0.6000 1.2600
+ _symmetry_space_group_name_H-M Fm-3m
+_cell_length_a 2.69044000
+_cell_length_b 2.69044000
+_cell_length_c 2.69044000
+_cell_angle_alpha 90.00000000
+_cell_angle_beta 90.00000000
+_cell_angle_gamma 90.00000000
+_symmetry_Int_Tables_number 225
+_chemical_formula_structural CoO
+_chemical_formula_sum 'Co1 O1'
+_cell_volume 20.96484843
+_cell_formula_units_Z 1
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 'x, y, z'
+2 '-x, -y, -z'
+3 '-y, x, z'
+4 'y, -x, -z'
+5 '-x, -y, z'
+6 'x, y, -z'
+7 'y, -x, z'
+8 '-y, x, -z'
+9 'x, -y, -z'
+10 '-x, y, z'
+11 '-y, -x, -z'
+12 'y, x, z'
+13 '-x, y, -z'
+14 'x, -y, z'
+15 'y, x, -z'
+16 '-y, -x, z'
+17 'z, x, y'
+18 '-z, --y'
+19 'z, -y, x'
+20 '-z, x, -x'
+21 'z, x, y'
+22 'z, y, -x'
+23 'z, z, -x'
+24 '-z, -x, y'
+25 '-z, x, -z'
+26 '-x, -y, x'
+27 '-z, -x, -y'
+28 'z, y, -x'
+29 '-z, x, y'
+30 'z, x, y'
+31 '-z, -y, -x'
+32 'z, x, z, -y'
+33 'y, z, -x'
+34 '-y, z, y'
+35 'x, -z, -x'
+36 '-x, -z, x'
+37 '-y, -z, -x'
+38 'y, -z, x'
+39 '-x, z, y'
+40 '-y, -z, -x'
+41 '-y, -z, x'
+42 'x, z, y'
+43 '-x, z, -x'
+44 'x, z, y'
+45 'y, -z, -x'
+46 '-x, z, y'
+47 'x+1/2, -y+1/2, z'
+48 '-x+1/2, z'
+49 '-x+1/2, y+1/2, z'
+50 '-x+1/2, -y+1/2, -y+1/2, -z'
+51 'x+1/2, -y+1/2, -z'
+52 '-x+1/2, y+1/2, -z'
+53 'x+1/2, z'
+54 '-x+1/2, y+1/2, z'
+55 'y+1/2, -x+1/2, y+1/2'
+56 '-y+1/2, x+1/2, z'
+57 'z+1/2, y+1/2, -z'
+58 '-x+1/2, -y+1/2, z'
+59 '-z+1/2, x+1/2, -y+1/2, -z'
+60 'y+1/2, -x+1/2, -z'
+61 'y+1/2, -z'
+62 'x+1/2, y+1/2, -x+1/2, y'
+63 'z+1/2, -z'
+64 '-y+1/2, z'
+65 'z+1/2, -x+1/2, y'
+66 'z+1/2, -y+1/2, x+1/2'
+67 '-z+1/2, y+1/2, -y+1/2'
+68 'y+1/2, z+1/2, -x+1/2'
+69 '-y+1/2, -x+1/2, -z+1/2'
+70 'y+1/2, x+1/2, -z+1/2'
+71 '-x+1/2, -y, z+1/2'
+72 'y+1/2, x+1/2, x+1/2'
+73 '-y+1/2, -z+1/2, x'
+74 '-x+1/2, z+1/2, -y+1/2, -x+1/2, -z+1/2'
+75 'x+1/2, y+1/2, -z+1/2'
+76 '-y, x+1/2, -z+1/2'
+77 '-y, x+1/2, z+1/2'
+78 'y+1/2, x+1/2, z+1/2'
+79 '-x+1/2, x+1/2, -z+1/2'
+80 'y+1/2, x+1/2, -y+1/2'
+81 '-x+1/2, -y+1/2, -z+1/2'
+82 '-y+1/2, -x+1/2, z+1/2'
+83 '-z+1/2, -y+1/2, -x+1/2'
+84 '-z+1/2, -x+1/2, y+1/2'
+85 'y+1/2, z+1/2, x+1/2'
+86 'y+1/2, z+1/2, -x'
+87 '-y+1/2, z+1/2, y+1/2'
+88 'y+1/2, z+1/2, -x+1/2'
+89 '-x+1/2, z+1/2, y'
+90 'y+1/2, -z+1/2, x'
+91 'y+1/2, z+1/2, -x+1/2'
+92 '-y+1/2, z+1/2, x+1/2'
+93 'y+1/2, -x+1/2, z+1/2'
+94 '-y+1/2, -y, z+1/2'
+95 'y+1/2, -z+1/2, -z+1/2, z+1/2'
+96 'x+1/2, -y, z+1/2'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Ta Ta0 4 0.00000000 0.00000000 0.00000000 1.0
+Co Co1 8 0.25000000 0.25000000 0.25000000 1.0
+Co Co2 4 0.00000000 0.00000000 0.50000000 1.0
+

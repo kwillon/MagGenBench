@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CaFeCo
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.66859390
+_cell_length_b   5.78345114
+_cell_length_c   5.05298999
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaFeCo
+_chemical_formula_sum   'Ca4 Fe4 Co4'
+_cell_volume   165.65740508
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.06704557  0.00220928  0.56051929  1
+  Fe  Fe1  1  0.93295443  0.99779072  0.06051929  1
+  Fe  Fe2  1  0.56704557  0.49779072  0.56051929  1
+  Fe  Fe3  1  0.43295443  0.50220928  0.06051929  1
+  Ca  Ca4  1  0.32595090  0.17927472  0.37802020  1
+  Ca  Ca5  1  0.67404910  0.82072528  0.87802020  1
+  Ca  Ca6  1  0.82595090  0.32072528  0.37802020  1
+  Ca  Ca7  1  0.17404910  0.67927472  0.87802020  1
+  Co  Co8  1  0.30970956  0.22926919  0.41259742  1
+  Co  Co9  1  0.69029044  0.77073081  0.91259742  1
+  Co  Co10  1  0.80970956  0.27073081  0.41259742  1
+  Co  Co11  1  0.19029044  0.72926919  0.91259742  1

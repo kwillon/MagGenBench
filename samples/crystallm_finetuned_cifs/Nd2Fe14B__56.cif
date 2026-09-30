@@ -1,0 +1,55 @@
+ data_Nd2Fe14B1
+ loop_
+ _atom_type_symbol
+ _atom_type_electronegativity
+ _atom_type_radius
+ _atom_type_ionic_radius
+ Nd 1.1400 1.8200 1.1090
+Fe 1.8300 1.4000 0.8525
+B 2.0400 0.8500 0.2500
+ _symmetry_space_group_name_H-M P42/<unk>
+, 'Nd2 Fe12 B1'
+_cell_volume 144.00477879
+_cell_formula_units_Z 1
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 'x, y, z'
+2 '-x, -y, -z'
+3 '-y, x+y, z'
+4 'x, -y, z'
+5 '-x, -y, z'
+6 'x-y, -x+y, -z'
+7 '-x+y, y, -z'
+8 'x+3/4, y+1/2, z+1/2'
+9 '-x+1/2, -y+1/2, -z+1/2'
+10 'x+1/2, -y+1/2, z+1/4'
+11 '-y+1/2, x+1/2, -z+3/4'
+12 'x+1/2, -y+1/2, -z+1/2'
+13 'x+1/2, -y, z+1/2'
+14 '-x+1/2, -y, z+1/4'
+15 'y+1/2, -x+1/2, z+1/2'
+16 '-y+1/2, x, -z+3/4'
+17 'x+1/2, -y+1/2, z'
+18 '-y+1/2, -x+1/2, -z+1/2'
+19 '-y+1/2, x, z+3/4'
+20 'y, -x+1/2, z+1/4'
+21 '-y, -x+1/2, z+1/2'
+22 'x+1/2, -y, -z+1/2'
+23 'y+1/2, -x+1/2, -z'
+24 '-x, -y, z'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Al Al0 4 0.00000000 0.00000000 0.13198000 1.0
+Fe Fe1 8 0.00000000 0.50000000 0.07289000 1.0
+Fe Fe2 4 0.00000000 0.00000000 0.29499000 1.0
+Fe Fe3 2 0.00000000 0.00000000 0.00000000 1.0
+Fe Fe4 2 0.00000000 0.00000000 0.50000000 1.0
+B B5 2 0.00000000 0.00000000 0.00000000 1.0
+

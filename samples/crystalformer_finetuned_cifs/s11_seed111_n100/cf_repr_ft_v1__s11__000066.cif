@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_TaMnFe5Ge
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.29939144
+_cell_length_b   4.29939144
+_cell_length_c   16.92749679
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TaMnFe5Ge
+_chemical_formula_sum   'Ta3 Mn3 Fe15 Ge3'
+_cell_volume   270.98006747
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.00000000  0.00000000  0.14363719  1
+  Fe  Fe1  1  0.66666669  0.33333334  0.47697054  1
+  Fe  Fe2  1  0.33333334  0.66666669  0.81030388  1
+  Ta  Ta3  1  0.00000000  0.00000000  0.28553040  1
+  Ta  Ta4  1  0.66666669  0.33333334  0.61886375  1
+  Ta  Ta5  1  0.33333334  0.66666669  0.95219709  1
+  Ge  Ge6  1  0.00000000  0.00000000  0.41927472  1
+  Ge  Ge7  1  0.66666669  0.33333334  0.75260807  1
+  Ge  Ge8  1  0.33333334  0.66666669  0.08594141  1
+  Fe  Fe9  1  0.00000000  0.00000000  0.49887987  1
+  Fe  Fe10  1  0.66666669  0.33333334  0.83221322  1
+  Fe  Fe11  1  0.33333334  0.66666669  0.16554656  1
+  Mn  Mn12  1  0.00000000  0.00000000  0.63925112  1
+  Mn  Mn13  1  0.66666669  0.33333334  0.97258447  1
+  Mn  Mn14  1  0.33333334  0.66666669  0.30591781  1
+  Fe  Fe15  1  0.00000000  0.00000000  0.73675378  1
+  Fe  Fe16  1  0.66666669  0.33333334  0.07008712  1
+  Fe  Fe17  1  0.33333334  0.66666669  0.40342047  1
+  Fe  Fe18  1  0.00000000  0.00000000  0.82622239  1
+  Fe  Fe19  1  0.66666669  0.33333334  0.15955574  1
+  Fe  Fe20  1  0.33333334  0.66666669  0.49288908  1
+  Fe  Fe21  1  0.00000000  0.00000000  0.99083265  1
+  Fe  Fe22  1  0.66666669  0.33333334  0.32416599  1
+  Fe  Fe23  1  0.33333334  0.66666669  0.65749934  1

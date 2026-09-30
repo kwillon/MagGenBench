@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_CaScMnFe16N
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.20574797
+_cell_length_b   7.19537201
+_cell_length_c   7.97889200
+_cell_angle_alpha   101.34785607
+_cell_angle_beta   96.47534000
+_cell_angle_gamma   105.06513444
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaScMnFe16N
+_chemical_formula_sum   'Ca1 Sc1 Mn1 Fe16 N1'
+_cell_volume   278.68079649
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.03365468  0.87554903  0.65157084  1
+  Fe  Fe1  1  0.07673442  0.25674327  0.15736163  1
+  Ca  Ca2  1  0.10762578  0.57926204  0.61487761  1
+  Fe  Fe3  1  0.21515352  0.37524699  0.03313480  1
+  Fe  Fe4  1  0.20895915  0.46283120  0.45009788  1
+  Fe  Fe5  1  0.29045162  0.06538617  0.58653939  1
+  Fe  Fe6  1  0.29900636  0.84616349  0.05348921  1
+  Fe  Fe7  1  0.40349080  0.85945604  0.97453949  1
+  Fe  Fe8  1  0.44034998  0.71425653  0.27206775  1
+  Fe  Fe9  1  0.50988084  0.49140782  0.48872871  1
+  Fe  Fe10  1  0.55668545  0.29315699  0.73594803  1
+  Fe  Fe11  1  0.56449173  0.88128797  0.70394669  1
+  Fe  Fe12  1  0.62670108  0.66837698  0.12521008  1
+  Fe  Fe13  1  0.61225881  0.92467276  0.37770210  1
+  Fe  Fe14  1  0.62598208  0.31647823  0.07124385  1
+  N  N15  1  0.80029654  0.49626907  0.37295942  1
+  Sc  Sc16  1  0.85856084  0.85193777  0.59048362  1
+  Fe  Fe17  1  0.98773228  0.50149331  0.01251088  1
+  Mn  Mn18  1  0.97723989  0.16340508  0.40320053  1
+  Fe  Fe19  1  0.96691923  0.67744440  0.11305475  1

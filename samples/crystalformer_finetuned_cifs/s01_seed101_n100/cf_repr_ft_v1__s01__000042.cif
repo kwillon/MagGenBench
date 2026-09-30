@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_TaNbFe4Co3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.74797096
+_cell_length_b   3.93009530
+_cell_length_c   4.58035039
+_cell_angle_alpha   95.84504268
+_cell_angle_beta   81.59977088
+_cell_angle_gamma   81.06510242
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TaNbFe4Co3
+_chemical_formula_sum   'Ta1 Nb1 Fe4 Co3'
+_cell_volume   65.39682528
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.99721256  0.98439524  0.01075317  1
+  Fe  Fe1  1  0.17916378  0.35079028  0.45399858  1
+  Nb  Nb2  1  0.24056105  0.85858690  0.95631636  1
+  Fe  Fe3  1  0.26602808  0.28660413  0.10667450  1
+  Co  Co4  1  0.46584390  0.02107723  0.51138635  1
+  Fe  Fe5  1  0.62894332  0.36659034  0.72428981  1
+  Co  Co6  1  0.70736027  0.13255803  0.64435562  1
+  Fe  Fe7  1  0.78686864  0.39243067  0.81804551  1
+  Ta  Ta8  1  0.93576555  0.36705241  0.13318122  1

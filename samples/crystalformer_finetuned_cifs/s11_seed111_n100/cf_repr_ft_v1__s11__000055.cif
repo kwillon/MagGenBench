@@ -1,0 +1,53 @@
+# generated using pymatgen
+data_Cr(Fe3Ge)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.19333222
+_cell_length_b   4.19333222
+_cell_length_c   22.40942697
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cr(Fe3Ge)2
+_chemical_formula_sum   'Cr3 Fe18 Ge6'
+_cell_volume   341.25570887
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.00000000  0.00000000  0.08564104  1
+  Fe  Fe1  1  0.66666669  0.33333334  0.41897438  1
+  Fe  Fe2  1  0.33333334  0.66666669  0.75230772  1
+  Ge  Ge3  1  0.00000000  0.00000000  0.15968536  1
+  Ge  Ge4  1  0.66666669  0.33333334  0.49301871  1
+  Ge  Ge5  1  0.33333334  0.66666669  0.82635205  1
+  Fe  Fe6  1  0.00000000  0.00000000  0.24144396  1
+  Fe  Fe7  1  0.66666669  0.33333334  0.57477731  1
+  Fe  Fe8  1  0.33333334  0.66666669  0.90811065  1
+  Fe  Fe9  1  0.00000000  0.00000000  0.31635039  1
+  Fe  Fe10  1  0.66666669  0.33333334  0.64968373  1
+  Fe  Fe11  1  0.33333334  0.66666669  0.98301708  1
+  Fe  Fe12  1  0.00000000  0.00000000  0.48552954  1
+  Fe  Fe13  1  0.66666669  0.33333334  0.81886289  1
+  Fe  Fe14  1  0.33333334  0.66666669  0.15219623  1
+  Fe  Fe15  1  0.00000000  0.00000000  0.65115182  1
+  Fe  Fe16  1  0.66666669  0.33333334  0.98448517  1
+  Fe  Fe17  1  0.33333334  0.66666669  0.31781851  1
+  Ge  Ge18  1  0.00000000  0.00000000  0.78562630  1
+  Ge  Ge19  1  0.66666669  0.33333334  0.11895964  1
+  Ge  Ge20  1  0.33333334  0.66666669  0.45229299  1
+  Fe  Fe21  1  0.00000000  0.00000000  0.82849186  1
+  Fe  Fe22  1  0.66666669  0.33333334  0.16182520  1
+  Fe  Fe23  1  0.33333334  0.66666669  0.49515854  1
+  Cr  Cr24  1  0.00000000  0.00000000  0.99793437  1
+  Cr  Cr25  1  0.66666669  0.33333334  0.33126771  1
+  Cr  Cr26  1  0.33333334  0.66666669  0.66460105  1

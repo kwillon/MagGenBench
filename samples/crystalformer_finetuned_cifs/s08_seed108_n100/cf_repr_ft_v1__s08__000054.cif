@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_Co2IrPt
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   2.95941952
+_cell_length_b   2.95941952
+_cell_length_c   11.07864946
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Co2IrPt
+_chemical_formula_sum   'Co4 Ir2 Pt2'
+_cell_volume   97.02862789
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ir  Ir0  1  0.25000000  0.25000000  0.07232923  1
+  Ir  Ir1  1  0.75000000  0.75000000  0.92767077  1
+  Pt  Pt2  1  0.25000000  0.25000000  0.35367716  1
+  Pt  Pt3  1  0.75000000  0.75000000  0.64632284  1
+  Co  Co4  1  0.25000000  0.25000000  0.59713151  1
+  Co  Co5  1  0.75000000  0.75000000  0.40286849  1
+  Co  Co6  1  0.25000000  0.25000000  0.86725598  1
+  Co  Co7  1  0.75000000  0.75000000  0.13274402  1

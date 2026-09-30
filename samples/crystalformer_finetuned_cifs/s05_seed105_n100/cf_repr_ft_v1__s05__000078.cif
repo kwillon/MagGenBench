@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_ZrFeSi
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.38288109
+_cell_length_b   6.09709716
+_cell_length_c   4.86743764
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZrFeSi
+_chemical_formula_sum   'Zr4 Fe4 Si4'
+_cell_volume   159.74905492
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  1  0.08724584  0.88376339  0.36309563  1
+  Si  Si1  1  0.91275416  0.11623661  0.86309563  1
+  Si  Si2  1  0.58724584  0.61623661  0.36309563  1
+  Si  Si3  1  0.41275416  0.38376339  0.86309563  1
+  Fe  Fe4  1  0.46201508  0.93484816  0.30062207  1
+  Fe  Fe5  1  0.53798492  0.06515184  0.80062207  1
+  Fe  Fe6  1  0.96201508  0.56515184  0.30062207  1
+  Fe  Fe7  1  0.03798492  0.43484816  0.80062207  1
+  Zr  Zr8  1  0.76167854  0.37960576  0.99560381  1
+  Zr  Zr9  1  0.23832146  0.62039424  0.49560381  1
+  Zr  Zr10  1  0.26167854  0.12039424  0.99560381  1
+  Zr  Zr11  1  0.73832146  0.87960576  0.49560381  1

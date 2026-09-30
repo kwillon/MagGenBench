@@ -1,0 +1,53 @@
+# generated using pymatgen
+data_NaTa2Ti4MnCr2Fe4Co12Ni
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.23660025
+_cell_length_b   6.05780976
+_cell_length_c   7.75095579
+_cell_angle_alpha   53.01536736
+_cell_angle_beta   90.92439916
+_cell_angle_gamma   69.71195696
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaTa2Ti4MnCr2Fe4Co12Ni
+_chemical_formula_sum   'Na1 Ta2 Ti4 Mn1 Cr2 Fe4 Co12 Ni1'
+_cell_volume   209.29962131
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.00000000  0.00000000  0.00000000  1
+  Ni  Ni1  1  0.50000000  0.50000000  0.00000000  1
+  Mn  Mn2  1  0.50000000  0.50000000  0.50000000  1
+  Fe  Fe3  1  0.19803266  0.09962749  0.50040586  1
+  Fe  Fe4  1  0.80196734  0.90037251  0.49959414  1
+  Ti  Ti5  1  0.08971817  0.52649930  0.36055171  1
+  Ti  Ti6  1  0.91028183  0.47350070  0.63944829  1
+  Ti  Ti7  1  0.28077530  0.38046585  0.34363698  1
+  Ti  Ti8  1  0.71922470  0.61953415  0.65636302  1
+  Co  Co9  1  0.31640277  0.02572815  0.80981185  1
+  Co  Co10  1  0.68359723  0.97427185  0.19018815  1
+  Co  Co11  1  0.46852159  0.70984528  0.21868259  1
+  Co  Co12  1  0.53147841  0.29015472  0.78131741  1
+  Fe  Fe13  1  0.62616162  0.16689193  0.53881009  1
+  Fe  Fe14  1  0.37383838  0.83310807  0.46118991  1
+  Co  Co15  1  0.68482997  0.00665764  0.13864002  1
+  Co  Co16  1  0.31517003  0.99334236  0.86135998  1
+  Cr  Cr17  1  0.82698905  0.03291291  0.66819787  1
+  Cr  Cr18  1  0.17301095  0.96708709  0.33180213  1
+  Ta  Ta19  1  0.84805565  0.19076059  0.42184371  1
+  Ta  Ta20  1  0.15194435  0.80923941  0.57815629  1
+  Co  Co21  1  0.81490859  0.79784441  0.04669208  1
+  Co  Co22  1  0.18509141  0.20215559  0.95330792  1
+  Co  Co23  1  0.90341575  0.46665947  0.21544103  1
+  Co  Co24  1  0.09658425  0.53334053  0.78455897  1
+  Co  Co25  1  0.93197182  0.67723102  0.30022245  1
+  Co  Co26  1  0.06802818  0.32276898  0.69977755  1

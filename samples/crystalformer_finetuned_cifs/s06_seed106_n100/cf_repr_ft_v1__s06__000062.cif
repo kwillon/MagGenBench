@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_TaNbCo
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.22822426
+_cell_length_b   3.55234848
+_cell_length_c   9.99483324
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TaNbCo
+_chemical_formula_sum   'Ta4 Nb4 Co4'
+_cell_volume   185.62878572
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  1  0.16290238  0.25000000  0.07369484  1
+  Nb  Nb1  1  0.33709762  0.75000000  0.57369484  1
+  Nb  Nb2  1  0.83709762  0.75000000  0.92630516  1
+  Nb  Nb3  1  0.66290238  0.25000000  0.42630516  1
+  Ta  Ta4  1  0.44843239  0.25000000  0.75649621  1
+  Ta  Ta5  1  0.05156761  0.75000000  0.25649621  1
+  Ta  Ta6  1  0.55156761  0.75000000  0.24350379  1
+  Ta  Ta7  1  0.94843239  0.25000000  0.74350379  1
+  Co  Co8  1  0.63006136  0.25000000  0.57981102  1
+  Co  Co9  1  0.86993864  0.75000000  0.07981102  1
+  Co  Co10  1  0.36993864  0.75000000  0.42018898  1
+  Co  Co11  1  0.13006136  0.25000000  0.92018898  1

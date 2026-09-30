@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_MnFe2Co2Rh
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.25919860
+_cell_length_b   4.36657131
+_cell_length_c   4.05846261
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   99.79144132
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnFe2Co2Rh
+_chemical_formula_sum   'Mn2 Fe4 Co4 Rh2'
+_cell_volume   91.84360396
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.00000000  0.00000000  0.00000000  1
+  Mn  Mn1  1  0.00000000  0.50000000  0.50000000  1
+  Rh  Rh2  1  0.50000000  0.00000000  0.50000000  1
+  Rh  Rh3  1  0.50000000  0.50000000  0.00000000  1
+  Fe  Fe4  1  0.67589667  0.45696756  0.86814323  1
+  Fe  Fe5  1  0.32410333  0.95696756  0.63185677  1
+  Fe  Fe6  1  0.32410333  0.54303244  0.13185677  1
+  Fe  Fe7  1  0.67589667  0.04303244  0.36814323  1
+  Co  Co8  1  0.72676794  0.66470486  0.24305994  1
+  Co  Co9  1  0.27323206  0.16470486  0.25694006  1
+  Co  Co10  1  0.27323206  0.33529514  0.75694006  1
+  Co  Co11  1  0.72676794  0.83529514  0.74305994  1

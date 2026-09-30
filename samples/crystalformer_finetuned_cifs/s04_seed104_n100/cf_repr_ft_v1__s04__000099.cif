@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_CrFe3CoNiP
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.91652200
+_cell_length_b   7.95993941
+_cell_length_c   9.30375376
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CrFe3CoNiP
+_chemical_formula_sum   'Cr4 Fe12 Co4 Ni4 P4'
+_cell_volume   290.04710798
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  P  P0  1  0.04428569  0.94972307  0.05088735  1
+  P  P1  1  0.45571431  0.05027693  0.55088735  1
+  P  P2  1  0.95571431  0.44972307  0.44911265  1
+  P  P3  1  0.54428569  0.55027693  0.94911265  1
+  Fe  Fe4  1  0.14801827  0.94957789  0.16705706  1
+  Fe  Fe5  1  0.35198173  0.05042211  0.66705706  1
+  Fe  Fe6  1  0.85198173  0.44957789  0.33294294  1
+  Fe  Fe7  1  0.64801827  0.55042211  0.83294294  1
+  Co  Co8  1  0.17235351  0.00102728  0.17875129  1
+  Co  Co9  1  0.32764649  0.99897272  0.67875129  1
+  Co  Co10  1  0.82764649  0.50102728  0.32124871  1
+  Co  Co11  1  0.67235351  0.49897272  0.82124871  1
+  Fe  Fe12  1  0.27796214  0.02592731  0.54765303  1
+  Fe  Fe13  1  0.22203786  0.97407269  0.04765303  1
+  Fe  Fe14  1  0.72203786  0.52592731  0.95234697  1
+  Fe  Fe15  1  0.77796214  0.47407269  0.45234697  1
+  Ni  Ni16  1  0.28786660  0.37346090  0.36826167  1
+  Ni  Ni17  1  0.21213340  0.62653910  0.86826167  1
+  Ni  Ni18  1  0.71213340  0.87346090  0.13173833  1
+  Ni  Ni19  1  0.78786660  0.12653910  0.63173833  1
+  Fe  Fe20  1  0.18114478  0.05310083  0.07650510  1
+  Fe  Fe21  1  0.31885522  0.94689917  0.57650510  1
+  Fe  Fe22  1  0.81885522  0.55310083  0.42349490  1
+  Fe  Fe23  1  0.68114478  0.44689917  0.92349490  1
+  Cr  Cr24  1  0.34648357  0.97101668  0.61262306  1
+  Cr  Cr25  1  0.15351643  0.02898332  0.11262306  1
+  Cr  Cr26  1  0.65351643  0.47101668  0.88737694  1
+  Cr  Cr27  1  0.84648357  0.52898332  0.38737694  1

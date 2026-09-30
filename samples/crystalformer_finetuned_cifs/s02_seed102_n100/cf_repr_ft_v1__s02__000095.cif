@@ -1,0 +1,51 @@
+# generated using pymatgen
+data_NaTa2(Fe7Co4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.71356171
+_cell_length_b   7.27139602
+_cell_length_c   8.90184738
+_cell_angle_alpha   117.23167175
+_cell_angle_beta   96.32659232
+_cell_angle_gamma   95.99045361
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaTa2(Fe7Co4)2
+_chemical_formula_sum   'Na1 Ta2 Fe14 Co8'
+_cell_volume   321.78649719
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.00000000  0.50000000  0.00000000  1
+  Fe  Fe1  1  0.50000000  0.50000000  0.00000000  1
+  Fe  Fe2  1  0.50000000  0.50000000  0.50000000  1
+  Co  Co3  1  0.11197339  0.72445657  0.12876772  1
+  Co  Co4  1  0.88802661  0.27554343  0.87123228  1
+  Fe  Fe5  1  0.03388148  0.87299078  0.74733985  1
+  Fe  Fe6  1  0.96611852  0.12700922  0.25266015  1
+  Co  Co7  1  0.16510699  0.36011758  0.31595218  1
+  Co  Co8  1  0.83489301  0.63988242  0.68404782  1
+  Fe  Fe9  1  0.22872048  0.33993368  0.38523331  1
+  Fe  Fe10  1  0.77127952  0.66006632  0.61476669  1
+  Fe  Fe11  1  0.28422495  0.70930976  0.03981737  1
+  Fe  Fe12  1  0.71577505  0.29069024  0.96018263  1
+  Co  Co13  1  0.32039075  0.97575182  0.17710718  1
+  Co  Co14  1  0.67960925  0.02424818  0.82289282  1
+  Fe  Fe15  1  0.37566063  0.19763706  0.37774060  1
+  Fe  Fe16  1  0.62433937  0.80236294  0.62225940  1
+  Fe  Fe17  1  0.20603284  0.49118231  0.47066270  1
+  Fe  Fe18  1  0.79396716  0.50881769  0.52933730  1
+  Ta  Ta19  1  0.43057055  0.27374181  0.82585906  1
+  Ta  Ta20  1  0.56942945  0.72625819  0.17414094  1
+  Fe  Fe21  1  0.77084453  0.95616137  0.62227134  1
+  Fe  Fe22  1  0.22915547  0.04383863  0.37772866  1
+  Co  Co23  1  0.83493803  0.40730027  0.40067900  1
+  Co  Co24  1  0.16506197  0.59269973  0.59932100  1

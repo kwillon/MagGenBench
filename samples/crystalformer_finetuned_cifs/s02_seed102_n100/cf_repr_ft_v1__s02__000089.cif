@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_CaTa2FeCo7Ir
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.05879453
+_cell_length_b   6.16817280
+_cell_length_c   9.82731153
+_cell_angle_alpha   102.94021051
+_cell_angle_beta   98.75426964
+_cell_angle_gamma   103.05249067
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaTa2FeCo7Ir
+_chemical_formula_sum   'Ca2 Ta4 Fe2 Co14 Ir2'
+_cell_volume   340.64330506
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.00000000  0.50000000  0.00000000  1
+  Co  Co1  1  0.50000000  0.50000000  0.50000000  1
+  Ca  Ca2  1  0.13403182  0.81880029  0.33704581  1
+  Ca  Ca3  1  0.86596818  0.18119971  0.66295419  1
+  Ta  Ta4  1  0.16469482  0.99770187  0.86132452  1
+  Ta  Ta5  1  0.83530518  0.00229813  0.13867548  1
+  Co  Co6  1  0.33295331  0.83131320  0.60123291  1
+  Co  Co7  1  0.66704669  0.16868680  0.39876709  1
+  Fe  Fe8  1  0.42788905  0.36170546  0.08364173  1
+  Fe  Fe9  1  0.57211095  0.63829454  0.91635827  1
+  Co  Co10  1  0.49556105  0.86392692  0.69759036  1
+  Co  Co11  1  0.50443895  0.13607308  0.30240964  1
+  Co  Co12  1  0.50115180  0.76902859  0.92127490  1
+  Co  Co13  1  0.49884820  0.23097141  0.07872510  1
+  Ta  Ta14  1  0.65237955  0.23501652  0.24062052  1
+  Ta  Ta15  1  0.34762045  0.76498348  0.75937948  1
+  Co  Co16  1  0.67448743  0.40870505  0.57854941  1
+  Co  Co17  1  0.32551257  0.59129495  0.42145059  1
+  Ir  Ir18  1  0.79761507  0.11209821  0.12013544  1
+  Ir  Ir19  1  0.20238493  0.88790179  0.87986456  1
+  Co  Co20  1  0.87575005  0.28866902  0.64344339  1
+  Co  Co21  1  0.12424995  0.71133098  0.35655661  1
+  Co  Co22  1  0.95845832  0.31070747  0.45454931  1
+  Co  Co23  1  0.04154168  0.68929253  0.54545069  1

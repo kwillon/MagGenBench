@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_TaFeCo
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.13337373
+_cell_length_b   3.68600751
+_cell_length_c   11.38033750
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TaFeCo
+_chemical_formula_sum   'Ta4 Fe4 Co4'
+_cell_volume   215.33480962
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.09722443  0.25000000  0.91764934  1
+  Fe  Fe1  1  0.40277557  0.75000000  0.41764934  1
+  Fe  Fe2  1  0.90277557  0.75000000  0.08235066  1
+  Fe  Fe3  1  0.59722443  0.25000000  0.58235066  1
+  Ta  Ta4  1  0.25184465  0.25000000  0.35842670  1
+  Ta  Ta5  1  0.24815535  0.75000000  0.85842670  1
+  Ta  Ta6  1  0.74815535  0.75000000  0.64157330  1
+  Ta  Ta7  1  0.75184465  0.25000000  0.14157330  1
+  Co  Co8  1  0.96323177  0.25000000  0.26915565  1
+  Co  Co9  1  0.53676823  0.75000000  0.76915565  1
+  Co  Co10  1  0.03676823  0.75000000  0.73084435  1
+  Co  Co11  1  0.46323177  0.25000000  0.23084435  1

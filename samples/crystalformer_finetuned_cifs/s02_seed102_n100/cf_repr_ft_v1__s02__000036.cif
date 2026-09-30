@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Ta2Co11
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.65557598
+_cell_length_b   4.54567985
+_cell_length_c   7.17630327
+_cell_angle_alpha   88.65760226
+_cell_angle_beta   109.96535125
+_cell_angle_gamma   109.19691165
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta2Co11
+_chemical_formula_sum   'Ta2 Co11'
+_cell_volume   162.93879130
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.50000000  0.00000000  0.50000000  1
+  Co  Co1  1  0.21389286  0.73590418  0.42980898  1
+  Co  Co2  1  0.78610714  0.26409582  0.57019102  1
+  Ta  Ta3  1  0.31664416  0.26446897  0.81299146  1
+  Ta  Ta4  1  0.68335584  0.73553103  0.18700854  1
+  Co  Co5  1  0.75241440  0.25650480  0.76109828  1
+  Co  Co6  1  0.24758560  0.74349520  0.23890172  1
+  Co  Co7  1  0.81736956  0.01672737  0.65069706  1
+  Co  Co8  1  0.18263044  0.98327263  0.34930294  1
+  Co  Co9  1  0.89764758  0.69097327  0.41601247  1
+  Co  Co10  1  0.10235242  0.30902673  0.58398753  1
+  Co  Co11  1  0.94269076  0.79806819  0.13299445  1
+  Co  Co12  1  0.05730924  0.20193181  0.86700555  1

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_TaFe2CoSb
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.93046573
+_cell_length_b   3.41939060
+_cell_length_c   11.94855216
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TaFe2CoSb
+_chemical_formula_sum   'Ta4 Fe8 Co4 Sb4'
+_cell_volume   283.15642323
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sb  Sb0  1  0.07019929  0.25000000  0.56321455  1
+  Sb  Sb1  1  0.42980071  0.75000000  0.06321455  1
+  Sb  Sb2  1  0.92980071  0.75000000  0.43678545  1
+  Sb  Sb3  1  0.57019929  0.25000000  0.93678545  1
+  Co  Co4  1  0.21130128  0.25000000  0.76789453  1
+  Co  Co5  1  0.28869872  0.75000000  0.26789453  1
+  Co  Co6  1  0.78869872  0.75000000  0.23210547  1
+  Co  Co7  1  0.71130128  0.25000000  0.73210547  1
+  Fe  Fe8  1  0.30207631  0.25000000  0.93870613  1
+  Fe  Fe9  1  0.19792369  0.75000000  0.43870613  1
+  Fe  Fe10  1  0.69792369  0.75000000  0.06129387  1
+  Fe  Fe11  1  0.80207631  0.25000000  0.56129387  1
+  Fe  Fe12  1  0.42653615  0.25000000  0.33737349  1
+  Fe  Fe13  1  0.07346385  0.75000000  0.83737349  1
+  Fe  Fe14  1  0.57346385  0.75000000  0.66262651  1
+  Fe  Fe15  1  0.92653615  0.25000000  0.16262651  1
+  Ta  Ta16  1  0.56557252  0.25000000  0.87625534  1
+  Ta  Ta17  1  0.93442748  0.75000000  0.37625534  1
+  Ta  Ta18  1  0.43442748  0.75000000  0.12374466  1
+  Ta  Ta19  1  0.06557252  0.25000000  0.62374466  1

@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_LiCa2Ta2Fe8Co7Cl2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.46387077
+_cell_length_b   5.32646777
+_cell_length_c   9.04089442
+_cell_angle_alpha   107.89670797
+_cell_angle_beta   88.93566163
+_cell_angle_gamma   98.71663365
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiCa2Ta2Fe8Co7Cl2
+_chemical_formula_sum   'Li1 Ca2 Ta2 Fe8 Co7 Cl2'
+_cell_volume   247.38495898
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.00000000  0.00000000  0.00000000  1
+  Co  Co1  1  0.00000000  0.00000000  0.50000000  1
+  Ca  Ca2  1  0.06709013  0.18023362  0.38102148  1
+  Ca  Ca3  1  0.93290987  0.81976638  0.61897852  1
+  Fe  Fe4  1  0.17890836  0.58816931  0.46682768  1
+  Fe  Fe5  1  0.82109164  0.41183069  0.53317232  1
+  Co  Co6  1  0.25827741  0.64011414  0.40325182  1
+  Co  Co7  1  0.74172259  0.35988586  0.59674818  1
+  Ta  Ta8  1  0.41080839  0.20942565  0.81495305  1
+  Ta  Ta9  1  0.58919161  0.79057435  0.18504695  1
+  Co  Co10  1  0.49734959  0.01290895  0.94878962  1
+  Co  Co11  1  0.50265041  0.98709105  0.05121038  1
+  Co  Co12  1  0.54952055  0.60856213  0.23609403  1
+  Co  Co13  1  0.45047945  0.39143787  0.76390597  1
+  Cl  Cl14  1  0.60747946  0.89926186  0.14421459  1
+  Cl  Cl15  1  0.39252054  0.10073814  0.85578541  1
+  Fe  Fe16  1  0.80010610  0.73318839  0.63071257  1
+  Fe  Fe17  1  0.19989390  0.26681161  0.36928743  1
+  Fe  Fe18  1  0.85175991  0.96321311  0.80025389  1
+  Fe  Fe19  1  0.14824009  0.03678689  0.19974611  1
+  Fe  Fe20  1  0.94399102  0.31495446  0.64842971  1
+  Fe  Fe21  1  0.05600898  0.68504554  0.35157029  1

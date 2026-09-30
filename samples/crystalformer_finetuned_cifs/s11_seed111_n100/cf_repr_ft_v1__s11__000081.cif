@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_AlFe3Si2Ge
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.26153506
+_cell_length_b   4.26153506
+_cell_length_c   20.98638660
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlFe3Si2Ge
+_chemical_formula_sum   'Al3 Fe9 Si6 Ge3'
+_cell_volume   330.06572773
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.00000000  0.00000000  0.09683636  1
+  Fe  Fe1  1  0.66666669  0.33333334  0.43016970  1
+  Fe  Fe2  1  0.33333334  0.66666669  0.76350305  1
+  Fe  Fe3  1  0.00000000  0.00000000  0.25647524  1
+  Fe  Fe4  1  0.66666669  0.33333334  0.58980859  1
+  Fe  Fe5  1  0.33333334  0.66666669  0.92314193  1
+  Si  Si6  1  0.00000000  0.00000000  0.41290601  1
+  Si  Si7  1  0.66666669  0.33333334  0.74623936  1
+  Si  Si8  1  0.33333334  0.66666669  0.07957270  1
+  Si  Si9  1  0.00000000  0.00000000  0.53445463  1
+  Si  Si10  1  0.66666669  0.33333334  0.86778797  1
+  Si  Si11  1  0.33333334  0.66666669  0.20112131  1
+  Fe  Fe12  1  0.00000000  0.00000000  0.65757036  1
+  Fe  Fe13  1  0.66666669  0.33333334  0.99090370  1
+  Fe  Fe14  1  0.33333334  0.66666669  0.32423705  1
+  Ge  Ge15  1  0.00000000  0.00000000  0.84587991  1
+  Ge  Ge16  1  0.66666669  0.33333334  0.17921325  1
+  Ge  Ge17  1  0.33333334  0.66666669  0.51254659  1
+  Al  Al18  1  0.00000000  0.00000000  0.00390747  1
+  Al  Al19  1  0.66666669  0.33333334  0.33724082  1
+  Al  Al20  1  0.33333334  0.66666669  0.67057416  1

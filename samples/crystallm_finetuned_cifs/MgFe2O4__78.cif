@@ -1,0 +1,68 @@
+ data_Mg1Fe2O4
+ loop_
+ _atom_type_symbol
+ _atom_type_electronegativity
+ _atom_type_radius
+ _atom_type_ionic_radius
+ Mg 1.3100 1.6000 0.7200
+Fe 1.8300 1.4000 0.8525
+O 3.4400 0.6000 1.2600
+ _symmetry_space_group_name_H-M Fd-3m
+_cell_length_a 6.81524000
+_cell_length_b 6.81524000
+_cell_length_c 6.81524000
+_cell_angle_alpha 90.00000000
+_cell_angle_beta 90.00000000
+_cell_angle_gamma 90.00000000
+_symmetry_Int_Tables_number 227
+_chemical_formula_structural MgFe2
+_chemical_formula_sum 'Mg8 Fe16'
+_cell_volume 315.83887812
+_cell_formula_units_Z 8
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 'x, y, z'
+2 '-y, x+1/4, -x+1/2'
+3 '-x+4/4, -y+1/4, z'
+4 '-y, x+1/4, -x+1/2, -z'
+5 'x+1/4, y+3/4, -x'
+6 '-y+1/4, z'
+7 '-x+1/4, z'
+8 'y+1/4, -y+1/2, -x+1/4'
+9 '-x+1/2, -y, -z+1/4'
+10 'x+1/2, y, z+1/4'
+11 '-y, -x, -z'
+12 '-y, -x+1/4, -y+1/4'
+13 '-z+3/4, x, -y+1/2'
+14 'y, -x+1/2, z+1/2'
+15 '-x, y+1/4, -z+1/4'
+16 'y+1/2, y, -z+1/2'
+17 '-x, -z, -x+1/4, y+1/4'
+18 'z+1/2, -x+1/4, z+1/2'
+19 'y, x+3/4, z+3/4, z+1/4'
+20 '-y, -x+3/4, z+1/4'
+21 '-x+1/4, -y+1/2, -z+1/4'
+22 'x+1/2, y+1/4, -x+1/4'
+23 '-x+1/2, y+1/2, -z+1/4'
+24 '-y+1/2, x, -z+3/4'
+25 'x, -y+1/2, -z+3/4'
+26 '-x, y+1/4, -z'
+27 'x, y+1/4, -x+3/4'
+28 '-y+1/2, x+1/2, z'
+29 'x+1/4, -y+1/4, -z'
+30 '-x+1/2, -y+3/4, -z+3/4'
+31 '-x, y+1/4'
+32 '-z+1/4, -x, z+1/4'
+33 'y+1/2, -x+1/4, z+3/4'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Sc Sc0 8 0.00000000 0.00000000 0.00000000 1.0
+Fe Fe1 16 0.12500000 0.12500000 0.62500000 1.0
+

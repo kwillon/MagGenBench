@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_TaFeRh
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.58357564
+_cell_length_b   3.11200564
+_cell_length_c   8.38684548
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TaFeRh
+_chemical_formula_sum   'Ta4 Fe4 Rh4'
+_cell_volume   119.63091362
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.66732453  0.25000000  0.10341010  1
+  Fe  Fe1  1  0.83267547  0.75000000  0.60341010  1
+  Fe  Fe2  1  0.33267547  0.75000000  0.89658990  1
+  Fe  Fe3  1  0.16732453  0.25000000  0.39658990  1
+  Ta  Ta4  1  0.84672604  0.25000000  0.03940427  1
+  Ta  Ta5  1  0.65327396  0.75000000  0.53940427  1
+  Ta  Ta6  1  0.15327396  0.75000000  0.96059573  1
+  Ta  Ta7  1  0.34672604  0.25000000  0.46059573  1
+  Rh  Rh8  1  0.96034296  0.25000000  0.34093248  1
+  Rh  Rh9  1  0.53965704  0.75000000  0.84093248  1
+  Rh  Rh10  1  0.03965704  0.75000000  0.65906752  1
+  Rh  Rh11  1  0.46034296  0.25000000  0.15906752  1

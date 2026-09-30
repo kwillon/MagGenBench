@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_Ta3CrFe16Co
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.46417573
+_cell_length_b   12.09437070
+_cell_length_c   6.57117528
+_cell_angle_alpha   71.34850630
+_cell_angle_beta   135.14890486
+_cell_angle_gamma   110.85850936
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta3CrFe16Co
+_chemical_formula_sum   'Ta3 Cr1 Fe16 Co1'
+_cell_volume   388.90314963
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.98034737  0.99499506  0.01512621  1
+  Fe  Fe1  1  0.98734157  0.00545519  0.49666297  1
+  Fe  Fe2  1  0.07014877  0.46558776  0.06126466  1
+  Fe  Fe3  1  0.05097999  0.60552598  0.32413651  1
+  Fe  Fe4  1  0.14498637  0.50180669  0.49956270  1
+  Fe  Fe5  1  0.18601969  0.79494544  0.59291614  1
+  Fe  Fe6  1  0.27974800  0.46322658  0.73441665  1
+  Fe  Fe7  1  0.26796561  0.67483707  0.23986338  1
+  Ta  Ta8  1  0.27901223  0.57841496  0.64361104  1
+  Fe  Fe9  1  0.33794622  0.96576427  0.09107400  1
+  Fe  Fe10  1  0.37867138  0.23618778  0.85382811  1
+  Fe  Fe11  1  0.41790484  0.85508846  0.07615546  1
+  Cr  Cr12  1  0.45428871  0.28960283  0.37827026  1
+  Fe  Fe13  1  0.55447183  0.31488935  0.32048382  1
+  Fe  Fe14  1  0.58111072  0.75890765  0.97951695  1
+  Fe  Fe15  1  0.64657966  0.01966304  0.00843547  1
+  Fe  Fe16  1  0.69150123  0.77162052  0.25477044  1
+  Fe  Fe17  1  0.79378892  0.11445193  0.90397862  1
+  Ta  Ta18  1  0.74612750  0.87345384  0.70922193  1
+  Ta  Ta19  1  0.73936541  0.05043602  0.90963123  1
+  Fe  Fe20  1  0.90415288  0.51420161  0.65216709  1
