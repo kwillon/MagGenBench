@@ -111,7 +111,28 @@ CRYSTALLM_FINETUNED = FinetunedAnnotationCohort(
 )
 
 
+
+CRYSTALFORMER_FINETUNED = FinetunedAnnotationCohort(
+    key="crystalformer-finetuned",
+    input_path=Path("outputs/crystalformer_finetuned/all_structures.csv"),
+    adapted_output_path=Path(
+        "tables/03_features/phase5b_crystalformer_finetuned_with_classes.csv"
+    ),
+    enriched_output_path=Path(
+        "tables/04_magnetic_screening/"
+        "phase5b_crystalformer_finetuned_enrichment_annotations.csv"
+    ),
+    sample_uid_prefix="crystalformer_ft__",
+    model_name="CrystalFormer-finetuned",
+    model_short="cf_ft",
+    run_uid="cf_repr_ft_v1",
+    expected_total=2000,
+    pass_label="PHASE5B_CRYSTALFORMER_ANNOTATIONS: PASSED",
+)
+
 FINETUNED_COHORTS = {
+    CRYSTALFORMER_FINETUNED.key: CRYSTALFORMER_FINETUNED,
+
     MATTERGEN_FINETUNED.key: MATTERGEN_FINETUNED,
     CONCDVAE_FINETUNED.key: CONCDVAE_FINETUNED,
     CRYSTALLM_FINETUNED.key: CRYSTALLM_FINETUNED,

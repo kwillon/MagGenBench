@@ -18,10 +18,10 @@ STANDARDIZED_MASTER_PATH = Path(
 )
 
 EXPECTED_MASTER_SHA256 = (
-    "50f1cc10c0589f97c69cc2b830ea7edaad07f98bf9292adebead30c00cbd5ffc"
+    "47df11004e2da026e0ac6731182755b6786d6edeec06fcce48fc7b4be0f0ecf0"
 )
 
-EXPECTED_TOTAL_ROWS = 10901
+EXPECTED_TOTAL_ROWS = 12281
 EXPECTED_TOTAL_COLUMNS = 87
 
 EXPECTED_ENERGY_ERROR_IDS = frozenset(
@@ -193,6 +193,17 @@ STANDARDIZED_COHORTS = (
         analysis_state="baseline",
         expected_count=1083,
         model_name="CrystalFormer",
+    ),
+    StandardizedCohort(
+        key="crystalformer_finetuned",
+        analysis_family="CrystalFormer",
+        analysis_state="fine_tuned",
+        expected_count=1380,
+        model_name="CrystalFormer-finetuned",
+        source_manifest=Path(
+            "tables/04_magnetic_screening/"
+            "phase5b_crystalformer_finetuned_production_annotations.csv"
+        ),
     ),
     StandardizedCohort(
         key="crystallm_baseline",
@@ -413,7 +424,7 @@ def validate_standardized_master(path: Path) -> None:
             + ", ".join(mismatches[:5])
         )
 
-    if _status_count(rows, "energy_status", "ok") != 10897:
+    if _status_count(rows, "energy_status", "ok") != EXPECTED_TOTAL_ROWS - len(EXPECTED_ENERGY_ERROR_IDS):
         raise RuntimeError("energy ok count check failed")
     if _status_count(rows, "energy_status", "error") != 4:
         raise RuntimeError("energy error count check failed")
