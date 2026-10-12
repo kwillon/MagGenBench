@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Ta2Fe2Co5Pt2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.53912980
+_cell_length_b   3.53912980
+_cell_length_c   20.23750109
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta2Fe2Co5Pt2
+_chemical_formula_sum   'Ta4 Fe4 Co10 Pt4'
+_cell_volume   253.48360034
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.00000000  0.00000000  0.00000000  1
+  Co  Co1  1  0.50000000  0.50000000  0.50000000  1
+  Fe  Fe2  1  0.00000000  0.00000000  0.17652179  1
+  Fe  Fe3  1  0.00000000  0.00000000  0.82347821  1
+  Fe  Fe4  1  0.50000000  0.50000000  0.67652179  1
+  Fe  Fe5  1  0.50000000  0.50000000  0.32347821  1
+  Ta  Ta6  1  0.00000000  0.00000000  0.32632824  1
+  Ta  Ta7  1  0.00000000  0.00000000  0.67367176  1
+  Ta  Ta8  1  0.50000000  0.50000000  0.82632824  1
+  Ta  Ta9  1  0.50000000  0.50000000  0.17367176  1
+  Pt  Pt10  1  0.00000000  0.00000000  0.51543293  1
+  Pt  Pt11  1  0.00000000  0.00000000  0.48456707  1
+  Pt  Pt12  1  0.50000000  0.50000000  0.01543293  1
+  Pt  Pt13  1  0.50000000  0.50000000  0.98456707  1
+  Co  Co14  1  0.31716984  0.31716984  0.00000000  1
+  Co  Co15  1  0.68283016  0.68283016  0.00000000  1
+  Co  Co16  1  0.68283016  0.31716984  0.00000000  1
+  Co  Co17  1  0.31716984  0.68283016  0.00000000  1
+  Co  Co18  1  0.81716984  0.81716984  0.50000000  1
+  Co  Co19  1  0.18283016  0.18283016  0.50000000  1
+  Co  Co20  1  0.18283016  0.81716984  0.50000000  1
+  Co  Co21  1  0.81716984  0.18283016  0.50000000  1

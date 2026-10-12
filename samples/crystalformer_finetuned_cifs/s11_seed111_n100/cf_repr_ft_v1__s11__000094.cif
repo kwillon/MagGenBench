@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_TiFe3(CoGe)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.88620180
+_cell_length_b   3.88620180
+_cell_length_c   25.41350306
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiFe3(CoGe)2
+_chemical_formula_sum   'Ti3 Fe9 Co6 Ge6'
+_cell_volume   332.38840320
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.00000000  0.00000000  0.08243517  1
+  Fe  Fe1  1  0.66666669  0.33333334  0.41576851  1
+  Fe  Fe2  1  0.33333334  0.66666669  0.74910185  1
+  Fe  Fe3  1  0.00000000  0.00000000  0.24335266  1
+  Fe  Fe4  1  0.66666669  0.33333334  0.57668601  1
+  Fe  Fe5  1  0.33333334  0.66666669  0.91001935  1
+  Ge  Ge6  1  0.00000000  0.00000000  0.27653562  1
+  Ge  Ge7  1  0.66666669  0.33333334  0.60986896  1
+  Ge  Ge8  1  0.33333334  0.66666669  0.94320231  1
+  Co  Co9  1  0.00000000  0.00000000  0.35367073  1
+  Co  Co10  1  0.66666669  0.33333334  0.68700407  1
+  Co  Co11  1  0.33333334  0.66666669  0.02033741  1
+  Ti  Ti12  1  0.00000000  0.00000000  0.58272277  1
+  Ti  Ti13  1  0.66666669  0.33333334  0.91605611  1
+  Ti  Ti14  1  0.33333334  0.66666669  0.24938945  1
+  Ge  Ge15  1  0.00000000  0.00000000  0.69689138  1
+  Ge  Ge16  1  0.66666669  0.33333334  0.03022472  1
+  Ge  Ge17  1  0.33333334  0.66666669  0.36355806  1
+  Fe  Fe18  1  0.00000000  0.00000000  0.87376978  1
+  Fe  Fe19  1  0.66666669  0.33333334  0.20710313  1
+  Fe  Fe20  1  0.33333334  0.66666669  0.54043647  1
+  Co  Co21  1  0.00000000  0.00000000  0.00255906  1
+  Co  Co22  1  0.66666669  0.33333334  0.33589241  1
+  Co  Co23  1  0.33333334  0.66666669  0.66922575  1

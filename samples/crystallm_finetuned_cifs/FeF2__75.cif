@@ -1,0 +1,46 @@
+ data_Fe1F2
+ loop_
+ _atom_type_symbol
+ _atom_type_electronegativity
+ _atom_type_radius
+ _atom_type_ionic_radius
+ Fe 1.8300 1.4000 0.8525
+F 3.9800 0.5000 1.3300
+ _symmetry_space_group_name_H-M P42/<unk>
+loop_
+_symmetry_equiv_pos_as_xyz
+1.0
+- x, -z'
+1 '-y, x, -z'
+14 'y, x, -z'
+15 '-x, -y, z'
+16 '-y, -x, z'
+17 'x+1/2, y+1/2, z+1/2'
+18 '-x+1/2, -y+1/2, z+1/2'
+19 '-y+1/2, x+1/2, z+1/2'
+20 'y+1/2, -x+1/2, -z+1/2'
+21 '-x+1/2, -y+1/2, z+1/2'
+22 'x+1/2, -x+1/2, -z+1/2'
+23 'y+1/2, -y+1/2, z+1/2'
+24 '-y+1/2, x+1/2, -z+1/2'
+25 'x+1/2, -y+1/2, -z+1/2'
+26 '-x+1/2, y+1/2, z+1/2'
+27 '-y+1/2, -x+1/2, -z+1/2'
+28 'y+1/2, x+1/2, z+1/2'
+29 '-x+1/2, y+1/2, -z+1/2'
+30 'x+1/2, -y+1/2, z+1/2'
+31 'y+1/2, x+1/2, -z+1/2'
+32 '-y+1/2, -x+1/2, z+1/2'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Fe Fe0 4 0.00000000 0.00000000 0.13317000 1.0
+Fe Fe1 4 0.00000000 0.00000000 0.42892000 1.0
+Pt Pt2 4 0.00000000 0.00000000 0.29417000 1.0
+Pt Pt3 2 0.00000000 0.00000000 0.00000000 1.0
+

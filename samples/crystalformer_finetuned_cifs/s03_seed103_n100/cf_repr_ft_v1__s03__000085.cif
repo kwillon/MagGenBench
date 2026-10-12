@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Ta2CoRh
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.89047134
+_cell_length_b   5.00375776
+_cell_length_c   5.61710607
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   111.68481237
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ta2CoRh
+_chemical_formula_sum   'Ta8 Co4 Rh4'
+_cell_volume   153.84466045
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.00000000  0.00000000  0.00000000  1
+  Co  Co1  1  0.00000000  0.50000000  0.50000000  1
+  Co  Co2  1  0.50000000  0.00000000  0.50000000  1
+  Co  Co3  1  0.50000000  0.50000000  0.00000000  1
+  Ta  Ta4  1  0.30688675  0.48257208  0.45506259  1
+  Ta  Ta5  1  0.69311325  0.98257208  0.04493741  1
+  Ta  Ta6  1  0.69311325  0.51742792  0.54493741  1
+  Ta  Ta7  1  0.30688675  0.01742792  0.95506259  1
+  Ta  Ta8  1  0.67182700  0.29382905  0.11983675  1
+  Ta  Ta9  1  0.32817300  0.79382905  0.38016325  1
+  Ta  Ta10  1  0.32817300  0.70617095  0.88016325  1
+  Ta  Ta11  1  0.67182700  0.20617095  0.61983675  1
+  Rh  Rh12  1  0.80864290  0.18213468  0.23483941  1
+  Rh  Rh13  1  0.19135710  0.68213468  0.26516059  1
+  Rh  Rh14  1  0.19135710  0.81786532  0.76516059  1
+  Rh  Rh15  1  0.80864290  0.31786532  0.73483941  1

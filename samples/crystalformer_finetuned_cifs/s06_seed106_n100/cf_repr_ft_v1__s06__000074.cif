@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CuPtAu
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.79240088
+_cell_length_b   3.51215467
+_cell_length_c   9.31343123
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuPtAu
+_chemical_formula_sum   'Cu4 Pt4 Au4'
+_cell_volume   189.47065481
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.55364991  0.25000000  0.88148633  1
+  Cu  Cu1  1  0.94635009  0.75000000  0.38148633  1
+  Cu  Cu2  1  0.44635009  0.75000000  0.11851367  1
+  Cu  Cu3  1  0.05364991  0.25000000  0.61851367  1
+  Au  Au4  1  0.60992013  0.25000000  0.29020392  1
+  Au  Au5  1  0.89007987  0.75000000  0.79020392  1
+  Au  Au6  1  0.39007987  0.75000000  0.70979608  1
+  Au  Au7  1  0.10992013  0.25000000  0.20979608  1
+  Pt  Pt8  1  0.65071483  0.25000000  0.61113748  1
+  Pt  Pt9  1  0.84928517  0.75000000  0.11113748  1
+  Pt  Pt10  1  0.34928517  0.75000000  0.38886252  1
+  Pt  Pt11  1  0.15071483  0.25000000  0.88886252  1

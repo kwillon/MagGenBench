@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_NaTaBeFe14Ge
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.44909101
+_cell_length_b   5.04462068
+_cell_length_c   8.47016339
+_cell_angle_alpha   93.79154873
+_cell_angle_beta   90.75587288
+_cell_angle_gamma   97.79349220
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaTaBeFe14Ge
+_chemical_formula_sum   'Na1 Ta1 Be1 Fe14 Ge1'
+_cell_volume   187.88873610
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.02508286  0.97201609  0.74303886  1
+  Na  Na1  1  0.12754180  0.59888577  0.44989861  1
+  Be  Be2  1  0.18913557  0.15519521  0.75761394  1
+  Fe  Fe3  1  0.23384834  0.66264314  0.00868718  1
+  Fe  Fe4  1  0.26870705  0.01687845  0.72185941  1
+  Fe  Fe5  1  0.26482519  0.55995463  0.12687427  1
+  Fe  Fe6  1  0.27245624  0.61512073  0.90142681  1
+  Fe  Fe7  1  0.37149254  0.22875989  0.50807583  1
+  Fe  Fe8  1  0.42838156  0.17086980  0.84964869  1
+  Fe  Fe9  1  0.47228892  0.71915834  0.76367334  1
+  Fe  Fe10  1  0.51156971  0.73105419  0.49118752  1
+  Fe  Fe11  1  0.54293892  0.48558441  0.36507948  1
+  Ge  Ge12  1  0.71606043  0.99217756  0.36129134  1
+  Fe  Fe13  1  0.77864564  0.92007824  0.16619952  1
+  Fe  Fe14  1  0.78039858  0.29474325  0.86762166  1
+  Ta  Ta15  1  0.82523579  0.08924884  0.11968174  1
+  Fe  Fe16  1  0.89636558  0.49204427  0.27176853  1
+  Fe  Fe17  1  0.00591894  0.00163584  0.02449849  1

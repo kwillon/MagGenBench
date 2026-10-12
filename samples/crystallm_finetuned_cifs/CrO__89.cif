@@ -1,0 +1,101 @@
+ data_Cr1O1
+ loop_
+ _atom_type_symbol
+ _atom_type_electronegativity
+ _atom_type_radius
+ _atom_type_ionic_radius
+ Cr 1.6600 1.4000 0.7550
+O 3.4400 0.6000 1.2600
+ _symmetry_space_group_name_H-M Fm-3m
+_cell_length_a 2.80166000
+_cell_length_b 2.80166000
+_cell_length_c 2.80166000
+_cell_angle_alpha 90.00000000
+_cell_angle_beta 90.00000000
+_cell_angle_gamma 90.00000000
+_symmetry_Int_Tables_number 222
+_chemical_formula_structural CrO
+_chemical_formula_sum 'Cr1 O1'
+_cell_volume 21.148673582
+_cell_formula_units_Z 1
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 'x, y, z'
+2 '-x, -y, -z'
+3 '-y, x, z'
+4 'y, -x, -z'
+5 '-x, -y, z'
+6 'x, y, -z'
+7 'y, -x, z'
+8 '-y, x, -z'
+9 'x, -y, -z'
+10 '-x, y, z'
+11 '-y, -x, -z'
+12 'y, x, z'
+13 '-x, y, -z'
+14 'x, -y, z'
+15 'y, x, -z'
+16 '-y, -x, z'
+17 '-x, -y, z'
+18 'x-y, -y, -z'
+19 'y, -x, z'
+20 '-x, -x, -z'
+21 '-z, x, -z'
+22 'y, x-y, -z'
+23 'z, x-y, -z'
+24 '-x, -z'
+25 '-x, -y, z'
+56 '-z, x, y'
+57 'z, -x, y'
+58 'z, x, y'
+59 '-y, -x, -z'
+60 'z, -x, -z'
+61 '-y, -x, z'
+62 'z, z, y'
+63 '-z, -x, y'
+64 '-z, -x, -y'
+65 'z, x+1/2, y+1/2, x'
+66 'z+1/2, -z+1/2, -y'
+67 '-y+1/2, -z'
+68 '-y+1/2, -x+1/2, -z+1/2, x'
+69 'z+1/2, -y+1/2, x'
+70 'z+1/2, -x+1/2, -y+1/2'
+71 '-z, y+1/2, x+1/2'
+72 'x+1/2, -z+1/2, -x+1/2'
+73 '-z+1/2, -z+1/2, -y+1/2'
+74 '-z+1/2, x+1/2, y+1/2'
+75 'y+1/2, x+1/2, -z'
+76 '-x+1/2, y+1/2, z+1/2'
+77 'x+1/2, -y+1/2, z+1/2'
+78 '-y+1/2, y+1/2, z+1/2'
+79 '-x+1/2, -y+1/2, z+1/2'
+80 '-x, y+1/2, -z+1/2'
+81 'y+1/2, -x+1/2, z+1/2'
+82 '-y+1/2, x+1/2, -x+1/2, y'
+83 'x+1/2, z+1/2, -y'
+84 '-y+1/2, z+1/2, x'
+85 '-y+1/2, z+1/2, -x'
+86 'y+1/2, -y+1/2, x+1/2'
+87 '-y+1/2, z+1/2, x'
+88 'z+1/2, -z+1/2, y'
+89 'y+1/2, z+1/2, y'
+90 '-y, z+1/2, x+1/2'
+91 'y, z+1/2, x+1/2, -z+1/2, -y+1/2'
+92 '-y+1/2, x+1/2, -y+1/2'
+93 'x+1/2, -z+1/2, -x+1/2'
+94 '-x, z+1/2, -y+1/2'
+95 'x+1/2, -z+1/2, z+1/2'
+96 'y+1/2, -y+1/2, z+1/2'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Nb Nb0 4 0.00000000 0.00000000 0.50000000 1.0
+Fe Fe1 8 0.25000000 0.25000000 0.25000000 1.0
+Fe Fe2 4 0.00000000 0.00000000 0.00000000 1.0
+

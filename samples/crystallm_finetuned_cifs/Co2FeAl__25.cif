@@ -1,0 +1,131 @@
+ data_Co2Fe1Al1
+ loop_
+ _atom_type_symbol
+ _atom_type_electronegativity
+ _atom_type_radius
+ _atom_type_ionic_radius
+ Co 1.8800 1.2500 0.7450
+Fe 1.8300 1.4000 0.8525
+Al 1.6100 1.2100 0.5350
+ _symmetry_space_group_name_H-M Fm-3m
+_cell_length_a 5.65401000
+_cell_length_b 5.65401000
+_cell_length_c 5.65401000
+_cell_angle_alpha 90.00000000
+_cell_angle_beta 90.00000000
+_cell_angle_gamma 90.00000000
+_symmetry_Int_Tables_number 225
+_chemical_formula_structural Co2Si
+_chemical_formula_sum 'Co8 Si4'
+_cell_volume 20.88177268
+_cell_formula_units_Z 4
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 'x, y, z'
+2 '-x, -y, -z'
+3 '-y, x, z'
+4 'y, -x, -z'
+5 '-x, -y, z'
+6 'x, y, -z'
+7 'y, -x, z'
+8 '-y, x, -z'
+9 'x, -y, -z'
+10 '-x, y, z'
+11 '-y, -x, -z'
+12 'y, x, z'
+13 '-x, y, -z'
+14 'x, -y, z'
+15 'y, x, -z'
+16 '-y, -x, z'
+17 'z, -x, z'
+18 '-x, -y, z'
+19 'z, -y, -x'
+20 'z, -x, y'
+21 'z, -x, -y'
+22 '-z, -x, -z'
+23 'z, -x, -y'
+24 '-z, y, x'
+25 '-z, x, -x'
+26 'z, -y, -x'
+27 '-z, x, y'
+28 'z, -y, x'
+29 '-z, x, y'
+30 'z, x, x'
+31 'z, x, z, x'
+32 '-y, -z, -x'
+33 'y, z, x'
+34 '-y, z, -x'
+35 '-y, -z, x'
+36 'x, z, y'
+37 '-y, -z, -x'
+38 'y, x, -y'
+39 '-x, z, -x'
+41 'x, z, -y'
+42 '-x, z, y'
+43 'y, -z, -x'
+44 'x, z, y'
+45 '-y, -z, -x'
+46 '-x, z, y'
+47 'x, -z, y'
+48 '-x, z, -y'
+49 'x, -y, -y'
+50 '-y, -z'
+51 '-x+y, -z'
+51 '-y, -x, z'
+52 'y, -x+y, x'
+53 'z, -y, -x'
+54 '-y, -z'
+55 'z, -y, x, z'
+56 'y, -z, -x'
+57 'z, x, -z, y'
+58 '-y, -x'
+59 'z, -y, x'
+60 '-z, x+y'
+61 '-z, -y, x'
+62 'z, y, -x'
+63 'z, y, z'
+64 'z, x, -y'
+65 '-z, -y, z'
+66 'z, x-y, z'
+67 'z, x, -y'
+68 '-z, -y, x'
+69 '-y, -z, x'
+70 '-z, y, x'
+71 'z, -x, -y'
+72 '-y, z, y'
+73 '-z, y, -x'
+74 'z, y, x'
+75 '-z, -z, -y'
+76 'x, -x, y'
+77 'z, -z, -x'
+78 'y, z, -y'
+79 '-y, -z, x'
+80 '-z, y, y'
+81 'z, x, y'
+82 '-z, -z, y'
+83 '-z, -z, -y'
+84 '-y, -z, y'
+85 'y, -z, x'
+86 'z, y, x'
+87 'z, x+1/2, y'
+88 'y+1/2, z+1/2, y+1/2'
+89 'z+1/2, -z+1/2, y+1/2'
+90 '-y+1/2, -x+1/2, z+1/2, x'
+91 '-y+1/2, -z+1/2, -y+1/2'
+92 'y+1/2, -z+1/2, x'
+93 '-y+1/2, z+1/2, y'
+94 'y+1/2, z+1/2, x'
+95 'x+1/2, -z+1/2, z+1/2'
+96 '-y+1/2, -x+1/2, z+1/2'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Ta Ta0 2 0.00000000 0.00000000 0.00000000 1.0
+Fe Fe1 8 0.10528000 0.31045000 0.50000000 1.0
+

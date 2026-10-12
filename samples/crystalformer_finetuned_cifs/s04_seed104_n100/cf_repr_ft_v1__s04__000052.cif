@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_VFeCo
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.69435113
+_cell_length_b   6.00629909
+_cell_length_c   7.83749327
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   VFeCo
+_chemical_formula_sum   'V4 Fe4 Co4'
+_cell_volume   173.90909957
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  V  V0  1  0.11165161  0.04462106  0.12724175  1
+  V  V1  1  0.38834839  0.95537894  0.62724175  1
+  V  V2  1  0.88834839  0.54462106  0.37275825  1
+  V  V3  1  0.61165161  0.45537894  0.87275825  1
+  Co  Co4  1  0.13952278  0.65513125  0.68141001  1
+  Co  Co5  1  0.36047722  0.34486875  0.18141001  1
+  Co  Co6  1  0.86047722  0.15513125  0.81858999  1
+  Co  Co7  1  0.63952278  0.84486875  0.31858999  1
+  Fe  Fe8  1  0.39357258  0.10219857  0.91100869  1
+  Fe  Fe9  1  0.10642742  0.89780143  0.41100869  1
+  Fe  Fe10  1  0.60642742  0.60219857  0.58899131  1
+  Fe  Fe11  1  0.89357258  0.39780143  0.08899131  1

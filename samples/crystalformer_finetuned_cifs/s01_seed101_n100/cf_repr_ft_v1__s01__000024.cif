@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_TaFeCo6Ni
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.59034243
+_cell_length_b   4.97836595
+_cell_length_c   7.79133994
+_cell_angle_alpha   93.95115394
+_cell_angle_beta   99.26249824
+_cell_angle_gamma   86.41491257
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TaFeCo6Ni
+_chemical_formula_sum   'Ta1 Fe1 Co6 Ni1'
+_cell_volume   136.93295769
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.99857447  0.00312102  0.98812123  1
+  Co  Co1  1  0.32040960  0.67524548  0.73912056  1
+  Co  Co2  1  0.32107433  0.28268073  0.06456280  1
+  Fe  Fe3  1  0.32889537  0.84832628  0.57377477  1
+  Ni  Ni4  1  0.49432820  0.49253145  0.49198590  1
+  Co  Co5  1  0.61423823  0.32236149  0.49068632  1
+  Ta  Ta6  1  0.70796959  0.67902116  0.60797314  1
+  Co  Co7  1  0.83503198  0.30789351  0.38837514  1
+  Co  Co8  1  0.83430753  0.96535938  0.80014032  1

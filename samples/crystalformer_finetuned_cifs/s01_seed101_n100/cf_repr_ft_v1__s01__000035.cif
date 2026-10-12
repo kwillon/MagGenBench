@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_TaNb3Fe5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.95450261
+_cell_length_b   3.79603861
+_cell_length_c   7.83808064
+_cell_angle_alpha   104.21442647
+_cell_angle_beta   104.51585726
+_cell_angle_gamma   115.31630284
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TaNb3Fe5
+_chemical_formula_sum   'Ta1 Nb3 Fe5'
+_cell_volume   94.23078949
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  1  0.02368359  0.51968228  0.00547013  1
+  Nb  Nb1  1  0.10296524  0.59380655  0.06245791  1
+  Ta  Ta2  1  0.18223441  0.02813749  0.30971259  1
+  Fe  Fe3  1  0.53833370  0.52475592  0.38207155  1
+  Nb  Nb4  1  0.62038169  0.88135474  0.30059812  1
+  Fe  Fe5  1  0.67279430  0.80806519  0.45787130  1
+  Fe  Fe6  1  0.76056471  0.06450485  0.81115837  1
+  Fe  Fe7  1  0.82556841  0.19567793  0.82197812  1
+  Fe  Fe8  1  0.88680828  0.38547573  0.15228506  1

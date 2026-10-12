@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_ZrNb2Fe7Co2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.69790560
+_cell_length_b   5.35559960
+_cell_length_c   6.31162539
+_cell_angle_alpha   101.58298754
+_cell_angle_beta   75.98288602
+_cell_angle_gamma   56.90442180
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZrNb2Fe7Co2
+_chemical_formula_sum   'Zr1 Nb2 Fe7 Co2'
+_cell_volume   117.74335440
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  1  0.12971868  0.23716398  0.34092037  1
+  Fe  Fe1  1  0.09442782  0.74244500  0.59750342  1
+  Fe  Fe2  1  0.23088117  0.75022296  0.60701786  1
+  Co  Co3  1  0.30116652  0.86371268  0.43918978  1
+  Nb  Nb4  1  0.41544796  0.80087329  0.02037019  1
+  Fe  Fe5  1  0.53013627  0.43178110  0.18794744  1
+  Fe  Fe6  1  0.55978335  0.26695086  0.24106166  1
+  Fe  Fe7  1  0.66656923  0.79411870  0.66520400  1
+  Fe  Fe8  1  0.73731776  0.95109157  0.85432840  1
+  Fe  Fe9  1  0.80786116  0.47637783  0.61888770  1
+  Co  Co10  1  0.97468536  0.25039903  0.24782244  1
+  Zr  Zr11  1  0.94435157  0.95366393  0.08784134  1

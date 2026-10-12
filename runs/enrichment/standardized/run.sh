@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-ROOT="${MAGGENBENCH_ROOT:-/mnt/tank/scratch/kkapranova/MagGenBench/MagGenBench}"
+ROOT="${MAGGENBENCH_ROOT:-/mnt/tank/scratch/kkapranova/MagGenBench-current}"
 
 ENERGY_PY="${MAGGENBENCH_ENERGY_PY:-/mnt/tank/scratch/kkapranova/envs/maggenbench-energy/bin/python}"
 MAG_PY="${MAGGENBENCH_MAGNETISM_PY:-/mnt/tank/scratch/kkapranova/envs/maggenbench-magnetism/bin/python}"
@@ -36,7 +36,9 @@ mkdir -p "$ENERGY_DIR" "$MAGNETISM_DIR" "$JOINED_DIR"
   --cohort "Con-CDVAE-baseline" 1864 "$MANIFEST_DIR/concdvae_baseline.csv" "$ENERGY_DIR/concdvae_baseline_chgnet.csv" "$MAGNETISM_DIR/concdvae_baseline_dxmag.csv" "$JOINED_DIR/concdvae_baseline_joined.csv" "CHGNet - Con-CDVAE baseline" "DXMag - Con-CDVAE baseline" "Join - Con-CDVAE baseline" \
   --cohort "Con-CDVAE-finetuned" 1299 "$MANIFEST_DIR/concdvae_finetuned.csv" "$ENERGY_DIR/concdvae_finetuned_chgnet.csv" "$MAGNETISM_DIR/concdvae_finetuned_dxmag.csv" "$JOINED_DIR/concdvae_finetuned_joined.csv" "CHGNet - Con-CDVAE fine-tuned" "DXMag - Con-CDVAE fine-tuned" "Join - Con-CDVAE fine-tuned" \
   --cohort "CrystalFormer-baseline" 1083 "$MANIFEST_DIR/crystalformer_baseline.csv" "$ENERGY_DIR/crystalformer_baseline_chgnet.csv" "$MAGNETISM_DIR/crystalformer_baseline_dxmag.csv" "$JOINED_DIR/crystalformer_baseline_joined.csv" "CHGNet - CrystalFormer baseline" "DXMag - CrystalFormer baseline" "Join - CrystalFormer baseline" \
+  --cohort "CrystalFormer-finetuned" 1380 "$MANIFEST_DIR/crystalformer_finetuned.csv" "$ENERGY_DIR/crystalformer_finetuned_chgnet.csv" "$MAGNETISM_DIR/crystalformer_finetuned_dxmag.csv" "$JOINED_DIR/crystalformer_finetuned_joined.csv" "CHGNet - CrystalFormer fine-tuned" "DXMag - CrystalFormer fine-tuned" "Join - CrystalFormer fine-tuned" \
   --cohort "CrystaLLM-baseline" 98 "$MANIFEST_DIR/crystallm_baseline.csv" "$ENERGY_DIR/crystallm_baseline_chgnet.csv" "$MAGNETISM_DIR/crystallm_baseline_dxmag.csv" "$JOINED_DIR/crystallm_baseline_joined.csv" "CHGNet - CrystaLLM baseline" "DXMag - CrystaLLM baseline" "Join - CrystaLLM baseline" \
+  --cohort "CrystaLLM-finetuned" 217 "$MANIFEST_DIR/crystallm_finetuned.csv" "$ENERGY_DIR/crystallm_finetuned_chgnet.csv" "$MAGNETISM_DIR/crystallm_finetuned_dxmag.csv" "$JOINED_DIR/crystallm_finetuned_joined.csv" "CHGNet - CrystaLLM fine-tuned" "DXMag - CrystaLLM fine-tuned" "Join - CrystaLLM fine-tuned" \
   --cohort "Crys-JEPA-Base" 1764 "$MANIFEST_DIR/crysjepa_base.csv" "$ENERGY_DIR/crysjepa_base_chgnet.csv" "$MAGNETISM_DIR/crysjepa_base_dxmag.csv" "$JOINED_DIR/crysjepa_base_joined.csv" "CHGNet - Crys-JEPA Base" "DXMag - Crys-JEPA Base" "Join - Crys-JEPA Base" \
   --cohort "Crys-JEPA-Refined" 1543 "$MANIFEST_DIR/crysjepa_refined.csv" "$ENERGY_DIR/crysjepa_refined_chgnet.csv" "$MAGNETISM_DIR/crysjepa_refined_dxmag.csv" "$JOINED_DIR/crysjepa_refined_joined.csv" "CHGNet - Crys-JEPA Refined" "DXMag - Crys-JEPA Refined" "Join - Crys-JEPA Refined" \
   --preflight-pass-label "STANDARDIZED_ENRICHMENT_PREFLIGHT: PASSED" \

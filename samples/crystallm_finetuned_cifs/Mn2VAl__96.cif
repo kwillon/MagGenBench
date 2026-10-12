@@ -1,0 +1,68 @@
+ data_Mn2V1Al1
+ loop_
+ _atom_type_symbol
+ _atom_type_electronegativity
+ _atom_type_radius
+ _atom_type_ionic_radius
+ Mn 1.5500 1.3900 0.8300
+V 1.6300 1.3500 0.6400
+Al 1.6100 1.2100 0.5350
+ _symmetry_space_group_name_H-M Fm-3m
+_cell_length_a 5.91676000
+_cell_length_b 5.91676000
+_cell_length_c 5.91676000
+_cell_angle_alpha 90.00000000
+_cell_angle_beta 90.00000000
+_cell_angle_gamma 90.00000000
+_symmetry_Int_Tables_number 225
+_chemical_formula_structural Mn2VAl
+_chemical_formula_sum 'Mn8 V4 Al4'
+_cell_volume 20.92903084
+_cell_formula_units_Z 4
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 'x, y, z'
+2 '-x, -y, -z'
+3 '-y, x, z'
+4 'y, -x, -z'
+5 '-x, -y, z'
+6 'x, y, -z'
+7 'y, -x, z'
+8 '-y, -x, -z'
+9 'x, -y, -z'
+10 '-x, y, z'
+11 '-z, x, z'
+12 'y, x, z'
+13 '-x, y, -z'
+14 'x, -y, z'
+15 'y, x, -z'
+16 '-y, -x, z'
+17 'x+1/2, y+1/2, z'
+18 '-x+1/2, -x+1/2, -z'
+19 '-y+1/2, -y+1/2, z'
+20 'y+1/2, -x+1/2, -z'
+21 '-x+1/2, -y+1/2, z'
+22 'x+1/2, -y+1/2, -z'
+23 'z+1/2, y+1/2, -x'
+24 '-y+1/2, y+1/2, -z'
+25 'x+1/2, -y+1/2, -z+1/2'
+26 '-x+1/2, y+1/2, z+1/2'
+27 '-y+1/2, x+1/2, -z+1/2'
+28 'y+1/2, x+1/2, z+1/2'
+29 '-x+1/2, y+1/2, -z+1/2'
+30 'x+1/2, -y+1/2, z+1/2'
+31 'y+1/2, x+1/2, z+1/2'
+32 '-y+1/2, -x+1/2, z+1/2'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Mn Mn0 4 0.00000000 0.00000000 0.20376000 1.0
+Mn Mn1 4 0.00000000 0.00000000 0.40629000 1.0
+V V2 4 0.00000000 0.00000000 0.09393000 1.0
+

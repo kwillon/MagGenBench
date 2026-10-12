@@ -18,10 +18,10 @@ STANDARDIZED_MASTER_PATH = Path(
 )
 
 EXPECTED_MASTER_SHA256 = (
-    "8a62cc9720de9249cdb2c6ce929fa3f98e065ef93c881c1c1160d330940db02d"
+    "47df11004e2da026e0ac6731182755b6786d6edeec06fcce48fc7b4be0f0ecf0"
 )
 
-EXPECTED_TOTAL_ROWS = 10684
+EXPECTED_TOTAL_ROWS = 12281
 EXPECTED_TOTAL_COLUMNS = 87
 
 EXPECTED_ENERGY_ERROR_IDS = frozenset(
@@ -195,11 +195,33 @@ STANDARDIZED_COHORTS = (
         model_name="CrystalFormer",
     ),
     StandardizedCohort(
+        key="crystalformer_finetuned",
+        analysis_family="CrystalFormer",
+        analysis_state="fine_tuned",
+        expected_count=1380,
+        model_name="CrystalFormer-finetuned",
+        source_manifest=Path(
+            "tables/04_magnetic_screening/"
+            "phase5b_crystalformer_finetuned_production_annotations.csv"
+        ),
+    ),
+    StandardizedCohort(
         key="crystallm_baseline",
         analysis_family="CrystaLLM",
         analysis_state="baseline",
         expected_count=98,
         model_name="CrystaLLM",
+    ),
+    StandardizedCohort(
+        key="crystallm_finetuned",
+        analysis_family="CrystaLLM",
+        analysis_state="fine_tuned",
+        expected_count=217,
+        model_name="CrystaLLM-finetuned",
+        source_manifest=Path(
+            "tables/04_magnetic_screening/"
+            "phase5b_crystallm_finetuned_production_annotations.csv"
+        ),
     ),
     StandardizedCohort(
         key="crysjepa_base",
@@ -243,7 +265,7 @@ def write_csv(
 ) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fieldnames)
+        writer = csv.DictWriter(handle, fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
 
@@ -402,7 +424,7 @@ def validate_standardized_master(path: Path) -> None:
             + ", ".join(mismatches[:5])
         )
 
-    if _status_count(rows, "energy_status", "ok") != 10680:
+    if _status_count(rows, "energy_status", "ok") != EXPECTED_TOTAL_ROWS - len(EXPECTED_ENERGY_ERROR_IDS):
         raise RuntimeError("energy ok count check failed")
     if _status_count(rows, "energy_status", "error") != 4:
         raise RuntimeError("energy error count check failed")

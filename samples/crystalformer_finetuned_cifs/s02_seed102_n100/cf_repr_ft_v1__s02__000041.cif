@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_NbFe5Si
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.36795730
+_cell_length_b   5.09241648
+_cell_length_c   6.73015264
+_cell_angle_alpha   96.01624280
+_cell_angle_beta   81.79464987
+_cell_angle_gamma   75.35759180
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NbFe5Si
+_chemical_formula_sum   'Nb2 Fe10 Si2'
+_cell_volume   141.79716017
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.11224810  0.50501712  0.49002705  1
+  Fe  Fe1  1  0.88775190  0.49498288  0.50997295  1
+  Fe  Fe2  1  0.10603732  0.07141689  0.22013891  1
+  Fe  Fe3  1  0.89396268  0.92858311  0.77986109  1
+  Fe  Fe4  1  0.35088553  0.66018750  0.15322100  1
+  Fe  Fe5  1  0.64911447  0.33981250  0.84677900  1
+  Nb  Nb6  1  0.40184930  0.77583257  0.55446992  1
+  Nb  Nb7  1  0.59815070  0.22416743  0.44553008  1
+  Fe  Fe8  1  0.66442015  0.75426270  0.87402330  1
+  Fe  Fe9  1  0.33557985  0.24573730  0.12597670  1
+  Fe  Fe10  1  0.72418705  0.00285458  0.72601553  1
+  Fe  Fe11  1  0.27581295  0.99714542  0.27398447  1
+  Si  Si12  1  0.89588314  0.44232289  0.16773834  1
+  Si  Si13  1  0.10411686  0.55767711  0.83226166  1

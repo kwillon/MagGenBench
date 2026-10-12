@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_AlCrFe15Ge2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.81166773
+_cell_length_b   5.71052804
+_cell_length_c   9.40477052
+_cell_angle_alpha   95.72583571
+_cell_angle_beta   99.46127399
+_cell_angle_gamma   116.09124377
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlCrFe15Ge2
+_chemical_formula_sum   'Al1 Cr1 Fe15 Ge2'
+_cell_volume   224.56578576
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.03321450  0.12698513  0.69178623  1
+  Fe  Fe1  1  0.04401811  0.26531581  0.29349104  1
+  Cr  Cr2  1  0.16944504  0.00276629  0.15960048  1
+  Fe  Fe3  1  0.18705861  0.47004136  0.51550454  1
+  Fe  Fe4  1  0.12953170  0.50053461  0.62536779  1
+  Fe  Fe5  1  0.20014994  0.40064410  0.91036354  1
+  Fe  Fe6  1  0.26652403  0.38019156  0.65137850  1
+  Fe  Fe7  1  0.28985328  0.96252510  0.84131487  1
+  Fe  Fe8  1  0.37580098  0.16754235  0.66278679  1
+  Fe  Fe9  1  0.40632120  0.29759185  0.38966934  1
+  Fe  Fe10  1  0.47727007  0.27122091  0.15317191  1
+  Fe  Fe11  1  0.56079412  0.92646070  0.13358805  1
+  Fe  Fe12  1  0.57847045  0.33972461  0.85051400  1
+  Fe  Fe13  1  0.56736700  0.71478364  0.50913308  1
+  Fe  Fe14  1  0.60990916  0.85200846  0.75660614  1
+  Ge  Ge15  1  0.66409311  0.27143293  0.49175953  1
+  Fe  Fe16  1  0.83595815  0.24244944  0.82426621  1
+  Fe  Fe17  1  0.86859494  0.08900290  0.87536179  1
+  Ge  Ge18  1  0.88397234  0.86509566  0.95721161  1

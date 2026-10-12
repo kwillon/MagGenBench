@@ -1,0 +1,53 @@
+# generated using pymatgen
+data_Fe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.29918365
+_cell_length_b   5.29918365
+_cell_length_c   15.79655991
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Fe
+_chemical_formula_sum   Fe27
+_cell_volume   384.15907078
+_cell_formula_units_Z   27
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.00000000  0.00000000  0.37033066  1
+  Fe  Fe1  1  0.66666669  0.33333334  0.70366400  1
+  Fe  Fe2  1  0.33333334  0.66666669  0.03699734  1
+  Fe  Fe3  1  0.00000000  0.00000000  0.65245130  1
+  Fe  Fe4  1  0.66666669  0.33333334  0.98578464  1
+  Fe  Fe5  1  0.33333334  0.66666669  0.31911799  1
+  Fe  Fe6  1  0.00000000  0.00000000  0.93648400  1
+  Fe  Fe7  1  0.66666669  0.33333334  0.26981735  1
+  Fe  Fe8  1  0.33333334  0.66666669  0.60315069  1
+  Fe  Fe9  1  0.17195340  0.82804660  0.18163089  1
+  Fe  Fe10  1  0.17195340  0.34390680  0.18163089  1
+  Fe  Fe11  1  0.65609320  0.82804660  0.18163089  1
+  Fe  Fe12  1  0.83862008  0.16137994  0.51496423  1
+  Fe  Fe13  1  0.83862008  0.67724014  0.51496423  1
+  Fe  Fe14  1  0.32275989  0.16137994  0.51496423  1
+  Fe  Fe15  1  0.50528674  0.49471329  0.84829758  1
+  Fe  Fe16  1  0.50528674  0.01057348  0.84829758  1
+  Fe  Fe17  1  0.98942655  0.49471329  0.84829758  1
+  Fe  Fe18  1  0.48934397  0.51065603  0.99876801  1
+  Fe  Fe19  1  0.48934397  0.97868795  0.99876801  1
+  Fe  Fe20  1  0.02131205  0.51065603  0.99876801  1
+  Fe  Fe21  1  0.15601066  0.84398937  0.33210136  1
+  Fe  Fe22  1  0.15601066  0.31202129  0.33210136  1
+  Fe  Fe23  1  0.68797874  0.84398937  0.33210136  1
+  Fe  Fe24  1  0.82267732  0.17732271  0.66543470  1
+  Fe  Fe25  1  0.82267732  0.64535464  0.66543470  1
+  Fe  Fe26  1  0.35464539  0.17732271  0.66543470  1

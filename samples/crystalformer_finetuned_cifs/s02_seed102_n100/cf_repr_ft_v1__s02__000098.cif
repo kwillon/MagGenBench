@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_ScMn2VFe5CoSi2O
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.57102037
+_cell_length_b   6.48226875
+_cell_length_c   6.96309037
+_cell_angle_alpha   68.22122393
+_cell_angle_beta   74.52902700
+_cell_angle_gamma   69.17065512
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ScMn2VFe5CoSi2O
+_chemical_formula_sum   'Sc2 Mn4 V2 Fe10 Co2 Si4 O2'
+_cell_volume   254.29851439
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.10064639  0.64307924  0.87705637  1
+  Mn  Mn1  1  0.89935361  0.35692076  0.12294363  1
+  Mn  Mn2  1  0.20311718  0.32752090  0.64941605  1
+  Mn  Mn3  1  0.79688282  0.67247910  0.35058395  1
+  O  O4  1  0.19786965  0.96360883  0.20268864  1
+  O  O5  1  0.80213035  0.03639117  0.79731136  1
+  Fe  Fe6  1  0.28126256  0.36762606  0.86978749  1
+  Fe  Fe7  1  0.71873744  0.63237394  0.13021251  1
+  Fe  Fe8  1  0.32203933  0.60606435  0.94701939  1
+  Fe  Fe9  1  0.67796067  0.39393565  0.05298061  1
+  V  V10  1  0.36188294  0.57745445  0.61848871  1
+  V  V11  1  0.63811706  0.42254555  0.38151129  1
+  Si  Si12  1  0.52309182  0.23747403  0.58517474  1
+  Si  Si13  1  0.47690818  0.76252597  0.41482526  1
+  Fe  Fe14  1  0.58624587  0.81762682  0.63364672  1
+  Fe  Fe15  1  0.41375413  0.18237318  0.36635328  1
+  Fe  Fe16  1  0.63463156  0.19753221  0.97918077  1
+  Fe  Fe17  1  0.36536844  0.80246779  0.02081923  1
+  Fe  Fe18  1  0.72787906  0.49955889  0.19616315  1
+  Fe  Fe19  1  0.27212094  0.50044111  0.80383685  1
+  Co  Co20  1  0.78116391  0.19973915  0.82862197  1
+  Co  Co21  1  0.21883609  0.80026085  0.17137803  1
+  Sc  Sc22  1  0.86149159  0.07090380  0.37170899  1
+  Sc  Sc23  1  0.13850841  0.92909620  0.62829101  1
+  Si  Si24  1  0.93088444  0.49052633  0.74139097  1
+  Si  Si25  1  0.06911556  0.50947367  0.25860903  1

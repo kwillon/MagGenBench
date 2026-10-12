@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_TiFe3B
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.43701292
+_cell_length_b   3.43701292
+_cell_length_c   19.93716279
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiFe3B
+_chemical_formula_sum   'Ti3 Fe9 B3'
+_cell_volume   203.96531336
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  B  B0  1  0.00000000  0.00000000  0.03122869  1
+  B  B1  1  0.66666669  0.33333334  0.36456203  1
+  B  B2  1  0.33333334  0.66666669  0.69789537  1
+  Ti  Ti3  1  0.00000000  0.00000000  0.22285455  1
+  Ti  Ti4  1  0.66666669  0.33333334  0.55618789  1
+  Ti  Ti5  1  0.33333334  0.66666669  0.88952124  1
+  Fe  Fe6  1  0.00000000  0.00000000  0.39940625  1
+  Fe  Fe7  1  0.66666669  0.33333334  0.73273959  1
+  Fe  Fe8  1  0.33333334  0.66666669  0.06607294  1
+  Fe  Fe9  1  0.00000000  0.00000000  0.49765374  1
+  Fe  Fe10  1  0.66666669  0.33333334  0.83098708  1
+  Fe  Fe11  1  0.33333334  0.66666669  0.16432042  1
+  Fe  Fe12  1  0.00000000  0.00000000  0.85599999  1
+  Fe  Fe13  1  0.66666669  0.33333334  0.18933334  1
+  Fe  Fe14  1  0.33333334  0.66666669  0.52266668  1

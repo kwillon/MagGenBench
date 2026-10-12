@@ -1,0 +1,51 @@
+ data_Co1F2
+ loop_
+ _atom_type_symbol
+ _atom_type_electronegativity
+ _atom_type_radius
+ _atom_type_ionic_radius
+ Co 1.8800 1.2500 0.7450
+F 3.9800 0.5000 1.3300
+ _symmetry_space_group_name_H-M P42/<unk>
+'
+3 1000
+_cell_length_b 3.90000000
+_cell_length_c 4.21783000
+_cell_angle_alpha 90.00000000
+_cell_angle_beta 90.00000000
+_cell_angle_gamma 90.00000000
+_symmetry_Int_Tables_number 22
+_chemical_formula_structural CoRh4
+_chemical_formula_sum 'Co2 Rh8'
+_cell_volume 53.97392947
+_cell_formula_units_Z 2
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 'x, y, z'
+2 '-x, -y, -z'
+3 '-y, x, z'
+4 'y, -x, -z'
+5 '-x, -y, z'
+6 'x, y, -z'
+7 '-x, y, -z'
+8 'x, -y, z'
+9 'x+1/2, y+1/2, z'
+10 '-x+1/2, -y+1/2, z'
+11 '-y+1/2, -x+1/2, z'
+12 'x+1/2, -y+1/2, -z'
+13 'x+1/2, -y+1/2, -z'
+14 '-x+1/2, y+1/2, z'
+15 '-x+1/2, y+1/2, z'
+16 'x+1/2, -y+1/2, z'
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Co Co0 2 0.00000000 0.00000000 0.00000000 1.0
+Rh Rh1 8 0.00000000 0.33245000 0.25029000 1.0
+
