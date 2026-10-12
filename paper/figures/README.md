@@ -21,6 +21,10 @@ Figure 2: see [provenance and reproduction](figure2_reproduction.md) and
 the [updated caption](figure2_caption.md). The selected PDF remains the
 previous snapshot until the two missing FT QC sources are supplied.
 
+Figure 3: see [definitions, audit and reproduction](figure3_reproduction.md)
+and the [updated caption](figure3_caption.md). Its selected PDF remains the
+previous snapshot until the new FT QC and descriptor sources are supplied.
+
 ## Supplementary figures
 
 - `supp01_pca_loadings`: complete PCA loading overview derived from
