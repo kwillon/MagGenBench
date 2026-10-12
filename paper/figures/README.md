@@ -11,11 +11,15 @@ selected snapshots intended for manuscript preparation and review.
 | Manuscript figure | Scientific role | Reproduced source |
 |---|---|---|
 | Figure 1 | Study and analysis pipeline | `paper_pipeline_v3_preview` |
-| Figure 2 | Structural validation and analyzed sample overview | `manuscript_figure2_structural_overview_v2_preview` |
+| Figure 2 | Structural QC retention and registered primary rejection reasons | `manuscript_figure2_structural_overview_v2_preview` |
 | Figure 3 | Magnetic-domain composition | `manuscript_figure3_magnetic_domain_v2_preview` |
 | Figure 4 | Descriptor-space and PCA analysis | `manuscript_figure4_descriptor_space_v2_preview` |
 | Figure 5 | Energy-magnetism landscape | `manuscript_figure5_energy_magnetism_v2_preview` |
 | Figure 6 | Diversity and adaptation | `manuscript_figure6_diversity_adaptation_v2_preview` |
+
+Figure 2: see [provenance and reproduction](figure2_reproduction.md) and
+the [updated caption](figure2_caption.md). The selected PDF remains the
+previous snapshot until the two missing FT QC sources are supplied.
 
 ## Supplementary figures
 

@@ -1,540 +1,234 @@
 from __future__ import annotations
 
+import csv
 from dataclasses import dataclass
 from pathlib import Path
 
-from .figures_v2_magnetic import (
-    ANALYSIS_V2_MAGNETIC_INPUT,
-    _read_analysis_v2_dataframe,
-)
 from .plotting_v2 import (
-    ANALYSIS_V2_DARK_TEXT,
-    ANALYSIS_V2_FIGURE_OUTPUT_DIR,
-    ANALYSIS_V2_MAGNETIC_COHORT_COLORS,
-    ANALYSIS_V2_MAGNETIC_COHORT_LABELS,
-    ANALYSIS_V2_MAGNETIC_COHORT_ORDER,
-    ANALYSIS_V2_OVERVIEW_CREAM,
-    FigureExportPaths,
-    apply_analysis_v2_publication_style,
-    save_analysis_v2_figure_bundle,
+    ANALYSIS_V2_DARK_TEXT, ANALYSIS_V2_FIGURE_OUTPUT_DIR,
+    ANALYSIS_V2_MAGNETIC_COHORT_COLORS, FigureExportPaths,
+    apply_analysis_v2_publication_style, save_analysis_v2_figure_bundle,
 )
 from .validation_figures_v2 import (
-    MODEL_COLORS,
-    MODEL_ORDER,
-    REJECTION_REASON_LABELS,
-    REJECTION_REASON_ORDER,
-    VALIDATION_INPUT,
-    build_validation_tables,
-    read_ragged_validation_records,
+    MODEL_ORDER, REJECTION_REASON_LABELS, REJECTION_REASON_ORDER,
+    VALIDATION_INPUT, build_validation_tables, read_ragged_validation_records,
 )
-
 
 FIGURE_BASENAME = "manuscript_figure2_structural_overview_v2_preview"
-
-CRYSJEPA_BASE_VALIDATION_INPUT = Path(
-    "tables/03_features/crysjepa_base_with_classes.csv"
+CRYSJEPA_BASE_VALIDATION_INPUT = Path("tables/03_features/crysjepa_base_with_classes.csv")
+BASELINE_DISPLAY_ORDER = (*MODEL_ORDER, "Crys-JEPA")
+BASE_COHORTS = (
+    "mattergen_baseline", "concdvae_baseline",
+    "crystalformer_baseline", "crystallm_baseline",
 )
-
-BASELINE_DISPLAY_ORDER = (
-    "MatterGen",
-    "Con-CDVAE",
-    "CrystalFormer",
-    "CrystaLLM",
-    "Crys-JEPA",
+FT_COHORTS = (
+    "mattergen_finetuned", "concdvae_finetuned",
+    "crystalformer_finetuned", "crystallm_finetuned",
 )
-
-BASELINE_DISPLAY_COLORS = {
-    **MODEL_COLORS,
-    "Crys-JEPA": ANALYSIS_V2_MAGNETIC_COHORT_COLORS["crysjepa_base"],
+JEPA_COHORTS = ("crysjepa_base", "crysjepa_refined")
+QC_COHORT_ORDER = (*BASE_COHORTS, *FT_COHORTS, *JEPA_COHORTS)
+QC_INPUTS = {
+    "mattergen_finetuned": Path("tables/03_features/phase5b_mattergen_finetuned_with_classes.csv"),
+    "concdvae_finetuned": Path("tables/03_features/phase5b_concdvae_finetuned_with_classes.csv"),
+    "crystalformer_finetuned": Path("outputs/crystalformer_finetuned/all_structures.csv"),
+    "crystallm_finetuned": Path("outputs/crystallm_finetuned/all_structures.csv"),
+    "crysjepa_base": CRYSJEPA_BASE_VALIDATION_INPUT,
+    "crysjepa_refined": Path("tables/03_features/crysjepa_refined_with_classes.csv"),
 }
+QC_COLORS = {
+    **ANALYSIS_V2_MAGNETIC_COHORT_COLORS,
+    "crystalformer_finetuned": "#A95035",
+    "crystallm_finetuned": "#833E38",
+}
+# Verification targets only; plotted values always come from QC status records.
+EXPECTED_RETAINED = dict(zip(QC_COHORT_ORDER, (
+    1657, 1864, 1083, 98, 1376, 1299, 1380, 217, 1764, 1543,
+)))
 
 
 @dataclass(frozen=True)
 class ManuscriptFigure2Report:
-    analysis_input_csv: Path
-    validation_input_csv: Path
-    analysis_counts: object
-    validation_summary: object
+    qc_summary: object
     rejection_summary: object
-    figure_paths: FigureExportPaths
+    missing_inputs: tuple[Path, ...]
+    figure_paths: FigureExportPaths | None
 
 
-def _panel_label(ax, label: str) -> None:
-    ax.text(
-        -0.075,
-        1.07,
-        label,
-        transform=ax.transAxes,
-        fontsize=12,
-        fontweight="bold",
-        va="top",
-        ha="left",
-        color=ANALYSIS_V2_DARK_TEXT,
-    )
-
-
-def build_analysis_cohort_counts(df):
+def _read_qc_table(path: Path):
     import pandas as pd
 
-    if "analysis_cohort" not in df.columns:
+    with path.open(encoding="utf-8-sig", newline="") as handle:
+        reader = csv.DictReader(handle)
+        columns = set(reader.fieldnames or ())
+        identity = next((key for key in ("sample_uid", "structure_id") if key in columns), None)
+        if "status" not in columns or identity is None:
+            raise RuntimeError(f"{path}: requires status and sample_uid or structure_id")
+        rows = list(reader)
+    if any(None in row or any(value is None for value in row.values()) for row in rows):
+        raise RuntimeError(f"{path}: malformed CSV row width")
+    df = pd.DataFrame(rows)
+    if len(df) != 2000:
         raise RuntimeError(
-            "Analysis v2 input is missing analysis_cohort"
+            f"{path}: expected 2000 harmonized benchmark structures, found {len(df)}; "
+            "supply the benchmark QC table, not raw generation (possibly 2016). "
+            "Do not truncate or rescale raw QC counts."
         )
-
-    observed = set(
-        df["analysis_cohort"]
-        .dropna()
-        .astype(str)
-    )
-    expected = set(ANALYSIS_V2_MAGNETIC_COHORT_ORDER)
-
-    if observed != expected:
-        raise RuntimeError(
-            "Analysis v2 cohort set differs from manuscript Figure 2 "
-            f"contract: observed={sorted(observed)}"
-        )
-
-    counts = (
-        df["analysis_cohort"]
-        .value_counts()
-        .reindex(ANALYSIS_V2_MAGNETIC_COHORT_ORDER)
-        .astype(int)
-    )
-
-    if counts.isna().any():
-        raise RuntimeError(
-            "Analysis v2 cohort counts contain missing values"
-        )
-
-    return pd.Series(
-        counts.to_numpy(dtype=int),
-        index=counts.index,
-        name="n_structures",
-    )
+    ids = df[identity].str.strip()
+    if ids.eq("").any() or ids.duplicated().any():
+        raise RuntimeError(f"{path}: empty or repeated structure identifiers")
+    df["status"] = df["status"].str.strip().str.lower()
+    if not set(df["status"]).issubset({"validated", "rejected"}):
+        raise RuntimeError(f"{path}: unknown QC status")
+    if "rejection_reason" in df:
+        df["rejection_reason"] = df["rejection_reason"].str.strip()
+        if df.loc[df["status"].eq("validated"), "rejection_reason"].ne("").any():
+            raise RuntimeError(f"{path}: validated structure has a rejection reason")
+    return df
 
 
-def _plot_analysis_cohort_sizes(ax, counts) -> None:
-    cohorts = list(ANALYSIS_V2_MAGNETIC_COHORT_ORDER)
-    x = list(range(len(cohorts)))
-
-    values = [
-        int(counts.loc[cohort])
-        for cohort in cohorts
-    ]
-
-    colors = [
-        ANALYSIS_V2_MAGNETIC_COHORT_COLORS[cohort]
-        for cohort in cohorts
-    ]
-
-    bars = ax.bar(
-        x,
-        values,
-        color=colors,
-        edgecolor=ANALYSIS_V2_DARK_TEXT,
-        linewidth=0.5,
-        width=0.72,
-    )
-
-    for bar, value in zip(bars, values):
-        ax.text(
-            bar.get_x() + bar.get_width() / 2,
-            bar.get_height(),
-            f"{value}",
-            ha="center",
-            va="bottom",
-            fontsize=7.5,
-            color=ANALYSIS_V2_DARK_TEXT,
-        )
-
-    ax.set_xticks(x)
-    ax.set_xticklabels(
-        [
-            ANALYSIS_V2_MAGNETIC_COHORT_LABELS[cohort]
-            for cohort in cohorts
-        ]
-    )
-
-    ax.tick_params(axis="x", pad=5)
-
-    ax.set_ylabel("Structures")
-    ax.set_title(
-        "Number of structures retained for analysis",
-        pad=8,
-    )
-
-    ax.set_ylim(
-        0,
-        max(values) * 1.16,
-    )
-
-    ax.grid(
-        axis="y",
-        color="#D5D5D5",
-        linewidth=0.45,
-        alpha=0.55,
-    )
-    ax.set_axisbelow(True)
-
-    _panel_label(ax, "A")
-
-
-def _plot_validation_outcome(ax, model_summary) -> None:
-    y = list(range(len(BASELINE_DISPLAY_ORDER)))
-
-    ax.barh(
-        y,
-        [100.0] * len(BASELINE_DISPLAY_ORDER),
-        color="#EEEAE2",
-        edgecolor="none",
-        height=0.60,
-        zorder=1,
-    )
-
-    for index, model in enumerate(BASELINE_DISPLAY_ORDER):
-        value = float(
-            model_summary.loc[
-                model,
-                "validated_percent",
-            ]
-        )
-        n_validated = int(
-            model_summary.loc[
-                model,
-                "n_validated",
-            ]
-        )
-        n_total = int(
-            model_summary.loc[
-                model,
-                "n_total",
-            ]
-        )
-
-        ax.barh(
-            index,
-            value,
-            color=BASELINE_DISPLAY_COLORS[model],
-            edgecolor=ANALYSIS_V2_DARK_TEXT,
-            linewidth=0.55,
-            height=0.60,
-            zorder=2,
-        )
-
-        ax.text(
-            min(value + 1.5, 97.0),
-            index,
-            f"{n_validated}/{n_total} ({value:.1f}%)",
-            va="center",
-            ha="left" if value < 85 else "right",
-            fontsize=7.5,
-            color=ANALYSIS_V2_DARK_TEXT,
-            zorder=3,
-        )
-
-    ax.set_yticks(y)
-    ax.set_yticklabels(BASELINE_DISPLAY_ORDER)
-    ax.invert_yaxis()
-
-    ax.set_xlim(0, 100)
-    ax.set_xlabel("Validated structures (%)")
-
-    ax.set_title(
-        "Base generated sets: structural validation",
-        pad=8,
-    )
-
-    ax.grid(
-        axis="x",
-        color="#D5D5D5",
-        linewidth=0.45,
-        alpha=0.50,
-    )
-    ax.set_axisbelow(True)
-
-    _panel_label(ax, "B")
-
-
-def _rejection_cmap():
-    from matplotlib.colors import LinearSegmentedColormap
-
-    return LinearSegmentedColormap.from_list(
-        "manuscript_figure2_rejection",
-        [
-            "#FFFFFF",
-            ANALYSIS_V2_OVERVIEW_CREAM,
-            "#829DA6",
-            "#304862",
-        ],
-    )
-
-
-def _plot_rejection_profile(ax, rejection_summary) -> None:
-    import numpy as np
-
-    values = rejection_summary.to_numpy(dtype=float)
-    vmax = float(values.max())
-
-    image = ax.imshow(
-        values,
-        aspect="auto",
-        vmin=0.0,
-        vmax=vmax,
-        cmap=_rejection_cmap(),
-    )
-
-    ax.set_xticks(
-        range(len(REJECTION_REASON_ORDER))
-    )
-    ax.set_xticklabels(
-        [
-            REJECTION_REASON_LABELS[key]
-            for key in REJECTION_REASON_ORDER
-        ]
-    )
-
-    ax.set_yticks(
-        range(len(BASELINE_DISPLAY_ORDER))
-    )
-    ax.set_yticklabels(BASELINE_DISPLAY_ORDER)
-
-    ax.set_title(
-        "Base generated sets: rejection profile",
-        pad=8,
-    )
-
-    threshold = 0.52 * vmax
-
-    for row_index in range(values.shape[0]):
-        for column_index in range(values.shape[1]):
-            value = float(
-                values[
-                    row_index,
-                    column_index,
-                ]
-            )
-
-            if abs(value) < 0.05:
-                continue
-
-            text_color = (
-                "white"
-                if value >= threshold
-                else ANALYSIS_V2_DARK_TEXT
-            )
-
-            ax.text(
-                column_index,
-                row_index,
-                f"{value:.1f}",
-                ha="center",
-                va="center",
-                fontsize=7.4,
-                color=text_color,
-            )
-
-    cbar = ax.figure.colorbar(
-        image,
-        ax=ax,
-        pad=0.020,
-        fraction=0.035,
-    )
-    cbar.set_label(
-        "Share among rejected structures (%)"
-    )
-
-    _panel_label(ax, "C")
-
-
-def _extend_with_crysjepa_base(
-    validation_summary,
-    rejection_summary,
-    *,
-    input_csv: str | Path = CRYSJEPA_BASE_VALIDATION_INPUT,
+def build_structural_qc_tables(
+    validation_input_csv: str | Path = VALIDATION_INPUT,
+    *, qc_inputs: dict[str, Path] | None = None,
 ):
     import pandas as pd
 
-    path = Path(input_csv)
-    if not path.is_file():
-        raise FileNotFoundError(path)
-
-    df = pd.read_csv(path, low_memory=False)
-
-    required = {"status", "rejection_reason"}
-    missing = sorted(required.difference(df.columns))
-    if missing:
-        raise RuntimeError(
-            f"Crys-JEPA Base validation table is missing columns: {missing}"
-        )
-
-    status = (
-        df["status"]
-        .fillna("")
-        .astype(str)
-        .str.strip()
-        .str.lower()
+    inputs = {**QC_INPUTS, **(qc_inputs or {})}
+    unknown = set(inputs).difference(QC_INPUTS)
+    if unknown:
+        raise ValueError(f"Unknown QC cohorts: {sorted(unknown)}")
+    baseline, rejection = build_validation_tables(
+        read_ragged_validation_records(validation_input_csv)
     )
-    reasons = (
-        df["rejection_reason"]
-        .fillna("")
-        .astype(str)
-        .str.strip()
-    )
-
-    n_total = int(len(df))
-    n_validated = int(status.eq("validated").sum())
-    n_rejected = int(status.eq("rejected").sum())
-
-    if n_total != 2000:
-        raise RuntimeError(
-            f"Expected 2000 Crys-JEPA Base structures, found {n_total}"
-        )
-
-    if n_validated + n_rejected != n_total:
-        raise RuntimeError(
-            "Crys-JEPA Base validation statuses do not cover all rows"
-        )
-
-    summary = validation_summary.copy()
-    summary.loc["Crys-JEPA", "n_total"] = n_total
-    summary.loc["Crys-JEPA", "n_validated"] = n_validated
-    summary.loc["Crys-JEPA", "n_rejected"] = n_rejected
-    summary.loc["Crys-JEPA", "validated_percent"] = (
-        100.0 * n_validated / n_total
-    )
-    summary.loc["Crys-JEPA", "rejected_percent"] = (
-        100.0 * n_rejected / n_total
-    )
-    summary = summary.reindex(BASELINE_DISPLAY_ORDER)
-
-    rejection = rejection_summary.copy()
-
-    if n_rejected:
-        rejection.loc["Crys-JEPA"] = [
-            100.0 * int(reasons.eq(reason).sum()) / n_rejected
-            for reason in REJECTION_REASON_ORDER
-        ]
-    else:
-        rejection.loc["Crys-JEPA"] = [0.0] * len(REJECTION_REASON_ORDER)
-
-    rejection = rejection.reindex(
-        index=BASELINE_DISPLAY_ORDER,
-        columns=REJECTION_REASON_ORDER,
-    )
-
-    if abs(float(rejection.loc["Crys-JEPA"].sum()) - 100.0) > 1e-8:
-        raise RuntimeError(
-            "Crys-JEPA Base rejection profile does not sum to 100%"
-        )
-
-    return summary, rejection
+    rows = []
+    for model, cohort in zip(MODEL_ORDER, BASE_COHORTS):
+        rows.append({
+            "cohort": cohort, **baseline.loc[model].to_dict(),
+            "source": str(validation_input_csv),
+        })
+    missing = []
+    for cohort in (*FT_COHORTS, *JEPA_COHORTS):
+        path = Path(inputs[cohort])
+        if not path.is_file():
+            missing.append(path)
+            continue
+        df = _read_qc_table(path)
+        retained = int(df["status"].eq("validated").sum())
+        rejected = int(df["status"].eq("rejected").sum())
+        rows.append({
+            "cohort": cohort, "n_total": len(df), "n_validated": retained,
+            "n_rejected": rejected, "validated_percent": 100 * retained / len(df),
+            "rejected_percent": 100 * rejected / len(df), "source": str(path),
+        })
+        if cohort == "crysjepa_base":
+            if "rejection_reason" not in df:
+                raise RuntimeError(f"{path}: missing registered primary rejection reasons")
+            reasons = df.loc[df["status"].eq("rejected"), "rejection_reason"]
+            if not set(reasons).issubset(REJECTION_REASON_ORDER):
+                raise RuntimeError(f"{path}: missing or unknown primary rejection reason")
+            rejection.loc["Crys-JEPA"] = [
+                100 * int(reasons.eq(reason).sum()) / rejected if rejected else 0.0
+                for reason in REJECTION_REASON_ORDER
+            ]
+    summary = pd.DataFrame(rows).set_index("cohort")
+    summary = summary.reindex([key for key in QC_COHORT_ORDER if key in summary.index])
+    for column in ("n_total", "n_validated", "n_rejected"):
+        summary[column] = summary[column].astype(int)
+    summary["expected_retained"] = [EXPECTED_RETAINED[key] for key in summary.index]
+    summary["matches_expected"] = summary["n_validated"].eq(summary["expected_retained"])
+    return summary, rejection.reindex(BASELINE_DISPLAY_ORDER), tuple(missing)
 
 
-def save_manuscript_figure2(
-    analysis_counts,
-    validation_summary,
-    rejection_summary,
-    *,
-    output_dir: str | Path = ANALYSIS_V2_FIGURE_OUTPUT_DIR,
-) -> FigureExportPaths:
+def _panel_label(ax, label):
+    ax.text(-0.075, 1.10, label, transform=ax.transAxes, fontsize=12,
+            fontweight="bold", va="top", ha="left")
+
+
+def _plot_retention(ax, summary, cohorts, labels, title, panel):
+    for index, cohort in enumerate(cohorts):
+        row = summary.loc[cohort]
+        percent = float(row["validated_percent"])
+        ax.barh(index, 100, color="#EEEAE2", height=0.58)
+        ax.barh(index, percent, color=QC_COLORS[cohort], height=0.58,
+                edgecolor=ANALYSIS_V2_DARK_TEXT, linewidth=0.5)
+        # High-retention labels fit inside the bar; small bars use outside labels.
+        inside = percent >= 55
+        ax.text(percent - 2 if inside else percent + 2, index,
+                f"{int(row['n_validated']):,} ({percent:.2f}%)",
+                ha="right" if inside else "left", va="center", fontsize=9,
+                color=ANALYSIS_V2_DARK_TEXT
+                if not inside or cohort in (*BASE_COHORTS, "crysjepa_base") else "white")
+    ax.set_yticks(range(len(labels)), labels)
+    ax.set_ylim(len(labels) - 0.4, -0.6)
+    ax.set_xlim(0, 100)
+    ax.set_xticks([0, 25, 50, 75, 100])
+    ax.set_xlabel("Structural QC retention (%)")
+    ax.set_title(title, pad=12)
+    ax.grid(axis="x", color="#D5D5D5", linewidth=0.45, alpha=0.5)
+    ax.set_axisbelow(True)
+    _panel_label(ax, panel)
+
+
+def _plot_rejection_profile(ax, rejection_summary, qc_summary):
+    from matplotlib.colors import LinearSegmentedColormap
+
+    cmap = LinearSegmentedColormap.from_list("qc_rejection", ["#FFFFFF", "#F0E2C5", "#829DA6", "#304862"])
+    values = rejection_summary.to_numpy(dtype=float)
+    image = ax.imshow(values, aspect="auto", vmin=0, vmax=100, cmap=cmap)
+    ax.set_xticks(range(len(REJECTION_REASON_ORDER)),
+                  [REJECTION_REASON_LABELS[key] for key in REJECTION_REASON_ORDER])
+    ax.set_yticks(range(len(BASELINE_DISPLAY_ORDER)), [
+        f"{model} (n={int(qc_summary.loc[cohort, 'n_rejected']):,})"
+        for model, cohort in zip(BASELINE_DISPLAY_ORDER, (*BASE_COHORTS, "crysjepa_base"))
+    ])
+    ax.set_title("Base: registered primary rejection reasons", pad=12)
+    for row in range(values.shape[0]):
+        for column in range(values.shape[1]):
+            value = values[row, column]
+            ax.text(column, row, f"{value:.1f}", ha="center", va="center",
+                    fontsize=8, color="white" if value >= 60 else ANALYSIS_V2_DARK_TEXT)
+    cbar = ax.figure.colorbar(image, ax=ax, pad=0.02, fraction=0.035)
+    cbar.set_label("Share of rejected structures (%)")
+    _panel_label(ax, "D")
+
+
+def save_manuscript_figure2(qc_summary, rejection_summary, *,
+                            output_dir=ANALYSIS_V2_FIGURE_OUTPUT_DIR):
     import matplotlib
 
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
 
+    if tuple(qc_summary.index) != QC_COHORT_ORDER or rejection_summary.isna().any().any():
+        raise RuntimeError("Figure 2 requires all ten QC cohorts and five baseline rejection profiles")
     apply_analysis_v2_publication_style()
-
-    fig = plt.figure(
-        figsize=(13.2, 8.0),
-        constrained_layout=True,
-    )
-    fig.patch.set_facecolor("white")
-
-    grid = fig.add_gridspec(
-        2,
-        2,
-        height_ratios=[0.72, 1.0],
-        width_ratios=[0.90, 1.30],
-    )
-
-    ax_a = fig.add_subplot(
-        grid[0, :],
-    )
-    ax_b = fig.add_subplot(
-        grid[1, 0],
-    )
-    ax_c = fig.add_subplot(
-        grid[1, 1],
-    )
-
-    _plot_analysis_cohort_sizes(
-        ax_a,
-        analysis_counts,
-    )
-    _plot_validation_outcome(
-        ax_b,
-        validation_summary,
-    )
-    _plot_rejection_profile(
-        ax_c,
-        rejection_summary,
-    )
-
-    paths = save_analysis_v2_figure_bundle(
-        fig,
-        output_dir,
-        FIGURE_BASENAME,
-    )
-
+    fig, axes = plt.subplots(2, 2, figsize=(13.2, 8.2), constrained_layout=True)
+    _plot_retention(axes[0, 0], qc_summary, BASE_COHORTS, MODEL_ORDER, "Base", "A")
+    _plot_retention(axes[0, 1], qc_summary, FT_COHORTS, MODEL_ORDER, "Fine-tuned (FT)", "B")
+    _plot_retention(axes[1, 0], qc_summary, JEPA_COHORTS,
+                    ("Crys-JEPA Base", "Crys-JEPA Ref."), "Crys-JEPA", "C")
+    _plot_rejection_profile(axes[1, 1], rejection_summary, qc_summary)
+    paths = save_analysis_v2_figure_bundle(fig, output_dir, FIGURE_BASENAME)
     plt.close(fig)
-
     return paths
 
 
 def run_manuscript_figure2(
-    analysis_input_csv: str | Path = ANALYSIS_V2_MAGNETIC_INPUT,
     validation_input_csv: str | Path = VALIDATION_INPUT,
     figure_dir: str | Path = ANALYSIS_V2_FIGURE_OUTPUT_DIR,
+    *, qc_inputs: dict[str, Path] | None = None, audit_only: bool = False,
+    check_expected: bool = False,
 ) -> ManuscriptFigure2Report:
-    analysis_df = _read_analysis_v2_dataframe(
-        analysis_input_csv
+    summary, rejection, missing = build_structural_qc_tables(
+        validation_input_csv, qc_inputs=qc_inputs,
     )
-    analysis_counts = build_analysis_cohort_counts(
-        analysis_df
-    )
-
-    validation_records = read_ragged_validation_records(
-        validation_input_csv
-    )
-    validation_summary, rejection_summary = (
-        build_validation_tables(
-            validation_records
-        )
-    )
-
-    validation_summary, rejection_summary = (
-        _extend_with_crysjepa_base(
-            validation_summary,
-            rejection_summary,
-        )
-    )
-
-    paths = save_manuscript_figure2(
-        analysis_counts,
-        validation_summary,
-        rejection_summary,
-        output_dir=figure_dir,
-    )
-
-    return ManuscriptFigure2Report(
-        analysis_input_csv=Path(
-            analysis_input_csv
-        ),
-        validation_input_csv=Path(
-            validation_input_csv
-        ),
-        analysis_counts=analysis_counts,
-        validation_summary=validation_summary,
-        rejection_summary=rejection_summary,
-        figure_paths=paths,
-    )
+    root = Path(figure_dir)
+    root.mkdir(parents=True, exist_ok=True)
+    summary.to_csv(root / "figure2_structural_qc_audit.csv")
+    rejection.to_csv(root / "figure2_primary_rejection_percent.csv")
+    mismatches = summary.loc[~summary["matches_expected"]]
+    if check_expected and not mismatches.empty:
+        raise RuntimeError("QC retained counts differ from verification targets:\n" + mismatches.to_string())
+    if missing and not audit_only:
+        raise FileNotFoundError("Missing structural QC inputs:\n" + "\n".join(map(str, missing)))
+    paths = None if audit_only else save_manuscript_figure2(summary, rejection, output_dir=root)
+    return ManuscriptFigure2Report(summary, rejection, missing, paths)
