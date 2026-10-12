@@ -1,7 +1,11 @@
 # Figure 3 caption
 
 **Figure 3. Magnetic-domain composition and local environments across ten
-structurally retained benchmark sets.** (A) Prevalence of nonzero configured
+structurally retained benchmark sets (12281 structures).** Each set starts
+from 2000 harmonized benchmark structures; its post-QC population, not
+the raw generation count or the number of successful energy/magnetism
+predictions, defines the descriptor audit population.
+(A) Prevalence of nonzero configured
 3d transition-metal content (top) and the distribution of 3d atomic
 fractions among nonzero structures (bottom). (B) The corresponding
 prevalence and conditional distribution for configured lanthanides.
@@ -31,4 +35,3 @@ FT is additionally hatched. A dashed separator marks the Crys-JEPA Base
 and Refined (Ref.) comparators. Boxes span the interquartile range with
 median lines; whiskers extend to the most extreme values within 1.5
 interquartile ranges, and outliers are not drawn.
-

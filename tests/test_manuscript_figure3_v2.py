@@ -123,6 +123,14 @@ def test_availability_prevalence_and_missing_are_independent_of_qc(extra_inputs)
     assert audit.loc["crystallm_finetuned", "C_error"] == 1
 
 
+def test_complete_descriptor_coverage_check(extra_inputs, tmp_path):
+    qc, descriptors = extra_inputs
+    with pytest.raises(RuntimeError, match="Incomplete descriptor ID coverage"):
+        run_manuscript_figure3(qc_inputs=qc, descriptor_inputs=descriptors,
+                               figure_dir=tmp_path, audit_only=True,
+                               require_complete_descriptors=True)
+
+
 def test_no_available_values_have_undefined_prevalence():
     df = pd.DataFrame({
         "analysis_cohort": ["mattergen_baseline"] * 4,

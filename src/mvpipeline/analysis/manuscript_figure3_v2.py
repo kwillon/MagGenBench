@@ -3,6 +3,9 @@ from __future__ import annotations
 from dataclasses import dataclass
 from pathlib import Path
 
+from ..descriptors.figure3_ft import (
+    FT_OUTPUT_DIR, FT_QC_INPUTS, STANDARDIZED_INPUT, mapped_retained_qc,
+)
 from .figures_v2_magnetic import ANALYSIS_V2_MAGNETIC_INPUT
 from .plotting_v2 import (
     ANALYSIS_V2_FIGURE_OUTPUT_DIR, ANALYSIS_V2_MAGNETIC_COHORT_COLORS,
@@ -39,14 +42,13 @@ QC_INPUTS = {
     **{key: Path("tables/03_features/master_structures_with_classes.csv") for key in BASE_MODELS},
     "mattergen_finetuned": Path("tables/03_features/phase5b_mattergen_finetuned_with_classes.csv"),
     "concdvae_finetuned": Path("tables/03_features/phase5b_concdvae_finetuned_with_classes.csv"),
-    "crystalformer_finetuned": Path("tables/03_features/phase5b_crystalformer_finetuned_with_classes.csv"),
-    "crystallm_finetuned": Path("tables/03_features/phase5b_crystallm_finetuned_with_classes.csv"),
+    **FT_QC_INPUTS,
     "crysjepa_base": Path("tables/03_features/crysjepa_base_with_classes.csv"),
     "crysjepa_refined": Path("tables/03_features/crysjepa_refined_with_classes.csv"),
 }
 # Expected supplemental paths; actual server locations can be passed through the CLI.
 DESCRIPTOR_INPUTS = {
-    key: Path(f"tables/09_descriptor_v2_magnetic/{key}_descriptor_v2_magnetic.csv")
+    key: FT_OUTPUT_DIR / f"{key}_descriptor_v2_magnetic.csv"
     for key in ("crystalformer_finetuned", "crystallm_finetuned")
 }
 
@@ -107,7 +109,7 @@ def _read_descriptor_table(path):
     return df[["analysis_cohort", "sample_uid", *VARIABLES, "magnetic_geometry_status", "descriptor_source"]]
 
 
-def _read_retained_qc(path, cohort):
+def _read_retained_qc(path, cohort, standardized_input=STANDARDIZED_INPUT):
     df = _read_csv(path)
     if "status" not in df:
         raise RuntimeError(f"{path}: missing structural QC status")
@@ -123,6 +125,11 @@ def _read_retained_qc(path, cohort):
     status = df["status"].fillna("").astype(str).str.strip().str.lower()
     if not status.isin(["validated", "rejected"]).all():
         raise RuntimeError(f"{path}: unknown structural QC status")
+    if cohort in FT_QC_INPUTS and "sample_uid" not in df:
+        standardized = _read_csv(standardized_input)
+        mapped = mapped_retained_qc(df, cohort, standardized)["sample_uid"]
+        mapped.attrs["qc_identity_mapping"] = str(standardized_input)
+        return mapped
     return ids.loc[status.eq("validated")]
 
 
@@ -170,7 +177,8 @@ def build_figure3_audit(aligned, qc_counts):
     return audit
 
 
-def load_figure3_inputs(input_csv=ANALYSIS_V2_MAGNETIC_INPUT, *, qc_inputs=None, descriptor_inputs=None):
+def load_figure3_inputs(input_csv=ANALYSIS_V2_MAGNETIC_INPUT, *, qc_inputs=None,
+                       descriptor_inputs=None, standardized_input=STANDARDIZED_INPUT):
     import pandas as pd
 
     qc_paths = {**QC_INPUTS, **(qc_inputs or {})}
@@ -199,13 +207,15 @@ def load_figure3_inputs(input_csv=ANALYSIS_V2_MAGNETIC_INPUT, *, qc_inputs=None,
     aligned_frames = []
     counts = {}
     qc_sources = {}
+    qc_mappings = {}
     for cohort in COHORT_ORDER:
         path = Path(qc_paths[cohort])
         qc_sources[cohort] = str(path)
         if not path.is_file():
             missing.append(path)
             continue
-        ids = _read_retained_qc(path, cohort)
+        ids = _read_retained_qc(path, cohort, standardized_input)
+        qc_mappings[cohort] = ids.attrs.get("qc_identity_mapping", "direct canonical IDs")
         counts[cohort] = len(ids)
         desc = descriptors.loc[descriptors["analysis_cohort"].eq(cohort)]
         extra = set(desc["sample_uid"]).difference(ids)
@@ -220,6 +230,7 @@ def load_figure3_inputs(input_csv=ANALYSIS_V2_MAGNETIC_INPUT, *, qc_inputs=None,
     aligned = pd.concat(aligned_frames, ignore_index=True)
     audit = build_figure3_audit(aligned, counts)
     audit["qc_source"] = [qc_sources[key] for key in audit.index]
+    audit["qc_identity_mapping"] = [qc_mappings.get(key, "") for key in audit.index]
     audit["descriptor_source"] = [
         ";".join(descriptors.loc[descriptors["analysis_cohort"].eq(key), "descriptor_source"].unique())
         for key in audit.index
@@ -322,14 +333,20 @@ def save_manuscript_figure3(df, *, output_dir=ANALYSIS_V2_FIGURE_OUTPUT_DIR, aud
 
 def run_manuscript_figure3(input_csv=ANALYSIS_V2_MAGNETIC_INPUT,
                            figure_dir=ANALYSIS_V2_FIGURE_OUTPUT_DIR, *,
-                           qc_inputs=None, descriptor_inputs=None, audit_only=False):
+                           qc_inputs=None, descriptor_inputs=None, audit_only=False,
+                           standardized_input=STANDARDIZED_INPUT, require_complete_descriptors=False):
     df, audit, missing = load_figure3_inputs(
         input_csv, qc_inputs=qc_inputs, descriptor_inputs=descriptor_inputs,
+        standardized_input=standardized_input,
     )
     root = Path(figure_dir)
     root.mkdir(parents=True, exist_ok=True)
     audit.to_csv(root / "figure3_availability_audit.csv")
     if missing and not audit_only:
         raise FileNotFoundError("Missing Figure 3 sources:\n" + "\n".join(map(str, missing)))
+    if require_complete_descriptors:
+        complete = audit["qc_count"].notna() & audit["descriptor_records"].eq(audit["qc_count"])
+        if not complete.fillna(False).all():
+            raise RuntimeError("Incomplete descriptor ID coverage:\n" + audit.loc[~complete.fillna(False)].to_string())
     paths = None if audit_only else save_manuscript_figure3(df, output_dir=root, audit=audit)
     return ManuscriptFigure3Report(Path(input_csv), audit, missing, paths)

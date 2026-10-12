@@ -22,8 +22,10 @@ the [updated caption](figure2_caption.md). The selected PDF remains the
 previous snapshot until the two missing FT QC sources are supplied.
 
 Figure 3: see [definitions, audit and reproduction](figure3_reproduction.md)
-and the [updated caption](figure3_caption.md). Its selected PDF remains the
-previous snapshot until the new FT QC and descriptor sources are supplied.
+and the [updated caption](figure3_caption.md). Its selected PDF includes all
+ten QC sets, using two separately calculated FT Descriptor v2 tables and
+the frozen eight-set analysis source. Server reproduction uses native QC
+files and the existing standardized enrichment, without recalculating enrichment.
 
 ## Supplementary figures
 

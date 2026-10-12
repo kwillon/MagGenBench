@@ -85,6 +85,21 @@ def test_magnetic_composition_categories_use_project_config(config):
     assert values["contains_3d_and_configured_lanthanide"] is True
 
 
+def test_fractional_occupancies_and_magnetic_site_membership(config):
+    from pymatgen.core import Lattice, Structure
+    from mvpipeline.descriptors.magnetic_sites import configured_magnetic_site_indices
+
+    structure = Structure(
+        Lattice.cubic(5.0),
+        [{"Fe": 0.25, "Al": 0.5}, {"Nd": 0.5}, "O"],
+        [[0, 0, 0], [0.25, 0.25, 0.25], [0.5, 0.5, 0.5]],
+    )
+    values = compute_magnetic_composition_descriptors(structure.composition, config.magnetic_elements)
+    assert values["transition_3d_fraction"] == pytest.approx(0.25 / 2.25)
+    assert values["configured_lanthanide_fraction"] == pytest.approx(0.5 / 2.25)
+    assert configured_magnetic_site_indices(structure, config.configured_magnetic_elements) == [0, 1]
+
+
 def test_nonmagnetic_structure_is_ok_with_not_applicable_geometry(config):
     from pymatgen.core import Lattice, Structure
 

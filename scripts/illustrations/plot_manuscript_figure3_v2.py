@@ -6,6 +6,7 @@ from pathlib import Path
 from mvpipeline.analysis.figures_v2_magnetic import ANALYSIS_V2_MAGNETIC_INPUT
 from mvpipeline.analysis.manuscript_figure3_v2 import COHORT_ORDER, run_manuscript_figure3
 from mvpipeline.analysis.plotting_v2 import ANALYSIS_V2_FIGURE_OUTPUT_DIR
+from mvpipeline.descriptors.figure3_ft import STANDARDIZED_INPUT
 
 
 def cohort_paths(values, parser):
@@ -25,11 +26,15 @@ def main() -> int:
     parser.add_argument("--descriptor-input", action="append", default=[], metavar="COHORT=PATH")
     parser.add_argument("--figure-dir", type=Path, default=ANALYSIS_V2_FIGURE_OUTPUT_DIR)
     parser.add_argument("--audit-only", action="store_true")
+    parser.add_argument("--standardized-input", type=Path, default=STANDARDIZED_INPUT)
+    parser.add_argument("--require-complete-descriptors", action="store_true")
     args = parser.parse_args()
     report = run_manuscript_figure3(
         args.input, args.figure_dir, audit_only=args.audit_only,
         qc_inputs=cohort_paths(args.qc_input, parser),
         descriptor_inputs=cohort_paths(args.descriptor_input, parser),
+        standardized_input=args.standardized_input,
+        require_complete_descriptors=args.require_complete_descriptors,
     )
     print(report.audit.to_string())
     if report.missing_inputs:
