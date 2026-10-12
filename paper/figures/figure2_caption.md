@@ -12,8 +12,8 @@ structures), including retained and rejected structures. Raw generation
 counts, which may be 2016 before benchmark harmonization, are not used as
 these denominators. Family colors are preserved across Base and adapted
 variants. (D) Registered primary rejection reasons for the five Base sets,
-including Crys-JEPA Base: duplicates, charge imbalance, crystallographic
-information file (CIF) parse errors, physically impossible interatomic
+including Crys-JEPA Base: duplicates, charge-balance failure, crystallographic
+information file (CIF) parse errors, implausible interatomic
 distances and unrealistic density. Each cell gives the percentage of all
 rejected structures in that set assigned the indicated registered primary
 reason; the rejected population size is shown beside each row. These are

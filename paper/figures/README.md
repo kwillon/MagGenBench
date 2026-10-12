@@ -18,8 +18,8 @@ selected snapshots intended for manuscript preparation and review.
 | Figure 6 | Diversity and adaptation | `manuscript_figure6_diversity_adaptation_v2_preview` |
 
 Figure 2: see [provenance and reproduction](figure2_reproduction.md) and
-the [updated caption](figure2_caption.md). The selected PDF remains the
-previous snapshot until the two missing FT QC sources are supplied.
+the [updated caption](figure2_caption.md). The selected PDF includes all
+ten QC sets and the final panel D labels, exported from real QC sources.
 
 Figure 3: see [definitions, audit and reproduction](figure3_reproduction.md)
 and the [updated caption](figure3_caption.md). Its selected PDF includes all

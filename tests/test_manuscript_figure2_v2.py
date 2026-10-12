@@ -7,7 +7,7 @@ import pytest
 
 from mvpipeline.analysis.manuscript_figure2_v2 import (
     BASE_COHORTS, EXPECTED_RETAINED, FT_COHORTS, QC_COHORT_ORDER,
-    _plot_retention, _read_qc_table, build_structural_qc_tables,
+    _plot_rejection_profile, _plot_retention, _read_qc_table, build_structural_qc_tables,
     run_manuscript_figure2, save_manuscript_figure2,
 )
 from mvpipeline.analysis.validation_figures_v2 import MODEL_ORDER
@@ -108,6 +108,28 @@ def test_retention_panels_have_matching_order_and_scales(new_qc_inputs):
     assert [t.get_text() for t in axes[0].get_yticklabels()] == list(MODEL_ORDER)
     assert [t.get_text() for t in axes[1].get_yticklabels()] == list(MODEL_ORDER)
     assert any("1,000 (50.00%)" == t.get_text() for t in axes[1].texts)
+    plt.close(fig)
+
+
+def test_panel_d_display_refinement_preserves_data_and_scale(new_qc_inputs):
+    import matplotlib
+
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+
+    summary, rejection, _ = build_structural_qc_tables(qc_inputs=new_qc_inputs)
+    before = rejection.copy(deep=True)
+    fig, ax = plt.subplots()
+    _plot_rejection_profile(ax, rejection, summary)
+    assert ax.get_yticklabels()[-1].get_text() == "Crys-JEPA Base (n=236)"
+    labels = [label.get_text().replace("\n", " ") for label in ax.get_xticklabels()]
+    assert labels == ["Duplicate", "Charge-balance failure", "CIF parse error",
+                      "Implausible interatomic distance", "Unrealistic density"]
+    assert all(label.get_fontsize() == 9 for label in [*ax.get_xticklabels(), *ax.get_yticklabels()])
+    assert all(label.get_fontsize() == 9 for label in ax.texts if label.get_text() != "D")
+    assert ax.images[0].get_clim() == (0, 100)
+    np.testing.assert_array_equal(ax.images[0].get_array(), rejection.to_numpy())
+    assert rejection.equals(before)
     plt.close(fig)
 
 

@@ -17,6 +17,12 @@ from .validation_figures_v2 import (
 FIGURE_BASENAME = "manuscript_figure2_structural_overview_v2_preview"
 CRYSJEPA_BASE_VALIDATION_INPUT = Path("tables/03_features/crysjepa_base_with_classes.csv")
 BASELINE_DISPLAY_ORDER = (*MODEL_ORDER, "Crys-JEPA")
+BASELINE_DISPLAY_LABELS = (*MODEL_ORDER, "Crys-JEPA Base")
+PANEL_D_REASON_LABELS = {
+    **REJECTION_REASON_LABELS,
+    "charge_imbalance": "Charge-balance\nfailure",
+    "physically_impossible_distance": "Implausible\ninteratomic\ndistance",
+}
 BASE_COHORTS = (
     "mattergen_baseline", "concdvae_baseline",
     "crystalformer_baseline", "crystallm_baseline",
@@ -175,18 +181,20 @@ def _plot_rejection_profile(ax, rejection_summary, qc_summary):
     values = rejection_summary.to_numpy(dtype=float)
     image = ax.imshow(values, aspect="auto", vmin=0, vmax=100, cmap=cmap)
     ax.set_xticks(range(len(REJECTION_REASON_ORDER)),
-                  [REJECTION_REASON_LABELS[key] for key in REJECTION_REASON_ORDER])
+                  [PANEL_D_REASON_LABELS[key] for key in REJECTION_REASON_ORDER])
     ax.set_yticks(range(len(BASELINE_DISPLAY_ORDER)), [
         f"{model} (n={int(qc_summary.loc[cohort, 'n_rejected']):,})"
-        for model, cohort in zip(BASELINE_DISPLAY_ORDER, (*BASE_COHORTS, "crysjepa_base"))
+        for model, cohort in zip(BASELINE_DISPLAY_LABELS, (*BASE_COHORTS, "crysjepa_base"))
     ])
+    ax.tick_params(axis="both", labelsize=9)
     ax.set_title("Base: registered primary rejection reasons", pad=12)
     for row in range(values.shape[0]):
         for column in range(values.shape[1]):
             value = values[row, column]
             ax.text(column, row, f"{value:.1f}", ha="center", va="center",
-                    fontsize=8, color="white" if value >= 60 else ANALYSIS_V2_DARK_TEXT)
+                    fontsize=9, color="white" if value >= 60 else ANALYSIS_V2_DARK_TEXT)
     cbar = ax.figure.colorbar(image, ax=ax, pad=0.02, fraction=0.035)
+    cbar.ax.tick_params(labelsize=9)
     cbar.set_label("Share of rejected structures (%)")
     _panel_label(ax, "D")
 
