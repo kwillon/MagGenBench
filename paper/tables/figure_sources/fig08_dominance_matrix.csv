@@ -1,0 +1,11 @@
+,mattergen_baseline,mattergen_finetuned,concdvae_baseline,concdvae_finetuned,crystalformer_baseline,crystalformer_finetuned,crystallm_baseline,crystallm_finetuned,crysjepa_base,crysjepa_refined
+mattergen_baseline,0,0,0,0,1,0,1,1,0,1
+mattergen_finetuned,0,0,0,0,0,0,1,1,0,0
+concdvae_baseline,0,0,0,0,1,0,1,1,1,1
+concdvae_finetuned,0,0,0,0,0,0,1,1,0,0
+crystalformer_baseline,0,0,0,0,0,0,1,1,0,0
+crystalformer_finetuned,0,0,0,0,0,0,1,1,0,0
+crystallm_baseline,0,0,0,0,0,0,0,0,0,0
+crystallm_finetuned,0,0,0,0,0,0,1,0,0,0
+crysjepa_base,0,0,0,0,1,0,1,1,0,1
+crysjepa_refined,0,0,0,0,0,0,1,0,0,0
