@@ -250,5 +250,10 @@ def test_analysis_v2_real_canonical_inputs_have_expected_cohort_counts():
     def counts(rows):
         return Counter(row["analysis_cohort"] for row in rows)
 
-    assert counts(std_rows) == EXPECTED_ANALYSIS_V2_COHORT_COUNTS
+    # Enrichment has ten cohorts; the shared Descriptor v2 artifact stays frozen at eight.
+    assert counts(std_rows) == {
+        **EXPECTED_ANALYSIS_V2_COHORT_COUNTS,
+        "crystalformer_finetuned": 1380,
+        "crystallm_finetuned": 217,
+    }
     assert counts(desc_rows) == EXPECTED_ANALYSIS_V2_COHORT_COUNTS

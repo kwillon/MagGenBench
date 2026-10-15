@@ -1,158 +1,164 @@
 from __future__ import annotations
 
-import pandas as pd
+import csv
+
+import numpy as np
+import pytest
 
 from mvpipeline.analysis.manuscript_figure2_v2 import (
-    BASELINE_DISPLAY_ORDER,
-    CRYSJEPA_BASE_VALIDATION_INPUT,
-    FIGURE_BASENAME,
-    _extend_with_crysjepa_base,
-    build_analysis_cohort_counts,
+    BASE_COHORTS, EXPECTED_RETAINED, FT_COHORTS, QC_COHORT_ORDER,
+    _plot_rejection_profile, _plot_retention, _read_qc_table, build_structural_qc_tables,
+    run_manuscript_figure2, save_manuscript_figure2,
 )
-from mvpipeline.analysis.plotting_v2 import (
-    ANALYSIS_V2_MAGNETIC_COHORT_ORDER,
-)
-from mvpipeline.analysis.validation_figures_v2 import (
-    EXPECTED_ROWS_PER_MODEL,
-    EXPECTED_TOTAL_ROWS,
-    MODEL_ORDER,
-    REJECTION_REASON_ORDER,
-)
+from mvpipeline.analysis.validation_figures_v2 import MODEL_ORDER
 
 
-def test_manuscript_figure2_basename():
-    assert (
-        FIGURE_BASENAME
-        == "manuscript_figure2_structural_overview_v2_preview"
-    )
+def write_qc(path, retained, *, total=2000, identity="structure_id"):
+    with path.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.writer(handle)
+        writer.writerow([identity, "status", "rejection_reason"])
+        for index in range(total):
+            writer.writerow([f"s{index}", "validated" if index < retained else "rejected",
+                             "" if index < retained else "duplicate"])
+    return path
 
 
-def test_analysis_count_contract_uses_all_eight_cohorts():
-    assert len(
-        ANALYSIS_V2_MAGNETIC_COHORT_ORDER
-    ) == 8
+@pytest.fixture
+def new_qc_inputs(tmp_path):
+    # Deliberately differ from verification targets to detect hardcoded counts.
+    return {
+        "crystalformer_finetuned": write_qc(tmp_path / "cf.csv", 1000),
+        "crystallm_finetuned": write_qc(tmp_path / "cl.csv", 500, identity="sample_uid"),
+    }
 
 
-def test_validation_scope_preserves_core_four_and_displays_five_base_sets():
-    assert MODEL_ORDER == (
-        "MatterGen",
-        "Con-CDVAE",
-        "CrystalFormer",
-        "CrystaLLM",
-    )
-    assert BASELINE_DISPLAY_ORDER == (
-        "MatterGen",
-        "Con-CDVAE",
-        "CrystalFormer",
-        "CrystaLLM",
-        "Crys-JEPA",
-    )
-    assert EXPECTED_ROWS_PER_MODEL == 2000
-    assert EXPECTED_TOTAL_ROWS == 8000
-    assert CRYSJEPA_BASE_VALIDATION_INPUT.name == (
-        "crysjepa_base_with_classes.csv"
-    )
+def test_ten_cohorts_use_qc_statuses_and_rejected_denominators(new_qc_inputs):
+    summary, rejection, missing = build_structural_qc_tables(qc_inputs=new_qc_inputs)
+    assert not missing
+    assert tuple(summary.index) == QC_COHORT_ORDER
+    assert len(summary) == 10
+    assert summary["n_total"].eq(2000).all()
+    for key in summary.index.difference(new_qc_inputs):
+        assert summary.loc[key, "n_validated"] == EXPECTED_RETAINED[key]
+    assert summary.loc["crystalformer_finetuned", "n_validated"] == 1000
+    assert summary.loc["crystallm_finetuned", "validated_percent"] == 25
+    assert not summary.loc["crystallm_finetuned", "matches_expected"]
+    assert summary["n_validated"].sum() == 12184
+    assert sum(EXPECTED_RETAINED.values()) == 12281
+    assert np.allclose(rejection.sum(axis=1), 100)
+    assert rejection.loc["Crys-JEPA", "charge_imbalance"] == pytest.approx(100 * 154 / 236)
+    assert rejection.loc["Crys-JEPA", "physically_impossible_distance"] == pytest.approx(100 * 77 / 236)
+    assert rejection.loc["Crys-JEPA", "duplicate"] == pytest.approx(100 * 5 / 236)
 
 
-def test_rejection_profile_has_five_reason_classes():
-    assert len(REJECTION_REASON_ORDER) == 5
+def test_missing_tables_are_reported_without_fabricated_counts(tmp_path):
+    absent = {
+        "crystalformer_finetuned": tmp_path / "missing_cf.csv",
+        "crystallm_finetuned": tmp_path / "missing_cl.csv",
+    }
+    report = run_manuscript_figure2(qc_inputs=absent, figure_dir=tmp_path, audit_only=True,
+                                   check_expected=True)
+    assert report.figure_paths is None
+    assert report.missing_inputs == tuple(absent.values())
+    assert report.qc_summary["n_validated"].sum() == 10684
+    assert (tmp_path / "figure2_structural_qc_audit.csv").is_file()
+    with pytest.raises(FileNotFoundError, match="Missing structural QC"):
+        run_manuscript_figure2(qc_inputs=absent, figure_dir=tmp_path)
+    assert not list(tmp_path.glob("*.pdf"))
 
 
-def test_build_analysis_cohort_counts_preserves_order():
-    rows = []
-
-    for index, cohort in enumerate(
-        ANALYSIS_V2_MAGNETIC_COHORT_ORDER,
-        start=1,
-    ):
-        rows.extend(
-            {"analysis_cohort": cohort}
-            for _ in range(index)
-        )
-
-    df = pd.DataFrame(rows)
-
-    counts = build_analysis_cohort_counts(
-        df
-    )
-
-    assert tuple(
-        counts.index
-    ) == ANALYSIS_V2_MAGNETIC_COHORT_ORDER
-
-    assert counts.tolist() == list(
-        range(
-            1,
-            len(
-                ANALYSIS_V2_MAGNETIC_COHORT_ORDER
-            )
-            + 1,
-        )
-    )
+def test_raw_generation_is_not_silently_used_as_benchmark(tmp_path):
+    with pytest.raises(RuntimeError, match="found 2016"):
+        _read_qc_table(write_qc(tmp_path / "raw.csv", 1380, total=2016))
 
 
-def test_crysjepa_base_extension_matches_frozen_validation_artifact():
-    import pandas as pd
+@pytest.mark.parametrize("defect", ["duplicate_id", "unknown_status", "ragged", "validated_reason"])
+def test_invalid_qc_records_fail(tmp_path, defect):
+    path = write_qc(tmp_path / "bad.csv", 1000)
+    with path.open(encoding="utf-8", newline="") as handle:
+        rows = list(csv.reader(handle))
+    if defect == "duplicate_id":
+        rows[2][0] = rows[1][0]
+    elif defect == "unknown_status":
+        rows[1][1] = "success"
+    elif defect == "ragged":
+        rows[1].append("extra")
+    else:
+        rows[1][2] = "duplicate"
+    with path.open("w", encoding="utf-8", newline="") as handle:
+        csv.writer(handle).writerows(rows)
+    with pytest.raises(RuntimeError):
+        _read_qc_table(path)
 
-    validation_summary = pd.DataFrame(
-        {
-            "n_total": [2000] * 4,
-            "n_validated": [1657, 1864, 1083, 98],
-            "n_rejected": [343, 136, 917, 1902],
-            "validated_percent": [82.85, 93.20, 54.15, 4.90],
-            "rejected_percent": [17.15, 6.80, 45.85, 95.10],
-        },
-        index=MODEL_ORDER,
-    )
 
-    rejection_summary = pd.DataFrame(
-        0.0,
-        index=MODEL_ORDER,
-        columns=REJECTION_REASON_ORDER,
-    )
+def test_verification_targets_do_not_replace_measured_counts(tmp_path, new_qc_inputs):
+    with pytest.raises(RuntimeError, match="differ from verification targets"):
+        run_manuscript_figure2(qc_inputs=new_qc_inputs, figure_dir=tmp_path,
+                               check_expected=True, audit_only=True)
 
-    extended_summary, extended_rejection = _extend_with_crysjepa_base(
-        validation_summary,
-        rejection_summary,
-    )
 
-    assert tuple(extended_summary.index) == BASELINE_DISPLAY_ORDER
-    assert int(extended_summary.loc["Crys-JEPA", "n_total"]) == 2000
-    assert int(extended_summary.loc["Crys-JEPA", "n_validated"]) == 1764
-    assert int(extended_summary.loc["Crys-JEPA", "n_rejected"]) == 236
-    assert extended_summary.loc[
-        "Crys-JEPA", "validated_percent"
-    ] == 88.2
+def test_retention_panels_have_matching_order_and_scales(new_qc_inputs):
+    import matplotlib.pyplot as plt
 
-    assert tuple(extended_rejection.index) == BASELINE_DISPLAY_ORDER
-    assert abs(
-        float(extended_rejection.loc["Crys-JEPA"].sum()) - 100.0
-    ) < 1e-8
+    summary, _, _ = build_structural_qc_tables(qc_inputs=new_qc_inputs)
+    fig, axes = plt.subplots(1, 2)
+    for ax, cohorts, panel in zip(axes, (BASE_COHORTS, FT_COHORTS), ("A", "B")):
+        _plot_retention(ax, summary, cohorts, MODEL_ORDER, panel, panel)
+    assert axes[0].get_xlim() == axes[1].get_xlim() == (0, 100)
+    assert [t.get_text() for t in axes[0].get_yticklabels()] == list(MODEL_ORDER)
+    assert [t.get_text() for t in axes[1].get_yticklabels()] == list(MODEL_ORDER)
+    assert any("1,000 (50.00%)" == t.get_text() for t in axes[1].texts)
+    plt.close(fig)
 
-    assert round(
-        float(
-            extended_rejection.loc[
-                "Crys-JEPA", "charge_imbalance"
-            ]
-        ),
-        1,
-    ) == 65.3
 
-    assert round(
-        float(
-            extended_rejection.loc[
-                "Crys-JEPA",
-                "physically_impossible_distance",
-            ]
-        ),
-        1,
-    ) == 32.6
+def test_panel_d_display_refinement_preserves_data_and_scale(new_qc_inputs):
+    import matplotlib
 
-    assert round(
-        float(
-            extended_rejection.loc[
-                "Crys-JEPA", "duplicate"
-            ]
-        ),
-        1,
-    ) == 2.1
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+
+    summary, rejection, _ = build_structural_qc_tables(qc_inputs=new_qc_inputs)
+    before = rejection.copy(deep=True)
+    fig, ax = plt.subplots()
+    _plot_rejection_profile(ax, rejection, summary)
+    assert ax.get_yticklabels()[-1].get_text() == "Crys-JEPA Base (n=236)"
+    labels = [label.get_text().replace("\n", " ") for label in ax.get_xticklabels()]
+    assert labels == ["Duplicate", "Charge-balance failure", "CIF parse error",
+                      "Implausible interatomic distance", "Unrealistic density"]
+    assert all(label.get_fontsize() == 9 for label in [*ax.get_xticklabels(), *ax.get_yticklabels()])
+    assert all(label.get_fontsize() == 9 for label in ax.texts if label.get_text() != "D")
+    assert ax.images[0].get_clim() == (0, 100)
+    np.testing.assert_array_equal(ax.images[0].get_array(), rejection.to_numpy())
+    assert rejection.equals(before)
+    plt.close(fig)
+
+
+def test_export_layout_with_explicit_synthetic_ft_watermark(tmp_path, new_qc_inputs, monkeypatch):
+    import mvpipeline.analysis.manuscript_figure2_v2 as figure2
+
+    summary, rejection, _ = build_structural_qc_tables(qc_inputs=new_qc_inputs)
+    original = figure2.save_analysis_v2_figure_bundle
+
+    def save_layout(fig, output_dir, basename):
+        fig.suptitle("LAYOUT QA ONLY - CrystalFormer FT and CrystaLLM FT are synthetic", fontsize=12)
+        fig.canvas.draw()
+        renderer = fig.canvas.get_renderer()
+        # Verify annotations, titles and tick labels remain inside the exported canvas.
+        for ax in fig.axes:
+            for label in [*ax.texts, ax.title, ax.xaxis.label, ax.yaxis.label,
+                          *ax.get_xticklabels(), *ax.get_yticklabels()]:
+                if not label.get_visible() or not label.get_text():
+                    continue
+                bbox = label.get_window_extent(renderer)
+                assert bbox.x0 >= 0 and bbox.y0 >= 0
+                assert bbox.x1 <= fig.bbox.width and bbox.y1 <= fig.bbox.height
+        return original(fig, output_dir, basename)
+
+    monkeypatch.setattr(figure2, "save_analysis_v2_figure_bundle", save_layout)
+    paths = save_manuscript_figure2(summary, rejection, output_dir=tmp_path)
+    for path in (paths.png, paths.pdf, paths.svg):
+        assert path.stat().st_size > 10000
+    svg = paths.svg.read_text(encoding="utf-8")
+    assert "registered primary rejection reasons" in svg
+    assert "LAYOUT QA ONLY" in svg
+    print(f"Layout QA preview: {paths.png}")
