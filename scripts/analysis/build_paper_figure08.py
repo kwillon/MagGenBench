@@ -372,41 +372,57 @@ fig.colorbar(
     label="Weight combinations (%)",
 )
 
-# D: First-place frequency
-order = np.argsort(
-    -summary.first_place_fraction.to_numpy(),
-    kind="stable",
+# D: Top-5 frequency across sampled objective weights
+top3_frequency = (rank_position <= 3).mean(axis=0)
+top5_frequency = (rank_position <= 5).mean(axis=0)
+
+summary["top3_frequency"] = top3_frequency
+summary["top5_frequency"] = top5_frequency
+
+# Preserve first-place, Top-3 and Top-5 statistics.
+pd.DataFrame({
+    "analysis_cohort": ORDER,
+    "label": labels,
+    "first_place_pct":
+        100 * summary["first_place_fraction"].to_numpy(),
+    "top3_pct": 100 * top3_frequency,
+    "top5_pct": 100 * top5_frequency,
+    "mean_rank": summary["mean_rank"].to_numpy(),
+}).to_csv(
+    OUTPUT / "figure08_ranking_summary.csv",
+    index=False,
 )
 
-prob = 100 * summary.first_place_fraction.to_numpy()
+top5_order = np.argsort(-top5_frequency, kind="stable")
+top5_pct = 100 * top5_frequency
 
 bars = ax_d.barh(
-    np.array(labels)[order],
-    prob[order],
-    color=[COHORT_COLORS[ORDER[i]] for i in order],
-    edgecolor="#FFFFFF",
+    np.array(labels)[top5_order],
+    top5_pct[top5_order],
+    color=[COHORT_COLORS[ORDER[i]] for i in top5_order],
+    edgecolor="white",
     linewidth=0.7,
-    height=0.72,
+    height=0.70,
 )
 
 ax_d.invert_yaxis()
-ax_d.set_xlabel("First-place frequency (%)")
-ax_d.set_title("D  First-place frequency")
-ax_d.set_xlim(0, 60)
+ax_d.set_xlim(0, 109)
+ax_d.set_xticks([0, 20, 40, 60, 80, 100])
+ax_d.set_xlabel("Top-5 frequency (%)")
+ax_d.set_title("D  Top-5 frequency")
 ax_d.grid(axis="x", alpha=0.15, linewidth=0.5)
 ax_d.set_axisbelow(True)
 
-for bar, i in zip(bars, order):
-    if prob[i] > 0:
-        ax_d.text(
-            prob[i] + 1,
-            bar.get_y() + bar.get_height() / 2,
-            f"{prob[i]:.2f}%",
-            va="center",
-            ha="left",
-            fontsize=9,
-            color="#253746",
-        )
+for bar, i in zip(bars, top5_order):
+    ax_d.text(
+        top5_pct[i] + 1.2,
+        bar.get_y() + bar.get_height() / 2,
+        f"{top5_pct[i]:.1f}%",
+        va="center",
+        ha="left",
+        fontsize=9,
+        color="#253746",
+    )
 
 # Number labels in panel B follow the row order in panel A.
 # The same order is listed explicitly in the exported metric matrix.
