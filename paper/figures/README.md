@@ -13,7 +13,7 @@ selected snapshots intended for manuscript preparation and review.
 | Figure 1 | Study and analysis pipeline | `paper_pipeline_v3_preview` |
 | Figure 2 | Structural QC retention and registered primary rejection reasons | `manuscript_figure2_structural_overview_v2_preview` |
 | Figure 3 | Magnetic-domain composition | `manuscript_figure3_magnetic_domain_v2_preview` |
-| Figure 4 | Magnetic-reference screening and DFT validation | External collaborator figure; final PDF pending |
+| Figure 4 | Magnetic-reference screening and DFT validation | `fig04_magnetic_reference_dft.pdf` from collaborator |
 | Figure 5 | Energy-magnetism landscape | `manuscript_figure5_energy_magnetism_v2_preview` |
 | Figure 6 | Diversity and adaptation | `manuscript_figure6_diversity_adaptation_v2_preview` |
 
@@ -52,8 +52,15 @@ manuscript artifact.
   contain the updated ten-cohort PCA results.
 - `fig04_descriptor_space.pdf` is a legacy file and is NOT the
   manuscript Figure 4. It remains temporarily for provenance.
-- The final magnetic-reference screening and DFT Figure 4 is
-  maintained separately by a collaborator and has not yet been imported.
+- `fig04_magnetic_reference_dft.pdf` is the canonical Figure 4, copied
+  unchanged from the external collaborator file
+  `Figure_MP_only_generator_benchmark.pdf`.
+- Panels A-C use the updated MP-only reference setup without MAGNDATA.
+  Panel D contains previously obtained DFT results and is not an
+  independent validation of the new A-C panels.
+- The collaborator source should correct `ConcDVAE` to `Con-CDVAE`,
+  `CrystALLM` to `CrystaLLM`, and normalize the Base/Fine-tuned/Refined
+  model-variant labels. The supplied PDF was not raster-edited.
 - Figure 5 and Figure 6 selected PDFs have verified figure-source CSVs
   under `paper/tables/figure_sources/`. Their permanent ten-cohort
   plotting implementations are still pending.

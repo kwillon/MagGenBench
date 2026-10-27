@@ -53,9 +53,19 @@ for the updated comparison are stored in
 | Figure 6 | Compound classes and chemical diversity |
 
 Figure 4 was produced separately by a collaborator; its final PDF
-has not yet been imported into `paper/figures/`.
+is imported as `paper/figures/fig04_magnetic_reference_dft.pdf` from the
+external file `Figure_MP_only_generator_benchmark.pdf` supplied by the
+coauthor. Panels A-C use the updated MP-only reference setup without
+MAGNDATA. Panel D contains previously obtained DFT results and is not an
+independent validation of the new A-C panels.
 The existing `fig04_descriptor_space.pdf` is a legacy PCA artifact,
 not the manuscript Figure 4.
+
+The collaborator PDF currently contains label spellings that should be
+corrected in its source code rather than with a raster overlay: `ConcDVAE`
+should be `Con-CDVAE`, `CrystALLM` should be `CrystaLLM`, and the model
+variant labels should use the manuscript's `Base`, `Fine-tuned`, and
+`Refined` terminology consistently.
 
 Updated ten-cohort PCA outputs are available as
 `supp01_pca_loadings.pdf` and `supp02_descriptor_space.pdf`
