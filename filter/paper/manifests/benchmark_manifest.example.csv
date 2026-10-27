@@ -1,0 +1,3 @@
+dataset,structure_id,role,label_order,generator_family,variant,condition_path,target_formula,seed,sha256
+magndata,example_001,reference,MAGNDATA,,,,,,
+mattergen_base,example_query_001,query,,mattergen,base,example_condition,,42,

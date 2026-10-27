@@ -1,0 +1,64 @@
+[build-system]
+requires = ["setuptools>=75", "wheel>=0.44"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cif-magnetic-reference-filter"
+version = "1.0.0"
+description = "CIF-only magnetic-reference representation and reference-manifold screening workflow"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+license = {file = "LICENSE"}
+authors = [{name = "CIF Magnetic Reference Filter authors"}]
+keywords = ["materials informatics", "magnetic materials", "crystal structures", "CIF", "reference manifolds"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: BSD License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Scientific/Engineering :: Chemistry",
+  "Topic :: Scientific/Engineering :: Physics",
+]
+
+dependencies = [
+  "numpy>=2.0,<3",
+  "pandas>=2.2,<3.1",
+  "scikit-learn>=1.6,<2",
+  "scipy>=1.13,<2",
+  "pymatgen>=2025.10.7,<2027",
+  "SMACT>=4.0,<5",
+  "spglib>=2.5,<3",
+]
+
+[project.optional-dependencies]
+paper = [
+  "matplotlib>=3.8,<4",
+  "Pillow>=10,<13",
+  "umap-learn>=0.5.12,<0.6",
+  "networkx>=3.2,<4",
+]
+visualization = ["matplotlib>=3.8,<4", "Pillow>=10,<13", "networkx>=3.2,<4"]
+dev = ["pytest>=8,<10"]
+all = [
+  "matplotlib>=3.8,<4",
+  "Pillow>=10,<13",
+  "umap-learn>=0.5.12,<0.6",
+  "networkx>=3.2,<4",
+  "pytest>=8,<10",
+]
+
+[project.scripts]
+cifmagfilter = "cifmagfilter.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]
+
+[tool.setuptools.package-data]
+cifmagfilter = ["data/model/*.json", "data/model/*.npz"]

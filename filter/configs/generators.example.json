@@ -1,0 +1,58 @@
+{
+  "output_dir": "../../results/mp_only",
+  "datasets": [
+    {
+      "name": "mattergen_base",
+      "path": "../../data/generators/mattergen_base/cifs",
+      "role": "query"
+    },
+    {
+      "name": "mattergen_finetuned",
+      "path": "../../data/generators/mattergen_finetuned/cifs",
+      "role": "query"
+    },
+    {
+      "name": "concdvae_base",
+      "path": "../../data/generators/concdvae_base/cifs",
+      "role": "query"
+    },
+    {
+      "name": "concdvae_finetuned",
+      "path": "../../data/generators/concdvae_finetuned/cifs",
+      "role": "query"
+    },
+    {
+      "name": "crysjepa_base",
+      "path": "../../data/generators/crysjepa_base/cifs",
+      "role": "query"
+    },
+    {
+      "name": "crysjepa_refined",
+      "path": "../../data/generators/crysjepa_refined/cifs",
+      "role": "query"
+    },
+    {
+      "name": "crystalformer",
+      "path": "../../data/generators/crystalformer/cifs",
+      "role": "query"
+    },
+    {
+      "name": "crystalformer_finetuned",
+      "path": "../../data/generators/crystalformer_finetuned/cifs",
+      "role": "query"
+    },
+    {
+      "name": "crystalllm",
+      "path": "../../data/generators/crystalllm/cifs",
+      "role": "query"
+    },
+    {
+      "name": "crystalllm_finetuned",
+      "path": "../../data/generators/crystalllm_finetuned/cifs",
+      "role": "query"
+    }
+  ],
+  "extraction": {
+    "reject_disordered": true
+  }
+}

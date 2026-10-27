@@ -1,0 +1,43 @@
+{
+  "knn_k": 15,
+  "clip_z": 8.0,
+  "feature_count": 45,
+  "controls": {
+    "default": {
+      "n_features": 45,
+      "removed_features": []
+    },
+    "no_computability": {
+      "n_features": 41,
+      "removed_features": [
+        "chemistry__bv_success",
+        "chemistry__oxi_guess_success",
+        "chemistry__oxi_guess_count",
+        "chemistry__oxidation_state_coverage"
+      ]
+    },
+    "no_computability_smact": {
+      "n_features": 39,
+      "removed_features": [
+        "chemistry__bv_success",
+        "chemistry__oxi_guess_success",
+        "chemistry__oxi_guess_count",
+        "chemistry__oxidation_state_coverage",
+        "chemistry__smact_valid",
+        "chemistry__smact_valid_mixed_valence"
+      ]
+    },
+    "no_center_support_summaries": {
+      "n_features": 39,
+      "removed_features": [
+        "magnetic_center__mean_center_confidence",
+        "magnetic_center__max_center_confidence",
+        "magnetic_center__mean_ionic_score",
+        "magnetic_center__mean_metallic_score",
+        "magnetic_center__mean_rare_earth_score",
+        "magnetic_center__mean_closed_shell_suppression"
+      ]
+    }
+  },
+  "note": "All controls are post-extraction coordinate ablations. The center-support control does not rebuild pair weights or pair retention."
+}

@@ -67,6 +67,15 @@ should be `Con-CDVAE`, `CrystALLM` should be `CrystaLLM`, and the model
 variant labels should use the manuscript's `Base`, `Fine-tuned`, and
 `Refined` terminology consistently.
 
+## CIFMagFilter — Magnetic reference screening
+
+[`filter/README.md`](filter/README.md) documents the separate CIFMagFilter
+workflow. Its default MP-only reference set contains 8,000 structures across
+AFM, FM, FiM, and NM branches, represented by 45 descriptors and screened with
+`k=15` nearest references. Reference affinity indicates similarity to the
+reference space; it is not a prediction of a material's magnetic ground state.
+Use a separate Python 3.11–3.13 environment for this workflow.
+
 Updated ten-cohort PCA outputs are available as
 `supp01_pca_loadings.pdf` and `supp02_descriptor_space.pdf`
 under `paper/figures/`.

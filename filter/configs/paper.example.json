@@ -1,0 +1,19 @@
+{
+  "reference_scores": "../analysis_v1_45/main/reference_validation_scores.csv",
+  "query_scores": "../analysis_v1_45/main/query_scores.csv",
+  "feature_manifest": "../analysis_v1_45/main/feature_manifest.csv",
+  "analysis_root": "../analysis_v1_45",
+  "dft_join": null,
+  "dft_fm_init": "../dft_results/final_results.csv",
+  "afmfm_subset": "../analysis_tables/afm_fm_subset.csv",
+  "ablation_reference": null,
+  "ablation_generator": null,
+  "ablation_main_candidate": "default",
+  "sha_reference_sensitivity": "../analysis_tables/magndata_sha_dedup/reference_validation_sensitivity.csv",
+  "sha_generator_sensitivity": "../analysis_tables/magndata_sha_dedup/generator_benchmark_sensitivity.csv",
+  "sha_dft_sensitivity": "../analysis_tables/magndata_sha_dedup/dft_confirmation_sensitivity.csv",
+  "output_dir": "../paper_output",
+  "dpi": 600,
+  "n_bootstrap": 1000,
+  "seed": 42
+}

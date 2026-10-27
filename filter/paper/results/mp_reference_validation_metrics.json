@@ -1,0 +1,10 @@
+{
+  "n_reference": 8000,
+  "four_branch_agreement": 0.762875,
+  "magnetic_reference_sensitivity": 0.9446666666666667,
+  "NM_specificity": 0.9145,
+  "binary_balanced_accuracy": 0.9295833333333333,
+  "leave_one_out_reference_scoring": true,
+  "scaler_fit_on_all_reference_rows": true,
+  "note": "Internal reference consistency, not an independent test cohort"
+}

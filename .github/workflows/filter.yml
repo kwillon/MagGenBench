@@ -1,0 +1,47 @@
+# Copy this template to the PARENT repository's .github/workflows/filter.yml
+# when filter/ is a subdirectory. GitHub does not discover nested workflows.
+name: CIF Magnetic Reference Filter
+
+on:
+  push:
+    paths:
+      - 'filter/**'
+      - '.github/workflows/filter.yml'
+  pull_request:
+    paths:
+      - 'filter/**'
+      - '.github/workflows/filter.yml'
+  workflow_dispatch:
+
+jobs:
+  filter-tests:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ['3.11', '3.12', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - name: Install filter with tests and figure dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e './filter[dev,paper]'
+      - name: Run unit and scientific invariant tests
+        working-directory: filter
+        run: python -m pytest -q tests
+      - name: CLI smoke test and inventory
+        run: |
+          cifmagfilter self-test
+          python filter/scripts/check_repository.py
+      - name: Build wheel with embedded MP-only model
+        if: matrix.python-version == '3.12'
+        run: python -m pip wheel ./filter --no-deps -w dist
+      - uses: actions/upload-artifact@v4
+        if: matrix.python-version == '3.12'
+        with:
+          name: cifmagfilter-wheel
+          path: dist/*.whl

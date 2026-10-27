@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.DS_Store
+/results*/
+analysis_v*/
+paper_output/
+article_analysis*_output/
+data/prepared/
+dft_results/
+*.zip
+
+# Python/test caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local environments/builds
+venv/
+build/
+dist/
+*.egg-info/

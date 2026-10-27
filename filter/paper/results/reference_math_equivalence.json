@@ -1,0 +1,15 @@
+{
+  "reference": {
+    "n_shared": 9283,
+    "max_abs_numeric_difference": 0.0,
+    "nearest_branch_mismatches": 0,
+    "binary_assignment_mismatches": 0
+  },
+  "query": {
+    "n_shared": 15574,
+    "max_abs_numeric_difference": 0.0,
+    "nearest_branch_mismatches": 0,
+    "binary_assignment_mismatches": 0
+  },
+  "note": "Canonical cifmagfilter.reference implementation reproduces canonical default scores exactly for all shared scored structures."
+}

@@ -1,0 +1,150 @@
+{
+  "registered_descriptors": 55,
+  "canonical_policy_exclusions": 6,
+  "eligible_before_reference_qc": 49,
+  "composition_ablation_features": 7,
+  "magnetic_topology_ablation_features": 25,
+  "knn_k": 15,
+  "clip_z": 8.0,
+  "near_constant_tol": 1e-08,
+  "reference_validation": {
+    "five_branch_agreement": 0.742971,
+    "magnetic_sensitivity": 0.954277,
+    "nm_specificity": 0.915,
+    "binary_balanced_accuracy": 0.934639
+  },
+  "external_dft": {
+    "n_total": 324,
+    "pipeline_magnetic_like_n": 231,
+    "pipeline_magnetic_like_dft_magnetic_fraction": 0.748918,
+    "pipeline_nm_like_n": 93,
+    "pipeline_nm_like_dft_magnetic_fraction": 0.182796,
+    "pipeline_magnetic_like_fraction_by_generator": {
+      "mattergen_base": 0.9454545454545454,
+      "concdvae_base": 0.7397260273972602,
+      "crystalformer": 0.5333333333333333,
+      "crystalllm": 0.7413793103448276
+    }
+  },
+  "note": "Reference analysis values. Branch labels denote reference-manifold affinity, not predicted magnetic order.",
+  "magndata_sha_dedup_sensitivity": {
+    "manifest_rows": 1288,
+    "unique_sha256": 1236,
+    "extra_exact_duplicate_rows": 52,
+    "duplicate_sha_groups": 43,
+    "cross_branch_sha_overlaps": 0,
+    "reference_binary_balanced_accuracy": 0.934336,
+    "magnetic_sensitivity": 0.953672,
+    "nm_specificity": 0.915,
+    "query_binary_agreement_vs_main": 0.999101,
+    "query_contrast_spearman_vs_main": 0.999974,
+    "max_abs_generator_fmag_shift": 0.0025,
+    "external_dft_binary_assignments_changed": 0
+  },
+  "reference_total": 9283,
+  "generator_benchmark": {
+    "concdvae_base": {
+      "n_structures": 2000,
+      "n_scored": 2000,
+      "parse_success_fraction": 1.0,
+      "formula_diversity_fraction": 0.987,
+      "fmag": 0.639,
+      "median_contrast": 0.859530581441449,
+      "median_dmag": 5.2345900570588135
+    },
+    "concdvae_finetuned": {
+      "n_structures": 2000,
+      "n_scored": 2000,
+      "parse_success_fraction": 1.0,
+      "formula_diversity_fraction": 0.3425,
+      "fmag": 0.999,
+      "median_contrast": 1.955580729316152,
+      "median_dmag": 4.359795895774635
+    },
+    "crysjepa_base": {
+      "n_structures": 2000,
+      "n_scored": 2000,
+      "parse_success_fraction": 1.0,
+      "formula_diversity_fraction": 0.9795,
+      "fmag": 0.6015,
+      "median_contrast": 0.5142940930417996,
+      "median_dmag": 5.261380747086267
+    },
+    "crysjepa_refined": {
+      "n_structures": 2000,
+      "n_scored": 2000,
+      "parse_success_fraction": 1.0,
+      "formula_diversity_fraction": 0.44,
+      "fmag": 0.1785,
+      "median_contrast": -2.553674463779148,
+      "median_dmag": 5.794972085974589
+    },
+    "crystalformer": {
+      "n_structures": 2000,
+      "n_scored": 1997,
+      "parse_success_fraction": 0.9985,
+      "formula_diversity_fraction": 0.5353029544316474,
+      "fmag": 0.4702053079619429,
+      "median_contrast": -0.108430235418262,
+      "median_dmag": 5.525263600001721
+    },
+    "crystalllm": {
+      "n_structures": 2000,
+      "n_scored": 1577,
+      "parse_success_fraction": 0.7885,
+      "formula_diversity_fraction": 0.0348763474952441,
+      "fmag": 0.8224476854787571,
+      "median_contrast": 0.9647170697391912,
+      "median_dmag": 7.222504663351966
+    },
+    "mattergen_base": {
+      "n_structures": 2000,
+      "n_scored": 2000,
+      "parse_success_fraction": 1.0,
+      "formula_diversity_fraction": 0.776,
+      "fmag": 0.897,
+      "median_contrast": 2.911123367084511,
+      "median_dmag": 4.077046185668699
+    },
+    "mattergen_finetuned": {
+      "n_structures": 2000,
+      "n_scored": 2000,
+      "parse_success_fraction": 1.0,
+      "formula_diversity_fraction": 0.2315,
+      "fmag": 0.9975,
+      "median_contrast": 2.076447553662081,
+      "median_dmag": 2.625030146386316
+    }
+  },
+  "feature_count": 45,
+  "reference_controls": {
+    "no_computability": {
+      "n_features": 41,
+      "five_branch_agreement": 0.7426478509102661,
+      "magnetic_sensitivity": 0.959632019772072,
+      "nm_specificity": 0.906,
+      "binary_balanced_accuracy": 0.932816009886036
+    },
+    "no_computability_smact": {
+      "n_features": 39,
+      "five_branch_agreement": 0.73780028008187,
+      "magnetic_sensitivity": 0.9545516957297816,
+      "nm_specificity": 0.909,
+      "binary_balanced_accuracy": 0.9317758478648908
+    },
+    "no_center_support_summaries": {
+      "n_features": 39,
+      "five_branch_agreement": 0.7379080038780567,
+      "magnetic_sensitivity": 0.9509817382946588,
+      "nm_specificity": 0.913,
+      "binary_balanced_accuracy": 0.9319908691473294
+    },
+    "default": {
+      "n_features": 45,
+      "five_branch_agreement": 0.7429710222988258,
+      "magnetic_sensitivity": 0.9542770836193876,
+      "nm_specificity": 0.915,
+      "binary_balanced_accuracy": 0.934638541809694
+    }
+  }
+}

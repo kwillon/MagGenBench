@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper and this software release."
+title: "CIF Magnetic Reference Filter"
+type: software
+authors:
+  - family-names: "Contributors"
+    given-names: "CIF Magnetic Reference Filter"
+license: BSD-3-Clause
+abstract: >-
+  CIF-only structural/chemical descriptor workflow and reference-manifold
+  screening model for ranking crystal structures by proximity to empirical
+  magnetic and non-magnetic reference materials. Nearest reference branch is
+  affinity to a reference manifold and is not a prediction of magnetic ground state.

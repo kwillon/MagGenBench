@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "release_version": "1.2.0",
+  "reproduction_layer": "post_extraction_descriptor_table",
+  "inputs": {
+    "structure_features.csv": {
+      "sha256": "ce6376af4c201a665d29b3564c1beac2c4ffa1925c444ff014233ecde400fe04",
+      "size_bytes": 14677243
+    },
+    "cif_manifest.csv": {
+      "sha256": "9234247371b6d698cf616c40335c1b8bc3e1f527e48706d3b03daa358b1ec14f",
+      "size_bytes": 11991081
+    }
+  },
+  "parameters": {
+    "knn_k": 15,
+    "clip_z": 8.0,
+    "min_feature_coverage": 0.2,
+    "near_constant_tol": 1e-08,
+    "bootstrap": 1000,
+    "seed": 42
+  },
+  "main_reference_validation": {
+    "n_features": 45,
+    "n_reference": 9283,
+    "five_branch_agreement": 0.7429710222988258,
+    "magnetic_sensitivity": 0.9542770836193876,
+    "nm_specificity": 0.915,
+    "balanced_accuracy": 0.934638541809694
+  },
+  "generator_rows": 8,
+  "compact_outputs_bundled_under": "paper/results"
+}
