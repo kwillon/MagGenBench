@@ -1,0 +1,42 @@
+dataset,parse_error,n
+crystalformer,ValueError('Invalid CIF file with no structures!'),3
+crystalllm,ValueError('Invalid CIF file with no structures!'),421
+crystalllm,ValueError('len(items)=1 is not a multiple of len(columns)=3'),2
+crystalllm_finetuned,IndexError('index 3 is out of bounds for axis 0 with size 3'),841
+crystalllm_finetuned,IndexError('string index out of range'),1
+crystalllm_finetuned,KeyError('_atom_site_label'),2
+crystalllm_finetuned,ValueError('Invalid CIF file with no structures!'),194
+crystalllm_finetuned,ValueError('len(items)=14 is not a multiple of len(columns)=8'),1
+crystalllm_finetuned,ValueError('len(items)=15 is not a multiple of len(columns)=7'),4
+crystalllm_finetuned,ValueError('len(items)=17 is not a multiple of len(columns)=2'),3
+crystalllm_finetuned,ValueError('len(items)=18 is not a multiple of len(columns)=7'),1
+crystalllm_finetuned,ValueError('len(items)=189 is not a multiple of len(columns)=2'),1
+crystalllm_finetuned,ValueError('len(items)=191 is not a multiple of len(columns)=2'),3
+crystalllm_finetuned,ValueError('len(items)=193 is not a multiple of len(columns)=2'),2
+crystalllm_finetuned,ValueError('len(items)=195 is not a multiple of len(columns)=2'),1
+crystalllm_finetuned,ValueError('len(items)=197 is not a multiple of len(columns)=2'),1
+crystalllm_finetuned,ValueError('len(items)=20 is not a multiple of len(columns)=7'),1
+crystalllm_finetuned,ValueError('len(items)=223 is not a multiple of len(columns)=2'),1
+crystalllm_finetuned,ValueError('len(items)=229 is not a multiple of len(columns)=2'),1
+crystalllm_finetuned,ValueError('len(items)=235 is not a multiple of len(columns)=2'),2
+crystalllm_finetuned,ValueError('len(items)=237 is not a multiple of len(columns)=2'),1
+crystalllm_finetuned,ValueError('len(items)=239 is not a multiple of len(columns)=2'),2
+crystalllm_finetuned,ValueError('len(items)=251 is not a multiple of len(columns)=2'),1
+crystalllm_finetuned,ValueError('len(items)=257 is not a multiple of len(columns)=2'),1
+crystalllm_finetuned,ValueError('len(items)=265 is not a multiple of len(columns)=2'),3
+crystalllm_finetuned,ValueError('len(items)=269 is not a multiple of len(columns)=2'),1
+crystalllm_finetuned,ValueError('len(items)=27 is not a multiple of len(columns)=7'),1
+crystalllm_finetuned,ValueError('len(items)=271 is not a multiple of len(columns)=2'),1
+crystalllm_finetuned,ValueError('len(items)=273 is not a multiple of len(columns)=2'),1
+crystalllm_finetuned,ValueError('len(items)=275 is not a multiple of len(columns)=2'),2
+crystalllm_finetuned,ValueError('len(items)=279 is not a multiple of len(columns)=2'),1
+crystalllm_finetuned,ValueError('len(items)=29 is not a multiple of len(columns)=7'),1
+crystalllm_finetuned,ValueError('len(items)=299 is not a multiple of len(columns)=2'),3
+crystalllm_finetuned,ValueError('len(items)=317 is not a multiple of len(columns)=2'),1
+crystalllm_finetuned,ValueError('len(items)=32 is not a multiple of len(columns)=7'),1
+crystalllm_finetuned,ValueError('len(items)=34 is not a multiple of len(columns)=7'),1
+crystalllm_finetuned,ValueError('len(items)=41 is not a multiple of len(columns)=7'),1
+crystalllm_finetuned,ValueError('len(items)=63 is not a multiple of len(columns)=2'),1
+crystalllm_finetuned,ValueError('len(items)=65 is not a multiple of len(columns)=2'),3
+crystalllm_finetuned,ValueError('len(items)=67 is not a multiple of len(columns)=2'),1
+crystalllm_finetuned,ValueError('len(items)=73 is not a multiple of len(columns)=2'),1

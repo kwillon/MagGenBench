@@ -488,6 +488,131 @@ def combined_figure(stat, order, dft_generator, output_dir, dpi):
     save(fig, output_dir / "Figure_MP_only_generator_benchmark", dpi)
 
 
+def publication_preview(stat, order, dft_generator, family_colors, adapted_hatch="///"):
+    """Presentation only: draw already frozen statistics without recomputing them.
+
+    Kept separate from the historical renderer so its exports remain available.
+    The caller supplies the manuscript palette and handles preview-only export.
+    """
+    from matplotlib.lines import Line2D
+    from matplotlib.patches import Patch, Rectangle
+
+    names = {"mattergen": "MatterGen", "concdvae": "Con-CDVAE",
+             "crysjepa": "Crys-JEPA", "crystalformer": "CrystalFormer",
+             "crystalllm": "CrystaLLM"}
+
+    def adapted(ds):
+        return ds.endswith(("_finetuned", "_refined"))
+
+    def color(ds):
+        return family_colors[names[ds.split("_")[0]]]
+
+    def label(ds):
+        variant = "Refined" if ds.endswith("_refined") else "FT" if adapted(ds) else "Base"
+        return names[ds.split("_")[0]] + "  " + variant
+
+    plt.rcParams.update({"font.size": 12, "axes.labelsize": 12,
+                         "xtick.labelsize": 11, "ytick.labelsize": 11,
+                         "legend.fontsize": 10.5, "hatch.linewidth": .65})
+    fig, axes = plt.subplots(2, 2, figsize=(18, 10.5))
+    fig.subplots_adjust(left=.132, right=.985, bottom=.085, top=.86,
+                        wspace=.36, hspace=.39)
+    a, b, c, d = axes.flat
+    data = stat.set_index("dataset").loc[order]
+    y = np.arange(len(order))
+
+    def row_axis(ax):
+        ax.set_yticks(y, [label(ds) for ds in order])
+        ax.set_ylim(len(order)-.4, -.6)
+        ax.tick_params(axis="y", length=0, pad=6)
+        for j in range(2, len(order), 2):
+            ax.axhline(j-.5, color="#D7DCDF", linewidth=.6, zorder=0)
+        ax.xaxis.grid(True, color="#D7DCDF", linewidth=.6, alpha=.65)
+        ax.set_axisbelow(True)
+
+    def fraction_axis(ax):
+        ax.set_xlim(0, 1.025)
+        ax.set_xticks(np.linspace(0, 1, 6))
+
+    def ci(ax, values, lo, hi, positions):
+        ax.errorbar(values, positions, xerr=np.vstack([values-lo, hi-values]),
+                    fmt="none", ecolor="#25313C", capsize=3,
+                    elinewidth=1.1, zorder=5)
+
+    for j, ds in enumerate(order):
+        a.barh(j, data.loc[ds, "fraction_magnetic_like"], height=.7,
+               color=color(ds), edgecolor="#263746", linewidth=.45,
+               hatch=adapted_hatch if adapted(ds) else None)
+    ci(a, data.fraction_magnetic_like.to_numpy(), data.fmag_ci_low.to_numpy(),
+       data.fmag_ci_high.to_numpy(), y)
+    row_axis(a)
+    fraction_axis(a)
+    a.set_xlabel("Fraction closer to magnetic than NM reference")
+    a.set_title("A  Magnetic-like candidates (95% CI)", loc="left", fontsize=13, weight="bold", pad=14)
+
+    for j, ds in enumerate(order):
+        row = data.loc[ds]
+        col = color(ds)
+        b.plot([row.contrast_q05, row.contrast_q95], [j, j], color=col,
+               linewidth=1.8, linestyle="--" if adapted(ds) else "-", zorder=2)
+        b.vlines([row.contrast_q05, row.contrast_q95], j-.12, j+.12, color=col, linewidth=1.3)
+        b.add_patch(Rectangle((row.contrast_q25, j-.25), row.contrast_q75-row.contrast_q25,
+                             .5, facecolor=col, edgecolor="#263746", linewidth=.5,
+                             hatch=adapted_hatch if adapted(ds) else None, zorder=3))
+        b.plot(row.contrast_q50, j, marker="D" if adapted(ds) else "o",
+               markersize=5.3, color="#1F2D38", markerfacecolor="white", zorder=5)
+    row_axis(b)
+    b.axvline(0, color="#646D75", linewidth=.9, zorder=1)
+    span = max(data.contrast_q95.max()-data.contrast_q05.min(), 1)
+    b.set_xlim(data.contrast_q05.min()-.04*span, data.contrast_q95.max()+.04*span)
+    b.set_xlabel(r"Magnetic-reference contrast, $d_{NM}-d_{mag}$")
+    b.set_title("B  Contrast: 5-95%, IQR and median", loc="left", fontsize=13, weight="bold", pad=14)
+
+    left = np.zeros(len(order))
+    for branch in BRANCHES:
+        values = data[f"branch_{branch}"].to_numpy(float)
+        for j, ds in enumerate(order):
+            c.barh(j, values[j], left=left[j], height=.7, color=REFERENCE_COLORS[branch],
+                   edgecolor="#263746", linewidth=.35,
+                   hatch=adapted_hatch if adapted(ds) else None)
+        left += values
+    row_axis(c)
+    fraction_axis(c)
+    c.set_xlabel("Fraction among magnetic-like candidates")
+    c.set_title("C  Magnetic class", loc="left", fontsize=13, weight="bold", pad=14)
+    c.legend(handles=[Patch(facecolor=REFERENCE_COLORS[br], label=br) for br in BRANCHES],
+             ncol=3, frameon=False, loc="lower right", bbox_to_anchor=(1, 1.025),
+             borderaxespad=0, columnspacing=1.1, handlelength=1.1)
+
+    dft = dft_generator.set_index("dataset").loc[list(DFT_ORDER)]
+    yd = np.arange(len(dft))
+    d.barh(yd, dft.dft_confirmation_fraction, height=.58,
+           color=[color(ds) for ds in DFT_ORDER], edgecolor="#263746", linewidth=.45)
+    ci(d, dft.dft_confirmation_fraction.to_numpy(), dft.ci95_low.to_numpy(),
+       dft.ci95_high.to_numpy(), yd)
+    d.set_yticks(yd, [label(ds) + f"  (n={int(dft.loc[ds, 'n_mp_magnetic_like'])})" for ds in DFT_ORDER])
+    d.set_ylim(3.65, -.65)
+    d.tick_params(axis="y", length=0, pad=6)
+    d.xaxis.grid(True, color="#D7DCDF", linewidth=.6, alpha=.65)
+    d.set_axisbelow(True)
+    fraction_axis(d)
+    d.set_xlabel("Fraction confirmed magnetic by DFT (Wilson 95% CI)")
+    d.set_title("D  DFT confirmation: Base groups", loc="left", fontsize=13, weight="bold", pad=14)
+    fig.suptitle("MP-only magnetic-reference screening and DFT validation", y=.984, fontsize=16, weight="bold")
+    fig.text(.5, .945, "PREVIEW - recalculated results; not an exact reproduction of the original Figure 4",
+             ha="center", fontsize=11, color="#4D5963")
+    fig.legend(handles=[Patch(facecolor="#DADFE3", edgecolor="#263746", label="Base"),
+                        Patch(facecolor="#DADFE3", edgecolor="#263746", hatch=adapted_hatch,
+                              label="Fine-tuned / Refined"),
+                        Line2D([], [], marker="o", markerfacecolor="white", color="#263746",
+                               linestyle="none", label="B: Base median"),
+                        Line2D([], [], marker="D", markerfacecolor="white", color="#263746",
+                               linestyle="none", label="B: FT / Refined median")],
+               loc="upper center", bbox_to_anchor=(.55, .927), ncol=4, frameon=False,
+               columnspacing=1.8, handlelength=1.8)
+    return fig
+
+
 def supplementary_figure(dft_overall, output_dir, dpi):
     fig, ax = plt.subplots(figsize=(8.3, 3.6))
     fig.subplots_adjust(left=.33, right=.965, bottom=.23, top=.95)

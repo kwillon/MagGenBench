@@ -1,0 +1,11 @@
+dataset,current_input_rows,unique_sha256,feature_order_matches_sorted_prepared_names,score_order_preserves_extracted_survivors,archived_manifest_rows,archived_sha_set_matches,archived_sorted_filename_order_matches,archived_stored_manifest_order_matches
+concdvae_base,2000,2000,True,True,2000.0,True,True,True
+concdvae_finetuned,2000,2000,True,True,2000.0,True,True,True
+crysjepa_base,2000,2000,True,True,2000.0,True,True,True
+crysjepa_refined,2000,2000,True,True,2000.0,True,True,True
+crystalformer,2000,2000,True,True,2000.0,True,True,True
+crystalformer_finetuned,2000,2000,True,True,,,,
+crystalllm,2000,2000,True,True,2000.0,True,True,True
+crystalllm_finetuned,2000,2000,True,True,,,,
+mattergen_base,2000,2000,True,True,2000.0,True,True,True
+mattergen_finetuned,2000,2000,True,True,2000.0,True,True,True

@@ -1,0 +1,3 @@
+dataset,metric,original,reproduced,difference,matches
+crystalformer,median_distance_to_magnetic_references,5.874625493958191,5.873793578744992,-0.0008319152131983643,False
+crystalformer_finetuned,median_distance_to_magnetic_references,5.301317145304763,5.296377215877179,-0.004939929427584033,False

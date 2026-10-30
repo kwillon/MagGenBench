@@ -62,8 +62,17 @@ print(paired.loc[outside].groupby('analysis_cohort').size().to_string())
 
 import pymupdf
 old_figure4 = subprocess.check_output(['git', 'show', baseline + ':paper/figures/fig04_magnetic_reference_dft.pdf'])
-assert old_figure4 == Path('paper/figures/fig04_magnetic_reference_dft.pdf').read_bytes()
-print('PASS: Figure 4 is byte-identical to baseline; SHA256:', hashlib.sha256(old_figure4).hexdigest())
+publication4 = Path('paper/figures/fig04_magnetic_reference_dft.pdf').read_bytes()
+if old_figure4 == publication4:
+    print('PASS: Figure 4 is byte-identical to baseline.')
+else:
+    vector_audit = json.loads(Path('paper/figures/audit/figure4/original_vector_design_audit.json').read_text())
+    assert vector_audit['source_sha256'] == hashlib.sha256(old_figure4).hexdigest()
+    assert vector_audit['output_sha256'] == hashlib.sha256(publication4).hexdigest()
+    assert vector_audit['original_geometry_stream_verified_inside_output']
+    assert vector_audit['statistical_artists_verified'] == 88
+    assert vector_audit['plotted_scalar_values_preserved'] == 122
+    print('PASS: Figure 4 uses its separately audited design with original statistical vectors.')
 for name in ('fig03_magnetic_domain', 'fig05_energy_magnetism'):
     page = pymupdf.open(f'paper/figures/{name}.pdf')[0]
     if name == 'fig03_magnetic_domain':
