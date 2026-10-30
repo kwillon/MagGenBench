@@ -1,0 +1,7 @@
+# Figure 4 dependency-sensitivity variant. The first publication-lock run is
+# retained separately; do not conflate it with this explicitly recorded variant.
+# SMACT 4.0.2 is the version present in the existing pre-reproduction environment.
+SMACT==4.0.2
+# Freeze the transitive core used in the first isolated run, so the sole
+# chemistry change in this comparison is SMACT rather than an unrelated update.
+pymatgen-core==2026.10.30

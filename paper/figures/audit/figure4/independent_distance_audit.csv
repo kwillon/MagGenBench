@@ -1,0 +1,3 @@
+dataset,n_scored,features,k,original_median,reproduced_median,independent_cdist_median,max_saved_vs_independent_error,normalization,missing_descriptor_values_before_reference_imputation
+crystalformer,1997,45,15,5.874625493958191,5.873793578744992,5.87379357874499,1.554312234475219e-14,reference median imputation; shipped center/scale; clip +/-8,20818
+crystalformer_finetuned,2000,45,15,5.301317145304763,5.296377215877179,5.296377215877178,1.865174681370263e-14,reference median imputation; shipped center/scale; clip +/-8,16757

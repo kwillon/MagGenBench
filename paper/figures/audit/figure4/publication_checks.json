@@ -1,0 +1,18 @@
+{
+  "checks_passed": true,
+  "filter_tests_passed": 31,
+  "reproduction_guard_tests_passed": 4,
+  "vector_design_integration_tests_passed": 1,
+  "pdf_checksums_verified": 10,
+  "publication_numbers_unique": true,
+  "markdown_links_verified": true,
+  "other_nine_pdf_contents_unchanged": true,
+  "figures_3_and_5_sha256": {
+    "fig03_magnetic_domain.pdf": "1a0ea22f2740ea82ea8f0559d8d2f7fd20ac5507c17825d2bde47aa112c21295",
+    "fig05_energy_magnetism.pdf": "319065067ea45bd189491abca42383e35cd02cc0aade4c691e837461d0aeccfe"
+  },
+  "publication_figure4_sha256": "4462263831a192f6a289606ecb344609e838eff907d4b9556c1f04407eae5e47",
+  "plotted_values_preserved": 122,
+  "max_axis_relative_error": 2.0652013155153526e-07,
+  "recalculation_gate": "Unresolved numerical differences documented separately; recalculated values were not published"
+}

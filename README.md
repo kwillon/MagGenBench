@@ -52,20 +52,17 @@ for the updated comparison are stored in
 | Figure 5 | Energy–magnetism landscape |
 | Figure 6 | Compound classes and chemical diversity |
 
-Figure 4 was produced separately by a collaborator; its final PDF
-is imported as `paper/figures/fig04_magnetic_reference_dft.pdf` from the
-external file `Figure_MP_only_generator_benchmark.pdf` supplied by the
-coauthor. Panels A-C use the updated MP-only reference setup without
-MAGNDATA. Panel D contains previously obtained DFT results and is not an
-independent validation of the new A-C panels.
-The existing `fig04_descriptor_space.pdf` is a legacy PCA artifact,
-not the manuscript Figure 4.
-
-The collaborator PDF currently contains label spellings that should be
-corrected in its source code rather than with a raster overlay: `ConcDVAE`
-should be `Con-CDVAE`, `CrystALLM` should be `CrystaLLM`, and the model
-variant labels should use the manuscript's `Base`, `Fine-tuned`, and
-`Refined` terminology consistently.
+Figure 4 is `paper/figures/fig04_magnetic_reference_dft.pdf`. Its publication
+design preserves the statistical vectors of the original collaborator PDF,
+`Figure_MP_only_generator_benchmark.pdf`, with updated labels, layout and styling.
+Panels A-C use the MP-only reference setup without MAGNDATA. Panel D contains
+previously obtained DFT results and is not an independent validation of A-C.
+See [reproduction and numerical limitations](paper/figures/figure4_reproduction.md)
+and the [caption](paper/figures/figure4_caption.md). The MP-only plotting source is
+`filter/scripts/plot_mp_only_publication.py`; the selected vector-preserving design
+is reproduced by `scripts/illustrations/restyle_figure4_original_vectors.py`.
+The archived [descriptor-space PCA figure](paper/figures/legacy/descriptor_space_pca.pdf)
+is retained for provenance under `paper/figures/legacy/`.
 
 ## CIFMagFilter — Magnetic reference screening
 
@@ -285,7 +282,7 @@ Current publication analysis includes structural, magnetic-domain, PCA, energy-m
 
 ## Manuscript Figures
 
-Manuscript-selected publication artifacts are tracked under `paper/figures/`. The current main set contains six figures covering the workflow, structural overview, magnetic domain, descriptor space, energy-magnetism landscape, and diversity/adaptation analysis. PCA loadings are retained as supplementary material. Exploratory previews, audits, projections, and regenerated figures remain under `reproduced/`.
+Manuscript-selected publication artifacts are tracked under `paper/figures/`. Figures 1-6 cover the workflow, structural overview, magnetic domain, MP-only magnetic-reference screening and DFT validation, energy-magnetism landscape, and diversity/adaptation analysis. Figure 8 is a provisional multi-objective comparison documented in the figure directory. PCA loadings and the updated descriptor-space PCA are supplementary figures. Historical publication artifacts are retained under `paper/figures/legacy/`; exploratory previews, audits, projections, and regenerated figures remain under `reproduced/`.
 
 ## Run Recipes
 
