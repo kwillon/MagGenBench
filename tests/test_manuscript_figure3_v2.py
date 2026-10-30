@@ -192,7 +192,7 @@ def test_ten_set_layout_and_exports(extra_inputs, tmp_path, monkeypatch):
     df, audit, _ = load_figure3_inputs(qc_inputs=qc, descriptor_inputs=descriptors)
     original = figure3.save_analysis_v2_figure_bundle
 
-    def export(fig, output_dir, basename):
+    def export(fig, output_dir, basename, **kwargs):
         fig.suptitle("LAYOUT QA ONLY - CrystalFormer FT and CrystaLLM FT are synthetic", fontsize=12)
         fig.canvas.draw()
         renderer = fig.canvas.get_renderer()
@@ -214,7 +214,9 @@ def test_ten_set_layout_and_exports(extra_inputs, tmp_path, monkeypatch):
         assert len(fig.axes[1].patches) == 10
         assert fig.axes[1].get_ylim() == fig.axes[3].get_ylim()
         assert len(fig.axes[-1].get_xticklabels()) == 10
-        return original(fig, output_dir, basename)
+        assert tuple(fig.get_size_inches()) == (16, 9)
+        assert kwargs == {"preserve_canvas": True}
+        return original(fig, output_dir, basename, **kwargs)
 
     monkeypatch.setattr(figure3, "save_analysis_v2_figure_bundle", export)
     paths = save_manuscript_figure3(df, audit=audit, output_dir=tmp_path)

@@ -52,7 +52,7 @@ def test_manuscript_figure5_does_not_replace_standalone_outputs():
     )
 
 
-def test_ten_cohort_density_counts_points_and_median_arrows(monkeypatch):
+def test_historical_scatter_layout_points_and_median_arrows(monkeypatch):
     import numpy as np
     import mvpipeline.analysis.manuscript_figure5_v2 as figure5
     from mvpipeline.analysis.manuscript_figure3_v2 import COHORT_ORDER
@@ -63,9 +63,21 @@ def test_ten_cohort_density_counts_points_and_median_arrows(monkeypatch):
 
     def inspect(fig, output_dir, basename):
         fig.canvas.draw()
-        axes = fig.axes[:6]
-        assert int(axes[0].collections[0].get_array().sum()) == len(paired)
+        axes = fig.axes
+        assert len(axes) == 6  # A; B-D; E-F, with no density/colorbar axes
+        assert tuple(fig.get_size_inches()) == (16, 13)
+        assert sum(len(c.get_offsets()) for c in axes[0].collections) == len(paired)
+        assert axes[0].get_position().width > 0.9
+        assert axes[1].get_position().y0 == axes[2].get_position().y0 == axes[3].get_position().y0
+        assert axes[4].get_position().y0 == axes[5].get_position().y0
+        assert axes[4].get_position().width > axes[1].get_position().width
+        assert axes[1].get_position().y0 > axes[4].get_position().y0
         expected_limits = axes[0].get_xlim(), axes[0].get_ylim()
+        xlo, xhi = paired[figure5.ENERGY].quantile([0.005, 0.995])
+        ylo, yhi = paired[figure5.MOMENT].quantile([0.005, 0.995])
+        np.testing.assert_allclose(expected_limits, [
+            [xlo - 0.06*(xhi-xlo), xhi + 0.06*(xhi-xlo)],
+            [ylo - 0.08*(yhi-ylo), yhi + 0.08*(yhi-ylo)]])
         for i, ax in enumerate(axes[1:]):
             assert (ax.get_xlim(), ax.get_ylim()) == expected_limits
             medians = []
@@ -73,15 +85,21 @@ def test_ten_cohort_density_counts_points_and_median_arrows(monkeypatch):
                 subset = paired.loc[paired.analysis_cohort.eq(cohort)]
                 points = subset[[figure5.ENERGY, figure5.MOMENT]].to_numpy()
                 np.testing.assert_array_equal(ax.collections[2*j].get_offsets(), points)
+                np.testing.assert_array_equal(axes[0].collections[2*i+j].get_offsets(), points)
                 median = np.median(points, axis=0)
                 medians.append(median)
                 np.testing.assert_allclose(ax.collections[2*j+1].get_offsets()[0], median)
-                assert ax.get_xlim()[0] < points[:, 0].min() <= points[:, 0].max() < ax.get_xlim()[1]
-                assert ax.get_ylim()[0] < points[:, 1].min() <= points[:, 1].max() < ax.get_ylim()[1]
+                if j == 0:
+                    np.testing.assert_allclose(ax.collections[2*j+1].get_facecolors()[0], [1, 1, 1, 1])
+                else:
+                    from matplotlib.colors import to_rgba
+                    color = list(figure5.HISTORICAL_COLORS.values())[i]
+                    np.testing.assert_allclose(ax.collections[2*j+1].get_facecolors()[0], to_rgba(color))
             arrow = ax.texts[0]
             np.testing.assert_allclose(arrow.xy, medians[1])
             np.testing.assert_allclose(arrow.get_position(), medians[0])
-        assert len(fig.legends) == 1
+        assert not fig.legends
+        assert [t.get_text() for t in axes[0].get_legend().get_texts()] == list(figure5.HISTORICAL_COLORS)
         return "checked"
 
     monkeypatch.setattr(figure5, "save_analysis_v2_figure_bundle", inspect)

@@ -124,10 +124,17 @@ def save_analysis_v2_figure_bundle(
     fig: object,
     output_dir: str | Path,
     basename: str,
+    *,
+    preserve_canvas: bool = False,
 ) -> FigureExportPaths:
     paths = analysis_v2_export_paths(output_dir, basename)
     paths.png.parent.mkdir(parents=True, exist_ok=True)
-    fig.savefig(paths.png, dpi=450, bbox_inches="tight")
-    fig.savefig(paths.pdf, bbox_inches="tight")
-    fig.savefig(paths.svg, bbox_inches="tight")
+    # rcParams may also request tight cropping. Disable both mechanisms when
+    # the publication requires an exact canvas aspect ratio.
+    import matplotlib as mpl
+    with mpl.rc_context({"savefig.bbox": None} if preserve_canvas else {}):
+        bbox = None if preserve_canvas else "tight"
+        fig.savefig(paths.png, dpi=450, bbox_inches=bbox)
+        fig.savefig(paths.pdf, bbox_inches=bbox)
+        fig.savefig(paths.svg, bbox_inches=bbox)
     return paths

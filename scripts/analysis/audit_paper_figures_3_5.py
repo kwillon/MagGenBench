@@ -12,7 +12,9 @@ import numpy as np
 import pandas as pd
 from matplotlib.cbook import boxplot_stats
 from mvpipeline.analysis import manuscript_figure3_v2 as current
-from mvpipeline.analysis.manuscript_figure5_v2 import load_paired_predictions, ENERGY, MOMENT
+from mvpipeline.analysis.manuscript_figure5_v2 import (
+    load_paired_predictions, ENERGY, MOMENT,
+)
 
 baseline = '9adb8f7f'
 old = types.ModuleType('mvpipeline.analysis._baseline_figure3')
@@ -49,9 +51,44 @@ print('PASS: all 30 boxplot populations unchanged (quartiles, medians, whiskers)
 print('PASS: Figure 5 normalized source unchanged; baseline Git-blob SHA256:', hashlib.sha256(old_bytes).hexdigest())
 print('Finite pairs:', len(paired), '/', len(df))
 print(summary.to_string())
+xlo, xhi = paired[ENERGY].quantile([0.005, 0.995])
+ylo, yhi = paired[MOMENT].quantile([0.005, 0.995])
+limits = ((xlo - .06*(xhi-xlo), xhi + .06*(xhi-xlo)),
+          (ylo - .08*(yhi-ylo), yhi + .08*(yhi-ylo)))
+outside = ~(paired[ENERGY].between(*limits[0]) & paired[MOMENT].between(*limits[1]))
+print('Historical Figure 5 display limits:', limits)
+print('Finite pairs outside the display window (still included in medians):', int(outside.sum()))
+print(paired.loc[outside].groupby('analysis_cohort').size().to_string())
+
+import pymupdf
+old_figure4 = subprocess.check_output(['git', 'show', baseline + ':paper/figures/fig04_magnetic_reference_dft.pdf'])
+assert old_figure4 == Path('paper/figures/fig04_magnetic_reference_dft.pdf').read_bytes()
+print('PASS: Figure 4 is byte-identical to baseline; SHA256:', hashlib.sha256(old_figure4).hexdigest())
 for name in ('fig03_magnetic_domain', 'fig05_energy_magnetism'):
-    import pymupdf
     page = pymupdf.open(f'paper/figures/{name}.pdf')[0]
+    if name == 'fig03_magnetic_domain':
+        np.testing.assert_allclose([page.rect.width, page.rect.height], [1152, 648], atol=0.01)
+        from PIL import Image
+        with Image.open('reproduced/analysis_v2_magnetic/figures/manuscript_figure3_magnetic_domain_v2_preview.png') as png:
+            assert png.size == (7200, 4050)
+        print('PASS: Figure 3 PDF is exactly 16:9 (1152 x 648 pt), no tight crop.')
+    else:
+        historical_pdf = subprocess.check_output(['git', 'show', baseline + ':paper/figures/fig05_energy_magnetism.pdf'])
+        historical = pymupdf.open(stream=historical_pdf, filetype='pdf')[0]
+        np.testing.assert_allclose(tuple(page.rect), tuple(historical.rect), atol=0.01)
+        # Compare the historical palette and open/filled median-diamond
+        # encodings directly to vector artists in the original PDF.
+        def diamonds(pdf_page):
+            return [d for d in pdf_page.get_drawings()
+                    if d['fill'] is not None and len(d['items']) == 4
+                    and all(item[0] == 'l' for item in d['items'])
+                    and 5 < d['rect'].width < 20 and 5 < d['rect'].height < 20]
+        original_diamonds, current_diamonds = diamonds(historical), diamonds(page)
+        assert len(original_diamonds) == len(current_diamonds) == 10
+        for original, restored in zip(original_diamonds, current_diamonds):
+            np.testing.assert_allclose(original['fill'], restored['fill'], atol=1e-6)
+            np.testing.assert_allclose(original['color'], restored['color'], atol=1e-6)
+        print('PASS: Figure 5 page size, palette and open/filled diamonds match the historical PDF.')
     page.get_pixmap(matrix=pymupdf.Matrix(1.5, 1.5)).save(OUTPUT_DIR / f'{name}.png')
     sizes = [s['size'] for b in page.get_text('dict')['blocks'] if 'lines' in b
              for line in b['lines'] for s in line['spans']]

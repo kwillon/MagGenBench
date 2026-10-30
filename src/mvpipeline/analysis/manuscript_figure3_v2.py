@@ -284,13 +284,13 @@ def save_manuscript_figure3(df, *, output_dir=ANALYSIS_V2_FIGURE_OUTPUT_DIR, aud
     if audit is None:
         audit = build_figure3_audit(df, df["analysis_cohort"].value_counts().to_dict())
     apply_publication_style()
-    fig = plt.figure(figsize=(10, 9.6), constrained_layout=True)
-    outer = fig.add_gridspec(3, 2, height_ratios=[0.26, 1.7, 1])
+    fig = plt.figure(figsize=(16, 9), constrained_layout=True)
+    outer = fig.add_gridspec(3, 2, height_ratios=[0.22, 1.8, 1])
     legend_ax = fig.add_subplot(outer[0, :])
     legend_ax.axis("off")
     generator_legend = legend_ax.legend(handles=[
         Patch(facecolor=color, label=name) for name, color in GENERATOR_COLORS.items()
-    ], title="Generator", loc="center left", ncol=3, frameon=False,
+    ], title="Generator", loc="center left", ncol=5, frameon=False,
        columnspacing=1.0, handletextpad=0.5)
     legend_ax.add_artist(generator_legend)
     legend_ax.legend(handles=[
@@ -341,7 +341,8 @@ def save_manuscript_figure3(df, *, output_dir=ANALYSIS_V2_FIGURE_OUTPUT_DIR, aud
     ax.set_ylabel("Magnetic-neighbor fraction")
     ax.set_title("C   Local magnetic-neighbor environment (applicable records)", loc="left",
                  fontweight="bold", pad=10)
-    paths = save_analysis_v2_figure_bundle(fig, output_dir, FIGURE_BASENAME)
+    paths = save_analysis_v2_figure_bundle(fig, output_dir, FIGURE_BASENAME,
+                                          preserve_canvas=True)
     plt.close(fig)
     return paths
 
