@@ -197,6 +197,8 @@ def test_ten_set_layout_and_exports(extra_inputs, tmp_path, monkeypatch):
         fig.canvas.draw()
         renderer = fig.canvas.get_renderer()
         for ax in fig.axes:
+            if not ax.axison:
+                continue  # legend-only axes have no rendered ticks or axis labels
             for label in [*ax.texts, ax.title, ax._left_title, ax.xaxis.label, ax.yaxis.label,
                           *ax.get_xticklabels(), *ax.get_yticklabels()]:
                 if not label.get_visible() or not label.get_text():
@@ -208,9 +210,9 @@ def test_ten_set_layout_and_exports(extra_inputs, tmp_path, monkeypatch):
                           if label.get_visible() and label.get_text()]
             for left, right in zip(tick_boxes, tick_boxes[1:]):
                 assert left.x1 < right.x0
-        assert len(fig.axes) == 5
-        assert len(fig.axes[0].patches) == 10
-        assert fig.axes[0].get_ylim() == fig.axes[2].get_ylim()
+        assert len(fig.axes) == 6  # dedicated legends outside the scientific panels
+        assert len(fig.axes[1].patches) == 10
+        assert fig.axes[1].get_ylim() == fig.axes[3].get_ylim()
         assert len(fig.axes[-1].get_xticklabels()) == 10
         return original(fig, output_dir, basename)
 

@@ -7,9 +7,12 @@ from ..descriptors.figure3_ft import (
     FT_OUTPUT_DIR, FT_QC_INPUTS, STANDARDIZED_INPUT, mapped_retained_qc,
 )
 from .figures_v2_magnetic import ANALYSIS_V2_MAGNETIC_INPUT
+from .publication_style import (
+    ADAPTED_HATCH, GENERATOR_COLORS, apply_publication_style, cohort_color, is_adapted,
+)
 from .plotting_v2 import (
-    ANALYSIS_V2_FIGURE_OUTPUT_DIR, ANALYSIS_V2_MAGNETIC_COHORT_COLORS,
-    FigureExportPaths, apply_analysis_v2_publication_style,
+    ANALYSIS_V2_FIGURE_OUTPUT_DIR,
+    FigureExportPaths,
     save_analysis_v2_figure_bundle,
 )
 
@@ -30,10 +33,7 @@ COHORT_LABELS = dict(zip(COHORT_ORDER, (
     "CrystalFormer\nBase", "CrystalFormer\nFT", "CrystaLLM\nBase", "CrystaLLM\nFT",
     "Crys-JEPA\nBase", "Crys-JEPA\nRef.",
 )))
-COHORT_COLORS = {
-    **ANALYSIS_V2_MAGNETIC_COHORT_COLORS,
-    "crystalformer_finetuned": "#A95035", "crystallm_finetuned": "#833E38",
-}
+COHORT_COLORS = {key: cohort_color(key) for key in COHORT_ORDER}
 BASE_MODELS = {
     "mattergen_baseline": "MatterGen", "concdvae_baseline": "Con-CDVAE",
     "crystalformer_baseline": "CrystalFormer", "crystallm_baseline": "CrystaLLM",
@@ -243,25 +243,32 @@ def _format_axis(ax, labels):
     ax.set_xticks(range(len(COHORT_ORDER)))
     if labels:
         ax.set_xticklabels(labels)
-    ax.tick_params(axis="x", labelsize=7, pad=6)
+    ax.tick_params(axis="x", labelsize=10, pad=6)
+    if labels:
+        import matplotlib.pyplot as plt
+        plt.setp(ax.get_xticklabels(), rotation=90, ha="center", va="top")
     ax.grid(axis="y", alpha=0.4, linewidth=0.45)
     ax.set_axisbelow(True)
     ax.axvline(7.5, color="#7C858C", linewidth=0.8, linestyle="--")
 
 
 def _boxplot(ax, data):
-    import numpy as np
-
+    available = [(i, values) for i, values in enumerate(data) if len(values)]
+    if not available:
+        ax.set_ylim(0, 1.05)
+        return
     box = ax.boxplot(
-        [values if len(values) else np.array([np.nan]) for values in data],
-        positions=range(len(COHORT_ORDER)), widths=0.62, patch_artist=True, showfliers=False,
+        [values for _, values in available],
+        positions=[i for i, _ in available], widths=0.62, patch_artist=True, showfliers=False,
         medianprops={"color": "#23324F", "linewidth": 1},
     )
-    for index, (patch, cohort) in enumerate(zip(box["boxes"], COHORT_ORDER)):
+    for patch, (index, _) in zip(box["boxes"], available):
+        cohort = COHORT_ORDER[index]
         patch.set_facecolor(COHORT_COLORS[cohort])
-        patch.set_alpha(0.7)
-        if index < 8 and index % 2:
-            patch.set_hatch("//")
+        patch.set_edgecolor("#23324F")
+        patch.set_linewidth(0.7)
+        if is_adapted(cohort):
+            patch.set_hatch(ADAPTED_HATCH)
     ax.set_ylim(0, 1.05)
 
 
@@ -276,27 +283,39 @@ def save_manuscript_figure3(df, *, output_dir=ANALYSIS_V2_FIGURE_OUTPUT_DIR, aud
         raise RuntimeError("Figure 3 requires all ten QC cohorts")
     if audit is None:
         audit = build_figure3_audit(df, df["analysis_cohort"].value_counts().to_dict())
-    apply_analysis_v2_publication_style()
-    fig = plt.figure(figsize=(18, 10), constrained_layout=True)
-    outer = fig.add_gridspec(2, 2, height_ratios=[1.7, 1])
+    apply_publication_style()
+    fig = plt.figure(figsize=(10, 9.6), constrained_layout=True)
+    outer = fig.add_gridspec(3, 2, height_ratios=[0.26, 1.7, 1])
+    legend_ax = fig.add_subplot(outer[0, :])
+    legend_ax.axis("off")
+    generator_legend = legend_ax.legend(handles=[
+        Patch(facecolor=color, label=name) for name, color in GENERATOR_COLORS.items()
+    ], title="Generator", loc="center left", ncol=3, frameon=False,
+       columnspacing=1.0, handletextpad=0.5)
+    legend_ax.add_artist(generator_legend)
+    legend_ax.legend(handles=[
+        Patch(facecolor="#DDDDDD", edgecolor="#23324F", label="Base"),
+        Patch(facecolor="#DDDDDD", edgecolor="#23324F", hatch=ADAPTED_HATCH,
+              label="Fine-tuned / Refined"),
+    ], title="Version", loc="center right", frameon=False)
     for column, (panel, variable, title) in enumerate(zip(
         ("A", "B"), VARIABLES[:2], ("3d transition-metal fraction", "Configured lanthanide fraction"),
     )):
-        grid = outer[0, column].subgridspec(2, 1, height_ratios=[1, 1.1], hspace=0.05)
+        grid = outer[1, column].subgridspec(2, 1, height_ratios=[1, 1.1], hspace=0.05)
         top = fig.add_subplot(grid[0])
         bottom = fig.add_subplot(grid[1], sharex=top)
         prevalence = audit[f"{panel}_prevalence_percent"]
         bars = top.bar(range(10), prevalence, color=[COHORT_COLORS[key] for key in COHORT_ORDER],
                        edgecolor="#23324F", linewidth=0.45)
         for index, (bar, value) in enumerate(zip(bars, prevalence)):
-            if index < 8 and index % 2:
-                bar.set_hatch("//")
+            if is_adapted(COHORT_ORDER[index]):
+                bar.set_hatch(ADAPTED_HATCH)
             top.text(index, value + 2 if value == value else 2,
                      f"{value:.1f}" if value == value else "NA",
-                     ha="center", va="bottom", fontsize=7)
-        top.set_ylim(0, 113)
+                     ha="center", va="bottom", fontsize=10)
+        top.set_ylim(0, 125)
         top.set_yticks([0, 25, 50, 75, 100])
-        top.set_ylabel("Prevalence among available (%)")
+        top.set_ylabel("Prevalence (%)")
         top.set_title(f"{panel}   {title}", loc="left", fontweight="bold", pad=10)
         _format_axis(top, [])
         top.tick_params(axis="x", bottom=False, labelbottom=False)
@@ -305,27 +324,23 @@ def save_manuscript_figure3(df, *, output_dir=ANALYSIS_V2_FIGURE_OUTPUT_DIR, aud
         for cohort in COHORT_ORDER:
             values = df.loc[df["analysis_cohort"].eq(cohort), variable].dropna()
             nonzero.append(values.loc[values.gt(0)].to_numpy())
-            labels.append(COHORT_LABELS[cohort] + f"\nn+={int(audit.loc[cohort, panel + '_nonzero'])}")
+            labels.append(COHORT_LABELS[cohort].replace("\n", " ")
+                          + f"\nn+={int(audit.loc[cohort, panel + '_nonzero'])}")
         _boxplot(bottom, nonzero)
         _format_axis(bottom, labels)
-        bottom.set_ylabel("Fraction among nonzero structures")
-    ax = fig.add_subplot(outer[1, :])
+        bottom.set_ylabel("Atomic fraction\n(nonzero only)")
+    ax = fig.add_subplot(outer[2, :])
     values = [
         df.loc[df["analysis_cohort"].eq(key) & df["magnetic_geometry_status"].eq("ok"),
                MAGNETIC_NEIGHBOR_VARIABLE].dropna().to_numpy()
         for key in COHORT_ORDER
     ]
     _boxplot(ax, values)
-    _format_axis(ax, [COHORT_LABELS[key] + f"\nn={int(audit.loc[key, 'C_applicable'])}" for key in COHORT_ORDER])
+    _format_axis(ax, [COHORT_LABELS[key].replace("\n", " ")
+                      + f"\nn={int(audit.loc[key, 'C_applicable'])}" for key in COHORT_ORDER])
     ax.set_ylabel("Magnetic-neighbor fraction")
     ax.set_title("C   Local magnetic-neighbor environment (applicable records)", loc="left",
                  fontweight="bold", pad=10)
-    ax.legend(handles=[
-        Patch(facecolor="#DDDDDD", edgecolor="#23324F", label="Base"),
-        Patch(facecolor="#DDDDDD", edgecolor="#23324F", hatch="//", label="FT"),
-        Patch(facecolor=COHORT_COLORS["crysjepa_base"], label="Crys-JEPA Base"),
-        Patch(facecolor=COHORT_COLORS["crysjepa_refined"], label="Crys-JEPA Ref."),
-    ], loc="lower right", bbox_to_anchor=(1, 1.01), ncol=4, frameon=False)
     paths = save_analysis_v2_figure_bundle(fig, output_dir, FIGURE_BASENAME)
     plt.close(fig)
     return paths

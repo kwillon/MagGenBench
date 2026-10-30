@@ -1,28 +1,17 @@
-from __future__ import annotations
-
+"""Ten-cohort Figure 5 from the frozen publication source; no inference runs."""
 from dataclasses import dataclass
 from pathlib import Path
 
-from .energy_magnetism_v2 import (
-    ADAPTATION_PAIRS,
-    _plot_adaptation_panel,
-    _plot_all_cohorts,
-    _read_analysis_v2,
-    prepare_energy_magnetism_dataframe,
-)
-from .figures_v2_magnetic import (
-    ANALYSIS_V2_MAGNETIC_INPUT,
-)
+from .manuscript_figure3_v2 import COHORT_ORDER
 from .plotting_v2 import (
-    ANALYSIS_V2_DARK_TEXT,
-    ANALYSIS_V2_FIGURE_OUTPUT_DIR,
-    FigureExportPaths,
-    apply_analysis_v2_publication_style,
-    save_analysis_v2_figure_bundle,
+    ANALYSIS_V2_FIGURE_OUTPUT_DIR, FigureExportPaths, save_analysis_v2_figure_bundle,
 )
-
+from .publication_style import GENERATOR_COLORS, apply_publication_style
 
 FIGURE_BASENAME = "manuscript_figure5_energy_magnetism_v2_preview"
+FIGURE_SOURCE = Path("paper/tables/figure_sources/fig05_energy_magnetism.csv")
+ENERGY = "energy_total_energy_eV_per_atom"
+MOMENT = "magnetism_predicted_moment_value"
 
 
 @dataclass(frozen=True)
@@ -33,230 +22,76 @@ class ManuscriptFigure5Report:
     figure_paths: FigureExportPaths
 
 
-def _panel_label(ax, label: str) -> None:
-    ax.text(
-        -0.075,
-        1.06,
-        label,
-        transform=ax.transAxes,
-        fontsize=12,
-        fontweight="bold",
-        va="top",
-        ha="left",
-        color=ANALYSIS_V2_DARK_TEXT,
-    )
+def load_paired_predictions(path=FIGURE_SOURCE):
+    import numpy as np
+    import pandas as pd
+
+    df = pd.read_csv(path)
+    if set(df.analysis_cohort) != set(COHORT_ORDER):
+        raise ValueError("Figure 5 requires exactly the ten publication cohorts")
+    if df.duplicated(["analysis_cohort", "sample_uid"]).any():
+        raise ValueError("Duplicate prediction identities")
+    finite = np.isfinite(df[[ENERGY, MOMENT]].to_numpy(float)).all(axis=1)
+    paired = df.loc[finite].copy()
+    if Path(path).resolve() == FIGURE_SOURCE.resolve() and len(paired) != 12277:
+        raise ValueError(f"Publication source changed: expected 12277 finite pairs, got {len(paired)}")
+    return df, paired
 
 
-def _remove_axis_legend(ax) -> None:
-    legend = ax.get_legend()
-
-    if legend is not None:
-        legend.remove()
-
-
-def save_manuscript_figure5(
-    paired,
-    *,
-    output_dir: str | Path = ANALYSIS_V2_FIGURE_OUTPUT_DIR,
-) -> FigureExportPaths:
+def save_manuscript_figure5(paired, *, output_dir=ANALYSIS_V2_FIGURE_OUTPUT_DIR):
     import matplotlib
-
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
+    from matplotlib.lines import Line2D
 
-    apply_analysis_v2_publication_style()
-
-    fig = plt.figure(
-        figsize=(13.4, 8.5),
-        constrained_layout=True,
-    )
-    fig.patch.set_facecolor("white")
-
-    outer = fig.add_gridspec(
-        3,
-        3,
-        height_ratios=[1.20, 0.13, 0.82],
-        width_ratios=[1.0, 1.0, 1.0],
-    )
-
-    # ------------------------------------------------------------
-    # A. All-cohort energy–magnetism landscape
-    # ------------------------------------------------------------
-
-    ax_a = fig.add_subplot(
-        outer[0, :],
-    )
-
-    _plot_all_cohorts(
-        ax_a,
-        paired,
-    )
-
-    _panel_label(
-        ax_a,
-        "A",
-    )
-
-    handles, labels = (
-        ax_a.get_legend_handles_labels()
-    )
-
-    _remove_axis_legend(
-        ax_a
-    )
-
-    ax_a.set_title(
-        "Energy–magnetism landscape",
-        pad=8,
-    )
-
-    # ------------------------------------------------------------
-    # Shared cohort legend
-    # ------------------------------------------------------------
-
-    legend_ax = fig.add_subplot(
-        outer[1, :],
-    )
-    legend_ax.axis("off")
-
-    legend_ax.legend(
-        handles,
-        labels,
-        loc="center",
-        ncol=4,
-        frameon=False,
-        markerscale=1.7,
-        columnspacing=1.8,
-        handletextpad=0.5,
-    )
-
-    # ------------------------------------------------------------
-    # B–D. Adaptation / refinement shifts
-    # ------------------------------------------------------------
-
-    shift_axes = [
-        fig.add_subplot(
-            outer[2, index],
-            sharex=None if index == 0 else None,
-            sharey=None if index == 0 else None,
-        )
-        for index in range(3)
-    ]
-
-    for ax, pair, panel_label in zip(
-        shift_axes,
-        ADAPTATION_PAIRS,
-        ("B", "C", "D"),
-    ):
-        baseline, adapted, title = pair
-
-        display_title = {
-            "MatterGen adaptation": "MatterGen fine-tuning",
-            "Con-CDVAE adaptation": "Con-CDVAE fine-tuning",
-            "Crys-JEPA refinement": "Crys-JEPA refinement",
-        }.get(title, title)
-
-        _plot_adaptation_panel(
-            ax,
-            paired,
-            baseline=baseline,
-            adapted=adapted,
-            title=display_title,
-            panel_label=panel_label,
-        )
-
-        _remove_axis_legend(
-            ax
-        )
-
-    # All lower panels represent the same physical coordinate system.
-    # Enforce identical limits for direct visual comparison.
-    x_limits = shift_axes[0].get_xlim()
-
-    y_min = min(
-        ax.get_ylim()[0]
-        for ax in shift_axes
-    )
-    y_max = max(
-        ax.get_ylim()[1]
-        for ax in shift_axes
-    )
-
-    for index, ax in enumerate(
-        shift_axes
-    ):
-        ax.set_xlim(
-            x_limits
-        )
-        ax.set_ylim(
-            y_min,
-            y_max,
-        )
-
-        if index > 0:
-            ax.set_ylabel("")
-
-    shift_axes[0].set_ylabel(
-        "DXMag-predicted magnetic moment (μB/f.u.)"
-    )
-
-    fig.supxlabel(
-        "CHGNet-predicted total energy per atom (eV/atom)",
-        fontsize=10,
-        color=ANALYSIS_V2_DARK_TEXT,
-    )
-
-
-    paths = save_analysis_v2_figure_bundle(
-        fig,
-        output_dir,
-        FIGURE_BASENAME,
-    )
-
+    apply_publication_style()
+    fig, axes = plt.subplots(2, 3, figsize=(10, 7.4), layout="constrained",
+                             sharex=True, sharey=True)
+    axes = axes.ravel()
+    ax = axes[0]
+    density = ax.hexbin(paired[ENERGY], paired[MOMENT], gridsize=55,
+                        bins="log", mincnt=1, cmap="Greys", linewidths=0)
+    fig.colorbar(density, ax=ax, location="top", fraction=0.08, pad=0.03,
+                 label="Structures per hexagon (log scale)")
+    ax.set_title(f"A   Pooled distribution (n = {len(paired):,})", loc="left")
+    for index, (name, color) in enumerate(GENERATOR_COLORS.items()):
+        ax = axes[index + 1]
+        medians = []
+        for version, cohort in enumerate(COHORT_ORDER[2*index:2*index+2]):
+            subset = paired.loc[paired.analysis_cohort.eq(cohort)]
+            ax.scatter(subset[ENERGY], subset[MOMENT], s=9, color=color,
+                       marker="o" if version == 0 else "^",
+                       alpha=0.22 if version == 0 else 0.4, linewidths=0,
+                       rasterized=True)
+            median = subset[[ENERGY, MOMENT]].median().to_numpy()
+            medians.append(median)
+            ax.scatter(*median, s=65, marker="D", zorder=5,
+                       facecolor=color if version == 0 else "white",
+                       edgecolor="#23324F", linewidth=1.1)
+        ax.annotate("", xy=medians[1], xytext=medians[0],
+                    arrowprops={"arrowstyle": "->", "color": "#23324F", "lw": 1.5},
+                    zorder=4)
+        ax.set_title(f"{'BCDEF'[index]}   {name}", loc="left")
+    for ax in axes:
+        ax.margins(x=0.03, y=0.05)
+        ax.grid(alpha=0.25)
+        ax.set_axisbelow(True)
+        ax.tick_params(labelbottom=True, labelleft=True)
+    fig.supxlabel("CHGNet-predicted total energy per atom (eV/atom)")
+    fig.supylabel(r"DXMag-predicted magnetic moment ($\mu_B$/f.u.)")
+    fig.legend(handles=[
+        Line2D([], [], marker="o", linestyle="", color="#64717B", label="Base points"),
+        Line2D([], [], marker="^", linestyle="", color="#64717B", label="Adapted points"),
+        Line2D([], [], marker="D", linestyle="", color="#23324F", label="Base median"),
+        Line2D([], [], marker="D", linestyle="", color="#23324F", markerfacecolor="white",
+               label="Adapted median"),
+    ], loc="outside upper right", ncol=4, frameon=False, fontsize=10)
+    paths = save_analysis_v2_figure_bundle(fig, output_dir, FIGURE_BASENAME)
     plt.close(fig)
-
     return paths
 
 
-def run_manuscript_figure5(
-    input_csv: str | Path = ANALYSIS_V2_MAGNETIC_INPUT,
-    figure_dir: str | Path = ANALYSIS_V2_FIGURE_OUTPUT_DIR,
-) -> ManuscriptFigure5Report:
-    path = Path(
-        input_csv
-    )
-
-    if not path.is_file():
-        raise FileNotFoundError(
-            path
-        )
-
-    df = _read_analysis_v2(
-        path
-    )
-
-    paired = prepare_energy_magnetism_dataframe(
-        df
-    )
-
-    if paired.empty:
-        raise RuntimeError(
-            "No paired energy–magnetism rows "
-            "available for manuscript Figure 5"
-        )
-
-    paths = save_manuscript_figure5(
-        paired,
-        output_dir=figure_dir,
-    )
-
-    return ManuscriptFigure5Report(
-        input_csv=path,
-        n_total=int(
-            len(df)
-        ),
-        n_paired=int(
-            len(paired)
-        ),
-        figure_paths=paths,
-    )
+def run_manuscript_figure5(input_csv=FIGURE_SOURCE, figure_dir=ANALYSIS_V2_FIGURE_OUTPUT_DIR):
+    df, paired = load_paired_predictions(input_csv)
+    paths = save_manuscript_figure5(paired, output_dir=figure_dir)
+    return ManuscriptFigure5Report(Path(input_csv), len(df), len(paired), paths)

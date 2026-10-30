@@ -30,8 +30,10 @@ population. Structures without configured magnetic sites are
 not-applicable, and missing or failed geometry records are excluded
 separately. These elemental and geometric heuristics do not establish
 magnetic order or require successful CHGNet or DXMag predictions.
-Model-family colors are shared across Base and fine-tuned (FT) variants;
-FT is additionally hatched. A dashed separator marks the Crys-JEPA Base
+Model-family colors are shared across Base and adapted variants;
+Base uses solid fill, and fine-tuned (FT) and Refined variants use the same
+family hue with diagonal hatching in both bars and boxes. Separate Generator
+and Version legends define these encodings. A dashed separator marks the Crys-JEPA Base
 and Refined (Ref.) comparators. Boxes span the interquartile range with
 median lines; whiskers extend to the most extreme values within 1.5
 interquartile ranges, and outliers are not drawn.
