@@ -66,6 +66,16 @@ is retained for provenance under `paper/figures/legacy/`.
 
 ## CIFMagFilter — Magnetic reference screening
 
+The third-party CIFMagFilter package under `filter/` was imported from
+`magnetic_crystals_filter_github_ready_2026-10-26.zip` and is separate
+from the original MagGenBench code. Its bundled
+[license](filter/LICENSE) is BSD-3-Clause; the copyright holder and package
+author are listed as "CIF Magnetic Reference Filter authors" in the license
+and [package metadata](filter/pyproject.toml). The [citation metadata](filter/CITATION.cff)
+uses "CIF Magnetic Reference Filter Contributors". Individual authorship
+requires clarification; inclusion here does not attribute this package to
+the MagGenBench authors.
+
 [`filter/README.md`](filter/README.md) documents the separate CIFMagFilter
 workflow. Its default MP-only reference set contains 8,000 structures across
 AFM, FM, FiM, and NM branches, represented by 45 descriptors and screened with
@@ -401,3 +411,7 @@ Descriptor changes must preserve the frozen Descriptor v1 contract unless a new 
 ## Provenance
 
 Analysis v1 provenance is captured in the run recipes, checksum manifests, canonical cohort registry, and tests. Reproduction should start from a fresh clone plus documented external artifacts and should not require inspecting implementation files to understand the repository layout or public commands.
+
+The existing [source provenance](docs/provenance.md#magm_updated) documents
+the DXMag integration from `github.com/Austerlitz14/magm_updated`, including
+its source commit, adapted components, and pending author/license confirmation.

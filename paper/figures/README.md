@@ -10,7 +10,7 @@ selected snapshots intended for manuscript preparation and review.
 
 | Manuscript figure | Scientific role | Reproduced source |
 |---|---|---|
-| Figure 1 | Study and analysis pipeline | `paper_pipeline_v3_preview` |
+| Figure 1 | Study and analysis pipeline | [fig01_pipeline.pdf](fig01_pipeline.pdf), supplied replacement with [PNG companion](fig01_pipeline.png) |
 | Figure 2 | Structural QC retention and registered primary rejection reasons | `manuscript_figure2_structural_overview_v2_preview` |
 | Figure 3 | Magnetic-domain composition | `manuscript_figure3_magnetic_domain_v2_preview` |
 | Figure 4 | MP-only magnetic-reference screening and DFT validation | [fig04_magnetic_reference_dft.pdf](fig04_magnetic_reference_dft.pdf), original statistical vectors with updated design |
@@ -35,6 +35,7 @@ files and the existing standardized enrichment, without recalculating enrichment
 ## Artifact policy
 
 PDF files are the tracked manuscript publication artifacts.
+Figure 1 also includes the supplied PNG companion, `fig01_pipeline.png`.
 Raster previews remain available in the reproducible figure output directory.
 
 Internal analysis-stage labels such as `v2` and `_preview` are intentionally
