@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
+from mvpipeline.analysis.typography import prepare_figure_typography
 
 from mvpipeline.analysis.projections_v2 import (
     COMPOSITION_SYMMETRY_PCA_FEATURES,
@@ -169,6 +170,7 @@ for i, (base, adapted, title) in enumerate(PAIRS):
     ax.set_ylabel("PC2")
 
 fig.suptitle("Descriptor-space PCA and cohort-centroid shifts", fontsize=15)
+prepare_figure_typography(fig)
 fig.savefig(ROOT / "supp02_descriptor_space.pdf", bbox_inches="tight")
 fig.savefig(ROOT / "supp02_descriptor_space.png", dpi=180, bbox_inches="tight")
 plt.close(fig)
@@ -189,6 +191,7 @@ for row, (name, title) in enumerate((
         ax.set_xlabel("PCA component coefficient")
         ax.tick_params(axis="y", labelsize=8)
 
+prepare_figure_typography(fig)
 fig.savefig(ROOT / "supp01_pca_loadings.pdf", bbox_inches="tight")
 fig.savefig(ROOT / "supp01_pca_loadings.png", dpi=180, bbox_inches="tight")
 plt.close(fig)

@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "figures": 8,
+  "reference_sha256": "e66d6a2c15b83c3605d08b5cfaff1094c9b81a72f81f445e1fb7fc63c1349e44",
+  "font_checks": {
+    "fig02_structural_overview.pdf": [
+      {
+        "basefont": "VBDZMN+Ebrima Regular",
+        "type": "Type0",
+        "embedded": true,
+        "weight": 400
+      }
+    ],
+    "fig03_magnetic_domain.pdf": [
+      {
+        "basefont": "ZWMLKE+Ebrima Regular",
+        "type": "Type0",
+        "embedded": true,
+        "weight": 400
+      }
+    ],
+    "fig04_magnetic_reference_dft.pdf": [
+      {
+        "basefont": "DJIEMG+Ebrima Regular",
+        "type": "Type0",
+        "embedded": true,
+        "weight": 400
+      }
+    ],
+    "fig05_energy_magnetism.pdf": [
+      {
+        "basefont": "GDJUUL+Ebrima Regular",
+        "type": "Type0",
+        "embedded": true,
+        "weight": 400
+      }
+    ],
+    "fig06_diversity_adaptation.pdf": [
+      {
+        "basefont": "UAJLQG+Ebrima Regular",
+        "type": "Type0",
+        "embedded": true,
+        "weight": 400
+      },
+      {
+        "basefont": "CWJIUO+Ebrima",
+        "type": "Type0",
+        "embedded": true,
+        "weight": 400
+      }
+    ],
+    "fig08_multiobjective.pdf": [
+      {
+        "basefont": "FZOBTQ+Ebrima Regular",
+        "type": "Type0",
+        "embedded": true,
+        "weight": 400
+      }
+    ],
+    "supp01_pca_loadings.pdf": [
+      {
+        "basefont": "WSQZTH+Ebrima Regular",
+        "type": "Type0",
+        "embedded": true,
+        "weight": 400
+      }
+    ],
+    "supp02_descriptor_space.pdf": [
+      {
+        "basefont": "PMMDSV+Ebrima Regular",
+        "type": "Type0",
+        "embedded": true,
+        "weight": 400
+      }
+    ]
+  },
+  "scientific_values_unchanged": true,
+  "layout_adjusted": [
+    "fig06_diversity_adaptation.pdf"
+  ],
+  "characters_verified": 8395,
+  "overlap_candidates": [],
+  "distinct_text_corrections": 47
+}

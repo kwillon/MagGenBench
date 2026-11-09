@@ -4,6 +4,8 @@ from pathlib import Path
 
 import fitz
 import numpy as np
+from mvpipeline.analysis.typography import restyle_pdf_typography
+from mvpipeline.analysis.figure6_layout import polish_figure6_bar_layout
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -16,9 +18,9 @@ PREVIEW_PDF = (
 )
 OUTPUT_PDF = (
     ROOT
-    / "paper"
-    / "figures"
-    / "fig06_diversity_adaptation_updated.pdf"
+    / "reproduced"
+    / "figure6"
+    / "fig06_diversity_adaptation_composed.pdf"
 )
 PREVIEW_PNG = (
     ROOT
@@ -123,10 +125,15 @@ def merge_top_half() -> None:
 
         OUTPUT_PDF.parent.mkdir(parents=True, exist_ok=True)
         PREVIEW_PNG.parent.mkdir(parents=True, exist_ok=True)
-        result.save(OUTPUT_PDF, garbage=4, deflate=True)
+        raw_path = PREVIEW_PNG.with_suffix('.raw.pdf')
+        result.save(raw_path, garbage=4, deflate=True)
+        text_path=PREVIEW_PNG.with_suffix('.text.pdf')
+        restyle_pdf_typography(raw_path, text_path, figure_name='fig06_diversity_adaptation.pdf')
+        polish_figure6_bar_layout(text_path, OUTPUT_PDF)
 
         # This raster is only for visual QA; the delivered PDF remains vector-based.
-        qa_page = result[0]
+        qa_document = fitz.open(OUTPUT_PDF)
+        qa_page = qa_document[0]
         pixmap = qa_page.get_pixmap(matrix=fitz.Matrix(1.5, 1.5), alpha=False)
         pixmap.save(PREVIEW_PNG)
 
@@ -159,6 +166,7 @@ def merge_top_half() -> None:
         print(f"output pdf: {OUTPUT_PDF}")
         print(f"preview png: {PREVIEW_PNG}")
         print(f"pages: {result.page_count}")
+        qa_document.close()
     finally:
         result.close()
         preview.close()

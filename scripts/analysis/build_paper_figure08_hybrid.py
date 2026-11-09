@@ -24,6 +24,7 @@ sys.path.insert(0, str(REPO / "src"))
 from mvpipeline.analysis.plotting_v2 import (
     apply_analysis_v2_publication_style,
 )
+from mvpipeline.analysis.typography import prepare_figure_typography
 
 COHORTS = [
     ("mattergen_baseline", "MatterGen Base", "MG-B"),
@@ -243,6 +244,7 @@ def main():
         for spine in ax.spines.values():
             spine.set_visible(False)
     # No footer, caption, or explanatory text below the four panels.
+    prepare_figure_typography(fig)
     fig.canvas.draw()
     renderer = fig.canvas.get_renderer()
     annotations = list(b.texts)

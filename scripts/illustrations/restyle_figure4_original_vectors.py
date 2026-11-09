@@ -16,6 +16,9 @@ import matplotlib
 import pymupdf as fitz
 
 ROOT = Path(__file__).resolve().parents[2]
+import sys
+sys.path.insert(0,str(ROOT/'src'))
+from mvpipeline.analysis.typography import ebrima_font_path, correct_text, _font_size, fix_ebrima_to_unicode
 OUT = ROOT / "reproduced/fig04_mp_only/final_design"
 SOURCE = ROOT / "reproduced/fig04_mp_only/original/fig04_magnetic_reference_dft.pdf"
 ORIGINAL_SHA256 = "9ef54af2e79915c2ace5fbde91e7abb10b61187844c4ac78e50d2c7c55881105"
@@ -128,17 +131,18 @@ def main():
 
     doc = fitz.open()
     page = doc.new_page(width=1152, height=660)
-    page.insert_font(fontname="Design", fontfile=str(FONT_DIR / "DejaVuSans.ttf"))
-    page.insert_font(fontname="DesignBold", fontfile=str(FONT_DIR / "DejaVuSans-Bold.ttf"))
-    regular = fitz.Font(fontfile=str(FONT_DIR / "DejaVuSans.ttf"))
-    bold = fitz.Font(fontfile=str(FONT_DIR / "DejaVuSans-Bold.ttf"))
+    regular_path = ebrima_font_path()
+    page.insert_font(fontname="Design", fontfile=str(regular_path))
+    regular = fitz.Font(fontfile=str(regular_path))
 
     def text(x, y, string, size=14, align="left", weight=False):
-        font = bold if weight else regular
+        string=correct_text(string)
+        size=_font_size('fig04_magnetic_reference_dft.pdf',string,size)
+        font = regular
         width = font.text_length(string, fontsize=size)
         if align == "right": x -= width
         if align == "center": x -= width/2
-        page.insert_text((x,y), string, fontsize=size, fontname="DesignBold" if weight else "Design",
+        page.insert_text((x,y), string, fontsize=size, fontname="Design",
                          color=(.12,.17,.21))
 
     targets = [fitz.Rect(152,83,565,308), fitz.Rect(729,83,1152-12,308),
@@ -196,6 +200,7 @@ def main():
         key(x, targets[2].y0-13, fitz.sRGB_to_pdf(int(color,16)), label)
     target_path=output / "fig04_magnetic_reference_dft_original_values_design.pdf"
     doc.subset_fonts()
+    fix_ebrima_to_unicode(doc)
     doc.save(target_path,garbage=4,deflate=True)
     if SOURCE.is_file():
         assert SOURCE.read_bytes()==original_bytes

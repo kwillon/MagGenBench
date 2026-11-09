@@ -11,9 +11,17 @@ from mvpipeline.analysis.manuscript_figure5_v2 import FIGURE_SOURCE, load_paired
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def test_selected_figure8_is_exact_hybrid_v2():
+def test_selected_figure8_retains_approved_hybrid_v2_scientific_graphics():
+    import pymupdf as fitz
+    from mvpipeline.analysis.typography import _drawing_signature, _image_signature, _numeric_tokens
     figures = ROOT/'paper/figures'
-    assert (figures/'fig08_multiobjective.pdf').read_bytes() == (figures/'legacy/fig08_multiobjective_hybrid_v2.pdf').read_bytes()
+    current=fitz.open(figures/'fig08_multiobjective.pdf')
+    original=fitz.open(figures/'legacy/fig08_multiobjective_hybrid_v2.pdf')
+    assert current[0].rect==original[0].rect
+    assert _drawing_signature(current[0])==_drawing_signature(original[0])
+    assert _image_signature(current[0])==_image_signature(original[0])
+    assert _numeric_tokens(current[0].get_text())==_numeric_tokens(original[0].get_text())
+    assert all('Ebrima' in f[3] for f in current[0].get_fonts())
     assert not list(figures.glob('*.png'))
     assert {p.name for p in figures.glob('*.md')} == {'README.md'}
 

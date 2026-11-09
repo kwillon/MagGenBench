@@ -26,9 +26,11 @@ def apply_publication_style():
 
     apply_analysis_v2_publication_style()
     plt.rcParams.update({
-        "font.family": "DejaVu Sans", "font.size": 11,
+        "font.size": 11,
         "axes.labelsize": 11, "axes.titlesize": 12,
         "xtick.labelsize": 10, "ytick.labelsize": 10,
         "legend.fontsize": 10, "legend.title_fontsize": 11,
         "hatch.linewidth": 0.6,
     })
+    from .typography import apply_ebrima_typography
+    apply_ebrima_typography()

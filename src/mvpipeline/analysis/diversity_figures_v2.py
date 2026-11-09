@@ -250,20 +250,14 @@ def _plot_uniqueness_panel(
         height=0.62,
     )
 
+    strings=[]
     for bar, cohort, value in zip(bars, cohorts, values):
         count = int(summary.loc[cohort, count_column])
         total = int(summary.loc[cohort, "n_structures"])
 
-        ax.text(
-            value + 1.3,
-            bar.get_y() + bar.get_height() / 2,
-            f"{value:.1f}%  ({count}/{total})",
-            va="center",
-            ha="left",
-            fontsize=7.5,
-            color=ANALYSIS_V2_DARK_TEXT,
-            clip_on=False,
-        )
+        strings.append(f"{value:.1f}%  ({count}/{total})")
+    from .figure6_layout import add_bar_value_labels, MIN_RIGHT_LIMIT
+    add_bar_value_labels(ax,bars,strings,color=ANALYSIS_V2_DARK_TEXT)
 
     ax.set_yticks(y)
     ax.set_yticklabels(
@@ -277,7 +271,7 @@ def _plot_uniqueness_panel(
         labelleft=show_ylabels,
     )
 
-    ax.set_xlim(0, 112)
+    ax.set_xlim(0, MIN_RIGHT_LIMIT)
     ax.set_xticks([0, 20, 40, 60, 80, 100])
     ax.set_xlabel(xlabel)
     ax.set_title(title, pad=8)

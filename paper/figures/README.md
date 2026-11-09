@@ -20,7 +20,9 @@ No selected Figure 7 or verified standalone caption for Figures 1/6 or the
 supplementary PCA figures was found; their numbering/captions require the external
 manuscript. No caption is invented here.
 
-Figure 8 is Art Nouveau hybrid v2 selected without re-rendering or changing bytes.
+Figure 8 retains the Art Nouveau hybrid v2 scientific content and layout, with
+Ebrima Regular typography matching Figure 1. The pre-typography v2 archive remains
+unchanged; text-only export checks preserve all numbers, data vectors and images.
 A contains five metrics; B is the S1 scatter with atomic-content marker size and
 S1 Pareto outlines; C is the S1 rank distribution; D is S1 Top-5 frequency.
 S2/S3 and alternative criteria are in the
@@ -32,6 +34,9 @@ See [reproduction instructions](../../docs/figures/README.md). Figure 4 retains
 original statistical vectors rather than numerically different recalculations.
 The ten-set Figure 6 still uses the documented palette-preview entry point;
 the historical eight-set implementation is retained.
+The current typography pass increases fonts by 0.5 pt and gives Figure 6 C/D
+an internal label gutter with display limits 0–124; its percentages and counts
+remain unchanged. See `reproduced/figure_layout_polish_audit.md` for checks.
 
 `SHA256SUMS.txt` covers current and archived PDFs relative to this directory.
 `legacy/` keeps original Figure 8 and hybrid versions for provenance; only

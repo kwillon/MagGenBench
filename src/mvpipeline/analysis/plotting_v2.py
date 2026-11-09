@@ -127,6 +127,11 @@ def save_analysis_v2_figure_bundle(
     *,
     preserve_canvas: bool = False,
 ) -> FigureExportPaths:
+    # Explicit whitelist keeps Figure 1 and historical/exploratory exports untouched.
+    if basename.startswith(('manuscript_figure2_', 'manuscript_figure3_',
+                            'manuscript_figure5_', 'manuscript_figure6_')):
+        from .typography import prepare_figure_typography
+        prepare_figure_typography(fig)
     paths = analysis_v2_export_paths(output_dir, basename)
     paths.png.parent.mkdir(parents=True, exist_ok=True)
     # rcParams may also request tight cropping. Disable both mechanisms when

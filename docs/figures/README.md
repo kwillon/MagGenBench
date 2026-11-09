@@ -42,3 +42,30 @@ Historical audit JSONs retain original paths/hashes. Resolve moved inputs throug
 `tables/figure_sources/path_relocations.json`; original document hashes can be
 checked in checkpoint `0f76fdb4`. Frozen CSV/NPZ values and selected Figure 8 bytes
 are unchanged by reorganization.
+
+## Publication typography
+
+Canonical Figures 2–6/8 and supplementary PCA now use Ebrima Regular, matching
+the read-only Figure 1 reference. Windows builds resolve `C:/Windows/Fonts/ebrima.ttf`;
+other environments must provide a locally installed Ebrima Regular via
+`MAGGENBENCH_EBRIMA_FONT`. A missing face is an error, never a silent fallback.
+Do not copy system fonts into the repository.
+
+The shared implementation is `src/mvpipeline/analysis/typography.py`. Native
+plot exporters use its Matplotlib font registration and text-artist settings.
+The typography rebuild preserves scientific vector/image layers from the
+audited canonical revision, including Figure 4 statistics and the composed
+Figure 6 A/B panels; it does not refit PCA or rerun predictions. Figure 6 C/D
+are rebuilt from the frozen ten-set diversity table with their original colors,
+a 4 pt label offset and a measured right-frame gutter (display limits 0–124).
+The shared font hierarchy includes a modest 0.5 pt increase over the initial
+Ebrima revision:
+
+```powershell
+.venv/Scripts/python.exe scripts/illustrations/restyle_publication_typography.py --source-from-git --output-dir reproduced/figure_typography/recheck
+```
+
+Figure 1 is excluded by explicit guards. See `reproduced/figure_typography_audit.md`
+for the old/new text table, embedded-font checks and numerical-preservation proof.
+The subsequent font-size and Figure 6 spacing pass is documented in
+`reproduced/figure_layout_polish_audit.md`.

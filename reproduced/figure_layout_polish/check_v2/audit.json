@@ -1,0 +1,6665 @@
+[
+  {
+    "figure": "fig02_structural_overview.pdf",
+    "before_sha256": "44536e14b5f5546e56ec9562c013334a309e5ee6046a664b9f0802ab8642baad",
+    "after_sha256": "d7870e30898b6a20d2f6b81a6aa21fe3af2f72eb331e5d77c883cc1102712e12",
+    "fonts": [
+      "Ebrima Regular"
+    ],
+    "embedded": true,
+    "text_changes": [
+      {
+        "figure": "fig02_structural_overview.pdf",
+        "original": "Crys-JEPA Ref.",
+        "corrected": "Crys-JEPA\nRefined"
+      }
+    ],
+    "font_sizes": [
+      {
+        "text": "0",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "25",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "50",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "75",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "100",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "Structural QC retention (%)",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "MatterGen",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "Con-CDVAE",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "CrystalFormer",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "CrystaLLM",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "1,657 (82.85%)",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "1,864 (93.20%)",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "1,083 (54.15%)",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "98 (4.90%)",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "A",
+        "old_size": 12.0,
+        "size": 14.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "Base",
+        "old_size": 10.0,
+        "size": 12.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "0",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "25",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "50",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "75",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "100",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "Structural QC retention (%)",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "MatterGen",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "Con-CDVAE",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "CrystalFormer",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "CrystaLLM",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "1,376 (68.80%)",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "1,299 (64.95%)",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "1,380 (69.00%)",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "217 (10.85%)",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "B",
+        "old_size": 12.0,
+        "size": 14.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "Fine-tuned (FT)",
+        "old_size": 10.0,
+        "size": 12.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "0",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "25",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "50",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "75",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "100",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "Structural QC retention (%)",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "Crys-JEPA Base",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "Crys-JEPA\nRefined",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "1,764 (88.20%)",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "1,543 (77.15%)",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "C",
+        "old_size": 12.0,
+        "size": 14.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "Crys-JEPA",
+        "old_size": 10.0,
+        "size": 12.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "Duplicate",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "Charge-balance",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "failure",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "CIF parse",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "error",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "Implausible",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "interatomic",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "distance",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "Unrealistic",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "density",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "MatterGen (n=343)",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "Con-CDVAE (n=136)",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "CrystalFormer (n=917)",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "CrystaLLM (n=1,902)",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "Crys-JEPA Base (n=236)",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "47.2",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "52.5",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "0.3",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "0.7",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "98.5",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "0.7",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "34.7",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "39.1",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "0.3",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "22.6",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "3.3",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "54.2",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "16.7",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "22.2",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "0.5",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "6.5",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "2.1",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "65.3",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "32.6",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "D",
+        "old_size": 12.0,
+        "size": 14.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "Base: registered primary rejection reasons",
+        "old_size": 10.0,
+        "size": 12.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "0",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "20",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "40",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "60",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "80",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "100",
+        "old_size": 9.0,
+        "size": 9.5,
+        "figure": "fig02_structural_overview.pdf"
+      },
+      {
+        "text": "Share of rejected structures (%)",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "fig02_structural_overview.pdf"
+      }
+    ],
+    "graphics_unchanged": true,
+    "images_unchanged": true,
+    "numeric_tokens_unchanged": true,
+    "outside_page": [],
+    "removed_text_streams": 1,
+    "vector_font_glyphs_replaced": 0
+  },
+  {
+    "figure": "fig03_magnetic_domain.pdf",
+    "before_sha256": "1a0ea22f2740ea82ea8f0559d8d2f7fd20ac5507c17825d2bde47aa112c21295",
+    "after_sha256": "a0287542c956eaa391ad7644f3a294275234551a847bfff8f0cc60af1da5cdde",
+    "fonts": [
+      "Ebrima Regular"
+    ],
+    "embedded": true,
+    "text_changes": [
+      {
+        "figure": "fig03_magnetic_domain.pdf",
+        "original": "Crys-JEPA Ref.",
+        "corrected": "Crys-JEPA Refined"
+      },
+      {
+        "figure": "fig03_magnetic_domain.pdf",
+        "original": "Crys-JEPA Ref.",
+        "corrected": "Crys-JEPA Refined"
+      },
+      {
+        "figure": "fig03_magnetic_domain.pdf",
+        "original": "Crys-JEPA Ref.",
+        "corrected": "Crys-JEPA Refined"
+      },
+      {
+        "figure": "fig03_magnetic_domain.pdf",
+        "original": "Magnetic-neighbor fraction",
+        "corrected": "Magnetic neighbor fraction"
+      },
+      {
+        "figure": "fig03_magnetic_domain.pdf",
+        "original": "C   Local magnetic-neighbor environment (applicable records)",
+        "corrected": "C   Local magnetic neighbor environment (applicable records)"
+      }
+    ],
+    "font_sizes": [
+      {
+        "text": "Generator",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "MatterGen",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "Con-CDVAE",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "CrystalFormer",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "CrystaLLM",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "Crys-JEPA",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "Version",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "Base",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "Fine-tuned / Refined",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "0",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "25",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "50",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "75",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "100",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "Prevalence (%)",
+        "old_size": 11.0,
+        "size": 11.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "75.3",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "99.9",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "36.8",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "100.0",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "26.6",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "93.6",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "100.0",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "99.5",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "37.0",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "9.2",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "A   3d transition-metal fraction",
+        "old_size": 12.0,
+        "size": 14.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "MatterGen Base",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "n+=1248",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "MatterGen FT",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "n+=1374",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "Con-CDVAE Base",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "n+=686",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "Con-CDVAE FT",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "n+=1299",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "CrystalFormer Base",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "n+=288",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "CrystalFormer FT",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "n+=1291",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "CrystaLLM Base",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "n+=98",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "CrystaLLM FT",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "n+=216",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "Crys-JEPA Base",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "n+=653",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "Crys-JEPA Refined",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "n+=142",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "0.5",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "1.0",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "Atomic fraction",
+        "old_size": 11.0,
+        "size": 11.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "(nonzero only)",
+        "old_size": 11.0,
+        "size": 11.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "0",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "25",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "50",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "75",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "100",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "Prevalence (%)",
+        "old_size": 11.0,
+        "size": 11.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "30.2",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "0.1",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "29.0",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "0.5",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "19.8",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "0.6",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "8.2",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "1.8",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "27.0",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "22.1",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "B   Configured lanthanide fraction",
+        "old_size": 12.0,
+        "size": 14.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "MatterGen Base",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "n+=500",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "MatterGen FT",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "n+=1",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "Con-CDVAE Base",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "n+=541",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "Con-CDVAE FT",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "n+=7",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "CrystalFormer Base",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "n+=214",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "CrystalFormer FT",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "n+=8",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "CrystaLLM Base",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "n+=8",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "CrystaLLM FT",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "n+=4",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "Crys-JEPA Base",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "n+=477",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "Crys-JEPA Refined",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "n+=341",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "0.5",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "1.0",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "Atomic fraction",
+        "old_size": 11.0,
+        "size": 11.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "(nonzero only)",
+        "old_size": 11.0,
+        "size": 11.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "MatterGen Base",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "n=1588",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "MatterGen FT",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "n=1376",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "Con-CDVAE Base",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "n=1168",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "Con-CDVAE FT",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "n=1299",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "CrystalFormer Base",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "n=584",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "CrystalFormer FT",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "n=1310",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "CrystaLLM Base",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "n=98",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "CrystaLLM FT",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "n=216",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "Crys-JEPA Base",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "n=1141",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "Crys-JEPA Refined",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "n=502",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "0.2",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "0.4",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "0.6",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "0.8",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "1.0",
+        "old_size": 10.0,
+        "size": 10.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "Magnetic neighbor fraction",
+        "old_size": 11.0,
+        "size": 11.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      },
+      {
+        "text": "C   Local magnetic neighbor environment (applicable records)",
+        "old_size": 12.0,
+        "size": 14.5,
+        "figure": "fig03_magnetic_domain.pdf"
+      }
+    ],
+    "graphics_unchanged": true,
+    "images_unchanged": true,
+    "numeric_tokens_unchanged": true,
+    "outside_page": [],
+    "removed_text_streams": 1,
+    "vector_font_glyphs_replaced": 0
+  },
+  {
+    "figure": "fig04_magnetic_reference_dft.pdf",
+    "before_sha256": "4462263831a192f6a289606ecb344609e838eff907d4b9556c1f04407eae5e47",
+    "after_sha256": "5f2344e4df553eb5747925999b41c5fbf8bb74efae8c8cb7ada5bd62ddc2e4ee",
+    "fonts": [
+      "Ebrima Regular"
+    ],
+    "embedded": true,
+    "text_changes": [
+      {
+        "figure": "fig04_magnetic_reference_dft.pdf",
+        "original": "-4",
+        "corrected": "\u22124"
+      },
+      {
+        "figure": "fig04_magnetic_reference_dft.pdf",
+        "original": "-2",
+        "corrected": "\u22122"
+      },
+      {
+        "figure": "fig04_magnetic_reference_dft.pdf",
+        "original": "Contrast: d(NM) - d(magnetic)",
+        "corrected": "Contrast: d(NM) \u2212 d(magnetic)"
+      }
+    ],
+    "font_sizes": [
+      {
+        "text": "A  Magnetic-like candidates",
+        "old_size": 16.5,
+        "size": 14.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "B  Magnetic-reference contrast",
+        "old_size": 16.5,
+        "size": 14.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "C  Magnetic classes",
+        "old_size": 16.5,
+        "size": 14.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "D  DFT confirmation: Base groups",
+        "old_size": 16.5,
+        "size": 14.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "MatterGen Base",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "MatterGen FT",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "Con-CDVAE Base",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "Con-CDVAE FT",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "Crys-JEPA Base",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "Crys-JEPA Refined",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "CrystalFormer Base",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "CrystalFormer FT",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "CrystaLLM Base",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "CrystaLLM FT",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "MatterGen Base",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "MatterGen FT",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "Con-CDVAE Base",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "Con-CDVAE FT",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "Crys-JEPA Base",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "Crys-JEPA Refined",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "CrystalFormer Base",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "CrystalFormer FT",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "CrystaLLM Base",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "CrystaLLM FT",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "MatterGen Base",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "MatterGen FT",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "Con-CDVAE Base",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "Con-CDVAE FT",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "Crys-JEPA Base",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "Crys-JEPA Refined",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "CrystalFormer Base",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "CrystalFormer FT",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "CrystaLLM Base",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "CrystaLLM FT",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "MatterGen Base",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "Con-CDVAE Base",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "CrystalFormer Base",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "CrystaLLM Base",
+        "old_size": 14.0,
+        "size": 10.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 13.5,
+        "size": 10.0,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "0.2",
+        "old_size": 13.5,
+        "size": 10.0,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "0.4",
+        "old_size": 13.5,
+        "size": 10.0,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "0.6",
+        "old_size": 13.5,
+        "size": 10.0,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "0.8",
+        "old_size": 13.5,
+        "size": 10.0,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "1.0",
+        "old_size": 13.5,
+        "size": 10.0,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 13.5,
+        "size": 10.0,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "0.2",
+        "old_size": 13.5,
+        "size": 10.0,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "0.4",
+        "old_size": 13.5,
+        "size": 10.0,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "0.6",
+        "old_size": 13.5,
+        "size": 10.0,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "0.8",
+        "old_size": 13.5,
+        "size": 10.0,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "1.0",
+        "old_size": 13.5,
+        "size": 10.0,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 13.5,
+        "size": 10.0,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "0.2",
+        "old_size": 13.5,
+        "size": 10.0,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "0.4",
+        "old_size": 13.5,
+        "size": 10.0,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "0.6",
+        "old_size": 13.5,
+        "size": 10.0,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "0.8",
+        "old_size": 13.5,
+        "size": 10.0,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "1.0",
+        "old_size": 13.5,
+        "size": 10.0,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "\u22124",
+        "old_size": 13.5,
+        "size": 10.0,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "\u22122",
+        "old_size": 13.5,
+        "size": 10.0,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "0",
+        "old_size": 13.5,
+        "size": 10.0,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "2",
+        "old_size": 13.5,
+        "size": 10.0,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "4",
+        "old_size": 13.5,
+        "size": 10.0,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "6",
+        "old_size": 13.5,
+        "size": 10.0,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "Fraction closer to magnetic than NM reference",
+        "old_size": 14.0,
+        "size": 11.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "Contrast: d(NM) \u2212 d(magnetic)",
+        "old_size": 14.0,
+        "size": 11.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "Fraction among magnetic-like candidates",
+        "old_size": 14.0,
+        "size": 11.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "Fraction confirmed magnetic by DFT (Wilson 95% CI)",
+        "old_size": 14.0,
+        "size": 11.5,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "Base",
+        "old_size": 12.5,
+        "size": 10.0,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "Fine-tuned / Refined",
+        "old_size": 12.5,
+        "size": 10.0,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "A: formula-cluster bootstrap 95% CI",
+        "old_size": 12.5,
+        "size": 10.0,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "AFM",
+        "old_size": 12.5,
+        "size": 10.0,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "FM",
+        "old_size": 12.5,
+        "size": 10.0,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      },
+      {
+        "text": "FiM",
+        "old_size": 12.5,
+        "size": 10.0,
+        "figure": "fig04_magnetic_reference_dft.pdf"
+      }
+    ],
+    "graphics_unchanged": true,
+    "images_unchanged": true,
+    "numeric_tokens_unchanged": true,
+    "outside_page": [],
+    "removed_text_streams": 72,
+    "vector_font_glyphs_replaced": 0
+  },
+  {
+    "figure": "fig05_energy_magnetism.pdf",
+    "before_sha256": "319065067ea45bd189491abca42383e35cd02cc0aade4c691e837461d0aeccfe",
+    "after_sha256": "6953ca2eb75c03a64ae16c96f5e7555e719a3e4f3e994e2aac94ce6e73ce9eb9",
+    "fonts": [
+      "Ebrima Regular"
+    ],
+    "embedded": true,
+    "text_changes": [],
+    "font_sizes": [
+      {
+        "text": "\u221210.0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "\u22127.5",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "\u22125.0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "\u22122.5",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "2.5",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "5.0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "7.5",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "CHGNet total energy (eV/atom)",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "1",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "2",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "3",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "4",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "5",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "6",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "DXMag moment (\u03bcB/f.u.)",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "A  Predicted energy\u2013magnetism landscape",
+        "old_size": 12.0,
+        "size": 14.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "MatterGen",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "Con-CDVAE",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "CrystalFormer",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "CrystaLLM",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "Crys-JEPA",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "\u221210.0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "\u22127.5",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "\u22125.0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "\u22122.5",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "2.5",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "5.0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "7.5",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "CHGNet total energy (eV/atom)",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "1",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "2",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "3",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "4",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "5",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "6",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "DXMag moment (\u03bcB/f.u.)",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "B  MatterGen: Base to FT",
+        "old_size": 11.0,
+        "size": 14.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "\u221210.0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "\u22127.5",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "\u22125.0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "\u22122.5",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "2.5",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "5.0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "7.5",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "CHGNet total energy (eV/atom)",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "1",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "2",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "3",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "4",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "5",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "6",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "DXMag moment (\u03bcB/f.u.)",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "C  Con-CDVAE: Base to FT",
+        "old_size": 11.0,
+        "size": 14.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "\u221210.0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "\u22127.5",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "\u22125.0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "\u22122.5",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "2.5",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "5.0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "7.5",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "CHGNet total energy (eV/atom)",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "1",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "2",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "3",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "4",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "5",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "6",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "DXMag moment (\u03bcB/f.u.)",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "D  CrystalFormer: Base to FT",
+        "old_size": 11.0,
+        "size": 14.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "\u221210.0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "\u22127.5",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "\u22125.0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "\u22122.5",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "2.5",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "5.0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "7.5",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "CHGNet total energy (eV/atom)",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "1",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "2",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "3",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "4",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "5",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "6",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "DXMag moment (\u03bcB/f.u.)",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "E  CrystaLLM: Base to FT",
+        "old_size": 11.0,
+        "size": 14.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "\u221210.0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "\u22127.5",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "\u22125.0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "\u22122.5",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "2.5",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "5.0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "7.5",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "CHGNet total energy (eV/atom)",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "1",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "2",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "3",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "4",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "5",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "6",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "DXMag moment (\u03bcB/f.u.)",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      },
+      {
+        "text": "F  Crys-JEPA: Base to Refined",
+        "old_size": 11.0,
+        "size": 14.5,
+        "figure": "fig05_energy_magnetism.pdf"
+      }
+    ],
+    "graphics_unchanged": true,
+    "images_unchanged": true,
+    "numeric_tokens_unchanged": true,
+    "outside_page": [],
+    "removed_text_streams": 1,
+    "vector_font_glyphs_replaced": 0
+  },
+  {
+    "figure": "fig06_diversity_adaptation.pdf",
+    "before_sha256": "4d5ea4918666afb57f918165985bbfd8b3c6da44073955ffd783a78aef6f6500",
+    "after_sha256": "c77fc0d155cc64d6fe9800e89f8207f36bde2a037813b699e89d9c7446b9e3c8",
+    "fonts": [
+      "Ebrima Regular"
+    ],
+    "embedded": true,
+    "text_changes": [
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "MatterGen Fine-tuned",
+        "corrected": "MatterGen FT"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "Con-CDVAE Fine-tuned",
+        "corrected": "Con-CDVAE FT"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "CrystalFormer Fine-tuned",
+        "corrected": "CrystalFormer FT"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "Compound-class distribution",
+        "corrected": "Compound class distribution"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "-14.8",
+        "corrected": "\u221214.8"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "-1.5",
+        "corrected": "\u22121.5"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "-4.2",
+        "corrected": "\u22124.2"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "-4.6",
+        "corrected": "\u22124.6"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "-9.5",
+        "corrected": "\u22129.5"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "-21.0",
+        "corrected": "\u221221.0"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "-12.7",
+        "corrected": "\u221212.7"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "-14.0",
+        "corrected": "\u221214.0"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "-13.5",
+        "corrected": "\u221213.5"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "-9.8",
+        "corrected": "\u22129.8"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "-9.8",
+        "corrected": "\u22129.8"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "-7.5",
+        "corrected": "\u22127.5"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "-1.9",
+        "corrected": "\u22121.9"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "-0.2",
+        "corrected": "\u22120.2"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "-6.7",
+        "corrected": "\u22126.7"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "-45.9",
+        "corrected": "\u221245.9"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "-11.8",
+        "corrected": "\u221211.8"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "-4.9",
+        "corrected": "\u22124.9"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "-16.3",
+        "corrected": "\u221216.3"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "-12.8",
+        "corrected": "\u221212.8"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "-4.7",
+        "corrected": "\u22124.7"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "-11.2",
+        "corrected": "\u221211.2"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "-1.8",
+        "corrected": "\u22121.8"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "-3.1",
+        "corrected": "\u22123.1"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "-4.9",
+        "corrected": "\u22124.9"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "-3.1",
+        "corrected": "\u22123.1"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "-6.4",
+        "corrected": "\u22126.4"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "Adaptation-associated changes",
+        "corrected": "Changes associated with adaptation"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "Crys-JEPA Ref.",
+        "corrected": "Crys-JEPA Refined"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "Crys-JEPA Ref.",
+        "corrected": "Crys-JEPA Refined"
+      },
+      {
+        "figure": "fig06_diversity_adaptation.pdf",
+        "original": "D  Unique formula\u2013space-group pairs",
+        "corrected": "D  Unique formula\u2013space group pairs"
+      }
+    ],
+    "font_sizes": [
+      {
+        "text": "MatterGen Base",
+        "old_size": 9.89408016204834,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "MatterGen FT",
+        "old_size": 9.89408016204834,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "Con-CDVAE Base",
+        "old_size": 9.89408016204834,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "Con-CDVAE FT",
+        "old_size": 9.89408016204834,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "CrystalFormer Base",
+        "old_size": 9.89408016204834,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "CrystalFormer FT",
+        "old_size": 9.89408016204834,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "CrystaLLM Base",
+        "old_size": 9.89408016204834,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "CrystaLLM FT",
+        "old_size": 9.89408016204834,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "Crys-JEPA Base",
+        "old_size": 9.89408016204834,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "Crys-JEPA Refined",
+        "old_size": 9.89408016204834,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "48.8",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "14.8",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.9",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "1.7",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "2.1",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "4.2",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "2.1",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "3.8",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "2.5",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "4.6",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "14.5",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "55.0",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "1.6",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.1",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "17.4",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "2.5",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "5.4",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "12.8",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "5.1",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "14.4",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "21.0",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "1.9",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "14.4",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "1.6",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "14.0",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.3",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "4.3",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.7",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "13.5",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "13.8",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "18.6",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "4.8",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "1.8",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "14.2",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "27.7",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "9.5",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "6.3",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "16.9",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "28.9",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "11.7",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "24.5",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "8.8",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "2.4",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "4.2",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.7",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "3.3",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "2.0",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.4",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "13.1",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "45.4",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "1.9",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "14.6",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "1.2",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "11.2",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "2.2",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "2.8",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "5.4",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "8.7",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.2",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "6.4",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "29.6",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "45.9",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "12.2",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "8.2",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "4.1",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "74.2",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "2.3",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.9",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.5",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "3.2",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.5",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "18.4",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "30.3",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "16.3",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "1.7",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "13.2",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "4.7",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "11.3",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "2.2",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "4.0",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "5.0",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "3.1",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "8.3",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "76.1",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "20.2",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.3",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.1",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.4",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.9",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.1",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "1.9",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "A",
+        "old_size": 14.841119766235352,
+        "size": 14.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "Compound class distribution",
+        "old_size": 14.841119766235352,
+        "size": 14.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "intermetallic",
+        "old_size": 9.89408016204834,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "oxide",
+        "old_size": 9.89408016204834,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "metal",
+        "old_size": 9.89408016204834,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "chalcogenide",
+        "old_size": 9.89408016204834,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "salt/ionic compound",
+        "old_size": 9.89408016204834,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "halide",
+        "old_size": 9.89408016204834,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "boride",
+        "old_size": 9.89408016204834,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "pnictide",
+        "old_size": 9.89408016204834,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "silicide",
+        "old_size": 9.89408016204834,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "oxyhalide",
+        "old_size": 9.89408016204834,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "other",
+        "old_size": 9.89408016204834,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "MatterGen",
+        "old_size": 9.89408016204834,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "Con-CDVAE",
+        "old_size": 9.89408016204834,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "CrystalFormer",
+        "old_size": 9.89408016204834,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "CrystaLLM",
+        "old_size": 9.89408016204834,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "Crys-JEPA",
+        "old_size": 9.89408016204834,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "+6.2",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "\u221214.8",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "+0.7",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "\u22121.5",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "+15.3",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "\u22124.2",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "+0.4",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "+1.6",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "+10.3",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "\u22124.6",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "\u22129.5",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "+4.2",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "\u221221.0",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "+2.9",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "\u221212.7",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "+12.6",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "\u221214.0",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "+27.4",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "+5.3",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "+5.6",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "\u221213.5",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "+3.1",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "+16.5",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "\u22129.8",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "\u22129.8",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "\u22127.5",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "+8.8",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "\u22121.9",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "+2.0",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "+2.0",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "+6.7",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "\u22120.2",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "\u22126.7",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "+44.6",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "\u221245.9",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "+2.3",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "+0.9",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "+0.0",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "\u221211.8",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "\u22124.9",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "+0.5",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "+14.4",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "+0.0",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "+0.0",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "+45.8",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "\u221216.3",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "+18.5",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "\u221212.8",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "\u22124.7",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "\u221211.2",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "\u22121.8",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "\u22123.1",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "\u22124.9",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "\u22123.1",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "\u22126.4",
+        "old_size": 8.904671669006348,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "B",
+        "old_size": 14.841119766235352,
+        "size": 14.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "Changes associated with adaptation",
+        "old_size": 14.841119766235352,
+        "size": 14.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0",
+        "old_size": 12.367600440979004,
+        "size": 11.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "25",
+        "old_size": 12.367600440979004,
+        "size": 11.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "50",
+        "old_size": 12.367600440979004,
+        "size": 11.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "75",
+        "old_size": 12.367600440979004,
+        "size": 11.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "100",
+        "old_size": 12.367600440979004,
+        "size": 11.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "Share within cohort (%)",
+        "old_size": 12.367600440979004,
+        "size": 11.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "\u221245.92",
+        "old_size": 12.367600440979004,
+        "size": 11.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "\u221222.96",
+        "old_size": 12.367600440979004,
+        "size": 11.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0.00",
+        "old_size": 12.367600440979004,
+        "size": 11.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "22.96",
+        "old_size": 12.367600440979004,
+        "size": 11.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "45.92",
+        "old_size": 12.367600440979004,
+        "size": 11.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "Fine-tuned/Refined minus Base (pp)",
+        "old_size": 12.367600440979004,
+        "size": 11.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "20",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "40",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "60",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "80",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "100",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "Unique entries (%)",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "MatterGen Base",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "MatterGen FT",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "Con-CDVAE Base",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "Con-CDVAE FT",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "CrystalFormer Base",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "CrystalFormer FT",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "CrystaLLM Base",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "CrystaLLM FT",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "Crys-JEPA Base",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "Crys-JEPA Refined",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "84.0% (1392/1657)",
+        "old_size": 7.0,
+        "size": 8.8,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "29.9% (412/1376)",
+        "old_size": 7.0,
+        "size": 8.8,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "98.8% (1842/1864)",
+        "old_size": 7.0,
+        "size": 8.8,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "44.2% (574/1299)",
+        "old_size": 7.0,
+        "size": 8.8,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "66.5% (720/1083)",
+        "old_size": 7.0,
+        "size": 8.8,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "49.3% (680/1380)",
+        "old_size": 7.0,
+        "size": 8.8,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "34.7% (34/98)",
+        "old_size": 7.0,
+        "size": 8.8,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "45.6% (99/217)",
+        "old_size": 7.0,
+        "size": 8.8,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "98.1% (1730/1764)",
+        "old_size": 7.0,
+        "size": 8.8,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "56.2% (867/1543)",
+        "old_size": 7.0,
+        "size": 8.8,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "C  Unique reduced formulas",
+        "old_size": 12.0,
+        "size": 14.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "20",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "40",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "60",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "80",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "100",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "Unique entries (%)",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "MatterGen Base",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "MatterGen FT",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "Con-CDVAE Base",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "Con-CDVAE FT",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "CrystalFormer Base",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "CrystalFormer FT",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "CrystaLLM Base",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "CrystaLLM FT",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "Crys-JEPA Base",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "Crys-JEPA Refined",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "96.5% (1599/1657)",
+        "old_size": 7.0,
+        "size": 8.8,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "70.2% (966/1376)",
+        "old_size": 7.0,
+        "size": 8.8,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "99.2% (1849/1864)",
+        "old_size": 7.0,
+        "size": 8.8,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "44.2% (574/1299)",
+        "old_size": 7.0,
+        "size": 8.8,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "86.7% (939/1083)",
+        "old_size": 7.0,
+        "size": 8.8,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "77.9% (1075/1380)",
+        "old_size": 7.0,
+        "size": 8.8,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "52.0% (51/98)",
+        "old_size": 7.0,
+        "size": 8.8,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "65.0% (141/217)",
+        "old_size": 7.0,
+        "size": 8.8,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "98.2% (1733/1764)",
+        "old_size": 7.0,
+        "size": 8.8,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "58.4% (901/1543)",
+        "old_size": 7.0,
+        "size": 8.8,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": "D  Unique formula\u2013space group pairs",
+        "old_size": 12.0,
+        "size": 14.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      },
+      {
+        "text": " ",
+        "old_size": 12.0,
+        "size": 11.5,
+        "figure": "fig06_diversity_adaptation.pdf"
+      }
+    ],
+    "graphics_unchanged": false,
+    "images_unchanged": true,
+    "numeric_tokens_unchanged": true,
+    "outside_page": [],
+    "removed_text_streams": 2,
+    "vector_font_glyphs_replaced": 3,
+    "layout_polish": {
+      "panels": [
+        {
+          "panel": "C",
+          "old_xlim": [
+            0,
+            114.99999807696393
+          ],
+          "new_xlim": [
+            0.0,
+            124.0
+          ],
+          "offset_pt": 4.0,
+          "min_frame_clearance_pt": 9.442976591935949,
+          "cohorts": [
+            "mattergen_baseline",
+            "mattergen_finetuned",
+            "concdvae_baseline",
+            "concdvae_finetuned",
+            "crystalformer_baseline",
+            "crystalformer_finetuned",
+            "crystallm_baseline",
+            "crystallm_finetuned",
+            "crysjepa_base",
+            "crysjepa_refined"
+          ],
+          "values": [
+            84.007242003621,
+            29.941860465116278,
+            98.81974248927038,
+            44.18783679753657,
+            66.4819944598338,
+            49.27536231884058,
+            34.69387755102041,
+            45.6221198156682,
+            98.07256235827664,
+            56.18924173687621
+          ],
+          "labels": [
+            "84.0% (1392/1657)",
+            "29.9% (412/1376)",
+            "98.8% (1842/1864)",
+            "44.2% (574/1299)",
+            "66.5% (720/1083)",
+            "49.3% (680/1380)",
+            "34.7% (34/98)",
+            "45.6% (99/217)",
+            "98.1% (1730/1764)",
+            "56.2% (867/1543)"
+          ],
+          "colors": [
+            [
+              0.6274510025978088,
+              0.6666666865348816,
+              0.5803921818733215
+            ],
+            [
+              0.34117648005485535,
+              0.43529412150382996,
+              0.32156863808631897
+            ],
+            [
+              0.8823529481887817,
+              0.7019608020782471,
+              0.3803921639919281
+            ],
+            [
+              0.7411764860153198,
+              0.3843137323856354,
+              0.1411764770746231
+            ],
+            [
+              0.8745098114013672,
+              0.5803921818733215,
+              0.45490196347236633
+            ],
+            [
+              0.6470588445663452,
+              0.30588236451148987,
+              0.26274511218070984
+            ],
+            [
+              0.7411764860153198,
+              0.46666666865348816,
+              0.45098039507865906
+            ],
+            [
+              0.5019607543945312,
+              0.2666666805744171,
+              0.27843138575553894
+            ],
+            [
+              0.529411792755127,
+              0.6352941393852234,
+              0.6784313917160034
+            ],
+            [
+              0.20000000298023224,
+              0.3019607961177826,
+              0.4117647111415863
+            ]
+          ]
+        },
+        {
+          "panel": "D",
+          "old_xlim": [
+            0,
+            115.00001042893933
+          ],
+          "new_xlim": [
+            0.0,
+            124.0
+          ],
+          "offset_pt": 4.0,
+          "min_frame_clearance_pt": 8.161524681271839,
+          "cohorts": [
+            "mattergen_baseline",
+            "mattergen_finetuned",
+            "concdvae_baseline",
+            "concdvae_finetuned",
+            "crystalformer_baseline",
+            "crystalformer_finetuned",
+            "crystallm_baseline",
+            "crystallm_finetuned",
+            "crysjepa_base",
+            "crysjepa_refined"
+          ],
+          "values": [
+            96.49969824984913,
+            70.20348837209302,
+            99.19527896995709,
+            44.18783679753657,
+            86.70360110803324,
+            77.89855072463769,
+            52.04081632653061,
+            64.97695852534562,
+            98.24263038548753,
+            58.392741412832144
+          ],
+          "labels": [
+            "96.5% (1599/1657)",
+            "70.2% (966/1376)",
+            "99.2% (1849/1864)",
+            "44.2% (574/1299)",
+            "86.7% (939/1083)",
+            "77.9% (1075/1380)",
+            "52.0% (51/98)",
+            "65.0% (141/217)",
+            "98.2% (1733/1764)",
+            "58.4% (901/1543)"
+          ],
+          "colors": [
+            [
+              0.6274510025978088,
+              0.6666666865348816,
+              0.5803921818733215
+            ],
+            [
+              0.34117648005485535,
+              0.43529412150382996,
+              0.32156863808631897
+            ],
+            [
+              0.8823529481887817,
+              0.7019608020782471,
+              0.3803921639919281
+            ],
+            [
+              0.7411764860153198,
+              0.3843137323856354,
+              0.1411764770746231
+            ],
+            [
+              0.8745098114013672,
+              0.5803921818733215,
+              0.45490196347236633
+            ],
+            [
+              0.6470588445663452,
+              0.30588236451148987,
+              0.26274511218070984
+            ],
+            [
+              0.7411764860153198,
+              0.46666666865348816,
+              0.45098039507865906
+            ],
+            [
+              0.5019607543945312,
+              0.2666666805744171,
+              0.27843138575553894
+            ],
+            [
+              0.529411792755127,
+              0.6352941393852234,
+              0.6784313917160034
+            ],
+            [
+              0.20000000298023224,
+              0.3019607961177826,
+              0.4117647111415863
+            ]
+          ]
+        }
+      ],
+      "upper_AB_render_identical": true,
+      "numeric_tokens_unchanged": true,
+      "source_sha256": "e2a655eadb46512ef4235356dc755b6c644127f90c1f3a32d92a016e1eeaefbe",
+      "all_values_order_and_colors_preserved": true
+    },
+    "scientific_values_unchanged": true
+  },
+  {
+    "figure": "fig08_multiobjective.pdf",
+    "before_sha256": "3b7ec054069d739faba5153af3abcda4b22c7c8c5728d9998e3d132095e55b02",
+    "after_sha256": "7d4e258691965761bf3ef3de5643f04774c18627843ae7ed3c3e8ecd616cdfaa",
+    "fonts": [
+      "Ebrima Regular"
+    ],
+    "embedded": true,
+    "text_changes": [
+      {
+        "figure": "fig08_multiobjective.pdf",
+        "original": "3d atomic-",
+        "corrected": "3d atomic-content"
+      },
+      {
+        "figure": "fig08_multiobjective.pdf",
+        "original": "content yield",
+        "corrected": "yield"
+      },
+      {
+        "figure": "fig08_multiobjective.pdf",
+        "original": "Lanthanide atomic-",
+        "corrected": "Lanthanide"
+      },
+      {
+        "figure": "fig08_multiobjective.pdf",
+        "original": "content yield",
+        "corrected": "atomic-content yield"
+      },
+      {
+        "figure": "fig08_multiobjective.pdf",
+        "original": "Min-max normalized score",
+        "corrected": "Min\u2013max normalized score"
+      }
+    ],
+    "font_sizes": [
+      {
+        "text": "QC",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "retention",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "Unique-formula",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "yield",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "3d atomic-content",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "yield",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "Lanthanide",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "atomic-content yield",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "3d / lanthanide",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "union yield",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "MatterGen Base",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "MatterGen FT",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "Con-CDVAE Base",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "Con-CDVAE FT",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "CrystalFormer Base",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "CrystalFormer FT",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "CrystaLLM Base",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "CrystaLLM FT",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "Crys-JEPA Base",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "Crys-JEPA Refined",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "82.85%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "69.60%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "38.98%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "8.69%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "77.90%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "68.80%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "20.60%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "57.18%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "0.0045%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "68.70%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "93.20%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "92.10%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "7.50%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "5.36%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "53.25%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "64.95%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "28.70%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "49.85%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "0.02%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "64.95%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "54.15%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "36.00%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "6.90%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "4.87%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "24.10%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "69.00%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "34.00%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "47.99%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "0.14%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "64.65%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "4.90%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "1.70%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "2.07%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "0.08%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "4.90%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "10.85%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "4.95%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "7.42%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "0.04%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "10.80%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "88.20%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "86.50%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "10.81%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "7.37%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "49.15%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "77.15%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "43.35%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "4.30%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "10.35%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "22.25%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "A  Structural and chemical metrics",
+        "old_size": 15.0,
+        "size": 14.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "0",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "20",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "40",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "60",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "80",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "100",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "QC retention (%)",
+        "old_size": 12.0,
+        "size": 11.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "0",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "20",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "40",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "60",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "80",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "100",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "Unique-formula yield (%)",
+        "old_size": 12.0,
+        "size": 11.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "MG-B",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "MG-FT",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "CD-B",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "CD-FT",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "CF-B",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "CF-FT",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "CL-B",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "CL-FT",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "JE-B",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "JE-R",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "B  Structural yield vs diversity (S1)",
+        "old_size": 15.0,
+        "size": 14.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "3d atomic-content yield",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "S1 Pareto-efficient",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "10%",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "30%",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "50%",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "1",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "2",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "3",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "4",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "5",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "6",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "7",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "8",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "9",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "10",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "Rank",
+        "old_size": 12.0,
+        "size": 11.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "MatterGen Base",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "MatterGen FT",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "Con-CDVAE Base",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "Con-CDVAE FT",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "CrystalFormer Base",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "CrystalFormer FT",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "CrystaLLM Base",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "CrystaLLM FT",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "Crys-JEPA Base",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "Crys-JEPA Refined",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "C  Rank stability (S1)",
+        "old_size": 15.0,
+        "size": 14.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "0",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "20",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "40",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "60",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "80",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "100",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "Top-5 frequency (%)",
+        "old_size": 12.0,
+        "size": 11.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "MatterGen Base",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "CrystalFormer FT",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "Crys-JEPA Base",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "Con-CDVAE Base",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "MatterGen FT",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "Con-CDVAE FT",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "Crys-JEPA Refined",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "CrystalFormer Base",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "CrystaLLM Base",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "CrystaLLM FT",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "100.000%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "98.645%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "87.030%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "74.275%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "65.020%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "48.500%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "26.165%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "0.365%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "0.000%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "0.000%",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "D  Top-5 frequency (S1)",
+        "old_size": 15.0,
+        "size": 14.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "0.5",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "1.0",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "Min\u2013max normalized score",
+        "old_size": 11.0,
+        "size": 11.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "0",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "10",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "25",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "50",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "100",
+        "old_size": 11.0,
+        "size": 10.5,
+        "figure": "fig08_multiobjective.pdf"
+      },
+      {
+        "text": "Weight combinations (%)",
+        "old_size": 11.0,
+        "size": 11.5,
+        "figure": "fig08_multiobjective.pdf"
+      }
+    ],
+    "graphics_unchanged": true,
+    "images_unchanged": true,
+    "numeric_tokens_unchanged": true,
+    "outside_page": [],
+    "removed_text_streams": 1,
+    "vector_font_glyphs_replaced": 0
+  },
+  {
+    "figure": "supp01_pca_loadings.pdf",
+    "before_sha256": "d33e19b755412e0d355c66bfe0af8c6cdc14fc745210b51a2e8917ced64e23d9",
+    "after_sha256": "6ac1e120a6a529dba2601acdbc0a4d3dc525bce86e427bf436a4d33f0dfc6257",
+    "fonts": [
+      "Ebrima Regular"
+    ],
+    "embedded": true,
+    "text_changes": [
+      {
+        "figure": "supp01_pca_loadings.pdf",
+        "original": "Magnetic-sublattice geometry: PC1",
+        "corrected": "Magnetic sublattice geometry: PC1"
+      },
+      {
+        "figure": "supp01_pca_loadings.pdf",
+        "original": "Magnetic-sublattice geometry: PC2",
+        "corrected": "Magnetic sublattice geometry: PC2"
+      }
+    ],
+    "font_sizes": [
+      {
+        "text": "\u22120.2",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "\u22120.1",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "0.1",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "0.2",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "0.3",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "0.4",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "PCA component coefficient",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "configured_lanthanide_fraction",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "n_configured_lanthanide_species",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "symmetry_unique_site_fraction",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "n_transition_3d_species",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "transition_3d_fraction",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "site_multiplicity_entropy",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "n_symmetry_unique_magnetic_sites",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "n_symmetry_unique_sites",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "Composition and symmetry: PC1",
+        "old_size": 12.0,
+        "size": 14.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "\u22120.4",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "\u22120.2",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "0.2",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "0.4",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "PCA component coefficient",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "transition_3d_fraction",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "n_transition_3d_species",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "contains_3d_and_configured_lanthanide",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "n_symmetry_unique_sites",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "site_multiplicity_entropy",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "configured_lanthanide_fraction",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "symmetry_unique_site_fraction",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "n_configured_lanthanide_species",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "Composition and symmetry: PC2",
+        "old_size": 12.0,
+        "size": 14.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "\u22120.2",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "0.2",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "0.4",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "PCA component coefficient",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "magnetic_site_nearest_neighbor_distance_std",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "magnetic_site_nearest_magnetic_neighbor_distance_std",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "magnetic_site_magnetic_coordination_std",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "magnetic_site_magnetic_neighbor_fraction_std",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "magnetic_site_coordination_std",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "magnetic_site_nearest_neighbor_distance_min",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "magnetic_site_nearest_magnetic_neighbor_distance_mean",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "magnetic_site_nearest_magnetic_neighbor_distance_min",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "Magnetic sublattice geometry: PC1",
+        "old_size": 12.0,
+        "size": 14.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "\u22120.2",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "\u22120.1",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "0.0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "0.1",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "0.2",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "0.3",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "0.4",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "0.5",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "PCA component coefficient",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "magnetic_site_nearest_magnetic_neighbor_distance_mean",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "magnetic_site_nearest_magnetic_neighbor_distance_min",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "magnetic_site_magnetic_coordination_std",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "magnetic_site_nearest_neighbor_distance_mean",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "magnetic_site_nearest_neighbor_distance_min",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "magnetic_site_magnetic_neighbor_fraction_mean",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "magnetic_site_coordination_mean",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "magnetic_site_magnetic_coordination_mean",
+        "old_size": 8.0,
+        "size": 9.5,
+        "figure": "supp01_pca_loadings.pdf"
+      },
+      {
+        "text": "Magnetic sublattice geometry: PC2",
+        "old_size": 12.0,
+        "size": 14.5,
+        "figure": "supp01_pca_loadings.pdf"
+      }
+    ],
+    "graphics_unchanged": true,
+    "images_unchanged": true,
+    "numeric_tokens_unchanged": true,
+    "outside_page": [],
+    "removed_text_streams": 1,
+    "vector_font_glyphs_replaced": 7
+  },
+  {
+    "figure": "supp02_descriptor_space.pdf",
+    "before_sha256": "360e4b46d5b2b3d6348b1bd20d7be9b24a0de12f72bbd70245d8c3b10166492b",
+    "after_sha256": "87e995ccc720913234978ce48428f7e3fc9361aef43151753ca86f7be3c7f02a",
+    "fonts": [
+      "Ebrima Regular"
+    ],
+    "embedded": true,
+    "text_changes": [
+      {
+        "figure": "supp02_descriptor_space.pdf",
+        "original": "Magnetic-sublattice geometry",
+        "corrected": "Magnetic sublattice geometry"
+      },
+      {
+        "figure": "supp02_descriptor_space.pdf",
+        "original": "Descriptor-space PCA and cohort-centroid shifts",
+        "corrected": "Descriptor space PCA and cohort centroid shifts"
+      }
+    ],
+    "font_sizes": [
+      {
+        "text": "\u22124",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "\u22122",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "2",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "4",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "6",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "8",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "PC1 (29.1%)",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "\u22122",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "2",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "4",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "6",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "PC2 (21.2%)",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "Composition and symmetry",
+        "old_size": 12.0,
+        "size": 14.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "MatterGen Base",
+        "old_size": 7.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "MatterGen FT",
+        "old_size": 7.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "Con-CDVAE Base",
+        "old_size": 7.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "Con-CDVAE FT",
+        "old_size": 7.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "CrystalFormer Base",
+        "old_size": 7.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "CrystalFormer FT",
+        "old_size": 7.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "CrystaLLM Base",
+        "old_size": 7.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "CrystaLLM FT",
+        "old_size": 7.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "Crys-JEPA Base",
+        "old_size": 7.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "Crys-JEPA Refined",
+        "old_size": 7.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "\u22128",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "\u22126",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "\u22124",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "\u22122",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "2",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "4",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "6",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "8",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "PC1 (32.4%)",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "\u22124",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "\u22122",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "2",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "4",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "PC2 (24.7%)",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "Magnetic sublattice geometry",
+        "old_size": 12.0,
+        "size": 14.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "\u22124",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "\u22122",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "2",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "4",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "6",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "8",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "PC1",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "\u22122",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "2",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "4",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "6",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "PC2",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "MatterGen",
+        "old_size": 10.0,
+        "size": 12.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "\u22124",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "\u22122",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "2",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "4",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "6",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "8",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "PC1",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "\u22122",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "2",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "4",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "6",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "PC2",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "Con-CDVAE",
+        "old_size": 10.0,
+        "size": 12.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "\u22124",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "\u22122",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "2",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "4",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "6",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "8",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "PC1",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "\u22122",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "2",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "4",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "6",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "PC2",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "CrystalFormer",
+        "old_size": 10.0,
+        "size": 12.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "\u22124",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "\u22122",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "2",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "4",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "6",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "8",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "PC1",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "\u22122",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "2",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "4",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "6",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "PC2",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "CrystaLLM",
+        "old_size": 10.0,
+        "size": 12.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "\u22124",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "\u22122",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "2",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "4",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "6",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "8",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "PC1",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "\u22122",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "0",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "2",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "4",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "6",
+        "old_size": 10.0,
+        "size": 9.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "PC2",
+        "old_size": 10.0,
+        "size": 11.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "Crys-JEPA",
+        "old_size": 10.0,
+        "size": 12.5,
+        "figure": "supp02_descriptor_space.pdf"
+      },
+      {
+        "text": "Descriptor space PCA and cohort centroid shifts",
+        "old_size": 15.0,
+        "size": 16.5,
+        "figure": "supp02_descriptor_space.pdf"
+      }
+    ],
+    "graphics_unchanged": true,
+    "images_unchanged": true,
+    "numeric_tokens_unchanged": true,
+    "outside_page": [],
+    "removed_text_streams": 1,
+    "vector_font_glyphs_replaced": 24
+  }
+]

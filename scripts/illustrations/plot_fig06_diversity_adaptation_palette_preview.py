@@ -9,6 +9,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+from mvpipeline.analysis.typography import prepare_figure_typography
 from matplotlib.colors import LinearSegmentedColormap, TwoSlopeNorm
 
 
@@ -209,6 +210,7 @@ def main() -> None:
         ax.tick_params(axis="both", labelsize=8)
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    prepare_figure_typography(fig)
     fig.savefig(OUTPUT_PDF, facecolor="white")
     fig.savefig(OUTPUT_PNG, dpi=220, facecolor="white")
     fig.savefig(OUTPUT_SVG, facecolor="white")

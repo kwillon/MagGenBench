@@ -54,7 +54,7 @@ def save_manuscript_figure5(paired, *, output_dir=ANALYSIS_V2_FIGURE_OUTPUT_DIR)
     # Restore the pre-6df9c7c8 presentation, without changing the frozen pairs.
     plt.rcdefaults()
     plt.rcParams.update({
-        "font.family": "DejaVu Sans", "font.size": 10,
+        "font.size": 10,
         "axes.labelsize": 10, "axes.titlesize": 11,
         "axes.titleweight": "bold", "axes.linewidth": 0.8,
         "xtick.labelsize": 10, "ytick.labelsize": 10,
