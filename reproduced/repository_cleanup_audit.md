@@ -166,3 +166,10 @@ Reviewed cleanup commit: `3b89aa9f` (101 files; all scientific data moves detect
 as 100% renames). The final audit/evidence is committed separately. CSV/JSON CRLF
 endings are preserved with explicit Git attributes; `git diff --cached --check`
 also passes without normalizing scientific bytes.
+
+Post-integration checkout revealed eight CSVs whose old Git blobs had normalized
+LF while their original on-disk scientific snapshots used CRLF. A correction
+commit restores only the exact byte sequences matching the pre-cleanup SHA256
+baseline; numerical CSV values are unchanged (`git diff --ignore-space-at-eol`
+is empty for this correction). Explicit `-text` attributes now preserve these
+bytes in the new paths for future clones. All 114 baseline hashes pass again.
