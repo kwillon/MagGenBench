@@ -16,7 +16,7 @@ HISTORICAL_COLORS = {
 }
 
 FIGURE_BASENAME = "manuscript_figure5_energy_magnetism_v2_preview"
-FIGURE_SOURCE = Path("paper/tables/figure_sources/fig05_energy_magnetism.csv")
+FIGURE_SOURCE = Path("tables/figure_sources/fig05_energy_magnetism.csv")
 ENERGY = "energy_total_energy_eV_per_atom"
 MOMENT = "magnetism_predicted_moment_value"
 

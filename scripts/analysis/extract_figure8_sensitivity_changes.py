@@ -1,10 +1,16 @@
 """Export exact baseline comparisons from the audited, source-precision CSV."""
 import csv
+import argparse
 from decimal import Decimal as D
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
-with (ROOT/'scenario_sensitivity_publication.csv').open(encoding='utf-8',newline='') as f:
+REPO = Path(__file__).resolve().parents[2]
+ROOT = REPO/'reproduced/figure8/scenario_sensitivity'
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--output-dir',type=Path,default=ROOT/'recheck')
+ROOT = parser.parse_args().output_dir
+ROOT.mkdir(parents=True,exist_ok=True)
+with (REPO/'tables/figure_sources/figure8/scenario_sensitivity_publication.csv').open(encoding='utf-8',newline='') as f:
     rows=list(csv.DictReader(f))
 lookup={(r['variant'],r['analysis_cohort']):r for r in rows}
 changes=[]

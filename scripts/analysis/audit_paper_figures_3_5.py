@@ -39,7 +39,7 @@ for cohort in current.COHORT_ORDER:
         rows.append({'cohort': cohort, 'panel': panel, 'n': len(values),
                      **{key: float(stats[key]) for key in ('q1', 'med', 'q3', 'whislo', 'whishi')}})
 df, paired = load_paired_predictions()
-path = 'paper/tables/figure_sources/fig05_energy_magnetism.csv'
+path = 'tables/figure_sources/fig05_energy_magnetism.csv'
 old_bytes = subprocess.check_output(['git', 'show', baseline + ':' + path])
 assert old_bytes.replace(b'\r\n', b'\n') == Path(path).read_bytes().replace(b'\r\n', b'\n')
 summary = paired.groupby('analysis_cohort')[[ENERGY, MOMENT]].agg(['count', 'median'])
@@ -66,7 +66,7 @@ publication4 = Path('paper/figures/fig04_magnetic_reference_dft.pdf').read_bytes
 if old_figure4 == publication4:
     print('PASS: Figure 4 is byte-identical to baseline.')
 else:
-    vector_audit = json.loads(Path('paper/figures/audit/figure4/original_vector_design_audit.json').read_text())
+    vector_audit = json.loads(Path('reproduced/figure4/publication_audit/original_vector_design_audit.json').read_text())
     assert vector_audit['source_sha256'] == hashlib.sha256(old_figure4).hexdigest()
     assert vector_audit['output_sha256'] == hashlib.sha256(publication4).hexdigest()
     assert vector_audit['original_geometry_stream_verified_inside_output']

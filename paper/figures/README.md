@@ -1,101 +1,38 @@
-# Manuscript figures
+# Publication figures
 
-This directory contains the manuscript-selected publication artifacts.
+Only selected publication PDFs, this map, checksums and `legacy/` belong here.
+Captions are consolidated in [figure_captions.md](../figure_captions.md).
+Raster previews and technical audits live under `reproduced/`.
 
-Generated analysis outputs remain under
-`reproduced/analysis_v2_magnetic/figures/`. The files in this directory are
-selected snapshots intended for manuscript preparation and review.
+| Figure | Selected PDF | Reproduction code | Scientific inputs |
+|---|---|---|---|
+| 1 | [Pipeline](fig01_pipeline.pdf) | Supplied artwork; historical code in `scripts/illustrations/plot_paper_pipeline_v3.py` | [Source](../../reproduced/figure1/fig01_pipeline_source.png); [preview](../../reproduced/figure1/previews/fig01_pipeline.png) |
+| 2 | [Structural QC](fig02_structural_overview.pdf) | `scripts/illustrations/plot_manuscript_figure2_v2.py` | Full `tables/02_validation/` and `tables/03_features/` QC records |
+| 3 | [Magnetic domain](fig03_magnetic_domain.pdf) | `scripts/illustrations/plot_manuscript_figure3_v2.py` | Frozen `tables/10_analysis_v2_magnetic/` plus FT descriptors in `tables/figure_sources/` |
+| 4 | [Reference screening / DFT](fig04_magnetic_reference_dft.pdf) | `scripts/illustrations/restyle_figure4_original_vectors.py`; `filter/scripts/plot_mp_only_publication.py` | Original statistical vectors and retrospective DFT; see [limitations](../../docs/figures/figure4_reproduction.md) |
+| 5 | [Energy–magnetism](fig05_energy_magnetism.pdf) | `scripts/illustrations/plot_manuscript_figure5_v2.py` | `tables/figure_sources/fig05_energy_magnetism.csv` |
+| 6 | [Diversity / adaptation](fig06_diversity_adaptation.pdf) | `scripts/illustrations/plot_fig06_diversity_adaptation_palette_preview.py` | `tables/figure_sources/fig06_compound_classes.csv`, `fig06_diversity_summary.csv` |
+| 8 | [Multiobjective trade-offs](fig08_multiobjective.pdf) | `scripts/analysis/build_paper_figure08_hybrid.py` | `tables/figure_sources/figure8/figure08_scenario_{metrics,rankings,pareto}_v2.csv` |
+| Supplementary 1 | [PCA loadings](supp01_pca_loadings.pdf) | `scripts/illustrations/plot_paper_pca.py` | Frozen analysis and two FT descriptor CSVs |
+| Supplementary 2 | [Descriptor space](supp02_descriptor_space.pdf) | `scripts/illustrations/plot_paper_pca.py` | Frozen analysis and two FT descriptor CSVs |
 
-## Main figures
+No selected Figure 7 or verified standalone caption for Figures 1/6 or the
+supplementary PCA figures was found; their numbering/captions require the external
+manuscript. No caption is invented here.
 
-| Manuscript figure | Scientific role | Reproduced source |
-|---|---|---|
-| Figure 1 | Study and analysis pipeline | [fig01_pipeline.pdf](fig01_pipeline.pdf), supplied replacement with [PNG companion](fig01_pipeline.png) |
-| Figure 2 | Structural QC retention and registered primary rejection reasons | `manuscript_figure2_structural_overview_v2_preview` |
-| Figure 3 | Magnetic-domain composition | `manuscript_figure3_magnetic_domain_v2_preview` |
-| Figure 4 | MP-only magnetic-reference screening and DFT validation | [fig04_magnetic_reference_dft.pdf](fig04_magnetic_reference_dft.pdf), original statistical vectors with updated design |
-| Figure 5 | Energy-magnetism landscape | `manuscript_figure5_energy_magnetism_v2_preview` |
-| Figure 6 | Diversity and adaptation | `manuscript_figure6_diversity_adaptation_v2_preview` |
+Figure 8 is Art Nouveau hybrid v2 selected without re-rendering or changing bytes.
+A contains five metrics; B is the S1 scatter with atomic-content marker size and
+S1 Pareto outlines; C is the S1 rank distribution; D is S1 Top-5 frequency.
+S2/S3 and alternative criteria are in the
+[Supporting Information map](../supporting_information/README.md).
+`scripts/analysis/build_paper_figure08.py` retains the historical presence-based
+analysis and exports exploratory artifacts only under `reproduced/figure8/`.
 
-Figure 2: see [provenance and reproduction](figure2_reproduction.md) and
-the [updated caption](figure2_caption.md). The selected PDF includes all
-ten QC sets and the final panel D labels, exported from real QC sources.
+See [reproduction instructions](../../docs/figures/README.md). Figure 4 retains
+original statistical vectors rather than numerically different recalculations.
+The ten-set Figure 6 still uses the documented palette-preview entry point;
+the historical eight-set implementation is retained.
 
-Figure 3: see [definitions, audit and reproduction](figure3_reproduction.md)
-and the [updated caption](figure3_caption.md). Its selected PDF includes all
-ten QC sets, using two separately calculated FT Descriptor v2 tables and
-the frozen eight-set analysis source. Server reproduction uses native QC
-files and the existing standardized enrichment, without recalculating enrichment.
-
-## Supplementary figures
-
-- `supp01_pca_loadings`: complete PCA loading overview derived from
-  `08_pca_loadings_v2`.
-
-## Artifact policy
-
-PDF files are the tracked manuscript publication artifacts.
-Figure 1 also includes the supplied PNG companion, `fig01_pipeline.png`.
-Raster previews remain available in the reproducible figure output directory.
-
-Internal analysis-stage labels such as `v2` and `_preview` are intentionally
-removed from manuscript filenames.
-
-These files should not be edited manually. Changes should be made in the
-reproducible plotting code and regenerated before replacing the selected
-manuscript artifact.
-
-
-## Current publication status
-
-- Figure 3, Figure 5, and Figure 6 contain the updated ten-cohort analyses.
-- `supp01_pca_loadings.pdf` and `supp02_descriptor_space.pdf`
-  contain the updated ten-cohort PCA results.
-- The [archived descriptor-space PCA figure](legacy/descriptor_space_pca.pdf)
-  is retained for provenance under `legacy/`, without a current figure number.
-- `fig04_magnetic_reference_dft.pdf` is the canonical Figure 4. Its updated
-  design preserves the original collaborator PDF's statistical vectors;
-  recalculated previews are not used as publication statistics. See
-  [reproduction and limitations](figure4_reproduction.md) and the
-  [caption](figure4_caption.md).
-- Panels A-C use the updated MP-only reference setup without MAGNDATA.
-  Panel D contains previously obtained DFT results and is not an
-  independent validation of the new A-C panels.
-- Figure 4's labels, shared generator palette and Base/FT/Refined hatching
-  are applied as vector graphics by
-  `scripts/illustrations/restyle_figure4_original_vectors.py`.
-- Figure 5 is generated from its verified ten-cohort figure-source CSV by
-  `scripts/illustrations/plot_manuscript_figure5_v2.py`; its caption is in
-  `figure5_caption.md`. Figure 6's permanent ten-cohort implementation
-  remains pending.
-- Figures 3 and 5 publication styling and verification are documented in
-  [figures_3_5_polish.md](figures_3_5_polish.md). Figure 4's MP-only calculation
-  and plotting source is `filter/scripts/plot_mp_only_publication.py`; the
-  original per-record scores and complete runtime lock remain unavailable.
-- Ten-cohort PCA is generated by
-  `scripts/illustrations/plot_paper_pca.py`.
-
-## Archive and checksums
-
-Only current publication PDFs use `figNN_` names in this directory. Archived
-PDFs live under `legacy/` and are excluded from the main figure numbering.
-`SHA256SUMS.txt` covers every PDF in this directory and its `legacy/`
-subdirectory, using paths relative to `paper/figures/`. It includes the
-current MP-only/DFT Figure 4; previews under `reproduced/` are not included.
-
-
-### Figure 8 — Multi-objective model selection
-
-The provisional three-objective benchmark evaluates ten cohorts
-using QC retention, unique-formula yield, and 3d-containing yield.
-
-- Selected PDF: `fig08_multiobjective.pdf`
-- Generator: `scripts/analysis/build_paper_figure08.py`
-- Caption and limitations: `fig08_caption.md`
-- Numerical inputs and results: `paper/tables/figure_sources/fig08_*.csv`
-
-Generation budgets are currently assumed to be 2,000 per
-cohort; independent provenance verification is pending.
-3d-containing yield is not a validated magnetic property.
-This figure must not be interpreted as a universal ranking
-of generative architectures.
+`SHA256SUMS.txt` covers current and archived PDFs relative to this directory.
+`legacy/` keeps original Figure 8 and hybrid versions for provenance; only
+`fig08_multiobjective.pdf` is current.

@@ -145,9 +145,11 @@ Provenance-only areas:
 - `archive/`
 - run-specific manifests, checksums, and README files
 
-Publication artifacts selected for a manuscript belong under `paper/figures/`
-or `paper/tables/` when they exist; exploratory outputs do not move there
-automatically.
+Selected publication PDFs belong under `paper/figures/`; formatted Supporting
+Information belongs under `paper/supporting_information/`. Frozen numerical
+figure inputs/results are centralized in `tables/figure_sources/`, alongside
+the unchanged numbered table stages. Technical audits and previews belong
+under `reproduced/`; reproduction instructions are in `docs/figures/`.
 
 Current code should not import from `archive/`. Historical files remain only to explain how earlier artifacts were produced.
 

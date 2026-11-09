@@ -3,13 +3,21 @@ import csv
 import hashlib
 import json
 import math
+import argparse
 from collections import defaultdict
 from decimal import Decimal as D, ROUND_HALF_UP
 from pathlib import Path
 
-OUT = Path(__file__).resolve().parent
-ROOT = OUT.parents[2]
-BASE = ROOT/'reproduced/figure8'
+ROOT = Path(__file__).resolve().parents[2]
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--output-dir', type=Path, default=ROOT/'reproduced/figure8/scenario_sensitivity/recheck')
+parser.add_argument('--publication-dir', type=Path, default=ROOT/'reproduced/figure8/scenario_sensitivity/recheck/publication')
+args = parser.parse_args()
+OUT, PUBLICATION = args.output_dir, args.publication_dir
+OUT.mkdir(parents=True, exist_ok=True)
+PUBLICATION.mkdir(parents=True, exist_ok=True)
+BASE = ROOT/'tables/figure_sources/figure8'
+AUDITS = ROOT/'reproduced/figure8'
 source_hashes = {}
 
 
@@ -20,7 +28,8 @@ def read(path):
 
 
 def save(name, text):
-    with (OUT/name).open('x', encoding='utf-8') as f:
+    target = PUBLICATION if name.startswith('table_s') else OUT
+    with (target/name).open('x', encoding='utf-8') as f:
         f.write(text)
 
 
@@ -147,13 +156,13 @@ y=[float(r['unique_formula_yield_pct']) for r in ss]
 pearson,spearman=corr(x,y),corr(rank_values(x),rank_values(y))
 
 # Verify consistency with the previous audit and the actual current Figure 8D.
-old=read(BASE/'audit_2026-11-09/scenario_results_source_precision.csv')
+old=read(AUDITS/'audit_2026-11-09/scenario_results_source_precision.csv')
 for r in old:
     for s in ('S1','S2','S3'):
         z=lookup[s,r['analysis_cohort']]
         close(z['equal_weight_score_source'],r[s+'_equal_weight_score'])
         assert z['equal_weight_rank']==int(r[s+'_equal_weight_rank'])
-for r in read(BASE/'hybrid_v2/panel_D_S1_top5_pct.csv'):
+for r in read(AUDITS/'hybrid_v2/panel_D_S1_top5_pct.csv'):
     z=lookup['S1',r['analysis_cohort']]
     close(z['top5_pct_exact'],r['top5_pct'])
     assert z['top5_pct_count']==int(r['top5_count'])

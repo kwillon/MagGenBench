@@ -2,7 +2,7 @@
 
 The publication PDF is **a visual restyling of the original plotted vectors**.
 It preserves the original statistical values; it does not publish the
-numerically different MP-only recalculation. See the [caption](figure4_caption.md).
+numerically different MP-only recalculation. See the [caption](../../paper/figure_captions.md#figure-4).
 
 ## Reproduce the design without scientific calculations
 
@@ -32,11 +32,11 @@ embedded images. The 0.02 pt coordinate tolerance bounds PDF matrix serializatio
 not a change in scientific values. A's original x-range extends to 1.025;
 every upper CI endpoint has positive clearance from the right clipping boundary.
 The checked publication export is recorded in
-[original_vector_design_audit.json](audit/figure4/original_vector_design_audit.json).
-The design environment is recorded in [design_environment.json](audit/figure4/design_environment.json).
+[original_vector_design_audit.json](../../reproduced/figure4/publication_audit/original_vector_design_audit.json).
+The design environment is recorded in [design_environment.json](../../reproduced/figure4/publication_audit/design_environment.json).
 The selected export passed 31 filter tests, four reproduction-guard tests and
 one vector-design integration test; checksums, links and unchanged Figures 3/5
-are recorded in [publication_checks.json](audit/figure4/publication_checks.json).
+are recorded in [publication_checks.json](../../reproduced/figure4/publication_audit/publication_checks.json).
 
 ## MP-only recalculation: sources and environment
 
@@ -59,12 +59,12 @@ matplotlib 3.10.8. Transitive pymatgen-core resolved to 2026.10.30;
 the original PDF's complete runtime lock is unavailable.
 
 - SMACT 4.0.0: 35/90 summary fields differ; see
-  [strict_original_vs_reproduced.csv](audit/figure4/strict_original_vs_reproduced.csv).
+  [strict_original_vs_reproduced.csv](../../reproduced/figure4/publication_audit/strict_original_vs_reproduced.csv).
 - One-factor SMACT 4.0.2 variant: 88/90 summary fields match (absolute tolerance
   1e-9). Explicit overrides are in `filter/environment/figure4-reproduction-overrides.txt`;
   original requirements remain unchanged. Full installed versions:
-  [strict_environment.json](audit/figure4/strict_environment.json) and
-  [smact402_environment.json](audit/figure4/smact402_environment.json).
+  [strict_environment.json](../../reproduced/figure4/publication_audit/strict_environment.json) and
+  [smact402_environment.json](../../reproduced/figure4/publication_audit/smact402_environment.json).
 
 On 100 identical boundary CIFs the SMACT change altered 79 values in two
 SMACT flags and 40 contrasts. Same-environment repeats were exact. Changing
@@ -76,7 +76,7 @@ CIF subsets; this does not establish version independence for all structures.
 Both runs used 20,000 CIFs: 18,485 scored and 1,515 excluded, matching cohort
 counts in the frozen summary. Exclusions: 3 CrystalFormer Base, 423 CrystaLLM
 Base and 1,089 CrystaLLM FT, from malformed/invalid CIFs; detailed reasons are in
-[exclusion_reasons.csv](audit/figure4/exclusion_reasons.csv). No selection criteria
+[exclusion_reasons.csv](../../reproduced/figure4/publication_audit/exclusion_reasons.csv). No selection criteria
 or source CIFs changed. The SMACT 4.0.2 run matches all point fractions,
 contrast medians, unique-formula counts and magnetic-class fractions.
 
@@ -126,7 +126,7 @@ the prior model; validation is retrospective. No new DFT was run.
 
 ## Audit records and limitations
 
-Compact full-precision [audit tables](audit/figure4/) retain summary/PDF
+Compact full-precision [audit tables](../../reproduced/figure4/publication_audit/) retain summary/PDF
 comparisons, all 11 assessments, bootstrap ranges, quantile support, independent
 distance checks, CIF population/order, DFT identity joins and class counts.
 Original scores/features/full lock were not found in 36 research ZIPs, FT

@@ -393,4 +393,4 @@ Then compare `validity_ratio`, `novelty_ratio`, `duplicate_ratio`, `avg_density`
 
 ## License
 
-MIT License. See the [LICENSE](LICENSE) file for details.
+MIT License. See the [LICENSE](../LICENSE) file for details.

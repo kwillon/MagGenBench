@@ -1,4 +1,6 @@
 from __future__ import annotations
+import argparse
+from pathlib import Path
 
 from mvpipeline.analysis.manuscript_figure5_v2 import (
     run_manuscript_figure5,
@@ -6,7 +8,10 @@ from mvpipeline.analysis.manuscript_figure5_v2 import (
 
 
 def main() -> int:
-    report = run_manuscript_figure5()
+    parser = argparse.ArgumentParser(description="Reproduce Figure 5 from frozen predictions without inference")
+    parser.add_argument('--output-dir', type=Path, help='Write verification figures to a separate directory')
+    args = parser.parse_args()
+    report = run_manuscript_figure5(**({'figure_dir': args.output_dir} if args.output_dir else {}))
 
     print("===== Manuscript Figure 5 =====")
     print(f"input: {report.input_csv}")

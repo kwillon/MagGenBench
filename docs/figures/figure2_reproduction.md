@@ -105,7 +105,7 @@ only the Figure 2 entry in `SHA256SUMS.txt` was updated. Figures 1 and 3
 and all frozen scientific tables are unaffected.
 
 The manuscript source is not present in this checkout. The ready caption
-is in `figure2_caption.md`; it describes the complete ten-set figure and
+is in `paper/figure_captions.md` (Figure 2); it describes the complete ten-set figure and
 accompanies the selected artifact with the updated rejection terminology.
 Layout tests use explicitly watermarked synthetic FT rows and are not
 scientific results or a replacement manuscript artifact.

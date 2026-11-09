@@ -62,22 +62,24 @@ def contrast_text(rgba):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output-dir", type=Path, default=REPO / "paper/figures")
-    parser.add_argument("--audit-dir", type=Path, default=REPO / "reproduced/figure8/hybrid_v2")
+    parser.add_argument("--audit-dir", type=Path, default=REPO / "reproduced/figure8/canonical")
+    parser.add_argument("--preview-dir", type=Path, help="PNG destination; defaults to reproduced/figure8/previews for publication exports")
     args = parser.parse_args()
-    paths = [args.output_dir / f"fig08_multiobjective_hybrid_v2.{ext}" for ext in ("pdf", "png")]
+    preview_dir = args.preview_dir or (REPO / "reproduced/figure8/previews" if args.output_dir.resolve() == (REPO / "paper/figures").resolve() else args.output_dir)
+    paths = [args.output_dir / "fig08_multiobjective.pdf", preview_dir / "fig08_multiobjective.png"]
     audit_names = ["panel_A_metrics_pct.csv", "panel_B_S1_scatter.csv",
                    "panel_C_S1_rank_distribution_pct.csv", "panel_D_S1_top5_pct.csv",
                    "audit.json", "report.md"]
     existing = [p for p in paths + [args.audit_dir / n for n in audit_names] if p.exists()]
     if existing:
         parser.error("Refusing to overwrite existing outputs: " + ", ".join(map(str, existing)))
-    source_paths = [REPO / "reproduced/figure8" / f"figure08_scenario_{n}_v2.csv"
+    source_paths = [REPO / "tables/figure_sources/figure8" / f"figure08_scenario_{n}_v2.csv"
                     for n in ("metrics", "rankings", "pareto")]
     protected = [*sorted((REPO / "paper/figures").glob("*.pdf")),
                  *sorted((REPO / "paper/figures").glob("*.png")),
                  REPO / "reproduced/figure8/figure08_scenarios_v2.pdf",
                  REPO / "reproduced/figure8/figure08_scenarios_v2.png"]
-    source_paths += protected
+    source_paths += [p for p in protected if p.exists()]
     digest = lambda p: hashlib.sha256(p.read_bytes()).hexdigest()
     before = {str(p.relative_to(REPO)): digest(p) for p in source_paths}
     metrics, rankings, pareto = [pd.read_csv(p, float_precision="round_trip") for p in source_paths[:3]]
@@ -259,6 +261,7 @@ def main():
             if artist.get_text():
                 assert not bar_box.overlaps(artist.get_window_extent(renderer)), artist.get_text()
     args.output_dir.mkdir(parents=True, exist_ok=True)
+    preview_dir.mkdir(parents=True, exist_ok=True)
     args.audit_dir.mkdir(parents=True, exist_ok=True)
     for path in paths:
         fig.savefig(path, dpi=300, bbox_inches="tight", pad_inches=.08)
@@ -296,7 +299,7 @@ Only display normalization, marker areas and D's sum of saved rank frequencies w
 
 The four panels retain a 2×2 layout, white background, no explanatory footer, unified 11-12 pt labels and 15 pt headings, and embedded TrueType PDF fonts. Family palette: MatterGen #4F6745; Con-CDVAE #61838F; CrystalFormer #E89339; CrystaLLM #AD463D; Crys-JEPA #304862. A/C sequential gradient: #F4EFE5 -> #B2C1BC -> #829DA6 -> #61838F -> #243350. A annotations choose dark/white text using relative luminance for contrast. Article text and previous publication figures were not changed; their hashes are checked.
 
-Inputs: `reproduced/figure8/figure08_scenario_metrics_v2.csv`, `figure08_scenario_rankings_v2.csv`, and `figure08_scenario_pareto_v2.csv`. Implementation follows `scripts/analysis/build_paper_figure08.py` and imports the existing `plotting_v2` publication style. Exact source/output SHA256 hashes and numeric checks are in `audit.json`; four panel-source CSVs accompany this report.
+Inputs: `tables/figure_sources/figure8/figure08_scenario_metrics_v2.csv`, `figure08_scenario_rankings_v2.csv`, and `figure08_scenario_pareto_v2.csv`. Implementation follows `scripts/analysis/build_paper_figure08.py` and imports the existing `plotting_v2` publication style. Exact source/output SHA256 hashes and numeric checks are in `audit.json`; four panel-source CSVs accompany this report.
 """
     report += "\n## S1 Top-5 frequencies\n\n| Generated set | Top-5 count / 20000 | Frequency (%) |\n|---|---:|---:|\n"
     for _, row in panel_d.iterrows():

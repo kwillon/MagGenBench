@@ -205,7 +205,7 @@ Exports: PNG (450 dpi), PDF and SVG under
 `figure3_availability_audit.csv`. --audit-only performs the identity and
 availability audit without plotting. The selected manuscript PDF is
 `paper/figures/fig03_magnetic_domain.pdf`; PNG and PDF renders were
-visually checked. Caption: `figure3_caption.md`.
+visually checked. Caption: `paper/figure_captions.md` (Figure 3).
 The manuscript text is outside this checkout.
 
 Figures 1 and 2, shared Descriptor v2/analysis tables, and Figures 4-6

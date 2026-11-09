@@ -32,11 +32,11 @@ def close(a, b, tol="1e-10"):
     assert abs(D(str(a)) - D(str(b))) <= D(tol), (a, b)
 
 
-metrics = rows("reproduced/figure8/figure08_scenario_metrics_v2.csv")
-ranks = rows("reproduced/figure8/figure08_scenario_rankings_v2.csv")
-original = rows("paper/tables/figure_sources/fig08_metric_matrix.csv")
-diversity = rows("paper/tables/figure_sources/fig06_diversity_summary.csv")
-energy = rows("paper/tables/figure_sources/fig05_energy_magnetism.csv")
+metrics = rows("tables/figure_sources/figure8/figure08_scenario_metrics_v2.csv")
+ranks = rows("tables/figure_sources/figure8/figure08_scenario_rankings_v2.csv")
+original = rows("tables/figure_sources/fig08_metric_matrix.csv")
+diversity = rows("tables/figure_sources/fig06_diversity_summary.csv")
+energy = rows("tables/figure_sources/fig05_energy_magnetism.csv")
 order = [r["analysis_cohort"] for r in original]
 assert len(order) == len(set(order)) == 10
 assert len(metrics) == 90 and len(ranks) == 30
@@ -54,7 +54,7 @@ chemicals = {'S1': '3d_atomic_content_yield', 'S2': 'lanthanide_atomic_content_y
 # The same descriptor population assembled by the original build script.
 descriptors = rows('tables/10_analysis_v2_magnetic/analysis_v2_magnetic.csv')
 for cohort in ('crystalformer_finetuned', 'crystallm_finetuned'):
-    descriptors += rows(f'paper/tables/figure_sources/{cohort}_descriptors.csv')
+    descriptors += rows(f'tables/figure_sources/{cohort}_descriptors.csv')
 assert len(descriptors) == len(energy) == 12281
 assert len({r['sample_uid'] for r in descriptors}) == 12281
 assert {(r['analysis_cohort'], r['sample_uid']) for r in descriptors} == {
@@ -172,10 +172,10 @@ for r in rounding:
 with (OUT/'comparison_table.md').open('x', encoding='utf-8') as f:
     f.write('\n'.join(table)+'\n\nAll yields use Ngen = 2000. Scores are dimensionless (0-1); rank 1 is best. S1/S2: summed per-structure atomic fractions; S3: presence of either configured group. Percentages have two decimals, except nonzero values below 0.01%, shown with four decimals.\n')
 for name in ('scripts/analysis/build_paper_figure08.py', 'paper/figures/fig08_multiobjective.pdf',
-             'paper/figures/fig08_caption.md', 'config/magnetism.yaml',
+             'docs/figures/legacy/fig08_presence_caption.md', 'config/magnetism.yaml',
              'reproduced/figure8/figure08_scenarios_v2.pdf',
-             'paper/tables/figure_sources/fig08_rank_distribution.csv',
-             'paper/tables/figure_sources/fig08_ranking_summary.csv'):
+             'tables/figure_sources/fig08_rank_distribution.csv',
+             'tables/figure_sources/fig08_ranking_summary.csv'):
     SOURCES.add(ROOT/name)
 manifest = {str(p.relative_to(ROOT)).replace('\\','/'):hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(SOURCES)}
 with (OUT/'verification.json').open('x', encoding='utf-8') as f:

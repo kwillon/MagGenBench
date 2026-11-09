@@ -6,6 +6,12 @@ artifacts, not hand-curated source data.
 
 ## Current Roles
 
+- `figure_sources/`: frozen publication inputs formerly under `paper/tables/figure_sources/`.
+  `figure8/` preserves scenario, alternative-criterion and QC-ablation results;
+  `figure5_overlap/` preserves OVL/SWD, bootstrap arrays and sample provenance.
+  No scientific values changed in the move. `path_relocations.json` maps old
+  audit paths to current locations. Formatted SI remains under `paper/supporting_information/`.
+
 - `01_master/`: upstream benchmark master snapshot externalized after verifying that its 102 fields and all row values are preserved unchanged in `02_validation/`; provenance is recorded under `archive/manifests/`.
 - `02_validation/`: structural-validation outputs and provenance tables.
 - `03_features/`: annotation and compound-classification stage artifacts.

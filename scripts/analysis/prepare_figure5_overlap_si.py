@@ -17,9 +17,11 @@ from mvpipeline.analysis.figure5_overlap import (
     COHORTS, ENERGY, FAMILIES, MOMENT, PAIRS, RESOLUTIONS, SlicedW1,
     common_edges, fixed_directions, load_population, standardize,
 )
+from mvpipeline.analysis.artifact_paths import resolve_artifact_path
 
-INPUT = Path("reproduced/figure5_overlap")
+INPUT = Path("tables/figure_sources/figure5_overlap")
 OUTPUT = Path("paper/supporting_information")
+AUDIT_OUTPUT = Path("reproduced/figure5_overlap")
 TITLE = ("Table S7. Pairwise distribution overlap and sliced Wasserstein-1 distances "
          "between generator families in the predicted energy–magnetism space.")
 HEADERS = ("Generator family pair", "OVL (15 × 15 grid)",
@@ -49,8 +51,15 @@ def read_metrics(path):
 
 
 def main():
+    import argparse
+    global OUTPUT, AUDIT_OUTPUT
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--output-dir', type=Path, default=OUTPUT)
+    parser.add_argument('--audit-dir', type=Path, default=AUDIT_OUTPUT)
+    args = parser.parse_args()
+    OUTPUT, AUDIT_OUTPUT = args.output_dir, args.audit_dir
     params = json.loads((INPUT / "analysis_parameters.json").read_text())
-    source = Path(params["source"])
+    source = resolve_artifact_path(params["source"])
     protected = sorted(p for p in INPUT.iterdir() if p.is_file()) + [
         source, Path("paper/figures/fig05_energy_magnetism.pdf")]
     before = {p: sha256(p) for p in protected}
@@ -241,7 +250,7 @@ OVL sensitivity was assessed on common 10 × 10 and 20 × 20 grids in addition t
               "This explains the direction of the observed bias; it is not a demonstration of nominal 95% "
               "coverage. The original values are preserved and the table note flags the limitation.", "",
               "## Sensitivity and interpretation", "", sensitivity, "",
-              "Underlying checks: `reproduced/figure5_overlap/pairwise_overlap.csv` (resolution and balanced-n "
+              "Underlying checks: `tables/figure_sources/figure5_overlap/pairwise_overlap.csv` (resolution and balanced-n "
               "results), `grid_origin_sensitivity.csv` (origin shifts), and `resampling_distributions.npz` "
               "(replicates). Other pairs may change rank; no claim of complete rank stability is made.", "",
               "## Table numbering and placement", "",
@@ -267,15 +276,17 @@ OVL sensitivity was assessed on common 10 × 10 and 20 × 20 grids in addition t
         writer.writerow(HEADERS)
         writer.writerows(rows)
     (OUTPUT / "figure5_overlap_manuscript_insert.md").write_text(insert, encoding="utf-8")
-    (OUTPUT / "figure5_overlap_si_audit.md").write_text("\n".join(checks) + "\n", encoding="utf-8")
+    AUDIT_OUTPUT.mkdir(parents=True, exist_ok=True)
+    (AUDIT_OUTPUT / "figure5_overlap_si_audit.md").write_text("\n".join(checks) + "\n", encoding="utf-8")
     for p, digest in before.items():
         assert sha256(p) == digest, f"Protected file changed: {p}"
     with (OUTPUT / "table_s7_pairwise_overlap.csv").open(encoding="utf-8", newline="") as stream:
         assert list(csv.reader(stream)) == [list(HEADERS)] + [list(r) for r in rows]
     print("PASS: population, metrics, saved resampling, publication formatting, and protected hashes")
     for name in ("figure5_overlap_supporting_information.md", "table_s7_pairwise_overlap.csv",
-                 "figure5_overlap_manuscript_insert.md", "figure5_overlap_si_audit.md"):
+                 "figure5_overlap_manuscript_insert.md"):
         print(OUTPUT / name)
+    print(AUDIT_OUTPUT / 'figure5_overlap_si_audit.md')
 
 
 if __name__ == "__main__":

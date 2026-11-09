@@ -13,7 +13,7 @@ from matplotlib.colors import LinearSegmentedColormap, TwoSlopeNorm
 
 
 ROOT = Path(__file__).resolve().parents[2]
-INPUT_CSV = ROOT / "paper" / "tables" / "figure_sources" / "fig06_compound_classes.csv"
+INPUT_CSV = ROOT / "tables" / "figure_sources" / "fig06_compound_classes.csv"
 OUTPUT_DIR = ROOT / "reproduced" / "figure6"
 OUTPUT_PDF = OUTPUT_DIR / "fig06_diversity_adaptation_palette_preview.pdf"
 OUTPUT_PNG = OUTPUT_DIR / "fig06_diversity_adaptation_palette_preview.png"

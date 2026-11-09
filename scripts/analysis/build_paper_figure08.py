@@ -39,9 +39,10 @@ if sum((args.chemistry_only, args.compare_criteria, args.compare_scenarios,
         args.compare_ablation, args.build_figure8_v2)) > 1:
     parser.error("Choose only one calculation or figure-building mode")
 
-ROOT = Path("paper/tables/figure_sources")
+ROOT = Path("tables/figure_sources")
 MASTER = Path("tables/10_analysis_v2_magnetic/analysis_v2_magnetic.csv")
 OUTPUT = Path("reproduced/figure8")
+SAVED = Path("tables/figure_sources/figure8")
 OUTPUT.mkdir(parents=True, exist_ok=True)
 
 COHORTS = [
@@ -60,7 +61,7 @@ ORDER = [x[0] for x in COHORTS]
 LABELS = dict(COHORTS)
 
 if args.build_figure8_v2:
-    inputs = [OUTPUT / f"figure08_scenario_{name}_v2.csv"
+    inputs = [SAVED / f"figure08_scenario_{name}_v2.csv"
               for name in ("metrics", "rankings", "pareto")]
     missing = [path for path in inputs if not path.is_file()]
     if missing:
@@ -432,14 +433,14 @@ if args.compare_criteria or args.compare_scenarios or args.compare_ablation:
             "S2": ("Lanthanide-focused", [*METRICS[:2], "lanthanide_atomic_content_yield"]),
             "S3": ("Broad chemical exploration", [*METRICS[:2], "configured_3d_lanthanide_union_yield"]),
         }
-        baseline_rankings = pd.read_csv(OUTPUT / "figure08_criteria_rankings_v2.csv")
+        baseline_rankings = pd.read_csv(SAVED / "figure08_criteria_rankings_v2.csv")
         assert set(baseline_rankings.variant) == {"A", "B", "C"}
         assert not baseline_rankings.duplicated(["variant", "analysis_cohort"]).any()
         for baseline in ("A", "B", "C"):
             baseline_rows = baseline_rankings.loc[baseline_rankings.variant.eq(baseline)]
             assert baseline_rows.analysis_cohort.tolist() == ORDER
             assert baseline_rows.n_weights.eq(20000).all()
-        baseline_metrics = pd.read_csv(OUTPUT / "figure08_criteria_metrics_v2.csv")
+        baseline_metrics = pd.read_csv(SAVED / "figure08_criteria_metrics_v2.csv")
         for baseline in ("A", "B", "C"):
             for metric in baseline_metrics.loc[baseline_metrics.variant.eq(baseline), "criterion"].unique():
                 rows = baseline_metrics.loc[
@@ -470,10 +471,10 @@ if args.compare_criteria or args.compare_scenarios or args.compare_ablation:
             f"{scenario}-2D": (label, metrics[1:])
             for scenario, (label, metrics) in variants.items()
         }
-        baseline_rankings = pd.read_csv(OUTPUT / "figure08_scenario_rankings_v2.csv")
+        baseline_rankings = pd.read_csv(SAVED / "figure08_scenario_rankings_v2.csv")
         assert set(baseline_rankings.variant) == {"S1", "S2", "S3"}
         assert not baseline_rankings.duplicated(["variant", "analysis_cohort"]).any()
-        saved_metrics = pd.read_csv(OUTPUT / "figure08_scenario_metrics_v2.csv")
+        saved_metrics = pd.read_csv(SAVED / "figure08_scenario_metrics_v2.csv")
         assert set(saved_metrics.variant) == {"S1", "S2", "S3"}
         assert len(saved_metrics) == 90
         assert not saved_metrics.duplicated(["variant", "analysis_cohort", "criterion"]).any()

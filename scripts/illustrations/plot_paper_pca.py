@@ -18,7 +18,7 @@ ROOT = Path("reproduced/pca_publication")
 ROOT.mkdir(parents=True, exist_ok=True)
 
 OLD = Path("tables/10_analysis_v2_magnetic/analysis_v2_magnetic.csv")
-FT_ROOT = Path("paper/tables/figure_sources")
+FT_ROOT = Path("tables/figure_sources")
 
 ORDER = [
     "mattergen_baseline", "mattergen_finetuned",

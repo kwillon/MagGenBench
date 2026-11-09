@@ -3,3 +3,4 @@ tables/07_magnetic_descriptors/standardized/*.csv -text
 tables/08_standardized_enrichment/*.csv -text
 tables/09_descriptor_v2_magnetic/*.csv -text whitespace=cr-at-eol
 tables/10_analysis_v2_magnetic/*.csv -text whitespace=cr-at-eol
+tables/figure_sources/** -text whitespace=cr-at-eol
