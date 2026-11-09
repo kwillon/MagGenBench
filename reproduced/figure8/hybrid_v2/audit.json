@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "seed_of_saved_calculation": 1984,
+  "n_weights": 20000,
+  "rank_distribution_source": "saved S1 rank_1_pct through rank_10_pct; no resampling",
+  "panel_A": "five saved metrics, per-column min-max colors, original percentages annotated",
+  "panel_B": "QC vs formula yield; area = 55 + 2 * S1 atomic-content yield; S1 Pareto outlines",
+  "panel_C": "saved S1 rank distribution, percent of 20000 weight combinations",
+  "panel_D": "S1 Top-5 frequency = sum of C ranks 1-5; descending stable order",
+  "source_sha256": {
+    "reproduced\\figure8\\figure08_scenario_metrics_v2.csv": "dbaa3b3a1064f915e7d50db6a3ae62ac102f11008cbeccc56687607ef3e81312",
+    "reproduced\\figure8\\figure08_scenario_rankings_v2.csv": "f4c9e429792d68592ff7f793dffc50b95fd7c249b29d43804719c5c9945e39a0",
+    "reproduced\\figure8\\figure08_scenario_pareto_v2.csv": "f9ba88fa2f6c06989008ec8764cb2a1f6cd556c2a40dabc149c49742835e395f",
+    "paper\\figures\\fig01_pipeline.pdf": "e66d6a2c15b83c3605d08b5cfaff1094c9b81a72f81f445e1fb7fc63c1349e44",
+    "paper\\figures\\fig02_structural_overview.pdf": "44536e14b5f5546e56ec9562c013334a309e5ee6046a664b9f0802ab8642baad",
+    "paper\\figures\\fig03_magnetic_domain.pdf": "1a0ea22f2740ea82ea8f0559d8d2f7fd20ac5507c17825d2bde47aa112c21295",
+    "paper\\figures\\fig04_magnetic_reference_dft.pdf": "4462263831a192f6a289606ecb344609e838eff907d4b9556c1f04407eae5e47",
+    "paper\\figures\\fig05_energy_magnetism.pdf": "319065067ea45bd189491abca42383e35cd02cc0aade4c691e837461d0aeccfe",
+    "paper\\figures\\fig06_diversity_adaptation.pdf": "4d5ea4918666afb57f918165985bbfd8b3c6da44073955ffd783a78aef6f6500",
+    "paper\\figures\\fig08_multiobjective.pdf": "d64d2e4dad6f86a80c3fe6259e57f2fe765f6edbe6897a71123af4a78acc17df",
+    "paper\\figures\\fig08_multiobjective_hybrid.pdf": "d32c51455a11375112171cb079e5e14b7a3f5f8d666250b0e580f26d30cbadae",
+    "paper\\figures\\supp01_pca_loadings.pdf": "d33e19b755412e0d355c66bfe0af8c6cdc14fc745210b51a2e8917ced64e23d9",
+    "paper\\figures\\supp02_descriptor_space.pdf": "360e4b46d5b2b3d6348b1bd20d7be9b24a0de12f72bbd70245d8c3b10166492b",
+    "paper\\figures\\fig01_pipeline.png": "7625c5d435f0a7bb7b63d37b79c976eb2e862f90fd66d780ba40dfaa6756ec8c",
+    "paper\\figures\\fig08_multiobjective_hybrid.png": "4752e6527331c650dea14f76309b64a8846bf03cc77e70661f171b3e872b22b8",
+    "reproduced\\figure8\\figure08_scenarios_v2.pdf": "a8af21d060b947e9b719fc243c7073474f85b8a5085f0e974609226fe02423fb",
+    "reproduced\\figure8\\figure08_scenarios_v2.png": "0c0f484fe3716c0ad3b3244ec34db8d802335719d1c193e6f49f771e0c6069e5"
+  },
+  "family_colors": {
+    "mattergen": "#4F6745",
+    "concdvae": "#61838F",
+    "crystalformer": "#E89339",
+    "crystallm": "#AD463D",
+    "crysjepa": "#304862"
+  },
+  "sequential_gradient": [
+    "#F4EFE5",
+    "#B2C1BC",
+    "#829DA6",
+    "#61838F",
+    "#243350"
+  ],
+  "checks": [
+    "A repeated structural metrics agree across S1-S3",
+    "all equal scores and ranks verified",
+    "Pareto dominance verified for all scenarios",
+    "C row and column sums equal 100%",
+    "C frequencies correspond to integer counts out of 20000",
+    "C first/top3/top5/mean rank agree with saved S1 summaries",
+    "D equals C ranks 1-5 and saved S1 top5_pct",
+    "D integer counts total 100000 (5 ranks times 20000 weights)",
+    "D sorted descending; equal frequencies retain cohort order",
+    "colorbars clear of tick and axis labels",
+    "input and old figure hashes unchanged"
+  ],
+  "output_sha256": {
+    "C:\\Users\\REDMI\\Projects\\MagGenBench\\paper\\figures\\fig08_multiobjective_hybrid_v2.pdf": "3b7ec054069d739faba5153af3abcda4b22c7c8c5728d9998e3d132095e55b02",
+    "C:\\Users\\REDMI\\Projects\\MagGenBench\\paper\\figures\\fig08_multiobjective_hybrid_v2.png": "ba17390f3bee2c5f80d269df1c699bc924b0e3ff46567d92ae21f14aed4a24e0"
+  }
+}

@@ -1,0 +1,301 @@
+variant,variant_label,analysis_cohort,label,pareto_efficient,n_dominators,compared_cohort,dominates
+A,Original,mattergen_baseline,MatterGen Base,True,0,mattergen_baseline,False
+A,Original,mattergen_baseline,MatterGen Base,True,0,mattergen_finetuned,False
+A,Original,mattergen_baseline,MatterGen Base,True,0,concdvae_baseline,False
+A,Original,mattergen_baseline,MatterGen Base,True,0,concdvae_finetuned,False
+A,Original,mattergen_baseline,MatterGen Base,True,0,crystalformer_baseline,True
+A,Original,mattergen_baseline,MatterGen Base,True,0,crystalformer_finetuned,False
+A,Original,mattergen_baseline,MatterGen Base,True,0,crystallm_baseline,True
+A,Original,mattergen_baseline,MatterGen Base,True,0,crystallm_finetuned,True
+A,Original,mattergen_baseline,MatterGen Base,True,0,crysjepa_base,False
+A,Original,mattergen_baseline,MatterGen Base,True,0,crysjepa_refined,True
+A,Original,mattergen_finetuned,MatterGen FT,True,0,mattergen_baseline,False
+A,Original,mattergen_finetuned,MatterGen FT,True,0,mattergen_finetuned,False
+A,Original,mattergen_finetuned,MatterGen FT,True,0,concdvae_baseline,False
+A,Original,mattergen_finetuned,MatterGen FT,True,0,concdvae_finetuned,False
+A,Original,mattergen_finetuned,MatterGen FT,True,0,crystalformer_baseline,False
+A,Original,mattergen_finetuned,MatterGen FT,True,0,crystalformer_finetuned,False
+A,Original,mattergen_finetuned,MatterGen FT,True,0,crystallm_baseline,True
+A,Original,mattergen_finetuned,MatterGen FT,True,0,crystallm_finetuned,True
+A,Original,mattergen_finetuned,MatterGen FT,True,0,crysjepa_base,False
+A,Original,mattergen_finetuned,MatterGen FT,True,0,crysjepa_refined,False
+A,Original,concdvae_baseline,Con-CDVAE Base,True,0,mattergen_baseline,False
+A,Original,concdvae_baseline,Con-CDVAE Base,True,0,mattergen_finetuned,False
+A,Original,concdvae_baseline,Con-CDVAE Base,True,0,concdvae_baseline,False
+A,Original,concdvae_baseline,Con-CDVAE Base,True,0,concdvae_finetuned,False
+A,Original,concdvae_baseline,Con-CDVAE Base,True,0,crystalformer_baseline,True
+A,Original,concdvae_baseline,Con-CDVAE Base,True,0,crystalformer_finetuned,False
+A,Original,concdvae_baseline,Con-CDVAE Base,True,0,crystallm_baseline,True
+A,Original,concdvae_baseline,Con-CDVAE Base,True,0,crystallm_finetuned,True
+A,Original,concdvae_baseline,Con-CDVAE Base,True,0,crysjepa_base,True
+A,Original,concdvae_baseline,Con-CDVAE Base,True,0,crysjepa_refined,True
+A,Original,concdvae_finetuned,Con-CDVAE FT,True,0,mattergen_baseline,False
+A,Original,concdvae_finetuned,Con-CDVAE FT,True,0,mattergen_finetuned,False
+A,Original,concdvae_finetuned,Con-CDVAE FT,True,0,concdvae_baseline,False
+A,Original,concdvae_finetuned,Con-CDVAE FT,True,0,concdvae_finetuned,False
+A,Original,concdvae_finetuned,Con-CDVAE FT,True,0,crystalformer_baseline,False
+A,Original,concdvae_finetuned,Con-CDVAE FT,True,0,crystalformer_finetuned,False
+A,Original,concdvae_finetuned,Con-CDVAE FT,True,0,crystallm_baseline,True
+A,Original,concdvae_finetuned,Con-CDVAE FT,True,0,crystallm_finetuned,True
+A,Original,concdvae_finetuned,Con-CDVAE FT,True,0,crysjepa_base,False
+A,Original,concdvae_finetuned,Con-CDVAE FT,True,0,crysjepa_refined,False
+A,Original,crystalformer_baseline,CrystalFormer Base,False,3,mattergen_baseline,False
+A,Original,crystalformer_baseline,CrystalFormer Base,False,3,mattergen_finetuned,False
+A,Original,crystalformer_baseline,CrystalFormer Base,False,3,concdvae_baseline,False
+A,Original,crystalformer_baseline,CrystalFormer Base,False,3,concdvae_finetuned,False
+A,Original,crystalformer_baseline,CrystalFormer Base,False,3,crystalformer_baseline,False
+A,Original,crystalformer_baseline,CrystalFormer Base,False,3,crystalformer_finetuned,False
+A,Original,crystalformer_baseline,CrystalFormer Base,False,3,crystallm_baseline,True
+A,Original,crystalformer_baseline,CrystalFormer Base,False,3,crystallm_finetuned,True
+A,Original,crystalformer_baseline,CrystalFormer Base,False,3,crysjepa_base,False
+A,Original,crystalformer_baseline,CrystalFormer Base,False,3,crysjepa_refined,False
+A,Original,crystalformer_finetuned,CrystalFormer FT,True,0,mattergen_baseline,False
+A,Original,crystalformer_finetuned,CrystalFormer FT,True,0,mattergen_finetuned,False
+A,Original,crystalformer_finetuned,CrystalFormer FT,True,0,concdvae_baseline,False
+A,Original,crystalformer_finetuned,CrystalFormer FT,True,0,concdvae_finetuned,False
+A,Original,crystalformer_finetuned,CrystalFormer FT,True,0,crystalformer_baseline,False
+A,Original,crystalformer_finetuned,CrystalFormer FT,True,0,crystalformer_finetuned,False
+A,Original,crystalformer_finetuned,CrystalFormer FT,True,0,crystallm_baseline,True
+A,Original,crystalformer_finetuned,CrystalFormer FT,True,0,crystallm_finetuned,True
+A,Original,crystalformer_finetuned,CrystalFormer FT,True,0,crysjepa_base,False
+A,Original,crystalformer_finetuned,CrystalFormer FT,True,0,crysjepa_refined,False
+A,Original,crystallm_baseline,CrystaLLM Base,False,9,mattergen_baseline,False
+A,Original,crystallm_baseline,CrystaLLM Base,False,9,mattergen_finetuned,False
+A,Original,crystallm_baseline,CrystaLLM Base,False,9,concdvae_baseline,False
+A,Original,crystallm_baseline,CrystaLLM Base,False,9,concdvae_finetuned,False
+A,Original,crystallm_baseline,CrystaLLM Base,False,9,crystalformer_baseline,False
+A,Original,crystallm_baseline,CrystaLLM Base,False,9,crystalformer_finetuned,False
+A,Original,crystallm_baseline,CrystaLLM Base,False,9,crystallm_baseline,False
+A,Original,crystallm_baseline,CrystaLLM Base,False,9,crystallm_finetuned,False
+A,Original,crystallm_baseline,CrystaLLM Base,False,9,crysjepa_base,False
+A,Original,crystallm_baseline,CrystaLLM Base,False,9,crysjepa_refined,False
+A,Original,crystallm_finetuned,CrystaLLM FT,False,7,mattergen_baseline,False
+A,Original,crystallm_finetuned,CrystaLLM FT,False,7,mattergen_finetuned,False
+A,Original,crystallm_finetuned,CrystaLLM FT,False,7,concdvae_baseline,False
+A,Original,crystallm_finetuned,CrystaLLM FT,False,7,concdvae_finetuned,False
+A,Original,crystallm_finetuned,CrystaLLM FT,False,7,crystalformer_baseline,False
+A,Original,crystallm_finetuned,CrystaLLM FT,False,7,crystalformer_finetuned,False
+A,Original,crystallm_finetuned,CrystaLLM FT,False,7,crystallm_baseline,True
+A,Original,crystallm_finetuned,CrystaLLM FT,False,7,crystallm_finetuned,False
+A,Original,crystallm_finetuned,CrystaLLM FT,False,7,crysjepa_base,False
+A,Original,crystallm_finetuned,CrystaLLM FT,False,7,crysjepa_refined,False
+A,Original,crysjepa_base,Crys-JEPA Base,False,1,mattergen_baseline,False
+A,Original,crysjepa_base,Crys-JEPA Base,False,1,mattergen_finetuned,False
+A,Original,crysjepa_base,Crys-JEPA Base,False,1,concdvae_baseline,False
+A,Original,crysjepa_base,Crys-JEPA Base,False,1,concdvae_finetuned,False
+A,Original,crysjepa_base,Crys-JEPA Base,False,1,crystalformer_baseline,True
+A,Original,crysjepa_base,Crys-JEPA Base,False,1,crystalformer_finetuned,False
+A,Original,crysjepa_base,Crys-JEPA Base,False,1,crystallm_baseline,True
+A,Original,crysjepa_base,Crys-JEPA Base,False,1,crystallm_finetuned,True
+A,Original,crysjepa_base,Crys-JEPA Base,False,1,crysjepa_base,False
+A,Original,crysjepa_base,Crys-JEPA Base,False,1,crysjepa_refined,True
+A,Original,crysjepa_refined,Crys-JEPA Refined,False,3,mattergen_baseline,False
+A,Original,crysjepa_refined,Crys-JEPA Refined,False,3,mattergen_finetuned,False
+A,Original,crysjepa_refined,Crys-JEPA Refined,False,3,concdvae_baseline,False
+A,Original,crysjepa_refined,Crys-JEPA Refined,False,3,concdvae_finetuned,False
+A,Original,crysjepa_refined,Crys-JEPA Refined,False,3,crystalformer_baseline,False
+A,Original,crysjepa_refined,Crys-JEPA Refined,False,3,crystalformer_finetuned,False
+A,Original,crysjepa_refined,Crys-JEPA Refined,False,3,crystallm_baseline,True
+A,Original,crysjepa_refined,Crys-JEPA Refined,False,3,crystallm_finetuned,False
+A,Original,crysjepa_refined,Crys-JEPA Refined,False,3,crysjepa_base,False
+A,Original,crysjepa_refined,Crys-JEPA Refined,False,3,crysjepa_refined,False
+B,Chemical presence,mattergen_baseline,MatterGen Base,True,0,mattergen_baseline,False
+B,Chemical presence,mattergen_baseline,MatterGen Base,True,0,mattergen_finetuned,False
+B,Chemical presence,mattergen_baseline,MatterGen Base,True,0,concdvae_baseline,False
+B,Chemical presence,mattergen_baseline,MatterGen Base,True,0,concdvae_finetuned,False
+B,Chemical presence,mattergen_baseline,MatterGen Base,True,0,crystalformer_baseline,True
+B,Chemical presence,mattergen_baseline,MatterGen Base,True,0,crystalformer_finetuned,False
+B,Chemical presence,mattergen_baseline,MatterGen Base,True,0,crystallm_baseline,True
+B,Chemical presence,mattergen_baseline,MatterGen Base,True,0,crystallm_finetuned,True
+B,Chemical presence,mattergen_baseline,MatterGen Base,True,0,crysjepa_base,False
+B,Chemical presence,mattergen_baseline,MatterGen Base,True,0,crysjepa_refined,True
+B,Chemical presence,mattergen_finetuned,MatterGen FT,True,0,mattergen_baseline,False
+B,Chemical presence,mattergen_finetuned,MatterGen FT,True,0,mattergen_finetuned,False
+B,Chemical presence,mattergen_finetuned,MatterGen FT,True,0,concdvae_baseline,False
+B,Chemical presence,mattergen_finetuned,MatterGen FT,True,0,concdvae_finetuned,False
+B,Chemical presence,mattergen_finetuned,MatterGen FT,True,0,crystalformer_baseline,False
+B,Chemical presence,mattergen_finetuned,MatterGen FT,True,0,crystalformer_finetuned,False
+B,Chemical presence,mattergen_finetuned,MatterGen FT,True,0,crystallm_baseline,False
+B,Chemical presence,mattergen_finetuned,MatterGen FT,True,0,crystallm_finetuned,False
+B,Chemical presence,mattergen_finetuned,MatterGen FT,True,0,crysjepa_base,False
+B,Chemical presence,mattergen_finetuned,MatterGen FT,True,0,crysjepa_refined,False
+B,Chemical presence,concdvae_baseline,Con-CDVAE Base,True,0,mattergen_baseline,False
+B,Chemical presence,concdvae_baseline,Con-CDVAE Base,True,0,mattergen_finetuned,False
+B,Chemical presence,concdvae_baseline,Con-CDVAE Base,True,0,concdvae_baseline,False
+B,Chemical presence,concdvae_baseline,Con-CDVAE Base,True,0,concdvae_finetuned,False
+B,Chemical presence,concdvae_baseline,Con-CDVAE Base,True,0,crystalformer_baseline,True
+B,Chemical presence,concdvae_baseline,Con-CDVAE Base,True,0,crystalformer_finetuned,False
+B,Chemical presence,concdvae_baseline,Con-CDVAE Base,True,0,crystallm_baseline,True
+B,Chemical presence,concdvae_baseline,Con-CDVAE Base,True,0,crystallm_finetuned,True
+B,Chemical presence,concdvae_baseline,Con-CDVAE Base,True,0,crysjepa_base,True
+B,Chemical presence,concdvae_baseline,Con-CDVAE Base,True,0,crysjepa_refined,True
+B,Chemical presence,concdvae_finetuned,Con-CDVAE FT,True,0,mattergen_baseline,False
+B,Chemical presence,concdvae_finetuned,Con-CDVAE FT,True,0,mattergen_finetuned,False
+B,Chemical presence,concdvae_finetuned,Con-CDVAE FT,True,0,concdvae_baseline,False
+B,Chemical presence,concdvae_finetuned,Con-CDVAE FT,True,0,concdvae_finetuned,False
+B,Chemical presence,concdvae_finetuned,Con-CDVAE FT,True,0,crystalformer_baseline,False
+B,Chemical presence,concdvae_finetuned,Con-CDVAE FT,True,0,crystalformer_finetuned,False
+B,Chemical presence,concdvae_finetuned,Con-CDVAE FT,True,0,crystallm_baseline,False
+B,Chemical presence,concdvae_finetuned,Con-CDVAE FT,True,0,crystallm_finetuned,True
+B,Chemical presence,concdvae_finetuned,Con-CDVAE FT,True,0,crysjepa_base,False
+B,Chemical presence,concdvae_finetuned,Con-CDVAE FT,True,0,crysjepa_refined,False
+B,Chemical presence,crystalformer_baseline,CrystalFormer Base,False,3,mattergen_baseline,False
+B,Chemical presence,crystalformer_baseline,CrystalFormer Base,False,3,mattergen_finetuned,False
+B,Chemical presence,crystalformer_baseline,CrystalFormer Base,False,3,concdvae_baseline,False
+B,Chemical presence,crystalformer_baseline,CrystalFormer Base,False,3,concdvae_finetuned,False
+B,Chemical presence,crystalformer_baseline,CrystalFormer Base,False,3,crystalformer_baseline,False
+B,Chemical presence,crystalformer_baseline,CrystalFormer Base,False,3,crystalformer_finetuned,False
+B,Chemical presence,crystalformer_baseline,CrystalFormer Base,False,3,crystallm_baseline,True
+B,Chemical presence,crystalformer_baseline,CrystalFormer Base,False,3,crystallm_finetuned,True
+B,Chemical presence,crystalformer_baseline,CrystalFormer Base,False,3,crysjepa_base,False
+B,Chemical presence,crystalformer_baseline,CrystalFormer Base,False,3,crysjepa_refined,False
+B,Chemical presence,crystalformer_finetuned,CrystalFormer FT,True,0,mattergen_baseline,False
+B,Chemical presence,crystalformer_finetuned,CrystalFormer FT,True,0,mattergen_finetuned,False
+B,Chemical presence,crystalformer_finetuned,CrystalFormer FT,True,0,concdvae_baseline,False
+B,Chemical presence,crystalformer_finetuned,CrystalFormer FT,True,0,concdvae_finetuned,False
+B,Chemical presence,crystalformer_finetuned,CrystalFormer FT,True,0,crystalformer_baseline,False
+B,Chemical presence,crystalformer_finetuned,CrystalFormer FT,True,0,crystalformer_finetuned,False
+B,Chemical presence,crystalformer_finetuned,CrystalFormer FT,True,0,crystallm_baseline,True
+B,Chemical presence,crystalformer_finetuned,CrystalFormer FT,True,0,crystallm_finetuned,True
+B,Chemical presence,crystalformer_finetuned,CrystalFormer FT,True,0,crysjepa_base,False
+B,Chemical presence,crystalformer_finetuned,CrystalFormer FT,True,0,crysjepa_refined,False
+B,Chemical presence,crystallm_baseline,CrystaLLM Base,False,6,mattergen_baseline,False
+B,Chemical presence,crystallm_baseline,CrystaLLM Base,False,6,mattergen_finetuned,False
+B,Chemical presence,crystallm_baseline,CrystaLLM Base,False,6,concdvae_baseline,False
+B,Chemical presence,crystallm_baseline,CrystaLLM Base,False,6,concdvae_finetuned,False
+B,Chemical presence,crystallm_baseline,CrystaLLM Base,False,6,crystalformer_baseline,False
+B,Chemical presence,crystallm_baseline,CrystaLLM Base,False,6,crystalformer_finetuned,False
+B,Chemical presence,crystallm_baseline,CrystaLLM Base,False,6,crystallm_baseline,False
+B,Chemical presence,crystallm_baseline,CrystaLLM Base,False,6,crystallm_finetuned,False
+B,Chemical presence,crystallm_baseline,CrystaLLM Base,False,6,crysjepa_base,False
+B,Chemical presence,crystallm_baseline,CrystaLLM Base,False,6,crysjepa_refined,False
+B,Chemical presence,crystallm_finetuned,CrystaLLM FT,False,6,mattergen_baseline,False
+B,Chemical presence,crystallm_finetuned,CrystaLLM FT,False,6,mattergen_finetuned,False
+B,Chemical presence,crystallm_finetuned,CrystaLLM FT,False,6,concdvae_baseline,False
+B,Chemical presence,crystallm_finetuned,CrystaLLM FT,False,6,concdvae_finetuned,False
+B,Chemical presence,crystallm_finetuned,CrystaLLM FT,False,6,crystalformer_baseline,False
+B,Chemical presence,crystallm_finetuned,CrystaLLM FT,False,6,crystalformer_finetuned,False
+B,Chemical presence,crystallm_finetuned,CrystaLLM FT,False,6,crystallm_baseline,False
+B,Chemical presence,crystallm_finetuned,CrystaLLM FT,False,6,crystallm_finetuned,False
+B,Chemical presence,crystallm_finetuned,CrystaLLM FT,False,6,crysjepa_base,False
+B,Chemical presence,crystallm_finetuned,CrystaLLM FT,False,6,crysjepa_refined,False
+B,Chemical presence,crysjepa_base,Crys-JEPA Base,False,1,mattergen_baseline,False
+B,Chemical presence,crysjepa_base,Crys-JEPA Base,False,1,mattergen_finetuned,False
+B,Chemical presence,crysjepa_base,Crys-JEPA Base,False,1,concdvae_baseline,False
+B,Chemical presence,crysjepa_base,Crys-JEPA Base,False,1,concdvae_finetuned,False
+B,Chemical presence,crysjepa_base,Crys-JEPA Base,False,1,crystalformer_baseline,True
+B,Chemical presence,crysjepa_base,Crys-JEPA Base,False,1,crystalformer_finetuned,False
+B,Chemical presence,crysjepa_base,Crys-JEPA Base,False,1,crystallm_baseline,True
+B,Chemical presence,crysjepa_base,Crys-JEPA Base,False,1,crystallm_finetuned,True
+B,Chemical presence,crysjepa_base,Crys-JEPA Base,False,1,crysjepa_base,False
+B,Chemical presence,crysjepa_base,Crys-JEPA Base,False,1,crysjepa_refined,True
+B,Chemical presence,crysjepa_refined,Crys-JEPA Refined,False,3,mattergen_baseline,False
+B,Chemical presence,crysjepa_refined,Crys-JEPA Refined,False,3,mattergen_finetuned,False
+B,Chemical presence,crysjepa_refined,Crys-JEPA Refined,False,3,concdvae_baseline,False
+B,Chemical presence,crysjepa_refined,Crys-JEPA Refined,False,3,concdvae_finetuned,False
+B,Chemical presence,crysjepa_refined,Crys-JEPA Refined,False,3,crystalformer_baseline,False
+B,Chemical presence,crysjepa_refined,Crys-JEPA Refined,False,3,crystalformer_finetuned,False
+B,Chemical presence,crysjepa_refined,Crys-JEPA Refined,False,3,crystallm_baseline,True
+B,Chemical presence,crysjepa_refined,Crys-JEPA Refined,False,3,crystallm_finetuned,False
+B,Chemical presence,crysjepa_refined,Crys-JEPA Refined,False,3,crysjepa_base,False
+B,Chemical presence,crysjepa_refined,Crys-JEPA Refined,False,3,crysjepa_refined,False
+C,Chemical fractions,mattergen_baseline,MatterGen Base,True,0,mattergen_baseline,False
+C,Chemical fractions,mattergen_baseline,MatterGen Base,True,0,mattergen_finetuned,False
+C,Chemical fractions,mattergen_baseline,MatterGen Base,True,0,concdvae_baseline,False
+C,Chemical fractions,mattergen_baseline,MatterGen Base,True,0,concdvae_finetuned,False
+C,Chemical fractions,mattergen_baseline,MatterGen Base,True,0,crystalformer_baseline,True
+C,Chemical fractions,mattergen_baseline,MatterGen Base,True,0,crystalformer_finetuned,False
+C,Chemical fractions,mattergen_baseline,MatterGen Base,True,0,crystallm_baseline,True
+C,Chemical fractions,mattergen_baseline,MatterGen Base,True,0,crystallm_finetuned,True
+C,Chemical fractions,mattergen_baseline,MatterGen Base,True,0,crysjepa_base,False
+C,Chemical fractions,mattergen_baseline,MatterGen Base,True,0,crysjepa_refined,False
+C,Chemical fractions,mattergen_finetuned,MatterGen FT,True,0,mattergen_baseline,False
+C,Chemical fractions,mattergen_finetuned,MatterGen FT,True,0,mattergen_finetuned,False
+C,Chemical fractions,mattergen_finetuned,MatterGen FT,True,0,concdvae_baseline,False
+C,Chemical fractions,mattergen_finetuned,MatterGen FT,True,0,concdvae_finetuned,False
+C,Chemical fractions,mattergen_finetuned,MatterGen FT,True,0,crystalformer_baseline,False
+C,Chemical fractions,mattergen_finetuned,MatterGen FT,True,0,crystalformer_finetuned,False
+C,Chemical fractions,mattergen_finetuned,MatterGen FT,True,0,crystallm_baseline,False
+C,Chemical fractions,mattergen_finetuned,MatterGen FT,True,0,crystallm_finetuned,False
+C,Chemical fractions,mattergen_finetuned,MatterGen FT,True,0,crysjepa_base,False
+C,Chemical fractions,mattergen_finetuned,MatterGen FT,True,0,crysjepa_refined,False
+C,Chemical fractions,concdvae_baseline,Con-CDVAE Base,True,0,mattergen_baseline,False
+C,Chemical fractions,concdvae_baseline,Con-CDVAE Base,True,0,mattergen_finetuned,False
+C,Chemical fractions,concdvae_baseline,Con-CDVAE Base,True,0,concdvae_baseline,False
+C,Chemical fractions,concdvae_baseline,Con-CDVAE Base,True,0,concdvae_finetuned,False
+C,Chemical fractions,concdvae_baseline,Con-CDVAE Base,True,0,crystalformer_baseline,True
+C,Chemical fractions,concdvae_baseline,Con-CDVAE Base,True,0,crystalformer_finetuned,False
+C,Chemical fractions,concdvae_baseline,Con-CDVAE Base,True,0,crystallm_baseline,True
+C,Chemical fractions,concdvae_baseline,Con-CDVAE Base,True,0,crystallm_finetuned,True
+C,Chemical fractions,concdvae_baseline,Con-CDVAE Base,True,0,crysjepa_base,False
+C,Chemical fractions,concdvae_baseline,Con-CDVAE Base,True,0,crysjepa_refined,False
+C,Chemical fractions,concdvae_finetuned,Con-CDVAE FT,True,0,mattergen_baseline,False
+C,Chemical fractions,concdvae_finetuned,Con-CDVAE FT,True,0,mattergen_finetuned,False
+C,Chemical fractions,concdvae_finetuned,Con-CDVAE FT,True,0,concdvae_baseline,False
+C,Chemical fractions,concdvae_finetuned,Con-CDVAE FT,True,0,concdvae_finetuned,False
+C,Chemical fractions,concdvae_finetuned,Con-CDVAE FT,True,0,crystalformer_baseline,False
+C,Chemical fractions,concdvae_finetuned,Con-CDVAE FT,True,0,crystalformer_finetuned,False
+C,Chemical fractions,concdvae_finetuned,Con-CDVAE FT,True,0,crystallm_baseline,False
+C,Chemical fractions,concdvae_finetuned,Con-CDVAE FT,True,0,crystallm_finetuned,False
+C,Chemical fractions,concdvae_finetuned,Con-CDVAE FT,True,0,crysjepa_base,False
+C,Chemical fractions,concdvae_finetuned,Con-CDVAE FT,True,0,crysjepa_refined,False
+C,Chemical fractions,crystalformer_baseline,CrystalFormer Base,False,3,mattergen_baseline,False
+C,Chemical fractions,crystalformer_baseline,CrystalFormer Base,False,3,mattergen_finetuned,False
+C,Chemical fractions,crystalformer_baseline,CrystalFormer Base,False,3,concdvae_baseline,False
+C,Chemical fractions,crystalformer_baseline,CrystalFormer Base,False,3,concdvae_finetuned,False
+C,Chemical fractions,crystalformer_baseline,CrystalFormer Base,False,3,crystalformer_baseline,False
+C,Chemical fractions,crystalformer_baseline,CrystalFormer Base,False,3,crystalformer_finetuned,False
+C,Chemical fractions,crystalformer_baseline,CrystalFormer Base,False,3,crystallm_baseline,True
+C,Chemical fractions,crystalformer_baseline,CrystalFormer Base,False,3,crystallm_finetuned,False
+C,Chemical fractions,crystalformer_baseline,CrystalFormer Base,False,3,crysjepa_base,False
+C,Chemical fractions,crystalformer_baseline,CrystalFormer Base,False,3,crysjepa_refined,False
+C,Chemical fractions,crystalformer_finetuned,CrystalFormer FT,True,0,mattergen_baseline,False
+C,Chemical fractions,crystalformer_finetuned,CrystalFormer FT,True,0,mattergen_finetuned,False
+C,Chemical fractions,crystalformer_finetuned,CrystalFormer FT,True,0,concdvae_baseline,False
+C,Chemical fractions,crystalformer_finetuned,CrystalFormer FT,True,0,concdvae_finetuned,False
+C,Chemical fractions,crystalformer_finetuned,CrystalFormer FT,True,0,crystalformer_baseline,False
+C,Chemical fractions,crystalformer_finetuned,CrystalFormer FT,True,0,crystalformer_finetuned,False
+C,Chemical fractions,crystalformer_finetuned,CrystalFormer FT,True,0,crystallm_baseline,True
+C,Chemical fractions,crystalformer_finetuned,CrystalFormer FT,True,0,crystallm_finetuned,True
+C,Chemical fractions,crystalformer_finetuned,CrystalFormer FT,True,0,crysjepa_base,False
+C,Chemical fractions,crystalformer_finetuned,CrystalFormer FT,True,0,crysjepa_refined,False
+C,Chemical fractions,crystallm_baseline,CrystaLLM Base,False,6,mattergen_baseline,False
+C,Chemical fractions,crystallm_baseline,CrystaLLM Base,False,6,mattergen_finetuned,False
+C,Chemical fractions,crystallm_baseline,CrystaLLM Base,False,6,concdvae_baseline,False
+C,Chemical fractions,crystallm_baseline,CrystaLLM Base,False,6,concdvae_finetuned,False
+C,Chemical fractions,crystallm_baseline,CrystaLLM Base,False,6,crystalformer_baseline,False
+C,Chemical fractions,crystallm_baseline,CrystaLLM Base,False,6,crystalformer_finetuned,False
+C,Chemical fractions,crystallm_baseline,CrystaLLM Base,False,6,crystallm_baseline,False
+C,Chemical fractions,crystallm_baseline,CrystaLLM Base,False,6,crystallm_finetuned,False
+C,Chemical fractions,crystallm_baseline,CrystaLLM Base,False,6,crysjepa_base,False
+C,Chemical fractions,crystallm_baseline,CrystaLLM Base,False,6,crysjepa_refined,False
+C,Chemical fractions,crystallm_finetuned,CrystaLLM FT,False,4,mattergen_baseline,False
+C,Chemical fractions,crystallm_finetuned,CrystaLLM FT,False,4,mattergen_finetuned,False
+C,Chemical fractions,crystallm_finetuned,CrystaLLM FT,False,4,concdvae_baseline,False
+C,Chemical fractions,crystallm_finetuned,CrystaLLM FT,False,4,concdvae_finetuned,False
+C,Chemical fractions,crystallm_finetuned,CrystaLLM FT,False,4,crystalformer_baseline,False
+C,Chemical fractions,crystallm_finetuned,CrystaLLM FT,False,4,crystalformer_finetuned,False
+C,Chemical fractions,crystallm_finetuned,CrystaLLM FT,False,4,crystallm_baseline,False
+C,Chemical fractions,crystallm_finetuned,CrystaLLM FT,False,4,crystallm_finetuned,False
+C,Chemical fractions,crystallm_finetuned,CrystaLLM FT,False,4,crysjepa_base,False
+C,Chemical fractions,crystallm_finetuned,CrystaLLM FT,False,4,crysjepa_refined,False
+C,Chemical fractions,crysjepa_base,Crys-JEPA Base,True,0,mattergen_baseline,False
+C,Chemical fractions,crysjepa_base,Crys-JEPA Base,True,0,mattergen_finetuned,False
+C,Chemical fractions,crysjepa_base,Crys-JEPA Base,True,0,concdvae_baseline,False
+C,Chemical fractions,crysjepa_base,Crys-JEPA Base,True,0,concdvae_finetuned,False
+C,Chemical fractions,crysjepa_base,Crys-JEPA Base,True,0,crystalformer_baseline,True
+C,Chemical fractions,crysjepa_base,Crys-JEPA Base,True,0,crystalformer_finetuned,False
+C,Chemical fractions,crysjepa_base,Crys-JEPA Base,True,0,crystallm_baseline,True
+C,Chemical fractions,crysjepa_base,Crys-JEPA Base,True,0,crystallm_finetuned,True
+C,Chemical fractions,crysjepa_base,Crys-JEPA Base,True,0,crysjepa_base,False
+C,Chemical fractions,crysjepa_base,Crys-JEPA Base,True,0,crysjepa_refined,False
+C,Chemical fractions,crysjepa_refined,Crys-JEPA Refined,True,0,mattergen_baseline,False
+C,Chemical fractions,crysjepa_refined,Crys-JEPA Refined,True,0,mattergen_finetuned,False
+C,Chemical fractions,crysjepa_refined,Crys-JEPA Refined,True,0,concdvae_baseline,False
+C,Chemical fractions,crysjepa_refined,Crys-JEPA Refined,True,0,concdvae_finetuned,False
+C,Chemical fractions,crysjepa_refined,Crys-JEPA Refined,True,0,crystalformer_baseline,False
+C,Chemical fractions,crysjepa_refined,Crys-JEPA Refined,True,0,crystalformer_finetuned,False
+C,Chemical fractions,crysjepa_refined,Crys-JEPA Refined,True,0,crystallm_baseline,True
+C,Chemical fractions,crysjepa_refined,Crys-JEPA Refined,True,0,crystallm_finetuned,False
+C,Chemical fractions,crysjepa_refined,Crys-JEPA Refined,True,0,crysjepa_base,False
+C,Chemical fractions,crysjepa_refined,Crys-JEPA Refined,True,0,crysjepa_refined,False

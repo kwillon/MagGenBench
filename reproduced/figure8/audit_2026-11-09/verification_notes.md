@@ -1,0 +1,14 @@
+# Independent verification of Figure 8 audit
+
+Status: PASS for numerical claims, scenario rankings, and interpretation of the original versus scenario analyses. No numerical corrections required.
+
+- Compared all 30 scenario chemical yields, 30 equal-weight scores, and 30 ranks in [scenario_results_source_precision.csv](scenario_results_source_precision.csv) with the saved source CSV text: all 90 exact comparisons passed.
+- Independently reconstructed min-max normalization and the arithmetic mean of the three normalized criteria for all 30 scenario/cohort combinations. Scores matched saved values within 1e-14; all ranks matched.
+- Reviewed [comparison_table.md](comparison_table.md) and the three paragraphs in [section_3_7_1_insert.md](section_3_7_1_insert.md). Published yields, scores, ranks, QC/unique-formula comparisons, and winner-versus-target-yield distinctions match the source tables. MatterGen Fine-tuned's S2 yield is preserved as nonzero, 0.0045% after rounding.
+- Checked [build_paper_figure08.py](../../../scripts/analysis/build_paper_figure08.py): the original objective is `3d_containing_yield_pct`; S1 uses `3d_atomic_content_yield`; S2 uses `lanthanide_atomic_content_yield`; S3 uses a logical OR of group-presence indicators, with overlap counted once. The original C/D panels are one original criterion system, not S1-S3.
+- Original MatterGen Fine-tuned first-place/top-5 frequencies, 6.04% and 52.315%, match [fig08_ranking_summary.csv](../../../paper/tables/figure_sources/fig08_ranking_summary.csv). They differ from saved S1, 25.66% and 65.02%, as reported.
+- Inspected the independent audit script: its source population assembly, denominator of 2000, Decimal checks, reduced-formula counting, sample identity comparison, and exclusive output creation are appropriate for this task. The report correctly limits budget confirmation to the harmonized benchmark QC population rather than claiming a reconstruction of raw generation logs.
+
+Primary numerical sources: [scenario metrics](../figure08_scenario_metrics_v2.csv), [scenario rankings](../figure08_scenario_rankings_v2.csv), [original matrix](../../../paper/tables/figure_sources/fig08_metric_matrix.csv), [chemistry summary](../figure08_chemistry_metrics_v2.csv).
+
+Scope limits: the full Methods and Section 3.3 text were not supplied. The Methods consistency conclusion is limited to the user's stated S1 definition. The retained Section 3.3 cross-reference comes from the user's manuscript excerpt; the reported reduction in lanthanide-containing yield is supported independently by the local chemistry summary, but that section's full text was not audited. QC counts were checked against full QC populations; the audit does not claim an additional record-by-record join from QC annotations to descriptors beyond the descriptor/energy identity check described in the report.

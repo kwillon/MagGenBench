@@ -1,0 +1,301 @@
+variant,variant_label,analysis_cohort,label,pareto_efficient,n_dominators,compared_cohort,dominates
+S1,3d-focused,mattergen_baseline,MatterGen Base,True,0,mattergen_baseline,False
+S1,3d-focused,mattergen_baseline,MatterGen Base,True,0,mattergen_finetuned,False
+S1,3d-focused,mattergen_baseline,MatterGen Base,True,0,concdvae_baseline,False
+S1,3d-focused,mattergen_baseline,MatterGen Base,True,0,concdvae_finetuned,False
+S1,3d-focused,mattergen_baseline,MatterGen Base,True,0,crystalformer_baseline,True
+S1,3d-focused,mattergen_baseline,MatterGen Base,True,0,crystalformer_finetuned,False
+S1,3d-focused,mattergen_baseline,MatterGen Base,True,0,crystallm_baseline,True
+S1,3d-focused,mattergen_baseline,MatterGen Base,True,0,crystallm_finetuned,True
+S1,3d-focused,mattergen_baseline,MatterGen Base,True,0,crysjepa_base,False
+S1,3d-focused,mattergen_baseline,MatterGen Base,True,0,crysjepa_refined,True
+S1,3d-focused,mattergen_finetuned,MatterGen FT,True,0,mattergen_baseline,False
+S1,3d-focused,mattergen_finetuned,MatterGen FT,True,0,mattergen_finetuned,False
+S1,3d-focused,mattergen_finetuned,MatterGen FT,True,0,concdvae_baseline,False
+S1,3d-focused,mattergen_finetuned,MatterGen FT,True,0,concdvae_finetuned,False
+S1,3d-focused,mattergen_finetuned,MatterGen FT,True,0,crystalformer_baseline,False
+S1,3d-focused,mattergen_finetuned,MatterGen FT,True,0,crystalformer_finetuned,False
+S1,3d-focused,mattergen_finetuned,MatterGen FT,True,0,crystallm_baseline,True
+S1,3d-focused,mattergen_finetuned,MatterGen FT,True,0,crystallm_finetuned,True
+S1,3d-focused,mattergen_finetuned,MatterGen FT,True,0,crysjepa_base,False
+S1,3d-focused,mattergen_finetuned,MatterGen FT,True,0,crysjepa_refined,False
+S1,3d-focused,concdvae_baseline,Con-CDVAE Base,True,0,mattergen_baseline,False
+S1,3d-focused,concdvae_baseline,Con-CDVAE Base,True,0,mattergen_finetuned,False
+S1,3d-focused,concdvae_baseline,Con-CDVAE Base,True,0,concdvae_baseline,False
+S1,3d-focused,concdvae_baseline,Con-CDVAE Base,True,0,concdvae_finetuned,False
+S1,3d-focused,concdvae_baseline,Con-CDVAE Base,True,0,crystalformer_baseline,True
+S1,3d-focused,concdvae_baseline,Con-CDVAE Base,True,0,crystalformer_finetuned,False
+S1,3d-focused,concdvae_baseline,Con-CDVAE Base,True,0,crystallm_baseline,True
+S1,3d-focused,concdvae_baseline,Con-CDVAE Base,True,0,crystallm_finetuned,True
+S1,3d-focused,concdvae_baseline,Con-CDVAE Base,True,0,crysjepa_base,False
+S1,3d-focused,concdvae_baseline,Con-CDVAE Base,True,0,crysjepa_refined,True
+S1,3d-focused,concdvae_finetuned,Con-CDVAE FT,True,0,mattergen_baseline,False
+S1,3d-focused,concdvae_finetuned,Con-CDVAE FT,True,0,mattergen_finetuned,False
+S1,3d-focused,concdvae_finetuned,Con-CDVAE FT,True,0,concdvae_baseline,False
+S1,3d-focused,concdvae_finetuned,Con-CDVAE FT,True,0,concdvae_finetuned,False
+S1,3d-focused,concdvae_finetuned,Con-CDVAE FT,True,0,crystalformer_baseline,False
+S1,3d-focused,concdvae_finetuned,Con-CDVAE FT,True,0,crystalformer_finetuned,False
+S1,3d-focused,concdvae_finetuned,Con-CDVAE FT,True,0,crystallm_baseline,True
+S1,3d-focused,concdvae_finetuned,Con-CDVAE FT,True,0,crystallm_finetuned,True
+S1,3d-focused,concdvae_finetuned,Con-CDVAE FT,True,0,crysjepa_base,False
+S1,3d-focused,concdvae_finetuned,Con-CDVAE FT,True,0,crysjepa_refined,False
+S1,3d-focused,crystalformer_baseline,CrystalFormer Base,False,3,mattergen_baseline,False
+S1,3d-focused,crystalformer_baseline,CrystalFormer Base,False,3,mattergen_finetuned,False
+S1,3d-focused,crystalformer_baseline,CrystalFormer Base,False,3,concdvae_baseline,False
+S1,3d-focused,crystalformer_baseline,CrystalFormer Base,False,3,concdvae_finetuned,False
+S1,3d-focused,crystalformer_baseline,CrystalFormer Base,False,3,crystalformer_baseline,False
+S1,3d-focused,crystalformer_baseline,CrystalFormer Base,False,3,crystalformer_finetuned,False
+S1,3d-focused,crystalformer_baseline,CrystalFormer Base,False,3,crystallm_baseline,True
+S1,3d-focused,crystalformer_baseline,CrystalFormer Base,False,3,crystallm_finetuned,False
+S1,3d-focused,crystalformer_baseline,CrystalFormer Base,False,3,crysjepa_base,False
+S1,3d-focused,crystalformer_baseline,CrystalFormer Base,False,3,crysjepa_refined,False
+S1,3d-focused,crystalformer_finetuned,CrystalFormer FT,True,0,mattergen_baseline,False
+S1,3d-focused,crystalformer_finetuned,CrystalFormer FT,True,0,mattergen_finetuned,False
+S1,3d-focused,crystalformer_finetuned,CrystalFormer FT,True,0,concdvae_baseline,False
+S1,3d-focused,crystalformer_finetuned,CrystalFormer FT,True,0,concdvae_finetuned,False
+S1,3d-focused,crystalformer_finetuned,CrystalFormer FT,True,0,crystalformer_baseline,False
+S1,3d-focused,crystalformer_finetuned,CrystalFormer FT,True,0,crystalformer_finetuned,False
+S1,3d-focused,crystalformer_finetuned,CrystalFormer FT,True,0,crystallm_baseline,True
+S1,3d-focused,crystalformer_finetuned,CrystalFormer FT,True,0,crystallm_finetuned,True
+S1,3d-focused,crystalformer_finetuned,CrystalFormer FT,True,0,crysjepa_base,False
+S1,3d-focused,crystalformer_finetuned,CrystalFormer FT,True,0,crysjepa_refined,False
+S1,3d-focused,crystallm_baseline,CrystaLLM Base,False,9,mattergen_baseline,False
+S1,3d-focused,crystallm_baseline,CrystaLLM Base,False,9,mattergen_finetuned,False
+S1,3d-focused,crystallm_baseline,CrystaLLM Base,False,9,concdvae_baseline,False
+S1,3d-focused,crystallm_baseline,CrystaLLM Base,False,9,concdvae_finetuned,False
+S1,3d-focused,crystallm_baseline,CrystaLLM Base,False,9,crystalformer_baseline,False
+S1,3d-focused,crystallm_baseline,CrystaLLM Base,False,9,crystalformer_finetuned,False
+S1,3d-focused,crystallm_baseline,CrystaLLM Base,False,9,crystallm_baseline,False
+S1,3d-focused,crystallm_baseline,CrystaLLM Base,False,9,crystallm_finetuned,False
+S1,3d-focused,crystallm_baseline,CrystaLLM Base,False,9,crysjepa_base,False
+S1,3d-focused,crystallm_baseline,CrystaLLM Base,False,9,crysjepa_refined,False
+S1,3d-focused,crystallm_finetuned,CrystaLLM FT,False,6,mattergen_baseline,False
+S1,3d-focused,crystallm_finetuned,CrystaLLM FT,False,6,mattergen_finetuned,False
+S1,3d-focused,crystallm_finetuned,CrystaLLM FT,False,6,concdvae_baseline,False
+S1,3d-focused,crystallm_finetuned,CrystaLLM FT,False,6,concdvae_finetuned,False
+S1,3d-focused,crystallm_finetuned,CrystaLLM FT,False,6,crystalformer_baseline,False
+S1,3d-focused,crystallm_finetuned,CrystaLLM FT,False,6,crystalformer_finetuned,False
+S1,3d-focused,crystallm_finetuned,CrystaLLM FT,False,6,crystallm_baseline,True
+S1,3d-focused,crystallm_finetuned,CrystaLLM FT,False,6,crystallm_finetuned,False
+S1,3d-focused,crystallm_finetuned,CrystaLLM FT,False,6,crysjepa_base,False
+S1,3d-focused,crystallm_finetuned,CrystaLLM FT,False,6,crysjepa_refined,False
+S1,3d-focused,crysjepa_base,Crys-JEPA Base,True,0,mattergen_baseline,False
+S1,3d-focused,crysjepa_base,Crys-JEPA Base,True,0,mattergen_finetuned,False
+S1,3d-focused,crysjepa_base,Crys-JEPA Base,True,0,concdvae_baseline,False
+S1,3d-focused,crysjepa_base,Crys-JEPA Base,True,0,concdvae_finetuned,False
+S1,3d-focused,crysjepa_base,Crys-JEPA Base,True,0,crystalformer_baseline,True
+S1,3d-focused,crysjepa_base,Crys-JEPA Base,True,0,crystalformer_finetuned,False
+S1,3d-focused,crysjepa_base,Crys-JEPA Base,True,0,crystallm_baseline,True
+S1,3d-focused,crysjepa_base,Crys-JEPA Base,True,0,crystallm_finetuned,True
+S1,3d-focused,crysjepa_base,Crys-JEPA Base,True,0,crysjepa_base,False
+S1,3d-focused,crysjepa_base,Crys-JEPA Base,True,0,crysjepa_refined,True
+S1,3d-focused,crysjepa_refined,Crys-JEPA Refined,False,3,mattergen_baseline,False
+S1,3d-focused,crysjepa_refined,Crys-JEPA Refined,False,3,mattergen_finetuned,False
+S1,3d-focused,crysjepa_refined,Crys-JEPA Refined,False,3,concdvae_baseline,False
+S1,3d-focused,crysjepa_refined,Crys-JEPA Refined,False,3,concdvae_finetuned,False
+S1,3d-focused,crysjepa_refined,Crys-JEPA Refined,False,3,crystalformer_baseline,False
+S1,3d-focused,crysjepa_refined,Crys-JEPA Refined,False,3,crystalformer_finetuned,False
+S1,3d-focused,crysjepa_refined,Crys-JEPA Refined,False,3,crystallm_baseline,True
+S1,3d-focused,crysjepa_refined,Crys-JEPA Refined,False,3,crystallm_finetuned,False
+S1,3d-focused,crysjepa_refined,Crys-JEPA Refined,False,3,crysjepa_base,False
+S1,3d-focused,crysjepa_refined,Crys-JEPA Refined,False,3,crysjepa_refined,False
+S2,Lanthanide-focused,mattergen_baseline,MatterGen Base,True,0,mattergen_baseline,False
+S2,Lanthanide-focused,mattergen_baseline,MatterGen Base,True,0,mattergen_finetuned,True
+S2,Lanthanide-focused,mattergen_baseline,MatterGen Base,True,0,concdvae_baseline,False
+S2,Lanthanide-focused,mattergen_baseline,MatterGen Base,True,0,concdvae_finetuned,True
+S2,Lanthanide-focused,mattergen_baseline,MatterGen Base,True,0,crystalformer_baseline,True
+S2,Lanthanide-focused,mattergen_baseline,MatterGen Base,True,0,crystalformer_finetuned,True
+S2,Lanthanide-focused,mattergen_baseline,MatterGen Base,True,0,crystallm_baseline,True
+S2,Lanthanide-focused,mattergen_baseline,MatterGen Base,True,0,crystallm_finetuned,True
+S2,Lanthanide-focused,mattergen_baseline,MatterGen Base,True,0,crysjepa_base,False
+S2,Lanthanide-focused,mattergen_baseline,MatterGen Base,True,0,crysjepa_refined,False
+S2,Lanthanide-focused,mattergen_finetuned,MatterGen FT,False,5,mattergen_baseline,False
+S2,Lanthanide-focused,mattergen_finetuned,MatterGen FT,False,5,mattergen_finetuned,False
+S2,Lanthanide-focused,mattergen_finetuned,MatterGen FT,False,5,concdvae_baseline,False
+S2,Lanthanide-focused,mattergen_finetuned,MatterGen FT,False,5,concdvae_finetuned,False
+S2,Lanthanide-focused,mattergen_finetuned,MatterGen FT,False,5,crystalformer_baseline,False
+S2,Lanthanide-focused,mattergen_finetuned,MatterGen FT,False,5,crystalformer_finetuned,False
+S2,Lanthanide-focused,mattergen_finetuned,MatterGen FT,False,5,crystallm_baseline,False
+S2,Lanthanide-focused,mattergen_finetuned,MatterGen FT,False,5,crystallm_finetuned,False
+S2,Lanthanide-focused,mattergen_finetuned,MatterGen FT,False,5,crysjepa_base,False
+S2,Lanthanide-focused,mattergen_finetuned,MatterGen FT,False,5,crysjepa_refined,False
+S2,Lanthanide-focused,concdvae_baseline,Con-CDVAE Base,True,0,mattergen_baseline,False
+S2,Lanthanide-focused,concdvae_baseline,Con-CDVAE Base,True,0,mattergen_finetuned,True
+S2,Lanthanide-focused,concdvae_baseline,Con-CDVAE Base,True,0,concdvae_baseline,False
+S2,Lanthanide-focused,concdvae_baseline,Con-CDVAE Base,True,0,concdvae_finetuned,True
+S2,Lanthanide-focused,concdvae_baseline,Con-CDVAE Base,True,0,crystalformer_baseline,True
+S2,Lanthanide-focused,concdvae_baseline,Con-CDVAE Base,True,0,crystalformer_finetuned,True
+S2,Lanthanide-focused,concdvae_baseline,Con-CDVAE Base,True,0,crystallm_baseline,True
+S2,Lanthanide-focused,concdvae_baseline,Con-CDVAE Base,True,0,crystallm_finetuned,True
+S2,Lanthanide-focused,concdvae_baseline,Con-CDVAE Base,True,0,crysjepa_base,False
+S2,Lanthanide-focused,concdvae_baseline,Con-CDVAE Base,True,0,crysjepa_refined,False
+S2,Lanthanide-focused,concdvae_finetuned,Con-CDVAE FT,False,5,mattergen_baseline,False
+S2,Lanthanide-focused,concdvae_finetuned,Con-CDVAE FT,False,5,mattergen_finetuned,False
+S2,Lanthanide-focused,concdvae_finetuned,Con-CDVAE FT,False,5,concdvae_baseline,False
+S2,Lanthanide-focused,concdvae_finetuned,Con-CDVAE FT,False,5,concdvae_finetuned,False
+S2,Lanthanide-focused,concdvae_finetuned,Con-CDVAE FT,False,5,crystalformer_baseline,False
+S2,Lanthanide-focused,concdvae_finetuned,Con-CDVAE FT,False,5,crystalformer_finetuned,False
+S2,Lanthanide-focused,concdvae_finetuned,Con-CDVAE FT,False,5,crystallm_baseline,False
+S2,Lanthanide-focused,concdvae_finetuned,Con-CDVAE FT,False,5,crystallm_finetuned,False
+S2,Lanthanide-focused,concdvae_finetuned,Con-CDVAE FT,False,5,crysjepa_base,False
+S2,Lanthanide-focused,concdvae_finetuned,Con-CDVAE FT,False,5,crysjepa_refined,False
+S2,Lanthanide-focused,crystalformer_baseline,CrystalFormer Base,False,4,mattergen_baseline,False
+S2,Lanthanide-focused,crystalformer_baseline,CrystalFormer Base,False,4,mattergen_finetuned,False
+S2,Lanthanide-focused,crystalformer_baseline,CrystalFormer Base,False,4,concdvae_baseline,False
+S2,Lanthanide-focused,crystalformer_baseline,CrystalFormer Base,False,4,concdvae_finetuned,False
+S2,Lanthanide-focused,crystalformer_baseline,CrystalFormer Base,False,4,crystalformer_baseline,False
+S2,Lanthanide-focused,crystalformer_baseline,CrystalFormer Base,False,4,crystalformer_finetuned,False
+S2,Lanthanide-focused,crystalformer_baseline,CrystalFormer Base,False,4,crystallm_baseline,True
+S2,Lanthanide-focused,crystalformer_baseline,CrystalFormer Base,False,4,crystallm_finetuned,True
+S2,Lanthanide-focused,crystalformer_baseline,CrystalFormer Base,False,4,crysjepa_base,False
+S2,Lanthanide-focused,crystalformer_baseline,CrystalFormer Base,False,4,crysjepa_refined,False
+S2,Lanthanide-focused,crystalformer_finetuned,CrystalFormer FT,False,4,mattergen_baseline,False
+S2,Lanthanide-focused,crystalformer_finetuned,CrystalFormer FT,False,4,mattergen_finetuned,True
+S2,Lanthanide-focused,crystalformer_finetuned,CrystalFormer FT,False,4,concdvae_baseline,False
+S2,Lanthanide-focused,crystalformer_finetuned,CrystalFormer FT,False,4,concdvae_finetuned,True
+S2,Lanthanide-focused,crystalformer_finetuned,CrystalFormer FT,False,4,crystalformer_baseline,False
+S2,Lanthanide-focused,crystalformer_finetuned,CrystalFormer FT,False,4,crystalformer_finetuned,False
+S2,Lanthanide-focused,crystalformer_finetuned,CrystalFormer FT,False,4,crystallm_baseline,True
+S2,Lanthanide-focused,crystalformer_finetuned,CrystalFormer FT,False,4,crystallm_finetuned,True
+S2,Lanthanide-focused,crystalformer_finetuned,CrystalFormer FT,False,4,crysjepa_base,False
+S2,Lanthanide-focused,crystalformer_finetuned,CrystalFormer FT,False,4,crysjepa_refined,False
+S2,Lanthanide-focused,crystallm_baseline,CrystaLLM Base,False,6,mattergen_baseline,False
+S2,Lanthanide-focused,crystallm_baseline,CrystaLLM Base,False,6,mattergen_finetuned,False
+S2,Lanthanide-focused,crystallm_baseline,CrystaLLM Base,False,6,concdvae_baseline,False
+S2,Lanthanide-focused,crystallm_baseline,CrystaLLM Base,False,6,concdvae_finetuned,False
+S2,Lanthanide-focused,crystallm_baseline,CrystaLLM Base,False,6,crystalformer_baseline,False
+S2,Lanthanide-focused,crystallm_baseline,CrystaLLM Base,False,6,crystalformer_finetuned,False
+S2,Lanthanide-focused,crystallm_baseline,CrystaLLM Base,False,6,crystallm_baseline,False
+S2,Lanthanide-focused,crystallm_baseline,CrystaLLM Base,False,6,crystallm_finetuned,False
+S2,Lanthanide-focused,crystallm_baseline,CrystaLLM Base,False,6,crysjepa_base,False
+S2,Lanthanide-focused,crystallm_baseline,CrystaLLM Base,False,6,crysjepa_refined,False
+S2,Lanthanide-focused,crystallm_finetuned,CrystaLLM FT,False,6,mattergen_baseline,False
+S2,Lanthanide-focused,crystallm_finetuned,CrystaLLM FT,False,6,mattergen_finetuned,False
+S2,Lanthanide-focused,crystallm_finetuned,CrystaLLM FT,False,6,concdvae_baseline,False
+S2,Lanthanide-focused,crystallm_finetuned,CrystaLLM FT,False,6,concdvae_finetuned,False
+S2,Lanthanide-focused,crystallm_finetuned,CrystaLLM FT,False,6,crystalformer_baseline,False
+S2,Lanthanide-focused,crystallm_finetuned,CrystaLLM FT,False,6,crystalformer_finetuned,False
+S2,Lanthanide-focused,crystallm_finetuned,CrystaLLM FT,False,6,crystallm_baseline,False
+S2,Lanthanide-focused,crystallm_finetuned,CrystaLLM FT,False,6,crystallm_finetuned,False
+S2,Lanthanide-focused,crystallm_finetuned,CrystaLLM FT,False,6,crysjepa_base,False
+S2,Lanthanide-focused,crystallm_finetuned,CrystaLLM FT,False,6,crysjepa_refined,False
+S2,Lanthanide-focused,crysjepa_base,Crys-JEPA Base,True,0,mattergen_baseline,False
+S2,Lanthanide-focused,crysjepa_base,Crys-JEPA Base,True,0,mattergen_finetuned,True
+S2,Lanthanide-focused,crysjepa_base,Crys-JEPA Base,True,0,concdvae_baseline,False
+S2,Lanthanide-focused,crysjepa_base,Crys-JEPA Base,True,0,concdvae_finetuned,True
+S2,Lanthanide-focused,crysjepa_base,Crys-JEPA Base,True,0,crystalformer_baseline,True
+S2,Lanthanide-focused,crysjepa_base,Crys-JEPA Base,True,0,crystalformer_finetuned,True
+S2,Lanthanide-focused,crysjepa_base,Crys-JEPA Base,True,0,crystallm_baseline,True
+S2,Lanthanide-focused,crysjepa_base,Crys-JEPA Base,True,0,crystallm_finetuned,True
+S2,Lanthanide-focused,crysjepa_base,Crys-JEPA Base,True,0,crysjepa_base,False
+S2,Lanthanide-focused,crysjepa_base,Crys-JEPA Base,True,0,crysjepa_refined,False
+S2,Lanthanide-focused,crysjepa_refined,Crys-JEPA Refined,True,0,mattergen_baseline,False
+S2,Lanthanide-focused,crysjepa_refined,Crys-JEPA Refined,True,0,mattergen_finetuned,True
+S2,Lanthanide-focused,crysjepa_refined,Crys-JEPA Refined,True,0,concdvae_baseline,False
+S2,Lanthanide-focused,crysjepa_refined,Crys-JEPA Refined,True,0,concdvae_finetuned,True
+S2,Lanthanide-focused,crysjepa_refined,Crys-JEPA Refined,True,0,crystalformer_baseline,True
+S2,Lanthanide-focused,crysjepa_refined,Crys-JEPA Refined,True,0,crystalformer_finetuned,True
+S2,Lanthanide-focused,crysjepa_refined,Crys-JEPA Refined,True,0,crystallm_baseline,True
+S2,Lanthanide-focused,crysjepa_refined,Crys-JEPA Refined,True,0,crystallm_finetuned,True
+S2,Lanthanide-focused,crysjepa_refined,Crys-JEPA Refined,True,0,crysjepa_base,False
+S2,Lanthanide-focused,crysjepa_refined,Crys-JEPA Refined,True,0,crysjepa_refined,False
+S3,Broad chemical exploration,mattergen_baseline,MatterGen Base,True,0,mattergen_baseline,False
+S3,Broad chemical exploration,mattergen_baseline,MatterGen Base,True,0,mattergen_finetuned,True
+S3,Broad chemical exploration,mattergen_baseline,MatterGen Base,True,0,concdvae_baseline,False
+S3,Broad chemical exploration,mattergen_baseline,MatterGen Base,True,0,concdvae_finetuned,True
+S3,Broad chemical exploration,mattergen_baseline,MatterGen Base,True,0,crystalformer_baseline,True
+S3,Broad chemical exploration,mattergen_baseline,MatterGen Base,True,0,crystalformer_finetuned,True
+S3,Broad chemical exploration,mattergen_baseline,MatterGen Base,True,0,crystallm_baseline,True
+S3,Broad chemical exploration,mattergen_baseline,MatterGen Base,True,0,crystallm_finetuned,True
+S3,Broad chemical exploration,mattergen_baseline,MatterGen Base,True,0,crysjepa_base,False
+S3,Broad chemical exploration,mattergen_baseline,MatterGen Base,True,0,crysjepa_refined,True
+S3,Broad chemical exploration,mattergen_finetuned,MatterGen FT,False,1,mattergen_baseline,False
+S3,Broad chemical exploration,mattergen_finetuned,MatterGen FT,False,1,mattergen_finetuned,False
+S3,Broad chemical exploration,mattergen_finetuned,MatterGen FT,False,1,concdvae_baseline,False
+S3,Broad chemical exploration,mattergen_finetuned,MatterGen FT,False,1,concdvae_finetuned,False
+S3,Broad chemical exploration,mattergen_finetuned,MatterGen FT,False,1,crystalformer_baseline,False
+S3,Broad chemical exploration,mattergen_finetuned,MatterGen FT,False,1,crystalformer_finetuned,False
+S3,Broad chemical exploration,mattergen_finetuned,MatterGen FT,False,1,crystallm_baseline,True
+S3,Broad chemical exploration,mattergen_finetuned,MatterGen FT,False,1,crystallm_finetuned,True
+S3,Broad chemical exploration,mattergen_finetuned,MatterGen FT,False,1,crysjepa_base,False
+S3,Broad chemical exploration,mattergen_finetuned,MatterGen FT,False,1,crysjepa_refined,False
+S3,Broad chemical exploration,concdvae_baseline,Con-CDVAE Base,True,0,mattergen_baseline,False
+S3,Broad chemical exploration,concdvae_baseline,Con-CDVAE Base,True,0,mattergen_finetuned,False
+S3,Broad chemical exploration,concdvae_baseline,Con-CDVAE Base,True,0,concdvae_baseline,False
+S3,Broad chemical exploration,concdvae_baseline,Con-CDVAE Base,True,0,concdvae_finetuned,False
+S3,Broad chemical exploration,concdvae_baseline,Con-CDVAE Base,True,0,crystalformer_baseline,True
+S3,Broad chemical exploration,concdvae_baseline,Con-CDVAE Base,True,0,crystalformer_finetuned,False
+S3,Broad chemical exploration,concdvae_baseline,Con-CDVAE Base,True,0,crystallm_baseline,True
+S3,Broad chemical exploration,concdvae_baseline,Con-CDVAE Base,True,0,crystallm_finetuned,True
+S3,Broad chemical exploration,concdvae_baseline,Con-CDVAE Base,True,0,crysjepa_base,True
+S3,Broad chemical exploration,concdvae_baseline,Con-CDVAE Base,True,0,crysjepa_refined,True
+S3,Broad chemical exploration,concdvae_finetuned,Con-CDVAE FT,False,1,mattergen_baseline,False
+S3,Broad chemical exploration,concdvae_finetuned,Con-CDVAE FT,False,1,mattergen_finetuned,False
+S3,Broad chemical exploration,concdvae_finetuned,Con-CDVAE FT,False,1,concdvae_baseline,False
+S3,Broad chemical exploration,concdvae_finetuned,Con-CDVAE FT,False,1,concdvae_finetuned,False
+S3,Broad chemical exploration,concdvae_finetuned,Con-CDVAE FT,False,1,crystalformer_baseline,False
+S3,Broad chemical exploration,concdvae_finetuned,Con-CDVAE FT,False,1,crystalformer_finetuned,False
+S3,Broad chemical exploration,concdvae_finetuned,Con-CDVAE FT,False,1,crystallm_baseline,True
+S3,Broad chemical exploration,concdvae_finetuned,Con-CDVAE FT,False,1,crystallm_finetuned,True
+S3,Broad chemical exploration,concdvae_finetuned,Con-CDVAE FT,False,1,crysjepa_base,False
+S3,Broad chemical exploration,concdvae_finetuned,Con-CDVAE FT,False,1,crysjepa_refined,False
+S3,Broad chemical exploration,crystalformer_baseline,CrystalFormer Base,False,3,mattergen_baseline,False
+S3,Broad chemical exploration,crystalformer_baseline,CrystalFormer Base,False,3,mattergen_finetuned,False
+S3,Broad chemical exploration,crystalformer_baseline,CrystalFormer Base,False,3,concdvae_baseline,False
+S3,Broad chemical exploration,crystalformer_baseline,CrystalFormer Base,False,3,concdvae_finetuned,False
+S3,Broad chemical exploration,crystalformer_baseline,CrystalFormer Base,False,3,crystalformer_baseline,False
+S3,Broad chemical exploration,crystalformer_baseline,CrystalFormer Base,False,3,crystalformer_finetuned,False
+S3,Broad chemical exploration,crystalformer_baseline,CrystalFormer Base,False,3,crystallm_baseline,True
+S3,Broad chemical exploration,crystalformer_baseline,CrystalFormer Base,False,3,crystallm_finetuned,True
+S3,Broad chemical exploration,crystalformer_baseline,CrystalFormer Base,False,3,crysjepa_base,False
+S3,Broad chemical exploration,crystalformer_baseline,CrystalFormer Base,False,3,crysjepa_refined,False
+S3,Broad chemical exploration,crystalformer_finetuned,CrystalFormer FT,False,1,mattergen_baseline,False
+S3,Broad chemical exploration,crystalformer_finetuned,CrystalFormer FT,False,1,mattergen_finetuned,False
+S3,Broad chemical exploration,crystalformer_finetuned,CrystalFormer FT,False,1,concdvae_baseline,False
+S3,Broad chemical exploration,crystalformer_finetuned,CrystalFormer FT,False,1,concdvae_finetuned,False
+S3,Broad chemical exploration,crystalformer_finetuned,CrystalFormer FT,False,1,crystalformer_baseline,False
+S3,Broad chemical exploration,crystalformer_finetuned,CrystalFormer FT,False,1,crystalformer_finetuned,False
+S3,Broad chemical exploration,crystalformer_finetuned,CrystalFormer FT,False,1,crystallm_baseline,True
+S3,Broad chemical exploration,crystalformer_finetuned,CrystalFormer FT,False,1,crystallm_finetuned,True
+S3,Broad chemical exploration,crystalformer_finetuned,CrystalFormer FT,False,1,crysjepa_base,False
+S3,Broad chemical exploration,crystalformer_finetuned,CrystalFormer FT,False,1,crysjepa_refined,False
+S3,Broad chemical exploration,crystallm_baseline,CrystaLLM Base,False,9,mattergen_baseline,False
+S3,Broad chemical exploration,crystallm_baseline,CrystaLLM Base,False,9,mattergen_finetuned,False
+S3,Broad chemical exploration,crystallm_baseline,CrystaLLM Base,False,9,concdvae_baseline,False
+S3,Broad chemical exploration,crystallm_baseline,CrystaLLM Base,False,9,concdvae_finetuned,False
+S3,Broad chemical exploration,crystallm_baseline,CrystaLLM Base,False,9,crystalformer_baseline,False
+S3,Broad chemical exploration,crystallm_baseline,CrystaLLM Base,False,9,crystalformer_finetuned,False
+S3,Broad chemical exploration,crystallm_baseline,CrystaLLM Base,False,9,crystallm_baseline,False
+S3,Broad chemical exploration,crystallm_baseline,CrystaLLM Base,False,9,crystallm_finetuned,False
+S3,Broad chemical exploration,crystallm_baseline,CrystaLLM Base,False,9,crysjepa_base,False
+S3,Broad chemical exploration,crystallm_baseline,CrystaLLM Base,False,9,crysjepa_refined,False
+S3,Broad chemical exploration,crystallm_finetuned,CrystaLLM FT,False,8,mattergen_baseline,False
+S3,Broad chemical exploration,crystallm_finetuned,CrystaLLM FT,False,8,mattergen_finetuned,False
+S3,Broad chemical exploration,crystallm_finetuned,CrystaLLM FT,False,8,concdvae_baseline,False
+S3,Broad chemical exploration,crystallm_finetuned,CrystaLLM FT,False,8,concdvae_finetuned,False
+S3,Broad chemical exploration,crystallm_finetuned,CrystaLLM FT,False,8,crystalformer_baseline,False
+S3,Broad chemical exploration,crystallm_finetuned,CrystaLLM FT,False,8,crystalformer_finetuned,False
+S3,Broad chemical exploration,crystallm_finetuned,CrystaLLM FT,False,8,crystallm_baseline,True
+S3,Broad chemical exploration,crystallm_finetuned,CrystaLLM FT,False,8,crystallm_finetuned,False
+S3,Broad chemical exploration,crystallm_finetuned,CrystaLLM FT,False,8,crysjepa_base,False
+S3,Broad chemical exploration,crystallm_finetuned,CrystaLLM FT,False,8,crysjepa_refined,False
+S3,Broad chemical exploration,crysjepa_base,Crys-JEPA Base,False,1,mattergen_baseline,False
+S3,Broad chemical exploration,crysjepa_base,Crys-JEPA Base,False,1,mattergen_finetuned,False
+S3,Broad chemical exploration,crysjepa_base,Crys-JEPA Base,False,1,concdvae_baseline,False
+S3,Broad chemical exploration,crysjepa_base,Crys-JEPA Base,False,1,concdvae_finetuned,False
+S3,Broad chemical exploration,crysjepa_base,Crys-JEPA Base,False,1,crystalformer_baseline,True
+S3,Broad chemical exploration,crysjepa_base,Crys-JEPA Base,False,1,crystalformer_finetuned,False
+S3,Broad chemical exploration,crysjepa_base,Crys-JEPA Base,False,1,crystallm_baseline,True
+S3,Broad chemical exploration,crysjepa_base,Crys-JEPA Base,False,1,crystallm_finetuned,True
+S3,Broad chemical exploration,crysjepa_base,Crys-JEPA Base,False,1,crysjepa_base,False
+S3,Broad chemical exploration,crysjepa_base,Crys-JEPA Base,False,1,crysjepa_refined,True
+S3,Broad chemical exploration,crysjepa_refined,Crys-JEPA Refined,False,3,mattergen_baseline,False
+S3,Broad chemical exploration,crysjepa_refined,Crys-JEPA Refined,False,3,mattergen_finetuned,False
+S3,Broad chemical exploration,crysjepa_refined,Crys-JEPA Refined,False,3,concdvae_baseline,False
+S3,Broad chemical exploration,crysjepa_refined,Crys-JEPA Refined,False,3,concdvae_finetuned,False
+S3,Broad chemical exploration,crysjepa_refined,Crys-JEPA Refined,False,3,crystalformer_baseline,False
+S3,Broad chemical exploration,crysjepa_refined,Crys-JEPA Refined,False,3,crystalformer_finetuned,False
+S3,Broad chemical exploration,crysjepa_refined,Crys-JEPA Refined,False,3,crystallm_baseline,True
+S3,Broad chemical exploration,crysjepa_refined,Crys-JEPA Refined,False,3,crystallm_finetuned,True
+S3,Broad chemical exploration,crysjepa_refined,Crys-JEPA Refined,False,3,crysjepa_base,False
+S3,Broad chemical exploration,crysjepa_refined,Crys-JEPA Refined,False,3,crysjepa_refined,False

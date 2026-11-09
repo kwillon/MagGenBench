@@ -1,0 +1,151 @@
+{
+  "status": "PASS",
+  "pearson": 0.8451521417668733,
+  "spearman": 0.9151515151515152,
+  "pareto_fronts": {
+    "S1": [
+      "MatterGen Base",
+      "MatterGen FT",
+      "Con-CDVAE Base",
+      "Con-CDVAE FT",
+      "CrystalFormer FT",
+      "Crys-JEPA Base"
+    ],
+    "S2": [
+      "MatterGen Base",
+      "Con-CDVAE Base",
+      "Crys-JEPA Base",
+      "Crys-JEPA Refined"
+    ],
+    "S3": [
+      "MatterGen Base",
+      "Con-CDVAE Base"
+    ],
+    "A": [
+      "MatterGen Base",
+      "MatterGen FT",
+      "Con-CDVAE Base",
+      "Con-CDVAE FT",
+      "CrystalFormer FT"
+    ],
+    "B": [
+      "MatterGen Base",
+      "MatterGen FT",
+      "Con-CDVAE Base",
+      "Con-CDVAE FT",
+      "CrystalFormer FT"
+    ],
+    "C": [
+      "MatterGen Base",
+      "MatterGen FT",
+      "Con-CDVAE Base",
+      "Con-CDVAE FT",
+      "CrystalFormer FT",
+      "Crys-JEPA Base",
+      "Crys-JEPA Refined"
+    ],
+    "S1-2D": [
+      "MatterGen Base",
+      "MatterGen FT",
+      "Con-CDVAE Base",
+      "Con-CDVAE FT",
+      "CrystalFormer FT",
+      "Crys-JEPA Base"
+    ],
+    "S2-2D": [
+      "MatterGen Base",
+      "Con-CDVAE Base",
+      "Crys-JEPA Base",
+      "Crys-JEPA Refined"
+    ],
+    "S3-2D": [
+      "MatterGen Base",
+      "Con-CDVAE Base"
+    ]
+  },
+  "criteria": {
+    "S1": [
+      "qc_retention_pct",
+      "unique_formula_yield_pct",
+      "3d_atomic_content_yield"
+    ],
+    "S2": [
+      "qc_retention_pct",
+      "unique_formula_yield_pct",
+      "lanthanide_atomic_content_yield"
+    ],
+    "S3": [
+      "qc_retention_pct",
+      "unique_formula_yield_pct",
+      "configured_3d_lanthanide_union_yield"
+    ],
+    "A": [
+      "qc_retention_pct",
+      "unique_formula_yield_pct",
+      "3d_containing_yield_pct"
+    ],
+    "B": [
+      "qc_retention_pct",
+      "unique_formula_yield_pct",
+      "3d_containing_yield_pct",
+      "lanthanide_containing_yield"
+    ],
+    "C": [
+      "qc_retention_pct",
+      "unique_formula_yield_pct",
+      "3d_atomic_content_yield",
+      "lanthanide_atomic_content_yield"
+    ],
+    "S1-2D": [
+      "unique_formula_yield_pct",
+      "3d_atomic_content_yield"
+    ],
+    "S2-2D": [
+      "unique_formula_yield_pct",
+      "lanthanide_atomic_content_yield"
+    ],
+    "S3-2D": [
+      "unique_formula_yield_pct",
+      "configured_3d_lanthanide_union_yield"
+    ]
+  },
+  "source_sha256": {
+    "reproduced\\figure8\\figure08_scenario_metrics_v2.csv": "dbaa3b3a1064f915e7d50db6a3ae62ac102f11008cbeccc56687607ef3e81312",
+    "reproduced\\figure8\\figure08_scenario_rankings_v2.csv": "f4c9e429792d68592ff7f793dffc50b95fd7c249b29d43804719c5c9945e39a0",
+    "reproduced\\figure8\\figure08_scenario_pareto_v2.csv": "f9ba88fa2f6c06989008ec8764cb2a1f6cd556c2a40dabc149c49742835e395f",
+    "reproduced\\figure8\\figure08_criteria_metrics_v2.csv": "358d89293fafa705880b762e2930289344e271be6fa5ddcc00eb9cb0832ad186",
+    "reproduced\\figure8\\figure08_criteria_rankings_v2.csv": "140f322696dab5a71448f86227c568b0775e9257d4f5eb1e3c95ba418d4ac87d",
+    "reproduced\\figure8\\figure08_criteria_pareto_v2.csv": "2e0c18273fb862c7241c62cfc52bc1f3a7f598cfbb8700533ecac964f3900423",
+    "reproduced\\figure8\\figure08_ablation_metrics_v2.csv": "315973d9c893f9a55e6d7fbbb6b81083ccc082c09eeca32879e284ae2ed06d8d",
+    "reproduced\\figure8\\figure08_ablation_rankings_v2.csv": "3f0b615d9fe297d9207b5782a162345f96f3c38a647a5d6acad0d275c6419ea7",
+    "reproduced\\figure8\\figure08_ablation_pareto_v2.csv": "b392b6e082286c0629f24906c77ba1138501d11079be08a814d3981c7f8b69da",
+    "reproduced\\figure8\\audit_2026-11-09\\scenario_results_source_precision.csv": "d5912c66e236cd982e0ca9fd0abadb7bc161ea396be65c77d412e81de44919fc",
+    "reproduced\\figure8\\hybrid_v2\\panel_D_S1_top5_pct.csv": "62bc4e2445e067d5fbce90846dacb7877e461f69fa2d47c6c9130a8c3247f824",
+    "reproduced\\figure8\\figure08_chemistry_metrics_v2.csv": "04f3ab0b7ad4486dfe445f22750f69f68b4809d7d95cee8ab9defbae769c1cae",
+    "paper\\figures\\fig01_pipeline.pdf": "e66d6a2c15b83c3605d08b5cfaff1094c9b81a72f81f445e1fb7fc63c1349e44",
+    "paper\\figures\\fig01_pipeline.png": "7625c5d435f0a7bb7b63d37b79c976eb2e862f90fd66d780ba40dfaa6756ec8c",
+    "paper\\figures\\fig02_structural_overview.pdf": "44536e14b5f5546e56ec9562c013334a309e5ee6046a664b9f0802ab8642baad",
+    "paper\\figures\\fig03_magnetic_domain.pdf": "1a0ea22f2740ea82ea8f0559d8d2f7fd20ac5507c17825d2bde47aa112c21295",
+    "paper\\figures\\fig04_magnetic_reference_dft.pdf": "4462263831a192f6a289606ecb344609e838eff907d4b9556c1f04407eae5e47",
+    "paper\\figures\\fig05_energy_magnetism.pdf": "319065067ea45bd189491abca42383e35cd02cc0aade4c691e837461d0aeccfe",
+    "paper\\figures\\fig06_diversity_adaptation.pdf": "4d5ea4918666afb57f918165985bbfd8b3c6da44073955ffd783a78aef6f6500",
+    "paper\\figures\\fig08_caption.md": "6d74a9db19889b8bbe94c1236b77f5fa407e18659b2027561384d07b8c42a577",
+    "paper\\figures\\fig08_multiobjective.pdf": "d64d2e4dad6f86a80c3fe6259e57f2fe765f6edbe6897a71123af4a78acc17df",
+    "paper\\figures\\fig08_multiobjective_hybrid.pdf": "d32c51455a11375112171cb079e5e14b7a3f5f8d666250b0e580f26d30cbadae",
+    "paper\\figures\\fig08_multiobjective_hybrid.png": "4752e6527331c650dea14f76309b64a8846bf03cc77e70661f171b3e872b22b8",
+    "paper\\figures\\fig08_multiobjective_hybrid_v2.pdf": "3b7ec054069d739faba5153af3abcda4b22c7c8c5728d9998e3d132095e55b02",
+    "paper\\figures\\fig08_multiobjective_hybrid_v2.png": "ba17390f3bee2c5f80d269df1c699bc924b0e3ff46567d92ae21f14aed4a24e0",
+    "paper\\figures\\figure2_caption.md": "7bf98a283308e0135cd2dd2a5f5ae7520a511986af32715e3efb9a197540b8fe",
+    "paper\\figures\\figure2_reproduction.md": "11b515dfab7845d70c1c023bb82e24c5527b59029b882640a8f0bc2d2950d0f6",
+    "paper\\figures\\figure3_caption.md": "626b5ff20a804d768c3f31a1514cd5c86ff7d9406b75595d816bbee45e8ddcda",
+    "paper\\figures\\figure3_reproduction.md": "4d55f67348aab51968a625f8e4d0b7e62c72f9822a3ceb96e5660284c21fc25b",
+    "paper\\figures\\figure4_caption.md": "5a8ec2c0b0f4d597053a9265d79090649dbf6485a25885ed09f4af5a8eaade76",
+    "paper\\figures\\figure4_reproduction.md": "bd6205b30d9270867a05809698f03af42915b3d61f58213641a0138326890bf5",
+    "paper\\figures\\figure5_caption.md": "5c6d6216de413376244d7c07585ed9ab162cdb302e579902e7ff81365ce35544",
+    "paper\\figures\\figures_3_5_polish.md": "fa977f08b287f72b340b07e05d4304ceddb1ccf38173c407b2a681174cb90da6",
+    "paper\\figures\\README.md": "bade8f194d0ca6c0d684b3044f1bca160286fa0f397e52423689cf1274ec9af8",
+    "paper\\figures\\SHA256SUMS.txt": "a51ec12c906bdbad3b21d34d3a4c5757fe1af8beb5602d03b7a48da15e1050d1",
+    "paper\\figures\\supp01_pca_loadings.pdf": "d33e19b755412e0d355c66bfe0af8c6cdc14fc745210b51a2e8917ced64e23d9",
+    "paper\\figures\\supp02_descriptor_space.pdf": "360e4b46d5b2b3d6348b1bd20d7be9b24a0de12f72bbd70245d8c3b10166492b"
+  }
+}

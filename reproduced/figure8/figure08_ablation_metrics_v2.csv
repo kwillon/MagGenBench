@@ -1,0 +1,61 @@
+variant,variant_label,analysis_cohort,label,n_qc,n_generated_assumed,criterion,value_pct,normalized_score,constant_criterion,qc_retention_pct_reference
+S1-2D,3d-focused,mattergen_baseline,MatterGen Base,1657,2000,unique_formula_yield_pct,69.6,0.7511061946902655,False,82.85
+S1-2D,3d-focused,mattergen_finetuned,MatterGen FT,1376,2000,unique_formula_yield_pct,20.6,0.20907079646017704,False,68.8
+S1-2D,3d-focused,concdvae_baseline,Con-CDVAE Base,1864,2000,unique_formula_yield_pct,92.1,1.0,False,93.2
+S1-2D,3d-focused,concdvae_finetuned,Con-CDVAE FT,1299,2000,unique_formula_yield_pct,28.7,0.29867256637168144,False,64.95
+S1-2D,3d-focused,crystalformer_baseline,CrystalFormer Base,1083,2000,unique_formula_yield_pct,36.0,0.37942477876106195,False,54.15
+S1-2D,3d-focused,crystalformer_finetuned,CrystalFormer FT,1380,2000,unique_formula_yield_pct,34.0,0.35730088495575224,False,69.0
+S1-2D,3d-focused,crystallm_baseline,CrystaLLM Base,98,2000,unique_formula_yield_pct,1.7,0.0,False,4.9
+S1-2D,3d-focused,crystallm_finetuned,CrystaLLM FT,217,2000,unique_formula_yield_pct,4.95,0.03595132743362832,False,10.85
+S1-2D,3d-focused,crysjepa_base,Crys-JEPA Base,1764,2000,unique_formula_yield_pct,86.5,0.9380530973451328,False,88.2
+S1-2D,3d-focused,crysjepa_refined,Crys-JEPA Refined,1543,2000,unique_formula_yield_pct,43.35,0.46073008849557523,False,77.15
+S1-2D,3d-focused,mattergen_baseline,MatterGen Base,1657,2000,3d_atomic_content_yield,38.98092152128916,0.6698020628409052,False,82.85
+S1-2D,3d-focused,mattergen_finetuned,MatterGen FT,1376,2000,3d_atomic_content_yield,57.17966033171336,1.0,False,68.8
+S1-2D,3d-focused,concdvae_baseline,Con-CDVAE Base,1864,2000,3d_atomic_content_yield,7.496445867299195,0.09854770165801037,False,93.2
+S1-2D,3d-focused,concdvae_finetuned,Con-CDVAE FT,1299,2000,3d_atomic_content_yield,49.84818452380952,0.8669776948106424,False,64.95
+S1-2D,3d-focused,crystalformer_baseline,CrystalFormer Base,1083,2000,3d_atomic_content_yield,6.902834922086857,0.08777722400975153,False,54.15
+S1-2D,3d-focused,crystalformer_finetuned,CrystalFormer FT,1380,2000,3d_atomic_content_yield,47.99171969495073,0.8332939948969725,False,69.0
+S1-2D,3d-focused,crystallm_baseline,CrystaLLM Base,98,2000,3d_atomic_content_yield,2.0650252525252526,0.0,False,4.9
+S1-2D,3d-focused,crystallm_finetuned,CrystaLLM FT,217,2000,3d_atomic_content_yield,7.422958488879542,0.09721434658246524,False,10.85
+S1-2D,3d-focused,crysjepa_base,Crys-JEPA Base,1764,2000,3d_atomic_content_yield,10.80619816780227,0.15859985106891836,False,88.2
+S1-2D,3d-focused,crysjepa_refined,Crys-JEPA Refined,1543,2000,3d_atomic_content_yield,4.301571535189956,0.04057989823304207,False,77.15
+S2-2D,Lanthanide-focused,mattergen_baseline,MatterGen Base,1657,2000,unique_formula_yield_pct,69.6,0.7511061946902655,False,82.85
+S2-2D,Lanthanide-focused,mattergen_finetuned,MatterGen FT,1376,2000,unique_formula_yield_pct,20.6,0.20907079646017704,False,68.8
+S2-2D,Lanthanide-focused,concdvae_baseline,Con-CDVAE Base,1864,2000,unique_formula_yield_pct,92.1,1.0,False,93.2
+S2-2D,Lanthanide-focused,concdvae_finetuned,Con-CDVAE FT,1299,2000,unique_formula_yield_pct,28.7,0.29867256637168144,False,64.95
+S2-2D,Lanthanide-focused,crystalformer_baseline,CrystalFormer Base,1083,2000,unique_formula_yield_pct,36.0,0.37942477876106195,False,54.15
+S2-2D,Lanthanide-focused,crystalformer_finetuned,CrystalFormer FT,1380,2000,unique_formula_yield_pct,34.0,0.35730088495575224,False,69.0
+S2-2D,Lanthanide-focused,crystallm_baseline,CrystaLLM Base,98,2000,unique_formula_yield_pct,1.7,0.0,False,4.9
+S2-2D,Lanthanide-focused,crystallm_finetuned,CrystaLLM FT,217,2000,unique_formula_yield_pct,4.95,0.03595132743362832,False,10.85
+S2-2D,Lanthanide-focused,crysjepa_base,Crys-JEPA Base,1764,2000,unique_formula_yield_pct,86.5,0.9380530973451328,False,88.2
+S2-2D,Lanthanide-focused,crysjepa_refined,Crys-JEPA Refined,1543,2000,unique_formula_yield_pct,43.35,0.46073008849557523,False,77.15
+S2-2D,Lanthanide-focused,mattergen_baseline,MatterGen Base,1657,2000,lanthanide_atomic_content_yield,8.692478889359695,0.8395679281586126,False,82.85
+S2-2D,Lanthanide-focused,mattergen_finetuned,MatterGen FT,1376,2000,lanthanide_atomic_content_yield,0.004545454545454545,0.0,False,68.8
+S2-2D,Lanthanide-focused,concdvae_baseline,Con-CDVAE Base,1864,2000,lanthanide_atomic_content_yield,5.359443245308182,0.5174763915289966,False,93.2
+S2-2D,Lanthanide-focused,concdvae_finetuned,Con-CDVAE FT,1299,2000,lanthanide_atomic_content_yield,0.017619047619047614,0.0012633809331919685,False,64.95
+S2-2D,Lanthanide-focused,crystalformer_baseline,CrystalFormer Base,1083,2000,lanthanide_atomic_content_yield,4.871856496616559,0.47035791399137805,False,54.15
+S2-2D,Lanthanide-focused,crystalformer_finetuned,CrystalFormer FT,1380,2000,lanthanide_atomic_content_yield,0.13583333333333333,0.012687147434231603,False,69.0
+S2-2D,Lanthanide-focused,crystallm_baseline,CrystaLLM Base,98,2000,lanthanide_atomic_content_yield,0.08,0.007291632339581464,False,4.9
+S2-2D,Lanthanide-focused,crystallm_finetuned,CrystaLLM FT,217,2000,lanthanide_atomic_content_yield,0.039005439005439,0.00333007820266129,False,10.85
+S2-2D,Lanthanide-focused,crysjepa_base,Crys-JEPA Base,1764,2000,lanthanide_atomic_content_yield,7.3721822589605095,0.711979622509636,False,88.2
+S2-2D,Lanthanide-focused,crysjepa_refined,Crys-JEPA Refined,1543,2000,lanthanide_atomic_content_yield,10.352646118501381,1.0,False,77.15
+S3-2D,Broad chemical exploration,mattergen_baseline,MatterGen Base,1657,2000,unique_formula_yield_pct,69.6,0.7511061946902655,False,82.85
+S3-2D,Broad chemical exploration,mattergen_finetuned,MatterGen FT,1376,2000,unique_formula_yield_pct,20.6,0.20907079646017704,False,68.8
+S3-2D,Broad chemical exploration,concdvae_baseline,Con-CDVAE Base,1864,2000,unique_formula_yield_pct,92.1,1.0,False,93.2
+S3-2D,Broad chemical exploration,concdvae_finetuned,Con-CDVAE FT,1299,2000,unique_formula_yield_pct,28.7,0.29867256637168144,False,64.95
+S3-2D,Broad chemical exploration,crystalformer_baseline,CrystalFormer Base,1083,2000,unique_formula_yield_pct,36.0,0.37942477876106195,False,54.15
+S3-2D,Broad chemical exploration,crystalformer_finetuned,CrystalFormer FT,1380,2000,unique_formula_yield_pct,34.0,0.35730088495575224,False,69.0
+S3-2D,Broad chemical exploration,crystallm_baseline,CrystaLLM Base,98,2000,unique_formula_yield_pct,1.7,0.0,False,4.9
+S3-2D,Broad chemical exploration,crystallm_finetuned,CrystaLLM FT,217,2000,unique_formula_yield_pct,4.95,0.03595132743362832,False,10.85
+S3-2D,Broad chemical exploration,crysjepa_base,Crys-JEPA Base,1764,2000,unique_formula_yield_pct,86.5,0.9380530973451328,False,88.2
+S3-2D,Broad chemical exploration,crysjepa_refined,Crys-JEPA Refined,1543,2000,unique_formula_yield_pct,43.35,0.46073008849557523,False,77.15
+S3-2D,Broad chemical exploration,mattergen_baseline,MatterGen Base,1657,2000,configured_3d_lanthanide_union_yield,77.9,1.0,False,82.85
+S3-2D,Broad chemical exploration,mattergen_finetuned,MatterGen FT,1376,2000,configured_3d_lanthanide_union_yield,68.7,0.8739726027397261,False,68.8
+S3-2D,Broad chemical exploration,concdvae_baseline,Con-CDVAE Base,1864,2000,configured_3d_lanthanide_union_yield,53.25,0.6623287671232877,False,93.2
+S3-2D,Broad chemical exploration,concdvae_finetuned,Con-CDVAE FT,1299,2000,configured_3d_lanthanide_union_yield,64.95,0.8226027397260275,False,64.95
+S3-2D,Broad chemical exploration,crystalformer_baseline,CrystalFormer Base,1083,2000,configured_3d_lanthanide_union_yield,24.1,0.263013698630137,False,54.15
+S3-2D,Broad chemical exploration,crystalformer_finetuned,CrystalFormer FT,1380,2000,configured_3d_lanthanide_union_yield,64.65,0.8184931506849316,False,69.0
+S3-2D,Broad chemical exploration,crystallm_baseline,CrystaLLM Base,98,2000,configured_3d_lanthanide_union_yield,4.9,0.0,False,4.9
+S3-2D,Broad chemical exploration,crystallm_finetuned,CrystaLLM FT,217,2000,configured_3d_lanthanide_union_yield,10.8,0.08082191780821918,False,10.85
+S3-2D,Broad chemical exploration,crysjepa_base,Crys-JEPA Base,1764,2000,configured_3d_lanthanide_union_yield,49.15,0.6061643835616438,False,88.2
+S3-2D,Broad chemical exploration,crysjepa_refined,Crys-JEPA Refined,1543,2000,configured_3d_lanthanide_union_yield,22.25,0.23767123287671235,False,77.15

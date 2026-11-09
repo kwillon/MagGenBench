@@ -1,0 +1,9 @@
+# Manuscript excerpt supplied by the user, 2026-11-09
+
+This file records the original three scenario paragraphs for comparison with the numerical additions. The complete Methods text was not supplied; the task states that Methods defines S1 using 3d atomic-content yield.
+
+The 3d-focused scenario (S1) prioritized the production of structurally accepted, compositionally distinct candidates with increased representation of 3d transition metal elements. Under equal weighting, MatterGen Base achieved the highest aggregate score, followed by Con-CDVAE Base and Crys-JEPA Base. MatterGen Fine-tuned exhibited a higher 3d atomic-content yield than its baseline counterpart but a substantially lower unique formula yield, illustrating the trade-off between chemical specialization and compositional exploration.
+
+The lanthanide-focused scenario (S2) produced a different ranking. Crys-JEPA Base ranked first under equal weighting, followed by Con-CDVAE Base and MatterGen Base. Crys-JEPA Refined also became more competitive, ranking fourth, whereas MatterGen Fine-tuned declined to eighth place. This difference was associated with the contrasting lanthanide representation of the generated populations. In particular, magnetic-domain fine-tuning of MatterGen, Con-CDVAE, CrystalFormer, and CrystaLLM substantially reduced the occurrence of lanthanide-containing compositions, as independently observed in Section 3.3.
+
+The combined 3d–lanthanide coverage scenario (S3) favored Con-CDVAE Base under equal weighting, followed by MatterGen Base and Crys-JEPA Base. Unlike the atomic-content objectives in S1 and S2, this scenario measured whether accepted structures contained at least one element from either configured group. Therefore, it characterized broad coverage of the selected elemental groups rather than their relative abundance within individual compositions.

@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "seed_of_saved_calculation": 1984,
+  "n_weights": 20000,
+  "rank_distribution_source": "saved S1 rank_1_pct through rank_10_pct; no resampling",
+  "panel_A": "five saved metrics, per-column min-max colors, original percentages annotated",
+  "panel_B": "QC vs formula yield; area = 55 + 2 * S1 atomic-content yield; S1 Pareto outlines",
+  "panel_C": "saved S1 rank distribution, percent of 20000 weight combinations",
+  "panel_D": "saved S1/S2/S3 first-place frequencies",
+  "source_sha256": {
+    "reproduced\\figure8\\figure08_scenario_metrics_v2.csv": "dbaa3b3a1064f915e7d50db6a3ae62ac102f11008cbeccc56687607ef3e81312",
+    "reproduced\\figure8\\figure08_scenario_rankings_v2.csv": "f4c9e429792d68592ff7f793dffc50b95fd7c249b29d43804719c5c9945e39a0",
+    "reproduced\\figure8\\figure08_scenario_pareto_v2.csv": "f9ba88fa2f6c06989008ec8764cb2a1f6cd556c2a40dabc149c49742835e395f",
+    "paper\\figures\\fig08_multiobjective.pdf": "d64d2e4dad6f86a80c3fe6259e57f2fe765f6edbe6897a71123af4a78acc17df",
+    "reproduced\\figure8\\figure08_scenarios_v2.pdf": "a8af21d060b947e9b719fc243c7073474f85b8a5085f0e974609226fe02423fb",
+    "reproduced\\figure8\\figure08_scenarios_v2.png": "0c0f484fe3716c0ad3b3244ec34db8d802335719d1c193e6f49f771e0c6069e5"
+  },
+  "checks": [
+    "A repeated structural metrics agree across S1-S3",
+    "all equal scores and ranks verified",
+    "Pareto dominance verified for all scenarios",
+    "C row and column sums equal 100%",
+    "C frequencies correspond to integer counts out of 20000",
+    "C first/top3/top5/mean rank agree with saved S1 summaries",
+    "C rank 1 matches D S1",
+    "D columns sum to 100%",
+    "colorbars clear of tick and axis labels",
+    "input and old figure hashes unchanged"
+  ],
+  "output_sha256": {
+    "C:\\Users\\REDMI\\Projects\\MagGenBench\\paper\\figures\\fig08_multiobjective_hybrid.pdf": "d32c51455a11375112171cb079e5e14b7a3f5f8d666250b0e580f26d30cbadae",
+    "C:\\Users\\REDMI\\Projects\\MagGenBench\\paper\\figures\\fig08_multiobjective_hybrid.png": "4752e6527331c650dea14f76309b64a8846bf03cc77e70661f171b3e872b22b8"
+  }
+}

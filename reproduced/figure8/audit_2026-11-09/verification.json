@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "cohorts": 10,
+  "n_generated_per_cohort": 2000,
+  "retained_total": 12281,
+  "checks": [
+    "QC statuses and budget for all ten benchmark sets",
+    "exact descriptor/energy sample identity",
+    "unique reduced formulas",
+    "all five yields against saved source precision",
+    "scenario normalization, equal scores and ranks"
+  ],
+  "tolerance_yields_pct": "1e-10",
+  "tolerance_score": "1e-14",
+  "source_sha256": {
+    "config/magnetism.yaml": "27d36293aa836282c294e2e488df56713142d1dfec013432fecc17a07e242fd2",
+    "paper/figures/fig08_caption.md": "6d74a9db19889b8bbe94c1236b77f5fa407e18659b2027561384d07b8c42a577",
+    "paper/figures/fig08_multiobjective.pdf": "d64d2e4dad6f86a80c3fe6259e57f2fe765f6edbe6897a71123af4a78acc17df",
+    "paper/tables/figure_sources/crystalformer_finetuned_descriptors.csv": "6fcec59dacf7ffd5719fdfb1874c7a8a0495ccf1c12496d1a0546a5d57d9fe4b",
+    "paper/tables/figure_sources/crystallm_finetuned_descriptors.csv": "1f490c29925299e9cf02f13d6a55d386832219333514ce4fb951180bc49f2c5a",
+    "paper/tables/figure_sources/fig05_energy_magnetism.csv": "d8a8b0ce43ad3b63fb9c364b0f3d3a8b92ec1849b58a6221999f8c27e3018f77",
+    "paper/tables/figure_sources/fig06_diversity_summary.csv": "e2a655eadb46512ef4235356dc755b6c644127f90c1f3a32d92a016e1eeaefbe",
+    "paper/tables/figure_sources/fig08_metric_matrix.csv": "4152822b8b02ce9fd6e29cca792a6dff0208f03b528bb6319ce01060e4361f8a",
+    "paper/tables/figure_sources/fig08_rank_distribution.csv": "f6a31b335ea867a55fb5b1aaf7de4b4bc1d2c804fb8372e683137ca3dc875f8f",
+    "paper/tables/figure_sources/fig08_ranking_summary.csv": "05d6578904ce3e866213dd7ae37994bd594c487a229e7bbe418daab9f75655c5",
+    "reproduced/figure8/figure08_scenario_metrics_v2.csv": "dbaa3b3a1064f915e7d50db6a3ae62ac102f11008cbeccc56687607ef3e81312",
+    "reproduced/figure8/figure08_scenario_rankings_v2.csv": "f4c9e429792d68592ff7f793dffc50b95fd7c249b29d43804719c5c9945e39a0",
+    "reproduced/figure8/figure08_scenarios_v2.pdf": "a8af21d060b947e9b719fc243c7073474f85b8a5085f0e974609226fe02423fb",
+    "scripts/analysis/build_paper_figure08.py": "e418044e0f4cbd19ecf4a3c0d90289cd18fe21d24a7a37ab6e7559188968b6ad",
+    "tables/02_validation/master_structures_with_validation_status.csv": "29119b78bc78faf79c3be0782e83bc4012cac45db63e2c00643f0466f66b3fcc",
+    "tables/03_features/crysjepa_base_with_classes.csv": "cf641ec6e7fa8f16376120bd74223a3eec4ad26ec5f9b04b89e3b97611b9dbdf",
+    "tables/03_features/crysjepa_refined_with_classes.csv": "9b2e647b2b0108842ae54af10b5348366cee93890a1142ad8c0a0893557de94f",
+    "tables/03_features/phase5b_concdvae_finetuned_with_classes.csv": "b45c0b4e09ad60b0a80b4abf18ac53e31855a7718d3664786d76beef811e5a87",
+    "tables/03_features/phase5b_crystalformer_finetuned_with_classes.csv": "eac2c825cb50b940b816e91d9d7fd1d1bef2bdb9599186bdabe46c0f24a90702",
+    "tables/03_features/phase5b_crystallm_finetuned_with_classes.csv": "0a673b026fb9b00c7be4747150e40e4be1416b7ea32a5c1c62c9ba668ef53d1c",
+    "tables/03_features/phase5b_mattergen_finetuned_with_classes.csv": "65e41a55654dc030d9258ce12f7ccf17dab9b3e81231da65d6ab4306a120acae",
+    "tables/10_analysis_v2_magnetic/analysis_v2_magnetic.csv": "221deb82b2ac3e5442b4930dd9dcf05dc411e46244f1ce80a401a7d6775bc181"
+  }
+}

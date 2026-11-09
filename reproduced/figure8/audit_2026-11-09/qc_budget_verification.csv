@@ -1,0 +1,11 @@
+analysis_cohort,n_total,n_qc,n_rejected,qc_source
+mattergen_baseline,2000,1657,343,tables\02_validation\master_structures_with_validation_status.csv
+mattergen_finetuned,2000,1376,624,tables/03_features/phase5b_mattergen_finetuned_with_classes.csv
+concdvae_baseline,2000,1864,136,tables\02_validation\master_structures_with_validation_status.csv
+concdvae_finetuned,2000,1299,701,tables/03_features/phase5b_concdvae_finetuned_with_classes.csv
+crystalformer_baseline,2000,1083,917,tables\02_validation\master_structures_with_validation_status.csv
+crystalformer_finetuned,2000,1380,620,tables/03_features/phase5b_crystalformer_finetuned_with_classes.csv
+crystallm_baseline,2000,98,1902,tables\02_validation\master_structures_with_validation_status.csv
+crystallm_finetuned,2000,217,1783,tables/03_features/phase5b_crystallm_finetuned_with_classes.csv
+crysjepa_base,2000,1764,236,tables/03_features/crysjepa_base_with_classes.csv
+crysjepa_refined,2000,1543,457,tables/03_features/crysjepa_refined_with_classes.csv

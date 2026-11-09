@@ -1,0 +1,11 @@
+Generator family pair,OVL (15 × 15 grid),95% bootstrap CI for OVL,SWD₁,95% bootstrap CI for SWD₁
+MatterGen / Con-CDVAE,0.629,"[0.600, 0.643]",0.406,"[0.381, 0.434]"
+MatterGen / CrystalFormer,0.315,"[0.294, 0.331]",1.065,"[1.029, 1.101]"
+MatterGen / CrystaLLM,0.190,"[0.150, 0.215]",1.172,"[1.087, 1.256]"
+MatterGen / Crys-JEPA,0.261,"[0.243, 0.274]",1.131,"[1.107, 1.155]"
+Con-CDVAE / CrystalFormer,0.438,"[0.416, 0.454]",0.779,"[0.745, 0.811]"
+Con-CDVAE / CrystaLLM,0.277,"[0.226, 0.301]",0.970,"[0.885, 1.052]"
+Con-CDVAE / Crys-JEPA,0.440,"[0.420, 0.458]",0.747,"[0.722, 0.770]"
+CrystalFormer / CrystaLLM,0.436,"[0.361, 0.434]",0.414,"[0.367, 0.477]"
+CrystalFormer / Crys-JEPA,0.501,"[0.475, 0.517]",0.606,"[0.577, 0.638]"
+CrystaLLM / Crys-JEPA,0.249,"[0.205, 0.263]",0.877,"[0.823, 0.945]"

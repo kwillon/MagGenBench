@@ -1,0 +1,11 @@
+analysis_cohort,label,top5_count,n_weights,top5_pct,family_color
+mattergen_baseline,MatterGen Base,20000,20000,100.0,#4F6745
+crystalformer_finetuned,CrystalFormer FT,19729,20000,98.645,#E89339
+crysjepa_base,Crys-JEPA Base,17406,20000,87.03,#304862
+concdvae_baseline,Con-CDVAE Base,14855,20000,74.275,#61838F
+mattergen_finetuned,MatterGen FT,13004,20000,65.02,#4F6745
+concdvae_finetuned,Con-CDVAE FT,9700,20000,48.5,#61838F
+crysjepa_refined,Crys-JEPA Refined,5233,20000,26.165,#304862
+crystalformer_baseline,CrystalFormer Base,73,20000,0.365,#E89339
+crystallm_baseline,CrystaLLM Base,0,20000,0.0,#AD463D
+crystallm_finetuned,CrystaLLM FT,0,20000,0.0,#AD463D
