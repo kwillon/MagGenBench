@@ -1,0 +1,502 @@
+[
+  {
+    "path": "paper/README.md",
+    "line": 16,
+    "text": "paper/figures/"
+  },
+  {
+    "path": "paper/README.md",
+    "line": 20,
+    "text": "paper/tables/"
+  },
+  {
+    "path": "paper/figures/figure2_reproduction.md",
+    "line": 102,
+    "text": "The selected `paper/figures/fig02_structural_overview.pdf` now contains the"
+  },
+  {
+    "path": "paper/figures/figure2_reproduction.md",
+    "line": 108,
+    "text": "is in `figure2_caption.md`; it describes the complete ten-set figure and"
+  },
+  {
+    "path": "paper/figures/figure3_reproduction.md",
+    "line": 71,
+    "text": "Generated files under `reproduced/figure3_ft_descriptors/`:"
+  },
+  {
+    "path": "paper/figures/figure3_reproduction.md",
+    "line": 185,
+    "text": "  --descriptor-input crystalformer_finetuned=reproduced/figure3_ft_descriptors/crystalformer_finetuned_descriptor_v2_magnetic.csv \\"
+  },
+  {
+    "path": "paper/figures/figure3_reproduction.md",
+    "line": 186,
+    "text": "  --descriptor-input crystallm_finetuned=reproduced/figure3_ft_descriptors/crystallm_finetuned_descriptor_v2_magnetic.csv \\"
+  },
+  {
+    "path": "paper/figures/figure3_reproduction.md",
+    "line": 207,
+    "text": "`paper/figures/fig03_magnetic_domain.pdf`; PNG and PDF renders were"
+  },
+  {
+    "path": "paper/figures/figure3_reproduction.md",
+    "line": 208,
+    "text": "visually checked. Caption: `figure3_caption.md`."
+  },
+  {
+    "path": "paper/figures/figure4_caption.md",
+    "line": 20,
+    "text": "[reproduction and limitations](figure4_reproduction.md)."
+  },
+  {
+    "path": "paper/figures/figure4_reproduction.md",
+    "line": 5,
+    "text": "numerically different MP-only recalculation. See the [caption](figure4_caption.md)."
+  },
+  {
+    "path": "paper/figures/figure4_reproduction.md",
+    "line": 19,
+    "text": "`paper/figures/fig04_magnetic_reference_dft.pdf`."
+  },
+  {
+    "path": "paper/figures/figures_3_5_polish.md",
+    "line": 17,
+    "text": "filter/.venv/Scripts/python.exe -X utf8 -m pytest tests/test_manuscript_figure3_v2.py tests/test_manuscript_figure5_v2.py tests/test_validation_figures_v2.py tests/test_analysis_v2_plotting.py -q --basetemp=reproduced/figures35_tests"
+  },
+  {
+    "path": "paper/figures/figures_3_5_polish.md",
+    "line": 23,
+    "text": "`reproduced/figure3_ft_descriptors/`. No descriptors, CHGNet, DXMag, screening,"
+  },
+  {
+    "path": "paper/figures/figures_3_5_polish.md",
+    "line": 31,
+    "text": "PDFs are copied into `paper/figures/`."
+  },
+  {
+    "path": "paper/figures/figures_3_5_polish.md",
+    "line": 87,
+    "text": "`reproduced/figures35_audit/`. The PDFs are rendered and visually inspected"
+  },
+  {
+    "path": "paper/figures/figures_3_5_polish.md",
+    "line": 89,
+    "text": "in `figure3_caption.md` and `figure5_caption.md`; manuscript sources remain"
+  },
+  {
+    "path": "paper/figures/README.md",
+    "line": 20,
+    "text": "Figure 2: see [provenance and reproduction](figure2_reproduction.md) and"
+  },
+  {
+    "path": "paper/figures/README.md",
+    "line": 21,
+    "text": "the [updated caption](figure2_caption.md). The selected PDF includes all"
+  },
+  {
+    "path": "paper/figures/README.md",
+    "line": 24,
+    "text": "Figure 3: see [definitions, audit and reproduction](figure3_reproduction.md)"
+  },
+  {
+    "path": "paper/figures/README.md",
+    "line": 25,
+    "text": "and the [updated caption](figure3_caption.md). Its selected PDF includes all"
+  },
+  {
+    "path": "paper/figures/README.md",
+    "line": 59,
+    "text": "  [reproduction and limitations](figure4_reproduction.md) and the"
+  },
+  {
+    "path": "paper/figures/README.md",
+    "line": 60,
+    "text": "  [caption](figure4_caption.md)."
+  },
+  {
+    "path": "paper/figures/README.md",
+    "line": 69,
+    "text": "  `figure5_caption.md`. Figure 6's permanent ten-cohort implementation"
+  },
+  {
+    "path": "paper/figures/README.md",
+    "line": 83,
+    "text": "subdirectory, using paths relative to `paper/figures/`. It includes the"
+  },
+  {
+    "path": "paper/figures/README.md",
+    "line": 94,
+    "text": "- Caption and limitations: `fig08_caption.md`"
+  },
+  {
+    "path": "paper/figures/README.md",
+    "line": 95,
+    "text": "- Numerical inputs and results: `paper/tables/figure_sources/fig08_*.csv`"
+  },
+  {
+    "path": "paper/supporting_information/figure5_overlap_si_audit.md",
+    "line": 34,
+    "text": "Underlying checks: `reproduced/figure5_overlap/pairwise_overlap.csv` (resolution and balanced-n results), `grid_origin_sensitivity.csv` (origin shifts), and `resampling_distributions.npz` (replicates). Other pairs may change rank; no claim of complete rank stability is made."
+  },
+  {
+    "path": "paper/supporting_information/figure5_overlap_si_audit.md",
+    "line": 52,
+    "text": "| `reproduced/figure5_overlap/analysis_parameters.json` | `1ceccea6d8c62dc6f2d6aea37d830f42c3fb968946624915f48be2ec748f5c4c` |"
+  },
+  {
+    "path": "paper/supporting_information/figure5_overlap_si_audit.md",
+    "line": 53,
+    "text": "| `reproduced/figure5_overlap/analysis_summary.md` | `11128fe799484c5eb810a44798c969f9ae7841296a752f48c4c761f266b78640` |"
+  },
+  {
+    "path": "paper/supporting_information/figure5_overlap_si_audit.md",
+    "line": 54,
+    "text": "| `reproduced/figure5_overlap/grid_origin_sensitivity.csv` | `08386ef2401f24387e4c345d713b5e187fecfbc3f672cfdfaa383842c54a2229` |"
+  },
+  {
+    "path": "paper/supporting_information/figure5_overlap_si_audit.md",
+    "line": 55,
+    "text": "| `reproduced/figure5_overlap/overlap_matrix.pdf` | `d6644b146350d03fc5bd6cb99195085165a4a5d03d78bfe1366484e863c582aa` |"
+  },
+  {
+    "path": "paper/supporting_information/figure5_overlap_si_audit.md",
+    "line": 56,
+    "text": "| `reproduced/figure5_overlap/overlap_matrix_preview.png` | `463aec2d44a6f8587d0698992a9b317a053cbfa8132801dbb9f77d13d848e35b` |"
+  },
+  {
+    "path": "paper/supporting_information/figure5_overlap_si_audit.md",
+    "line": 57,
+    "text": "| `reproduced/figure5_overlap/pairwise_overlap.csv` | `78bc55c9dfe35d8ee4a8540fde50ebe7cdeb6a366b15f4e367ded7556dfedf37` |"
+  },
+  {
+    "path": "paper/supporting_information/figure5_overlap_si_audit.md",
+    "line": 58,
+    "text": "| `reproduced/figure5_overlap/population_audit.csv` | `f1ac6ee531d03250c8da526a7c8dbf8ed29d04717169f6be70aea7fa09fce26f` |"
+  },
+  {
+    "path": "paper/supporting_information/figure5_overlap_si_audit.md",
+    "line": 59,
+    "text": "| `reproduced/figure5_overlap/projection_directions.csv` | `90a44ff4276a8f8f42fe06ff03ca970f72ae3cd600f205dbfae803f90e0da096` |"
+  },
+  {
+    "path": "paper/supporting_information/figure5_overlap_si_audit.md",
+    "line": 60,
+    "text": "| `reproduced/figure5_overlap/resampling_distributions.npz` | `02e7b1f74b85fdd1f3ade2cb75f27d75057c350ef3149779329113a3f61db61d` |"
+  },
+  {
+    "path": "paper/supporting_information/figure5_overlap_si_audit.md",
+    "line": 61,
+    "text": "| `reproduced/figure5_overlap/sample_manifest.csv` | `e2d47967870abbf32f1d502b8981116d6eb273c12459d4646cf31c7192473f92` |"
+  },
+  {
+    "path": "paper/supporting_information/figure5_overlap_si_audit.md",
+    "line": 62,
+    "text": "| `reproduced/figure5_overlap/wasserstein_matrix.pdf` | `61e02dc8d0992cf55c6a6b7290e150fd3a33313f081d9273bf4dc56ee7af110a` |"
+  },
+  {
+    "path": "paper/supporting_information/figure5_overlap_si_audit.md",
+    "line": 63,
+    "text": "| `reproduced/figure5_overlap/wasserstein_matrix_preview.png` | `43940b1bfb6c23bd07e300d2e2aaffbe5ff29b4b14d5bc2345b183b313cf4b61` |"
+  },
+  {
+    "path": "paper/supporting_information/figure5_overlap_si_audit.md",
+    "line": 64,
+    "text": "| `paper/tables/figure_sources/fig05_energy_magnetism.csv` | `d8a8b0ce43ad3b63fb9c364b0f3d3a8b92ec1849b58a6221999f8c27e3018f77` |"
+  },
+  {
+    "path": "paper/supporting_information/figure5_overlap_si_audit.md",
+    "line": 65,
+    "text": "| `paper/figures/fig05_energy_magnetism.pdf` | `319065067ea45bd189491abca42383e35cd02cc0aade4c691e837461d0aeccfe` |"
+  },
+  {
+    "path": "paper/supporting_information/figure8_sensitivity/build_audit.py",
+    "line": 12,
+    "text": "BASE = ROOT/'reproduced/figure8'"
+  },
+  {
+    "path": "paper/supporting_information/figure8_sensitivity/build_audit.py",
+    "line": 226,
+    "text": "protected=[*BASE.glob('*.csv'),*sorted((ROOT/'paper/figures').glob('*'))]"
+  },
+  {
+    "path": "paper/supporting_information/figure8_sensitivity/source_manifest.json",
+    "line": 132,
+    "text": "    \"paper\\\\figures\\\\fig08_caption.md\": \"6d74a9db19889b8bbe94c1236b77f5fa407e18659b2027561384d07b8c42a577\","
+  },
+  {
+    "path": "paper/supporting_information/figure8_sensitivity/source_manifest.json",
+    "line": 138,
+    "text": "    \"paper\\\\figures\\\\figure2_caption.md\": \"7bf98a283308e0135cd2dd2a5f5ae7520a511986af32715e3efb9a197540b8fe\","
+  },
+  {
+    "path": "paper/supporting_information/figure8_sensitivity/source_manifest.json",
+    "line": 139,
+    "text": "    \"paper\\\\figures\\\\figure2_reproduction.md\": \"11b515dfab7845d70c1c023bb82e24c5527b59029b882640a8f0bc2d2950d0f6\","
+  },
+  {
+    "path": "paper/supporting_information/figure8_sensitivity/source_manifest.json",
+    "line": 140,
+    "text": "    \"paper\\\\figures\\\\figure3_caption.md\": \"626b5ff20a804d768c3f31a1514cd5c86ff7d9406b75595d816bbee45e8ddcda\","
+  },
+  {
+    "path": "paper/supporting_information/figure8_sensitivity/source_manifest.json",
+    "line": 141,
+    "text": "    \"paper\\\\figures\\\\figure3_reproduction.md\": \"4d55f67348aab51968a625f8e4d0b7e62c72f9822a3ceb96e5660284c21fc25b\","
+  },
+  {
+    "path": "paper/supporting_information/figure8_sensitivity/source_manifest.json",
+    "line": 142,
+    "text": "    \"paper\\\\figures\\\\figure4_caption.md\": \"5a8ec2c0b0f4d597053a9265d79090649dbf6485a25885ed09f4af5a8eaade76\","
+  },
+  {
+    "path": "paper/supporting_information/figure8_sensitivity/source_manifest.json",
+    "line": 143,
+    "text": "    \"paper\\\\figures\\\\figure4_reproduction.md\": \"bd6205b30d9270867a05809698f03af42915b3d61f58213641a0138326890bf5\","
+  },
+  {
+    "path": "paper/supporting_information/figure8_sensitivity/source_manifest.json",
+    "line": 144,
+    "text": "    \"paper\\\\figures\\\\figure5_caption.md\": \"5c6d6216de413376244d7c07585ed9ab162cdb302e579902e7ff81365ce35544\","
+  },
+  {
+    "path": "paper/supporting_information/figure8_sensitivity/verification_notes.md",
+    "line": 13,
+    "text": "Primary sources: [scenario metrics](../../../reproduced/figure8/figure08_scenario_metrics_v2.csv), [scenario rankings](../../../reproduced/figure8/figure08_scenario_rankings_v2.csv), [scenario Pareto](../../../reproduced/figure8/figure08_scenario_pareto_v2.csv), [criteria metrics](../../../reproduced/figure8/figure08_criteria_metrics_v2.csv), [criteria rankings](../../../reproduced/figure8/figure08_criteria_rankings_v2.csv), [criteria Pareto](../../../reproduced/figure8/figure08_criteria_pareto_v2.csv), [ablation metrics](../../../reproduced/figure8/figure08_ablation_metrics_v2.csv), [ablation rankings](../../../reproduced/figure8/figure08_ablation_rankings_v2.csv), [ablation Pareto](../../../reproduced/figure8/figure08_ablation_pareto_v2.csv), [original matrix](../../tables/figure_sources/fig08_metric_matrix.csv), [hybrid_v2 audit](../../../reproduced/figure8/hybrid_v2/audit.json), and [calculation script](../../../scripts/analysis/build_paper_figure08.py)."
+  },
+  {
+    "path": "scripts/analysis/audit_figure4_mp_only.py",
+    "line": 150,
+    "text": "        if hashlib.sha256((ROOT / \"paper/figures\" / name).read_bytes()).hexdigest() != expected_hash:"
+  },
+  {
+    "path": "scripts/analysis/audit_paper_figures_3_5.py",
+    "line": 8,
+    "text": "OUTPUT_DIR = Path('reproduced/figures35_audit')"
+  },
+  {
+    "path": "scripts/analysis/audit_paper_figures_3_5.py",
+    "line": 42,
+    "text": "path = 'paper/tables/figure_sources/fig05_energy_magnetism.csv'"
+  },
+  {
+    "path": "scripts/analysis/audit_paper_figures_3_5.py",
+    "line": 64,
+    "text": "old_figure4 = subprocess.check_output(['git', 'show', baseline + ':paper/figures/fig04_magnetic_reference_dft.pdf'])"
+  },
+  {
+    "path": "scripts/analysis/audit_paper_figures_3_5.py",
+    "line": 65,
+    "text": "publication4 = Path('paper/figures/fig04_magnetic_reference_dft.pdf').read_bytes()"
+  },
+  {
+    "path": "scripts/analysis/audit_paper_figures_3_5.py",
+    "line": 69,
+    "text": "    vector_audit = json.loads(Path('paper/figures/audit/figure4/original_vector_design_audit.json').read_text())"
+  },
+  {
+    "path": "scripts/analysis/audit_paper_figures_3_5.py",
+    "line": 77,
+    "text": "    page = pymupdf.open(f'paper/figures/{name}.pdf')[0]"
+  },
+  {
+    "path": "scripts/analysis/audit_paper_figures_3_5.py",
+    "line": 85,
+    "text": "        historical_pdf = subprocess.check_output(['git', 'show', baseline + ':paper/figures/fig05_energy_magnetism.pdf'])"
+  },
+  {
+    "path": "scripts/analysis/build_paper_figure08.py",
+    "line": 42,
+    "text": "ROOT = Path(\"paper/tables/figure_sources\")"
+  },
+  {
+    "path": "scripts/analysis/build_paper_figure08.py",
+    "line": 44,
+    "text": "OUTPUT = Path(\"reproduced/figure8\")"
+  },
+  {
+    "path": "scripts/analysis/build_paper_figure08_hybrid.py",
+    "line": 64,
+    "text": "    parser.add_argument(\"--output-dir\", type=Path, default=REPO / \"paper/figures\")"
+  },
+  {
+    "path": "scripts/analysis/build_paper_figure08_hybrid.py",
+    "line": 65,
+    "text": "    parser.add_argument(\"--audit-dir\", type=Path, default=REPO / \"reproduced/figure8/hybrid_v2\")"
+  },
+  {
+    "path": "scripts/analysis/build_paper_figure08_hybrid.py",
+    "line": 74,
+    "text": "    source_paths = [REPO / \"reproduced/figure8\" / f\"figure08_scenario_{n}_v2.csv\""
+  },
+  {
+    "path": "scripts/analysis/build_paper_figure08_hybrid.py",
+    "line": 76,
+    "text": "    protected = [*sorted((REPO / \"paper/figures\").glob(\"*.pdf\")),"
+  },
+  {
+    "path": "scripts/analysis/build_paper_figure08_hybrid.py",
+    "line": 77,
+    "text": "                 *sorted((REPO / \"paper/figures\").glob(\"*.png\")),"
+  },
+  {
+    "path": "scripts/analysis/build_paper_figure08_hybrid.py",
+    "line": 78,
+    "text": "                 REPO / \"reproduced/figure8/figure08_scenarios_v2.pdf\","
+  },
+  {
+    "path": "scripts/analysis/build_paper_figure08_hybrid.py",
+    "line": 79,
+    "text": "                 REPO / \"reproduced/figure8/figure08_scenarios_v2.png\"]"
+  },
+  {
+    "path": "scripts/analysis/build_paper_figure08_hybrid.py",
+    "line": 153,
+    "text": "    previous_audit = REPO / \"reproduced/figure8/hybrid\""
+  },
+  {
+    "path": "scripts/analysis/build_paper_figure08_hybrid.py",
+    "line": 299,
+    "text": "Inputs: `reproduced/figure8/figure08_scenario_metrics_v2.csv`, `figure08_scenario_rankings_v2.csv`, and `figure08_scenario_pareto_v2.csv`. Implementation follows `scripts/analysis/build_paper_figure08.py` and imports the existing `plotting_v2` publication style. Exact source/output SHA256 hashes and numeric checks are in `audit.json`; four panel-source CSVs accompany this report."
+  },
+  {
+    "path": "scripts/analysis/prepare_figure5_overlap_si.py",
+    "line": 4,
+    "text": "reproduced/figure5_overlap; all checks precede publication-file writes."
+  },
+  {
+    "path": "scripts/analysis/prepare_figure5_overlap_si.py",
+    "line": 21,
+    "text": "INPUT = Path(\"reproduced/figure5_overlap\")"
+  },
+  {
+    "path": "scripts/analysis/prepare_figure5_overlap_si.py",
+    "line": 55,
+    "text": "        source, Path(\"paper/figures/fig05_energy_magnetism.pdf\")]"
+  },
+  {
+    "path": "scripts/analysis/prepare_figure5_overlap_si.py",
+    "line": 244,
+    "text": "              \"Underlying checks: `reproduced/figure5_overlap/pairwise_overlap.csv` (resolution and balanced-n \""
+  },
+  {
+    "path": "scripts/analysis/reproduce_figure4_mp_only.py",
+    "line": 49,
+    "text": "            [\"git\", \"show\", FIGURE_BASELINE + \":paper/figures/fig04_magnetic_reference_dft.pdf\"], cwd=ROOT))"
+  },
+  {
+    "path": "scripts/analysis/reproduce_figure4_mp_only.py",
+    "line": 76,
+    "text": "        \"protected_figures\": {name: digest(ROOT / \"paper/figures\" / name) for name in"
+  },
+  {
+    "path": "scripts/illustrations/plot_fig06_diversity_adaptation_palette_preview.py",
+    "line": 16,
+    "text": "INPUT_CSV = ROOT / \"paper\" / \"tables\" / \"figure_sources\" / \"fig06_compound_classes.csv\""
+  },
+  {
+    "path": "scripts/illustrations/plot_figure4_mp_only_preview.py",
+    "line": 45,
+    "text": "    protected = [ROOT / \"paper/figures\" / name for name in ("
+  },
+  {
+    "path": "scripts/illustrations/plot_figure4_recalculated_draft.py",
+    "line": 35,
+    "text": "        fig.text(.5, 1.0, \"Comparison draft: see figure4_reproduction.md for numerical differences\","
+  },
+  {
+    "path": "scripts/illustrations/plot_paper_figures_3_5.py",
+    "line": 12,
+    "text": "    parser.add_argument(\"--publish\", action=\"store_true\", help=\"Copy verified exports to paper/figures\")"
+  },
+  {
+    "path": "scripts/illustrations/plot_paper_figures_3_5.py",
+    "line": 23,
+    "text": "            copyfile(report.figure_paths.pdf, Path(\"paper/figures\") / f\"{name}.pdf\")"
+  },
+  {
+    "path": "scripts/illustrations/plot_paper_pca.py",
+    "line": 21,
+    "text": "FT_ROOT = Path(\"paper/tables/figure_sources\")"
+  },
+  {
+    "path": "scripts/illustrations/restyle_figure4_original_vectors.py",
+    "line": 46,
+    "text": "                          \":paper/figures/fig04_magnetic_reference_dft.pdf\"], cwd=ROOT))"
+  },
+  {
+    "path": "src/mvpipeline/analysis/figure5_overlap.py",
+    "line": 28,
+    "text": "OUTPUT = Path(\"reproduced/figure5_overlap\")"
+  },
+  {
+    "path": "src/mvpipeline/analysis/figure5_overlap.py",
+    "line": 195,
+    "text": "                    publication_pdf_sha256=hashlib.sha256(Path(\"paper/figures/fig05_energy_magnetism.pdf\").read_bytes()).hexdigest(),"
+  },
+  {
+    "path": "src/mvpipeline/analysis/manuscript_figure5_v2.py",
+    "line": 19,
+    "text": "FIGURE_SOURCE = Path(\"paper/tables/figure_sources/fig05_energy_magnetism.csv\")"
+  },
+  {
+    "path": "src/mvpipeline/descriptors/figure3_ft.py",
+    "line": 16,
+    "text": "FT_OUTPUT_DIR = Path(\"reproduced/figure3_ft_descriptors\")"
+  },
+  {
+    "path": "tests/test_figure4_vector_design.py",
+    "line": 19,
+    "text": "    publication = ROOT / \"paper/figures/fig04_magnetic_reference_dft.pdf\""
+  },
+  {
+    "path": "README.md",
+    "line": 42,
+    "text": "`paper/tables/figure_sources/`."
+  },
+  {
+    "path": "README.md",
+    "line": 55,
+    "text": "Figure 4 is `paper/figures/fig04_magnetic_reference_dft.pdf`. Its publication"
+  },
+  {
+    "path": "README.md",
+    "line": 60,
+    "text": "See [reproduction and numerical limitations](paper/figures/figure4_reproduction.md)"
+  },
+  {
+    "path": "README.md",
+    "line": 61,
+    "text": "and the [caption](paper/figures/figure4_caption.md). The MP-only plotting source is"
+  },
+  {
+    "path": "README.md",
+    "line": 64,
+    "text": "The archived [descriptor-space PCA figure](paper/figures/legacy/descriptor_space_pca.pdf)"
+  },
+  {
+    "path": "README.md",
+    "line": 65,
+    "text": "is retained for provenance under `paper/figures/legacy/`."
+  },
+  {
+    "path": "README.md",
+    "line": 88,
+    "text": "under `paper/figures/`."
+  },
+  {
+    "path": "README.md",
+    "line": 295,
+    "text": "Manuscript-selected publication artifacts are tracked under `paper/figures/`. Figures 1-6 cover the workflow, structural overview, magnetic domain, MP-only magnetic-reference screening and DFT validation, energy-magnetism landscape, and diversity/adaptation analysis. Figure 8 is a provisional multi-objective comparison documented in the figure directory. PCA loadings and the updated descriptor-space PCA are supplementary figures. Historical publication artifacts are retained under `paper/figures/legacy/`; exploratory previews, audits, projections, and regenerated figures remain under `reproduced/`."
+  },
+  {
+    "path": "ARCHITECTURE.md",
+    "line": 148,
+    "text": "Publication artifacts selected for a manuscript belong under `paper/figures/`"
+  },
+  {
+    "path": "ARCHITECTURE.md",
+    "line": 149,
+    "text": "or `paper/tables/` when they exist; exploratory outputs do not move there"
+  }
+]

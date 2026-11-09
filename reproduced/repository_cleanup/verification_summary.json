@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "scientific_and_publication_files_byte_verified": 114,
+  "canonical_figure8_sha256": "3b7ec054069d739faba5153af3abcda4b22c7c8c5728d9998e3d132095e55b02",
+  "markdown_files_checked": 76,
+  "broken_links": [],
+  "publication_si_tables_reproduced": true,
+  "pytest": "20 passed (Figure5 overlap/manuscript, publication contracts, Figure4 vector design)",
+  "scenario_checks": "9 variants, 90 scores/ranks, 900 dominance, 900 rank frequencies",
+  "audits_with_access_errors": 22
+}

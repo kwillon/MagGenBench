@@ -1,0 +1,86 @@
+[
+  {
+    "old_path": "reproduced/figure8/previews/fig08_multiobjective_hybrid_v2.png",
+    "new_path": "reproduced/figure8/previews/fig08_multiobjective.png",
+    "files_sha256": {
+      "": "ba17390f3bee2c5f80d269df1c699bc924b0e3ff46567d92ae21f14aed4a24e0"
+    }
+  },
+  {
+    "old_path": "reproduced/figure8/previews/fig08_multiobjective_hybrid.png",
+    "new_path": "reproduced/figure8/previews/legacy/fig08_multiobjective_hybrid_v1.png",
+    "files_sha256": {
+      "": "4752e6527331c650dea14f76309b64a8846bf03cc77e70661f171b3e872b22b8"
+    }
+  },
+  {
+    "old_path": "reproduced/figure8/hybrid_preview",
+    "new_path": "reproduced/figure8/legacy/previews/hybrid_preview",
+    "files_sha256": {
+      "audit/audit.json": "3e40d55a2af550ee25893caedb76c0b2ab9e6d43bef1093a7707d8c541b372bd",
+      "audit/panel_A_metrics_pct.csv": "e59c5ea0a92e54c11b4584d1feb239aca1d58c628149023c9f39d9e4596b90cf",
+      "audit/panel_B_S1_scatter.csv": "6e5f65fa7b53b2dc6dc829141fd6b64da01aad8788450ded7552279688037672",
+      "audit/panel_C_S1_rank_distribution_pct.csv": "23c55f98716fb7b264d84d36ffd080e9820ecc71406b789450b5bae2c9b6b56f",
+      "audit/panel_D_first_place_pct.csv": "33ec1fd3c51552e6eb10bd7ca2cc8d8c59b1f0736e5e6b49d3df41e09fe0621c",
+      "audit/report.md": "d969f35655d7d5ea6ab2311b41a4fc518252c6e9a18ce050be3c298296e4f353",
+      "fig08_multiobjective_hybrid.pdf": "87cd377cc9a573f8da927d80915ba9fdff4c35cca2ddcae11229ff41feb81b0f",
+      "fig08_multiobjective_hybrid.png": "6cdaf09901941b72970d30d8a9e9706de27f571ace786683540540be630d6eb8"
+    }
+  },
+  {
+    "old_path": "reproduced/figure8/hybrid_preview_v2",
+    "new_path": "reproduced/figure8/legacy/previews/hybrid_preview_v2",
+    "files_sha256": {
+      "audit/audit.json": "d3a14c4c39ca83990c9ddd26d7779c41405bae5461e852d84f01940a4046e2f6",
+      "audit/panel_A_metrics_pct.csv": "e59c5ea0a92e54c11b4584d1feb239aca1d58c628149023c9f39d9e4596b90cf",
+      "audit/panel_B_S1_scatter.csv": "6e5f65fa7b53b2dc6dc829141fd6b64da01aad8788450ded7552279688037672",
+      "audit/panel_C_S1_rank_distribution_pct.csv": "23c55f98716fb7b264d84d36ffd080e9820ecc71406b789450b5bae2c9b6b56f",
+      "audit/panel_D_first_place_pct.csv": "33ec1fd3c51552e6eb10bd7ca2cc8d8c59b1f0736e5e6b49d3df41e09fe0621c",
+      "audit/report.md": "d969f35655d7d5ea6ab2311b41a4fc518252c6e9a18ce050be3c298296e4f353",
+      "fig08_multiobjective_hybrid.pdf": "ffcce80d00815fa8c56fde2ae5f9db7ca86b2965dbc55c304ae909e66cc5e9a2",
+      "fig08_multiobjective_hybrid.png": "4752e6527331c650dea14f76309b64a8846bf03cc77e70661f171b3e872b22b8"
+    }
+  },
+  {
+    "old_path": "reproduced/figure8/hybrid_v2_preview",
+    "new_path": "reproduced/figure8/legacy/previews/hybrid_v2_preview",
+    "files_sha256": {
+      "audit/audit.json": "6cc5c6699e1411b46f06627377a61ef625fd0eb3cc5c3621f10fc2806a28f37d",
+      "audit/panel_A_metrics_pct.csv": "e59c5ea0a92e54c11b4584d1feb239aca1d58c628149023c9f39d9e4596b90cf",
+      "audit/panel_B_S1_scatter.csv": "6e5f65fa7b53b2dc6dc829141fd6b64da01aad8788450ded7552279688037672",
+      "audit/panel_C_S1_rank_distribution_pct.csv": "23c55f98716fb7b264d84d36ffd080e9820ecc71406b789450b5bae2c9b6b56f",
+      "audit/panel_D_S1_top5_pct.csv": "62bc4e2445e067d5fbce90846dacb7877e461f69fa2d47c6c9130a8c3247f824",
+      "audit/report.md": "edd1ddde8745e5415daccf5fcbad16b4d1f0649b6fe23316b10f27a37876b695",
+      "fig08_multiobjective_hybrid_v2.pdf": "bc4905b9466937070ee4871263735a9e05011116232183d5311fca1d15b847ad",
+      "fig08_multiobjective_hybrid_v2.png": "193aa1b71190088d63158c37f9bf3500825b41163a6b65c2ca06a7c35b4d6df2"
+    }
+  },
+  {
+    "old_path": "reproduced/figure8/figure08_scenarios_v2.pdf",
+    "new_path": "reproduced/figure8/legacy/scenarios_v2/figure08_scenarios_v2.pdf",
+    "files_sha256": {
+      "": "a8af21d060b947e9b719fc243c7073474f85b8a5085f0e974609226fe02423fb"
+    }
+  },
+  {
+    "old_path": "reproduced/figure8/figure08_scenarios_v2.png",
+    "new_path": "reproduced/figure8/legacy/scenarios_v2/figure08_scenarios_v2.png",
+    "files_sha256": {
+      "": "0c0f484fe3716c0ad3b3244ec34db8d802335719d1c193e6f49f771e0c6069e5"
+    }
+  },
+  {
+    "old_path": "reproduced/figure8/figure08_scenarios_v2.svg",
+    "new_path": "reproduced/figure8/legacy/scenarios_v2/figure08_scenarios_v2.svg",
+    "files_sha256": {
+      "": "3cf2061d1c95728eb363057e21f66f62dbb90e8db8a94a06e24b42fd169dcaa0"
+    }
+  },
+  {
+    "old_path": "reproduced/figure8/audit_2026-11-09_original_render.png",
+    "new_path": "reproduced/figure8/previews/legacy/presence_original_render.png",
+    "files_sha256": {
+      "": "953af25675cafe4697492edf606624559fa3acc5cdf124982d9f9e300d2c6c5b"
+    }
+  }
+]
