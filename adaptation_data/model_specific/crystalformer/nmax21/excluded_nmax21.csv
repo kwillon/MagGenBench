@@ -1,0 +1,6 @@
+split,row_index,material_id,Formula,matched_cif,status,error_type,error
+train,249,novamag_1315_Co20Ta4_#6_1,Co20Ta4,Co20Ta4_#6_1.cif,assertion_error,AssertionError,
+train,250,novamag_1316_Co20Ta4_#6_2,Co20Ta4,Co20Ta4_#6_2.cif,assertion_error,AssertionError,
+train,251,novamag_1317_Co20Ta4_#6_3,Co20Ta4,Co20Ta4_#6_3.cif,assertion_error,AssertionError,
+train,268,novamag_1334_Co28Ta4_#6_1,Co28Ta4,Co28Ta4_#6_1.cif,assertion_error,AssertionError,
+train,534,novamag_1711_Fe32Ge16_#8_2,Fe32Ge16,Fe32Ge16_#8_2.cif,assertion_error,AssertionError,

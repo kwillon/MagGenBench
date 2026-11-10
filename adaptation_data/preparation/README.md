@@ -115,17 +115,24 @@ No structural deduplication or selection algorithm is inferred from filenames.
 
 ## Availability and licensing
 
-The README and aggregate manifest are the public candidate. The record-level
-ledger is ignored by the local `.gitignore`; original source files remain
-outside the repository. All existing model-input payloads retain their earlier
-license hold. No source archive, merged table or raw NEMAD data is published.
+The curated NOVAMAG subset and its model-format representations are published
+under CC BY 4.0 in `prepared/` and `model_specific/` at the package root.
+The [official release-license evidence](../provenance/redistribution_review.json)
+matches the source archive checksum and all retained records to Zenodo release
+3241267, version 1.0. See [attribution and changes](../ATTRIBUTION.md).
+
+The full record-level ledger includes NEMAD rows and remains ignored by the
+local `.gitignore`; original source files remain outside the repository.
+No source archive, mixed merged table or raw NEMAD data is published.
+The NOVAMAG deposit license does not establish NEMAD redistribution rights.
 
 The archive's Java-loader documentation licenses **the program** under GPL
-version 2 or later. That notice does not establish redistribution rights for
-`Data_files`. No dataset-wide permission notice was identified. The export
-also contains a `confidential` field, including TRUE values in intermediate
-NEMAD rows; its semantics require clarification and it is not a substitute for
-a license. No retained NEMAD record is claimed.
+version 2 or later; no bundled program source is republished here. The basis
+for sharing the curated data is the deposit's explicit CC BY 4.0 declaration,
+not that program notice or the main repository's software license. The mixed
+export also contains a `confidential` field, including TRUE values in NEMAD
+rows; its semantics are not treated as a license. No NEMAD record is included
+in the published selection.
 
 Twenty-two archive data JSON entries could not be parsed under the tested
 encodings; none is needed for the verified 1,426-record mapping. No repairs

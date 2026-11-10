@@ -1,162 +1,173 @@
-# Magnetic-domain adaptation dataset
+# Curated magnetic-domain adaptation datasets
 
 ## 1. Overview
 
-This collection documents the prepared magnetic-domain dataset recovered for
-MagGenBench. It comprises **1,426 structures** attributed to NovoMag in the
-source records and associated model-specific representations. It is separate
-from the baseline novelty-reference tables in [datasets/](../datasets/) and the
-generated benchmark structures in [samples/](../samples/).
+This directory publishes **1,426 curated NOVAMAG structures** and their prepared
+model-specific representations for magnetic-domain adaptation research.
+It is separate from baseline novelty references in [datasets/](../datasets/)
+and generated benchmark structures in [samples/](../samples/).
 
-**Availability:** documentation and file-level provenance are prepared for
-version control; structure-containing data and derivatives remain in the
-Git-ignored `local_only/` directory pending confirmation of redistribution
-rights. A public clone does not contain these payloads.
+The **15 data artifacts (5,381,813 bytes)** in `prepared/` and
+`model_specific/` are included in Git. Their bytes, IDs, CIF strings, saved
+numeric precision and split membership are unchanged from the audited prepared
+files. SHA256 checksums are in [files.csv](provenance/files.csv).
 
 ## 2. Source data and provenance
 
-Every recovered record has `Source=novamag`, referred to as NovoMag in the
-project audit. The embedded CIF texts of all 1,426 records match files in the
-original extracted pool. Their source-local `Row_ID`, `material_id` and
-`matched_cif` fields preserve record identity and local provenance.
+The applicable source is **Nieves et al., Novamag Database, version 1.0,
+7 June 2019**, [DOI 10.5281/zenodo.3241267](https://doi.org/10.5281/zenodo.3241267).
+The [official deposit metadata](https://zenodo.org/api/records/3241267) declares
+**CC BY 4.0** and identifies `Novamag_Database_Files.zip` with MD5
+`3a31735c30f0041ac7ce11942120e405`. This checksum and the file size match
+the local source archive.
 
-Newly recovered [preparation evidence](preparation/README.md) links all 1,426
-records to a 5,203-row intermediate table and the supplied NOVAMAG consortium
-archive. This does not recover its complete download history or historical
-selection implementation. Neither NEMAD nor MAGNDATA is established as a
-contributor to the final selection.
+Every retained record has the original label `Source=novamag`. All 1,426
+records match the source archive through identifiers, formulas, CIFs and
+cell magnetic/volume properties. This source is the 2019 NOVAMAG consortium
+archive, not the distinct [Novomag release 17399362](https://zenodo.org/records/17399362)
+linked from the Iowa State portal. No NEMAD or MAGNDATA contribution to this
+published selection is claimed.
 
-[Source provenance](provenance/sources.json) records the available evidence and
-its limits. The shared CSVs and existing model-specific ledgers provide
-record-level provenance without an additional duplicate ID table.
+[Redistribution evidence](provenance/redistribution_review.json) records the
+official license field, release identity, archive checksum and lineage checks.
+[Source provenance](provenance/sources.json) and
+[preparation documentation](preparation/README.md) preserve the scientific
+history. Full creator credit and modification notices are in
+[ATTRIBUTION.md](ATTRIBUTION.md).
 
-## 3. Data preparation and filtering
+## 3. Preparation and filtering
 
-The shared prepared CSVs contain `material_id`, `cif`,
-`candidate_mag_density`, `Formula`, `Source`, `Row_ID` and `matched_cif`.
-Original bytes, including numerical precision, are preserved. No duplicate
-identifiers or repeated complete CIF texts occur in the shared collection.
+The shared CSVs retain `material_id`, `cif`, `candidate_mag_density`,
+`Formula`, `Source`, `Row_ID` and `matched_cif`. Row_ID is source-local;
+it is not a universal index into another raw database. All records match a
+5,203-row preparation intermediate. No identifiers or complete CIF texts are
+duplicated in the shared collection.
 
-The original cleaning, structural deduplication and target-calculation
-implementations are unavailable. For all 1,426 records, `candidate_mag_density`
-matches source cell spin polarization divided by cell volume, to a maximum
-absolute discrepancy of 3.59736671174129614209890e-17. Upstream property
-documentation supports the ratio units mu_B / Angstrom^3. This observed identity
-does not recover the historical calculation code; saved targets are unchanged.
+For all 1,426 records, the saved conditioning target matches source cell spin
+polarization divided by cell volume, with maximum absolute discrepancy
+3.59736671174129614209890e-17. Upstream documentation supports mu_B/Angstrom^3.
+The original target-calculation and complete cleaning/deduplication code remain
+unavailable. This verified numerical relationship is not a claim that the
+historical implementation was recovered.
 
-The CrystalFormer-compatible variant excludes five training structures under
-the documented `n_max=21`, `num_sites < n_max` representation constraint.
-Its existing exclusion ledger identifies all five records. Generic assertion
-errors in that ledger do not establish the exact failing runtime assertion.
+The CrystalFormer variant excludes five training records under the documented
+`n_max=21`, `num_sites < n_max` representation constraint. Its original
+[exclusion ledger](model_specific/crystalformer/nmax21/excluded_nmax21.csv)
+is included. The ledger's generic assertion errors do not identify the exact
+runtime assertion.
 
-## 4. Dataset composition and splitting
+## 4. Composition and splitting
 
-| Split | Structures | Reduced-composition groups |
-| --- | ---: | ---: |
-| Training | 1,139 | 185 |
-| Validation | 142 | 23 |
-| Test | 145 | 24 |
-| Total | **1,426** | **232** |
+| Split | Shared structures | Reduced-composition groups | File |
+| --- | ---: | ---: | --- |
+| Training | 1,139 | 185 | [train.csv](prepared/train.csv) |
+| Validation | 142 | 23 | [val.csv](prepared/val.csv) |
+| Test | 145 | 24 | [test.csv](prepared/test.csv) |
+| Total | **1,426** | **232** | |
 
-The grouped split has no overlap in identifiers or reduced-composition groups
-between training, validation and test. These observations support grouping by
-reduced formula. The export carries the seed label **1041**, but the original
-split-generator implementation and RNG configuration were not recovered;
-replaying that seed has not been verified. Existing assignments are preserved.
+Identifiers and reduced-composition groups are disjoint across splits. The
+source export carries seed label **1041**, but the original split-generation
+code and RNG configuration were not recovered. Existing assignments are
+preserved; replaying the seed has not been verified.
 
-The CrystalFormer variant contains **1,421 structures**, with **1,134/142/145**
-training/validation/test records. Validation and test are byte-identical to the
-shared files and are referenced there instead of duplicated.
+CrystalFormer has **1,421 structures: 1,134/142/145**. Its
+[training CSV](model_specific/crystalformer/nmax21/train.csv) is model-specific;
+validation and test use the shared files above without duplicate copies.
 
-## 5. Model-specific preprocessing
+## 5. Model-specific formats and evidence
 
-| Model | Adaptation representation and mechanism | Evidence boundary |
+| Model | Available representation | Evidence boundary |
 | --- | --- | --- |
-| MatterGen | Model-ready adaptation inputs were not recovered. | The shared splits are not established as actual MatterGen training inputs. |
-| Con-CDVAE | Production records document VAE adaptation followed by conditional-prior training with a frozen VAE and scalar `candidate_mag_density` conditioning. | The converted CSVs and graph caches are unavailable; exact training-record identities cannot be checked. |
-| CrystalFormer | A representation-compatible training CSV retains 1,134 records after five documented exclusions. | Use of these files for the selected epoch3822 checkpoint remains unverified. |
-| CrystaLLM | CIF records were normalized to text and represented as autoregressive token sequences. | Prepared inputs are verified; use by the selected step275 checkpoint remains unverified. |
+| MatterGen | No model-ready input recovered. | The shared files are not verified actual MatterGen training inputs. |
+| Con-CDVAE | Converted CSVs and graph caches were not recovered. | Production evidence documents VAE adaptation and frozen-VAE conditional-prior training; exact input identities remain unverified. |
+| CrystalFormer | Compatible training CSV and five-record exclusion ledger. | Use of these exact files for checkpoint epoch3822 is not established. |
+| CrystaLLM | Normalized CIF tuples, normalization ledger/summary, token streams, vocabulary and start offsets. | Prepared-input integrity is verified; use by checkpoint step275 remains unverified. |
 
-The CrystalFormer training CSV already contains small decimal reserialization
-differences relative to the shared training CSV: 918 retained records differ in
-`candidate_mag_density` by at most **9.7e-17**. Other identity, source and CIF
-fields match. These pre-existing differences are preserved rather than repaired.
+CrystalFormer's saved training CSV already has decimal reserialization
+differences in 918 retained `candidate_mag_density` strings relative to the
+shared training CSV, at most **9.7e-17**. Other identity/source/CIF fields agree.
+Those pre-existing differences are preserved rather than repaired.
 
-CrystaLLM normalization retains **1,139/142/145** records with zero failures in
-the existing normalization manifest. A 371-token vocabulary encodes **830,129
-training tokens** and **86,015 validation tokens** as little-endian uint16.
-The token streams contain all **1,139/142** normalized CIF documents, verified
-after comment and whitespace normalization. Training order differs from the
-normalized tuple order. No production `test.bin` is available.
+CrystaLLM normalization retains **1,139/142/145** records with zero failures.
+A 371-token vocabulary encodes **830,129 training tokens** and **86,015
+validation tokens** as little-endian uint16. Decoded document multisets match
+all 1,139/142 normalized CIF texts after comment/whitespace normalization;
+training order differs. No production `test.bin` is available.
 
-Pickle-based representations remain in their original format. Their inspection
-used only primitive literal opcodes; no object deserialization or callable
-execution was required. Token contents and original numeric strings were not
-modified.
+Pickle-format artifacts contain literal data and are preserved in their
+original representation. Verification uses a primitive-opcode allowlist,
+without `pickle.load`, `torch.load` or callable/object construction.
+Do not use unrestricted deserialization on externally obtained files.
 
 ## 6. Repository contents
 
-| Version-control candidate | Purpose |
-| --- | --- |
-| [sources.json](provenance/sources.json) | Source attribution, audit identifiers, model views and unresolved rights. |
-| [files.csv](provenance/files.csv) | Selected paths, source-relative locations, sizes, record counts and SHA256 hashes. |
-| [verification.json](provenance/verification.json) | Measured composition, representation and integrity checks. |
-| [preparation/](preparation/README.md) | New intermediate/archive lineage evidence and an aggregate manifest; the record-level selection ledger remains local. |
-| `.gitignore` | Keeps all structure-containing payloads outside Git. |
-
-The local data layout is:
-
 ```text
-local_only/
-  shared/grouped_seed1041/{train,val,test}.csv
-  models/
-    crystalformer/nmax21/
-      train.csv
-      excluded_nmax21.csv
-    crystallm/
-      normalization_manifest.csv
-      normalization_summary.json
-      normalized/{train,val,test}_normalized_raw.pkl.gz
-      tokens/{train.bin,val.bin,meta.pkl,starts.pkl,starts_val.pkl}
+prepared/
+  train.csv
+  val.csv
+  test.csv
+model_specific/
+  crystalformer/nmax21/
+    train.csv
+    excluded_nmax21.csv
+  crystallm/
+    normalization_manifest.csv
+    normalization_summary.json
+    normalized/{train,val,test}_normalized_raw.pkl.gz
+    tokens/{train.bin,val.bin,meta.pkl,starts.pkl,starts_val.pkl}
+provenance/
+  files.csv
+  sources.json
+  verification.json
+  redistribution_review.json
+preparation/
+  README.md
+  manifest.json
+  local_only/selection_ledger.csv  # private; not included in Git
+LICENSE.md
+ATTRIBUTION.md
 ```
 
-There are **15 selected payload files (5,381,813 bytes)**. The package excludes
-checkpoints, weights, training logs, generated benchmark structures, raw CIF
-duplicates, smoke artifacts, duplicate archive bundles and duplicate
-CrystalFormer validation/test files. Raw CrystaLLM tuple copies are omitted
-because their original ID/CIF pairs are already present in the shared CSVs.
+[files.csv](provenance/files.csv) lists all 15 published artifacts and hashes.
+[verification.json](provenance/verification.json) records measured integrity,
+composition and representation checks. [sources.json](provenance/sources.json)
+defines the model views, including the shared validation/test references.
 
-## 7. Data availability
+Verification code is provided in
+[verify_adaptation_data.py](../scripts/analysis/verify_adaptation_data.py).
+A public checkout can verify all published data without the private mixed-source
+ledger or original source exports.
 
-The current public candidate consists of documentation and file-level
-provenance only. All structures, normalized CIF tuples, tokens and record-level
-ledgers remain local and ignored by Git. No payload is presently cleared for
-redistribution. The repository's MIT software license does not grant rights
-over these third-party records or their derivatives.
+## 7. Availability and use conditions
 
-The exact upstream release, applicable data license, attribution requirements
-and permission for redistribution must be established before publication.
-A future `prepared/` directory is appropriate only for artifacts individually
-cleared under those terms. It has not been created or populated. Once rights
-are confirmed, approved files can be organized as `prepared/shared/` and
-`prepared/models/`, with explicit license and checksum references; unresolved
-artifacts must remain local.
+The prepared CSVs and listed model-specific artifacts are published under
+**[Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)**,
+based on the matched source deposit's explicit license. See
+[LICENSE.md](LICENSE.md) and [ATTRIBUTION.md](ATTRIBUTION.md) for scope,
+creator credit, source links and changes. Reuse requires appropriate attribution,
+a license link and identification of modifications; it must not imply upstream
+endorsement. No additional restrictions are imposed.
+
+The main repository's MIT software license is separate and is not the basis
+for redistributing these third-party data. Program sources bundled in the
+upstream archive are not redistributed here; their software licenses are not
+relabelled.
+
+Not published: the full source archive, mixed NovoMag/NEMAD intermediate table,
+raw NEMAD records, the 5,203-row mixed-source selection ledger, checkpoints,
+training logs, generated benchmark structures, smoke artifacts and duplicate
+bundles. Rights for the NEMAD-containing materials are not established by the
+NOVAMAG deposit license. `local_only/` remains reserved for private materials.
 
 ## 8. Limitations and citations
 
-The missing historical cleaning/deduplication and target-calculation code,
-split-generator implementation and model-input/checkpoint links limit full
-training reproducibility. The 5,203-row intermediate is not the earlier claimed
-7,246-record merge. Any NEMAD or MAGNDATA contribution to the final selection
-remains unestablished. Prepared data integrity does not by itself establish
-actual training use. Additional source and selection details are documented in
-[preparation provenance](preparation/README.md).
+The original cleaning/splitting implementations, some historical exclusion
+reasons and exact training-file/checkpoint links remain unavailable.
+Prepared-input verification does not establish actual use by a particular
+training job. The intermediate table is not the earlier claimed 7,246-row merge.
 
-The recorded upstream review identified distinct, similarly named resources:
-[Novamag Database, Zenodo 3241267](https://zenodo.org/records/3241267) and
-[Novomag magnetic materials database, Zenodo 17399362](https://zenodo.org/records/17399362).
-These are source-identification leads, not verified release attributions or
-applicable licenses for this export. The latter resource states scientific use
-with acknowledgement; that statement is not transferable without identifying
-the relevant source release. Source-specific citations and notices must follow
-the release ultimately established for the recovered records.
+Cite the source dataset as **Nieves et al. (2019), Novamag Database, version 1.0,
+Zenodo, DOI 10.5281/zenodo.3241267**, and its associated paper:
+[Database of novel magnetic materials for high-performance permanent magnet development](https://doi.org/10.1016/j.commatsci.2019.06.007).
+Also identify MagGenBench's curated splits and model-format modifications.
+The complete deposit creator list is retained in the attribution record.

@@ -116,7 +116,7 @@ Tracked repository areas have explicit roles:
 | `runs/` | Lightweight run recipes, manifests, checksums, and provenance. |
 | `config/` | Active validation, descriptor, energy, and magnetism configuration. |
 | `datasets/` | Training-reference datasets used by validation and novelty workflows. |
-| [`adaptation_data/`](adaptation_data/README.md) | Magnetic-domain adaptation provenance and verified local prepared data; payloads remain outside Git pending redistribution clearance. |
+| [`adaptation_data/`](adaptation_data/README.md) | Public curated NOVAMAG adaptation splits and model-specific representations under CC BY 4.0, with provenance and checksums. |
 | `samples/` | Versioned CIF generated sets used by the benchmark. |
 | `tables/` | Canonical scientific tabular stages and frozen analysis artifacts. |
 | `paper/` | Manuscript-selected publication artifacts. |
@@ -124,11 +124,12 @@ Tracked repository areas have explicit roles:
 | `archive/` | Historical provenance only. Active code must not depend on it. |
 | `tests/` | Unit, regression, and reproducibility tests. |
 
-[`adaptation_data/README.md`](adaptation_data/README.md) describes the recovered
+[`adaptation_data/README.md`](adaptation_data/README.md) describes the published
 1,426-record magnetic-domain splits and model-specific representations.
 These are separate from the baseline novelty references in `datasets/` and the
-generated benchmark structures in `samples/`. Prepared data copies are currently
-local only; the documentation and manifests do not constitute a public data release.
+generated benchmark structures in `samples/`. The curated NOVAMAG files are
+published with source attribution under CC BY 4.0; mixed-source private evidence
+and unrelated unreviewed data remain excluded.
 
 Local generated/runtime areas may exist in a working checkout but are not
 tracked source-code areas:

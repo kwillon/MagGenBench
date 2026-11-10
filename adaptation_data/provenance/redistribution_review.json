@@ -1,0 +1,152 @@
+{
+  "reviewed_at_utc": "2026-11-10T06:10:23.344968+00:00",
+  "status": "cleared_for_curated_NOVAMAG_subset",
+  "applicable_release": {
+    "record_id": 3241267,
+    "record_url": "https://zenodo.org/records/3241267",
+    "api_url": "https://zenodo.org/api/records/3241267",
+    "doi": "10.5281/zenodo.3241267",
+    "title": "Novamag Database",
+    "version": "1.0",
+    "publication_date": "2019-06-07",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "creators": [
+      {
+        "name": "Nieves, Pablo",
+        "affiliation": "ICCRAM, University of Burgos",
+        "orcid": "0000-0002-6633-9643"
+      },
+      {
+        "name": "Arapan, Sergiu",
+        "affiliation": "VSB Tech Univ Ostrava, IT4Innovations",
+        "orcid": "0000-0002-2806-6816"
+      },
+      {
+        "name": "Maudes-Raedo, Jes\u00fas",
+        "affiliation": "University of Burgos"
+      },
+      {
+        "name": "Marticorena-S\u00e1nchez, Ra\u00fal",
+        "affiliation": "University of Burgos"
+      },
+      {
+        "name": "Del Br\u00edo, Noel",
+        "affiliation": "University of Burgos"
+      },
+      {
+        "name": "Kovacs, Alexander",
+        "affiliation": "Center for Integrated Sensor Systems, Danube University Krems"
+      },
+      {
+        "name": "Echevarria-Bonet, Cristina",
+        "affiliation": "BCMaterials, Basque Centre for Materials"
+      },
+      {
+        "name": "Salazar, Daniel",
+        "affiliation": "BCMaterials, Basque Centre for Materials",
+        "orcid": "0000-0002-2149-3268"
+      },
+      {
+        "name": "Weischenberg, J\u00fcrgen",
+        "affiliation": "Technische Universit\u00e4t Darmstadt"
+      },
+      {
+        "name": "Zhang, Hongbin",
+        "affiliation": "Technische Universit\u00e4t Darmstadt"
+      },
+      {
+        "name": "Vekilova, Olga Yu",
+        "affiliation": "Uppsala University"
+      },
+      {
+        "name": "Serrano-L\u00f3pez, Roberto",
+        "affiliation": "University of Burgos"
+      },
+      {
+        "name": "Barandiaran, Jos\u00e9 Manuel",
+        "affiliation": "BCMaterials, Basque Centre for Materials"
+      },
+      {
+        "name": "Skokov, Konstantin",
+        "affiliation": "Technische Universit\u00e4t Darmstadt",
+        "orcid": "0000-0003-4321-9021"
+      },
+      {
+        "name": "Gutfleisch, Oliver",
+        "affiliation": "Technische Universit\u00e4t Darmstadt"
+      },
+      {
+        "name": "Eriksson, Olle",
+        "affiliation": "Uppsala University",
+        "orcid": "0000-0001-5111-1374"
+      },
+      {
+        "name": "Herper, Heike C.",
+        "affiliation": "Uppsala University",
+        "orcid": "0000-0001-6159-1244"
+      },
+      {
+        "name": "Schrefl, Thomas",
+        "affiliation": "Center for Integrated Sensor Systems, Danube University Krems"
+      },
+      {
+        "name": "Cuesta-L\u00f3pez, Santiago",
+        "affiliation": "ICAMCyL",
+        "orcid": "0000-0002-7401-3889"
+      }
+    ],
+    "file": {
+      "name": "Novamag_Database_Files.zip",
+      "size": 159852320,
+      "checksum": "md5:3a31735c30f0041ac7ce11942120e405"
+    }
+  },
+  "source_api_response_sha256": "7fc44a667d8e8dc2b178a486304543250d890193e8d0be80b2de87b404ad59b1",
+  "archive_identity": {
+    "local_md5": "3a31735c30f0041ac7ce11942120e405",
+    "upstream_checksum": "md5:3a31735c30f0041ac7ce11942120e405",
+    "local_sha256": "12e4f05fee562bf0f1832a8834cd4bfcbe3db9623dced17e8a0595d330dfdc9c",
+    "file_bytes": 159852320,
+    "checksum_match": true
+  },
+  "lineage": {
+    "source_key_formula_cif_reference_matches": 1426,
+    "upstream_json_property_matches": 1426,
+    "upstream_cif_byte_matches": 1424,
+    "upstream_cif_normalized_matches": 1426
+  },
+  "lineage_manifest": "preparation/manifest.json",
+  "permission": {
+    "data_license": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "legal_code_url": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+    "basis": "Official deposit metadata.license.id plus exact archive checksum and complete retained-record/property mapping",
+    "scope": "The 1426 curated NOVAMAG records and their 15 selected prepared/model-format artifacts",
+    "conditions": [
+      "Give appropriate source/creator credit",
+      "Link the license",
+      "Identify selection, arrangement, normalization, tokenization and earlier modifications",
+      "Do not imply upstream endorsement",
+      "Do not impose additional restrictions"
+    ]
+  },
+  "compared_non_source_release": {
+    "record_id": 17399362,
+    "record_url": "https://zenodo.org/records/17399362",
+    "title": "Novomag magnetic materials database",
+    "version": null,
+    "publication_date": "2025-10-21",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "role": "Distinct Novomag resource; not used as the provenance or licensing basis for the curated files"
+  },
+  "not_cleared": [
+    "Mixed NovoMag/NEMAD intermediate table",
+    "NEMAD source records",
+    "Full 5203-record selection ledger containing NEMAD rows"
+  ],
+  "software_scope": "The archive includes separately licensed program source; no archive/program source is redistributed here. Main repository code license is separate."
+}

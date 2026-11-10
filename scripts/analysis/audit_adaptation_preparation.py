@@ -73,8 +73,9 @@ def inspect(source_root, write=False):
     require(Counter(r['Source'] for r in intermediate) == {'novamag': 2069, 'nemad': 3134},
             'Intermediate source counts changed')
     retained = {}
+    package_sources = json.loads((ROOT / 'adaptation_data/provenance/sources.json').read_text())
     for split, count in [('train', 1139), ('val', 142), ('test', 145)]:
-        _, records = csv_rows(ROOT / 'adaptation_data/local_only/shared/grouped_seed1041' / (split + '.csv'))
+        _, records = csv_rows(ROOT / 'adaptation_data' / package_sources['shared']['files'][split])
         require(len(records) == count, 'Prepared split changed')
         for record in records:
             key = record['Source'], record['Row_ID']
@@ -227,7 +228,9 @@ def inspect(source_root, write=False):
         'selection_ledger': {'path': 'local_only/selection_ledger.csv', 'records': 5203,
                              'sha256': hashlib.sha256(ledger_bytes).hexdigest(), 'bytes': len(ledger_bytes),
                              'redistribution_status': 'unresolved; Git-ignored'},
-        'licensing': {'data_redistribution_permission': 'unresolved',
+        'licensing': {'data_redistribution_permission': 'CC-BY-4.0 for the curated NOVAMAG subset; mixed-source and NEMAD materials remain uncleared',
+                      'selected_subset_license_evidence': 'provenance/redistribution_review.json',
+                      'selection_ledger_redistribution_permission': 'unresolved; contains NEMAD records',
                       'program_license': 'GPL version 2 or later for the Java loader program; not a dataset license',
                       'source_archive_copied': False, 'merged_csv_copied': False},
     }

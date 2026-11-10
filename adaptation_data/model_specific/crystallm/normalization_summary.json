@@ -1,0 +1,20 @@
+{
+  "train": {
+    "input": 1139,
+    "normalized": 1139,
+    "failed": 0,
+    "output": "data/magnetic_seed1041/train_normalized_raw.pkl.gz"
+  },
+  "val": {
+    "input": 142,
+    "normalized": 142,
+    "failed": 0,
+    "output": "data/magnetic_seed1041/val_normalized_raw.pkl.gz"
+  },
+  "test": {
+    "input": 145,
+    "normalized": 145,
+    "failed": 0,
+    "output": "data/magnetic_seed1041/test_normalized_raw.pkl.gz"
+  }
+}

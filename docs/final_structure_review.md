@@ -39,12 +39,13 @@ numerical identity does not recover the original target-calculation code.
 The 3,777 nonretained intermediate records have no recovered historical
 exclusion log; their actual exclusion reasons remain undocumented.
 
-Only documentation, aggregate provenance and file checksums are included in the
-public package. Structure-containing payloads, normalized tuples, tokens and
-record-level selection evidence remain local and ignored by Git because
-redistribution rights for these exact records are unresolved. This is not a
-public release of the full adaptation dataset. The repository's MIT license
-does not establish third-party data rights.
+The curated NOVAMAG splits, normalized tuples, tokens and their manifests are
+published under CC BY 4.0. The source deposit's official license and exact
+archive checksum are recorded in the
+[redistribution review](../adaptation_data/provenance/redistribution_review.json).
+The mixed-source selection ledger and NEMAD materials remain private; their
+rights are not established by the NOVAMAG license. The repository's MIT
+software license is not the basis for redistributing these third-party data.
 
 ## DFT result summaries and Figure 4
 
@@ -89,5 +90,5 @@ infringement.
 
 Other unresolved items include historical cleaning/splitting implementations,
 model-input/checkpoint links, ambiguous NEMAD record matching, malformed source
-JSON entries and adaptation data redistribution terms. Prepared-data integrity
+JSON entries and rights for the unreviewed mixed-source materials. Prepared-data integrity
 does not by itself prove actual use in a particular training job.

@@ -169,9 +169,11 @@
     "redistribution_status": "unresolved; Git-ignored"
   },
   "licensing": {
-    "data_redistribution_permission": "unresolved",
+    "data_redistribution_permission": "CC-BY-4.0 for the curated NOVAMAG subset; mixed-source and NEMAD materials remain uncleared",
     "program_license": "GPL version 2 or later for the Java loader program; not a dataset license",
     "source_archive_copied": false,
-    "merged_csv_copied": false
+    "merged_csv_copied": false,
+    "selected_subset_license_evidence": "provenance/redistribution_review.json",
+    "selection_ledger_redistribution_permission": "unresolved; contains NEMAD records"
   }
 }

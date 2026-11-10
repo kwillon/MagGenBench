@@ -1,4 +1,4 @@
-"""Verify adaptation metadata and optional private payloads without deserialization.
+"""Verify published adaptation data and optional private evidence safely.
 
 Default: validate all local payloads. --metadata-only explicitly excludes data
 content validation. --source-root also checks originals and the prior inventory.
@@ -128,7 +128,7 @@ def normalize_text(text):
                     if line.strip() and not line.lstrip().startswith("#")).split())
 
 
-def verify(metadata_only=False, source_root=None):
+def verify(metadata_only=False, source_root=None, require_tracked=False):
     sources = json.loads((PACKAGE / "provenance/sources.json").read_text())
     files = read_csv(PACKAGE / "provenance/files.csv")
     require(len(files) == 15, "Expected exactly 15 selected source artifacts")
@@ -136,19 +136,35 @@ def verify(metadata_only=False, source_root=None):
     require(sources["shared"]["seed_execution_verified"] is False,
             "Do not upgrade a seed label into execution evidence")
     paths = ["adaptation_data/" + row["path"] for row in files]
-    ignored = subprocess.run(["git", "check-ignore", "--", *paths], cwd=ROOT,
+    ignored = subprocess.run(["git", "check-ignore", "--no-index", "--", *paths], cwd=ROOT,
                              text=True,
-                             capture_output=True, check=True).stdout.splitlines()
-    require(set(ignored) == set(paths), "A payload is not ignored by Git")
+                             capture_output=True)
+    require(ignored.returncode == 1 and not ignored.stdout.strip(),
+            "A published data path is ignored by Git")
     tracked = subprocess.check_output(
         ["git", "ls-files", "adaptation_data/local_only"], cwd=ROOT, text=True)
     require(not tracked.strip(), "Restricted payload has entered the Git index")
+    public_tracked = set(subprocess.check_output(
+        ["git", "ls-files", "adaptation_data/prepared", "adaptation_data/model_specific"],
+        cwd=ROOT, text=True).splitlines())
+    if require_tracked:
+        require(public_tracked == set(paths), "Published artifact tracking differs from the manifest")
+    evidence = json.loads((PACKAGE / 'provenance/redistribution_review.json').read_text())
+    release = evidence['applicable_release']
+    require(release['record_id'] == 3241267 and release['license']['id'] == 'cc-by-4.0',
+            'Missing applicable source-deposit license')
+    require(release['file']['checksum'] == 'md5:3a31735c30f0041ac7ce11942120e405' and
+            evidence['archive_identity']['checksum_match'] is True and
+            evidence['lineage']['source_key_formula_cif_reference_matches'] == 1426,
+            'Release identity or complete dataset lineage is not established')
     for row in files:
         relative = Path(row["path"])
         require(not relative.is_absolute() and ".." not in relative.parts and
-                relative.parts[0] == "local_only", "Invalid payload path")
+                relative.parts[0] in ("prepared", "model_specific"), "Invalid publication path")
         require(re.fullmatch(r"[0-9a-f]{64}", row["sha256"]), "Invalid SHA256")
-        require(row["redistribution_status"] == "unresolved", "License hold changed")
+        require(row["redistribution_status"] == "cleared_CC-BY-4.0" and
+                row['license'] == 'CC-BY-4.0' and row['git_policy'] == 'public',
+                "Published artifact has no applicable release license")
     for match in re.finditer(r"\[[^\]]*\]\(([^)]+)\)",
                              (PACKAGE / "README.md").read_text()):
         link = match[1]
@@ -159,8 +175,11 @@ def verify(metadata_only=False, source_root=None):
             "Root README does not link to adaptation data")
     result = {"status": "PASS", "mode": "metadata_only" if metadata_only else "full",
               "payload_files": len(files), "payload_bytes": sum(int(r["bytes"]) for r in files),
-              "payloads_ignored_and_not_staged": True, "local_markdown_links": "PASS",
-              "redistribution_clearance": "unresolved; no payload release"}
+              "published_paths_not_ignored": True,
+              "all_published_artifacts_tracked": public_tracked == set(paths),
+              "local_markdown_links": "PASS", "data_license": "CC-BY-4.0",
+              "source_deposit": "10.5281/zenodo.3241267",
+              "private_preparation_evidence_required": False}
     if metadata_only:
         return result
     inventory = None
@@ -174,7 +193,7 @@ def verify(metadata_only=False, source_root=None):
                 sources["audit"]["report_sha256"], "Prior audit changed")
     for row in files:
         path = PACKAGE / row["path"]
-        require(path.is_file(), "Missing private payload: " + str(path))
+        require(path.is_file(), "Missing published artifact: " + str(path))
         require(path.stat().st_size == int(row["bytes"]) and sha256(path) == row["sha256"],
                 "Packaged bytes differ from copy manifest: " + row["path"])
         if path.suffix == ".csv":
@@ -255,9 +274,10 @@ def verify(metadata_only=False, source_root=None):
         token_counts[split] = len(tokens)
     require(token_counts == {"train": 830129, "val": 86015}, "Token counts changed")
     expected_paths = {r["path"] for r in files}
-    actual_paths = {p.relative_to(PACKAGE).as_posix() for p in (PACKAGE / "local_only").rglob("*")
-                    if p.is_file()}
-    require(actual_paths == expected_paths, "Unexpected or missing local payload file")
+    actual_paths = {p.relative_to(PACKAGE).as_posix()
+                    for folder in ('prepared', 'model_specific')
+                    for p in (PACKAGE / folder).rglob('*') if p.is_file()}
+    require(actual_paths == expected_paths, "Unexpected or missing published artifact")
     result.update(shared_counts={s: len(rows) for s, rows in shared.items()},
                   source_labels={"novamag": 1426}, unique_structures=1426,
                   reduced_composition_groups={s: len(v) for s, v in groups.items()},
@@ -272,6 +292,9 @@ def verify(metadata_only=False, source_root=None):
     if preparation_manifest.exists():
         preparation = json.loads(preparation_manifest.read_text())
         ledger = PACKAGE / 'preparation' / preparation['selection_ledger']['path']
+        result['preparation_ledger_available_locally'] = ledger.exists()
+        if not ledger.exists():
+            return result  # Mixed-source private evidence is not needed by public users.
         require(sha256(ledger) == preparation['selection_ledger']['sha256'],
                 'Preparation ledger hash mismatch')
         ledger_rows = read_csv(ledger)
@@ -296,10 +319,11 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--metadata-only", action="store_true")
     parser.add_argument("--source-root", type=Path)
+    parser.add_argument("--require-tracked", action="store_true")
     parser.add_argument("--write-report", action="store_true",
                         help="Save measured results to provenance/verification.json")
     args = parser.parse_args()
-    result = verify(args.metadata_only, args.source_root)
+    result = verify(args.metadata_only, args.source_root, args.require_tracked)
     if args.write_report:
         require(not args.metadata_only, "Do not overwrite full evidence with metadata-only results")
         (PACKAGE / "provenance/verification.json").write_text(

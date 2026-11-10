@@ -8,3 +8,9 @@ tables/figure_sources/** -text whitespace=cr-at-eol
 /paper/figures/legacy/*.pdf binary
 /adaptation_data/local_only/** -text
 /adaptation_data/preparation/local_only/** -text
+/adaptation_data/prepared/** -text
+/adaptation_data/model_specific/** -text
+# Embedded source CIF whitespace is data and must retain its original hash.
+/adaptation_data/prepared/*.csv whitespace=-blank-at-eol,cr-at-eol
+/adaptation_data/model_specific/**/*.csv whitespace=cr-at-eol
+/adaptation_data/model_specific/crystalformer/nmax21/train.csv whitespace=-blank-at-eol,cr-at-eol
