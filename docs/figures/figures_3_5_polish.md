@@ -86,7 +86,7 @@ do not overlap. The shared exporter's existing tests remain in the check set.
 PDF rasterizations, detailed numerical CSVs and box statistics are under
 `reproduced/figures35_audit/`. The PDFs are rendered and visually inspected
 for readable fonts, visible hatches, panel labels and legends. Captions are
-in `paper/figure_captions.md` (Figure 3) and `paper/figure_captions.md` (Figure 5); manuscript sources remain
+in `paper/figures/figure_captions.md` (Figure 3) and `paper/figures/figure_captions.md` (Figure 5); manuscript sources remain
 outside this checkout.
 
 Final verification: 32 tests passed; the numerical audit and

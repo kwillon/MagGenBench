@@ -18,7 +18,7 @@ paper/figures/
 Publication-ready tables, methods and proposed inserts live under
 `paper/supporting_information/`. Frozen numerical figure inputs and results
 live under `tables/figure_sources/`. Reproduction instructions live under
-`docs/figures/`, and verified captions under `paper/figure_captions.md`.
+`docs/figures/`, and verified captions under `paper/figures/figure_captions.md`.
 
 Publication figure work must not overwrite frozen scientific artifacts.
 Publication artifacts under paper/ must retain reproducible provenance

@@ -8,7 +8,15 @@ import pymupdf as fitz
 from mvpipeline.analysis.typography import (
     apply_ebrima_typography, correct_text, ebrima_font_path,
     prepare_figure_typography, restyle_pdf_typography,
+    publication_figure_name, _font_size,
 )
+
+
+def test_publication_renumbering_preserves_historical_paths_and_font_rules():
+    assert publication_figure_name('fig08_multiobjective.pdf')=='fig07_multiobjective.pdf'
+    assert publication_figure_name('fig08_multiobjective_hybrid_v2.pdf')=='fig08_multiobjective_hybrid_v2.pdf'
+    for text in ('Rank', '69.60%', 'MatterGen Base'):
+        assert _font_size('fig07_multiobjective.pdf',text,10)==_font_size('fig08_multiobjective.pdf',text,10)
 
 
 def test_figure1_cannot_be_a_restyling_target(tmp_path):

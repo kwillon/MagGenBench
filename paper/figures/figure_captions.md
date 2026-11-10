@@ -102,9 +102,9 @@ eV/atom, not formation energies or convex-hull stability. DXMag moments in
 mu_B/f.u. are composition-based predictions and do not identify magnetic ground
 states.
 
-## Figure 8
+## Figure 7
 
-**Figure 8. Structural and chemical trade-offs and ranking sensitivity across ten generated sets.**
+**Figure 7. Structural and chemical trade-offs and ranking sensitivity across ten generated sets.**
 (A) QC retention, unique reduced-formula yield, 3d atomic-content yield,
 configured-lanthanide atomic-content yield, and configured 3d/lanthanide
 union-presence yield. Numbers are original percentages; colors are independently

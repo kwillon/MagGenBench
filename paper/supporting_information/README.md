@@ -12,4 +12,4 @@ of first citation against the submission before finalizing.
 Technical SI audits: `reproduced/figure5_overlap/` and
 `reproduced/figure8/scenario_sensitivity/`. Verification/export entry points are
 in `scripts/analysis/`; see [reproduction](../../docs/figures/README.md).
-Figure 8B–D show S1 only, with Top-5 in D; S2/S3 first-place frequencies are in S8.
+Figure 7B–D show S1 only, with Top-5 in D; S2/S3 first-place frequencies are in S8.

@@ -51,7 +51,7 @@ for the updated comparison are stored in
 | Figure 4 | Magnetic-reference screening and DFT validation |
 | Figure 5 | Energy–magnetism landscape |
 | Figure 6 | Compound classes and chemical diversity |
-| Figure 8 | Five metrics; S1 Pareto, rank stability and Top-5 frequency |
+| Figure 7 | Five metrics; S1 Pareto, rank stability and Top-5 frequency |
 
 Figure 4 is `paper/figures/fig04_magnetic_reference_dft.pdf`. Its publication
 design preserves the statistical vectors of the original collaborator PDF,
@@ -59,7 +59,7 @@ design preserves the statistical vectors of the original collaborator PDF,
 Panels A-C use the MP-only reference setup without MAGNDATA. Panel D contains
 previously obtained DFT results and is not an independent validation of A-C.
 See [reproduction and numerical limitations](docs/figures/figure4_reproduction.md)
-and the [caption](paper/figure_captions.md#figure-4). The MP-only plotting source is
+and the [caption](paper/figures/figure_captions.md#figure-4). The MP-only plotting source is
 `filter/scripts/plot_mp_only_publication.py`; the selected vector-preserving design
 is reproduced by `scripts/illustrations/restyle_figure4_original_vectors.py`.
 The archived [descriptor-space PCA figure](paper/figures/legacy/descriptor_space_pca.pdf)
@@ -116,12 +116,19 @@ Tracked repository areas have explicit roles:
 | `runs/` | Lightweight run recipes, manifests, checksums, and provenance. |
 | `config/` | Active validation, descriptor, energy, and magnetism configuration. |
 | `datasets/` | Training-reference datasets used by validation and novelty workflows. |
+| [`adaptation_data/`](adaptation_data/README.md) | Magnetic-domain adaptation provenance and verified local prepared data; payloads remain outside Git pending redistribution clearance. |
 | `samples/` | Versioned CIF generated sets used by the benchmark. |
 | `tables/` | Canonical scientific tabular stages and frozen analysis artifacts. |
 | `paper/` | Manuscript-selected publication artifacts. |
 | `docs/` | Scientific and technical documentation. |
 | `archive/` | Historical provenance only. Active code must not depend on it. |
 | `tests/` | Unit, regression, and reproducibility tests. |
+
+[`adaptation_data/README.md`](adaptation_data/README.md) describes the recovered
+1,426-record magnetic-domain splits and model-specific representations.
+These are separate from the baseline novelty references in `datasets/` and the
+generated benchmark structures in `samples/`. Prepared data copies are currently
+local only; the documentation and manifests do not constitute a public data release.
 
 Local generated/runtime areas may exist in a working checkout but are not
 tracked source-code areas:
@@ -293,7 +300,7 @@ Current publication analysis includes structural, magnetic-domain, PCA, energy-m
 
 ## Manuscript Figures
 
-Manuscript-selected publication artifacts are tracked under `paper/figures/`. Figures 1-6 cover the workflow, structural overview, magnetic domain, MP-only magnetic-reference screening and DFT validation, energy-magnetism landscape, and diversity/adaptation analysis. Figure 8 is a provisional multi-objective comparison documented in the figure directory. PCA loadings and the updated descriptor-space PCA are supplementary figures. Historical publication artifacts are retained under `paper/figures/legacy/`; exploratory previews, audits, projections, and regenerated figures remain under `reproduced/`.
+Manuscript-selected publication artifacts are tracked under `paper/figures/`. Figures 1-6 cover the workflow, structural overview, magnetic domain, MP-only magnetic-reference screening and DFT validation, energy-magnetism landscape, and diversity/adaptation analysis. Figure 7 presents structural and chemical trade-offs, S1 Pareto efficiency, rank stability and Top-5 frequencies. PCA loadings and the updated descriptor-space PCA are supplementary figures. Historical publication artifacts are retained under `paper/figures/legacy/`; exploratory previews, audits, projections, and regenerated figures remain under `reproduced/`.
 
 ## Run Recipes
 

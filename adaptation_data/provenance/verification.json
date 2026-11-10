@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "mode": "full",
+  "payload_files": 15,
+  "payload_bytes": 5381813,
+  "payloads_ignored_and_not_staged": true,
+  "local_markdown_links": "PASS",
+  "redistribution_clearance": "unresolved; no payload release",
+  "shared_counts": {
+    "train": 1139,
+    "val": 142,
+    "test": 145
+  },
+  "source_labels": {
+    "novamag": 1426
+  },
+  "unique_structures": 1426,
+  "reduced_composition_groups": {
+    "train": 185,
+    "val": 23,
+    "test": 24
+  },
+  "crystalformer_counts": {
+    "train": 1134,
+    "val": 142,
+    "test": 145
+  },
+  "crystalformer_exclusions": 5,
+  "preexisting_density_reserialization": {
+    "rows": 918,
+    "max_abs_difference": "9.7e-17"
+  },
+  "normalized_counts": {
+    "train": 1139,
+    "val": 142,
+    "test": 145
+  },
+  "token_counts": {
+    "train": 830129,
+    "val": 86015
+  },
+  "token_document_counts": {
+    "train": 1139,
+    "val": 142
+  },
+  "sha256_and_counts": "PASS",
+  "source_inventory_checked": true,
+  "raw_bytes_preserved": true,
+  "unsafe_deserialization_used": false,
+  "preparation_ledger_records": 5203,
+  "preparation_retained_records": 1426,
+  "preparation_ledger_ignored": true
+}

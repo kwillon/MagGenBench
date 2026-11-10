@@ -47,4 +47,4 @@ Provisional numbering; existing manuscript references are unchanged. FT = Fine-t
 | Crys-JEPA Base | 88.20 | 86.50 | 49.15 | No | 0.8292 | 3 | 0.000 | 85.105 | 88.325 |
 | Crys-JEPA Refined | 77.15 | 43.35 | 22.25 | No | 0.5055 | 7 | 0.000 | 0.000 | 34.575 |
 
-Figure 8B-C show S1 Pareto/rank sensitivity; Figure 8D shows S1 Top-5 only. S2/S3 frequencies are reported here. Full source-precision scores and integer counts are in the [numerical export](../../../tables/figure_sources/figure8/scenario_sensitivity_publication.csv).
+Figure 7B-C show S1 Pareto/rank sensitivity; Figure 7D shows S1 Top-5 only. S2/S3 frequencies are reported here. Full source-precision scores and integer counts are in the [numerical export](../../../tables/figure_sources/figure8/scenario_sensitivity_publication.csv).

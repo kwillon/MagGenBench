@@ -13,6 +13,13 @@ from pathlib import Path
 
 FONT_SIZE_INCREASE_PT = 0.5
 
+
+def publication_figure_name(name):
+    """Map the former selected Figure 8 filename; leave historical variants intact."""
+    if name in ('fig08_multiobjective.pdf', 'fig08_multiobjective.png', 'fig08_multiobjective.svg'):
+        return name.replace('fig08_', 'fig07_', 1)
+    return name
+
 TEXT_CORRECTIONS = {
     'Min-max normalized score': 'Min–max normalized score',
     'Compound-class distribution': 'Compound class distribution',
@@ -136,7 +143,7 @@ def _base_font_size(name,text,old):
         if text in ('Compound class distribution','Changes associated with adaptation'):return 14
         if old<=7.1:return 8.3
         return 11 if axis or old>=12 else 9
-    if name.startswith('fig08'):
+    if name.startswith(('fig07', 'fig08')):
         return 11 if axis else 10 if old>=10.5 else 9
     if name.startswith('fig02'):
         if text in ('Base','Fine-tuned (FT)','Crys-JEPA','Base: registered primary rejection reasons'):return 12
@@ -218,12 +225,12 @@ def restyle_pdf_typography(source,output,*,figure_name=None):
                 left['bbox']=(left['bbox'][0],left['bbox'][1],right['bbox'][2],left['bbox'][3])
                 items.remove(right)
             else:raise RuntimeError(f'Unexpected vector en-dash in {name}')
-        # Two manual hyphenation breaks in the approved Figure 8 matrix.
+        # Preserve the approved multiobjective matrix (now Figure 7).
         for item in items:
             text=item['text'];new=item.get('override',correct_text(text))
             if name.startswith('fig02') and new=='Crys-JEPA Refined':
                 new='Crys-JEPA\nRefined'
-            if name.startswith('fig08'):
+            if name.startswith(('fig07', 'fig08')):
                 if text=='3d atomic-':new='3d atomic-content'
                 if text=='Lanthanide atomic-':new='Lanthanide'
                 if text=='content yield':
@@ -264,7 +271,7 @@ def restyle_pdf_typography(source,output,*,figure_name=None):
             new_width=max(font.text_length(line,fontsize=size) for line in lines)
             align='left' if re.match(r'^[A-F]\s{1,3}\S',text) else 'center'
             if re.match(r'^(MatterGen|Con-CDVAE|CrystalFormer|CrystaLLM|Crys-JEPA) (Base|FT|Fine-tuned|Ref)',text):align='right'
-            if name.startswith('fig08') and text.endswith('%') and item['bbox'][0]>.60*page.rect.width and item['bbox'][1]>.5*page.rect.height:align='left'
+            if name.startswith(('fig07', 'fig08')) and text.endswith('%') and item['bbox'][0]>.60*page.rect.width and item['bbox'][1]>.5*page.rect.height:align='left'
             shift=(advance-new_width)*(1 if align=='right' else .5 if align=='center' else 0)
             x+=dx*shift;y+=dy*shift
             if len(lines)>1:y-=.5*size*1.2*(len(lines)-1)

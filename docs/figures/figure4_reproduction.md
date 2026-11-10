@@ -2,7 +2,7 @@
 
 The publication PDF is **a visual restyling of the original plotted vectors**.
 It preserves the original statistical values; it does not publish the
-numerically different MP-only recalculation. See the [caption](../../paper/figure_captions.md#figure-4).
+numerically different MP-only recalculation. See the [caption](../../paper/figures/figure_captions.md#figure-4).
 
 ## Reproduce the design without scientific calculations
 

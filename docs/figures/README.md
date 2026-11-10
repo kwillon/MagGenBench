@@ -11,20 +11,22 @@ No model training or new structure generation is needed for publication plots.
 - Figure 6: `python scripts/illustrations/plot_fig06_diversity_adaptation_palette_preview.py`.
 - PCA: `python scripts/illustrations/plot_paper_pca.py`.
 
-## Figure 8
+## Figure 7
 
+Frozen numerical inputs retain their historical `figure8` identifiers.
 Canonical inputs: `tables/figure_sources/figure8/`; publication generator:
-`scripts/analysis/build_paper_figure08_hybrid.py`. Default PDF:
-`paper/figures/fig08_multiobjective.pdf`; default PNG:
-`reproduced/figure8/previews/fig08_multiobjective.png`.
+`scripts/analysis/build_paper_multiobjective_figure.py`. Default PDF:
+`paper/figures/fig07_multiobjective.pdf`; default PNG:
+`reproduced/figure7/previews/fig07_multiobjective.png`.
 Existing outputs are protected. For a safe reproduction:
 
 ```powershell
-.venv/Scripts/python.exe scripts/analysis/build_paper_figure08_hybrid.py --output-dir reproduced/figure8/recheck --audit-dir reproduced/figure8/recheck/audit
+.venv/Scripts/python.exe scripts/analysis/build_paper_multiobjective_figure.py --output-dir reproduced/figure7/recheck --audit-dir reproduced/figure7/recheck/audit
 ```
 
 Saved 20000-weight S1 distributions are reused (seed 1984). D sums C's first
-five ranks; no weights are resampled. Historical/alternative analyses remain
+five ranks; no weights are resampled. The old `build_paper_figure08_hybrid.py` entry point remains a compatibility
+wrapper and also exports publication number 07. Historical/alternative analyses remain
 available through `scripts/analysis/build_paper_figure08.py`.
 
 ## Supporting analyses
@@ -40,12 +42,12 @@ new directory without replacing selected SI:
 
 Historical audit JSONs retain original paths/hashes. Resolve moved inputs through
 `tables/figure_sources/path_relocations.json`; original document hashes can be
-checked in checkpoint `0f76fdb4`. Frozen CSV/NPZ values and selected Figure 8 bytes
+checked in checkpoint `0f76fdb4`. Frozen CSV/NPZ values and selected multiobjective PDF bytes (now Figure 7)
 are unchanged by reorganization.
 
 ## Publication typography
 
-Canonical Figures 2–6/8 and supplementary PCA now use Ebrima Regular, matching
+Canonical Figures 2–7 and supplementary PCA now use Ebrima Regular, matching
 the read-only Figure 1 reference. Windows builds resolve `C:/Windows/Fonts/ebrima.ttf`;
 other environments must provide a locally installed Ebrima Regular via
 `MAGGENBENCH_EBRIMA_FONT`. A missing face is an error, never a silent fallback.

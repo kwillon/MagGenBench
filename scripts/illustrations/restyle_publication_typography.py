@@ -7,7 +7,7 @@ import subprocess
 import hashlib
 ROOT=Path(__file__).resolve().parents[2]
 sys.path.insert(0,str(ROOT/'src'))
-from mvpipeline.analysis.typography import restyle_pdf_typography
+from mvpipeline.analysis.typography import restyle_pdf_typography, publication_figure_name
 from mvpipeline.analysis.figure6_layout import polish_figure6_bar_layout
 
 
@@ -23,16 +23,18 @@ def main():
         args.source_dir.mkdir(parents=True,exist_ok=True)
         for canonical in sorted((ROOT/'paper/figures').glob('*.pdf')):
             if canonical.name.startswith('fig01'):continue
-            data=subprocess.check_output(['git','show',args.baseline_commit+':paper/figures/'+canonical.name],cwd=ROOT)
-            target=args.source_dir/canonical.name
+            snapshot_name='fig08_multiobjective.pdf' if canonical.name=='fig07_multiobjective.pdf' else canonical.name
+            data=subprocess.check_output(['git','show',args.baseline_commit+':paper/figures/'+snapshot_name],cwd=ROOT)
+            target=args.source_dir/snapshot_name
             if target.exists() and target.read_bytes()!=data:raise RuntimeError(f'Pinned source changed: {target}')
             if not target.exists():target.write_bytes(data)
     if len(list(args.source_dir.glob('*.pdf')))!=8:raise RuntimeError('Expected all eight audited publication PDFs, excluding Figure 1')
     for source in sorted(args.source_dir.glob('*.pdf')):
         if source.name.startswith('fig01'):continue
-        target=args.output_dir/source.name
+        target=args.output_dir/publication_figure_name(source.name)
         text_target=target.with_suffix('.text.pdf') if source.name.startswith('fig06') else target
         result=restyle_pdf_typography(source,text_target)
+        result['publication_figure']=target.name
         if source.name.startswith('fig06'):
             result['layout_polish']=polish_figure6_bar_layout(text_target,target)
             result['after_sha256']=hashlib.sha256(target.read_bytes()).hexdigest()

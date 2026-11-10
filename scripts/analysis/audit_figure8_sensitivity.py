@@ -155,7 +155,7 @@ x=[float(r['qc_retention_pct']) for r in ss]
 y=[float(r['unique_formula_yield_pct']) for r in ss]
 pearson,spearman=corr(x,y),corr(rank_values(x),rank_values(y))
 
-# Verify consistency with the previous audit and the actual current Figure 8D.
+# Verify consistency with the previous audit and the actual current Figure 7D.
 old=read(AUDITS/'audit_2026-11-09/scenario_results_source_precision.csv')
 for r in old:
     for s in ('S1','S2','S3'):
@@ -188,7 +188,7 @@ s8='# Table S8. Scenario-specific Pareto efficiency, equal-weight rankings, and 
 s8+='Provisional numbering; existing manuscript references are unchanged. FT = Fine-tuned. All yields use the nominal budget Ngen = 2000 and contributions from QC-retained structures. Unique = unique reduced-formula yield, not within-QC uniqueness. Chemical = S1: 3d atomic-content yield; S2: configured-lanthanide atomic-content yield; S3: configured 3d/lanthanide union-presence yield (OR). Scores are the mean of three independently min-max-normalized criteria across all ten sets; rank 1 is best. Frequencies are exact to 0.005 percentage points from 20000 Dirichlet(1,1,1) weights, seed 1984, and are shown with three decimals. Pareto refers to all three scenario objectives.\n\n'
 for s in ('S1','S2','S3'):
     s8+=f'## {s}\n\n'+result_table(s,True)+'\n'
-s8+='Figure 8B-C show S1 Pareto/rank sensitivity; Figure 8D shows S1 Top-5 only. S2/S3 frequencies are reported here. Full source-precision scores and integer counts are in `scenario_sensitivity_publication.csv`.\n'
+s8+='Figure 7B-C show S1 Pareto/rank sensitivity; Figure 7D shows S1 Top-5 only. S2/S3 frequencies are reported here. Full source-precision scores and integer counts are in `scenario_sensitivity_publication.csv`.\n'
 save('table_s8_scenario_results.md',s8)
 
 s9='# Table S9. Alternative chemical criteria and QC-retention ablation.\n\nProvisional numbering. This separate table keeps Table S8 readable. Scores are dimensionless, normalized within each criterion across the same ten sets. Scores under different criterion systems are not directly comparable as performance gains. Frequencies use 20000 saved weights and seed 1984, with Dirichlet(1,...,1) dimension equal to the number of criteria.\n\n'
@@ -226,7 +226,7 @@ for s in ('S1','S2','S3'):
         r=leaders[0]
         audit+=f"- {v} equal-weight leader: {r['label']}; score {r['equal_weight_score_source']}; first-place frequency {r['first_place_pct_exact']}%.\n"
 audit+='\nFor S3, MatterGen Base rises from rank 2 (score 0.8779640505517192, first 42.975%) to rank 1 (0.8755530973451328, first 57.390%); Con-CDVAE Base moves from rank 1 (0.8874429223744292, first 57.025%) to rank 2 (0.8311643835616438, first 42.610%). Removal of the QC objective changes weights and scores, but does not remove QC filtering or the QC dependence embedded in the two remaining yields. Full ablation results for all ten sets are in Table S9 and CSV.\n\n'
-audit+='## Figure and text consistency\n\nThe current hybrid_v2 Figure 8B-D show S1 only; D is Top-5, not first-place frequency. Its saved D counts match S1 exactly. S2, S3 and ablation results are cited to provisional Tables S8/S9. The original full Sections 3.7.2-3.7.4 were not provided; consolidation follows the four requested scientific parts, without claiming line-by-line preservation. The previous 3.7.1 text is not repeated. Chemical proxies do not establish magnetism.\n\n## Sources and checks\n\n'
+audit+='## Figure and text consistency\n\nThe current hybrid_v2 Figure 7B-D show S1 only; D is Top-5, not first-place frequency. Its saved D counts match S1 exactly. S2, S3 and ablation results are cited to provisional Tables S8/S9. The original full Sections 3.7.2-3.7.4 were not provided; consolidation follows the four requested scientific parts, without claiming line-by-line preservation. The previous 3.7.1 text is not repeated. Chemical proxies do not establish magnetism.\n\n## Sources and checks\n\n'
 for path in source_hashes:
     audit+=f'- `{path}`\n'
 audit+='- Methodology: `scripts/analysis/build_paper_figure08.py` (criterion definitions, min-max normalization, independent seed reset 1984 for each variant, stable cohort-order tie rule).\n\nAll nine variants (90 cohort/variant records), 900 pairwise dominance entries, and all 900 rank-frequency entries passed consistency checks. No analysis was missing. Thus no sensitivity analysis had to be reproduced.\n'

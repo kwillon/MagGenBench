@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "prepared_on": "2026-11-10",
+  "purpose": "Recovered magnetic-domain adaptation data; separate from novelty references and generated benchmark structures",
+  "release_status": "metadata_only_payloads_ignored_pending_redistribution_clearance",
+  "audit": {
+    "report_path": "MagGenBench_dataset_audit.md",
+    "report_sha256": "f0ccf17c4153de0de0bee8ce48025ec5badbcc3274f607c5beab315b26c7d535",
+    "inventory_path": "MagGenBench_dataset_inventory.csv",
+    "inventory_sha256": "52948473d3ce957f1c84aa88f1bf6431578a5923492bfe40792cb3cc297bd9e0",
+    "path_scope": "External source artifact basenames; original machine locators remain in the private audit archive"
+  },
+  "source_root_hint": "Source root is supplied externally; artifact names and hashes identify the original inputs",
+  "source_attribution": {
+    "observed_Source_column": {
+      "novamag": 1426
+    },
+    "project_name": "NovoMag",
+    "exact_upstream_release": "unverified",
+    "NEMAD_in_final_selection": "not established",
+    "MAGNDATA_in_final_selection": "not established",
+    "raw_pool_relative_path": "Mg_project_data/data/novamag_nemad/extracted_v1/cif_all",
+    "matched_CIF_records": 1426,
+    "provided_upstream_archive": {
+      "name": "Novamag_Database_Files.zip",
+      "sha256": "12e4f05fee562bf0f1832a8834cd4bfcbe3db9623dced17e8a0595d330dfdc9c",
+      "retained_CIF_matches": 1426,
+      "archive_README_citation": "Nieves et al., Computational Materials Science (2019)"
+    }
+  },
+  "shared": {
+    "records": 1426,
+    "split_counts": {
+      "train": 1139,
+      "val": 142,
+      "test": 145
+    },
+    "seed_label": 1041,
+    "seed_execution_verified": false,
+    "grouping": "disjoint reduced-composition groups observed; original split implementation unavailable",
+    "reduced_composition_group_counts": {
+      "train": 185,
+      "val": 23,
+      "test": 24
+    },
+    "files": {
+      "train": "local_only/shared/grouped_seed1041/train.csv",
+      "val": "local_only/shared/grouped_seed1041/val.csv",
+      "test": "local_only/shared/grouped_seed1041/test.csv"
+    },
+    "record_provenance_columns": [
+      "material_id",
+      "Source",
+      "Row_ID",
+      "matched_cif"
+    ],
+    "split_provenance": "containing CSV filename"
+  },
+  "models": {
+    "crystalformer": {
+      "records": 1421,
+      "split_counts": {
+        "train": 1134,
+        "val": 142,
+        "test": 145
+      },
+      "files": {
+        "train": "local_only/models/crystalformer/nmax21/train.csv",
+        "val": "local_only/shared/grouped_seed1041/val.csv",
+        "test": "local_only/shared/grouped_seed1041/test.csv"
+      },
+      "exclusions": "local_only/models/crystalformer/nmax21/excluded_nmax21.csv",
+      "documented_rule": "n_max=21; num_sites < n_max",
+      "runtime_assertion_verified": false,
+      "checkpoint_epoch3822_input_link": "unverified",
+      "preexisting_density_reserialization": {
+        "rows": 918,
+        "maximum_absolute_decimal_difference": "9.7e-17"
+      }
+    },
+    "crystallm": {
+      "normalized": "local_only/models/crystallm/normalized",
+      "tokens": "local_only/models/crystallm/tokens",
+      "normalization_manifest": "local_only/models/crystallm/normalization_manifest.csv",
+      "normalization_summary": "local_only/models/crystallm/normalization_summary.json",
+      "normalized_counts": {
+        "train": 1139,
+        "val": 142,
+        "test": 145
+      },
+      "token_document_counts": {
+        "train": 1139,
+        "val": 142
+      },
+      "test_bin_available": false,
+      "token_dtype": "little-endian uint16",
+      "vocab_size": 371,
+      "selected_step275_checkpoint_input_link": "unverified"
+    },
+    "mattergen": {
+      "model_ready_inputs": "not recovered; not copied",
+      "actual_grouped_seed1041_training_link": "unverified"
+    },
+    "concdvae": {
+      "model_ready_inputs": "converted CSV and graph caches absent from supplied export; not copied",
+      "training_job_evidence": "VAE and verified prior production job/path/checkpoint chain audited",
+      "exact_training_input_records": "unverified",
+      "configured_dataset_identifier": "generated/con_cdvae/candidate_mag_density_seed1041",
+      "path_scope": "Configured dataset identifier; the absolute server locator is retained only in the private audit archive"
+    }
+  },
+  "candidate_mag_density": {
+    "definition": "Observed identity for all1426 retained records: source unit cell spin polarization / unit cell volume; historical calculation code not recovered",
+    "units": "mu_B / Angstrom^3, supported by upstream property documentation",
+    "saved_numeric_precision": "original file bytes preserved",
+    "initial_audit_assessment": {
+      "definition": "unverified",
+      "units": "unverified"
+    },
+    "evidence": "preparation/manifest.json"
+  },
+  "license_review": {
+    "status": "unresolved_for_exact_local_records",
+    "local_source_license_found": false,
+    "repository_MIT_does_not_license_third_party_payloads": true,
+    "checked_on": "2026-11-10",
+    "upstream_pages": [
+      {
+        "url": "https://zenodo.org/records/3241267",
+        "title": "Novamag Database",
+        "scope_note": "release identity not established for local records"
+      },
+      {
+        "url": "https://zenodo.org/records/17399362",
+        "title": "Novomag magnetic materials database",
+        "scope_note": "scientific use with acknowledgement stated; separate similarly named resource, not an applicable-license determination"
+      }
+    ],
+    "git_policy": "all structures, derivatives and record-level ledgers held under ignored local_only/"
+  },
+  "omitted": {
+    "duplicate_variant_validation_test": "shared files referenced instead",
+    "raw_CIF_pool": "not needed; duplicate CIF copies and unresolved raw provenance",
+    "raw_CrystaLLM_pickles": "original ID/CIF pairs already in shared CSV; normalized representations retained",
+    "checkpoints_weights_logs": "excluded by scope",
+    "smoke_and_generated_outputs": "excluded",
+    "tar_bundles": "duplicate copies of existing selected token inputs; omitted"
+  },
+  "source_split_files_verified_against_supplied_checksums": [
+    "crystalformer_data/magnetic_ft_grouped_seed1041/train.csv",
+    "crystalformer_data/magnetic_ft_grouped_seed1041/val.csv",
+    "crystalformer_data/magnetic_ft_grouped_seed1041/test.csv",
+    "crystalformer_data/magnetic_ft_grouped_seed1041_cf_nmax21/train.csv",
+    "crystalformer_data/magnetic_ft_grouped_seed1041_cf_nmax21/val.csv",
+    "crystalformer_data/magnetic_ft_grouped_seed1041_cf_nmax21/test.csv",
+    "crystalformer_data/magnetic_ft_grouped_seed1041_cf_nmax21/excluded_nmax21.csv"
+  ],
+  "preparation_evidence": {
+    "manifest": "preparation/manifest.json",
+    "description": "All1426 prepared records match a recovered5203-row intermediate and supplied NOVAMAG archive; original selection/target code remains unavailable"
+  }
+}

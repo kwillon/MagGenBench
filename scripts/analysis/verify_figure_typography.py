@@ -14,6 +14,8 @@ import pymupdf as fitz
 from fontTools.ttLib import TTFont
 
 ROOT=Path(__file__).resolve().parents[2]
+sys.path.insert(0,str(ROOT/'src'))
+from mvpipeline.analysis.typography import publication_figure_name
 
 
 def main():
@@ -31,7 +33,9 @@ def main():
     assert sha(ref)==before[ref.name]['sha256']
     changes=[];font_checks={};overlaps=[];char_count=0
     for audit in audits:
-        name=audit['figure'];path=args.candidate_dir/name
+        name=audit['figure']
+        path=args.candidate_dir/audit.get('publication_figure',publication_figure_name(name))
+        if not path.exists():path=args.candidate_dir/name  # Historical audit snapshots remain unchanged.
         assert audit['before_sha256']==before[name]['sha256']
         assert sha(path)==audit['after_sha256']
         assert all(audit[k] for k in ('embedded','images_unchanged','numeric_tokens_unchanged'))
@@ -86,17 +90,19 @@ def main():
     for item in overlaps[:12]:print(item)
     if args.promote:
         assert not overlaps,'Review text overlap candidates before promotion'
-        prior={r['figure']:r['after_sha256'] for r in json.loads((args.previous_candidate_dir/'audit.json').read_text())} if args.previous_candidate_dir else {}
+        prior={publication_figure_name(r['figure']):r['after_sha256'] for r in json.loads((args.previous_candidate_dir/'audit.json').read_text())} if args.previous_candidate_dir else {}
         for audit in audits:
-            name=audit['figure'];target=ROOT/'paper/figures'/name
+            name=publication_figure_name(audit['figure']);target=ROOT/'paper/figures'/name
             assert sha(target) in (audit['before_sha256'],prior.get(name)), 'Canonical PDF changed outside the verified typography revisions'
         for audit in audits:
-            name=audit['figure'];target=ROOT/'paper/figures'/name
-            shutil.copyfile(args.candidate_dir/name,target)
+            name=publication_figure_name(audit['figure']);target=ROOT/'paper/figures'/name
+            candidate=args.candidate_dir/audit.get('publication_figure',name)
+            if not candidate.exists():candidate=args.candidate_dir/audit['figure']
+            shutil.copyfile(candidate,target)
             folder=('figure'+name[3:5].lstrip('0')) if name.startswith('fig') else 'supplementary/figure'+name[4:6].lstrip('0')
             preview=ROOT/'reproduced'/folder/'previews'/(Path(name).stem+'.png')
             preview.parent.mkdir(parents=True,exist_ok=True)
-            shutil.copyfile((args.candidate_dir/name).with_suffix('.png'),preview)
+            shutil.copyfile(candidate.with_suffix('.png'),preview)
             assert sha(target)==audit['after_sha256']
         figures=ROOT/'paper/figures'
         (figures/'SHA256SUMS.txt').write_text(''.join(sha(p)+'  ./'+p.relative_to(figures).as_posix()+'\n' for p in sorted(figures.rglob('*.pdf'))),encoding='utf-8')

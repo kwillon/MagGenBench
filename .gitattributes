@@ -6,3 +6,5 @@ tables/10_analysis_v2_magnetic/*.csv -text whitespace=cr-at-eol
 tables/figure_sources/** -text whitespace=cr-at-eol
 /paper/figures/*.pdf binary
 /paper/figures/legacy/*.pdf binary
+/adaptation_data/local_only/** -text
+/adaptation_data/preparation/local_only/** -text

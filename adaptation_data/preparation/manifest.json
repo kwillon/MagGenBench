@@ -1,0 +1,177 @@
+{
+  "status": "PASS",
+  "sources": {
+    "7dataset_with_lattice_and_positions - 7dataset_with_lattice_and_positions.csv.csv": {
+      "bytes": 10999809,
+      "sha256": "f1fea742b82e3312d9d3ad5ee6f2e758af7b7b280e175818757ead3ca711eb2d"
+    },
+    "nemad_magnetic_materials.csv": {
+      "bytes": 4525021,
+      "sha256": "47ebbe99cb4f040065d88f4588484d7bc5b4053f37d5188ff3784a9a5ec83c38"
+    },
+    "Novomag/Novamag_Database_Files.zip": {
+      "bytes": 159852320,
+      "sha256": "12e4f05fee562bf0f1832a8834cd4bfcbe3db9623dced17e8a0595d330dfdc9c"
+    }
+  },
+  "intermediate": {
+    "rows": 5203,
+    "columns": [
+      "Source",
+      "Row_ID",
+      "name",
+      "confidential",
+      "approach",
+      "summary",
+      "production info",
+      "unit cell volume",
+      "atomic positions",
+      "crystal info",
+      "unit cell energy",
+      "unit cell formation enthalpy",
+      "energy info",
+      "interatomic potentials info",
+      "magnetic free energy",
+      "magnetic free energy info",
+      "unit cell spin polarization",
+      "atomic spin specie",
+      "Sat_Magnetization",
+      "magnetization temperature",
+      "magnetization info",
+      "magnetocrystalline anisotropy energy",
+      "anisotropy energy type",
+      "magnetocrystalline anisotropy constants",
+      "kind of anisotropy",
+      "anisotropy info",
+      "exchange integrals",
+      "magnetics.exchange info",
+      "magnetic order",
+      "Curie_Temp",
+      "curie temperature info",
+      "anisotropy field",
+      "Remanence",
+      "Coercivity",
+      "energy product",
+      "hysteresis info",
+      "domain wall width",
+      "domain wall info",
+      "exchange stiffness",
+      "exchange stiffness info",
+      "authors",
+      "DOI",
+      "comments",
+      "attached files",
+      "attached files info",
+      "Magnetic space group (maybe list)",
+      "Magnetic_Ordering",
+      "Spin space group (articles needs)",
+      "Neel Temperature_K",
+      "Curie_Weiss_Constant",
+      "Crystal_Structure",
+      "Lattice_Structure",
+      "Magnetic_Moment_\u03bcB_R",
+      "Magnetic_Susceptibility",
+      "Magnetic ordering (MP, list)",
+      "Magnetic ordering (MP, simplified)",
+      "wanted_cif",
+      "wanted_cif_after",
+      "attached_list",
+      "cif_fetch_status",
+      "Formula",
+      "space_group",
+      "space_group_number",
+      "Magnetic space group",
+      "Lattice_Params",
+      "lattice angles",
+      "lattice_params",
+      "lattice_angles",
+      "atomic_positions"
+    ],
+    "source_counts": {
+      "novamag": 2069,
+      "nemad": 3134
+    }
+  },
+  "raw_nemad": {
+    "rows": 33668,
+    "columns": [
+      "Coercivity",
+      "Crystal_Structure",
+      "Curie",
+      "Curie(Tc)",
+      "Curie_Weiss",
+      "Curie_Weiss(\u03b8p)",
+      "DOI",
+      "Experimental",
+      "Lattice_Parameters",
+      "Lattice_Structure",
+      "Magnetic_Moment",
+      "Magnetization",
+      "Material_Name",
+      "Neel",
+      "Neel(Tn)",
+      "New_Column_Concatenated",
+      "Remanence",
+      "Space_Group",
+      "Susceptibility"
+    ],
+    "match_counts": {
+      "unique": 2928,
+      "ambiguous": 206
+    }
+  },
+  "archive": {
+    "outer_entries": 6863,
+    "data_counts": {
+      "json": 2085,
+      "cif": 2056,
+      "nested_data_zips": 41
+    },
+    "unparsed_data_json": 22,
+    "code_executed": false,
+    "extraction_performed": false
+  },
+  "selection": {
+    "retained": 1426,
+    "not_in_recovered_splits": 3777,
+    "not_retained_by_source": {
+      "novamag": 643,
+      "nemad": 3134
+    },
+    "retained_sources": {
+      "novamag": 1426
+    },
+    "unknown_historical_exclusion_reasons": 3777
+  },
+  "lineage": {
+    "source_key_formula_cif_reference_matches": 1426,
+    "upstream_json_property_matches": 1426,
+    "upstream_cif_byte_matches": 1424,
+    "upstream_cif_normalized_matches": 1426
+  },
+  "candidate_mag_density": {
+    "observed_identity": "unit cell spin polarization / unit cell volume",
+    "verified_records": 1426,
+    "maximum_absolute_decimal_difference": "3.59736671174129614209890E-17",
+    "zero_target_records": 5,
+    "upstream_ratio_units": "mu_B / Angstrom^3",
+    "historical_calculation_code_available": false,
+    "units_evidence": [
+      "Novamag_Database_Files/Source_files/NOVAMAG-Java-Loader-master.zip!NOVAMAG-Java-Loader-master/src/json_loader/dao/DBitem.java:624,933-934",
+      "Novamag_Database_Files/Source_files/NOVAMAG-Java-Loader-master.zip!NOVAMAG-Java-Loader-master/data_for_tests/dao.items/FeNi_L10_v2.json:39-44,136-141"
+    ]
+  },
+  "selection_ledger": {
+    "path": "local_only/selection_ledger.csv",
+    "records": 5203,
+    "sha256": "dacd4654c67de5e237d9ddbb41016100621fff7880e316bdf6f8bdcb3e943480",
+    "bytes": 855240,
+    "redistribution_status": "unresolved; Git-ignored"
+  },
+  "licensing": {
+    "data_redistribution_permission": "unresolved",
+    "program_license": "GPL version 2 or later for the Java loader program; not a dataset license",
+    "source_archive_copied": false,
+    "merged_csv_copied": false
+  }
+}

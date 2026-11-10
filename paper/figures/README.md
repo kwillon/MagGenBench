@@ -1,7 +1,7 @@
 # Publication figures
 
-Only selected publication PDFs, this map, checksums and `legacy/` belong here.
-Captions are consolidated in [figure_captions.md](../figure_captions.md).
+Selected publication PDFs, captions, this map, checksums and `legacy/` belong here.
+Captions are consolidated in [figure_captions.md](figure_captions.md).
 Raster previews and technical audits live under `reproduced/`.
 
 | Figure | Selected PDF | Reproduction code | Scientific inputs |
@@ -12,15 +12,15 @@ Raster previews and technical audits live under `reproduced/`.
 | 4 | [Reference screening / DFT](fig04_magnetic_reference_dft.pdf) | `scripts/illustrations/restyle_figure4_original_vectors.py`; `filter/scripts/plot_mp_only_publication.py` | Original statistical vectors and retrospective DFT; see [limitations](../../docs/figures/figure4_reproduction.md) |
 | 5 | [Energy–magnetism](fig05_energy_magnetism.pdf) | `scripts/illustrations/plot_manuscript_figure5_v2.py` | `tables/figure_sources/fig05_energy_magnetism.csv` |
 | 6 | [Diversity / adaptation](fig06_diversity_adaptation.pdf) | `scripts/illustrations/plot_fig06_diversity_adaptation_palette_preview.py` | `tables/figure_sources/fig06_compound_classes.csv`, `fig06_diversity_summary.csv` |
-| 8 | [Multiobjective trade-offs](fig08_multiobjective.pdf) | `scripts/analysis/build_paper_figure08_hybrid.py` | `tables/figure_sources/figure8/figure08_scenario_{metrics,rankings,pareto}_v2.csv` |
+| 7 | [Multiobjective trade-offs](fig07_multiobjective.pdf) | `scripts/analysis/build_paper_multiobjective_figure.py` | `tables/figure_sources/figure8/figure08_scenario_{metrics,rankings,pareto}_v2.csv` |
 | Supplementary 1 | [PCA loadings](supp01_pca_loadings.pdf) | `scripts/illustrations/plot_paper_pca.py` | Frozen analysis and two FT descriptor CSVs |
 | Supplementary 2 | [Descriptor space](supp02_descriptor_space.pdf) | `scripts/illustrations/plot_paper_pca.py` | Frozen analysis and two FT descriptor CSVs |
 
-No selected Figure 7 or verified standalone caption for Figures 1/6 or the
-supplementary PCA figures was found; their numbering/captions require the external
-manuscript. No caption is invented here.
+Verified standalone captions for Figures 1/6 and the supplementary PCA figures
+were not recovered; their captions require the external manuscript.
+The selected multiobjective comparison is Figure 7 (formerly Figure 8).
 
-Figure 8 retains the Art Nouveau hybrid v2 scientific content and layout, with
+Figure 7 retains the Art Nouveau hybrid v2 scientific content and layout, with
 Ebrima Regular typography matching Figure 1. The pre-typography v2 archive remains
 unchanged; text-only export checks preserve all numbers, data vectors and images.
 A contains five metrics; B is the S1 scatter with atomic-content marker size and
@@ -39,5 +39,5 @@ an internal label gutter with display limits 0–124; its percentages and counts
 remain unchanged. See `reproduced/figure_layout_polish_audit.md` for checks.
 
 `SHA256SUMS.txt` covers current and archived PDFs relative to this directory.
-`legacy/` keeps original Figure 8 and hybrid versions for provenance; only
-`fig08_multiobjective.pdf` is current.
+`legacy/` keeps historical Figure 8 and hybrid versions for provenance; only
+`fig07_multiobjective.pdf` is current.
