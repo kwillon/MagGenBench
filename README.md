@@ -54,16 +54,15 @@ for the updated comparison are stored in
 | Figure 7 | Five metrics; S1 Pareto, rank stability and Top-5 frequency |
 
 Figure 4 is `paper/figures/fig04_magnetic_reference_dft.pdf`. Its publication
-design preserves the statistical vectors of the original collaborator PDF,
-`Figure_MP_only_generator_benchmark.pdf`, with updated labels, layout and styling.
+design preserves the statistical vectors and layout of the updated collaborator
+PDF, `Figure4_DFT.pdf`. The native Matplotlib renderer uses Ebrima Regular
+panel titles matching Figure 3 and preserves the audited plotted values.
 Panels A-C use the MP-only reference setup without MAGNDATA. Panel D contains
 previously obtained DFT results and is not an independent validation of A-C.
-See [reproduction and numerical limitations](docs/figures/figure4_reproduction.md)
-and the [caption](paper/figures/figure_captions.md#figure-4). The MP-only plotting source is
-`filter/scripts/plot_mp_only_publication.py`; the selected vector-preserving design
-is reproduced by `scripts/illustrations/restyle_figure4_original_vectors.py`.
-The archived [descriptor-space PCA figure](paper/figures/legacy/descriptor_space_pca.pdf)
-is retained for provenance under `paper/figures/legacy/`.
+See [current provenance and reproduction](docs/figures/figure4_supp_provenance.md)
+and the [caption](paper/figures/figure_captions.md#figure-4). The selected design
+and S2-S4 are reproduced by `scripts/analysis/build_figure4_supp_publication.py`.
+Previous publication versions remain under `paper/figures/legacy/`.
 
 ## CIFMagFilter — Magnetic reference screening
 
@@ -84,9 +83,12 @@ AFM, FM, FiM, and NM branches, represented by 45 descriptors and screened with
 reference space; it is not a prediction of a material's magnetic ground state.
 Use a separate Python 3.11–3.13 environment for this workflow.
 
-Updated ten-cohort PCA outputs are available as
-`supp01_pca_loadings.pdf` and `supp02_descriptor_space.pdf`
-under `paper/figures/`.
+Supplementary figures under `paper/figures/` follow manuscript order:
+S1 `supp01_descriptor_space_ten_sets.pdf`, S2 `supp02_descriptor_space.pdf`,
+S3 `supp03_reference_space_validation.pdf`, and S4 `supp04_magnetic_branch_agreement.pdf`.
+S1 retains the ten-cohort descriptor-space organization; S2 restores the supplied
+eight-set descriptor organization artwork. PCA loadings remain archived at
+`paper/figures/legacy/supp00_pca_loadings.pdf`.
 
 The CHGNet energy values are predicted total energies per atom,
 not formation energies or energies above the convex hull.
@@ -301,7 +303,7 @@ Current publication analysis includes structural, magnetic-domain, PCA, energy-m
 
 ## Manuscript Figures
 
-Manuscript-selected publication artifacts are tracked under `paper/figures/`. Figures 1-6 cover the workflow, structural overview, magnetic domain, MP-only magnetic-reference screening and DFT validation, energy-magnetism landscape, and diversity/adaptation analysis. Figure 7 presents structural and chemical trade-offs, S1 Pareto efficiency, rank stability and Top-5 frequencies. PCA loadings and the updated descriptor-space PCA are supplementary figures. Historical publication artifacts are retained under `paper/figures/legacy/`; exploratory previews, audits, projections, and regenerated figures remain under `reproduced/`.
+Manuscript-selected publication artifacts are tracked under `paper/figures/`. Figures 1-6 cover the workflow, structural overview, magnetic domain, MP-only magnetic-reference screening and DFT validation, energy-magnetism landscape, and diversity/adaptation analysis. Figure 7 presents structural and chemical trade-offs, S1 Pareto efficiency, rank stability and Top-5 frequencies. Supplementary figures S1-S4 cover ten-set descriptor-space organization, eight-set descriptor-space organization, MP reference-space validation, and magnetic-branch agreement, respectively. Historical publication artifacts are retained under `paper/figures/legacy/`; exploratory previews, audits, projections, and regenerated figures remain under `reproduced/`.
 
 ## Run Recipes
 

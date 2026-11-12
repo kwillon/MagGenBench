@@ -71,15 +71,44 @@ interquartile ranges, and outliers are not drawn.
 with reduced-formula cluster-bootstrap 95% confidence intervals.
 (B) Magnetic-reference contrast, d(NM) - d(magnetic): thin intervals indicate
 the 5th-95th percentiles, thick bands the interquartile range, and dark ticks
-(Base) or diamonds (Fine-tuned/Refined) the medians.
+the medians.
 (C) AFM, FM and FiM reference-branch fractions among magnetic-like candidates
-(contrast > 0). Class colors have a separate legend; hatching denotes adapted
-variants throughout. Reference affinity is not a ground-state prediction.
+(contrast > 0). Class colors have a separate legend.
+Reference affinity is not a ground-state prediction.
 (D) DFT magnetic confirmation among the selected MP-only magnetic-like
 candidates for four Base generators, with Wilson 95% confidence intervals:
-MatterGen 52/55, Con-CDVAE 54/73, CrystalFormer 24/45 and CrystaLLM 45/58.
+MatterGen 52/55, Con-CDVAE 57/73, CrystalFormer 27/45 and CrystaLLM 50/58.
+DFT magnetic confirmation uses an absolute maximum local moment above
+0.5 mu_B; the updated cohort contains 202 magnetic structures out of 324,
+including 186 out of 231 magnetic-like candidates.
 The historical DFT cohort was selected with the previous reference model;
 this retrospective comparison is not an unbiased independent test of A-C.
+
+## Figure S1
+
+**Fig S1. Organization of the composition/symmetry and magnetic-sublattice geometry descriptor spaces across ten generated sets.**
+
+## Figure S2
+
+**Fig S2. Organization of the magnetically informed descriptor space across generated sets.**
+
+## Figure S3
+
+**Fig S3. Validation of the magnetic reference space representation against Materials Project annotations.**
+(A) Row-normalized confusion matrix comparing the reference space assignments
+with the known antiferromagnetic (AFM), ferromagnetic (FM), ferrimagnetic (FiM),
+and nonmagnetic (NM) annotations for 8,000 crystal structures.
+(B) Overall four-class agreement, magnetic sensitivity, NM specificity,
+and binary balanced accuracy.
+
+## Figure S4
+
+**Fig S4. Classification agreement among magnetic reference branches.**
+Row-normalized confusion matrix comparing the reference-space assignments with
+Materials Project AFM, FM, and FiM annotations when classification is restricted
+to the three magnetic reference branches. The overall three-class agreement was
+75.18%. Off-diagonal values indicate the proportions of structures assigned to
+a different magnetic reference category.
 
 ## Figure 5
 

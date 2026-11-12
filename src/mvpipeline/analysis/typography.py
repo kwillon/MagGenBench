@@ -165,8 +165,13 @@ def _font_size(name,text,old):
     return _base_font_size(name,text,old)+FONT_SIZE_INCREASE_PT
 
 
-def restyle_pdf_typography(source,output,*,figure_name=None):
-    """Replace text only; prove numbers, drawings, images and page boxes unchanged."""
+def restyle_pdf_typography(source,output,*,figure_name=None,
+                           text_transform=correct_text, font_size=_font_size):
+    """Replace text only; prove numbers, drawings, images and page boxes unchanged.
+
+    Optional text/size callbacks retain supplied artwork wording and math sizes
+    when the repository's historical text corrections do not apply.
+    """
     import pymupdf as fitz
     source,output=Path(source),Path(output)
     name=figure_name or source.name
@@ -227,7 +232,7 @@ def restyle_pdf_typography(source,output,*,figure_name=None):
             else:raise RuntimeError(f'Unexpected vector en-dash in {name}')
         # Preserve the approved multiobjective matrix (now Figure 7).
         for item in items:
-            text=item['text'];new=item.get('override',correct_text(text))
+            text=item['text'];new=item.get('override',text_transform(text))
             if name.startswith('fig02') and new=='Crys-JEPA Refined':
                 new='Crys-JEPA\nRefined'
             if name.startswith(('fig07', 'fig08')):
@@ -263,7 +268,7 @@ def restyle_pdf_typography(source,output,*,figure_name=None):
             for char in text:
                 if not char.isspace() and not font.has_glyph(ord(char)):
                     raise RuntimeError(f'Ebrima has no glyph U+{ord(char):04X}: {text}')
-            size=_font_size(name,text,item['size'])
+            size=font_size(name,text,item['size'])
             x,y=item['origin'];dx,dy=item['direction']
             old_width=fitz.Point(item['bbox'][2]-item['bbox'][0],item['bbox'][3]-item['bbox'][1])
             advance=abs(dx)*old_width.x+abs(dy)*old_width.y

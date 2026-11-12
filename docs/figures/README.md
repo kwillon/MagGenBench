@@ -5,11 +5,13 @@ No model training or new structure generation is needed for publication plots.
 
 - [Figure 2](figure2_reproduction.md): full harmonized QC populations.
 - [Figure 3](figure3_reproduction.md): ten-set descriptors and frozen inputs.
-- [Figure 4](figure4_reproduction.md): retained statistical vectors and limitations.
+- [Figure 4 and S1-S4](figure4_supp_provenance.md): updated coauthor artwork, DFT inputs, supplementary order and reproduction.
+- [Historical Figure 4](figure4_reproduction.md): previous statistical vectors and recalculation limitations.
 - [Figures 3/5 styling history](figures_3_5_polish.md).
 - Figure 5: `python scripts/illustrations/plot_manuscript_figure5_v2.py --help`.
 - Figure 6: `python scripts/illustrations/plot_fig06_diversity_adaptation_palette_preview.py`.
-- PCA: `python scripts/illustrations/plot_paper_pca.py`.
+- PCA: `python scripts/illustrations/plot_paper_pca.py` exports ten-set alternatives;
+  the selected S2 is restored from the eight-set artwork (see current provenance).
 
 ## Figure 7
 

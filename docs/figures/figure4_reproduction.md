@@ -1,5 +1,12 @@
 # Figure 4: reproduction and publication design
 
+This page documents the **archived pre-update Figure 4**, now stored as
+`paper/figures/legacy/fig04_magnetic_reference_dft_before_coauthor_update.pdf`.
+For the current supplied `Figure4_DFT.pdf`, updated local-moment DFT criterion,
+and selected supplementary figures, use
+[current provenance and reproduction](figure4_supp_provenance.md).
+The commands and selected paths below describe the historical workflow.
+
 The publication PDF is **a visual restyling of the original plotted vectors**.
 It preserves the original statistical values; it does not publish the
 numerically different MP-only recalculation. See the [caption](../../paper/figures/figure_captions.md#figure-4).
