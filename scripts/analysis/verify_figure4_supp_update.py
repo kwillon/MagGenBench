@@ -60,7 +60,7 @@ def main():
     # Figure 4 is now native Matplotlib: check its frozen data against source
     # vectors, and its new titles directly, rather than demanding old text paths.
     import pandas as pd
-    from plot_figure4_publication import source_layout, ORDER, DFT_ORDER, TITLES
+    from plot_figure4_publication import source_layout, ORDER, DFT_ORDER
     data=ROOT/'tables/figure_sources/figure4'
     stat=pd.read_csv(data/'figure_statistics.csv').set_index('dataset').loc[list(ORDER)]
     for row in pd.read_csv(data/'selected_artwork_statistics_readback.csv').itertuples():
@@ -93,9 +93,6 @@ def main():
                         assert not (s['flags']&16)
                         assert abs(s['size']-14.5)<.01
                         panels.append(s['text'])
-                    elif name=='fig04_magnetic_reference_dft.pdf' and s['text'] in [f'{k}  {t}' for k,t in zip('ABCD',TITLES)]:
-                        assert not (s['flags']&16) and abs(s['size']-14.5)<.01
-                        panels.append(s['text'][0])
         expected={'fig04_magnetic_reference_dft.pdf':list('ABCD'),
                   'supp02_descriptor_space.pdf':list('ABC'),
                   'supp03_reference_space_validation.pdf':list('AB')}.get(name,[])

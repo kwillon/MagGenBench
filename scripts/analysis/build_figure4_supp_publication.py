@@ -31,7 +31,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output', type=Path, default=ROOT/'reproduced/figure4_supp_update/build')
     parser.add_argument('--figure4-only', action='store_true',
-                        help='Render current Figure 4 natively with panel subtitles; leave supplementary figures alone')
+                        help='Render current Figure 4 natively with panel letters; leave supplementary figures alone')
     parser.add_argument('--verify-reference-counts', action='store_true',
                         help='Independently recompute frozen counts using MP-only LOO scoring; no refit')
     args = parser.parse_args()

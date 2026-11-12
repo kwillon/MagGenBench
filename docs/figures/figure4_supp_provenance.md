@@ -14,9 +14,8 @@ its older DFT join is not used. Reproduce Figure 4 alone with:
 
 The output bundle contains `fig04_magnetic_reference_dft.{png,pdf,svg}`, a PDF
 render for visual review, and `figure4_panel_titles_verification.json`.
-The four titles are A Magnetic-reference fraction, B Magnetic-reference
-contrast, C Nearest magnetic reference branch, and D Retrospective DFT
-assessment. Each is a single Matplotlib left title with Ebrima Regular,
+The four panel titles contain only A, B, C, and D, with no subtitles.
+Each is a single Matplotlib left title with Ebrima Regular,
 14.5 pt, regular weight and 10 pt padding, matching the final Figure 3 hierarchy.
 There are no separate letter artists. C's AFM/FM/FiM legend has its own row
 above the title; a rendered-bounds assertion checks that they do not overlap.

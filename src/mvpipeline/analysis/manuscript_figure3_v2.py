@@ -270,6 +270,7 @@ def _boxplot(ax, data):
         if is_adapted(cohort):
             patch.set_hatch(ADAPTED_HATCH)
     ax.set_ylim(0, 1.05)
+    return box
 
 
 def save_manuscript_figure3(df, *, output_dir=ANALYSIS_V2_FIGURE_OUTPUT_DIR, audit=None):
@@ -335,7 +336,11 @@ def save_manuscript_figure3(df, *, output_dir=ANALYSIS_V2_FIGURE_OUTPUT_DIR, aud
                MAGNETIC_NEIGHBOR_VARIABLE].dropna().to_numpy()
         for key in COHORT_ORDER
     ]
-    _boxplot(ax, values)
+    box = _boxplot(ax, values)
+    # Zero-IQR cohorts collapse at zero; separate them from the bottom spine.
+    ax.set_ylim(-0.04, 1.05)
+    for median in box["medians"] if box else []:
+        median.set_zorder(4)
     _format_axis(ax, [COHORT_LABELS[key].replace("\n", " ")
                       + f"\nn={int(audit.loc[key, 'C_applicable'])}" for key in COHORT_ORDER])
     ax.set_ylabel("Magnetic-neighbor fraction")

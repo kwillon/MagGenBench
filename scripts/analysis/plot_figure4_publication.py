@@ -23,12 +23,7 @@ ROOT=Path(__file__).resolve().parents[2]
 sys.path.insert(0,str(ROOT/'src'))
 from mvpipeline.analysis.typography import apply_ebrima_typography, ebrima_font_path, fix_ebrima_to_unicode
 
-TITLES=(
-    'Magnetic-reference fraction',
-    'Magnetic-reference contrast',
-    'Nearest magnetic reference branch',
-    'Retrospective DFT assessment',
-)
+TITLES=tuple('ABCD')
 ORDER=('mattergen_base','mattergen_finetuned','concdvae_base','concdvae_finetuned',
        'crysjepa_base','crysjepa_refined','crystalformer','crystalformer_finetuned',
        'crystalllm','crystalllm_finetuned')
@@ -38,9 +33,9 @@ LABELS=('MatterGen base','MatterGen tuned','Con-CDVAE base','Con-CDVAE tuned',
 DFT_ORDER=('mattergen_base','concdvae_base','crystalformer','crystalllm')
 
 
-def add_letter(ax, letter, title):
-    """Figure 3's final hierarchy: one left-aligned Ebrima Regular 14.5 pt title."""
-    return ax.set_title(f'{letter}  {title}',loc='left',pad=10,
+def add_letter(ax, letter):
+    """Keep the panel letter left-aligned in Ebrima Regular, 14.5 pt."""
+    return ax.set_title(letter,loc='left',pad=10,
                         fontproperties=FontProperties(fname=str(ebrima_font_path()),size=14.5,weight='normal'))
 
 
@@ -171,7 +166,7 @@ def combined_figure(output,dpi=180):
     c.tick_params(axis='y',labelsize=8.5)
     c.set_ylabel('Fraction among magnetic-like candidates')
     c.yaxis.grid(True,lw=.6,color='#9099A1',alpha=.17);c.set_axisbelow(True)
-    # A separate row above C's title uses the existing inter-row whitespace.
+    # A separate row above C's letter uses the existing inter-row whitespace.
     legend=c.legend(frameon=False,ncol=3,loc='lower right',bbox_to_anchor=(1,1.13),fontsize=8.5)
     values=dft.confirmation_fraction.to_numpy()
     d.barh(np.arange(4),values,color=[colors[ORDER.index(k)] for k in DFT_ORDER],height=dgeom[1])
@@ -181,7 +176,7 @@ def combined_figure(output,dpi=180):
     d.tick_params(axis='y',length=0,pad=3)
     d.set_ylim(*dgeom[0]);d.set_xlim(0,1.035);d.set_xticks(np.linspace(0,1,6))
     d.set_xlabel(r'Fraction with $|m_{max}| > 0.5$ $\mu_B$ in DFT')
-    titles=[add_letter(ax,letter,title) for ax,letter,title in zip(axes,'ABCD',TITLES)]
+    titles=[add_letter(ax,letter) for ax,letter in zip(axes,TITLES)]
     # Keep the sizes of all other text, including math, unchanged.
     fig.canvas.draw()
     for text in fig.findobj(match=Text):
@@ -203,8 +198,8 @@ def combined_figure(output,dpi=180):
     (output/f'{name}_unicode.pdf').replace(output/f'{name}.pdf')
     doc=fitz.open(output/f'{name}.pdf')
     text=doc[0].get_text()
-    for letter,title in zip('ABCD',TITLES):
-        assert text.count(f'{letter}  {title}')==1
+    for letter in TITLES:
+        assert text.splitlines().count(letter)==1
     for f in doc[0].get_fonts():
         base,_,_,blob=doc.extract_font(f[0]);assert 'Ebrima' in base and 'Bold' not in base
         with TTFont(io.BytesIO(blob)) as font:assert font['OS/2'].usWeightClass==400
